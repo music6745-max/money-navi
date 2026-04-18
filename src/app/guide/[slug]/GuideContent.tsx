@@ -2643,6 +2643,14 @@ const guideContents: Record<string, React.ReactNode> = {
         icon="💵"
         highlight="NISAで非課税"
       />
+      <AffiliateCTA
+        title="【旬の厳選10銘柄】株歴50年超プロによる推奨銘柄"
+        description="株式投資のプロが高騰期待銘柄を絞り込み、毎月『旬の厳選10銘柄』シリーズとして提供。個別銘柄選定に自信がない初心者・中級者の銘柄選びをサポート。ユーザーの声「年間利益は平均して300万円くらいです」"
+        buttonText="最新号の銘柄を見る"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+4P35CQ+ONS+TS3OI"
+        icon="📈"
+        highlight="プロの推奨銘柄"
+      />
     </>
   ),
   "dividend-life-roadmap": (
@@ -2975,6 +2983,165 @@ const guideContents: Record<string, React.ReactNode> = {
         href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+4VMX0A+40JM+TWTFL"
         icon="⚡"
       />
+      <AffiliateCTA
+        title="【SoKuMo（ソクモ）】オンライン特化型ファクタリング"
+        description="株式会社アドプランニング提供。オンライン完結で手続きがシンプル、確定率37.93%と高水準。初めての利用でも安心。"
+        buttonText="SoKuMoを申し込む"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+7YYZ4Q+5LZE+BX3J6"
+        icon="💻"
+        highlight="確定率37%の高評価"
+      />
+      <AffiliateCTA
+        title="【Easy factor】Fin Tech活用オンラインファクタリング"
+        description="株式会社No.1が提供するFinTech型ファクタリング。見積もり申込で20,000円の高報酬案件。審査スピードが自慢。"
+        buttonText="Easy factorで見積もり"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+7X6OBE+4EKW+HVNAR"
+        icon="⚡"
+      />
+    </>
+  ),
+  "investment-books-2026": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">なぜ投資本を読むべきか</h2>
+        <p>
+          新NISAが始まり投資が身近になった今、インターネット上には玉石混交の投資情報があふれています。体系立った知識と投資哲学を身につけるには、<strong>数十万部〜数百万部売れている良書を1冊じっくり読む方が、YouTube動画100本より効率的</strong>です。本記事では、2026年最新の投資初心者向けおすすめ投資本10冊を、難易度と学べる内容別に紹介します。
+        </p>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>初心者向けの超入門書（お金の教科書レベル）</li>
+          <li>新NISA・インデックス投資の実践書</li>
+          <li>投資哲学・富裕層思考を学べる古典的名著</li>
+        </ul>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">楽天ブックスで投資本を買うメリット</h2>
+        <div className="rounded-xl border border-card-border bg-card-bg p-5">
+          <ul className="text-sm space-y-2">
+            <li><strong>送料無料</strong>: 1冊から送料無料（3,980円未満でも本は無料配送）</li>
+            <li><strong>楽天ポイント還元</strong>: SPUで最大+0.5〜1倍、お買い物マラソンで最大10倍</li>
+            <li><strong>楽天カード支払いで+1%</strong>: 楽天経済圏ユーザーはさらにお得</li>
+            <li><strong>電子書籍版（楽天Kobo）も選べる</strong>: スマホ・タブレットで即読める</li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">【初心者超入門】まず読むべき1冊</h2>
+        <p>
+          投資が初めての方は、まず<strong>お金の基礎知識（貯める・稼ぐ・増やす・守る・使う）を体系的に学べる本</strong>から始めるのが鉄則。投資手法に入る前に、家計管理・保険・税金の全体像を押さえましょう。
+        </p>
+      </section>
+      <AffiliateCTA
+        title="1位『本当の自由を手に入れる お金の大学』両@リベ大学長"
+        description="YouTube登録者300万人超の大人気チャンネル「リベラルアーツ大学」学長による、お金の5つの力（貯める・稼ぐ・増やす・守る・使う）を体系的に学べる超ベストセラー。累計150万部突破。全ページフルカラー・図解中心で、投資初心者でも2〜3時間で読めます。"
+        buttonText="楽天ブックスで見る"
+        href="https://af.moshimo.com/af/c/click?a_id=5465446&p_id=54&pc_id=54&pl_id=616&url=https%3A%2F%2Fbooks.rakuten.co.jp%2Fsearch%3Fsitem%3D%25E6%259C%25AC%25E5%25BD%2593%25E3%2581%25AE%25E8%2587%25AA%25E7%2594%25B1%25E3%2582%2592%25E6%2589%258B%25E3%2581%25AB%25E5%2585%25A5%25E3%2582%258C%25E3%2582%258B%25E3%2581%258A%25E9%2587%2591%25E3%2581%25AE%25E5%25A4%25A7%25E5%25AD%25A6%26g%3D001"
+        icon="📚"
+        highlight="累計150万部"
+      />
+      <AffiliateCTA
+        title="2位『ジェイソン流お金の増やし方』厚切りジェイソン"
+        description="米IT企業役員でありタレントとしても活躍する厚切りジェイソン氏が、自身が実践するシンプルな投資術を公開。「Why Japanese people!?」のフレーズで有名な著者が、全世界株式インデックス投資を熱く推奨。100万部超えのベストセラー。"
+        buttonText="楽天ブックスで見る"
+        href="https://af.moshimo.com/af/c/click?a_id=5465446&p_id=54&pc_id=54&pl_id=616&url=https%3A%2F%2Fbooks.rakuten.co.jp%2Fsearch%3Fsitem%3D%25E3%2582%25B8%25E3%2582%25A7%25E3%2582%25A4%25E3%2582%25BD%25E3%2583%25B3%25E6%25B5%2581%25E3%2581%258A%25E9%2587%2591%25E3%2581%25AE%25E5%25A2%2597%25E3%2582%2584%25E3%2581%2597%25E6%2596%25B9%26g%3D001"
+        icon="💰"
+      />
+      <AffiliateCTA
+        title="3位『はじめての人のための3000円投資生活』横山光昭"
+        description="家計再生コンサルタントによる、月3,000円から始める投資入門書。少額から無理なく始められる積立投資の具体的な始め方を、家計の整え方と合わせて解説。累計80万部。投資資金を捻出する方法から学びたい人に最適。"
+        buttonText="楽天ブックスで見る"
+        href="https://af.moshimo.com/af/c/click?a_id=5465446&p_id=54&pc_id=54&pl_id=616&url=https%3A%2F%2Fbooks.rakuten.co.jp%2Fsearch%3Fsitem%3D3000%25E5%2586%2586%25E6%258A%2595%25E8%25B3%2587%25E7%2594%259F%25E6%25B4%25BB%26g%3D001"
+        icon="🪙"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">【新NISA・インデックス投資】実践編</h2>
+        <p>
+          基礎を押さえたら次は<strong>インデックス投資の具体的な実践方法</strong>を学びます。銘柄選びのコツや新NISAの使い方、長期保有のメンタルまで、手を動かすために必要な知識が詰まった実践書を3冊紹介。
+        </p>
+      </section>
+      <AffiliateCTA
+        title="4位『ほったらかし投資術』山崎元・水瀬ケンイチ"
+        description="インデックス投資のバイブル的名著。知識ゼロからインデックスファンドでの長期積立投資を始める方法を、超シンプルに解説。新NISA対応の最新版では、おすすめファンドやポートフォリオの組み方が具体的に示されています。「難しく考えずに、続けるだけ」"
+        buttonText="楽天ブックスで見る"
+        href="https://af.moshimo.com/af/c/click?a_id=5465446&p_id=54&pc_id=54&pl_id=616&url=https%3A%2F%2Fbooks.rakuten.co.jp%2Fsearch%3Fsitem%3D%25E3%2581%25BB%25E3%2581%25A3%25E3%2581%259F%25E3%2582%2589%25E3%2581%258B%25E3%2581%2597%25E6%258A%2595%25E8%25B3%2587%25E8%25A1%2593%26g%3D001"
+        icon="📈"
+        highlight="インデックス投資の定番"
+      />
+      <AffiliateCTA
+        title="5位『新NISA完全攻略』山口貴大（ライオン兄さん）"
+        description="登録者80万人超のYouTube「Money Lion Academia」運営者による、新NISA徹底活用本。つみたて投資枠・成長投資枠の最適な使い分け、おすすめファンド、売却タイミングまで網羅。新NISAを始めたばかりの人・これから始める人必読。"
+        buttonText="楽天ブックスで見る"
+        href="https://af.moshimo.com/af/c/click?a_id=5465446&p_id=54&pc_id=54&pl_id=616&url=https%3A%2F%2Fbooks.rakuten.co.jp%2Fsearch%3Fsitem%3D%25E6%2596%25B0NISA%25E5%25AE%258C%25E5%2585%25A8%25E6%2594%25BB%25E7%2595%25A5%26g%3D001"
+        icon="🎯"
+      />
+      <AffiliateCTA
+        title="6位『投資の大原則』バートン・マルキール&チャールズ・エリス"
+        description="世界的ベストセラー『ウォール街のランダム・ウォーカー』の著者マルキールと、『敗者のゲーム』の著者エリスの共著。2人の投資界の巨匠が、インデックス投資・分散投資・長期保有の原則を平易に解説。新書サイズで持ち運びやすいのも◎。"
+        buttonText="楽天ブックスで見る"
+        href="https://af.moshimo.com/af/c/click?a_id=5465446&p_id=54&pc_id=54&pl_id=616&url=https%3A%2F%2Fbooks.rakuten.co.jp%2Fsearch%3Fsitem%3D%25E6%258A%2595%25E8%25B3%2587%25E3%2581%25AE%25E5%25A4%25A7%25E5%258E%259F%25E5%2589%2587%26g%3D001"
+        icon="🌍"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">【投資哲学・マインド編】長期で勝ち続けるために</h2>
+        <p>
+          投資で最も重要なのは<strong>マインド管理とリスクに対する正しい姿勢</strong>。暴落時にパニック売りしないため、複利の力を信じて長期保有するために、富裕層の思考法を学べる古典的名著を4冊。
+        </p>
+      </section>
+      <AffiliateCTA
+        title="7位『サイコロジー・オブ・マネー』モーガン・ハウセル"
+        description="米国で100万部超のベストセラー。「投資で成功するには、頭の良さより、行動をどうコントロールできるかが重要」という視点から、お金に関する19の行動経済学を解説。初心者にも読みやすく、投資のメンタル形成に最適。"
+        buttonText="楽天ブックスで見る"
+        href="https://af.moshimo.com/af/c/click?a_id=5465446&p_id=54&pc_id=54&pl_id=616&url=https%3A%2F%2Fbooks.rakuten.co.jp%2Fsearch%3Fsitem%3D%25E3%2582%25B5%25E3%2582%25A4%25E3%2582%25B3%25E3%2583%25AD%25E3%2582%25B8%25E3%2583%25BC%25E3%2582%25AA%25E3%2583%2596%25E3%2583%259E%25E3%2583%258D%25E3%2583%25BC%26g%3D001"
+        icon="🧠"
+        highlight="全世界100万部突破"
+      />
+      <AffiliateCTA
+        title="8位『金持ち父さん 貧乏父さん』ロバート・キヨサキ"
+        description="全世界4,000万部突破の伝説的名著。「資産」と「負債」の違い、お金に働いてもらう発想、不労所得の仕組みづくりなど、富裕層マインドの基本を学べます。投資を始める前に「そもそもなぜ投資するのか」を腹落ちさせたい方に。"
+        buttonText="楽天ブックスで見る"
+        href="https://af.moshimo.com/af/c/click?a_id=5465446&p_id=54&pc_id=54&pl_id=616&url=https%3A%2F%2Fbooks.rakuten.co.jp%2Fsearch%3Fsitem%3D%25E9%2587%2591%25E6%258C%2581%25E3%2581%25A1%25E7%2588%25B6%25E3%2581%2595%25E3%2582%2593%25E8%25B2%25A7%25E4%25B9%258F%25E7%2588%25B6%25E3%2581%2595%25E3%2582%2593%26g%3D001"
+        icon="💎"
+      />
+      <AffiliateCTA
+        title="9位『バビロンの大富豪』ジョージ・S・クレイソン"
+        description="1926年初版発刊、古代バビロニアを舞台にした寓話形式で蓄財の原則を学べる不朽の名著。「収入の10分の1を貯める」「貯めた金に働かせる」など、現代でも通用する資産形成の7つの知恵を物語で伝える。漫画版もあり読みやすい。"
+        buttonText="楽天ブックスで見る"
+        href="https://af.moshimo.com/af/c/click?a_id=5465446&p_id=54&pc_id=54&pl_id=616&url=https%3A%2F%2Fbooks.rakuten.co.jp%2Fsearch%3Fsitem%3D%25E3%2583%2590%25E3%2583%2593%25E3%2583%25AD%25E3%2583%25B3%25E3%2581%25AE%25E5%25A4%25A7%25E5%25AF%258C%25E8%25B1%25AA%26g%3D001"
+        icon="🏺"
+      />
+      <AffiliateCTA
+        title="10位『ウォール街のランダム・ウォーカー』バートン・マルキール"
+        description="1973年初版、全世界200万部超、12版まで改訂され続けるインデックス投資の原典。『株価の動きはランダムであり、市場に勝ち続けるのは困難』という効率的市場仮説を学術的に解説。ページ数は多いが、本格的に投資を学びたい方の最終到達点。"
+        buttonText="楽天ブックスで見る"
+        href="https://af.moshimo.com/af/c/click?a_id=5465446&p_id=54&pc_id=54&pl_id=616&url=https%3A%2F%2Fbooks.rakuten.co.jp%2Fsearch%3Fsitem%3D%25E3%2582%25A6%25E3%2582%25A9%25E3%2583%25BC%25E3%2583%25AB%25E8%25A1%2597%25E3%2581%25AE%25E3%2583%25A9%25E3%2583%25B3%25E3%2583%2580%25E3%2583%25A0%25E3%2582%25A6%25E3%2582%25A9%25E3%2583%25BC%25E3%2582%25AB%25E3%2583%25BC%26g%3D001"
+        icon="🎓"
+        highlight="世界的ベストセラー"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">読む順番のおすすめ</h2>
+        <div className="rounded-xl border border-card-border bg-card-bg p-5">
+          <ol className="list-decimal list-inside space-y-2 text-sm">
+            <li><strong>Step1</strong>: まず『お金の大学』で全体像を把握（2〜3時間）</li>
+            <li><strong>Step2</strong>: 『3000円投資生活』または『ジェイソン流』で実践編</li>
+            <li><strong>Step3</strong>: 『新NISA完全攻略』『ほったらかし投資術』で具体的な銘柄選び</li>
+            <li><strong>Step4</strong>: 『サイコロジー・オブ・マネー』『バビロンの大富豪』でマインド強化</li>
+            <li><strong>Step5</strong>: 『ウォール街のランダム・ウォーカー』『投資の大原則』で体系的理解</li>
+          </ol>
+        </div>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">紙の本 vs 電子書籍（楽天Kobo）</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li><strong>紙の本</strong>: 書き込みができる、読み返しやすい、図解が多い本は紙が◎</li>
+          <li><strong>楽天Kobo（電子）</strong>: 即日入手、スマホで通勤中に読める、場所を取らない</li>
+          <li>『お金の大学』など図解中心の本は<strong>紙版がおすすめ</strong>、ビジネス書として通勤中に読むなら電子版が便利</li>
+        </ul>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">まとめ｜投資本は自己投資の最初の1冊</h2>
+        <p>
+          投資本1冊は1,500〜2,000円程度。これを読んで年20万円の投資判断ミスを1回防げるなら、ROI（費用対効果）は100倍以上です。まずは<strong>『お金の大学』から1冊、楽天ブックスで送料無料で手に入れる</strong>ことから始めてみましょう。楽天ポイントも貯まって一石二鳥です。
+        </p>
+      </section>
     </>
   ),
 };

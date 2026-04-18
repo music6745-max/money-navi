@@ -549,6 +549,15 @@ export const guides: Guide[] = [
     readTime: "12分",
     publishedAt: "2026-04-18",
   },
+  {
+    slug: "investment-books-2026",
+    title: "【2026年】投資初心者が読むべきおすすめ投資本10選",
+    description: "新NISA時代に読みたい投資本を厳選。お金の大学・ジェイソン流・金持ち父さん・サイコロジーオブマネーなど定番から最新刊まで。楽天ブックスで送料無料・ポイント還元で買える。",
+    icon: "📚",
+    category: "nisa",
+    readTime: "13分",
+    publishedAt: "2026-04-18",
+  },
 ];
 
 export function getGuideBySlug(slug: string) {
