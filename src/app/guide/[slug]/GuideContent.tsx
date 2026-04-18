@@ -4056,6 +4056,571 @@ const guideContents: Record<string, React.ReactNode> = {
       </section>
     </>
   ),
+  "retirement-2000-man-complete-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">老後2000万円問題の真実と世帯別の必要額</h2>
+        <p>
+          2019年の金融庁報告書で話題になった「老後2000万円問題」。これは<strong>夫65歳・妻60歳の夫婦モデルで、公的年金だけでは月5.5万円の赤字、30年間で約2,000万円不足</strong>するという試算でした。しかし現実は世帯によって大きく違い、<strong>独身なら1,500万円、夫婦なら2,500〜3,500万円が必要</strong>というのが2026年時点の現実的な目安です。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">世帯別 老後必要資金の目安</h2>
+        <div className="rounded-xl border border-card-border bg-card-bg p-5">
+          <ul className="text-sm space-y-2">
+            <li><strong>独身（厚生年金受給）</strong>: 生活費月18万円、年金月14万円＝月4万円不足、30年で1,440万円</li>
+            <li><strong>独身（国民年金のみ）</strong>: 年金月6.5万円、不足額月12万円、30年で4,320万円</li>
+            <li><strong>夫婦（共に厚生年金）</strong>: 生活費月27万円、年金月22万円＝月5万円不足、30年で1,800万円</li>
+            <li><strong>夫婦（厚生＋国民）</strong>: 年金月16万円、不足額月11万円、30年で3,960万円</li>
+            <li><strong>ゆとりある老後</strong>: 月37万円必要（生命保険文化センター調査）→夫婦で5,000万円超</li>
+          </ul>
+        </div>
+      </section>
+      <ComparisonTableCTA
+        title="老後資金準備におすすめの新NISA・iDeCo口座"
+        services={[
+          {
+            name: "SBI証券",
+            rank: 1,
+            highlight: "新NISA・iDeCo両方で手数料最強",
+            features: [
+              "新NISA つみたて投資枠でオルカン・S&P500",
+              "iDeCo運営管理手数料 0円",
+              "三井住友ゴールドカード積立で1%還元",
+              "退職金運用の米ドル建て債券も豊富",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=3HCPP5+5B3RFU+3L3S+BWGDT",
+            badge: "総合No.1",
+          },
+          {
+            name: "楽天証券",
+            rank: 2,
+            highlight: "楽天カード積立＋楽天ポイント投資",
+            features: [
+              "楽天カード積立で1%還元",
+              "楽天証券ポイントで投資可",
+              "日経新聞電子版が無料",
+              "楽天銀行マネーブリッジで預金金利0.18%",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=3HDFZG+5DBUY2+3VG4+61C2P",
+            badge: "ポイ活派",
+          },
+          {
+            name: "ウェルスナビ",
+            rank: 3,
+            highlight: "おまかせ運用で手間ゼロ",
+            features: [
+              "年齢リスクに応じた自動資産配分",
+              "リバランス自動化で手間なし",
+              "新NISA対応「おまかせNISA」",
+              "手数料1%（3,000万円超は0.5%）",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=3HBLVN+6FQUZ6+3EC2+60OXE",
+            badge: "おまかせ派",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">年齢別 月いくら積立すれば3,000万円作れる？</h2>
+        <div className="rounded-xl border border-card-border bg-card-bg p-5">
+          <ul className="text-sm space-y-2">
+            <li><strong>25歳開始（40年運用）</strong>: 月2万円×年5%＝約3,100万円</li>
+            <li><strong>35歳開始（30年運用）</strong>: 月3.5万円×年5%＝約2,920万円</li>
+            <li><strong>45歳開始（20年運用）</strong>: 月7.3万円×年5%＝約3,000万円</li>
+            <li><strong>55歳開始（10年運用）</strong>: 月19.5万円×年5%＝約3,030万円</li>
+            <li><strong>早く始めるほど積立額が1/10に</strong>: 複利効果の絶大な威力</li>
+          </ul>
+        </div>
+      </section>
+      <AffiliateCTA
+        title="老後資金シミュレーターで必要額を確認"
+        description="退職年齢・想定生活費・年金見込み額から、自分に必要な準備額を試算。SBI証券の無料シミュレーターで具体的な毎月の積立額まで逆算できます。"
+        buttonText="老後資金を計算する"
+        href="/tools/retirement-fund"
+        external={false}
+        icon="👴"
+        highlight="無料"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">公的年金の受取額を増やす5つの方法</h2>
+        <ol className="list-decimal list-inside space-y-2 text-sm">
+          <li><strong>繰下げ受給</strong>: 70歳→42%増、75歳→84%増の終身受給</li>
+          <li><strong>厚生年金加入期間を延ばす</strong>: 60歳以降も働いて加入期間40年以上に</li>
+          <li><strong>付加年金（国民年金第1号）</strong>: 月400円で将来の年金が月200円増</li>
+          <li><strong>国民年金基金</strong>: 自営業向け、月68,000円まで掛金控除</li>
+          <li><strong>iDeCo（私的年金）</strong>: 掛金全額所得控除＋運用益非課税</li>
+        </ol>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">老後資金を減らさない出口戦略</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>4%ルール（年4%ずつ取崩、30年枯渇しない理論）</li>
+          <li>バケツ戦略（現金5年分・債券10年分・株式残り）</li>
+          <li>定率取崩（資産の4%を毎年取崩）</li>
+          <li>一括受取より年金形式（受取時の税金最適化）</li>
+          <li>医療・介護費は別枠で500〜1,000万円確保</li>
+        </ul>
+      </section>
+    </>
+  ),
+  "nisa-withdrawal-strategy": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">新NISA 出口戦略：築いた資産をいつ・どう取り崩す？</h2>
+        <p>
+          新NISAで1,800万円枠を使い切り、20〜30年後に<strong>4,000〜6,000万円の資産</strong>を築いた後、次の課題は「どう取り崩すか」。取り崩し方を間違えると、<strong>90歳で資産が尽きる or 65歳で不必要に減らす</strong>リスクがあります。2026年時点で最も実践的な3つの取崩し戦略を解説します。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">3つの取崩し戦略 比較</h2>
+        <div className="rounded-xl border border-card-border bg-card-bg p-5">
+          <ul className="text-sm space-y-2">
+            <li><strong>4%ルール（定額取崩）</strong>: 初年度4%取崩、以降インフレ調整。30年間で枯渇確率5%以下（トリニティスタディ）</li>
+            <li><strong>定率取崩</strong>: 毎年資産の4%を取崩、資産が減れば受取額も減るが枯渇リスク極小</li>
+            <li><strong>バケツ戦略</strong>: 現金バケツ（2〜3年）・債券バケツ（5〜10年）・株式バケツ（残り）で分散</li>
+          </ul>
+        </div>
+      </section>
+      <ComparisonTableCTA
+        title="取崩し期におすすめの証券会社・サービス"
+        services={[
+          {
+            name: "SBI証券",
+            rank: 1,
+            highlight: "定期売却サービスで自動取崩",
+            features: [
+              "投資信託の定期売却（毎月一定額）が可能",
+              "高配当日本株・米国ETFで配当収入も",
+              "米ドル建て債券で安定利回り4%〜",
+              "米国株の配当金自動再投資",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=3HCPP5+5B3RFU+3L3S+BWGDT",
+            badge: "取崩し機能◎",
+          },
+          {
+            name: "楽天証券",
+            rank: 2,
+            highlight: "投信定期売却が毎月・年金形式で設定可",
+            features: [
+              "投信の定期売却を毎月・年数回・金額指定で設定",
+              "取崩した資金を楽天銀行に自動送金",
+              "楽天証券ポイントでの補完も可能",
+              "シンプルな画面で高齢者にも使いやすい",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=3HDFZG+5DBUY2+3VG4+61C2P",
+            badge: "シンプル",
+          },
+          {
+            name: "ウェルスナビ 定期出金",
+            rank: 3,
+            highlight: "AIが最適な取崩し額を自動計算",
+            features: [
+              "取崩し期に合わせたリスク低減を自動化",
+              "定期出金機能で毎月口座送金",
+              "リタイア後も手間ゼロで運用継続",
+              "手数料1%（3,000万円超は0.5%）",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=3HBLVN+6FQUZ6+3EC2+60OXE",
+            badge: "自動化",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">年金＋新NISA 取崩しの理想的スケジュール</h2>
+        <ol className="list-decimal list-inside space-y-2 text-sm">
+          <li><strong>60〜64歳：新NISA取崩し中心</strong>: 年金受給前のブリッジとして月20〜30万円</li>
+          <li><strong>65〜69歳：年金受給開始＋少額取崩し</strong>: 公的年金＋iDeCo一時金＋新NISA少額</li>
+          <li><strong>70歳：繰下げ年金満額＋4%取崩し</strong>: 年金42%増＋新NISA 4%で月40万円も可能</li>
+          <li><strong>80歳以降：株式→債券・現金へ</strong>: 急な医療・介護費に備え流動性確保</li>
+          <li><strong>90歳以降：不動産売却・住み替え検討</strong>: 老人ホーム入居費用として活用</li>
+        </ol>
+      </section>
+      <AffiliateCTA
+        title="無料FP相談で出口戦略を設計"
+        description="新NISA・iDeCo・公的年金の取崩しスケジュールを、独立系FPが中立的に提案。医療・介護費用も含めた総合プランニングを無料で受けられます。"
+        buttonText="無料FP相談を予約"
+        href="https://px.a8.net/svt/ejp?a8mat=3HDFZG+73A1FM+3UXW+60WNR"
+        icon="🏁"
+        highlight="完全無料"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">取崩し期の税務ポイント</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>新NISAの売却益は<strong>完全非課税</strong>（取崩しても税金ゼロ）</li>
+          <li>iDeCo一時金は<strong>退職所得控除</strong>で税金ほぼゼロも可能</li>
+          <li>年金受取は<strong>公的年金等控除</strong>（65歳以上で年110万円まで非課税）</li>
+          <li>特定口座の売却益は20.315%課税、損益通算・繰越控除活用</li>
+          <li>年金・給与・不動産所得との合算で税率ブラケット注意</li>
+        </ul>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">やってはいけない取崩しパターン</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>暴落時に大量取崩し（ドルコスト平均法の逆効果）</li>
+          <li>株式100%のまま80代まで保有（流動性リスク）</li>
+          <li>全額一括売却して定期預金へ（インフレ負けで実質目減り）</li>
+          <li>怪しい金融商品への乗り換え（高齢者向け詐欺の標的）</li>
+          <li>子供への贈与を急ぎすぎる（自分の生活資金確保優先）</li>
+        </ul>
+      </section>
+    </>
+  ),
+  "takehome-maximize-by-income": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">年収×手取り最大化＝年間30〜60万円の差が生まれる</h2>
+        <p>
+          同じ年収500万円でも、<strong>iDeCo・ふるさと納税・新NISA・各種控除をフル活用している人としていない人で、年間20〜60万円の手取り差</strong>が生まれます。2026年現在の制度を使い切れば、年収別にどれだけ手取りを増やせるか、具体的なシミュレーションで解説します。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">年収400万円モデル（30代会社員・独身）</h2>
+        <div className="rounded-xl border border-card-border bg-card-bg p-5">
+          <ul className="text-sm space-y-2">
+            <li><strong>手取り</strong>: 約320万円（所得税・住民税・社保引き後）</li>
+            <li><strong>iDeCo 月1万円</strong>: 年12万円掛金→年2.4万円節税</li>
+            <li><strong>ふるさと納税 4万円</strong>: 実質2,000円で返礼品1.6万円相当</li>
+            <li><strong>新NISA 月3万円</strong>: 運用益非課税（20年で約1,240万円、非課税効果約250万円）</li>
+            <li><strong>合計節税効果</strong>: 年4〜5万円＋長期運用益非課税</li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">年収600万円モデル（30〜40代・既婚子1人）</h2>
+        <div className="rounded-xl border border-card-border bg-card-bg p-5">
+          <ul className="text-sm space-y-2">
+            <li><strong>手取り</strong>: 約470万円</li>
+            <li><strong>iDeCo 月2.3万円（満額）</strong>: 年27.6万円掛金→年5.5万円節税</li>
+            <li><strong>ふるさと納税 7万円</strong>: 実質2,000円で返礼品2.5万円相当</li>
+            <li><strong>新NISA 月5万円</strong>: 20年で約2,070万円、非課税効果約410万円</li>
+            <li><strong>生命保険料控除・医療費控除</strong>: 年1〜2万円節税</li>
+            <li><strong>合計節税効果</strong>: 年10万円＋長期運用益410万円非課税</li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">年収800万円モデル（40代・管理職）</h2>
+        <div className="rounded-xl border border-card-border bg-card-bg p-5">
+          <ul className="text-sm space-y-2">
+            <li><strong>手取り</strong>: 約600万円</li>
+            <li><strong>iDeCo 月2.3万円</strong>: 税率30%想定で年8.3万円節税</li>
+            <li><strong>ふるさと納税 12万円</strong>: 返礼品4万円相当</li>
+            <li><strong>新NISA 月10万円（クレカ積立上限）</strong>: 20年で約4,140万円</li>
+            <li><strong>夫婦の場合</strong>: 配偶者もiDeCo＋新NISAでダブル活用</li>
+            <li><strong>合計節税効果</strong>: 年15〜20万円＋運用益800万円以上非課税</li>
+          </ul>
+        </div>
+      </section>
+      <ComparisonTableCTA
+        title="年収別 手取り最大化に使いたい口座"
+        services={[
+          {
+            name: "SBI証券（新NISA＋iDeCo）",
+            rank: 1,
+            highlight: "新NISA・iDeCoの総合力No.1",
+            features: [
+              "iDeCo運営管理手数料 0円",
+              "新NISA取扱投信2,000本以上",
+              "三井住友カード積立で最大5%還元",
+              "米ドル建て債券で退職金運用も",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=3HCPP5+5B3RFU+3L3S+BWGDT",
+            badge: "総合No.1",
+          },
+          {
+            name: "マネックス証券",
+            rank: 2,
+            highlight: "クレカ積立還元率業界トップ1.1%",
+            features: [
+              "マネックスカード積立で1.1%還元",
+              "ゴールドカード不要の高還元",
+              "米国株取扱銘柄業界トップクラス",
+              "iDeCoも運営管理手数料0円",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=3HCPP5+5FQQ1E+348+62TZF",
+            badge: "高還元",
+          },
+          {
+            name: "楽天証券",
+            rank: 3,
+            highlight: "楽天経済圏連携で実質年10万円得",
+            features: [
+              "楽天カード積立で最大1%還元",
+              "楽天ポイントで投信購入可",
+              "楽天市場SPU連携で実質還元率アップ",
+              "アプリが初心者向けで使いやすい",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=3HDFZG+5DBUY2+3VG4+61C2P",
+            badge: "ポイ活派",
+          },
+        ]}
+      />
+      <AffiliateCTA
+        title="ふるさと納税は楽天市場でSPU倍率アップ"
+        description="楽天ふるさと納税なら、寄付額の分だけ楽天ポイントが貯まる（SPU倍率分が丸々還元）。年10万円寄付で最大10,000ポイント以上の上乗せ。"
+        buttonText="楽天ふるさと納税を見る"
+        href="https://af.moshimo.com/af/c/click?a_id=5465446&p_id=54&pc_id=54&pl_id=616&url=https%3A%2F%2Fevent.rakuten.co.jp%2Ffurusato%2F"
+        icon="🎁"
+        highlight="実質2,000円で返礼品"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">年収1,200万円モデル（50代・役員層）</h2>
+        <div className="rounded-xl border border-card-border bg-card-bg p-5">
+          <ul className="text-sm space-y-2">
+            <li><strong>手取り</strong>: 約880万円（児童手当所得制限あり）</li>
+            <li><strong>iDeCo 月2.3万円</strong>: 税率43%で年12万円節税</li>
+            <li><strong>ふるさと納税 26万円</strong>: 返礼品8万円相当</li>
+            <li><strong>新NISA 月30万円（成長投資枠も活用）</strong>: 5年で1,800万円枠使い切り</li>
+            <li><strong>特定支出控除・小規模企業共済</strong>: 追加で年10〜20万円節税</li>
+            <li><strong>合計節税効果</strong>: 年30〜40万円＋運用益1,000万円以上非課税</li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">手取り増加の優先順位（全年収共通）</h2>
+        <ol className="list-decimal list-inside space-y-2 text-sm">
+          <li><strong>1位：企業型DCマッチング拠出</strong>: 会社の退職金制度をフル活用</li>
+          <li><strong>2位：iDeCo</strong>: 掛金全額所得控除の即効性</li>
+          <li><strong>3位：ふるさと納税</strong>: 実質2,000円で返礼品</li>
+          <li><strong>4位：新NISA（クレカ積立）</strong>: 月10万円までクレカ還元獲得</li>
+          <li><strong>5位：新NISA（成長投資枠）</strong>: 高配当株・米国ETFで配当収入</li>
+        </ol>
+      </section>
+    </>
+  ),
+  "bitcoin-long-term-strategy": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">ビットコイン長期保有（ガチホ）の合理性</h2>
+        <p>
+          ビットコインは過去10年間で約1万倍に成長した唯一のアセット。<strong>短期トレードよりも長期保有（ガチホ）の方が、統計的に圧倒的に高いリターン</strong>を得られることが知られています。2026年はビットコイン現物ETFの普及、機関投資家の参入拡大で、長期保有の合理性がさらに高まっています。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="2026年 ビットコイン長期保有におすすめ取引所"
+        services={[
+          {
+            name: "bitFlyer",
+            rank: 1,
+            highlight: "国内取引量No.1｜セキュリティ最高水準",
+            features: [
+              "国内仮想通貨取引量9年連続No.1",
+              "ハッキング被害ゼロの堅牢なセキュリティ",
+              "1円から購入可能、積立サービスあり",
+              "Tポイントでビットコイン購入も可",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=3HDFZG+2CH1XU+47NQ+5YRHE",
+            badge: "取引量No.1",
+          },
+          {
+            name: "コインチェック",
+            rank: 2,
+            highlight: "アプリDL数No.1｜初心者向け操作性",
+            features: [
+              "アプリが直感的で初心者に最適",
+              "500円から購入可能",
+              "取扱通貨30種以上",
+              "マネックスグループの安心感",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=3HDFZG+2K0YIA+3UHS+5YRHE",
+            badge: "初心者No.1",
+          },
+          {
+            name: "GMOコイン",
+            rank: 3,
+            highlight: "取引所形式で手数料格安｜積立対応",
+            features: [
+              "取引所形式で手数料業界最安水準",
+              "つみたて暗号資産で自動買付（毎日・毎週・毎月）",
+              "GMOインターネットグループの信頼性",
+              "入出金手数料も無料",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=3HDFZG+E25A7M+4HYI+5YZ75",
+            badge: "手数料最安",
+          },
+          {
+            name: "bitbank",
+            rank: 4,
+            highlight: "アルトコインのスプレッド最狭",
+            features: [
+              "ビットコイン＋アルトコインも積立可",
+              "メイカー手数料マイナス（受取）で逆張り派に有利",
+              "コールドウォレット保管で安全性◎",
+              "1円から売買可能",
+            ],
+            href: "https://bitbank.cc/",
+            badge: "上級者向け",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">ドルコスト平均法（DCA）でリスク分散</h2>
+        <div className="rounded-xl border border-card-border bg-card-bg p-5">
+          <ul className="text-sm space-y-2">
+            <li><strong>月1万円×10年積立</strong>: 総投資120万円、過去データでは約5,000万円前後</li>
+            <li><strong>半減期サイクル（4年）ごとに増額</strong>: 半減期前半に買い増しが定石</li>
+            <li><strong>価格下落時こそ淡々と継続</strong>: 暴落時の買付単価が最高のパフォーマンスを生む</li>
+            <li><strong>積立設定を自動化</strong>: GMOコイン・bitbank等の自動積立で感情排除</li>
+          </ul>
+        </div>
+      </section>
+      <AffiliateCTA
+        title="GMOコインで自動積立スタート"
+        description="GMOコインの「つみたて暗号資産」なら、毎日・毎週・毎月の自動買付を設定できます。感情に左右されないドルコスト平均法で長期保有を実践。"
+        buttonText="GMOコインで口座開設"
+        href="https://px.a8.net/svt/ejp?a8mat=3HDFZG+E25A7M+4HYI+5YZ75"
+        icon="₿"
+        highlight="手数料最安"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">ビットコインの税金と節税テクニック</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>売却益は<strong>雑所得</strong>、総合課税で最大55%（株式の20%より高税率）</li>
+          <li>含み益は非課税、確定しない限り税金発生なし</li>
+          <li>年20万円以下の利益確定なら申告不要（会社員）</li>
+          <li>損益通算可能なのは同じ雑所得のみ（株・FXとは通算不可）</li>
+          <li>法人化で税率22〜30%に圧縮（資産3,000万円以上で検討価値）</li>
+        </ul>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">コールドウォレット保管でセキュリティ向上</h2>
+        <ol className="list-decimal list-inside space-y-2 text-sm">
+          <li><strong>取引所リスク</strong>: 過去のマウントゴックス事件など、取引所の破綻リスク</li>
+          <li><strong>コールドウォレット</strong>: Ledger Nano・Trezor等のハードウェアウォレット</li>
+          <li><strong>価格100万円超保有なら必須</strong>: 手数料1万円前後で半永久的に安全</li>
+          <li><strong>シードフレーズは金庫・銀行貸金庫に保管</strong>: 紛失＝全額喪失のリスク管理</li>
+          <li><strong>相続対策</strong>: 遺言書にシードフレーズのアクセス方法を記載</li>
+        </ol>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">長期保有派がやってはいけない7つの行動</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>短期で損切り・売却（長期保有の利益を放棄）</li>
+          <li>レバレッジ取引（清算で全額失うリスク）</li>
+          <li>怪しい海外取引所への送金</li>
+          <li>Twitter/YouTube煽り銘柄への乗り換え</li>
+          <li>シードフレーズをスマホ・PC保存（ハッキングリスク）</li>
+          <li>取引所パスワードの使い回し</li>
+          <li>資産の50%超をビットコインに集中（過剰リスク）</li>
+        </ul>
+      </section>
+    </>
+  ),
+  "blog-side-income-roadmap": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">副業ブログで月10万円は達成可能｜現実的なロードマップ</h2>
+        <p>
+          副業ブログで<strong>月10万円</strong>は、正しい戦略で12〜18ヶ月あれば達成可能です。2026年時点のSEO環境・AIライティング普及を踏まえた、<strong>最短ルートのロードマップ</strong>を公開します。ジャンル選定・記事設計・ASP選びの3つを間違えなければ、センス不要・スキルなしでも月5万円は堅実に狙えます。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">12ヶ月ロードマップ</h2>
+        <div className="rounded-xl border border-card-border bg-card-bg p-5">
+          <ul className="text-sm space-y-2">
+            <li><strong>1〜2ヶ月目</strong>: ジャンル選定、WordPress構築、SEO基礎学習、最初の20記事執筆</li>
+            <li><strong>3〜4ヶ月目</strong>: 50記事達成、内部リンク構築、Search Console分析</li>
+            <li><strong>5〜6ヶ月目</strong>: 検索流入月1,000〜3,000PV、初収益（月1,000〜5,000円）</li>
+            <li><strong>7〜9ヶ月目</strong>: 100記事達成、月5万円達成、成約数分析でCVR最適化</li>
+            <li><strong>10〜12ヶ月目</strong>: 月10万円達成、ロングテールSEOで安定収益</li>
+            <li><strong>1年超</strong>: 月30万円以上に成長、他サイト展開も視野</li>
+          </ul>
+        </div>
+      </section>
+      <ComparisonTableCTA
+        title="副業ブログにおすすめレンタルサーバー"
+        services={[
+          {
+            name: "エックスサーバー",
+            rank: 1,
+            highlight: "国内シェアNo.1｜高速・安定",
+            features: [
+              "国内レンタルサーバーシェアNo.1",
+              "初期費用無料＋長期契約で月990円〜",
+              "WordPressクイックスタート対応",
+              "独自ドメイン永久無料特典",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=3HB0NM+CWD9HU+CO4+5YZ77",
+            badge: "総合No.1",
+          },
+          {
+            name: "ConoHa WING",
+            rank: 2,
+            highlight: "表示速度国内最速水準｜初心者向け",
+            features: [
+              "GMOインターネット運営、信頼性◎",
+              "WINGパック 月678円〜（長期割）",
+              "独自ドメイン2つ永久無料",
+              "セットアップが最速10分",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=3HBJZZ+5HRIWA+3L4M+5YZ77",
+            badge: "速度重視",
+          },
+          {
+            name: "ロリポップ！ハイスピード",
+            rank: 3,
+            highlight: "月550円〜｜コスパ最強",
+            features: [
+              "ハイスピードプラン 月550円〜",
+              "WordPress簡単インストール",
+              "初期費用無料",
+              "独自ドメイン永久無料特典",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=3HBLVN+B5X81U+348+5YRHE",
+            badge: "コスパ",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">収益化ジャンル選定の3原則</h2>
+        <ol className="list-decimal list-inside space-y-2 text-sm">
+          <li><strong>1記事あたり高単価のASPがある</strong>: 金融・転職・光回線・格安SIM・VPN・動画配信</li>
+          <li><strong>検索ボリュームがある</strong>: 月間1万〜50万検索規模のキーワード群</li>
+          <li><strong>自分が興味・経験を持てる</strong>: 継続できないと100記事達成前に挫折</li>
+          <li><strong>避けるジャンル</strong>: YMYL厳格領域（医療・法律・健康）は企業サイト優位</li>
+          <li><strong>狙い目</strong>: レビュー系・比較系・初心者向けHow-to系</li>
+        </ol>
+      </section>
+      <AffiliateCTA
+        title="A8.netに無料登録でASPデビュー"
+        description="日本最大級のASP。登録無料・審査なしのサイトから始められるため、ブログ開設後すぐに収益化スタート可能。金融・転職系の高単価案件が豊富。"
+        buttonText="A8.netに無料登録"
+        href="https://px.a8.net/a8net/as/"
+        icon="✍️"
+        highlight="登録無料"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">100記事の内訳（月10万円達成モデル）</h2>
+        <div className="rounded-xl border border-card-border bg-card-bg p-5">
+          <ul className="text-sm space-y-2">
+            <li><strong>収益化記事 30本</strong>: ASP案件への誘導、成約直結</li>
+            <li><strong>比較・ランキング記事 20本</strong>: 「〇〇 比較」「〇〇 おすすめ」</li>
+            <li><strong>ノウハウ・解説記事 30本</strong>: SEO流入の柱、内部リンクで収益化記事へ</li>
+            <li><strong>実体験・レビュー記事 10本</strong>: E-E-A-T強化、独自性</li>
+            <li><strong>トレンド・ニュース記事 10本</strong>: 短期流入、内部リンクハブ</li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">2026年のブログ収益化 成功パターン</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>AIライティング（ChatGPT・Claude）で記事作成時間を1/3に</li>
+          <li>ロングテールキーワード（月間100〜1,000検索）を多数狙う</li>
+          <li>内部リンクでSEO強化＋CTAで収益化記事へ誘導</li>
+          <li>TwitterやInstagramで初期流入を確保</li>
+          <li>YouTube動画連動でGoogle評価アップ</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="もしもアフィリエイトでAmazon・楽天リンク対応"
+        description="A8.netと並ぶ大手ASP。Amazonアソシエイト・楽天アフィリエイトに物販リンクを統一できるので、ブログ運営が楽に。W報酬制度で報酬UP。"
+        buttonText="もしもに無料登録"
+        href="https://af.moshimo.com/af/r/regist?a_id=5465446"
+        icon="🛒"
+        highlight="W報酬"
+      />
+    </>
+  ),
   "mortgage-refinance-guide": (
     <>
       <section>
