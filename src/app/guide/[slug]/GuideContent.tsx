@@ -351,6 +351,27 @@ const guideContents: Record<string, React.ReactNode> = {
         icon="🎯"
         highlight="NISA対応"
       />
+      <AffiliateCTA
+        title="【DMM CFD】世界の株価指数・金・原油を取引"
+        description="DMM.com証券のCFD。日経225、NYダウ、金、原油などレバレッジ取引が可能。"
+        buttonText="DMM CFDの公式サイトへ"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1O+FZ4RX6+1WP2+NZ4J7"
+        icon="📉"
+      />
+      <AffiliateCTA
+        title="【お名前.com FX専用VPS】24時間安定稼働のMT4/MT5環境"
+        description="FX自動売買（EA）を24時間稼働させるならVPSが必須。お名前.comデスクトップクラウドは業界最安級。"
+        buttonText="FX専用VPSの詳細"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1O+G829ZU+50+3NONKX"
+        icon="🖥️"
+      />
+      <AffiliateCTA
+        title="【MT4自動売買】お名前.com監修のEA運用"
+        description="MT4対応の自動売買で資産運用を手軽に。EAを利用した資産運用が簡単に始められます。"
+        buttonText="MT4自動売買の詳細"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1O+FVK6AI+50+89Q8HD"
+        icon="🤖"
+      />
     </>
   ),
   "crypto-exchange-comparison": (
@@ -1417,6 +1438,20 @@ const guideContents: Record<string, React.ReactNode> = {
         href="https://px.a8.net/svt/ejp?a8mat=4B1O1O+G4HOD6+48D0+626XT"
         icon="📈"
       />
+      <AffiliateCTA
+        title="【DMM CFD】株価指数・金・原油を取引"
+        description="日経225・NYダウ・金・原油などCFDで多様な資産にレバレッジ投資。DMM.com証券の信頼性。"
+        buttonText="DMM CFDの詳細"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1O+FZ4RX6+1WP2+NZ4J7"
+        icon="🛢️"
+      />
+      <AffiliateCTA
+        title="【TOSSY】あらゆる取引をアプリひとつで完結"
+        description="DMMの次世代取引アプリ。FX・CFD・株式をワンストップで。お得な特典付き。"
+        buttonText="TOSSYの詳細"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1O+FT6FVE+1WP2+1HL85U"
+        icon="📱"
+      />
     </>
   ),
   "bitflyer-review": (
@@ -1937,6 +1972,14 @@ const guideContents: Record<string, React.ReactNode> = {
         external={false}
         icon="💰"
         highlight="初心者向けNo.1"
+      />
+      <AffiliateCTA
+        title="【ファイナンシャルアカデミー】で投資を本格的に学ぶ"
+        description="株式投資・FX・NISA等を体系的に学べる投資スクール。初心者向け無料体験セミナーあり。"
+        buttonText="無料体験セミナーに申し込む"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1O+G8NPLM+1IRY+25I7J5"
+        icon="🎓"
+        highlight="投資スクール老舗"
       />
     </>
   ),
