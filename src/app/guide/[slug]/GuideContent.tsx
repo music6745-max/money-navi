@@ -2887,4 +2887,94 @@ const guideContents: Record<string, React.ReactNode> = {
       />
     </>
   ),
+  "cashing-comparison-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">消費者金融の選び方：金利・審査時間・限度額</h2>
+        <p>
+          急にお金が必要になった時、最短即日で融資可能な消費者金融は便利な選択肢。ただし<strong>金利（実質年率3.0〜18.0%）</strong>や限度額、審査時間は会社によって大きく異なります。目的別に最適な会社を選ぶことが大切です。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">中堅消費者金融の特徴</h2>
+        <div className="rounded-xl border border-card-border bg-card-bg p-5">
+          <ul className="text-sm space-y-2">
+            <li><strong>パーソナルクレジット セントラル</strong>: 来店不要、最短即日振込、最大300万円</li>
+            <li><strong>フタバ</strong>: 借りやすく返しやすい中堅系、レディースキャッシングあり</li>
+            <li><strong>アイフル</strong>: 大手、最短18分融資、WEB完結</li>
+            <li><strong>アコム</strong>: 三菱UFJ FGグループ、最短20分審査</li>
+            <li><strong>プロミス</strong>: SMBCグループ、30日間無利息サービス</li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">利用時の注意点</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>総量規制により年収の1/3以上は借りられない</li>
+          <li>無利息期間（30日等）を上手く活用すれば手数料を抑えられる</li>
+          <li>複数社から借入は信用情報に影響する可能性あり</li>
+          <li>返済計画を必ず立ててから利用する</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="【パーソナルクレジット セントラル】来店不要で即日振込"
+        description="中堅消費者金融のセントラル。大手で審査が不安な方にも。最大300万円まで。"
+        buttonText="セントラルを申し込む"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+4WTS7U+363I+5YJRM"
+        icon="💸"
+        highlight="最短即日"
+      />
+      <AffiliateCTA
+        title="【キャッシングのフタバ】借りやすく返しやすい中堅系"
+        description="中堅消費者金融のフタバ。ご自身のペースで無理なく完済できる設計。レディースプランあり。"
+        buttonText="フタバを申し込む"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+4T96L6+38S6+BXQOJ"
+        icon="🌸"
+      />
+    </>
+  ),
+  "factoring-comparison-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">ファクタリングとは？売掛金で即日資金調達</h2>
+        <p>
+          ファクタリングは、企業が保有する<strong>売掛金（請求書）をファクタリング会社に売却し、早期に現金化</strong>するサービス。銀行融資と違い、借入ではないため負債にならず、経営状況が厳しい法人や個人事業主でも利用しやすいのが特徴です。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">ファクタリングの2つの形態</h2>
+        <div className="rounded-xl border border-card-border bg-card-bg p-5">
+          <ul className="text-sm space-y-2">
+            <li><strong>2社間ファクタリング</strong>: ファクタリング会社と利用者の2社。取引先に通知不要。手数料8〜20%</li>
+            <li><strong>3社間ファクタリング</strong>: 取引先の承諾必要、手数料1〜9%と低い</li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">ファクタリングのメリット</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>最短2時間〜即日で資金調達可能</li>
+          <li>信用情報に影響しない（融資ではない）</li>
+          <li>赤字・税金滞納でも利用可能な会社も</li>
+          <li>担保・保証人不要</li>
+          <li>売掛金の回収リスクをファクタリング会社に移転</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="【トップ・マネジメント】7秒無料見積もり・事業資金調達"
+        description="法人経営者向けファクタリング。オンライン完結、最短2時間で資金化可能。買取可能額は30万円〜3億円。"
+        buttonText="無料見積もりを受ける"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+4UG1SQ+3JLM+63H8I"
+        icon="💼"
+        highlight="最短2時間"
+      />
+      <AffiliateCTA
+        title="【資金調達プロ】10秒カンタン無料診断"
+        description="法人経営者向け資金調達一括比較。あなたに最適なファクタリング会社を自動マッチング。"
+        buttonText="10秒診断を試す"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+4VMX0A+40JM+TWTFL"
+        icon="⚡"
+      />
+    </>
+  ),
 };

@@ -531,6 +531,24 @@ export const guides: Guide[] = [
     readTime: "11分",
     publishedAt: "2026-04-18",
   },
+  {
+    slug: "cashing-comparison-guide",
+    title: "【2026年】消費者金融・キャッシング徹底比較｜即日融資可能な7社",
+    description: "セントラル・フタバ・アイフル・アコムなど主要消費者金融の金利・限度額・審査時間を比較。即日融資のコツと選び方。",
+    icon: "💸",
+    category: "household",
+    readTime: "11分",
+    publishedAt: "2026-04-18",
+  },
+  {
+    slug: "factoring-comparison-guide",
+    title: "ファクタリング徹底比較｜法人・個人事業主の資金調達ガイド",
+    description: "トップ・マネジメント・資金調達プロなど主要ファクタリングサービスを比較。手数料・最短入金時間・利用条件を初めての方向けに解説。",
+    icon: "💼",
+    category: "business",
+    readTime: "12分",
+    publishedAt: "2026-04-18",
+  },
 ];
 
 export function getGuideBySlug(slug: string) {
