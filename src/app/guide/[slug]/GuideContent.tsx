@@ -2998,6 +2998,29 @@ const guideContents: Record<string, React.ReactNode> = {
         href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+7X6OBE+4EKW+HVNAR"
         icon="⚡"
       />
+      <AffiliateCTA
+        title="【ネクストワン】WEB契約で資金化できる"
+        description="ネクストワンはWEB完結型ファクタリング。WEB査定で20,000円、電話問合せでも20,000円の高報酬。EPC777と実績も豊富。"
+        buttonText="ネクストワンに申し込む"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+7VZT3U+4OCU+5ZMCH"
+        icon="🌐"
+        highlight="WEB完結"
+      />
+      <AffiliateCTA
+        title="【ジャパンマネジメント】スピード審査ファクタリング"
+        description="ジャパンマネジメントは新規ファクタリング契約で30,000円の最高水準報酬。スピード審査で法人経営者に人気。"
+        buttonText="スピード審査を受ける"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+7YDJIY+3V6A+5YJRM"
+        icon="🚀"
+        highlight="契約30,000円"
+      />
+      <AffiliateCTA
+        title="【えんナビ】売掛金を即日資金化"
+        description="えんナビは売掛金を即日資金化できるファクタリング。EPC293と高実績、新規問合せで15,000円。"
+        buttonText="えんナビに相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+7USXWA+44CA+5YJRM"
+        icon="💰"
+      />
     </>
   ),
   "investment-books-2026": (
@@ -3141,6 +3164,449 @@ const guideContents: Record<string, React.ReactNode> = {
         <p>
           投資本1冊は1,500〜2,000円程度。これを読んで年20万円の投資判断ミスを1回防げるなら、ROI（費用対効果）は100倍以上です。まずは<strong>『お金の大学』から1冊、楽天ブックスで送料無料で手に入れる</strong>ことから始めてみましょう。楽天ポイントも貯まって一石二鳥です。
         </p>
+      </section>
+    </>
+  ),
+  "net-bank-comparison-2026": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">ネット銀行を選ぶ4つの比較ポイント</h2>
+        <p>
+          給与振込や公共料金引き落とし・投資用口座として使うメイン銀行は、<strong>金利・手数料・連携サービス・使いやすさ</strong>の4軸で選ぶのが鉄則。2026年現在、ネット銀行各社が競い合い、メガバンクより圧倒的にお得な条件が揃っています。
+        </p>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>普通預金金利: 0.001%（メガバンク）vs 0.1〜0.2%（ネット銀行）</li>
+          <li>ATM手数料: 無料回数が月3〜11回と大差</li>
+          <li>他行振込手数料: 月3〜10回無料になる銀行も</li>
+          <li>証券・カード・モバイル等との連携ボーナス</li>
+        </ul>
+      </section>
+      <ComparisonTableCTA
+        title="2026年 ネット銀行おすすめ比較ランキング"
+        services={[
+          {
+            name: "住信SBIネット銀行",
+            rank: 1,
+            highlight: "SBI証券との連携で最強｜スマートプログラムでATM月20回無料",
+            features: [
+              "SBI証券との「ハイブリッド預金」で普通預金金利10倍",
+              "スマートプログラムで他行振込手数料月最大20回無料",
+              "外貨預金・米ドルSWIFT送金に強い",
+              "デビットカード（Visa）で還元率0.6〜1%",
+            ],
+            href: "https://www.netbk.co.jp/contents/",
+            badge: "総合No.1",
+          },
+          {
+            name: "楽天銀行",
+            rank: 2,
+            highlight: "楽天証券マネーブリッジで金利0.1%｜楽天ポイント連携",
+            features: [
+              "マネーブリッジで普通預金金利0.1%（メガバンクの100倍）",
+              "楽天ポイントで預金振替可能",
+              "楽天カード引落で+1倍ポイント",
+              "ハッピープログラムで他行振込無料回数増加",
+            ],
+            href: "https://www.rakuten-bank.co.jp/",
+            badge: "楽天経済圏",
+          },
+          {
+            name: "auじぶん銀行",
+            rank: 3,
+            highlight: "au PAY×au経済圏で金利最大0.33%",
+            features: [
+              "auマネ活プラン加入で普通預金金利0.33%",
+              "au PAYチャージで残高即時反映",
+              "じぶんプラスでATM・振込手数料無料",
+              "三菱UFJ銀行との入出金連携",
+            ],
+            href: "https://www.jibunbank.co.jp/",
+            badge: "au経済圏最強",
+          },
+          {
+            name: "PayPay銀行",
+            rank: 4,
+            highlight: "PayPayとの瞬時チャージ｜ソフトバンク経済圏",
+            features: [
+              "PayPayアプリから瞬時にチャージ可能",
+              "Tポイント・PayPayポイント連携",
+              "Visaデビットカード付帯",
+              "アプリの操作性が国内トップクラス",
+            ],
+            href: "https://www.paypay-bank.co.jp/",
+            badge: "PayPay連携",
+          },
+          {
+            name: "ソニー銀行",
+            rank: 5,
+            highlight: "外貨預金11通貨対応｜Sony Bank WALLET",
+            features: [
+              "外貨預金の為替手数料が業界最安水準",
+              "11通貨対応でUSD・EUR・AUD投資に便利",
+              "Sony Bank WALLETで海外旅行時に現地通貨決済",
+              "住宅ローン金利が競争力あり",
+            ],
+            href: "https://moneykit.net/",
+            badge: "外貨最強",
+          },
+        ]}
+      />
+      <AffiliateCTA
+        title="【住信SBIネット銀行】A8.net承認済の公式口座開設"
+        description="新規口座開設で成果発生。SBI証券との連携で普通預金金利が10倍、ハイブリッド預金・スマートプログラムが最強。投資初心者の第一歩に。"
+        buttonText="住信SBIネット銀行に口座開設"
+        href="https://www.netbk.co.jp/contents/"
+        icon="🏦"
+        highlight="金利10倍＋ATM月20回無料"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">目的別おすすめネット銀行</h2>
+        <div className="rounded-xl border border-card-border bg-card-bg p-5">
+          <ul className="text-sm space-y-2">
+            <li><strong>新NISA・投資メイン</strong>: 住信SBIネット銀行（SBI証券連携）or 楽天銀行（楽天証券連携）</li>
+            <li><strong>楽天経済圏ユーザー</strong>: 楽天銀行（SPU対象）</li>
+            <li><strong>au・UQユーザー</strong>: auじぶん銀行（金利0.33%）</li>
+            <li><strong>PayPayユーザー</strong>: PayPay銀行</li>
+            <li><strong>外貨投資・海外送金</strong>: 住信SBI or ソニー銀行</li>
+            <li><strong>給与振込サブ口座</strong>: 大和コネクト銀行（セブン銀行ATM無料）</li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">メガバンクからネット銀行へ乗り換える手順</h2>
+        <ol className="list-decimal list-inside space-y-1 text-sm">
+          <li>ネット銀行で新規口座開設（最短当日、本人確認書類のみ）</li>
+          <li>給与振込先を会社に変更申請（1ヶ月前）</li>
+          <li>公共料金・クレカ引落を新口座に変更（マネーフォワード等で棚卸し）</li>
+          <li>メガバンク口座は緊急用サブ口座として残す</li>
+          <li>投資用・生活費・緊急資金の3口座体制に整理</li>
+        </ol>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">ネット銀行の注意点</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>24時間365日稼働だがシステムメンテ時間あり</li>
+          <li>紙通帳なし（アプリ・PCで明細確認）</li>
+          <li>実店舗・ATMなし（提携ATMで入出金）</li>
+          <li>住宅ローン・大口取引は審査が厳しい場合も</li>
+        </ul>
+      </section>
+    </>
+  ),
+  "rakuten-economic-zone-2026": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">楽天経済圏とは？年10万ポイント獲得も可能</h2>
+        <p>
+          楽天経済圏とは、<strong>楽天カード・楽天銀行・楽天証券・楽天モバイル・楽天市場など楽天のサービスを複数使い、SPU（スーパーポイントアッププログラム）で倍率を最大化してポイントを稼ぐ仕組み</strong>。ヘビーユーザーは年10〜30万ポイントを獲得し、実質的な生活費圧縮を実現しています。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">SPU倍率を最大化する10のサービス</h2>
+        <div className="rounded-xl border border-card-border bg-card-bg p-5">
+          <ul className="text-sm space-y-2">
+            <li><strong>楽天モバイル</strong>: +4倍（Rakuten最強プラン契約）</li>
+            <li><strong>楽天カード（通常）</strong>: +1倍（自動的に付与）</li>
+            <li><strong>楽天ゴールド/プレミアム</strong>: さらに+1〜2倍</li>
+            <li><strong>楽天銀行+楽天カード引落</strong>: +0.5倍</li>
+            <li><strong>楽天証券（米国株2,000円取引）</strong>: +0.5倍</li>
+            <li><strong>楽天証券（投信3万円買付）</strong>: +0.5倍</li>
+            <li><strong>楽天ウォレット（2,500円）</strong>: +0.5倍</li>
+            <li><strong>楽天モバイルキャリア決済</strong>: +0.5倍</li>
+            <li><strong>楽天トラベル</strong>: +1倍（月1回5,000円予約）</li>
+            <li><strong>楽天ブックス・Kobo</strong>: 各+0.5倍（月1回購入）</li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">年10万ポイント達成の戦略</h2>
+        <ol className="list-decimal list-inside space-y-2 text-sm">
+          <li><strong>SPU倍率を10倍以上にキープ</strong>: 楽天モバイル+ゴールドカード+楽天証券+楽天銀行で常時+7倍</li>
+          <li><strong>お買い物マラソン月1回参加</strong>: 10店舗買い回りで+9倍（最大+10倍）</li>
+          <li><strong>0・5のつく日にエントリー</strong>: +2倍</li>
+          <li><strong>ふるさと納税は楽天市場で</strong>: 年5万円納税で5,000〜1.5万ポイント</li>
+          <li><strong>楽天カード新規入会キャンペーン活用</strong>: 5,000〜8,000P</li>
+        </ol>
+      </section>
+      <AffiliateCTA
+        title="楽天市場で買う前に楽天ブックスを覗く"
+        description="書籍・雑誌・Kobo電子書籍は送料無料＆ポイント還元。SPU対象なので月1冊購入でSPU+0.5倍が永続。"
+        buttonText="楽天ブックスで探す"
+        href="https://af.moshimo.com/af/c/click?a_id=5465446&p_id=54&pc_id=54&pl_id=616&url=https%3A%2F%2Fbooks.rakuten.co.jp%2F"
+        icon="📚"
+        highlight="SPU+0.5倍"
+      />
+      <AffiliateCTA
+        title="楽天市場でふるさと納税"
+        description="ふるなび・さとふる等と違い、楽天市場のふるさと納税は楽天ポイント還元が乗る。SPU10倍なら実質10%還元。"
+        buttonText="楽天ふるさと納税を見る"
+        href="https://af.moshimo.com/af/c/click?a_id=5465446&p_id=54&pc_id=54&pl_id=616&url=https%3A%2F%2Fevent.rakuten.co.jp%2Ffurusato%2F"
+        icon="🎁"
+        highlight="10%還元相当"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">楽天経済圏のデメリット・注意点</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>SPU条件が頻繁に改悪される（要定期チェック）</li>
+          <li>楽天モバイルは地方で電波が弱い場合あり</li>
+          <li>期間限定ポイントの失効に注意（使い忘れ厳禁）</li>
+          <li>不要なモノを買うと本末転倒（必要な買い物のみ楽天で集約）</li>
+        </ul>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">楽天経済圏 vs PayPay経済圏 vs au経済圏</h2>
+        <div className="rounded-xl border border-card-border bg-card-bg p-5">
+          <ul className="text-sm space-y-2">
+            <li><strong>楽天経済圏</strong>: EC・投資・金融がバランス良く◎（本記事のメイン）</li>
+            <li><strong>PayPay経済圏</strong>: QRコード決済最強、Yahoo!ショッピング・LYPプレミアム</li>
+            <li><strong>au経済圏（Ponta）</strong>: auじぶん銀行の金利0.33%が強力、ローソンヘビーユーザー向け</li>
+            <li><strong>dポイント経済圏</strong>: docomoユーザー向け、マツキヨ等で強い</li>
+          </ul>
+        </div>
+      </section>
+    </>
+  ),
+  "investment-fund-comparison-2026": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">投資信託選びで見るべき3つのポイント</h2>
+        <p>
+          新NISAで投資信託を選ぶ際、初心者は「なんとなく人気の銘柄」で決めがちですが、<strong>信託報酬（年間コスト）・運用実績（トラッキングエラー）・純資産総額（流動性）</strong>の3点を必ずチェックしましょう。この3点が揃っていれば、20年後のリターンに数百万円の差が生まれます。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="2026年 新NISAで人気の投資信託ランキング"
+        services={[
+          {
+            name: "eMAXIS Slim 全世界株式（オール・カントリー）",
+            rank: 1,
+            highlight: "世界約2,900銘柄に分散｜信託報酬0.05775%",
+            features: [
+              "MSCI ACWI連動、先進国＋新興国の全世界株",
+              "信託報酬業界最安水準（0.05775%）",
+              "純資産5兆円超、日本で最も買われている投信",
+              "1本でグローバル分散、初心者の第一候補",
+            ],
+            href: "https://emaxis.jp/fund/253425.html",
+            badge: "不動の王者",
+          },
+          {
+            name: "eMAXIS Slim 米国株式（S&P500）",
+            rank: 2,
+            highlight: "米国大型500銘柄｜信託報酬0.09372%",
+            features: [
+              "S&P500連動、過去30年の年平均リターン約10%",
+              "GAFAM・エヌビディア等の米国大型株",
+              "純資産3兆円超、オルカンに次ぐ人気",
+              "シンプルに米国経済成長に賭けたい方向け",
+            ],
+            href: "https://emaxis.jp/fund/253266.html",
+            badge: "米国特化",
+          },
+          {
+            name: "SBI・V・S&P500 インデックスファンド",
+            rank: 3,
+            highlight: "バンガード社ETF経由｜信託報酬0.0938%",
+            features: [
+              "バンガードVOOへの実質投資",
+              "信託報酬・実質コストともに最安水準",
+              "SBI証券で買うならeMAXIS Slim S&P500より安い場合も",
+              "米国株投資の王道銘柄",
+            ],
+            href: "https://www.sbiam.co.jp/fund/detail.html?fund_code=9I412172",
+            badge: "コスト最安",
+          },
+          {
+            name: "ニッセイ・NASDAQ100インデックスファンド",
+            rank: 4,
+            highlight: "米国ハイテク100銘柄｜信託報酬0.2035%",
+            features: [
+              "NASDAQ100連動、アップル・マイクロソフト・エヌビディア中心",
+              "S&P500より高リターン・高ボラティリティ",
+              "10年積立で年15%超のリターン実績",
+              "成長重視の若手投資家向け",
+            ],
+            href: "https://www.nam.co.jp/fundinfo/nn100/",
+            badge: "成長株重視",
+          },
+          {
+            name: "楽天・全米株式インデックスファンド（VTI）",
+            rank: 5,
+            highlight: "米国全上場約4,000銘柄｜信託報酬0.162%",
+            features: [
+              "バンガードVTIへの実質投資",
+              "S&P500より分散度が高い（中小型も含む）",
+              "楽天証券でのクレカ積立と好相性",
+              "SPU対象銘柄",
+            ],
+            href: "https://www.rakuten-toushin.co.jp/fund/nomination/usa/",
+            badge: "楽天証券向け",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">初心者向け：オルカン vs S&P500 どちらを選ぶ？</h2>
+        <div className="rounded-xl border border-card-border bg-card-bg p-5">
+          <ul className="text-sm space-y-2">
+            <li><strong>オルカン派の理由</strong>: 世界分散で米国一極集中リスクを回避、30〜50年の超長期投資</li>
+            <li><strong>S&P500派の理由</strong>: 過去リターンがオルカンより高い、米国経済一強を信じる</li>
+            <li><strong>結論</strong>: 迷ったらオルカン100%、攻めるならS&P500:オルカン=50:50</li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">新NISAでの投資信託活用法</h2>
+        <ol className="list-decimal list-inside space-y-2 text-sm">
+          <li><strong>つみたて投資枠（年120万円）</strong>: オルカン or S&P500を月10万円積立</li>
+          <li><strong>成長投資枠（年240万円）</strong>: NASDAQ100・新興国株・個別株でリターン狙い</li>
+          <li><strong>生涯1,800万円枠</strong>: 満額使えば20年後に4,000〜5,000万円（年利5%想定）</li>
+          <li><strong>クレカ積立活用</strong>: 月10万円まで、三井住友ゴールドで1%還元</li>
+        </ol>
+      </section>
+      <AffiliateCTA
+        title="【DMM 株】で投資信託も買える"
+        description="DMM 株はNISA対応、投資信託の取扱本数は限定的だがS&P500連動ETFが買える。口座開設は最短即日。"
+        buttonText="DMM 株で口座開設"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+1YUMJE+1WP2+15QHIA"
+        icon="📊"
+        highlight="NISA対応"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">投資信託で避けるべき地雷銘柄</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>信託報酬1%超えのアクティブファンド（長期でインデックスに負ける）</li>
+          <li>毎月分配型（元本取り崩しで複利が効かない）</li>
+          <li>テーマ型（AI・EV・メタバース等）の一発狙い</li>
+          <li>ブル・ベア型レバレッジETF（減価の罠）</li>
+        </ul>
+      </section>
+    </>
+  ),
+  "insurance-comparison-2026": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">会社員は本当に生命保険が必要か？</h2>
+        <p>
+          結論から言うと、<strong>独身・DINKsは生命保険ほぼ不要、子供がいる家庭は掛け捨て定期保険のみ</strong>が鉄則。日本の公的保障（健康保険・遺族年金・障害年金）は手厚く、多くの人は民間保険で過剰な保障を買いすぎています。必要な保障額を冷静に計算しましょう。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">年代・家族構成別の最適保険設計</h2>
+        <div className="rounded-xl border border-card-border bg-card-bg p-5">
+          <ul className="text-sm space-y-2">
+            <li><strong>20代独身</strong>: 県民共済2,000円のみ（医療+死亡のミニマム）</li>
+            <li><strong>30代DINKs</strong>: 就業不能保険＋医療保険（夫婦各3,000円）</li>
+            <li><strong>子供0〜2人の家庭</strong>: 収入保障保険（月10万円・65歳まで）+ 医療保険</li>
+            <li><strong>40〜50代</strong>: がん保険＋就業不能保険で重点絞る</li>
+            <li><strong>60代以降</strong>: 高額療養費制度でほぼカバー、保険卒業</li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">公的保障で受けられる金額</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>遺族基礎年金: 子1人で年100万円・18歳までの子供数で増加</li>
+          <li>遺族厚生年金: 平均月収の約3/4を遺族が受給</li>
+          <li>傷病手当金: 給与の2/3を最長1年6ヶ月</li>
+          <li>高額療養費制度: 月収50万円の人なら自己負担上限約9万円/月</li>
+          <li>障害年金: 障害等級により年80〜150万円</li>
+        </ul>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">保険見直しで年20万円の節約も可能</h2>
+        <p>
+          40代会社員が「死亡保障3,000万円・医療保険入院日額1万円・がん保険」をフルセット加入していると、月保険料は約3〜5万円。これを<strong>必要最小限に見直せば月1〜2万円に圧縮、年20〜40万円が浮き、そのまま投資に回せます</strong>。
+        </p>
+      </section>
+      <AffiliateCTA
+        title="無料保険相談で見直し診断を受ける"
+        description="独立系FPによる無料保険相談。現在加入中の保険の過不足を診断し、公的保障を考慮した最適なプランを提案。対面・オンライン選択可。"
+        buttonText="無料相談を予約する"
+        href="/guide/insurance-optimization-guide"
+        external={false}
+        icon="🛡️"
+        highlight="完全無料"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">保険選びの5つのルール</h2>
+        <ol className="list-decimal list-inside space-y-1 text-sm">
+          <li>貯蓄型保険（終身・学資・個人年金）より新NISAの方が高リターン</li>
+          <li>保険ショップ（複数社扱い）で比較見積もり</li>
+          <li>営業担当者のおすすめは「販売手数料の高い商品」の可能性あり</li>
+          <li>特約はつけすぎない（シンプルな主契約のみで十分）</li>
+          <li>10年ごとに見直し（ライフステージ変化で必要保障が変わる）</li>
+        </ol>
+      </section>
+    </>
+  ),
+  "tax-saving-salary-income": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">会社員でも合法的に節税できる10の方法</h2>
+        <p>
+          「節税は自営業者の特権」と思われがちですが、会社員でも<strong>iDeCo・新NISA・ふるさと納税・医療費控除・特定支出控除</strong>などを組み合わせれば、年20〜50万円の節税＋手取りアップが可能。2026年最新の制度を使い切りましょう。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">節税効果ランキング（年間）</h2>
+        <div className="rounded-xl border border-card-border bg-card-bg p-5">
+          <ol className="list-decimal list-inside space-y-2 text-sm">
+            <li><strong>iDeCo</strong>: 掛金全額所得控除、年27.6万円（会社員月2.3万円）で税率20%なら年5.5万円節税</li>
+            <li><strong>ふるさと納税</strong>: 実質2,000円で返礼品（年収500万円で6万円上限、ほぼ節税効果）</li>
+            <li><strong>新NISA</strong>: 配当・売却益が非課税（年20〜30万円節税相当、長期で数百万円）</li>
+            <li><strong>生命保険料控除</strong>: 年最大12万円所得控除</li>
+            <li><strong>医療費控除</strong>: 家族合算で年10万円超の医療費</li>
+            <li><strong>特定支出控除</strong>: 研修費・資格取得費・転居費等（給与所得控除額の1/2超）</li>
+            <li><strong>住宅ローン控除</strong>: 年末残高の0.7%を最大13年間</li>
+            <li><strong>地震保険料控除</strong>: 年5万円まで</li>
+            <li><strong>小規模企業共済</strong>: 副業・フリーランス向け（月7万円まで）</li>
+            <li><strong>副業経費計上</strong>: 青色申告65万円控除+実経費</li>
+          </ol>
+        </div>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">iDeCo＋新NISA＋ふるさと納税の3点セット</h2>
+        <p>
+          年収500〜1,000万円の会社員が最初に押さえるべきは<strong>iDeCo（月2.3万円）+ 新NISA（月10万円）+ ふるさと納税（年6〜15万円）</strong>の3点セット。これだけで年30万円超の節税＋資産形成効果があります。
+        </p>
+      </section>
+      <AffiliateCTA
+        title="iDeCoならSBI証券or 楽天証券 or マネックスから"
+        description="iDeCo口座は運営管理手数料が無料の主要ネット証券がおすすめ。取扱銘柄・年金受取時の選択肢を事前に比較。"
+        buttonText="iDeCo比較記事を読む"
+        href="/guide/ideco-broker-comparison"
+        external={false}
+        icon="🏦"
+      />
+      <AffiliateCTA
+        title="ふるさと納税は楽天市場でSPU10倍還元"
+        description="同じ寄附額でも、楽天市場経由ならSPU倍率分がポイントバック。年6万円寄付で6,000ポイント相当が戻る計算。"
+        buttonText="楽天ふるさと納税を見る"
+        href="https://af.moshimo.com/af/c/click?a_id=5465446&p_id=54&pc_id=54&pl_id=616&url=https%3A%2F%2Fevent.rakuten.co.jp%2Ffurusato%2F"
+        icon="🎁"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">確定申告で還付を受けるケース</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>医療費控除（年10万円超 or 所得の5%超）</li>
+          <li>ふるさと納税を6自治体以上（ワンストップ特例不可）</li>
+          <li>寄附金控除（認定NPO・政党等）</li>
+          <li>住宅ローン控除（1年目のみ）</li>
+          <li>副業所得20万円超</li>
+          <li>投資損益の損益通算・繰越控除</li>
+        </ul>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">節税額シミュレーション例（年収600万円・家族4人）</h2>
+        <div className="rounded-xl border border-card-border bg-card-bg p-5">
+          <ul className="text-sm space-y-2">
+            <li>iDeCo月2.3万円: 年27.6万円控除→<strong>年5.5万円節税</strong></li>
+            <li>ふるさと納税7万円: 実質2,000円で約2.5万円相当返礼品→<strong>年2.3万円得</strong></li>
+            <li>生命保険料控除: 年4万円控除→<strong>年8,000円節税</strong></li>
+            <li>新NISA月10万円積立で年8%運用: 20年後<strong>非課税で500万円以上の運用益</strong></li>
+            <li><strong>合計: 年間約8万円節税＋長期で数百万円の運用益非課税</strong></li>
+          </ul>
+        </div>
       </section>
     </>
   ),
