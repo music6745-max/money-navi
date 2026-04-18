@@ -54,6 +54,22 @@ export function ToolSimulator({ slug }: { slug: string }) {
       return <BonusInvestment />;
     case "pension-calculator":
       return <PensionCalculator />;
+    case "mortgage-refinance":
+      return <MortgageRefinance />;
+    case "medical-deduction":
+      return <MedicalDeduction />;
+    case "gift-tax":
+      return <GiftTax />;
+    case "inheritance-tax":
+      return <InheritanceTax />;
+    case "retirement-payment-tax":
+      return <RetirementPaymentTax />;
+    case "rent-vs-buy":
+      return <RentVsBuy />;
+    case "car-maintenance-cost":
+      return <CarMaintenanceCost />;
+    case "debt-repayment":
+      return <DebtRepayment />;
     default:
       return <Placeholder />;
   }
@@ -810,6 +826,282 @@ function PensionCalculator() {
       <Result label="月額換算" value={`${fmt(result.monthly)} 円`} highlight />
       <p className="text-xs text-muted">
         ※概算値。実際の受給額は加入履歴・物価スライド等で変動します。老後資金シミュレーターと組み合わせて計画を。
+      </p>
+    </Card>
+  );
+}
+
+function MortgageRefinance() {
+  const [currentBalance, setCurrentBalance] = useState(25000000);
+  const [currentRate, setCurrentRate] = useState(1.5);
+  const [newRate, setNewRate] = useState(0.5);
+  const [remainingYears, setRemainingYears] = useState(25);
+  const [refinanceCost, setRefinanceCost] = useState(600000);
+  const result = useMemo(() => {
+    const n = remainingYears * 12;
+    const calc = (rate: number) => {
+      const r = rate / 100 / 12;
+      return r === 0 ? currentBalance / n : (currentBalance * r * Math.pow(1 + r, n)) / (Math.pow(1 + r, n) - 1);
+    };
+    const currentMonthly = calc(currentRate);
+    const newMonthly = calc(newRate);
+    const monthlySaving = currentMonthly - newMonthly;
+    const totalSaving = monthlySaving * n - refinanceCost;
+    return { currentMonthly, newMonthly, monthlySaving, totalSaving };
+  }, [currentBalance, currentRate, newRate, remainingYears, refinanceCost]);
+  return (
+    <Card>
+      <NumberInput label="現在の残債" value={currentBalance} onChange={setCurrentBalance} suffix="円" step={100000} />
+      <NumberInput label="現在の金利" value={currentRate} onChange={setCurrentRate} suffix="%" step={0.01} />
+      <NumberInput label="借換後の金利" value={newRate} onChange={setNewRate} suffix="%" step={0.01} />
+      <NumberInput label="残存期間" value={remainingYears} onChange={setRemainingYears} suffix="年" min={1} />
+      <NumberInput label="借換諸費用" value={refinanceCost} onChange={setRefinanceCost} suffix="円" step={10000} />
+      <Result label="現在の月額返済" value={`${fmt(result.currentMonthly)} 円`} />
+      <Result label="借換後の月額返済" value={`${fmt(result.newMonthly)} 円`} />
+      <Result label="月々の節約額" value={`${fmt(result.monthlySaving)} 円`} />
+      <Result label="諸費用控除後の総節約額" value={`${fmt(result.totalSaving)} 円`} highlight />
+      <p className="text-xs text-muted">
+        ※金利差1%以上・残期間10年以上・残債1,000万円以上が借換の目安とされています。
+      </p>
+    </Card>
+  );
+}
+
+function MedicalDeduction() {
+  const [medicalCost, setMedicalCost] = useState(200000);
+  const [income, setIncome] = useState(5000000);
+  const result = useMemo(() => {
+    const threshold = Math.min(100000, income * 0.05);
+    const deductible = Math.max(0, medicalCost - threshold);
+    const taxRate =
+      income <= 1950000 ? 0.15 :
+      income <= 3300000 ? 0.2 :
+      income <= 6950000 ? 0.3 :
+      income <= 9000000 ? 0.33 :
+      income <= 18000000 ? 0.43 : 0.5;
+    const refund = deductible * taxRate;
+    return { threshold, deductible, refund };
+  }, [medicalCost, income]);
+  return (
+    <Card>
+      <NumberInput label="年間医療費（自己負担分）" value={medicalCost} onChange={setMedicalCost} suffix="円" step={10000} />
+      <NumberInput label="年収（額面）" value={income} onChange={setIncome} suffix="円" step={100000} />
+      <Result label="控除対象の足切り額" value={`${fmt(result.threshold)} 円`} />
+      <Result label="医療費控除額" value={`${fmt(result.deductible)} 円`} />
+      <Result label="還付される所得税+住民税（概算）" value={`${fmt(result.refund)} 円`} highlight />
+      <p className="text-xs text-muted">
+        ※年間10万円または所得の5%のいずれか少ない方が足切り額。確定申告が必要です。
+      </p>
+    </Card>
+  );
+}
+
+function GiftTax() {
+  const [amount, setAmount] = useState(3000000);
+  const [relation, setRelation] = useState(1);
+  const result = useMemo(() => {
+    const taxable = Math.max(0, amount - 1100000);
+    const rates = relation === 1
+      ? [[2000000, 0.1, 0], [4000000, 0.15, 100000], [6000000, 0.2, 300000], [10000000, 0.3, 900000], [15000000, 0.4, 1900000], [30000000, 0.45, 2650000], [45000000, 0.5, 4150000], [Infinity, 0.55, 6400000]]
+      : [[2000000, 0.1, 0], [3000000, 0.15, 100000], [4000000, 0.2, 250000], [6000000, 0.3, 650000], [10000000, 0.4, 1250000], [15000000, 0.45, 1750000], [30000000, 0.5, 2500000], [Infinity, 0.55, 4000000]];
+    let tax = 0;
+    for (const [limit, rate, deduction] of rates) {
+      if (taxable <= limit) {
+        tax = taxable * rate - deduction;
+        break;
+      }
+    }
+    return { taxable, tax: Math.max(0, tax) };
+  }, [amount, relation]);
+  return (
+    <Card>
+      <NumberInput label="贈与額（年間合計）" value={amount} onChange={setAmount} suffix="円" step={100000} />
+      <div>
+        <label className="block text-sm font-medium mb-1">受贈者と贈与者の関係</label>
+        <select
+          value={relation}
+          onChange={(e) => setRelation(Number(e.target.value))}
+          className="w-full px-3 py-2 rounded-lg border border-card-border bg-card-bg"
+        >
+          <option value={1}>直系尊属（親・祖父母）から20歳以上の子・孫へ（特例税率）</option>
+          <option value={2}>上記以外（兄弟・夫婦・他人間など／一般税率）</option>
+        </select>
+      </div>
+      <Result label="基礎控除後の課税価格" value={`${fmt(result.taxable)} 円`} />
+      <Result label="贈与税額（年間）" value={`${fmt(result.tax)} 円`} highlight />
+      <p className="text-xs text-muted">
+        ※年間110万円までは非課税。相続時精算課税を選択する場合は別計算になります。
+      </p>
+    </Card>
+  );
+}
+
+function InheritanceTax() {
+  const [totalAssets, setTotalAssets] = useState(50000000);
+  const [heirs, setHeirs] = useState(3);
+  const result = useMemo(() => {
+    const basicDeduction = 30000000 + 6000000 * heirs;
+    const taxable = Math.max(0, totalAssets - basicDeduction);
+    const perHeir = taxable / heirs;
+    const calcTax = (n: number) => {
+      const rates = [[10000000, 0.1, 0], [30000000, 0.15, 500000], [50000000, 0.2, 2000000], [100000000, 0.3, 7000000], [200000000, 0.4, 17000000], [300000000, 0.45, 27000000], [600000000, 0.5, 42000000], [Infinity, 0.55, 72000000]];
+      for (const [limit, rate, deduction] of rates) {
+        if (n <= limit) return n * rate - deduction;
+      }
+      return 0;
+    };
+    const totalTax = calcTax(perHeir) * heirs;
+    return { basicDeduction, taxable, totalTax: Math.max(0, totalTax) };
+  }, [totalAssets, heirs]);
+  return (
+    <Card>
+      <NumberInput label="遺産総額（純財産）" value={totalAssets} onChange={setTotalAssets} suffix="円" step={1000000} />
+      <NumberInput label="法定相続人の人数" value={heirs} onChange={setHeirs} min={1} />
+      <Result label="基礎控除額" value={`${fmt(result.basicDeduction)} 円`} />
+      <Result label="課税価格" value={`${fmt(result.taxable)} 円`} />
+      <Result label="相続税総額（概算）" value={`${fmt(result.totalTax)} 円`} highlight />
+      <p className="text-xs text-muted">
+        ※基礎控除3,000万円+600万円×法定相続人数。配偶者控除・2割加算等の個別要素は反映していません。
+      </p>
+    </Card>
+  );
+}
+
+function RetirementPaymentTax() {
+  const [payment, setPayment] = useState(20000000);
+  const [years, setYears] = useState(35);
+  const result = useMemo(() => {
+    const deduction = years <= 20 ? 400000 * years : 8000000 + 700000 * (years - 20);
+    const effectiveDeduction = Math.max(800000, deduction);
+    const taxable = Math.max(0, (payment - effectiveDeduction) / 2);
+    const calcIncomeTax = (n: number) => {
+      const rates = [[1950000, 0.05, 0], [3300000, 0.1, 97500], [6950000, 0.2, 427500], [9000000, 0.23, 636000], [18000000, 0.33, 1536000], [40000000, 0.4, 2796000], [Infinity, 0.45, 4796000]];
+      for (const [limit, rate, deduction] of rates) {
+        if (n <= limit) return n * rate - deduction;
+      }
+      return 0;
+    };
+    const incomeTax = calcIncomeTax(taxable) * 1.021;
+    const residentTax = taxable * 0.1;
+    return { deduction: effectiveDeduction, taxable, incomeTax, residentTax, total: incomeTax + residentTax };
+  }, [payment, years]);
+  return (
+    <Card>
+      <NumberInput label="退職金額" value={payment} onChange={setPayment} suffix="円" step={100000} />
+      <NumberInput label="勤続年数" value={years} onChange={setYears} suffix="年" min={1} />
+      <Result label="退職所得控除額" value={`${fmt(result.deduction)} 円`} />
+      <Result label="課税退職所得金額" value={`${fmt(result.taxable)} 円`} />
+      <Result label="所得税＋復興特別所得税" value={`${fmt(result.incomeTax)} 円`} />
+      <Result label="住民税" value={`${fmt(result.residentTax)} 円`} />
+      <Result label="税金合計" value={`${fmt(result.total)} 円`} highlight />
+      <p className="text-xs text-muted">
+        ※退職所得は分離課税で、控除額が大きく設定されているため税負担が軽いのが特徴です。
+      </p>
+    </Card>
+  );
+}
+
+function RentVsBuy() {
+  const [rent, setRent] = useState(120000);
+  const [rentIncrease, setRentIncrease] = useState(0.5);
+  const [housePrice, setHousePrice] = useState(40000000);
+  const [downPayment, setDownPayment] = useState(5000000);
+  const [loanRate, setLoanRate] = useState(0.8);
+  const [years, setYears] = useState(30);
+  const result = useMemo(() => {
+    let totalRent = 0;
+    for (let y = 0; y < years; y++) {
+      totalRent += rent * 12 * Math.pow(1 + rentIncrease / 100, y);
+    }
+    const loan = housePrice - downPayment;
+    const r = loanRate / 100 / 12;
+    const n = years * 12;
+    const monthlyPayment = r === 0 ? loan / n : (loan * r * Math.pow(1 + r, n)) / (Math.pow(1 + r, n) - 1);
+    const totalLoanPayment = monthlyPayment * n;
+    const totalHouse = totalLoanPayment + downPayment + housePrice * 0.02 * years; // 固定資産税・修繕費想定
+    return { totalRent, totalLoanPayment, totalHouse, monthlyPayment };
+  }, [rent, rentIncrease, housePrice, downPayment, loanRate, years]);
+  return (
+    <Card>
+      <NumberInput label="現在の家賃（月）" value={rent} onChange={setRent} suffix="円" step={1000} />
+      <NumberInput label="家賃上昇率（年）" value={rentIncrease} onChange={setRentIncrease} suffix="%" step={0.1} />
+      <NumberInput label="物件価格" value={housePrice} onChange={setHousePrice} suffix="円" step={1000000} />
+      <NumberInput label="頭金" value={downPayment} onChange={setDownPayment} suffix="円" step={100000} />
+      <NumberInput label="住宅ローン金利" value={loanRate} onChange={setLoanRate} suffix="%" step={0.01} />
+      <NumberInput label="比較期間" value={years} onChange={setYears} suffix="年" min={1} />
+      <Result label="賃貸の総支払額" value={`${fmt(result.totalRent)} 円`} />
+      <Result label="持ち家の月々返済額" value={`${fmt(result.monthlyPayment)} 円`} />
+      <Result label="持ち家の総コスト（ローン+頭金+維持費）" value={`${fmt(result.totalHouse)} 円`} highlight />
+      <p className="text-xs text-muted">
+        ※持ち家には固定資産税・修繕費を年2%で計上。物件価値の変動は考慮していません。
+      </p>
+    </Card>
+  );
+}
+
+function CarMaintenanceCost() {
+  const [gasCost, setGasCost] = useState(8000);
+  const [insurance, setInsurance] = useState(60000);
+  const [parking, setParking] = useState(15000);
+  const [tax, setTax] = useState(39500);
+  const [shaken, setShaken] = useState(80000);
+  const result = useMemo(() => {
+    const annual = gasCost * 12 + insurance + parking * 12 + tax + shaken / 2;
+    return { annual, monthly: annual / 12 };
+  }, [gasCost, insurance, parking, tax, shaken]);
+  return (
+    <Card>
+      <NumberInput label="月間ガソリン代" value={gasCost} onChange={setGasCost} suffix="円" step={500} />
+      <NumberInput label="年間任意保険料" value={insurance} onChange={setInsurance} suffix="円" step={5000} />
+      <NumberInput label="月額駐車場代" value={parking} onChange={setParking} suffix="円" step={1000} />
+      <NumberInput label="年間自動車税" value={tax} onChange={setTax} suffix="円" step={1000} />
+      <NumberInput label="車検費用（2年ごと）" value={shaken} onChange={setShaken} suffix="円" step={5000} />
+      <Result label="年間維持費合計" value={`${fmt(result.annual)} 円`} />
+      <Result label="月額換算" value={`${fmt(result.monthly)} 円`} highlight />
+      <p className="text-xs text-muted">
+        ※ローン・残価・消耗品交換は含みません。カーシェア・リースとの比較検討に。
+      </p>
+    </Card>
+  );
+}
+
+function DebtRepayment() {
+  const [balance, setBalance] = useState(1000000);
+  const [rate, setRate] = useState(15);
+  const [monthlyPayment, setMonthlyPayment] = useState(30000);
+  const result = useMemo(() => {
+    const r = rate / 100 / 12;
+    let remaining = balance;
+    let months = 0;
+    let totalInterest = 0;
+    while (remaining > 0 && months < 600) {
+      const interest = remaining * r;
+      const principal = Math.min(monthlyPayment - interest, remaining);
+      if (principal <= 0) {
+        return { months: -1, totalPay: 0, totalInterest: 0 };
+      }
+      totalInterest += interest;
+      remaining -= principal;
+      months++;
+    }
+    return { months, totalPay: monthlyPayment * months, totalInterest };
+  }, [balance, rate, monthlyPayment]);
+  return (
+    <Card>
+      <NumberInput label="借入残高" value={balance} onChange={setBalance} suffix="円" step={10000} />
+      <NumberInput label="年利" value={rate} onChange={setRate} suffix="%" step={0.1} />
+      <NumberInput label="毎月の返済額" value={monthlyPayment} onChange={setMonthlyPayment} suffix="円" step={1000} />
+      {result.months === -1 ? (
+        <Result label="警告" value="月々の返済額が利息より少ないため、永遠に完済できません" highlight />
+      ) : (
+        <>
+          <Result label="完済までの期間" value={`${result.months} ヶ月（${Math.floor(result.months / 12)}年${result.months % 12}ヶ月）`} />
+          <Result label="返済総額" value={`${fmt(result.totalPay)} 円`} />
+          <Result label="うち利息合計" value={`${fmt(result.totalInterest)} 円`} highlight />
+        </>
+      )}
+      <p className="text-xs text-muted">
+        ※カードローン・キャッシング・リボ払いの試算に。繰上返済で総利息を大きく圧縮できます。
       </p>
     </Card>
   );

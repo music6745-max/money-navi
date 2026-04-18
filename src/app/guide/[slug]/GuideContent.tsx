@@ -1209,4 +1209,626 @@ const guideContents: Record<string, React.ReactNode> = {
       />
     </>
   ),
+  "rakuten-securities-review": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">楽天証券の基本情報</h2>
+        <p>
+          楽天証券は口座開設数1,100万超の大手ネット証券。楽天経済圏（楽天市場・楽天カード・楽天銀行・楽天モバイル）と連携することで、ポイント二重取りができる点が最大の魅力です。新NISAのクレカ積立では楽天カードで1%還元（一部銘柄0.5%）、楽天キャッシュ併用で月10万円までが還元対象。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">メリット</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>楽天カード積立で1%のポイント還元</li>
+          <li>楽天ポイントで投信・国内株・米国株の買付が可能</li>
+          <li>楽天銀行マネーブリッジで普通預金金利が0.1%にアップ</li>
+          <li>アプリ「iSPEED」が初心者にも使いやすい</li>
+          <li>日経テレコンが無料で閲覧できる</li>
+        </ul>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">デメリット</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>IPO取扱件数がSBI証券より少ない</li>
+          <li>楽天ポイントの改悪が定期的に発生している</li>
+          <li>単元未満株（S株）の取扱がない（かぶミニが代替）</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="楽天証券で新NISAを始めてみる"
+        description="楽天ポイントユーザーなら圧倒的にお得。口座開設無料・スマホで最短翌営業日から取引開始。"
+        buttonText="楽天証券の詳細を見る"
+        href="/guide/nisa-broker-ranking-2026"
+        external={false}
+        icon="📊"
+        highlight="楽天経済圏No.1"
+      />
+    </>
+  ),
+  "monex-securities-review": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">マネックス証券の強み：クレカ積立1.1%還元</h2>
+        <p>
+          マネックス証券は米国株に強いネット証券として有名ですが、2024年以降はマネックスカード積立で<strong>業界最高水準の1.1%還元</strong>を実現し注目を集めています。年会費1,100円（年1回以上の利用で無料）でこの還元率は他社を圧倒します。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">米国株投資に最適</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>米国株取扱銘柄 6,000超（業界トップクラス）</li>
+          <li>買付時の為替手数料が無料</li>
+          <li>時間外取引（プレマーケット）に対応</li>
+          <li>銘柄スカウターという独自の分析ツールが強力</li>
+          <li>米国株の配当再投資サービスあり</li>
+        </ul>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">こんな人におすすめ</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>クレカ積立の還元率を最大化したい人</li>
+          <li>米国株・ETFを本格的に取引したい人</li>
+          <li>財務分析ツールを活用して銘柄選定したい人</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="マネックス証券で最高還元率の積立を"
+        description="マネックスカード積立1.1%還元で、新NISAの実質リターンを底上げ。口座開設・カード発行どちらも無料。"
+        buttonText="マネックス証券の詳細を見る"
+        href="/guide/nisa-broker-ranking-2026"
+        external={false}
+        icon="📊"
+        highlight="還元率No.1"
+      />
+    </>
+  ),
+  "gmo-click-fx-review": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">GMOクリック証券FXの実力</h2>
+        <p>
+          GMOクリック証券のFX（FXネオ）は、口座開設数国内No.1。低スプレッド・高スワップポイント・使いやすい取引ツールの3拍子が揃っており、初心者から上級者まで幅広く支持されています。キャンペーンも常時開催。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="GMOクリック証券FXの主要スペック"
+        services={[
+          {
+            name: "GMOクリック証券 FXネオ",
+            rank: 1,
+            highlight: "業界最狭水準スプレッド｜口座開設数No.1",
+            features: [
+              "米ドル/円スプレッド 0.2銭（原則固定・例外あり）",
+              "約定力99.9%の安定性",
+              "PCツール「はっちゅう君FX+」が高機能",
+              "スマホアプリも直感的で使いやすい",
+              "新規口座開設で最大55万円キャッシュバック",
+            ],
+            href: "https://www.click-sec.com/corp/guide/fx/",
+            badge: "総合力No.1",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">キャッシュバック条件</h2>
+        <p className="text-sm">
+          新規口座開設+取引数量に応じて最大55万円のキャッシュバックが受けられます。達成のハードルは高めですが、段階的に少額から受け取れる仕組みなので初心者でも報酬を得やすいのが特徴です。
+        </p>
+      </section>
+      <AffiliateCTA
+        title="GMOクリック証券でFXを始めてみる"
+        description="口座開設は無料・最短当日で取引開始。キャッシュバックキャンペーン常時開催中。"
+        buttonText="GMOクリック証券の詳細を見る"
+        href="/guide/fx-broker-ranking"
+        external={false}
+        icon="💹"
+      />
+    </>
+  ),
+  "dmm-fx-review": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">DMM FX の最大の魅力：高額キャッシュバック</h2>
+        <p>
+          DMM FXは、新規口座開設キャンペーンで<strong>最大30万円（2026年時点）</strong>のキャッシュバックが受けられることで有名。取引量に応じて段階的に受け取れるため、少しの取引でも数万円の報酬を手にできます。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">DMM FXのメリット</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>米ドル/円スプレッド 0.2銭（原則固定）</li>
+          <li>全20通貨ペア取扱</li>
+          <li>LINEサポート対応（業界初）</li>
+          <li>取引ツールがシンプルで初心者向き</li>
+          <li>最短1時間で取引開始可能</li>
+        </ul>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">キャッシュバック獲得のコツ</h2>
+        <p className="text-sm">
+          キャッシュバックは取引数量のレベルに応じて増加。最小レベル（2,000円）は1万通貨の取引1回で達成可能。スワップ狙いのポジションを建てて保有するだけでも目標達成しやすい設計です。
+        </p>
+      </section>
+      <AffiliateCTA
+        title="DMM FXでキャッシュバックを受け取る"
+        description="最大30万円キャッシュバック。口座開設無料、最短1時間で取引開始できます。"
+        buttonText="DMM FXの詳細を見る"
+        href="/guide/fx-broker-ranking"
+        external={false}
+        icon="💹"
+        highlight="最大30万円CB"
+      />
+    </>
+  ),
+  "bitflyer-review": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">bitFlyer の実力</h2>
+        <p>
+          bitFlyerはビットコイン取引量国内No.1の老舗仮想通貨取引所。2014年創業以来、ハッキング被害ゼロという高いセキュリティ水準を維持しています。機関投資家も利用する信頼性の高い取引所です。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">bitFlyerの強み</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>ビットコイン取引量 6年連続国内No.1</li>
+          <li>ビットコインは1円から買える（最小発注単位が業界最小）</li>
+          <li>bitFlyerクレカで決済するだけでビットコインが貯まる</li>
+          <li>取扱銘柄 34種類（国内最多クラス）</li>
+          <li>Tポイントをビットコインに交換可能</li>
+        </ul>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">手数料と注意点</h2>
+        <p className="text-sm">
+          販売所のスプレッドは他社と同程度。取引所形式ならスプレッドはほぼゼロ、別途取引手数料0.01〜0.15%が発生。初心者は販売所、慣れたら取引所を使い分けるのが基本戦略です。
+        </p>
+      </section>
+      <AffiliateCTA
+        title="bitFlyerで仮想通貨投資を始める"
+        description="国内取引量No.1、セキュリティ国内最高水準。口座開設・維持費は無料。"
+        buttonText="bitFlyerの詳細を見る"
+        href="/guide/crypto-exchange-comparison"
+        external={false}
+        icon="₿"
+        highlight="取引量No.1"
+      />
+    </>
+  ),
+  "coincheck-review": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">コインチェック：初心者に圧倒的人気</h2>
+        <p>
+          コインチェックはアプリDL数6年連続No.1の仮想通貨取引所。マネックスグループ傘下で経営の安定性も高く、取扱銘柄も国内トップクラス。初心者向けの使いやすさが最大の強みです。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">コインチェックの特徴</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>取扱通貨 29種類（国内トップクラス）</li>
+          <li>取引所での取扱通貨も豊富（BTC, ETH, XRP等）</li>
+          <li>500円から購入可能</li>
+          <li>NFTマーケットプレイス「Coincheck NFT」を運営</li>
+          <li>電気・ガス料金支払いでビットコインが貯まる</li>
+          <li>IEO（新規暗号資産公開）を国内で独占開催</li>
+        </ul>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">こんな人におすすめ</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>初めて仮想通貨を買う人</li>
+          <li>アプリの使いやすさ重視の人</li>
+          <li>NFTにも興味がある人</li>
+          <li>取扱通貨の種類を重視する人</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="コインチェックでビットコインを始めてみる"
+        description="アプリDL数No.1の使いやすさ。500円から始められます。口座開設・維持費無料。"
+        buttonText="コインチェックの詳細を見る"
+        href="/guide/crypto-exchange-comparison"
+        external={false}
+        icon="₿"
+        highlight="初心者人気No.1"
+      />
+    </>
+  ),
+  "investing-30s-strategy": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">30代からの投資戦略：時間を味方につける</h2>
+        <p>
+          30代は「時間」という最大の武器を持つ投資適齢期。長期・積立・分散の王道戦略を愚直に続けることで、65歳時点で4,000万円超の資産形成が現実的に可能です。具体的なプランを見ていきましょう。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">月3万円×35年×利回り5%のシミュレーション</h2>
+        <div className="rounded-xl border border-card-border bg-card-bg p-5">
+          <ul className="text-sm space-y-2">
+            <li>元本合計: 月3万円 × 12ヶ月 × 35年 = <strong>1,260万円</strong></li>
+            <li>運用後資産: 年利5%で複利運用 = <strong>約3,400万円</strong></li>
+            <li>運用益: 約<strong>2,140万円</strong>（新NISAなら全額非課税）</li>
+            <li>月5万円に増額した場合: <strong>約5,700万円</strong></li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">30代におすすめのポートフォリオ</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>新NISA（つみたて投資枠）: eMAXIS Slim 全世界株式 or S&P500を毎月10万円積立</li>
+          <li>新NISA（成長投資枠）: 米国ETF（VTI, VOO）・高配当ETF（VYM, HDV）</li>
+          <li>iDeCo: 月2.3万円（企業年金なし会社員）を全世界株式で運用</li>
+          <li>現金: 生活費6ヶ月分を普通預金で確保（それ以上は投資へ）</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="新NISAで30代の資産形成を始めよう"
+        description="SBI証券・楽天証券なら無料で口座開設可能。クレカ積立でポイントも貯まります。"
+        buttonText="ネット証券比較を見る"
+        href="/guide/nisa-broker-ranking-2026"
+        external={false}
+        icon="📈"
+      />
+    </>
+  ),
+  "investing-40s-strategy": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">40代からでも遅くない投資戦略</h2>
+        <p>
+          40代からの投資は「時間が短い」ことが最大の課題ですが、貯蓄余力があるため<strong>積立額を増やす</strong>ことで十分にリカバリー可能。また、教育費のピーク（50代）までに資産を作り、その後老後資金に切り替える2段階戦略が有効です。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">40代におすすめのポートフォリオ</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>新NISA（つみたて投資枠）: 月10万円で全世界株式インデックスに積立</li>
+          <li>新NISA（成長投資枠）: 米国ETF+日本高配当株で利回りを重視</li>
+          <li>iDeCo: 拠出上限いっぱい（企業年金なしなら月2.3万円）</li>
+          <li>生命保険の見直し: 不要な保障を削減して投資資金を捻出</li>
+        </ul>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">月10万円×20年×5%のシミュレーション</h2>
+        <div className="rounded-xl border border-card-border bg-card-bg p-5">
+          <ul className="text-sm space-y-2">
+            <li>元本合計: <strong>2,400万円</strong></li>
+            <li>運用後資産: <strong>約4,100万円</strong></li>
+            <li>運用益: <strong>約1,700万円</strong>（NISAなら非課税）</li>
+            <li>60代からも継続すれば老後不安を大幅軽減可能</li>
+          </ul>
+        </div>
+      </section>
+      <AffiliateCTA
+        title="40代から効率的に資産形成を"
+        description="時間を取り戻すには「積立額の増額」と「非課税制度の最大活用」。おすすめネット証券を比較。"
+        buttonText="ネット証券比較を見る"
+        href="/guide/nisa-broker-ranking-2026"
+        external={false}
+        icon="📈"
+      />
+    </>
+  ),
+  "real-estate-crowdfunding": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">不動産クラウドファンディングとは</h2>
+        <p>
+          不動産クラウドファンディングは、<strong>1万円から不動産投資ができるサービス</strong>。運営会社が特定の不動産を仕入れ、複数の投資家が小口で出資することで、家賃収入や売却益を分配金として受け取ります。現物不動産より流動性・手軽さで勝り、株式より安定したミドルリスク・ミドルリターンの商品です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="主要な不動産クラウドファンディング"
+        services={[
+          {
+            name: "COZUCHI（コヅチ）",
+            rank: 1,
+            highlight: "想定利回り最大10%超｜中途解約可能",
+            features: [
+              "年利4-10%の高利回り案件が豊富",
+              "中途解約が可能（業界では珍しい）",
+              "案件ごとの情報開示が詳細",
+              "優先劣後出資方式でリスク軽減",
+            ],
+            href: "https://cozuchi.com/",
+            badge: "高利回りNo.1",
+          },
+          {
+            name: "CREAL（クリアル）",
+            rank: 2,
+            highlight: "上場企業運営｜信頼性の高いプラットフォーム",
+            features: [
+              "東証グロース上場のクリアル株式会社が運営",
+              "1万円から投資可能",
+              "年利3-6%の安定案件が中心",
+              "保育園・学校等の社会性の高い案件も",
+            ],
+            href: "https://creal.jp/",
+            badge: "信頼性No.1",
+          },
+          {
+            name: "Funds（ファンズ）",
+            rank: 3,
+            highlight: "上場企業グループファンド中心｜安定運用",
+            features: [
+              "上場企業関連のファンドが中心",
+              "年利1-3%の低リスク案件",
+              "1円単位で投資可能",
+              "税引き後利回りが表示されわかりやすい",
+            ],
+            href: "https://funds.jp/",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">リスクと注意点</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>元本保証はない（運用失敗時は元本毀損の可能性）</li>
+          <li>原則として運用期間中の解約不可（一部サービスは可）</li>
+          <li>人気案件は抽選・先着で当選困難</li>
+          <li>利益は雑所得扱いで総合課税</li>
+        </ul>
+      </section>
+    </>
+  ),
+  "insurance-life-comparison": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">生命保険は「掛け捨て」＋「貯蓄は投資」が正解</h2>
+        <p>
+          生命保険は「必要な保障を最小限の保険料で確保する」のが鉄則。貯蓄型保険は保険としては割高、投資としてはリターンが低いため、掛け捨てと投資を分離するのが賢い選択です。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">ライフステージ別の必要保障額</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li><strong>独身（扶養家族なし）</strong>: 葬儀代200万円程度の死亡保障で十分</li>
+          <li><strong>結婚・子なし共働き</strong>: 互いに葬儀代＋αの死亡保障</li>
+          <li><strong>子育て世帯</strong>: 末子大学卒業までの生活費・教育費（3,000-5,000万円）</li>
+          <li><strong>子独立後</strong>: 葬儀代＋配偶者の生活費数年分</li>
+        </ul>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">おすすめの保険タイプ</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>収入保障保険: 死亡時に月額で受け取れる掛け捨て。子育て世帯に最適</li>
+          <li>定期保険: 一定期間の死亡保障。更新型・全期型を選択</li>
+          <li>就業不能保険: 長期の働けない期間をカバー。社会保険との兼ね合いを確認</li>
+          <li>医療保険: 公的保険で大半カバーされるため、必要性は低め</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="保険見直しで家計改善"
+        description="不要な保険を整理して投資資金に回すと、資産形成スピードが加速します。無料相談で見直しを。"
+        buttonText="家計改善ガイドを見る"
+        href="/guide/household-budget-apps"
+        external={false}
+        icon="🛡️"
+      />
+    </>
+  ),
+  "kids-education-fund": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">教育資金の準備方法：学資保険 vs 新NISA</h2>
+        <p>
+          子ども1人の教育費は幼稚園〜大学まで約1,000-2,500万円。効率よく貯めるなら、低リターンの学資保険よりも<strong>新NISAつみたて投資枠での長期運用</strong>が現実的です。必要時期が決まっている資金は、時期が近づいたら現金化していく戦略が基本。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">学資保険のメリット・デメリット</h2>
+        <div className="rounded-xl border border-card-border bg-card-bg p-5">
+          <p className="text-sm"><strong>メリット:</strong> 返戻率105-110%程度の確実性、契約者死亡時の払込免除特約</p>
+          <p className="text-sm mt-2"><strong>デメリット:</strong> インフレに弱い、中途解約で元本割れ、利回りが低い（年0.5%前後）</p>
+        </div>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">新NISAでの教育資金準備</h2>
+        <div className="rounded-xl border border-card-border bg-card-bg p-5">
+          <p className="text-sm"><strong>0歳から月3万円を18年積立、年利5%</strong></p>
+          <ul className="text-sm mt-2 space-y-1">
+            <li>元本: 648万円</li>
+            <li>運用後資産: 約1,070万円</li>
+            <li>運用益: 約420万円（NISAなら非課税）</li>
+          </ul>
+          <p className="text-xs text-muted mt-2">※相場下落リスクあり。大学進学の3-5年前から徐々に現金化を推奨。</p>
+        </div>
+      </section>
+      <AffiliateCTA
+        title="新NISAで教育資金準備を始める"
+        description="SBI証券・楽天証券ならクレカ積立でポイントも貯まりお得。長期積立の第一歩に。"
+        buttonText="ネット証券比較を見る"
+        href="/guide/nisa-broker-ranking-2026"
+        external={false}
+        icon="🎓"
+      />
+    </>
+  ),
+  "crowdworks-vs-lancers": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">国内2大クラウドソーシングを徹底比較</h2>
+        <p>
+          副業で在宅ワークを始めるなら、<strong>クラウドワークスとランサーズ</strong>の2強が鉄板。両方登録して案件を見比べるのが鉄則ですが、それぞれに強みがあるので用途に合わせて使い分けが重要です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="クラウドワークス vs ランサーズ"
+        services={[
+          {
+            name: "クラウドワークス",
+            rank: 1,
+            highlight: "会員数500万超｜案件数国内最大",
+            features: [
+              "案件カテゴリー 200種類以上",
+              "初心者向けの簡単タスクが豊富",
+              "サイト設計が使いやすい",
+              "システム手数料5-20%（報酬額による）",
+            ],
+            href: "https://crowdworks.jp/",
+            badge: "初心者向けNo.1",
+          },
+          {
+            name: "ランサーズ",
+            rank: 2,
+            highlight: "プロ向け案件が豊富｜認定制度で高単価獲得",
+            features: [
+              "エンジニア・デザイナー向け案件が多い",
+              "認定ランサー制度で信頼性アピール可能",
+              "直接契約（Lancers Pro）もあり",
+              "システム手数料5-20%（報酬額による）",
+            ],
+            href: "https://www.lancers.jp/",
+            badge: "プロ向け",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">稼ぎ方のコツ</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>プロフィールを充実させて信頼性を演出</li>
+          <li>最初は低単価でも実績を積む（評価★5を貯める）</li>
+          <li>継続案件をゲットして時給換算を上げる</li>
+          <li>得意分野を絞って専門家としてブランディング</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="会社員の副業ランキングもチェック"
+        description="クラウドソーシング以外にも、月5万円以上狙える副業を一覧比較しています。"
+        buttonText="副業ランキングを見る"
+        href="/guide/side-business-ranking-2026"
+        external={false}
+        icon="💼"
+      />
+    </>
+  ),
+  "blog-side-business": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">ブログ副業で月5万円を稼ぐロードマップ</h2>
+        <p>
+          ブログ副業の魅力は、一度仕組みを作れば<strong>ストック収入として継続的に稼げる</strong>こと。月5万円を目指すなら、WordPress+独自ドメインで専門性の高いジャンルを選び、SEO対策とアフィリエイトを組み合わせるのが王道。10ヶ月〜1年で目標到達が現実的です。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">セットアップ手順（所要時間2時間）</h2>
+        <ol className="list-decimal list-inside space-y-1 text-sm">
+          <li>独自ドメインを取得（ムームードメイン・お名前.com、年1,500円程度）</li>
+          <li>レンタルサーバーを契約（エックスサーバー・ConoHa WINGが定番、月1,000円程度）</li>
+          <li>WordPressをインストール（サーバー管理画面から1クリック）</li>
+          <li>テーマを選定（Cocoon無料・SWELL有料の使い勝手が良い）</li>
+          <li>ASP登録（A8.net、もしもアフィリエイト、バリューコマース）</li>
+        </ol>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">稼げるジャンル・キーワード選定</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li><strong>金融系</strong>: クレカ・FX・仮想通貨・証券口座（1件10,000円超）</li>
+          <li><strong>転職・スキルアップ</strong>: 転職エージェント・プログラミングスクール（1件10,000-30,000円）</li>
+          <li><strong>美容・健康</strong>: 脱毛・サプリ・化粧品（1件3,000-10,000円）</li>
+          <li><strong>通信・WiFi</strong>: 光回線・モバイルWiFi（1件10,000円超）</li>
+          <li><strong>サブスク系</strong>: VOD・電子書籍・食材宅配（1件1,000-3,000円）</li>
+        </ul>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">収益化までの期間目安</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>3ヶ月: 記事数30-50本、月数百円〜数千円</li>
+          <li>6ヶ月: 記事数80-100本、月1-3万円</li>
+          <li>10-12ヶ月: 記事数150本、SEO上位獲得、月5-10万円</li>
+          <li>1.5年以降: 月20万円〜の人も登場</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="ブログ副業を本格的に始めよう"
+        description="WordPress・サーバー契約、ASP登録までの流れを詳しく解説。副業ランキングも参考に。"
+        buttonText="副業ランキングを見る"
+        href="/guide/side-business-ranking-2026"
+        external={false}
+        icon="💻"
+      />
+    </>
+  ),
+  "stock-beginner-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">株式投資の基礎知識</h2>
+        <p>
+          株式投資は、企業の株主になることで<strong>値上がり益（キャピタルゲイン）・配当（インカムゲイン）・株主優待</strong>の3つのリターンを得られる投資方法。新NISAの成長投資枠を使えば年240万円まで非課税で運用できます。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">初心者が失敗しない7つのルール</h2>
+        <ol className="list-decimal list-inside space-y-1 text-sm">
+          <li><strong>信用取引（借金取引）は絶対にしない</strong> - 現物取引のみで始める</li>
+          <li><strong>1銘柄に集中投資しない</strong> - 最低5-10銘柄に分散</li>
+          <li><strong>資金の全額を投資しない</strong> - 余裕資金のみ</li>
+          <li><strong>チャートで売買しない</strong> - 業績・財務の良い企業を選ぶ</li>
+          <li><strong>SNSの投資情報を鵜呑みにしない</strong> - 自分の頭で判断</li>
+          <li><strong>長期保有を基本</strong> - 短期売買は税金・手数料で不利</li>
+          <li><strong>損切りルールを事前に決める</strong> - 感情で売買しない</li>
+        </ol>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">初心者向け銘柄選びのコツ</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>自分が知っている企業・使っているサービスの会社を選ぶ</li>
+          <li>配当利回り3%以上の安定企業から始める</li>
+          <li>時価総額1,000億円以上の大型株を中心に（倒産リスク低）</li>
+          <li>10年以上連続増配している企業は信頼できる</li>
+          <li>PER15倍以下、PBR1倍前後の割安株を狙う</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="手数料0円のネット証券で株式投資を始める"
+        description="SBI証券・楽天証券・マネックス証券なら国内株式の売買手数料が0円。新NISA対応で非課税運用も。"
+        buttonText="ネット証券比較を見る"
+        href="/guide/nisa-broker-ranking-2026"
+        external={false}
+        icon="📊"
+      />
+    </>
+  ),
+  "etf-vs-mutual-fund": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">ETFと投資信託、何が違う？</h2>
+        <p>
+          ETFは「上場投資信託」の略で、<strong>株式と同じように証券取引所で売買できる投資信託</strong>。一方、一般的な投資信託は1日1回の基準価額で取引します。両者にはコスト・使い勝手・流動性に明確な違いがあります。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">ETFと投資信託の比較</h2>
+        <div className="rounded-xl border border-card-border bg-card-bg p-5">
+          <ul className="text-sm space-y-2">
+            <li><strong>売買単位</strong>: ETFは1口から（価格は数千円〜）／投信は100円から</li>
+            <li><strong>信託報酬</strong>: ETFは低い（年0.03-0.5%）／投信も低コスト化進行（0.1%-1.5%）</li>
+            <li><strong>売買タイミング</strong>: ETFはリアルタイム／投信は1日1回</li>
+            <li><strong>分配金</strong>: ETFは自動再投資不可／投信は自動再投資可</li>
+            <li><strong>ポイント還元</strong>: ETFはクレカ積立対象外（一部例外）／投信はクレカ積立可</li>
+            <li><strong>為替手数料</strong>: 米国ETFは発生／国内投信は不要</li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">どちらを選ぶべきか</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li><strong>少額からコツコツ積立</strong>→ 投資信託（新NISAつみたて投資枠で）</li>
+          <li><strong>配当を定期的に受け取りたい</strong>→ 高配当ETF（VYM・HDV等）</li>
+          <li><strong>コストを極限まで抑えたい</strong>→ 米国ETF（VTI・VOO・VT）</li>
+          <li><strong>迷ったら</strong>→ 新NISA成長枠で米国ETF、つみたて枠で全世界投信</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="ETF・投信どちらも買える万能証券は？"
+        description="SBI証券・楽天証券なら国内投信・米国ETFどちらも充実ラインナップ。新NISA対応。"
+        buttonText="ネット証券比較を見る"
+        href="/guide/nisa-broker-ranking-2026"
+        external={false}
+        icon="📊"
+      />
+    </>
+  ),
 };

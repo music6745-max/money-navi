@@ -189,6 +189,62 @@ export const tools: Tool[] = [
     icon: "👴",
     category: "ideco",
   },
+  {
+    slug: "mortgage-refinance",
+    name: "住宅ローン借換シミュレーター",
+    description: "現在の残債・金利と新規ローンの金利から借換による総支払額の削減効果を計算。",
+    icon: "🔄",
+    category: "household",
+  },
+  {
+    slug: "medical-deduction",
+    name: "医療費控除計算",
+    description: "年間の医療費から還付される所得税・住民税の合計額を計算。確定申告の参考に。",
+    icon: "💊",
+    category: "household",
+  },
+  {
+    slug: "gift-tax",
+    name: "贈与税計算",
+    description: "贈与額から暦年課税・相続時精算課税の贈与税額を計算。非課税枠110万円も考慮。",
+    icon: "🎁",
+    category: "household",
+  },
+  {
+    slug: "inheritance-tax",
+    name: "相続税概算",
+    description: "遺産総額・法定相続人の数から相続税の概算額を計算。基礎控除・税率を自動適用。",
+    icon: "📜",
+    category: "household",
+  },
+  {
+    slug: "retirement-payment-tax",
+    name: "退職金税金計算",
+    description: "退職金額・勤続年数から所得税・住民税を計算。退職所得控除も自動適用。",
+    icon: "💼",
+    category: "sidejob",
+  },
+  {
+    slug: "rent-vs-buy",
+    name: "賃貸 vs 持ち家比較",
+    description: "家賃・住宅ローン・維持費から長期的にどちらがお得かを試算。30年トータルコスト比較。",
+    icon: "🏡",
+    category: "household",
+  },
+  {
+    slug: "car-maintenance-cost",
+    name: "自動車維持費シミュレーター",
+    description: "ガソリン代・保険・税金・車検・駐車場代から年間の自動車維持費を計算。",
+    icon: "🚗",
+    category: "household",
+  },
+  {
+    slug: "debt-repayment",
+    name: "借金返済シミュレーター",
+    description: "借入額・金利・返済額から完済までの期間と総支払額を計算。繰上返済効果も。",
+    icon: "💸",
+    category: "household",
+  },
 ];
 
 export function getToolBySlug(slug: string) {
