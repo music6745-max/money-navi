@@ -4056,6 +4056,554 @@ const guideContents: Record<string, React.ReactNode> = {
       </section>
     </>
   ),
+  "mortgage-refinance-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">住宅ローン借り換えで総返済額300万円減も現実的</h2>
+        <p>
+          2026年は歴史的低金利で、<strong>10年前に借りた住宅ローンからの借り換えチャンス</strong>です。残高1,500万円以上・残期間10年以上・金利差1%以上の3条件が揃えば、諸費用を差し引いても総返済額を<strong>200〜500万円圧縮できるケース</strong>が多数。月々の返済額も2〜3万円減り、家計にゆとりが生まれます。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">借り換え判定の3条件</h2>
+        <div className="rounded-xl border border-card-border bg-card-bg p-5">
+          <ol className="list-decimal list-inside space-y-2 text-sm">
+            <li><strong>残高1,500万円以上</strong>: 元本が大きいほど金利差の効果が大きい</li>
+            <li><strong>残期間10年以上</strong>: 短期間だと諸費用の元が取れない</li>
+            <li><strong>現在の金利との差が1%以上</strong>: 0.5%差だと諸費用で相殺される場合あり</li>
+          </ol>
+          <p className="text-xs text-muted mt-3">※3条件すべて満たすと、ほぼ確実に借り換えメリットあり</p>
+        </div>
+      </section>
+      <ComparisonTableCTA
+        title="2026年 借り換えにおすすめネット銀行"
+        services={[
+          {
+            name: "住信SBIネット銀行",
+            rank: 1,
+            highlight: "変動0.298%｜全疾病団信0円｜借り換え手続きオンライン完結",
+            features: [
+              "借り換え後の金利は業界最安水準0.298%〜",
+              "全疾病保障団信が無料付帯（他行なら0.3%上乗せ）",
+              "他行から移す際の諸費用シミュレーションが丁寧",
+              "団信切替で保障アップ＋金利ダウンのダブル効果",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=3TDBVB+99J9MY+50+2HEFRR",
+            badge: "借換えNo.1",
+          },
+          {
+            name: "auじぶん銀行",
+            rank: 2,
+            highlight: "変動0.329%｜がん50%保障団信が無料",
+            features: [
+              "借り換え実績No.1クラス",
+              "がん50%保障＋全疾病長期入院保障が無料",
+              "auユーザーは追加金利優遇あり",
+              "web申込で事務手数料定額プランも選べる",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=3ZCOXE+96LG9M+50+2HE0PB",
+            badge: "保障重視",
+          },
+          {
+            name: "PayPay銀行",
+            rank: 3,
+            highlight: "変動0.330%｜がん50%保障が標準搭載",
+            features: [
+              "がん50%保障団信が無料付帯",
+              "借り換え専用シミュレーションが充実",
+              "スマホで完結する借り換えフロー",
+              "Yahoo!マネー・PayPay連携でサポート充実",
+            ],
+            href: "https://www.paypay-bank.co.jp/mortgage/",
+            badge: "がん保障",
+          },
+          {
+            name: "楽天銀行 フラット35",
+            rank: 4,
+            highlight: "フラット35への借り換えで金利固定化",
+            features: [
+              "変動からフラット35へ借り換えで金利上昇リスク回避",
+              "楽天会員は事務手数料優遇",
+              "返済中に金利が上がらない安心感",
+              "繰上返済手数料無料",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=3HBJZZ+CG4HT6+3AYK+5YZ77",
+            badge: "固定金利",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">借り換え実例：残高2,500万円・残25年・金利1.5%→0.35%</h2>
+        <div className="rounded-xl border border-card-border bg-card-bg p-5">
+          <ul className="text-sm space-y-2">
+            <li><strong>現状</strong>: 総返済額3,000万円（残500万円の利息込み）</li>
+            <li><strong>借り換え後</strong>: 総返済額2,608万円（利息108万円）</li>
+            <li><strong>諸費用</strong>: 登記費用＋事務手数料＋印紙代で約80万円</li>
+            <li><strong>総節約額</strong>: 3,000万-2,608万-80万＝<strong>312万円の節約</strong></li>
+            <li><strong>月返済額</strong>: 10.5万円→8.7万円（月1.8万円減）</li>
+          </ul>
+        </div>
+      </section>
+      <AffiliateCTA
+        title="モゲチェックで借り換えシミュレーション【無料】"
+        description="現在の借入情報を入力するだけで、最大5社の借り換え後金利・諸費用・総節約額を一括比較。AIが最適プランを診断。営業電話なしで安心。"
+        buttonText="無料で借り換え診断"
+        href="https://px.a8.net/svt/ejp?a8mat=3HBJZZ+9OD3ZM+3Y0C+5YZ75"
+        icon="🏠"
+        highlight="完全無料"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">借り換え時の諸費用 相場</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>事務手数料：借入額×2.2%（定率型）or 33,000円〜（定額型）</li>
+          <li>抵当権抹消・設定登記：15〜20万円</li>
+          <li>司法書士報酬：5〜10万円</li>
+          <li>印紙代：2万円</li>
+          <li>保証料：借入期間・金額で0〜60万円</li>
+          <li><strong>合計目安：60〜90万円（定率型）／40〜60万円（定額型）</strong></li>
+        </ul>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">借り換え審査で落ちないためのコツ</h2>
+        <ol className="list-decimal list-inside space-y-2 text-sm">
+          <li>転職直後は避ける（勤続1年未満は減点）</li>
+          <li>カードローン・キャッシング残高は0に</li>
+          <li>クレカのリボ払い残高も返済</li>
+          <li>年収と借入残高のバランス（年収の5倍以内が目安）</li>
+          <li>健康状態で団信加入可能か確認（持病があればワイド団信）</li>
+        </ol>
+      </section>
+    </>
+  ),
+  "social-lending-comparison": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">利回り4〜8%、少額から始められる貸付型クラウドファンディング</h2>
+        <p>
+          ソーシャルレンディング（貸付型クラウドファンディング）は、<strong>1万円から始められて年利4〜8%の利回り</strong>が期待できる投資手段。株式より値動きが小さく、銀行預金より圧倒的に高利回り。<strong>新NISAや株で一通り積立している人の次の一手</strong>として注目されています。ただし元本保証ではなく、案件選定のスキルが鍵です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="2026年 ソーシャルレンディングおすすめランキング"
+        services={[
+          {
+            name: "Funds",
+            rank: 1,
+            highlight: "上場企業案件中心｜利回り1.5〜3%｜低リスク",
+            features: [
+              "貸付先の大半が上場企業・関連会社",
+              "運用期間3〜18ヶ月と短期で資金拘束短い",
+              "1円単位で投資可能、少額分散に最適",
+              "貸倒れ実績ゼロ（2026年時点）",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=3HDFZG+D9RFJE+4QW6+5YZ77",
+            badge: "安全性重視",
+          },
+          {
+            name: "クラウドバンク",
+            rank: 2,
+            highlight: "累計応募総額2,000億円超｜利回り5〜7%",
+            features: [
+              "証券会社運営で金融庁第一種金融商品取引業者",
+              "不動産・再生可能エネルギー・中小企業支援ファンド",
+              "償還実績で貸倒れ率業界最低水準",
+              "1万円から投資可能",
+            ],
+            href: "https://crowdbank.jp/",
+            badge: "バランス型",
+          },
+          {
+            name: "OwnersBook",
+            rank: 3,
+            highlight: "不動産特化｜利回り4〜6%｜運営会社東証プライム",
+            features: [
+              "国内不動産プロジェクト特化",
+              "運営のロードスターキャピタルは東証プライム上場",
+              "担保付き案件が中心で信用リスク低減",
+              "1万円から、運用期間6〜24ヶ月",
+            ],
+            href: "https://www.ownersbook.jp/",
+            badge: "不動産特化",
+          },
+          {
+            name: "CREAL",
+            rank: 4,
+            highlight: "不動産小口化｜1万円から｜優先劣後方式",
+            features: [
+              "不動産クラウドファンディングで10万円〜",
+              "優先劣後方式で投資家の元本優先保護",
+              "マンション・ホテル・保育園等多様な案件",
+              "運用期間1〜3年、利回り4〜5%",
+            ],
+            href: "https://creal.jp/",
+            badge: "新興注目",
+          },
+          {
+            name: "SAMURAI FUND",
+            rank: 5,
+            highlight: "高利回り7〜8%｜案件選別がカギ",
+            features: [
+              "利回り業界最高水準7〜8%",
+              "担保・保証付き案件も多い",
+              "中小企業向け融資ファンド中心",
+              "1万円から、運用期間6〜12ヶ月",
+            ],
+            href: "https://samurai-fund.jp/",
+            badge: "高利回り",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">ソーシャルレンディングのメリット・デメリット</h2>
+        <div className="rounded-xl border border-card-border bg-card-bg p-5">
+          <ul className="text-sm space-y-2">
+            <li><strong>◎値動きがない</strong>: 株式と違い運用期間中の価格変動なし、精神的にラク</li>
+            <li><strong>◎少額から分散</strong>: 1万円で複数案件に分散投資可能</li>
+            <li><strong>◎銀行預金より圧倒的高利回り</strong>: 定期預金0.2% vs SL 4〜8%</li>
+            <li><strong>△中途解約不可</strong>: 運用期間中は引き出せない（生活費は別確保）</li>
+            <li><strong>△貸倒れリスク</strong>: 元本保証なし、運営会社の破綻リスクもゼロではない</li>
+            <li><strong>△税制優遇なし</strong>: 新NISAやiDeCoと違い、利益は雑所得・総合課税</li>
+          </ul>
+        </div>
+      </section>
+      <AffiliateCTA
+        title="Fundsで投資を始める【口座開設無料】"
+        description="Fundsは上場企業案件中心で安全性重視派に人気。1円単位で投資可能、運用期間も短く、初心者のソシャレン入門に最適。新規口座開設キャンペーン実施中。"
+        buttonText="Fundsで口座開設"
+        href="https://px.a8.net/svt/ejp?a8mat=3HDFZG+D9RFJE+4QW6+5YZ77"
+        icon="🏦"
+        highlight="上場企業案件"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">分散投資の黄金パターン</h2>
+        <ol className="list-decimal list-inside space-y-2 text-sm">
+          <li><strong>3〜5社に口座開設</strong>: 運営会社リスクの分散が必須</li>
+          <li><strong>1案件への投資上限を設ける</strong>: 総資産の5%まで、など自己ルール</li>
+          <li><strong>利回り・期間・担保の3軸で選ぶ</strong>: 高利回りだけを追わない</li>
+          <li><strong>新NISA・iDeCoをフル活用した上での余剰資金で</strong>: 税制優遇の方が優先</li>
+          <li><strong>運用途中の情報開示を確認</strong>: 貸付先の状況レポートが定期的に出る運営会社を選ぶ</li>
+        </ol>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">ソシャレン投資家が払う税金</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>分配金は<strong>雑所得</strong>扱い、総合課税（最大55%）</li>
+          <li>源泉徴収20.42%後の金額が振り込まれる</li>
+          <li>会社員の場合、年20万円超で確定申告必要</li>
+          <li>損失は他のソシャレン・雑所得との内部通算のみ可（株式の譲渡損とは通算不可）</li>
+          <li>FX・仮想通貨と同様、新NISAでは使えない税優遇対象外商品</li>
+        </ul>
+      </section>
+    </>
+  ),
+  "education-insurance-comparison": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">学資保険は「今の時代」本当に必要か？</h2>
+        <p>
+          学資保険の返戻率は近年低下し、主要商品でも<strong>105〜108%程度</strong>。一方、新NISAで月2万円を18年積立（年5%運用想定）なら<strong>約700万円</strong>（元本432万円、利益約268万円・返戻率162%）。<strong>リターンだけなら新NISAが圧倒的に有利</strong>ですが、学資保険には「親の死亡時に保険料払込免除＋満期金支払」という固有のメリットがあります。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="2026年 学資保険おすすめ比較"
+        services={[
+          {
+            name: "ソニー生命 学資金準備スクエア",
+            rank: 1,
+            highlight: "返戻率108%前後｜業界最高水準",
+            features: [
+              "全期前納＋短期払いで返戻率108%超",
+              "払込期間10年・15年・18年から選択",
+              "大学進学時にまとめて受取 or 分割受取",
+              "契約者死亡で以後保険料免除、満期金は確実受取",
+            ],
+            href: "https://www.sonylife.co.jp/examine/plan/gakushi/",
+            badge: "返戻率No.1",
+          },
+          {
+            name: "明治安田生命 つみたて学資",
+            rank: 2,
+            highlight: "返戻率107%前後｜シンプル設計",
+            features: [
+              "払込期間10年・15年で早めに完済",
+              "大学4年間に分けて受取できる据置オプション",
+              "契約者死亡で払込免除",
+              "ネット申込で書類簡素",
+            ],
+            href: "https://www.meijiyasuda.co.jp/find2/savings/list/tsumitate-gakushi/",
+            badge: "シンプル",
+          },
+          {
+            name: "日本生命 ニッセイ学資保険",
+            rank: 3,
+            highlight: "入学祝金あり｜手厚いサポート",
+            features: [
+              "幼稚園・小・中・高・大学それぞれで祝金あり",
+              "満期受取金と祝金を組み合わせ可能",
+              "営業担当によるサポート充実",
+              "返戻率104〜106%",
+            ],
+            href: "https://www.nissay.co.jp/keiyaku/gakushi/",
+            badge: "祝金あり",
+          },
+          {
+            name: "フコク生命 みらいのつばさ",
+            rank: 4,
+            highlight: "ジャンプ型で大学進学時に手厚い",
+            features: [
+              "ジャンプ型：大学進学時に受取集中",
+              "兄弟割引制度あり",
+              "返戻率105〜107%",
+              "契約者死亡で払込免除＋満期金確実",
+            ],
+            href: "https://www.fukoku-life.co.jp/benefit/lineup/mirai/",
+            badge: "兄弟割",
+          },
+          {
+            name: "新NISA つみたて投資枠（代替案）",
+            rank: 5,
+            highlight: "18年で返戻率160%超も可能（期待値）",
+            features: [
+              "月2万円×18年×年5%＝約700万円（元本432万円）",
+              "運用リスクはあるが長期・分散で軽減",
+              "途中で資金が必要になっても売却可",
+              "子供の教育以外の目的にも使える柔軟性",
+            ],
+            href: "/guide/nisa-broker-ranking-2026",
+            badge: "高リターン",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">子供の年齢別 教育資金戦略</h2>
+        <div className="rounded-xl border border-card-border bg-card-bg p-5">
+          <ul className="text-sm space-y-2">
+            <li><strong>0〜3歳</strong>: 学資保険＋新NISAの併用（時間を味方に）</li>
+            <li><strong>4〜7歳</strong>: 学資保険の返戻率が下がる時期、新NISA比率アップ</li>
+            <li><strong>8〜10歳</strong>: 新NISAメイン＋現金預金で元本確保</li>
+            <li><strong>11歳以降</strong>: 学資保険加入不可の会社多数、新NISA＋積立預金</li>
+            <li><strong>共通</strong>: 児童手当（0〜15歳で総額200万円前後）を全額貯蓄・投資に回す</li>
+          </ul>
+        </div>
+      </section>
+      <AffiliateCTA
+        title="無料保険相談で学資保険と新NISA比較【オンラインOK】"
+        description="独立系FPが学資保険・新NISA・収入保障保険を含めた最適な教育資金プランを中立的に提案。勧誘なし・完全無料の相談が全国でオンライン可。"
+        buttonText="無料相談を予約する"
+        href="https://px.a8.net/svt/ejp?a8mat=3HDFZG+73A1FM+3UXW+60WNR"
+        icon="🎓"
+        highlight="完全無料"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">学資保険の固有メリット（新NISAにないもの）</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>契約者死亡時の保険料払込免除＋満期金支払い</li>
+          <li>強制的に貯蓄できる（途中解約は損失発生のため継続しやすい）</li>
+          <li>所得税・住民税の生命保険料控除対象</li>
+          <li>受取時の課税優遇（一時所得扱い、50万円控除＋1/2課税）</li>
+          <li>元本確保型（途中解約せず満期なら元本割れなし）</li>
+        </ul>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">結論：ハイブリッド戦略が最適</h2>
+        <p>
+          <strong>「学資保険で保障＋新NISAでリターン」のハイブリッド運用</strong>がおすすめ。学資保険は月1〜1.5万円程度で必要最小限の保障を確保し、残りの2〜3万円を新NISAで積立てる方式。これなら親の万一に備えつつ、教育費として700〜1,000万円の資産形成が可能です。
+        </p>
+      </section>
+    </>
+  ),
+  "tax-filing-software-comparison": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">副業・フリーランスなら確定申告ソフトで年65万円の節税</h2>
+        <p>
+          副業所得が年20万円超の会社員・フリーランスは確定申告が必要。青色申告にすれば<strong>年65万円の所得控除</strong>が受けられ、年収500万円の人なら<strong>約13万円の節税</strong>になります。会計ソフトを使えば簿記の知識ゼロでも青色申告65万円控除を実現でき、導入価値は明確です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="2026年 確定申告ソフトおすすめ比較"
+        services={[
+          {
+            name: "freee会計",
+            rank: 1,
+            highlight: "簿記知識ゼロでもOK｜スマホアプリ最強",
+            features: [
+              "質問に答えるだけで青色申告書が完成",
+              "スマホで領収書撮影→自動仕訳",
+              "銀行・クレカの明細自動連携",
+              "スタータープラン 年11,760円〜",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=3HBLVN+C7M3F6+2HOM+5YZ75",
+            badge: "初心者No.1",
+          },
+          {
+            name: "マネーフォワード クラウド確定申告",
+            rank: 2,
+            highlight: "会計知識ある人向け｜連携サービス最多",
+            features: [
+              "2,500以上のサービスと自動連携",
+              "銀行・証券・カード等の取引データ自動取込",
+              "複式簿記で本格会計",
+              "パーソナルプラン 年11,760円〜",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=3HBLVN+DLIEAE+0K+10DNE1",
+            badge: "連携最強",
+          },
+          {
+            name: "やよいの青色申告オンライン",
+            rank: 3,
+            highlight: "初年度無料｜老舗の安心感",
+            features: [
+              "セルフプラン初年度無料、2年目以降年8,800円",
+              "会計ソフト老舗の弥生が提供",
+              "サポート付きプランも選べる",
+              "シンプルな画面で作業に迷わない",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=3HBLVN+EBO3FE+C8E+5YRHE",
+            badge: "初年度無料",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">青色申告65万円控除を取るための3条件</h2>
+        <div className="rounded-xl border border-card-border bg-card-bg p-5">
+          <ol className="list-decimal list-inside space-y-2 text-sm">
+            <li><strong>複式簿記での記帳</strong>: 会計ソフトを使えば自動で対応</li>
+            <li><strong>貸借対照表＋損益計算書の提出</strong>: ソフトが自動作成</li>
+            <li><strong>e-Tax電子申告 or 電子帳簿保存</strong>: freee/マネフォ/弥生は全対応</li>
+          </ol>
+          <p className="text-xs text-muted mt-3">※1つでも欠けると55万円控除に減額、すべて欠けると10万円控除に</p>
+        </div>
+      </section>
+      <AffiliateCTA
+        title="freee会計で青色申告デビュー【30日間無料】"
+        description="会計知識ゼロでも、スマホで撮るだけで仕訳完了。freeeなら年13万円の節税効果を簿記スキルなしで実現。30日間無料トライアル実施中。"
+        buttonText="freee会計を無料で試す"
+        href="https://px.a8.net/svt/ejp?a8mat=3HBLVN+C7M3F6+2HOM+5YZ75"
+        icon="📝"
+        highlight="30日間無料"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">副業収入別 おすすめソフト</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li><strong>副業売上 年20〜100万円</strong>: 弥生（初年度無料）で試す</li>
+          <li><strong>副業売上 年100〜500万円</strong>: freeeで簿記スキル不要の青色申告</li>
+          <li><strong>フリーランス本業 年500万円以上</strong>: マネーフォワードで本格会計</li>
+          <li><strong>インボイス登録事業者</strong>: どのソフトもインボイス自動対応</li>
+        </ul>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">確定申告で差がつくポイント</h2>
+        <ol className="list-decimal list-inside space-y-2 text-sm">
+          <li>副業用のクレカ・銀行口座を分離（経費集計が即完了）</li>
+          <li>領収書は月次でまとめてクラウド保管（電子帳簿保存法対応）</li>
+          <li>家事按分で自宅作業スペース・通信費・電気代を経費化</li>
+          <li>小規模企業共済（年84万円）で追加所得控除</li>
+          <li>経営セーフティ共済（年240万円）で節税＋準備金</li>
+        </ol>
+      </section>
+    </>
+  ),
+  "inheritance-planning-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">相続税は年110万円の暦年贈与で合法節税</h2>
+        <p>
+          2024年の税制改正で相続税の課税ラインが下がり、<strong>相続税を払う家庭は全体の約10%</strong>に増加。年間110万円までの贈与は非課税で、<strong>10年間コツコツ贈与すれば親から子へ1人1,100万円を無税で移せます</strong>。2人の子なら2,200万円、孫も含めれば数千万円単位の節税が可能。早めの生前対策が鉄則です。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">3つの贈与制度の使い分け</h2>
+        <div className="rounded-xl border border-card-border bg-card-bg p-5">
+          <ul className="text-sm space-y-2">
+            <li><strong>暦年贈与</strong>: 年110万円まで非課税、長期間で大きな節税効果</li>
+            <li><strong>相続時精算課税</strong>: 累計2,500万円まで贈与税なし、2024年から年110万円の基礎控除追加</li>
+            <li><strong>教育資金一括贈与</strong>: 祖父母→孫に最大1,500万円非課税（2026年3月末まで）</li>
+            <li><strong>結婚・子育て資金一括贈与</strong>: 最大1,000万円非課税（2027年3月末まで）</li>
+            <li><strong>住宅取得等資金贈与</strong>: 最大1,000万円非課税（省エネ住宅）</li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">2024年改正：生前贈与の加算期間が7年に延長</h2>
+        <p>
+          従来は相続開始前3年間の贈与のみ相続税に加算されていましたが、<strong>2024年からは7年間に延長</strong>（段階的に移行、2031年以降は完全7年）。「もらった年のタイミング次第で相続税対象」となるため、<strong>早めに贈与開始する戦略的な重要性が増しました</strong>。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="相続対策おすすめ金融商品"
+        services={[
+          {
+            name: "生命保険（一時払終身）",
+            rank: 1,
+            highlight: "500万円×法定相続人数が非課税",
+            features: [
+              "死亡保険金は500万円×法定相続人数まで非課税",
+              "相続人3人なら1,500万円を無税で渡せる",
+              "現金のまま相続すると全額課税対象",
+              "一時払終身保険で高齢者でも加入可",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=3HDFZG+73A1FM+3UXW+60WNR",
+            badge: "節税No.1",
+          },
+          {
+            name: "不動産投資",
+            rank: 2,
+            highlight: "評価額圧縮で相続税を大幅減",
+            features: [
+              "不動産の相続税評価額は時価の60〜80%",
+              "賃貸用マンションなら貸家建付地で更に圧縮",
+              "1億円の現金→7,000万円の評価額",
+              "立地の良い物件なら流動性も確保",
+            ],
+            href: "/guide/real-estate-crowdfunding",
+            badge: "節税効果大",
+          },
+          {
+            name: "新NISA（次世代への承継）",
+            rank: 3,
+            highlight: "非課税運用で実質贈与額を増やす",
+            features: [
+              "親が新NISAで運用→子への贈与原資に",
+              "運用益非課税で長期で複利効果",
+              "年110万円の贈与枠で毎年移転",
+              "生前に計画的に資産移転可能",
+            ],
+            href: "/guide/nisa-broker-ranking-2026",
+            badge: "長期運用",
+          },
+        ]}
+      />
+      <AffiliateCTA
+        title="相続の無料相談【専門家にオンラインで】"
+        description="独立系FP＋税理士が相続対策・贈与プランを中立的に提案。現状の資産ヒアリング→最適プラン提示まで完全無料、勧誘なしで安心。"
+        buttonText="相続無料相談を予約"
+        href="https://px.a8.net/svt/ejp?a8mat=3HDFZG+73A1FM+3UXW+60WNR"
+        icon="🎁"
+        highlight="完全無料"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">世代別の相続対策ロードマップ</h2>
+        <ol className="list-decimal list-inside space-y-2 text-sm">
+          <li><strong>40代（贈与元が60〜70代）</strong>: 親世代と暦年贈与開始、教育資金一括贈与検討</li>
+          <li><strong>50代（贈与元が70〜80代）</strong>: 親の資産状況把握、相続税試算、一時払終身保険</li>
+          <li><strong>60代（自分が贈与者に）</strong>: 子・孫への暦年贈与計画、不動産組み換え</li>
+          <li><strong>70代</strong>: 相続時精算課税と暦年贈与の併用、遺言書作成</li>
+          <li><strong>80代</strong>: 生命保険活用（一時払）、認知症前にエンディングノート</li>
+        </ol>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">相続対策で失敗しないための5つの鉄則</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>贈与契約書を毎年作成（「名義預金」と認定されない）</li>
+          <li>贈与は受贈者名義の口座に振込（手渡し禁止）</li>
+          <li>贈与税申告が必要な年（年110万円超）は必ず申告</li>
+          <li>相続人全員が合意の遺産分割協議書を作成</li>
+          <li>相続開始から10ヶ月以内に相続税申告（過ぎると特例使えず）</li>
+        </ul>
+      </section>
+    </>
+  ),
   "housewife-investment-guide": (
     <>
       <section>
