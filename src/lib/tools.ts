@@ -2,7 +2,7 @@ export const siteConfig = {
   name: "マネーナビJP",
   description:
     "新NISA・iDeCo・ネット証券・ロボアド・仮想通貨・クレカ・副業まで、お金の比較とシミュレーターを無料で提供。投資・資産運用・節約の総合情報サイト。",
-  url: "https://money-navi.jp",
+  url: "https://money-navi.tokyo",
 };
 
 export interface Tool {

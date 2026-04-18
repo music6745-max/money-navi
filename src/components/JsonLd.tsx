@@ -108,7 +108,7 @@ export function ArticleJsonLd({
       name: "マネーナビJP",
       logo: {
         "@type": "ImageObject",
-        url: "https://money-navi.jp/favicon.ico",
+        url: "https://money-navi.tokyo/favicon.ico",
       },
     },
   };
