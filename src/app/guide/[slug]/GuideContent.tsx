@@ -2078,4 +2078,382 @@ const guideContents: Record<string, React.ReactNode> = {
       />
     </>
   ),
+  "sbi-securities-for-beginners": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">SBI証券で新NISAを始める手順（所要時間10分）</h2>
+        <p>
+          SBI証券の新NISA口座開設は<strong>スマホで最短10分</strong>で完了します。本人確認書類（マイナンバーカード or 運転免許証+通知カード）を準備して始めましょう。開設費用・維持費は完全無料です。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">口座開設の5ステップ</h2>
+        <ol className="list-decimal list-inside space-y-1 text-sm">
+          <li>SBI証券の公式サイトにアクセス→「口座開設」ボタンをタップ</li>
+          <li>メールアドレスを登録→認証コードを入力</li>
+          <li>個人情報入力（氏名・住所・電話番号・勤務先等）</li>
+          <li>「NISA口座も同時に開設」にチェック（忘れずに！）</li>
+          <li>本人確認書類をスマホで撮影→アップロード</li>
+        </ol>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">クレカ積立の設定（ポイント還元最大化）</h2>
+        <ol className="list-decimal list-inside space-y-1 text-sm">
+          <li>三井住友カードNL（年会費無料）またはゴールドNL（年100万円利用で年会費無料）を同時申込</li>
+          <li>マイページ→「投信積立」→「クレジットカード積立」を選択</li>
+          <li>積立金額（月1万円〜10万円）を設定</li>
+          <li>銘柄選択: 初心者は「eMAXIS Slim 全世界株式（オールカントリー）」または「S&P500」推奨</li>
+          <li>毎月の積立日を選択して設定完了</li>
+        </ol>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">審査完了までの期間</h2>
+        <p className="text-sm">
+          申込後、通常<strong>翌営業日〜1週間</strong>で審査完了の通知メールが届きます。NISA口座は税務署確認があるため、取引開始まで2-3週間かかる場合も。ただし「NISA口座仮開設」で先行して取引開始できる場合もあります。
+        </p>
+      </section>
+      <AffiliateCTA
+        title="SBI証券の公式サイトで口座開設を始める"
+        description="業界No.1のSBI証券で新NISAをスタート。三井住友カードNLと組み合わせてポイント還元を受けましょう。"
+        buttonText="SBI証券比較ガイドを見る"
+        href="/guide/sbi-securities-review"
+        external={false}
+        icon="📊"
+      />
+    </>
+  ),
+  "rakuten-securities-for-beginners": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">楽天証券で新NISAを始める手順</h2>
+        <p>
+          楽天経済圏のユーザーなら、楽天証券×楽天カードの組合せが最強。口座開設は<strong>最短10分</strong>で申込完了、翌営業日から取引開始可能です。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">口座開設の手順</h2>
+        <ol className="list-decimal list-inside space-y-1 text-sm">
+          <li>楽天証券公式サイト→「口座開設」をタップ</li>
+          <li>楽天会員なら楽天IDで連携ログイン（情報が自動入力）</li>
+          <li>NISA口座を同時申込にチェック</li>
+          <li>楽天銀行の口座開設も同時に（マネーブリッジで金利0.1%アップ）</li>
+          <li>本人確認書類アップロード→完了</li>
+        </ol>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">楽天カード積立の設定</h2>
+        <ol className="list-decimal list-inside space-y-1 text-sm">
+          <li>楽天カードを先に保有していること（未保有なら同時申込可）</li>
+          <li>マイページ→「積立設定」→「楽天カードクレジット決済」選択</li>
+          <li>月1,000円〜10万円の範囲で積立額設定（1%ポイント還元）</li>
+          <li>楽天キャッシュ積立も併用可能（さらに0.5%還元）</li>
+        </ol>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">楽天経済圏での連携設定</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>マネーブリッジ: 楽天銀行×楽天証券の連携で普通預金金利0.1%</li>
+          <li>ハッピープログラム: 楽天銀行の手数料優遇・ATM無料回数増加</li>
+          <li>SPU対象: 楽天市場のお買い物ポイントが+0.5〜1倍</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="楽天経済圏ユーザーなら楽天証券一択"
+        description="楽天カード積立1%還元＋楽天銀行連携で総合力No.1。新NISA・iDeCoの取扱商品も豊富。"
+        buttonText="楽天証券レビューを見る"
+        href="/guide/rakuten-securities-review"
+        external={false}
+        icon="📊"
+      />
+    </>
+  ),
+  "foreign-dividend-stocks": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">米国高配当株投資の魅力</h2>
+        <p>
+          米国株は<strong>50年以上連続増配の優良企業</strong>が多く、配当金による安定した不労所得を作るのに最適です。代表的な高配当ETFは利回り3-4%、個別株なら5-10%以上も可能。為替リスクはあるものの、長期的にドル建て資産を保有することで円安時にも安心感があります。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">代表的な米国高配当ETF</h2>
+        <div className="grid grid-cols-1 gap-3">
+          {[
+            { name: "VYM（バンガード米国高配当株式ETF）", yield: "約3%", feature: "S&P500上位400銘柄から選定、経費率0.06%超低コスト" },
+            { name: "HDV（iシェアーズ・コア米国高配当株ETF）", yield: "約3.5%", feature: "財務健全性を重視、75銘柄に絞り込み" },
+            { name: "SPYD（SPDR S&P500高配当ETF）", yield: "約4.5%", feature: "S&P500の上位80銘柄均等配分、利回り重視派向け" },
+            { name: "QYLD（NASDAQ100カバード・コール）", yield: "約11%", feature: "超高配当、ただし元本成長は期待しづらい" },
+          ].map((item, i) => (
+            <div key={i} className="rounded-xl border border-card-border bg-card-bg p-4">
+              <div className="flex justify-between items-start">
+                <h3 className="font-bold text-base">{item.name}</h3>
+                <span className="text-sm text-primary font-bold">{item.yield}</span>
+              </div>
+              <p className="text-sm mt-1 text-muted">{item.feature}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">配当金生活への道筋（月20万円を目指す）</h2>
+        <div className="rounded-xl border border-card-border bg-card-bg p-5">
+          <p className="text-sm">月20万円（年240万円）の配当を得るには:</p>
+          <ul className="text-sm space-y-1 mt-2">
+            <li>利回り3%の場合: <strong>8,000万円の投資元本</strong>必要</li>
+            <li>利回り4%の場合: <strong>6,000万円の投資元本</strong>必要</li>
+            <li>利回り5%の場合: <strong>4,800万円の投資元本</strong>必要</li>
+          </ul>
+          <p className="text-xs text-muted mt-3">※税金（米国10%+日本20.315%の二重課税）を考慮するとやや多めに必要</p>
+        </div>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">米国株投資におすすめのネット証券</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li><strong>マネックス証券</strong>: 取扱銘柄6,000超、為替手数料無料が強み</li>
+          <li><strong>SBI証券</strong>: 総合力No.1、米国株定期買付サービスあり</li>
+          <li><strong>楽天証券</strong>: 楽天ポイントで米国株買付可能</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="米国株取引に強いネット証券を比較"
+        description="マネックス・SBI・楽天など、米国株取扱数・手数料・使いやすさを総合比較。"
+        buttonText="ネット証券比較を見る"
+        href="/guide/nisa-broker-ranking-2026"
+        external={false}
+        icon="💵"
+      />
+    </>
+  ),
+  "ideco-vs-corporate-pension": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">iDeCo vs 企業型DC、会社員はどっちが有利？</h2>
+        <p>
+          企業型確定拠出年金（企業型DC）がある会社員の場合、iDeCoと併用できるケースと、どちらか一方しか選べないケースがあります。<strong>マッチング拠出の有無</strong>がまず確認ポイント。企業型DC単独よりも、個人の意思で選べるiDeCoの自由度が魅力です。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">それぞれの特徴比較</h2>
+        <div className="rounded-xl border border-card-border bg-card-bg p-5">
+          <p className="text-sm"><strong>iDeCo（個人型確定拠出年金）</strong></p>
+          <ul className="text-sm space-y-1 mt-1">
+            <li>金融機関・商品を自分で選択可能</li>
+            <li>低コストのインデックス投信が選べる</li>
+            <li>月2.3万円まで（企業年金なし会社員）</li>
+            <li>掛金全額所得控除</li>
+          </ul>
+          <p className="text-sm mt-3"><strong>企業型DC（企業型確定拠出年金）</strong></p>
+          <ul className="text-sm space-y-1 mt-1">
+            <li>会社が掛金を拠出（給与には含まれない）</li>
+            <li>商品ラインナップは会社指定（選択肢限定的）</li>
+            <li>マッチング拠出で追加拠出可能（会社による）</li>
+            <li>所得控除効果あり（マッチング拠出分）</li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">転職時の注意点</h2>
+        <p className="text-sm">
+          企業型DC加入者が転職する場合、資産を<strong>6ヶ月以内にiDeCoや転職先の企業型DCに移換</strong>する必要があります。放置すると国民年金基金連合会に自動移換され、運用されず手数料だけ引かれ続けるので必ず手続きを。
+        </p>
+      </section>
+      <AffiliateCTA
+        title="iDeCo口座開設ならネット証券が有利"
+        description="SBI証券・楽天証券・マネックス証券は運営管理手数料0円、取扱商品も豊富で節税効果を最大化。"
+        buttonText="iDeCo金融機関比較を見る"
+        href="/guide/ideco-broker-comparison"
+        external={false}
+        icon="🏦"
+      />
+    </>
+  ),
+  "taxable-vs-nisa": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">特定口座と新NISA口座の違い</h2>
+        <p>
+          投資信託や株式を購入する際、<strong>特定口座</strong>（課税される通常口座）と<strong>新NISA口座</strong>（非課税口座）の2種類があります。新NISAの年間投資枠（360万円）を使い切ったら、残りは特定口座で運用するのが基本パターン。税金で大きな差が出るため、優先順位を理解することが重要です。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">税金の違い（100万円の利益が出た場合）</h2>
+        <div className="rounded-xl border border-card-border bg-card-bg p-5">
+          <p className="text-sm"><strong>特定口座</strong>: 利益 × 20.315% = 20.3万円が税金 → 手取り79.7万円</p>
+          <p className="text-sm mt-2"><strong>新NISA口座</strong>: 利益 × 0% = <strong>0円</strong>（非課税） → 手取り100万円</p>
+          <p className="text-sm mt-2 text-primary font-bold">差額: 20.3万円</p>
+        </div>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">使い分けの優先順位</h2>
+        <ol className="list-decimal list-inside space-y-1 text-sm">
+          <li><strong>新NISAつみたて枠（年120万円）</strong>を最優先で埋める</li>
+          <li><strong>新NISA成長枠（年240万円）</strong>で追加投資</li>
+          <li>iDeCoで節税しながら追加運用</li>
+          <li>さらに余裕があれば特定口座で高配当株・ETF</li>
+        </ol>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">特定口座（源泉徴収あり vs なし）</h2>
+        <p className="text-sm">
+          特定口座には「源泉徴収あり」「源泉徴収なし」があります。<strong>源泉徴収あり</strong>なら確定申告不要で手間が省けますが、他の口座と損益通算したい場合は確定申告必要。サラリーマンは基本「源泉徴収あり」が便利です。
+        </p>
+      </section>
+      <AffiliateCTA
+        title="新NISA対応のネット証券で非課税運用"
+        description="新NISAを使わないと年20万円以上の税金を損する可能性も。口座開設・維持費は完全無料。"
+        buttonText="新NISA証券比較を見る"
+        href="/guide/nisa-broker-ranking-2026"
+        external={false}
+        icon="📊"
+      />
+    </>
+  ),
+  "fx-vs-stock-vs-crypto": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">代表的な投資先3つの比較</h2>
+        <p>
+          株式・FX・仮想通貨はそれぞれ<strong>リスク・リターン・税制・流動性</strong>が大きく異なります。投資戦略を決める前に、それぞれの特性を理解しましょう。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">項目別比較表</h2>
+        <div className="rounded-xl border border-card-border bg-card-bg p-5">
+          <p className="text-sm"><strong>期待リターン（年平均）</strong></p>
+          <ul className="text-sm space-y-1 mt-1">
+            <li>株式（インデックス）: 年5-8%（長期）</li>
+            <li>FX: プラスマイナスゼロが基本（ゼロサムゲーム）</li>
+            <li>仮想通貨: 年±50%超（極端な変動）</li>
+          </ul>
+          <p className="text-sm mt-3"><strong>税制（利益への課税）</strong></p>
+          <ul className="text-sm space-y-1 mt-1">
+            <li>株式: 一律20.315%（分離課税）</li>
+            <li>FX: 一律20.315%（分離課税）</li>
+            <li>仮想通貨: 最大55%（総合課税・累進課税）</li>
+          </ul>
+          <p className="text-sm mt-3"><strong>流動性</strong></p>
+          <ul className="text-sm space-y-1 mt-1">
+            <li>株式: 平日9-15時のみ（国内）、米国株は深夜</li>
+            <li>FX: 平日24時間（土日除く）</li>
+            <li>仮想通貨: 24時間365日</li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">初心者へのおすすめ配分</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>株式（新NISAインデックス投信）: 資産の<strong>70-80%</strong>（メイン）</li>
+          <li>FX: 資産の<strong>5%以下</strong>（スキル次第、少額推奨）</li>
+          <li>仮想通貨: 資産の<strong>5-10%以下</strong>（ハイリスク、余剰資金で）</li>
+          <li>現金・預金: 生活防衛資金6ヶ月分</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="まずは新NISAで株式投資から始めよう"
+        description="新NISAインデックス投信なら税金ゼロで年利5-7%の長期リターンを狙えます。初心者の第一歩として最適。"
+        buttonText="新NISA証券比較を見る"
+        href="/guide/nisa-broker-ranking-2026"
+        external={false}
+        icon="⚖️"
+      />
+    </>
+  ),
+  "emergency-fund-strategy": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">生活防衛資金とは？</h2>
+        <p>
+          生活防衛資金は、<strong>失業・病気・災害など不測の事態に備える現金</strong>です。投資資産とは別に、すぐに引き出せる形で確保しておく必要があります。これがないと、相場下落時に泣く泣く損切りして生活費に充てることに。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">職業タイプ別の必要月数</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li><strong>公務員・大企業正社員</strong>: 月収の3ヶ月分（失業リスク低）</li>
+          <li><strong>中小企業正社員</strong>: 月収の6ヶ月分（標準的）</li>
+          <li><strong>契約社員・派遣</strong>: 月収の9ヶ月分（雇用不安定）</li>
+          <li><strong>フリーランス・自営業</strong>: 月収の12ヶ月分（収入変動あり）</li>
+          <li><strong>子育て世帯・住宅ローンあり</strong>: +3ヶ月追加で余裕を</li>
+        </ul>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">保管場所のおすすめ</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li><strong>ネット銀行の普通預金</strong>（住信SBI・楽天・auじぶん等）: 金利0.1-0.3%で最適</li>
+          <li><strong>定期預金</strong>: 半年〜1年物で若干金利アップ（解約時はペナルティあり）</li>
+          <li><strong>MMF・短期国債</strong>: より高利回りだが流動性がやや落ちる</li>
+          <li><strong>避けるべき</strong>: 株式・投信（変動リスク）、外貨預金（為替リスク）</li>
+        </ul>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">生活防衛資金と投資の優先順位</h2>
+        <ol className="list-decimal list-inside space-y-1 text-sm">
+          <li>まず生活防衛資金3ヶ月分を普通預金で確保</li>
+          <li>NISAつみたて枠で少額（月1-3万円）積立開始</li>
+          <li>生活防衛資金を6ヶ月分まで増やす</li>
+          <li>その後は積極的にNISA・iDeCoへ投入</li>
+        </ol>
+      </section>
+      <AffiliateCTA
+        title="生活防衛資金に最適なネット銀行を比較"
+        description="住信SBIネット銀行・楽天銀行・auじぶん銀行など、金利・手数料優遇を比較。"
+        buttonText="ネット銀行比較を見る"
+        href="/guide/online-bank-comparison"
+        external={false}
+        icon="🛟"
+      />
+    </>
+  ),
+  "junior-nisa-successor": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">ジュニアNISA廃止後の教育資金戦略</h2>
+        <p>
+          ジュニアNISA制度は2023年末で新規投資終了、2024年以降は<strong>新NISA</strong>が唯一の非課税投資枠となりました。子どもの教育資金準備は、<strong>親名義の新NISA</strong>を活用するのが現実的な選択肢です。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">3つの教育資金準備方法</h2>
+        <div className="grid grid-cols-1 gap-3">
+          {[
+            { name: "親の新NISAで積立", pro: "非課税・流動性高・インフレに強い", con: "相場下落時は元本割れリスク" },
+            { name: "学資保険", pro: "返戻率105-110%で確実、契約者死亡時の払込免除", con: "インフレに弱い、中途解約で元本割れ" },
+            { name: "贈与+子ども名義口座", pro: "暦年贈与110万円まで非課税、子の金融教育に", con: "親が管理責任、18歳まで引き出さない工夫必要" },
+          ].map((item, i) => (
+            <div key={i} className="rounded-xl border border-card-border bg-card-bg p-4">
+              <h3 className="font-bold text-base">{item.name}</h3>
+              <p className="text-sm mt-1"><strong className="text-primary">◎</strong> {item.pro}</p>
+              <p className="text-sm"><strong className="text-accent">△</strong> {item.con}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">おすすめは「新NISA＋学資保険」併用</h2>
+        <p className="text-sm">
+          大学進学（約500-800万円）が必要な時期が確定しているため、<strong>安全資産（学資保険・定期預金）50% + リスク資産（新NISA）50%</strong> の併用戦略が推奨。相場下落時に備えて、進学の3-5年前から徐々にNISA分を現金化していくとベスト。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">0歳から18年積立シミュレーション</h2>
+        <div className="rounded-xl border border-card-border bg-card-bg p-5">
+          <p className="text-sm"><strong>月3万円 × 18年 × 年利5%</strong></p>
+          <ul className="text-sm space-y-1 mt-2">
+            <li>元本合計: 648万円</li>
+            <li>運用後資産: <strong>約1,070万円</strong></li>
+            <li>運用益: 約420万円（新NISAなら非課税）</li>
+          </ul>
+          <p className="text-xs text-muted mt-2">※大学進学時期に暴落がある可能性も。3年前から徐々に現金化推奨。</p>
+        </div>
+      </section>
+      <AffiliateCTA
+        title="子の教育資金は親の新NISAで準備"
+        description="新NISAつみたて投資枠で長期積立すれば、ジュニアNISA以上の非課税メリットが得られます。"
+        buttonText="新NISA証券比較を見る"
+        href="/guide/nisa-broker-ranking-2026"
+        external={false}
+        icon="👶"
+      />
+    </>
+  ),
 };
