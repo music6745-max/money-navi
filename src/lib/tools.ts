@@ -245,6 +245,41 @@ export const tools: Tool[] = [
     icon: "💸",
     category: "household",
   },
+  {
+    slug: "factoring-fee-calculator",
+    name: "ファクタリング手数料計算ツール",
+    description: "売掛金・手数料率から実際の入金額と損失額を計算。2社間・3社間の比較もできます。",
+    icon: "💼",
+    category: "household",
+  },
+  {
+    slug: "dividend-income-simulator",
+    name: "配当金シミュレーター",
+    description: "保有株数・配当利回りから年間配当金と月額を計算。再投資による複利効果も試算。",
+    icon: "💵",
+    category: "nisa",
+  },
+  {
+    slug: "ipo-profit-calculator",
+    name: "IPO初値益計算ツール",
+    description: "公募価格・初値・口数から初値売却益を計算。税金考慮後の手取り額も表示。",
+    icon: "🚀",
+    category: "broker",
+  },
+  {
+    slug: "gold-investment-simulator",
+    name: "金投資シミュレーター",
+    description: "毎月の積立額・想定利回りから金投資の将来価値を試算。純金積立向け。",
+    icon: "🪙",
+    category: "nisa",
+  },
+  {
+    slug: "reit-distribution-calculator",
+    name: "J-REIT分配金計算ツール",
+    description: "投資元本・分配金利回りから年間分配金と利回りを計算。NISA活用時の税引き後比較。",
+    icon: "🏢",
+    category: "nisa",
+  },
 ];
 
 export function getToolBySlug(slug: string) {

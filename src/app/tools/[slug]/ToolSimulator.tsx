@@ -70,6 +70,16 @@ export function ToolSimulator({ slug }: { slug: string }) {
       return <CarMaintenanceCost />;
     case "debt-repayment":
       return <DebtRepayment />;
+    case "factoring-fee-calculator":
+      return <FactoringFeeCalculator />;
+    case "dividend-income-simulator":
+      return <DividendIncomeSimulator />;
+    case "ipo-profit-calculator":
+      return <IpoProfitCalculator />;
+    case "gold-investment-simulator":
+      return <GoldInvestmentSimulator />;
+    case "reit-distribution-calculator":
+      return <ReitDistributionCalculator />;
     default:
       return <Placeholder />;
   }
@@ -1103,6 +1113,150 @@ function DebtRepayment() {
       <p className="text-xs text-muted">
         ※カードローン・キャッシング・リボ払いの試算に。繰上返済で総利息を大きく圧縮できます。
       </p>
+    </Card>
+  );
+}
+
+function FactoringFeeCalculator() {
+  const [receivable, setReceivable] = useState(1000000);
+  const [feeRate, setFeeRate] = useState(12);
+  const [type, setType] = useState<"2" | "3">("2");
+  const result = useMemo(() => {
+    const effectiveRate = type === "2" ? feeRate : Math.min(feeRate, 9);
+    const fee = (receivable * effectiveRate) / 100;
+    const received = receivable - fee;
+    return { fee, received, effectiveRate };
+  }, [receivable, feeRate, type]);
+  return (
+    <Card>
+      <NumberInput label="売掛金（請求書金額）" value={receivable} onChange={setReceivable} suffix="円" step={10000} />
+      <NumberInput label="手数料率" value={feeRate} onChange={setFeeRate} suffix="%" step={0.5} />
+      <div>
+        <label className="block text-sm font-medium mb-2">ファクタリング形態</label>
+        <div className="flex gap-2">
+          <button onClick={() => setType("2")} className={`px-4 py-2 rounded-lg text-sm ${type === "2" ? "bg-primary text-white" : "bg-card-bg border border-card-border"}`}>2社間（8〜20%）</button>
+          <button onClick={() => setType("3")} className={`px-4 py-2 rounded-lg text-sm ${type === "3" ? "bg-primary text-white" : "bg-card-bg border border-card-border"}`}>3社間（1〜9%）</button>
+        </div>
+      </div>
+      <Result label="適用手数料率" value={`${result.effectiveRate}%`} />
+      <Result label="手数料" value={`${fmt(result.fee)} 円`} />
+      <Result label="実際の入金額" value={`${fmt(result.received)} 円`} highlight />
+      <p className="text-xs text-muted">※2社間は取引先への通知不要、3社間は通知必要で手数料が低めです。</p>
+    </Card>
+  );
+}
+
+function DividendIncomeSimulator() {
+  const [investment, setInvestment] = useState(10000000);
+  const [yieldRate, setYieldRate] = useState(4);
+  const [reinvestYears, setReinvestYears] = useState(10);
+  const result = useMemo(() => {
+    const annual = (investment * yieldRate) / 100;
+    const monthly = annual / 12;
+    const afterTax = annual * 0.79685;
+    const futureValue = investment * Math.pow(1 + yieldRate / 100, reinvestYears);
+    const futureAnnual = (futureValue * yieldRate) / 100;
+    return { annual, monthly, afterTax, futureValue, futureAnnual };
+  }, [investment, yieldRate, reinvestYears]);
+  return (
+    <Card>
+      <NumberInput label="投資元本" value={investment} onChange={setInvestment} suffix="円" step={100000} />
+      <NumberInput label="配当利回り" value={yieldRate} onChange={setYieldRate} suffix="%" step={0.1} />
+      <NumberInput label="再投資年数" value={reinvestYears} onChange={setReinvestYears} suffix="年" step={1} />
+      <Result label="年間配当金（税引前）" value={`${fmt(result.annual)} 円`} />
+      <Result label="月額換算" value={`${fmt(result.monthly)} 円`} />
+      <Result label="年間配当金（税引後20.315%）" value={`${fmt(result.afterTax)} 円`} />
+      <Result label={`${reinvestYears}年後の資産額`} value={`${fmt(result.futureValue)} 円`} />
+      <Result label={`${reinvestYears}年後の年間配当`} value={`${fmt(result.futureAnnual)} 円`} highlight />
+      <p className="text-xs text-muted">※NISA口座なら配当金は非課税。米国株は米国で10%源泉徴収されます。</p>
+    </Card>
+  );
+}
+
+function IpoProfitCalculator() {
+  const [offerPrice, setOfferPrice] = useState(2000);
+  const [openingPrice, setOpeningPrice] = useState(5000);
+  const [units, setUnits] = useState(100);
+  const result = useMemo(() => {
+    const cost = offerPrice * units;
+    const sale = openingPrice * units;
+    const profit = sale - cost;
+    const tax = Math.max(profit * 0.20315, 0);
+    const netProfit = profit - tax;
+    const returnRate = (profit / cost) * 100;
+    return { cost, sale, profit, tax, netProfit, returnRate };
+  }, [offerPrice, openingPrice, units]);
+  return (
+    <Card>
+      <NumberInput label="公募価格" value={offerPrice} onChange={setOfferPrice} suffix="円" step={100} />
+      <NumberInput label="初値" value={openingPrice} onChange={setOpeningPrice} suffix="円" step={100} />
+      <NumberInput label="保有株数" value={units} onChange={setUnits} suffix="株" step={100} />
+      <Result label="取得価額" value={`${fmt(result.cost)} 円`} />
+      <Result label="売却金額" value={`${fmt(result.sale)} 円`} />
+      <Result label="売却益" value={`${fmt(result.profit)} 円`} />
+      <Result label="税金（20.315%）" value={`${fmt(result.tax)} 円`} />
+      <Result label="税引後手取り" value={`${fmt(result.netProfit)} 円`} highlight />
+      <Result label="騰落率" value={`${result.returnRate.toFixed(2)}%`} />
+      <p className="text-xs text-muted">※NISA成長投資枠で購入した場合は売却益も非課税になります。</p>
+    </Card>
+  );
+}
+
+function GoldInvestmentSimulator() {
+  const [monthly, setMonthly] = useState(10000);
+  const [years, setYears] = useState(20);
+  const [annualReturn, setAnnualReturn] = useState(4);
+  const result = useMemo(() => {
+    const months = years * 12;
+    const r = annualReturn / 100 / 12;
+    let value = 0;
+    for (let i = 0; i < months; i++) {
+      value = (value + monthly) * (1 + r);
+    }
+    const contribution = monthly * months;
+    const gain = value - contribution;
+    return { value, contribution, gain };
+  }, [monthly, years, annualReturn]);
+  return (
+    <Card>
+      <NumberInput label="毎月の積立額" value={monthly} onChange={setMonthly} suffix="円" step={1000} />
+      <NumberInput label="積立期間" value={years} onChange={setYears} suffix="年" step={1} />
+      <NumberInput label="想定年利" value={annualReturn} onChange={setAnnualReturn} suffix="%" step={0.5} />
+      <Result label="積立元本合計" value={`${fmt(result.contribution)} 円`} />
+      <Result label="運用後資産" value={`${fmt(result.value)} 円`} highlight />
+      <Result label="運用益" value={`${fmt(result.gain)} 円`} />
+      <p className="text-xs text-muted">※金は過去30年平均で年利5〜7%。インフレヘッジ目的なら3〜4%想定が保守的。</p>
+    </Card>
+  );
+}
+
+function ReitDistributionCalculator() {
+  const [investment, setInvestment] = useState(3000000);
+  const [yieldRate, setYieldRate] = useState(4.5);
+  const [useNisa, setUseNisa] = useState(true);
+  const result = useMemo(() => {
+    const annual = (investment * yieldRate) / 100;
+    const monthly = annual / 12;
+    const tax = useNisa ? 0 : annual * 0.20315;
+    const netAnnual = annual - tax;
+    const netMonthly = netAnnual / 12;
+    return { annual, monthly, tax, netAnnual, netMonthly };
+  }, [investment, yieldRate, useNisa]);
+  return (
+    <Card>
+      <NumberInput label="投資元本" value={investment} onChange={setInvestment} suffix="円" step={100000} />
+      <NumberInput label="分配金利回り" value={yieldRate} onChange={setYieldRate} suffix="%" step={0.1} />
+      <div>
+        <label className="block text-sm font-medium mb-2">
+          <input type="checkbox" checked={useNisa} onChange={(e) => setUseNisa(e.target.checked)} className="mr-2" />
+          NISA成長投資枠で運用する（分配金非課税）
+        </label>
+      </div>
+      <Result label="年間分配金（税引前）" value={`${fmt(result.annual)} 円`} />
+      <Result label="税金" value={`${fmt(result.tax)} 円`} />
+      <Result label="年間分配金（税引後）" value={`${fmt(result.netAnnual)} 円`} highlight />
+      <Result label="月額換算" value={`${fmt(result.netMonthly)} 円`} />
+      <p className="text-xs text-muted">※J-REITの平均分配金利回りは4〜5%程度。NISA枠で保有すれば分配金も非課税に。</p>
     </Card>
   );
 }
