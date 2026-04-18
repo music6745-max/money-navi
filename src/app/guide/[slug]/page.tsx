@@ -4,10 +4,11 @@ import type { Metadata } from "next";
 import { guides, getGuideBySlug } from "@/lib/guides";
 import { siteConfig } from "@/lib/tools";
 import { getCategoryBySlug } from "@/lib/categories";
-import { BreadcrumbJsonLd, ArticleJsonLd } from "@/components/JsonLd";
+import { BreadcrumbJsonLd, ArticleJsonLd, FAQJsonLd } from "@/components/JsonLd";
 import { GuideRelatedLinks } from "@/components/GuideRelatedLinks";
 import { AdSenseUnit } from "@/components/AdSenseUnit";
 import { GuideContent } from "./GuideContent";
+import { getFaqsForGuide } from "@/lib/guideFaqs";
 
 export function generateStaticParams() {
   return guides.map((g) => ({ slug: g.slug }));
@@ -40,6 +41,7 @@ export default async function GuidePage(
   const guide = getGuideBySlug(slug);
   if (!guide) notFound();
   const cat = getCategoryBySlug(guide.category);
+  const faqs = getFaqsForGuide(guide.slug);
 
   return (
     <article className="max-w-3xl mx-auto px-4 py-10">
@@ -56,6 +58,7 @@ export default async function GuidePage(
           { name: guide.title, url: `${siteConfig.url}/guide/${guide.slug}` },
         ]}
       />
+      {faqs.length > 0 && <FAQJsonLd items={faqs} />}
       <nav className="text-sm text-muted mb-6">
         <Link href="/" className="hover:text-primary">ホーム</Link>
         <span className="mx-2">/</span>
@@ -79,6 +82,20 @@ export default async function GuidePage(
       </header>
 
       <GuideContent slug={guide.slug} />
+
+      {faqs.length > 0 && (
+        <section className="mt-12 bg-card-bg border border-card-border rounded-xl p-6 sm:p-8">
+          <h2 className="text-xl font-bold mb-6">よくある質問</h2>
+          <div className="space-y-4">
+            {faqs.map((faq, i) => (
+              <div key={i} className="border-b border-card-border pb-4 last:border-0 last:pb-0">
+                <h3 className="font-semibold mb-2 text-base">Q. {faq.question}</h3>
+                <p className="text-sm text-muted leading-relaxed">A. {faq.answer}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
 
       <AdSenseUnit format="horizontal" className="my-8" />
 
