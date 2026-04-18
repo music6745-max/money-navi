@@ -21,7 +21,7 @@ export default function OG() {
       >
         <div style={{ fontSize: 120, marginBottom: 20 }}>💰</div>
         <div style={{ fontSize: 80, fontWeight: "bold", color: "#fff", marginBottom: 20 }}>
-          マネーナビJP
+          投資ナビJP
         </div>
         <div style={{ fontSize: 32, color: "rgba(255,255,255,0.9)" }}>
           新NISA・iDeCo・投資・副業の総合情報サイト

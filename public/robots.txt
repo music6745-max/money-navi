@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://money-navi.tokyo/sitemap.xml
+Sitemap: https://toshi-navi.jp/sitemap.xml

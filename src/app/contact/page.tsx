@@ -26,7 +26,7 @@ export default function Contact() {
           method="POST"
           className="space-y-4 bg-card-bg border border-card-border rounded-xl p-6"
         >
-          <input type="hidden" name="_subject" value="マネーナビJPへのお問い合わせ" />
+          <input type="hidden" name="_subject" value="投資ナビJPへのお問い合わせ" />
           <input type="hidden" name="_captcha" value="true" />
           <div>
             <label htmlFor="name" className="block text-sm font-medium mb-1">お名前 <span className="text-red-500">*</span></label>

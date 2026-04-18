@@ -83,7 +83,7 @@ export function ArticleJsonLd({
   description,
   url,
   datePublished,
-  author = "マネーナビJP編集部",
+  author = "投資ナビJP編集部",
 }: {
   headline: string;
   description: string;
@@ -105,10 +105,10 @@ export function ArticleJsonLd({
     },
     publisher: {
       "@type": "Organization",
-      name: "マネーナビJP",
+      name: "投資ナビJP",
       logo: {
         "@type": "ImageObject",
-        url: "https://money-navi.tokyo/favicon.ico",
+        url: "https://toshi-navi.jp/favicon.ico",
       },
     },
   };

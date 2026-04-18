@@ -8,7 +8,7 @@ import { AdSenseUnit } from "@/components/AdSenseUnit";
 
 const faqItems = [
   {
-    question: "マネーナビJPはどんなサイトですか？",
+    question: "投資ナビJPはどんなサイトですか？",
     answer: "新NISA・iDeCo・ネット証券・ロボアド・FX・仮想通貨・クレカ・副業など、お金に関するサービスの比較とシミュレーターを無料で提供する情報サイトです。",
   },
   {
