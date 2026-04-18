@@ -329,6 +329,28 @@ const guideContents: Record<string, React.ReactNode> = {
           },
         ]}
       />
+      <AffiliateCTA
+        title="【ゴールデンウェイ・ジャパン FXTF】でFXを始める"
+        description="MT4対応、スプレッド業界最狭水準。上級者も納得の本格派FX。"
+        buttonText="FXTFの公式サイトへ"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1O+G4HOD6+48D0+626XT"
+        icon="📊"
+      />
+      <AffiliateCTA
+        title="【フジトミ証券】で商品先物・FX取引を始める"
+        description="老舗商品先物会社の信頼性。商品CFD・FX両方対応。"
+        buttonText="フジトミ証券の公式サイトへ"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1O+G7GUE2+34QW+BX3J6"
+        icon="💹"
+      />
+      <AffiliateCTA
+        title="【DMM 株】で米国株・日本株・NISAを始める"
+        description="スマホアプリで簡単、NISA口座にも対応。手数料業界最安水準。"
+        buttonText="DMM 株の公式サイトへ"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+1YUMJE+1WP2+15QHIA"
+        icon="🎯"
+        highlight="NISA対応"
+      />
     </>
   ),
   "crypto-exchange-comparison": (
@@ -483,6 +505,14 @@ const guideContents: Record<string, React.ReactNode> = {
             badge: "還元率No.1",
           },
         ]}
+      />
+      <AffiliateCTA
+        title="【エポスカード】年会費永久無料で即日発行対応"
+        description="海外旅行保険自動付帯、マルイで10%OFFセール、即時提携対応。年会費はずっと無料。"
+        buttonText="エポスカードを申し込む"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+MMIJE+38L8+BY641"
+        icon="💳"
+        highlight="年会費永久無料"
       />
     </>
   ),
@@ -942,6 +972,28 @@ const guideContents: Record<string, React.ReactNode> = {
           年間5自治体以内への寄付ならワンストップ特例で確定申告不要。6自治体以上、または医療費控除等と併用する場合は確定申告が必要です。
         </p>
       </section>
+      <AffiliateCTA
+        title="【ふるさと本舗】高還元率のふるさと納税ポータル"
+        description="全国の特産品を厳選。独自ポイント還元とキャンペーンが充実。初めての方にも安心のサポート。"
+        buttonText="ふるさと本舗で寄付する"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1O+F75EHM+5IMU+60WN5"
+        icon="🎁"
+        highlight="独自キャンペーン豊富"
+      />
+      <AffiliateCTA
+        title="【au PAY ふるさと納税】Pontaポイントで還元"
+        description="au PAY 残高やPontaポイントで支払い可能。au経済圏の方ならお得に寄付できます。"
+        buttonText="au PAY ふるさと納税へ"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1O+F2ZD96+54OC+5YJRM"
+        icon="📱"
+      />
+      <AffiliateCTA
+        title="【あるやうむ】NFT型ふるさと納税の新しい形"
+        description="返礼品としてデジタル資産（NFT）やユニークな体験が選べる。新世代のふるさと納税。"
+        buttonText="あるやうむを見る"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1O+F6JYVU+5U6O+5YJRM"
+        icon="✨"
+      />
     </>
   ),
   "side-business-tax-declaration": (
@@ -1351,13 +1403,19 @@ const guideContents: Record<string, React.ReactNode> = {
         </p>
       </section>
       <AffiliateCTA
-        title="DMM FXでキャッシュバックを受け取る"
-        description="最大30万円キャッシュバック。口座開設無料、最短1時間で取引開始できます。"
-        buttonText="DMM FXの詳細を見る"
-        href="/guide/fx-broker-ranking"
-        external={false}
+        title="【DMM 株】で日本株・米国株・NISAを始める"
+        description="アプリで簡単取引、NISA対応。口座開設+取引で特典受け取り可能。"
+        buttonText="DMM 株の公式サイトへ"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+1YUMJE+1WP2+15QHIA"
         icon="💹"
-        highlight="最大30万円CB"
+        highlight="新規口座開設+取引で特典"
+      />
+      <AffiliateCTA
+        title="ゴールデンウェイ・ジャパン【FXTF】でFXを始める"
+        description="スプレッド業界最狭水準、MT4対応の本格派FX。口座開設は無料。"
+        buttonText="ゴールデンウェイの公式サイトへ"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1O+G4HOD6+48D0+626XT"
+        icon="📈"
       />
     </>
   ),
