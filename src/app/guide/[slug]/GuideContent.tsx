@@ -786,4 +786,427 @@ const guideContents: Record<string, React.ReactNode> = {
       />
     </>
   ),
+  "sbi-vs-rakuten-nisa": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">SBI証券と楽天証券、新NISAで選ぶならどっち？</h2>
+        <p>
+          ネット証券の2強であるSBI証券と楽天証券。どちらも新NISAの取扱銘柄が豊富で、クレカ積立にも対応していますが、細かい還元率や利用可能なポイントに違いがあります。あなたの利用経済圏によって最適解が変わるのがポイントです。
+        </p>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>楽天経済圏メインなら → 楽天証券</li>
+          <li>Vポイント・三井住友カード利用者 → SBI証券</li>
+          <li>取扱銘柄の多さ重視 → SBI証券</li>
+          <li>アプリの使いやすさ → 楽天証券（iSPEED）</li>
+        </ul>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">比較ポイント①：クレカ積立の還元率</h2>
+        <p className="text-sm">
+          2024年のクレカ積立上限引き上げで、月10万円まで積立可能になりました。各社の還元率は以下の通りです。
+        </p>
+        <div className="rounded-xl border border-card-border bg-card-bg p-5 mt-3">
+          <ul className="text-sm space-y-2">
+            <li><strong>SBI証券</strong>: 三井住友カード（NL）0.5%、ゴールドNL 1.0%、プラチナプリファード 最大3%</li>
+            <li><strong>楽天証券</strong>: 楽天カード通常1%（一部銘柄0.5%）、楽天キャッシュ併用で月10万円分が還元対象</li>
+          </ul>
+        </div>
+      </section>
+      <ComparisonTableCTA
+        title="SBI証券 vs 楽天証券 項目別比較"
+        services={[
+          {
+            name: "SBI証券",
+            rank: 1,
+            highlight: "取扱銘柄数・クレカ積立還元率ともに業界最高水準",
+            features: [
+              "投資信託 2,500本以上（業界最多水準）",
+              "三井住友ゴールドカードNLで1%還元",
+              "プラチナプリファードで最大3%還元",
+              "Vポイント・Pontaポイント・Tポイントで投信購入可",
+              "米国株の取扱銘柄数も豊富",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "総合力No.1",
+          },
+          {
+            name: "楽天証券",
+            rank: 2,
+            highlight: "楽天経済圏ユーザーならダントツでお得",
+            features: [
+              "楽天カード積立で最大1%ポイント還元",
+              "楽天キャッシュ積立でさらに0.5%",
+              "楽天ポイントで投資信託購入可能",
+              "楽天銀行マネーブリッジで金利0.1%",
+              "アプリ「iSPEED」が使いやすい",
+            ],
+            href: "https://www.rakuten-sec.co.jp/web/nisa/",
+            badge: "楽天経済圏No.1",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">結論：両方口座開設がベスト</h2>
+        <p>
+          ネット証券は口座開設・維持が無料なので、実は「両方開設」が最適解です。メイン口座をNISA用、サブ口座を特定口座・米国株用など、用途で使い分けることで両社のメリットを享受できます。
+        </p>
+      </section>
+      <AffiliateCTA
+        title="まずは人気No.1のSBI証券で口座開設"
+        description="投資信託ラインナップ業界最多水準。三井住友カードNLで積立ポイント還元も受けられます。新NISA対応・口座開設無料。"
+        buttonText="SBI証券の詳細を見る"
+        href="/guide/nisa-broker-ranking-2026"
+        external={false}
+        icon="💰"
+        highlight="口座開設数No.1"
+      />
+    </>
+  ),
+  "furusato-tax-guide-2026": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">ふるさと納税とは？実質2,000円で返礼品を受け取れる制度</h2>
+        <p>
+          ふるさと納税は、応援したい自治体に「寄付」する代わりに、寄付額のうち2,000円を超えた分が所得税・住民税から控除される制度です。しかも多くの自治体で、寄付額の約30%相当の返礼品が受け取れるため、実質2,000円負担で数万円分の特産品を手に入れられます。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">限度額の目安（年収別・独身/共働き）</h2>
+        <div className="rounded-xl border border-card-border bg-card-bg p-5">
+          <ul className="text-sm space-y-2">
+            <li><strong>年収400万円</strong>: 独身・共働き 約42,000円、夫婦（片働き） 約33,000円</li>
+            <li><strong>年収500万円</strong>: 独身・共働き 約61,000円、夫婦（片働き） 約49,000円</li>
+            <li><strong>年収600万円</strong>: 独身・共働き 約77,000円、夫婦（片働き） 約69,000円</li>
+            <li><strong>年収700万円</strong>: 独身・共働き 約108,000円、夫婦（片働き） 約86,000円</li>
+            <li><strong>年収1,000万円</strong>: 独身・共働き 約176,000円、夫婦（片働き） 約166,000円</li>
+          </ul>
+          <p className="text-xs text-muted mt-3">※医療費控除・住宅ローン控除などと併用する場合は限度額が下がります。シミュレーターで個別に試算してください。</p>
+        </div>
+      </section>
+      <ComparisonTableCTA
+        title="ふるさと納税おすすめポータルサイト"
+        services={[
+          {
+            name: "楽天ふるさと納税",
+            rank: 1,
+            highlight: "楽天ポイント還元｜SPU対象で最大15%還元",
+            features: [
+              "楽天市場と同様にポイント還元",
+              "お買い物マラソン・スーパーセール時が狙い目",
+              "楽天カード決済でさらに+1%",
+              "返礼品の種類が豊富",
+            ],
+            href: "https://event.rakuten.co.jp/furusato/",
+            badge: "ポイント還元No.1",
+          },
+          {
+            name: "さとふる",
+            rank: 2,
+            highlight: "使いやすさNo.1｜PayPay連携キャンペーン豊富",
+            features: [
+              "サイトの使い勝手が抜群",
+              "PayPayポイントで還元",
+              "レビュー・ランキングが充実",
+              "返礼品の発送が比較的早い",
+            ],
+            href: "https://www.satofull.jp/",
+            badge: "初心者向け",
+          },
+          {
+            name: "ふるなび",
+            rank: 3,
+            highlight: "Amazonギフトカード還元｜家電の返礼品が充実",
+            features: [
+              "ふるなびコインでAmazonギフト交換可",
+              "家電・ガジェット系返礼品が他サイトより豊富",
+              "定期便の返礼品も充実",
+            ],
+            href: "https://furunavi.jp/",
+          },
+          {
+            name: "ふるさとチョコイス",
+            rank: 4,
+            highlight: "返礼品掲載数最多｜マイナーな自治体も",
+            features: [
+              "掲載数業界最多クラス",
+              "独自の返礼品レビュー豊富",
+              "初めての人でも見つけやすい",
+            ],
+            href: "https://www.furusato-tax.jp/",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">ワンストップ特例 vs 確定申告</h2>
+        <p className="text-sm">
+          年間5自治体以内への寄付ならワンストップ特例で確定申告不要。6自治体以上、または医療費控除等と併用する場合は確定申告が必要です。
+        </p>
+      </section>
+    </>
+  ),
+  "side-business-tax-declaration": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">会社員の副業、確定申告は必要？</h2>
+        <p>
+          結論から言うと、<strong>年間20万円超の副業所得</strong>がある場合は確定申告が必要です。重要なのは「収入」ではなく「所得（収入-経費）」で判断する点。副業収入30万円でも経費が15万円あれば所得15万円となり、確定申告不要になる可能性があります。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">副業所得の種類と計算方法</h2>
+        <div className="grid grid-cols-1 gap-3">
+          {[
+            { name: "雑所得", desc: "アフィリエイト・ウーバー・せどり等、多くの副業が該当。収入-経費で計算", target: "ブログ・アフィリエイト・クラウドソーシング" },
+            { name: "事業所得", desc: "継続・反復して本格的に行う事業。青色申告で最大65万円控除", target: "フリーランス的に稼働している人" },
+            { name: "不動産所得", desc: "アパート・マンション経営の家賃収入", target: "投資用不動産オーナー" },
+            { name: "給与所得", desc: "ダブルワーク先で雇用されている場合", target: "パート・アルバイトの副業" },
+          ].map((item, i) => (
+            <div key={i} className="rounded-xl border border-card-border bg-card-bg p-4">
+              <h3 className="font-bold text-base">{item.name}</h3>
+              <p className="text-sm mt-1">{item.desc}</p>
+              <p className="text-xs text-muted mt-1"><strong>該当例:</strong> {item.target}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">経費として計上できるもの</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>PC・スマホ・カメラなど仕事に使う機材（10万円未満は全額、以上は減価償却）</li>
+          <li>通信費（インターネット・携帯代）の副業利用分</li>
+          <li>書籍・セミナー参加費など学習費用</li>
+          <li>交通費・打ち合わせの飲食代</li>
+          <li>ドメイン・サーバー代、サブスクツール料金</li>
+          <li>家賃・光熱費の一部（家事按分。仕事部屋の面積比が目安）</li>
+        </ul>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">住民税「普通徴収」で会社バレを防ぐ</h2>
+        <p>
+          副業所得の住民税を確定申告で<strong>「自分で納付（普通徴収）」</strong>に設定すれば、本業の会社の給与天引きに反映されず、会社に副業収入が知られにくくなります。ただし、給与所得の副業（ダブルワーク）は対象外で特別徴収となる点に注意。
+        </p>
+      </section>
+      <AffiliateCTA
+        title="副業の確定申告をカンタンに。会計ソフトを活用"
+        description="freee・マネーフォワードクラウドなどの会計ソフトを使えば、確定申告の手間を大幅に削減。スマホから数分で申告書作成が可能です。"
+        buttonText="副業ランキングで稼ぐ副業を見つける"
+        href="/guide/side-business-ranking-2026"
+        external={false}
+        icon="💼"
+      />
+    </>
+  ),
+  "wealthnavi-vs-theo": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">ロボアド2大サービス、どちらを選ぶ？</h2>
+        <p>
+          ロボアドバイザー市場で長年トップを争ってきたウェルスナビとTHEO。どちらも「全自動で国際分散投資」という点は共通ですが、手数料・運用アルゴリズム・提携サービスに違いがあります。結論は、<strong>ウェルスナビ＝シンプル派、THEO＝カスタマイズ派</strong>です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="ウェルスナビ vs THEO 項目別比較"
+        services={[
+          {
+            name: "ウェルスナビ",
+            rank: 1,
+            highlight: "預かり資産No.1｜シンプルで続けやすい",
+            features: [
+              "手数料 年1.1%（3,000万円超部分は0.55%）",
+              "DeTAX（税金最適化機能）で納税額を抑制",
+              "6-7銘柄のETFで全世界分散",
+              "新NISA対応で非課税運用も可能",
+              "最低投資額 1万円から",
+            ],
+            href: "https://www.wealthnavi.com/",
+            badge: "初心者おすすめ",
+          },
+          {
+            name: "THEO",
+            rank: 2,
+            highlight: "カスタマイズ性◎｜docomoユーザー向け特典",
+            features: [
+              "手数料 年1.1%（段階的ディスカウントあり）",
+              "231種類のETFから機能別ポートフォリオ",
+              "THEO+ docomoならdポイント還元",
+              "最低投資額 1万円から",
+              "グロース/インカム/インフレヘッジの3機能",
+            ],
+            href: "https://theo.blue/",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">運用実績の比較（過去5年）</h2>
+        <p className="text-sm">
+          過去5年（2020-2025）のリターンはウェルスナビ・THEOともに<strong>年平均7-9%程度</strong>。全世界株式インデックス（eMAXIS Slim 全世界株式）の同期間リターンが年12%前後であることを考えると、<strong>自分でインデックス投信を積立てた方が手数料1%分有利</strong>ではあります。ただし、メンテナンスフリーの利便性とリバランス機能を重視するならロボアドが選択肢です。
+        </p>
+      </section>
+      <AffiliateCTA
+        title="まずはロボアド全社比較から"
+        description="ウェルスナビ・THEO以外にも楽ラップ・ON COMPASS・SUSTENなど個性的なサービスがあります。自分に合うロボアドを比較検討してください。"
+        buttonText="ロボアド比較ガイドを見る"
+        href="/guide/roboadvisor-comparison"
+        external={false}
+        icon="🤖"
+      />
+    </>
+  ),
+  "crypto-tax-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">仮想通貨の利益は「雑所得」扱い</h2>
+        <p>
+          ビットコインやイーサリアムなどの仮想通貨で得た利益は、税法上<strong>「雑所得」</strong>に分類されます。これは給与所得と合算して課税される「総合課税」の対象で、<strong>累進課税（最大55%）</strong>が適用されます。株式投資の譲渡所得（一律20.315%）とは税制が大きく異なる点に注意が必要です。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">税率早見表（年収+仮想通貨利益の合計）</h2>
+        <div className="rounded-xl border border-card-border bg-card-bg p-5">
+          <ul className="text-sm space-y-1">
+            <li>〜195万円: 所得税5% + 住民税10% = <strong>15%</strong></li>
+            <li>195〜330万円: 所得税10% + 住民税10% = <strong>20%</strong></li>
+            <li>330〜695万円: 所得税20% + 住民税10% = <strong>30%</strong></li>
+            <li>695〜900万円: 所得税23% + 住民税10% = <strong>33%</strong></li>
+            <li>900〜1,800万円: 所得税33% + 住民税10% = <strong>43%</strong></li>
+            <li>1,800〜4,000万円: 所得税40% + 住民税10% = <strong>50%</strong></li>
+            <li>4,000万円超: 所得税45% + 住民税10% = <strong>55%</strong></li>
+          </ul>
+          <p className="text-xs text-muted mt-3">※上記は課税所得ベース。各種控除後の金額に適用されます。</p>
+        </div>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">税金が発生するタイミング</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>仮想通貨を売却して円に戻したとき</li>
+          <li>仮想通貨で商品・サービスを購入したとき</li>
+          <li>仮想通貨同士を交換したとき（例：BTC→ETH）</li>
+          <li>マイニング・ステーキング報酬を受け取ったとき</li>
+        </ul>
+        <p className="text-sm mt-3">※保有しているだけでは課税されません（含み益は非課税）。</p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">節税のコツ</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>利益確定を年をまたいで分散する（1年間で20万円以内なら申告不要）</li>
+          <li>損失が出ている銘柄を売却して損益通算（仮想通貨同士のみ、他所得との通算不可）</li>
+          <li>取引手数料・書籍代等を経費計上</li>
+          <li>個人事業主として青色申告する（継続・反復取引の場合）</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="仮想通貨取引所の比較はこちら"
+        description="国内大手の仮想通貨取引所を手数料・セキュリティ・取扱通貨で比較。税金計算のしやすさも解説。"
+        buttonText="仮想通貨取引所比較を見る"
+        href="/guide/crypto-exchange-comparison"
+        external={false}
+        icon="₿"
+      />
+    </>
+  ),
+  "sbi-securities-review": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">SBI証券の基本情報</h2>
+        <p>
+          SBI証券は口座開設数1,200万超、国内ネット証券No.1の老舗総合証券会社です。新NISAの取扱銘柄数は業界トップクラス、三井住友カードとの連携でクレカ積立ポイント還元も受けられる、まさに総合力で選ぶなら第一候補の証券会社です。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">メリット（実際に使って感じた強み）</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>投資信託の取扱数が2,500本超で業界最多水準</li>
+          <li>国内株式売買手数料が新NISA・特定口座ともに0円</li>
+          <li>三井住友カードゴールドNLで積立ポイント1%還元（年間100万円利用で年会費無料）</li>
+          <li>Vポイント・Tポイント・Pontaポイントと連携して投信購入可能</li>
+          <li>IPO取扱社数が業界トップ、抽選権が得られやすい</li>
+          <li>米国株・海外ETFの取扱銘柄も豊富</li>
+        </ul>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">デメリット（正直な評価）</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>画面・アプリのUIがやや古く、初心者は迷いやすい</li>
+          <li>楽天ポイントは使えない（Vポイントに統合）</li>
+          <li>NISA口座設定後の変更は年1回まで</li>
+        </ul>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">こんな人におすすめ</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>投資信託・ETFを幅広く選びたい人</li>
+          <li>三井住友カード・Vポイントを日常で使っている人</li>
+          <li>IPO投資にチャレンジしたい人</li>
+          <li>米国株・海外ETFも取引したい人</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="SBI証券で新NISAを始めてみる"
+        description="口座開設は無料・スマホで最短5分。三井住友カードNLと組み合わせることで、積立投資しながらポイントも貯まります。"
+        buttonText="SBI証券の公式サイトを見る"
+        href="/guide/nisa-broker-ranking-2026"
+        external={false}
+        icon="💰"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "high-yield-stock-strategy": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">高配当株投資で不労所得を作る</h2>
+        <p>
+          高配当株投資とは、<strong>配当利回り3-5%以上の株式やETFを長期保有し、配当収入を得る投資戦略</strong>です。値上がり益（キャピタルゲイン）を狙う成長株投資と違い、安定したキャッシュフローを得られるのが最大の魅力。新NISAの成長投資枠（年間240万円）を使えば、配当金も非課税で受け取れます。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">日本の高配当株おすすめ銘柄</h2>
+        <div className="grid grid-cols-1 gap-3">
+          {[
+            { name: "日本たばこ産業（JT）", yield: "約5.5%", feature: "連続減配なし、鉄板の高配当銘柄" },
+            { name: "三菱UFJフィナンシャル・グループ", yield: "約3.3%", feature: "メガバンク最大手、金利上昇で業績改善" },
+            { name: "三菱商事", yield: "約3.8%", feature: "バフェット銘柄、総合商社のリーダー" },
+            { name: "三井住友フィナンシャルグループ", yield: "約3.5%", feature: "増配姿勢が明確" },
+            { name: "KDDI", yield: "約3.3%", feature: "23年連続増配の優良銘柄" },
+            { name: "NTT", yield: "約3.4%", feature: "通信の安定感、株式分割で買いやすさ◎" },
+          ].map((item, i) => (
+            <div key={i} className="rounded-xl border border-card-border bg-card-bg p-4">
+              <div className="flex justify-between items-start">
+                <h3 className="font-bold text-base">{item.name}</h3>
+                <span className="text-sm text-primary font-bold">利回り {item.yield}</span>
+              </div>
+              <p className="text-sm mt-1 text-muted">{item.feature}</p>
+            </div>
+          ))}
+        </div>
+        <p className="text-xs text-muted mt-3">※配当利回りは2026年4月時点の参考値。投資判断はご自身でお願いします。</p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">米国高配当ETFのおすすめ</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>VYM（バンガード・米国高配当株式ETF）</strong>: 利回り約3%、S&P500上位400銘柄から選定、経費率0.06%と超低コスト</li>
+          <li><strong>HDV（iシェアーズ・コア米国高配当株ETF）</strong>: 利回り約3.5%、財務健全性を重視、経費率0.08%</li>
+          <li><strong>SPYD（SPDRポートフォリオS&P500高配当株式ETF）</strong>: 利回り約4.5%、S&P500の上位80銘柄均等配分、経費率0.07%</li>
+          <li><strong>QYLD（グローバルX・NASDAQ100カバード・コールETF）</strong>: 利回り約11%、カバード・コール戦略、毎月分配</li>
+        </ul>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">高配当株投資の注意点</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>利回りだけで選ぶと「減配・無配転落」リスクあり（配当性向チェック必須）</li>
+          <li>米国株の配当は米国で10%源泉徴収→日本で20.315%課税（二重課税）。NISA口座でも米国課税は免除されない</li>
+          <li>セクターが偏ると業績悪化時のダメージ大（分散投資を徹底）</li>
+          <li>株価下落時でも配当が入るが、資産価値自体は目減りする</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="高配当株投資に最適なネット証券は？"
+        description="国内株の売買手数料0円・米国株の為替手数料優遇など、配当再投資に最適なネット証券を比較解説。"
+        buttonText="ネット証券比較を見る"
+        href="/guide/nisa-broker-ranking-2026"
+        external={false}
+        icon="📊"
+      />
+    </>
+  ),
 };

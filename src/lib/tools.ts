@@ -154,6 +154,41 @@ export const tools: Tool[] = [
     icon: "🛟",
     category: "household",
   },
+  {
+    slug: "nisa-vs-ideco",
+    name: "新NISA vs iDeCo どっち計算",
+    description: "年収・積立可能額から、新NISAとiDeCoのどちらが有利か試算。節税効果と流動性のトレードオフを可視化。",
+    icon: "⚖️",
+    category: "nisa",
+  },
+  {
+    slug: "inflation-impact",
+    name: "インフレ影響シミュレーター",
+    description: "現金の実質価値がインフレで何年後にいくらになるかを計算。2%・3%・5%のシナリオ別で試算。",
+    icon: "📉",
+    category: "household",
+  },
+  {
+    slug: "furusato-limit",
+    name: "ふるさと納税限度額計算",
+    description: "年収・家族構成から寄付限度額を概算。独身・共働き・扶養家族別に計算可能。",
+    icon: "🎁",
+    category: "household",
+  },
+  {
+    slug: "bonus-investment",
+    name: "ボーナス投資シミュレーター",
+    description: "年2回のボーナスを全額投資した場合の将来資産を計算。年齢・利回り別の長期試算。",
+    icon: "🎯",
+    category: "nisa",
+  },
+  {
+    slug: "pension-calculator",
+    name: "年金受給額シミュレーター",
+    description: "年収・加入年数から厚生年金・国民年金の概算受給額を試算。老後の収支計画に。",
+    icon: "👴",
+    category: "ideco",
+  },
 ];
 
 export function getToolBySlug(slug: string) {

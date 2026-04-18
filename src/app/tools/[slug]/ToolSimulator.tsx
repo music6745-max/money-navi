@@ -44,6 +44,16 @@ export function ToolSimulator({ slug }: { slug: string }) {
       return <EducationFund />;
     case "emergency-fund":
       return <EmergencyFund />;
+    case "nisa-vs-ideco":
+      return <NisaVsIdeco />;
+    case "inflation-impact":
+      return <InflationImpact />;
+    case "furusato-limit":
+      return <FurusatoLimit />;
+    case "bonus-investment":
+      return <BonusInvestment />;
+    case "pension-calculator":
+      return <PensionCalculator />;
     default:
       return <Placeholder />;
   }
@@ -647,6 +657,160 @@ function EmergencyFund() {
       <Result label="推奨月数" value={`${result.months} ヶ月分`} />
       <Result label="生活防衛資金の目安" value={`${fmt(result.total)} 円`} highlight />
       <p className="text-xs text-muted">※ 生活防衛資金は普通預金・定期預金など、すぐに引き出せる口座で確保。</p>
+    </Card>
+  );
+}
+
+function NisaVsIdeco() {
+  const [annualIncome, setAnnualIncome] = useState(5000000);
+  const [monthly, setMonthly] = useState(23000);
+  const [years, setYears] = useState(30);
+  const result = useMemo(() => {
+    const taxRate =
+      annualIncome <= 3300000 ? 0.2 :
+      annualIncome <= 6950000 ? 0.3 :
+      annualIncome <= 9000000 ? 0.33 :
+      annualIncome <= 18000000 ? 0.43 : 0.5;
+    const idecoTaxSave = monthly * 12 * taxRate;
+    const idecoTotalTaxSave = idecoTaxSave * years;
+    const r = 0.05 / 12;
+    const n = years * 12;
+    const fv = monthly * ((Math.pow(1 + r, n) - 1) / r);
+    const nisaGain = fv - monthly * n;
+    const idecoAfterTax = fv + idecoTotalTaxSave - (fv > monthly * n ? (fv - monthly * n) * 0.1 : 0);
+    return { taxRate, idecoTaxSave, idecoTotalTaxSave, fv, nisaGain, idecoAfterTax };
+  }, [annualIncome, monthly, years]);
+  return (
+    <Card>
+      <NumberInput label="年収（額面）" value={annualIncome} onChange={setAnnualIncome} suffix="円" step={100000} />
+      <NumberInput label="毎月の積立額" value={monthly} onChange={setMonthly} suffix="円" step={1000} />
+      <NumberInput label="運用期間" value={years} onChange={setYears} suffix="年" min={1} />
+      <Result label="適用所得税・住民税率（概算）" value={`${Math.round(result.taxRate * 100)} %`} />
+      <Result label="iDeCoの年間節税額" value={`${fmt(result.idecoTaxSave)} 円/年`} />
+      <Result label="iDeCoの累計節税額" value={`${fmt(result.idecoTotalTaxSave)} 円`} />
+      <Result label="運用後資産（共通：年5%想定）" value={`${fmt(result.fv)} 円`} />
+      <Result label="新NISA実効利益（非課税）" value={`${fmt(result.nisaGain)} 円`} highlight />
+      <Result label="iDeCo実効利益（節税込み）" value={`${fmt(result.idecoAfterTax - monthly * 12 * years)} 円`} highlight />
+      <p className="text-xs text-muted">
+        ※NISAは流動性あり・iDeCoは60歳まで引き出せないが節税効果あり。まずはNISA優先、余裕があればiDeCo併用が基本戦略です。
+      </p>
+    </Card>
+  );
+}
+
+function InflationImpact() {
+  const [amount, setAmount] = useState(10000000);
+  const [years, setYears] = useState(20);
+  const result = useMemo(() => {
+    const calc = (rate: number) => amount / Math.pow(1 + rate, years);
+    return {
+      scenario2: calc(0.02),
+      scenario3: calc(0.03),
+      scenario5: calc(0.05),
+    };
+  }, [amount, years]);
+  return (
+    <Card>
+      <NumberInput label="現在の現金額" value={amount} onChange={setAmount} suffix="円" step={100000} />
+      <NumberInput label="経過年数" value={years} onChange={setYears} suffix="年" min={1} />
+      <Result label="インフレ率2%の場合の実質価値" value={`${fmt(result.scenario2)} 円`} />
+      <Result label="インフレ率3%の場合の実質価値" value={`${fmt(result.scenario3)} 円`} highlight />
+      <Result label="インフレ率5%の場合の実質価値" value={`${fmt(result.scenario5)} 円`} />
+      <p className="text-xs text-muted">
+        ※日銀の目標物価上昇率は年2%。現預金だけで保有していると、インフレ率分だけ実質価値が減少します。
+      </p>
+    </Card>
+  );
+}
+
+function FurusatoLimit() {
+  const [income, setIncome] = useState(5000000);
+  const [family, setFamily] = useState(1);
+  const result = useMemo(() => {
+    const baseLimit = income <= 3000000 ? income * 0.006 :
+      income <= 5000000 ? income * 0.0075 :
+      income <= 8000000 ? income * 0.01 :
+      income <= 12000000 ? income * 0.013 : income * 0.016;
+    const multiplier = family === 1 ? 1.0 : family === 2 ? 0.85 : family === 3 ? 0.75 : 0.65;
+    const limit = baseLimit * multiplier;
+    const rewardValue = limit * 0.3;
+    return { limit, rewardValue };
+  }, [income, family]);
+  return (
+    <Card>
+      <NumberInput label="年収（額面）" value={income} onChange={setIncome} suffix="円" step={100000} />
+      <div>
+        <label className="block text-sm font-medium mb-1">家族構成</label>
+        <select
+          value={family}
+          onChange={(e) => setFamily(Number(e.target.value))}
+          className="w-full px-3 py-2 rounded-lg border border-card-border bg-card-bg"
+        >
+          <option value={1}>独身・共働き（扶養なし）</option>
+          <option value={2}>夫婦（配偶者扶養あり）</option>
+          <option value={3}>夫婦+子1人（高校生）</option>
+          <option value={4}>夫婦+子2人（高校生・大学生）</option>
+        </select>
+      </div>
+      <Result label="ふるさと納税の概算限度額" value={`${fmt(result.limit)} 円`} highlight />
+      <Result label="想定返礼品価値（30%）" value={`${fmt(result.rewardValue)} 円相当`} />
+      <p className="text-xs text-muted">
+        ※概算値です。住宅ローン控除・医療費控除等との併用で限度額は減ります。詳細はシミュレーターで個別に試算を。
+      </p>
+    </Card>
+  );
+}
+
+function BonusInvestment() {
+  const [bonus, setBonus] = useState(500000);
+  const [times, setTimes] = useState(2);
+  const [years, setYears] = useState(20);
+  const [rate, setRate] = useState(5);
+  const result = useMemo(() => {
+    const annual = bonus * times;
+    const r = rate / 100;
+    const fv = annual * ((Math.pow(1 + r, years) - 1) / r);
+    const invested = annual * years;
+    return { annual, fv, invested, gain: fv - invested };
+  }, [bonus, times, years, rate]);
+  return (
+    <Card>
+      <NumberInput label="1回あたりのボーナス投資額" value={bonus} onChange={setBonus} suffix="円" step={10000} />
+      <NumberInput label="年間ボーナス回数" value={times} onChange={setTimes} min={1} />
+      <NumberInput label="投資期間" value={years} onChange={setYears} suffix="年" min={1} />
+      <NumberInput label="想定利回り" value={rate} onChange={setRate} suffix="%" min={0} />
+      <Result label="年間投資額" value={`${fmt(result.annual)} 円`} />
+      <Result label="投資元本合計" value={`${fmt(result.invested)} 円`} />
+      <Result label="運用後資産" value={`${fmt(result.fv)} 円`} highlight />
+      <Result label="運用益" value={`${fmt(result.gain)} 円`} />
+      <p className="text-xs text-muted">
+        ※新NISA成長投資枠（年間240万円）を活用すれば運用益が非課税に。
+      </p>
+    </Card>
+  );
+}
+
+function PensionCalculator() {
+  const [annualIncome, setAnnualIncome] = useState(5000000);
+  const [years, setYears] = useState(40);
+  const result = useMemo(() => {
+    const avgMonthlyIncome = annualIncome / 12;
+    const kouseiAnnual = avgMonthlyIncome * 12 * 0.005481 * years;
+    const kokuminAnnual = 816000 * (years / 40);
+    const total = kouseiAnnual + kokuminAnnual;
+    return { kouseiAnnual, kokuminAnnual, total, monthly: total / 12 };
+  }, [annualIncome, years]);
+  return (
+    <Card>
+      <NumberInput label="平均年収（現役期間）" value={annualIncome} onChange={setAnnualIncome} suffix="円" step={100000} />
+      <NumberInput label="厚生年金加入年数" value={years} onChange={setYears} suffix="年" min={1} />
+      <Result label="厚生年金（年間）" value={`${fmt(result.kouseiAnnual)} 円`} />
+      <Result label="国民年金（年間・満額相当）" value={`${fmt(result.kokuminAnnual)} 円`} />
+      <Result label="合計年金受給額（年）" value={`${fmt(result.total)} 円`} />
+      <Result label="月額換算" value={`${fmt(result.monthly)} 円`} highlight />
+      <p className="text-xs text-muted">
+        ※概算値。実際の受給額は加入履歴・物価スライド等で変動します。老後資金シミュレーターと組み合わせて計画を。
+      </p>
     </Card>
   );
 }
