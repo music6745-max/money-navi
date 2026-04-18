@@ -1831,4 +1831,251 @@ const guideContents: Record<string, React.ReactNode> = {
       />
     </>
   ),
+  "investment-complete-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">投資の全体像を理解しよう</h2>
+        <p>
+          「投資」と一口に言っても、新NISA・iDeCo・株式・投資信託・ETF・FX・仮想通貨・不動産・金・債券など様々な種類があります。それぞれにリスク・リターン・流動性・税制が異なり、自分の目的・期間・リスク許容度に合わせて選択する必要があります。この記事では、投資初心者が<strong>最初に知っておくべき知識をすべて網羅</strong>します。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">投資の3大原則</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li><strong>長期</strong>: 10年以上の保有で複利効果を最大化、短期の値動きリスクを吸収</li>
+          <li><strong>積立</strong>: 毎月同額を買い続けることで、購入価格を平準化（ドルコスト平均法）</li>
+          <li><strong>分散</strong>: 複数の資産・地域・通貨に分散することでリスクを軽減</li>
+        </ul>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">資産クラスごとの特徴</h2>
+        <div className="rounded-xl border border-card-border bg-card-bg p-5">
+          <ul className="text-sm space-y-2">
+            <li><strong>株式（個別株）</strong>: 高リスク・高リターン。長期平均リターン年6-8%</li>
+            <li><strong>投資信託・ETF</strong>: 分散投資を手軽に実現。インデックス投信なら平均年5-7%</li>
+            <li><strong>債券</strong>: 低リスク・低リターン。年1-3%程度。株式下落時の分散効果</li>
+            <li><strong>不動産（REIT）</strong>: 中リスク・中リターン。年4-6%の分配金</li>
+            <li><strong>FX</strong>: 高リスク・レバレッジ活用。短期トレード向き</li>
+            <li><strong>仮想通貨</strong>: 超高リスク・超高リターン。余剰資金の5%以内推奨</li>
+            <li><strong>金（ゴールド）</strong>: インフレヘッジ・安全資産。資産の5-10%目安</li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">ステップ別の始め方</h2>
+        <ol className="list-decimal list-inside space-y-1 text-sm">
+          <li>生活防衛資金として月収の6ヶ月分を普通預金で確保</li>
+          <li>ネット証券の口座を開設（SBI証券・楽天証券・マネックス証券のいずれか）</li>
+          <li>新NISAつみたて投資枠で「eMAXIS Slim 全世界株式」または「eMAXIS Slim 米国株式（S&P500）」を月1-10万円積立</li>
+          <li>iDeCoで掛金全額所得控除の節税効果を享受（月5千円〜2.3万円）</li>
+          <li>余裕があれば新NISA成長投資枠で高配当ETF・個別株に挑戦</li>
+        </ol>
+      </section>
+      <AffiliateCTA
+        title="まずはSBI証券で新NISAをスタート"
+        description="投資信託2,500本以上、三井住友カードNLでクレカ積立1%還元。口座開設無料・スマホで5分。"
+        buttonText="新NISA証券会社TOP5を見る"
+        href="/guide/nisa-broker-ranking-2026"
+        external={false}
+        icon="💰"
+        highlight="初心者向けNo.1"
+      />
+    </>
+  ),
+  "money-basics-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">お金の三大要素：貯める・増やす・守る</h2>
+        <p>
+          お金の基礎は「貯金（貯める）」「投資（増やす）」「保険（守る）」の3つ。それぞれに役割があり、<strong>バランスよく組合せる</strong>ことが資産形成の王道です。年代・家族構成・収入によって最適配分が変わります。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">年代別の最適配分</h2>
+        <div className="rounded-xl border border-card-border bg-card-bg p-5">
+          <p className="text-sm"><strong>20代</strong>: 貯金20% / 投資75% / 保険5%（時間を最大活用、保険最小限）</p>
+          <p className="text-sm mt-1"><strong>30代</strong>: 貯金25% / 投資65% / 保険10%（家族形成期、収入保障保険追加）</p>
+          <p className="text-sm mt-1"><strong>40代</strong>: 貯金30% / 投資55% / 保険15%（教育費ピーク、投資を継続）</p>
+          <p className="text-sm mt-1"><strong>50代</strong>: 貯金35% / 投資55% / 保険10%（老後資金確保フェーズ）</p>
+          <p className="text-sm mt-1"><strong>60代以降</strong>: 貯金50% / 投資45% / 保険5%（取崩し期、リスク低減）</p>
+        </div>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">貯蓄率の目標</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>独身・実家暮らし: 手取りの30-40%</li>
+          <li>独身・一人暮らし: 手取りの20-30%</li>
+          <li>共働き・子なし: 手取りの25-35%</li>
+          <li>子育て世帯: 手取りの10-20%（最低ラインでも継続することが大事）</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="家計管理アプリで貯蓄率をアップ"
+        description="マネーフォワードME・Zaim等の家計簿アプリで、自動的に支出を見える化。年間数万円の節約に。"
+        buttonText="家計簿アプリ比較を見る"
+        href="/guide/household-budget-apps"
+        external={false}
+        icon="📝"
+      />
+    </>
+  ),
+  "retirement-planning-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">老後資金2,000万円問題の真実</h2>
+        <p>
+          2019年に話題となった「老後2,000万円問題」。実は<strong>金融庁の報告書で示された「ゆとりある老後」</strong>のケースで、一般的な生活水準ならもう少し少額で済むことも。ただし平均寿命延長・インフレを考慮すると、<strong>実際には3,000-5,000万円</strong>の準備が理想とされています。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">老後の収支シミュレーション（夫婦）</h2>
+        <div className="rounded-xl border border-card-border bg-card-bg p-5">
+          <p className="text-sm"><strong>月収入</strong>（夫婦の年金）: 平均22万円（厚生年金含む）</p>
+          <p className="text-sm mt-1"><strong>月支出</strong>: 平均27-35万円（医療・介護・生活費）</p>
+          <p className="text-sm mt-1"><strong>月不足額</strong>: 約5-13万円</p>
+          <p className="text-sm mt-1"><strong>20年（65-85歳）の不足合計</strong>: 1,200-3,100万円</p>
+          <p className="text-sm mt-1 text-muted">※退職金・自宅資産・配偶者の働き方で大きく変動</p>
+        </div>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">現役時代にやるべき3つのこと</h2>
+        <ol className="list-decimal list-inside space-y-1 text-sm">
+          <li><strong>新NISAを最大限活用</strong>: つみたて投資枠で月10万円×20-30年積立</li>
+          <li><strong>iDeCoで節税＋老後資金</strong>: 会社員なら月2.3万円、自営業なら月6.8万円まで</li>
+          <li><strong>収入を増やす副業</strong>: 月5万円の副業で投資余力を確保</li>
+        </ol>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">取崩しフェーズの戦略（4%ルール）</h2>
+        <p className="text-sm">
+          FIRE達成者の間で有名な「4%ルール」: 年間支出の25倍の資産があれば、毎年4%ずつ取崩しても資産は減らないという研究結果。例えば年間支出400万円の場合、<strong>1億円の資産</strong>があれば理論上は永久に生活可能。実際には3%程度の安全マージンを確保するのが推奨です。
+        </p>
+      </section>
+      <AffiliateCTA
+        title="老後資金シミュレーターで試算"
+        description="現在の年齢・貯蓄・予定年金から、今月いくら積立が必要かを計算。"
+        buttonText="老後資金シミュレーターを使う"
+        href="/tools/retirement-fund"
+        external={false}
+        icon="👴"
+      />
+    </>
+  ),
+  "nisa-growth-vs-tsumitate": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">新NISAの2つの枠、何が違う？</h2>
+        <p>
+          新NISAは「<strong>つみたて投資枠</strong>（年120万円）」と「<strong>成長投資枠</strong>（年240万円）」の2つがあり、合計で年間360万円まで非課税で投資可能。生涯投資枠は1,800万円（うち成長枠は1,200万円まで）です。両枠は併用可能で、使い分けがポイント。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">枠ごとの特徴比較</h2>
+        <div className="rounded-xl border border-card-border bg-card-bg p-5">
+          <p className="text-sm"><strong>つみたて投資枠</strong>: 金融庁認可の長期投資向け投信約280本が対象。低コスト・分散投資・長期積立に特化。</p>
+          <p className="text-sm mt-2"><strong>成長投資枠</strong>: 個別株・ETF・大半の投資信託が対象。自由度が高く、高配当ETF・グロース株・海外株式も購入可能。</p>
+        </div>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">年収別のおすすめ配分</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li><strong>年収300-500万円</strong>: つみたて枠のみ（月5-10万円）で全世界株式に集中</li>
+          <li><strong>年収500-800万円</strong>: つみたて枠10万円＋成長枠10万円で米国ETF追加</li>
+          <li><strong>年収800万円以上</strong>: 両枠フル活用（月30万円）で早期の1,800万円到達を狙う</li>
+        </ul>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">失敗しない使い分けルール</h2>
+        <ol className="list-decimal list-inside space-y-1 text-sm">
+          <li>つみたて枠は必ず先に埋める（低コスト投信で王道運用）</li>
+          <li>成長枠は余剰資金で、個別株やテーマ型に挑戦</li>
+          <li>成長枠でも基本は「eMAXIS Slim S&P500」等の優良投信を積み立てるのが無難</li>
+          <li>毎月の積立額が決まっていれば、つみたて・成長の区別はあまり気にしなくてOK</li>
+        </ol>
+      </section>
+      <AffiliateCTA
+        title="新NISA両枠が使える証券会社は？"
+        description="SBI証券・楽天証券・マネックス証券なら両枠の投資信託・個別株・ETFがすべて揃います。"
+        buttonText="新NISA証券会社比較を見る"
+        href="/guide/nisa-broker-ranking-2026"
+        external={false}
+        icon="💰"
+      />
+    </>
+  ),
+  "year-end-tax-saving": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">12月までにやるべき節税アクション</h2>
+        <p>
+          年末調整・確定申告の準備は、<strong>12月31日で区切り</strong>があります。それまでに実行しておけば、翌年の税金が大きく変わる施策をまとめました。1つでも取り組めば数万円〜数十万円の節税効果があります。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">6つの年末節税アクション</h2>
+        <ol className="list-decimal list-inside space-y-2 text-sm">
+          <li><strong>ふるさと納税（限度額まで寄付）</strong>: 年収500万円なら約6万円、返礼品30%で実質-2,000円で18,000円相当の特産品</li>
+          <li><strong>iDeCo掛金を拠出上限まで増額</strong>: 残り月で追加拠出して所得控除を最大化</li>
+          <li><strong>新NISA枠を使い切る</strong>: つみたて枠120万円・成長枠240万円の残額を12月までに投資</li>
+          <li><strong>損益通算（損出し）</strong>: 含み損銘柄を年内に売却→翌日買戻で利益と相殺</li>
+          <li><strong>医療費控除の準備</strong>: 年間10万円超の医療費レシートを集計、家族合算で申告準備</li>
+          <li><strong>生命保険料控除の確認</strong>: 年末調整で4万円×3種＝最大12万円の所得控除</li>
+        </ol>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">節税効果の目安（年収500万円の場合）</h2>
+        <div className="rounded-xl border border-card-border bg-card-bg p-5">
+          <ul className="text-sm space-y-1">
+            <li>ふるさと納税: 実質負担-2,000円で寄付額相当の返礼品</li>
+            <li>iDeCo満額（年27.6万円）: 所得税+住民税で年5.5万円節税</li>
+            <li>医療費控除（年20万円）: 約2万円還付</li>
+            <li>生命保険料控除: 年1.2-2.4万円節税</li>
+            <li><strong>合計で年8-12万円の節税可能</strong></li>
+          </ul>
+        </div>
+      </section>
+      <AffiliateCTA
+        title="ふるさと納税で年末節税を完結"
+        description="楽天ふるさと納税なら最大15%ポイント還元。12月31日までの駆け込み需要に間に合います。"
+        buttonText="ふるさと納税ガイドを見る"
+        href="/guide/furusato-tax-guide-2026"
+        external={false}
+        icon="🎁"
+      />
+    </>
+  ),
+  "credit-card-stacking": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">クレカ積立3社併用で月30万円対応</h2>
+        <p>
+          新NISAの積立可能額は月10万円（年120万円）まで。しかし複数のネット証券で<strong>それぞれ月10万円のクレカ積立</strong>を行えば、非課税枠を超えた分は特定口座になるものの、<strong>クレカ積立ポイントを最大化</strong>できます。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">3社併用の具体例</h2>
+        <div className="rounded-xl border border-card-border bg-card-bg p-5">
+          <p className="text-sm"><strong>SBI証券（新NISA）</strong>: 月10万円 × 三井住友ゴールドNL 1%還元 = 月1,000P</p>
+          <p className="text-sm mt-1"><strong>楽天証券（特定口座）</strong>: 月10万円 × 楽天カード 1%還元 = 月1,000P</p>
+          <p className="text-sm mt-1"><strong>マネックス証券（特定口座）</strong>: 月10万円 × マネックスカード 1.1%還元 = 月1,100P</p>
+          <p className="text-sm mt-2"><strong>合計月3,100ポイント（年37,200ポイント）</strong></p>
+          <p className="text-xs text-muted mt-2">※新NISAはSBIのみ、残り2社は特定口座となる点に注意</p>
+        </div>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">3社併用のメリット・デメリット</h2>
+        <p className="text-sm"><strong>メリット</strong>: ポイント還元の最大化、複数経済圏の恩恵</p>
+        <p className="text-sm"><strong>デメリット</strong>: 管理が煩雑、特定口座分の利益に20.315%課税、資金拘束増</p>
+        <p className="text-sm mt-2">一般的には<strong>「SBI×三井住友ゴールドNL」1社集中</strong>が最も効率的。3社併用は年収・投資余力が大きい人向けの上級テクニック。</p>
+      </section>
+      <AffiliateCTA
+        title="まずは1社集中で始めてみる"
+        description="SBI証券×三井住友カードNL / ゴールドNLなら年100万円利用で年会費無料。初心者に最もおすすめの組合せ。"
+        buttonText="新NISA証券会社TOP5を見る"
+        href="/guide/nisa-broker-ranking-2026"
+        external={false}
+        icon="💳"
+      />
+    </>
+  ),
 };
