@@ -3610,4 +3610,562 @@ const guideContents: Record<string, React.ReactNode> = {
       </section>
     </>
   ),
+  "mortgage-comparison-2026": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">住宅ローンで人生のコストが最大1,000万円変わる</h2>
+        <p>
+          住宅ローンは多くの人にとって人生最大の買い物。3,500万円を35年借りる場合、<strong>金利0.3%と1.5%では総返済額が約650万円も違います</strong>。さらに団信・事務手数料・繰上返済の条件を加えると、最適な選択で総コストは1,000万円単位で動きます。2026年はネット銀行金利が歴史的低水準、比較する価値が最も高いタイミングです。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="2026年 ネット銀行の住宅ローンおすすめランキング"
+        services={[
+          {
+            name: "住信SBIネット銀行",
+            rank: 1,
+            highlight: "変動0.298%｜全疾病団信0円｜ネット手続き完結",
+            features: [
+              "変動金利：業界最安水準0.298%〜",
+              "40種類以上の疾病保障付き団信が無料付帯",
+              "繰上返済手数料0円・何度でも無料",
+              "ネット完結で来店不要、書類もアップロード",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=3TDBVB+99J9MY+50+2HEFRR",
+            badge: "総合No.1",
+          },
+          {
+            name: "auじぶん銀行",
+            rank: 2,
+            highlight: "変動0.329%｜がん50%保障団信が無料",
+            features: [
+              "KDDI・三菱UFJ銀行系で安心",
+              "がん50%保障＋全疾病長期入院保障が無料付帯",
+              "auユーザーは金利優遇あり",
+              "スマホアプリで繰上返済が即実行",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=3ZCOXE+96LG9M+50+2HE0PB",
+            badge: "団信最強",
+          },
+          {
+            name: "楽天銀行",
+            rank: 3,
+            highlight: "フラット35シェアNo.1｜事務手数料定額",
+            features: [
+              "フラット35の取扱シェア業界トップクラス",
+              "融資事務手数料が定額（借入額に応じない）",
+              "楽天会員なら事務手数料優遇あり",
+              "借換えにも強い",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=3HBJZZ+CG4HT6+3AYK+5YZ77",
+            badge: "フラット35向け",
+          },
+          {
+            name: "PayPay銀行",
+            rank: 4,
+            highlight: "変動0.330%｜がん50%保障団信を標準搭載",
+            features: [
+              "がん50%保障団信が無料で付帯",
+              "一般団信・ワイド団信も金利上乗せなし",
+              "スマホで審査〜契約まで完結",
+              "他行から借り換え需要も増加",
+            ],
+            href: "https://www.paypay-bank.co.jp/mortgage/",
+            badge: "がん保障特化",
+          },
+          {
+            name: "ARUHI フラット35",
+            rank: 5,
+            highlight: "フラット35取扱件数13年連続No.1",
+            features: [
+              "自営業・転職直後でも審査に通りやすい",
+              "頭金1割以上で金利優遇（ARUHIスーパーフラット）",
+              "返済中に金利が上がらない安心感",
+              "全国170以上の店舗で対面相談可",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=3HBJZZ+F0WK9E+4AUG+5YZ77",
+            badge: "審査通りやすさ重視",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">変動金利 vs 固定金利、どちらを選ぶ？</h2>
+        <div className="rounded-xl border border-card-border bg-card-bg p-5">
+          <ul className="text-sm space-y-2">
+            <li><strong>変動金利派（約7割）</strong>: 金利が低く、当面の返済を軽くしたい。繰上返済で完済を早められる余力がある</li>
+            <li><strong>10年固定派</strong>: 教育費ピークの10年を金利固定で乗り切り、その後変動に切替</li>
+            <li><strong>フラット35派</strong>: 自営業・転職直後・将来金利上昇が不安な方。返済額が35年固定で家計管理が楽</li>
+            <li><strong>結論</strong>: 繰上返済できる余裕があるなら変動、無理なら固定で家計を守る</li>
+          </ul>
+        </div>
+      </section>
+      <AffiliateCTA
+        title="モゲチェックで一括仮審査【完全無料】"
+        description="年収・借入希望額を入力するだけで、最大5社の住宅ローン金利・諸費用を一括比較。AIが最安プランを診断、借り換えシミュレーションも無料。"
+        buttonText="モゲチェックで無料診断"
+        href="https://px.a8.net/svt/ejp?a8mat=3HBJZZ+9OD3ZM+3Y0C+5YZ75"
+        icon="🏠"
+        highlight="完全無料"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">住宅ローン控除で13年間の節税</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>年末残高の0.7%を所得税から控除（最大13年）</li>
+          <li>省エネ住宅なら借入上限4,500万円、一般住宅3,000万円</li>
+          <li>3,500万円借入なら初年度約24.5万円の還付</li>
+          <li>13年間の合計で250〜300万円の節税効果</li>
+          <li>初年度のみ確定申告、2年目以降は年末調整で対応可</li>
+        </ul>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">団信（団体信用生命保険）で損しない選び方</h2>
+        <ol className="list-decimal list-inside space-y-2 text-sm">
+          <li><strong>一般団信（無料）</strong>: 死亡・高度障害のみカバー、最低限必要</li>
+          <li><strong>がん50%保障（無料付帯が増加）</strong>: がん診断で残高半減、住信SBI・auじぶん・PayPayが無料</li>
+          <li><strong>3大疾病・8大疾病（金利+0.2〜0.3%）</strong>: 余裕があればつけたい</li>
+          <li><strong>全疾病保障（無料の銀行あり）</strong>: 就業不能リスクをカバー、住信SBIが無料で最強</li>
+        </ol>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">借り換えで月2〜3万円返済額を減らす</h2>
+        <p>
+          残高1,500万円以上・残期間10年以上・金利差1%以上の条件が揃うと、借り換えで<strong>総返済額を数百万円減らせるケースも多数</strong>。借換え諸費用（50〜80万円）を差し引いても十分にメリットが出ます。まず無料一括シミュレーションで現状を把握しましょう。
+        </p>
+      </section>
+    </>
+  ),
+  "medical-insurance-comparison-2026": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">医療保険は本当に必要か？まず公的保障を知る</h2>
+        <p>
+          日本は国民皆保険制度により、医療費の自己負担は原則3割、さらに高額療養費制度で<strong>月収50万円の会社員なら自己負担上限は約9万円/月</strong>。長期入院でも年間100万円程度でカバーされる計算です。まずは公的保障を理解したうえで、本当に必要な民間保険を最小限だけ選ぶのが鉄則です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="2026年 医療保険・がん保険おすすめランキング"
+        services={[
+          {
+            name: "オリックス生命 CURE Next",
+            rank: 1,
+            highlight: "月1,500円〜｜七大疾病入院無制限｜終身保障",
+            features: [
+              "入院給付金日額5,000円〜10,000円",
+              "七大生活習慣病で入院日数無制限",
+              "先進医療給付金（通算2,000万円まで）",
+              "保険料終身一定・オンライン見積もり無料",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=3HBJZZ+DG4ERM+2UTC+5YZ75",
+            badge: "シンプル最強",
+          },
+          {
+            name: "チューリッヒ生命 終身ガン治療保険プレミアムZ",
+            rank: 2,
+            highlight: "がん治療を回数無制限でカバー｜保険料割安",
+            features: [
+              "抗がん剤・ホルモン剤治療を月10万円給付",
+              "放射線治療・自由診療のがん治療もサポート",
+              "診断一時金100万円を複数回受け取り可",
+              "他社より保険料20%以上安い",
+            ],
+            href: "https://www.zurichlife.co.jp/products/premiumz",
+            badge: "がん特化",
+          },
+          {
+            name: "アフラック EVER Prime",
+            rank: 3,
+            highlight: "短期入院・日帰り手術にも強い｜業界定番",
+            features: [
+              "日帰り入院から給付対象（5日分保障）",
+              "七大生活習慣病の入院給付日数無制限",
+              "女性疾病特約でより手厚い保障",
+              "アフラックは医療保険シェアNo.1",
+            ],
+            href: "https://www.aflac.co.jp/medical/ever_prime/",
+            badge: "短期入院◎",
+          },
+          {
+            name: "メディケア生命 メディフィットA",
+            rank: 4,
+            highlight: "住友生命グループ｜通算1,095日まで保障",
+            features: [
+              "住友生命グループで信頼性◎",
+              "入院通算1,095日まで保障（業界最高水準）",
+              "七大生活習慣病入院無制限",
+              "先進医療特約で2,000万円保障",
+            ],
+            href: "https://www.medicarelife.com/product/medifitA/",
+            badge: "長期入院保障",
+          },
+          {
+            name: "都道府県民共済",
+            rank: 5,
+            highlight: "月2,000円で入院＋死亡｜割戻金で実質月1,300円",
+            features: [
+              "総合保障2型で月2,000円（20〜64歳）",
+              "入院日額1日5,000円〜10,000円",
+              "毎年30%前後の割戻金で実質負担減",
+              "営利目的でないため保険料が圧倒的に安い",
+            ],
+            href: "https://www.kyosai-cc.or.jp/",
+            badge: "最安",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">年代別の最適な医療保険設計</h2>
+        <div className="rounded-xl border border-card-border bg-card-bg p-5">
+          <ul className="text-sm space-y-2">
+            <li><strong>20代独身</strong>: 県民共済2,000円 or オリックス月1,500円の入院のみ</li>
+            <li><strong>30代DINKs</strong>: 入院日額5,000円＋がん診断一時金100万円</li>
+            <li><strong>40代子育て世帯</strong>: 医療+がん+就業不能（3点で月5,000〜7,000円）</li>
+            <li><strong>50代プレ退職</strong>: がん・三大疾病の一時金中心（治療資金確保）</li>
+            <li><strong>60代以降</strong>: 高額療養費制度でカバー、民間保険卒業も検討</li>
+          </ul>
+        </div>
+      </section>
+      <AffiliateCTA
+        title="保険見直しラボで無料相談【オンラインOK】"
+        description="30社以上から中立的に提案するFP相談。現在加入中の保険の過不足を診断し、公的保障も考慮した最適プランを提案。相談無料・勧誘なしで安心。"
+        buttonText="無料保険相談を予約"
+        href="https://px.a8.net/svt/ejp?a8mat=3HDFZG+73A1FM+3UXW+60WNR"
+        icon="🛡️"
+        highlight="完全無料"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">医療保険でよくある「入りすぎ」の典型例</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>入院日額15,000円以上（日本の入院は平均16日、そこまで必要ない）</li>
+          <li>貯蓄型医療保険（保険料が高額、新NISAの方が有利）</li>
+          <li>三大疾病・七大疾病・八大疾病の重複特約</li>
+          <li>女性疾病特約（一般の医療保険で大半カバー可）</li>
+          <li>通院特約（実費が少額で元が取れにくい）</li>
+        </ul>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">見直しで年10〜30万円節約→新NISA投資へ</h2>
+        <p>
+          40代夫婦が「医療保険＋がん保険＋就業不能＋特約フル」で月3〜5万円払っているケースは珍しくありません。<strong>最小限の保障（夫婦で月1〜1.5万円）</strong>に絞り込めば、浮いたお金を新NISAで運用することで、20年で1,000万円超の資産形成が可能になります。
+        </p>
+      </section>
+    </>
+  ),
+  "investing-50s-strategy": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">50代からでも遅くない、10年で1,500万円を作る現実解</h2>
+        <p>
+          50代はセカンドライフまで残り10〜15年、老後資金の最終仕上げの時期です。<strong>月10万円積立×年利5%×10年で約1,550万円</strong>、退職金2,000万円と合わせれば夫婦2人の老後資金3,500〜4,000万円が現実的に作れます。ただし20〜30代とは異なり、<strong>リスク管理を強めた守備的な運用</strong>が大前提です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="50代向け 新NISA活用と証券会社おすすめ"
+        services={[
+          {
+            name: "SBI証券",
+            rank: 1,
+            highlight: "投信・米国株・債券まで品揃え最強",
+            features: [
+              "つみたて投資枠でオルカン・S&P500",
+              "成長投資枠で高配当株・米国ETF",
+              "米ドル建て債券で安定利回り4%超",
+              "三井住友ゴールドカード積立で1%還元",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=3HCPP5+5B3RFU+3L3S+BWGDT",
+            badge: "総合No.1",
+          },
+          {
+            name: "楽天証券",
+            rank: 2,
+            highlight: "楽天ポイント再投資・操作画面が平易",
+            features: [
+              "楽天カード積立で最大1%還元",
+              "操作画面が初心者向けで50代にも優しい",
+              "日経新聞電子版が無料で読める",
+              "楽天銀行との連携で預金金利0.18%",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=3HDFZG+5DBUY2+3VG4+61C2P",
+            badge: "使いやすさ",
+          },
+          {
+            name: "ウェルスナビ",
+            rank: 3,
+            highlight: "完全おまかせでリスク調整自動",
+            features: [
+              "年齢に応じたリスク低減を自動実施",
+              "世界分散ETFで手堅く運用",
+              "新NISA対応の「おまかせNISA」",
+              "手数料1%（3,000万円超は0.5%）",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=3HBLVN+6FQUZ6+3EC2+60OXE",
+            badge: "おまかせ派",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">50代の理想的ポートフォリオ（保守〜標準〜積極）</h2>
+        <div className="rounded-xl border border-card-border bg-card-bg p-5">
+          <ul className="text-sm space-y-2">
+            <li><strong>保守型（リスク許容度低）</strong>: 株式30% / 債券50% / 現金20%</li>
+            <li><strong>標準型</strong>: 株式50% / 債券30% / 現金20%</li>
+            <li><strong>積極型（定年後も運用継続）</strong>: 株式70% / 債券20% / 現金10%</li>
+            <li><strong>年齢別目安</strong>: 「100-年齢=株式比率」の簡易ルールも参考に</li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">50代こそ新NISAの成長投資枠を使い切る</h2>
+        <ol className="list-decimal list-inside space-y-2 text-sm">
+          <li><strong>つみたて投資枠 月10万円</strong>: オルカン or S&P500で10年積立</li>
+          <li><strong>成長投資枠 年240万円</strong>: 高配当日本株・米国ETF（VYM/HDV/SPYD）</li>
+          <li><strong>退職金の一部を一括投資</strong>: 1,000万円を一括＋残りを月50万円×24ヶ月で時間分散</li>
+          <li><strong>5年で1,800万円枠を埋め切る計画</strong>: 50代後半からのフル活用</li>
+        </ol>
+      </section>
+      <AffiliateCTA
+        title="退職金の受取前に無料相談｜IFAナビ"
+        description="退職金2,000万円を預金で寝かせると実質目減り。独立系FPが運用プランを無料提案、金融機関のポジショントークに騙されない中立的アドバイス。"
+        buttonText="無料で相談する"
+        href="/guide/insurance-optimization-guide"
+        external={false}
+        icon="🎯"
+        highlight="完全無料"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">60歳以降の出口戦略</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>60歳：iDeCoを一時金で受取（退職所得控除で税金ゼロに）</li>
+          <li>60〜65歳：働き続けるなら新NISAは取り崩さない</li>
+          <li>65歳：年金受給開始、取崩しは年4%ルールで</li>
+          <li>70歳：繰下げ受給で年金を最大42%増額</li>
+          <li>75歳：繰下げ最大84%増、長寿リスクに備える</li>
+        </ul>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">50代がやってはいけない投資</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>レバレッジ商品（レバナス・ブル/ベア型）</li>
+          <li>個別株への集中投資（10年後を読めない企業への全力買い）</li>
+          <li>毎月分配型投資信託（元本取り崩しで複利効かず）</li>
+          <li>退職金詐欺まがいの「一括100%株式投資」勧誘</li>
+          <li>FX・仮想通貨ハイレバ（短期で資産を失うリスク）</li>
+        </ul>
+      </section>
+    </>
+  ),
+  "nisa-ideco-combined-strategy": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">新NISAとiDeCoは「併用」が正解</h2>
+        <p>
+          新NISAとiDeCoは競合ではなく補完関係。<strong>iDeCoで節税しながら、新NISAで非課税運用する</strong>のが会社員にとって最強の資産形成法です。iDeCoは掛金全額が所得控除（年収500万円なら年5.5万円節税）、新NISAは運用益が生涯非課税。使い切れば30年で6,000万円超の老後資産が現実的です。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">新NISAとiDeCoの違いを一覧で理解</h2>
+        <div className="rounded-xl border border-card-border bg-card-bg p-5">
+          <ul className="text-sm space-y-2">
+            <li><strong>新NISA</strong>: 年360万円・生涯1,800万円枠、いつでも引出し可、節税は運用益のみ</li>
+            <li><strong>iDeCo</strong>: 年14.4〜81.6万円（職業別）、60歳まで引出不可、掛金全額所得控除</li>
+            <li><strong>共通点</strong>: 運用益非課税、自分で商品選択、長期積立に向く</li>
+            <li><strong>併用する理由</strong>: iDeCoは節税、新NISAは流動性、両取りで最大効率</li>
+          </ul>
+        </div>
+      </section>
+      <ComparisonTableCTA
+        title="NISA×iDeCo 併用におすすめネット証券"
+        services={[
+          {
+            name: "SBI証券",
+            rank: 1,
+            highlight: "NISA・iDeCo 両方で取扱最多",
+            features: [
+              "iDeCoの運営管理手数料 0円",
+              "新NISA つみたて対応投信2,000本以上",
+              "三井住友ゴールドカード積立で1%還元",
+              "iDeCoはeMAXIS Slimシリーズ全対応",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=3HCPP5+5B3RFU+3L3S+BWGDT",
+            badge: "両取りNo.1",
+          },
+          {
+            name: "楽天証券",
+            rank: 2,
+            highlight: "iDeCo・NISAで楽天ポイント連携",
+            features: [
+              "iDeCo運営管理手数料 0円",
+              "楽天カード積立で最大1%ポイント還元",
+              "楽天証券ポイントで投資可",
+              "iDeCoはeMAXIS Slim・楽天オルカン対応",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=3HDFZG+5DBUY2+3VG4+61C2P",
+            badge: "ポイント派",
+          },
+          {
+            name: "マネックス証券",
+            rank: 3,
+            highlight: "米国株に強い｜iDeCoも充実",
+            features: [
+              "iDeCo運営管理手数料 0円",
+              "マネックスカード積立で1.1%還元（業界最高）",
+              "米国株の取扱銘柄数が業界トップクラス",
+              "iDeCo銘柄でNASDAQ100対応",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=3HCPP5+5FQQ1E+348+62TZF",
+            badge: "クレカ還元率No.1",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">年収別の最適配分シミュレーション</h2>
+        <div className="rounded-xl border border-card-border bg-card-bg p-5">
+          <ul className="text-sm space-y-2">
+            <li><strong>年収500万円・独身</strong>: iDeCo 月2.3万円＋新NISA 月5〜7万円</li>
+            <li><strong>年収800万円・夫婦</strong>: iDeCo 月2.3万円＋新NISA 月10万円（クレカ積立上限まで）</li>
+            <li><strong>年収1,200万円・子育て世帯</strong>: iDeCo満額＋新NISA月30万円（5年で枠使い切り）</li>
+            <li><strong>共働き夫婦</strong>: 各自iDeCo＋新NISAをフル活用（世帯で年840万円投資可）</li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">優先順位の原則</h2>
+        <ol className="list-decimal list-inside space-y-2 text-sm">
+          <li><strong>1位：企業型DCのマッチング拠出</strong>: あれば満額（会社の退職金＋自分の掛金）</li>
+          <li><strong>2位：iDeCo（会社員月2.3万円）</strong>: 節税効果が即時性◎、30年で数百万円の差</li>
+          <li><strong>3位：新NISA つみたて投資枠</strong>: 月10万円までクレカ積立推奨</li>
+          <li><strong>4位：新NISA 成長投資枠</strong>: 余剰資金で高配当株・米国ETF</li>
+          <li><strong>5位：特定口座</strong>: 両方使い切ってもまだ資金があれば</li>
+        </ol>
+      </section>
+      <AffiliateCTA
+        title="iDeCo口座はSBI証券なら手数料0円"
+        description="iDeCoは運営管理手数料が運用成績を左右する最重要ポイント。SBI証券は運営管理手数料0円＋取扱銘柄業界最多で、長期で数十万円の差がつく。"
+        buttonText="SBI証券でiDeCo申込"
+        href="https://px.a8.net/svt/ejp?a8mat=3HCPP5+5B3RFU+3L3S+BWGDT"
+        icon="🏦"
+        highlight="手数料0円"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">30年で作れる資産シミュレーション</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>iDeCo 月2.3万円×30年×年5%＝<strong>約1,915万円</strong>（節税累計165万円）</li>
+          <li>新NISA 月10万円×15年＋保持15年×年5%＝<strong>約4,160万円</strong></li>
+          <li>合計：<strong>約6,075万円</strong>（老後資金2,000万円問題を完全解決）</li>
+          <li>運用益にかかる税金（約20%）が非課税なので、課税口座比で約1,000万円有利</li>
+        </ul>
+      </section>
+    </>
+  ),
+  "housewife-investment-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">主婦・主夫が知っておくべき「壁」の全体像</h2>
+        <p>
+          扶養内で働く主婦・主夫が最初に押さえるべきは<strong>103万円・106万円・130万円・150万円の壁</strong>。これを理解せずに副業収入を増やすと、配偶者の税金が増えたり社会保険料で手取りが減ったりします。一方、<strong>新NISA・iDeCo・クレカ積立</strong>は扶養内でも活用でき、世帯の資産形成に大きく貢献します。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">4つの壁と超えるメリット・デメリット</h2>
+        <div className="rounded-xl border border-card-border bg-card-bg p-5">
+          <ul className="text-sm space-y-2">
+            <li><strong>103万円の壁</strong>: 所得税が発生。配偶者控除（38万円）は150万円まで維持</li>
+            <li><strong>106万円の壁</strong>: 従業員101人以上の企業で社会保険加入義務</li>
+            <li><strong>130万円の壁</strong>: すべての企業で社会保険加入、扶養から外れる</li>
+            <li><strong>150万円の壁</strong>: 配偶者特別控除が段階的に減少（201万円で0円）</li>
+            <li><strong>結論</strong>: 扶養継続なら〜130万円、超えるなら170万円超で手取り逆転</li>
+          </ul>
+        </div>
+      </section>
+      <ComparisonTableCTA
+        title="主婦・主夫におすすめの新NISA・証券会社"
+        services={[
+          {
+            name: "楽天証券",
+            rank: 1,
+            highlight: "楽天カード積立で1%還元｜楽天ポイントで投資",
+            features: [
+              "楽天カード積立で最大1%ポイント還元",
+              "楽天ポイントでの投資（ポイ活投資）",
+              "楽天市場SPUアップで主婦に人気",
+              "アプリが使いやすく初心者向け",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=3HDFZG+5DBUY2+3VG4+61C2P",
+            badge: "ポイ活派No.1",
+          },
+          {
+            name: "SBI証券",
+            rank: 2,
+            highlight: "三井住友カードVポイント＋Tポイント投資",
+            features: [
+              "三井住友カード積立で最大5%還元",
+              "Vポイント・TポイントでNISA投資可",
+              "取扱投信2,000本以上で選択肢豊富",
+              "夫婦で口座開設してつみたて分散",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=3HCPP5+5B3RFU+3L3S+BWGDT",
+            badge: "総合力◎",
+          },
+          {
+            name: "マネックス証券",
+            rank: 3,
+            highlight: "マネックスカード積立で1.1%還元",
+            features: [
+              "クレカ積立還元率業界トップ",
+              "ゴールドカード不要で1.1%",
+              "少額からの積立に最適",
+              "米国株分野にも強い",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=3HCPP5+5FQQ1E+348+62TZF",
+            badge: "高還元",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">主婦・主夫向け 新NISA活用の黄金パターン</h2>
+        <ol className="list-decimal list-inside space-y-2 text-sm">
+          <li><strong>月1〜5万円のつみたて</strong>: オルカン or S&P500を無理のない範囲で</li>
+          <li><strong>クレカ積立で還元Get</strong>: 楽天カード・三井住友カード・マネックスカード</li>
+          <li><strong>ボーナス時期に増額</strong>: 成長投資枠で年2〜3回のスポット買い</li>
+          <li><strong>夫婦で2口座運用</strong>: 世帯で年720万円枠・生涯3,600万円枠を使える</li>
+          <li><strong>10年後の目標</strong>: 月3万円×10年×年5%＝約465万円の教育資金</li>
+        </ol>
+      </section>
+      <AffiliateCTA
+        title="在宅で月3〜5万円｜クラウドワークス"
+        description="主婦に人気の在宅ワーク。データ入力・ライター・デザインなど、スキマ時間で月3〜5万円の副収入。新NISA積立の原資づくりに最適。"
+        buttonText="クラウドワークスに無料登録"
+        href="https://px.a8.net/svt/ejp?a8mat=2NR2GS+DFNXFM+0K3Y+61RIP"
+        icon="💻"
+        highlight="完全無料"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">扶養内で稼ぎやすい副業ランキング</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>クラウドワークス・ランサーズ：月3〜8万円（ライター・データ入力）</li>
+          <li>ポイ活（楽天ポイントなど）：月5,000〜15,000円相当</li>
+          <li>ハンドメイド販売（minne・Creema）：月1〜5万円</li>
+          <li>フリマ（メルカリ・ラクマ）：不要品処分で月1〜3万円</li>
+          <li>ブログ・YouTube：半年〜1年で月1万円、育てれば副業税申告要</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="ポイ活＋クレカ積立で年10万円のリターン"
+        description="楽天経済圏を使い込むと、年間10万ポイント以上が貯まる主婦・主夫も多数。そのポイントをそのまま新NISA投資に回せば、実質0円で資産形成が進む。"
+        buttonText="楽天カードに無料申込"
+        href="https://hb.afl.rakuten.co.jp/hgc/g00q0722.r9tfu12j.g00q0722.r9tfvd42/"
+        icon="🎁"
+        highlight="年会費無料"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">主婦・主夫の確定申告が必要になるケース</h2>
+        <ol className="list-decimal list-inside space-y-2 text-sm">
+          <li>副業所得（売上−経費）が年20万円超＋給与がない場合</li>
+          <li>給与収入が103万円超（所得税発生）</li>
+          <li>医療費控除（家族合算で年10万円超の医療費）</li>
+          <li>ふるさと納税 6自治体超（ワンストップ特例不可）</li>
+          <li>投資の損益通算・繰越控除を使う場合</li>
+        </ol>
+      </section>
+    </>
+  ),
 };
