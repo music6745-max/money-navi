@@ -2557,4 +2557,334 @@ const guideContents: Record<string, React.ReactNode> = {
       />
     </>
   ),
+  "ipo-investment-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">IPO投資とは？当選すれば初値で数十万円の利益も</h2>
+        <p>
+          IPO（新規公開株）投資は、上場前の企業の株を公募価格で購入し、上場初日の初値で売却する投資手法。<strong>初値騰落率の平均は約+70%</strong>と高く、1銘柄で数十万〜数百万円の利益を得るケースも珍しくありません。ただし当選しないと始まらないため、複数の証券会社で口座開設するのが基本戦略です。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">IPO当選確率を上げる証券会社選び</h2>
+        <div className="rounded-xl border border-card-border bg-card-bg p-5">
+          <ul className="text-sm space-y-2">
+            <li><strong>SBI証券</strong>: IPOチャレンジポイント制度、取扱数業界最多クラス</li>
+            <li><strong>マネックス証券</strong>: 100%完全平等抽選、小口でも当選のチャンス</li>
+            <li><strong>楽天証券</strong>: 取扱銘柄増加中、楽天ポイントで投資可</li>
+            <li><strong>松井証券</strong>: 主幹事実績あり、取引手数料も1日50万円まで無料</li>
+            <li><strong>auカブコム証券</strong>: 完全平等抽選の比率が高い</li>
+            <li><strong>DMM.com証券</strong>: 取扱銘柄増加中、少額でも当選チャンス</li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">IPO投資の戦略</h2>
+        <ol className="list-decimal list-inside space-y-1 text-sm">
+          <li>主要ネット証券5〜10社で口座開設（複数申込で当選確率UP）</li>
+          <li>BB（ブックビルディング）参加 - 公募価格が決定する前の需要調査</li>
+          <li>抽選当選後、購入申込期間内に「購入する」を選択</li>
+          <li>上場日の寄付き（初値）で成行売却が基本戦略</li>
+          <li>業績好調銘柄はセカンダリ（上場後）で長期保有も検討</li>
+        </ol>
+      </section>
+      <AffiliateCTA
+        title="【DMM 株】でIPOに挑戦する"
+        description="DMM.com証券ならIPO取扱も増加中、手数料は業界最安水準。"
+        buttonText="DMM 株の詳細"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+1YUMJE+1WP2+15QHIA"
+        icon="🚀"
+        highlight="手数料業界最安水準"
+      />
+    </>
+  ),
+  "high-dividend-stocks-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">高配当株投資の魅力：不労所得を生むキャッシュフロー</h2>
+        <p>
+          高配当株投資は、配当利回り3〜5%以上の銘柄を長期保有し、<strong>定期的な配当金収入（不労所得）</strong>を得る投資手法。インデックス投資と違い、売却せずに持ち続けるだけで安定したキャッシュフローが得られるのが最大の魅力です。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">月5万円の配当金を得るために必要な投資額</h2>
+        <div className="rounded-xl border border-card-border bg-card-bg p-5">
+          <ul className="text-sm space-y-2">
+            <li><strong>配当利回り3%</strong>: 2,000万円で年60万円（月5万円）</li>
+            <li><strong>配当利回り4%</strong>: 1,500万円で年60万円</li>
+            <li><strong>配当利回り5%</strong>: 1,200万円で年60万円</li>
+          </ul>
+          <p className="text-xs text-muted mt-3">※税引前。NISA成長投資枠なら非課税で全額受け取り可。</p>
+        </div>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">日本の高配当株おすすめ銘柄（参考）</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>三菱商事・三井物産・住友商事など総合商社（利回り3〜4%）</li>
+          <li>JT（日本たばこ産業）（利回り5%超）</li>
+          <li>三菱UFJ FG・三井住友FG・みずほFGなどメガバンク（利回り3〜4%）</li>
+          <li>KDDI・ソフトバンク・NTTなど通信大手（利回り3〜4%）</li>
+          <li>ENEOS HD・出光興産などエネルギー（利回り4〜5%）</li>
+        </ul>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">米国高配当ETF（分散投資に便利）</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li><strong>VYM</strong>: 高配当400銘柄に分散、経費率0.06%</li>
+          <li><strong>SPYD</strong>: S&P500高配当上位80銘柄、利回り約4%</li>
+          <li><strong>HDV</strong>: 高配当75銘柄、財務健全性重視</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="【DMM 株】で高配当米国株を購入"
+        description="NISAで米国ETF（VYM・SPYD等）も購入可能。配当は非課税で受け取れます。"
+        buttonText="DMM 株でNISA口座開設"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+1YUMJE+1WP2+15QHIA"
+        icon="💵"
+        highlight="NISAで非課税"
+      />
+    </>
+  ),
+  "dividend-life-roadmap": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">配当金生活とは？FIRE達成への道</h2>
+        <p>
+          配当金生活とは、株式投資の配当金だけで生活費をまかなう状態を指します。FIRE（Financial Independence, Retire Early）ムーブメントの一環として注目され、自由な時間と経済的自立を両立する究極のライフスタイルです。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">目標配当金額別・必要投資額（利回り4%想定）</h2>
+        <div className="rounded-xl border border-card-border bg-card-bg p-5">
+          <ul className="text-sm space-y-2">
+            <li><strong>月10万円</strong>（年120万円）: 投資元本 3,000万円</li>
+            <li><strong>月20万円</strong>（年240万円）: 投資元本 6,000万円</li>
+            <li><strong>月30万円</strong>（年360万円）: 投資元本 9,000万円</li>
+            <li><strong>月50万円</strong>（年600万円・ゆとり生活）: 投資元本 1億5,000万円</li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">年代別・実現可能なプラン</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li><strong>20代スタート</strong>: 月5万円積立×30年×年利6% → 約5,000万円 → 月15万円配当</li>
+          <li><strong>30代スタート</strong>: 月7万円積立×25年×年利6% → 約4,800万円 → 月14万円配当</li>
+          <li><strong>40代スタート</strong>: 月10万円積立×20年×年利6% → 約4,600万円 → 月14万円配当</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="配当金生活を本気で目指すなら投資スクール"
+        description="ファイナンシャルアカデミーで株式投資・配当金戦略を体系的に学べる。無料体験セミナーあり。"
+        buttonText="無料体験セミナーに申し込む"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1O+G8NPLM+1IRY+25I7J5"
+        icon="🏖️"
+        highlight="投資スクール老舗"
+      />
+    </>
+  ),
+  "us-stock-investment-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">米国株投資が選ばれる理由</h2>
+        <p>
+          米国株は<strong>年平均リターン9〜10%</strong>と世界最高水準の成長力を誇り、日本人投資家にも人気。GAFAM（Google、Apple、Facebook=Meta、Amazon、Microsoft）をはじめとする世界的企業に直接投資できる点が魅力です。円安進行時には為替差益も狙えます。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">3つのアプローチ</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li><strong>S&P500インデックス</strong>: VOO・IVV・SPY等、最も無難な米国株投資</li>
+          <li><strong>高配当ETF</strong>: VYM・SPYD・HDV、配当利回り3〜4%</li>
+          <li><strong>個別株（GAFAM等）</strong>: 成長力最高だが値動き激しい</li>
+        </ul>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">税金・為替リスクの管理</h2>
+        <p className="text-sm">
+          米国株の配当は米国で10%源泉徴収後、日本でも20.315%課税。外国税額控除で取り戻せます。NISA口座なら日本側20.315%分は非課税（米国10%は発生）。為替はドル建てなので、円高局面では日本円換算の評価額が下がります。
+        </p>
+      </section>
+      <AffiliateCTA
+        title="【DMM 株】で米国株投資を始める"
+        description="米国株の手数料は約定代金の0.45%（業界最安級）。NISA対応で非課税運用可能。"
+        buttonText="DMM 株で米国株を始める"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+1YUMJE+1WP2+15QHIA"
+        icon="🇺🇸"
+        highlight="手数料最安級"
+      />
+    </>
+  ),
+  "gold-investment-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">金投資の役割：インフレヘッジ＆安全資産</h2>
+        <p>
+          金は「有事の金」と呼ばれ、株価暴落・通貨価値下落時に価値が保たれる<strong>安全資産</strong>。インフレ局面でも実物資産として価値を維持します。ポートフォリオの5〜10%を金に配分するのが一般的な推奨です。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">金投資の3つの方法</h2>
+        <div className="rounded-xl border border-card-border bg-card-bg p-5">
+          <ul className="text-sm space-y-2">
+            <li><strong>純金積立</strong>: 田中貴金属・三菱マテリアル等、月3,000円〜。長期積立向き</li>
+            <li><strong>金ETF（1540・GLD等）</strong>: 証券会社で簡単売買、NISA対応可</li>
+            <li><strong>金地金（実物）</strong>: 500g以上で現物購入可、保管コスト考慮必要</li>
+          </ul>
+        </div>
+      </section>
+      <AffiliateCTA
+        title="【DMM CFD】で金・原油などのコモディティ取引"
+        description="CFDなら少額から金・原油・株価指数に投資可能。DMM.com証券の信頼性。"
+        buttonText="DMM CFDの詳細"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1O+FZ4RX6+1WP2+NZ4J7"
+        icon="🪙"
+      />
+    </>
+  ),
+  "bond-investment-beginners": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">債券投資の基礎：安定した利息収入</h2>
+        <p>
+          債券は国や企業が資金調達のために発行する借用証書で、<strong>定期的な利息</strong>と満期時の元本返済が約束されています。株式よりも値動きが小さく、分散投資の一部として重要な役割を果たします。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">主要な債券の種類</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li><strong>個人向け国債</strong>: 変動10年・固定5年・固定3年。1万円から、最低金利0.05%保証</li>
+          <li><strong>社債</strong>: 大企業の債券、金利1〜3%程度。個別リスクあり</li>
+          <li><strong>米国債</strong>: 米国政府発行、金利4〜5%（2026年時点）。為替リスクあり</li>
+          <li><strong>債券投資信託</strong>: 分散された債券に手軽に投資、NISA対応あり</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="【DMM 株】で個人向け国債・債券ファンドを購入"
+        description="個人向け国債やバランス型投信を通じて債券投資が可能。NISAにも対応。"
+        buttonText="DMM 株で債券投資"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+1YUMJE+1WP2+15QHIA"
+        icon="📜"
+      />
+    </>
+  ),
+  "reit-investment-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">J-REITとは？小額で不動産投資</h2>
+        <p>
+          J-REIT（日本版不動産投資信託）は、不動産のプロが運用する不動産ポートフォリオに<strong>1口10万円程度</strong>から投資できる金融商品。利益の90%以上を分配するため、利回りは一般的に<strong>3〜5%</strong>と高めです。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">J-REITの魅力とリスク</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>少額から不動産に分散投資可能</li>
+          <li>プロが運用するので知識不要</li>
+          <li>株式市場で自由に売買（流動性高い）</li>
+          <li>NISA成長投資枠で非課税運用可</li>
+          <li>金利上昇・不動産市況悪化が主なリスク</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="不動産クラウドファンディングも検討"
+        description="J-REITと違い、投資対象物件を自分で選べる。利回り4〜8%の案件多数。"
+        buttonText="不動産投資ガイドを見る"
+        href="/guide/investment-complete-guide"
+        external={false}
+        icon="🏢"
+      />
+    </>
+  ),
+  "insurance-optimization-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">日本人は保険に入りすぎ？公的保障で十分な場合も</h2>
+        <p>
+          日本は<strong>社会保障が手厚い国</strong>のため、高額な民間保険が必要ないケースが多数。健康保険（高額療養費制度）、遺族年金、障害年金など公的保障を理解した上で、本当に必要な保障だけ民間保険で補うのが賢い選び方です。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">会社員に本当に必要な保険</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li><strong>生命保険（家族持ち）</strong>: 収入保障保険が効率的。掛け捨てで保険料が安い</li>
+          <li><strong>医療保険</strong>: 公的保障で多くカバー可能。高額療養費制度の上限は月約8〜18万円</li>
+          <li><strong>がん保険</strong>: 先進医療特約は有用。他の保障は公的保険でカバー可</li>
+          <li><strong>自動車保険</strong>: 対人・対物無制限は必須</li>
+          <li><strong>火災保険</strong>: 賃貸・持ち家問わず加入必須</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="保険の見直しで年10万円以上の節約も"
+        description="無料の保険相談サービスで、現在の保険を見直して適正な保障額に。"
+        buttonText="保険相談サービスを見る"
+        href="/guide/household-budget-apps"
+        external={false}
+        icon="🛡️"
+      />
+    </>
+  ),
+  "fx-vps-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">FX自動売買（EA）にVPSが必要な理由</h2>
+        <p>
+          FX自動売買は<strong>24時間365日稼働</strong>させる必要があります。自宅PCで動かすと電気代・PC負荷・通信障害リスクが問題。VPS（仮想専用サーバー）に移行することで、<strong>安定性・低遅延・電気代ゼロ</strong>を実現できます。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">FX専用VPSの選び方</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li><strong>低遅延</strong>: 取引サーバーとの物理距離が近いVPSを選ぶ</li>
+          <li><strong>24時間稼働</strong>: 稼働率99.99%以上の実績</li>
+          <li><strong>メモリ・CPU</strong>: MT4なら最低2GB RAM、MT5なら4GB以上推奨</li>
+          <li><strong>サポート</strong>: 日本語24時間サポートがあると安心</li>
+          <li><strong>月額料金</strong>: 1,800円〜3,000円程度が相場</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="【お名前.com FX専用VPS】業界最安級・24時間サポート"
+        description="FX自動売買向けに最適化。初期費用無料、月額1,848円〜。国内データセンター運用。"
+        buttonText="お名前.com FX VPSの詳細"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1O+G829ZU+50+3NONKX"
+        icon="🖥️"
+        highlight="業界最安級"
+      />
+      <AffiliateCTA
+        title="【MT4自動売買】お名前.com監修のEA運用"
+        description="MT4対応の自動売買を手軽に始められる環境。専用VPSとセットで。"
+        buttonText="MT4自動売買の詳細"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1O+FVK6AI+50+89Q8HD"
+        icon="🤖"
+      />
+    </>
+  ),
+  "investment-school-comparison": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">投資スクールで学ぶメリット</h2>
+        <p>
+          独学では気づきにくい<strong>体系的な知識・実践スキル</strong>を短期間で習得できるのが投資スクールの魅力。株式投資・FX・NISA・不動産投資など多様なコースが用意されています。無料体験セミナーを活用して相性を確認するのがおすすめです。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">主要投資スクール比較</h2>
+        <div className="rounded-xl border border-card-border bg-card-bg p-5">
+          <ul className="text-sm space-y-2">
+            <li><strong>ファイナンシャルアカデミー</strong>: 2002年創業の老舗。株式・不動産・FXなど網羅</li>
+            <li><strong>Global Financial School（GFS）</strong>: 市川雄一郎学長。オンライン完結型</li>
+            <li><strong>日本ファイナンシャルアカデミー</strong>: 講師陣の質に定評</li>
+            <li><strong>ファイナンシャルセミナー（単発無料）</strong>: マネイロ・保険クリニック等</li>
+          </ul>
+        </div>
+      </section>
+      <AffiliateCTA
+        title="【ファイナンシャルアカデミー】無料体験セミナー"
+        description="株式投資・FX・NISAスクール。2002年創業、受講生22万人の老舗。まずは無料体験から。"
+        buttonText="無料体験セミナー申込"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1O+G8NPLM+1IRY+25I7J5"
+        icon="🎓"
+        highlight="老舗・無料体験OK"
+      />
+    </>
+  ),
 };
