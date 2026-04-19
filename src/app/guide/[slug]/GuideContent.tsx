@@ -8231,4 +8231,638 @@ const guideContents: Record<string, React.ReactNode> = {
       />
     </>
   ),
+  "high-interest-bank-account-2026": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">普通預金0.2%超の高金利ネット銀行</h2>
+        <p>
+          メガバンクの普通預金金利はわずか0.001%。一方、ネット銀行は普通預金で0.2〜0.4%と200〜400倍の高金利を実現。100万円預ければ年間3,000〜4,000円の利息差、1,000万円なら3〜4万円の差に。生活防衛資金を預ける先こそ、ネット銀行の金利活用が重要です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="2026年 高金利ネット銀行比較"
+        services={[
+          {
+            name: "SBI新生銀行",
+            rank: 1,
+            highlight: "普通預金年0.3%｜ダイヤモンドステージ最高金利",
+            features: [
+              "ステージ条件クリアで普通預金年0.3%",
+              "セブン銀行ATM手数料最大無制限無料",
+              "振込手数料月最大10回無料",
+              "SBI証券との連携で投資も便利",
+            ],
+            href: "https://www.sbishinseibank.co.jp/",
+            badge: "最高金利",
+          },
+          {
+            name: "あおぞら銀行BANK支店",
+            rank: 2,
+            highlight: "普通預金年0.2%｜条件なしのシンプル高金利",
+            features: [
+              "条件なしで普通預金年0.2%",
+              "ゆうちょ銀行ATM手数料無料",
+              "振込手数料月3回無料",
+              "口座開設もWeb完結",
+            ],
+            href: "https://www.aozorabank.co.jp/bank/",
+          },
+          {
+            name: "住信SBIネット銀行",
+            rank: 3,
+            highlight: "SBIハイブリッド預金で証券連携｜普通預金0.03%",
+            features: [
+              "SBI証券との自動スイープで高利回り投資と連動",
+              "定額自動入金サービスで給与振込連携",
+              "外貨預金の為替手数料が業界最安水準",
+              "SMART認証でセキュリティ強固",
+            ],
+            href: "https://www.netbk.co.jp/",
+          },
+          {
+            name: "楽天銀行",
+            rank: 4,
+            highlight: "マネーブリッジ連携で普通預金0.1%",
+            features: [
+              "楽天証券とのマネーブリッジで0.1%に",
+              "楽天ポイントが貯まる",
+              "セブン銀行・イオン銀行ATM手数料無料（条件）",
+              "楽天経済圏ユーザーに最適",
+            ],
+            href: "https://www.rakuten-bank.co.jp/",
+          },
+          {
+            name: "auじぶん銀行",
+            rank: 5,
+            highlight: "au/UQユーザー向け｜普通預金最大0.33%",
+            features: [
+              "au PAY残高チャージ・auカードとの連携で0.33%",
+              "auじぶんプラスのステージで金利UP",
+              "auユーザーは振込手数料無料",
+              "カブコム証券との連携も可能",
+            ],
+            href: "https://www.jibunbank.co.jp/",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">ネット銀行利用時の注意点</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>金利は原則「税引前」、実質手取りは約80%（利息に20.315%課税）</li>
+          <li>一部ステージ条件を満たさないと低金利に戻る</li>
+          <li>ATM手数料・振込手数料も重視（金利差以上の節約効果）</li>
+          <li>外貨預金は預金保険対象外</li>
+          <li>金利は変動、頻繁に見直しを</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="証券と一体で運用最適化｜SBI証券"
+        description="SBI証券と住信SBIネット銀行を組み合わせると、自動スイープで普通預金金利を享受しつつ、シームレスに投資も可能。ネット銀行×証券のコンボが最強の資産運用基盤。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="💰"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "auto-loan-comparison-2026": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">自動車ローンの金利差で総返済額100万円の差</h2>
+        <p>
+          ディーラーのローン金利は年3〜5%が相場、一方、銀行自動車ローンは年1.5〜3%と圧倒的に低金利。300万円を5年ローンで借りる場合、金利差2%で総返済額15万円以上の差に。賢く選べば新車購入時の総コストを大幅圧縮できます。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="2026年 自動車ローン金利比較"
+        services={[
+          {
+            name: "住信SBIネット銀行 ミスター自動車ローン",
+            rank: 1,
+            highlight: "年1.575〜2.775%｜Web完結・最短即日審査",
+            features: [
+              "変動金利 年1.575〜2.775%（業界最低水準）",
+              "保証料・繰上返済手数料無料",
+              "最大1,000万円まで借入可能",
+              "Web完結で来店不要",
+            ],
+            href: "https://www.netbk.co.jp/",
+            badge: "最安",
+          },
+          {
+            name: "楽天銀行 スーパーローン",
+            rank: 2,
+            highlight: "固定金利2.9〜14.5%｜楽天会員は0.3%優遇",
+            features: [
+              "楽天会員なら金利0.3%優遇",
+              "最大800万円まで借入可能",
+              "Webで完結、来店不要",
+              "楽天ポイントが貯まる",
+            ],
+            href: "https://www.rakuten-bank.co.jp/",
+          },
+          {
+            name: "東京スター銀行 スターカードローン",
+            rank: 3,
+            highlight: "金利2.25〜8.0%｜地方銀行最安水準",
+            features: [
+              "地方銀行の中で最低クラスの金利",
+              "最大500万円まで借入可能",
+              "他社からの借換にも対応",
+              "来店可能で対面相談もOK",
+            ],
+            href: "https://www.tokyostarbank.co.jp/",
+          },
+          {
+            name: "JAネットローン",
+            rank: 4,
+            highlight: "最低1.9%｜農協組合員向け低金利",
+            features: [
+              "JA組合員なら最低年1.9%",
+              "農家・自営業者に有利",
+              "事前審査もWebで可能",
+              "地域のJA窓口で相談可",
+            ],
+            href: "https://www.ja-group.jp/",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">ディーラーローン vs 銀行ローンの総返済額比較</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>300万円×5年</strong>：ディーラー年4%＝総331万円／銀行年2%＝総316万円（差15万円）</li>
+          <li><strong>400万円×7年</strong>：ディーラー年4%＝総456万円／銀行年2%＝総428万円（差28万円）</li>
+          <li><strong>500万円×7年</strong>：ディーラー年4%＝総571万円／銀行年2%＝総535万円（差36万円）</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="自動車ローン借り換えでお得に｜住信SBIネット銀行"
+        description="現在のディーラーローンを銀行ローンに借り換えるだけで総返済額20〜50万円節約の可能性。住信SBIネット銀行なら保証料・繰上返済手数料無料で、Web完結。"
+        buttonText="住信SBIネット銀行を見る"
+        href="https://www.netbk.co.jp/"
+        icon="🚗"
+        highlight="業界最安水準"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">自動車購入の総コスト最適化</h2>
+        <ol className="list-decimal list-inside space-y-2 text-sm">
+          <li>銀行の低金利ローンで借入（保証料・繰上返済手数料無料）</li>
+          <li>自動車保険はネット型（ソニー損保・SBI損保）で年3万円節約</li>
+          <li>購入後の車検・メンテナンスは指定工場より民間工場で30%節約</li>
+          <li>車両保険は車齢10年超なら見直し（貯蓄でカバー）</li>
+          <li>エコカー減税・自動車重量税の減免を活用</li>
+        </ol>
+      </section>
+    </>
+  ),
+  "carrier-credit-card-comparison": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">キャリア系クレカは「スマホ料金×クレカ決済」で相乗効果</h2>
+        <p>
+          携帯キャリア各社が発行するクレジットカードは、スマホ料金・ネット回線・電気・ガスの決済で還元率1〜3%と高還元。楽天・ドコモ・au・ソフトバンク経済圏ユーザーなら、生活インフラ決済の還元が年間5〜10万円に到達することも珍しくありません。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="2026年 キャリア系クレカ比較"
+        services={[
+          {
+            name: "楽天カード",
+            rank: 1,
+            highlight: "年会費永年無料｜楽天市場で最大3%還元",
+            features: [
+              "楽天市場でSPU最大16倍、ポイント還元",
+              "楽天モバイル・楽天ひかり決済で+1%",
+              "楽天証券のクレカ積立で1%還元",
+              "楽天ペイとの連携でさらにお得",
+            ],
+            href: "https://hb.afl.rakuten.co.jp/hgc/g00q0722.r9tfu12j.g00q0722.r9tfvd42/",
+            badge: "総合No.1",
+          },
+          {
+            name: "dカードGOLD",
+            rank: 2,
+            highlight: "ドコモ料金10%還元｜年会費11,000円の元が取れる",
+            features: [
+              "ドコモ回線・ドコモ光の料金10%還元",
+              "携帯補償3年間最大10万円",
+              "月1万円使えば元が取れる（年1.2万円還元）",
+              "ahamoは対象外な点に注意",
+            ],
+            href: "https://dcard.docomo.ne.jp/",
+          },
+          {
+            name: "au PAYカード",
+            rank: 3,
+            highlight: "au PAY市場で2%還元｜au通信料金は対象外",
+            features: [
+              "au PAY市場の買物で2%還元",
+              "au PAYチャージで1%還元＋支払いで1%＝実質2%",
+              "年会費初年度無料（条件で永年無料）",
+              "au/UQユーザーに最適",
+            ],
+            href: "https://aupay.wallet.auone.jp/contents/card/",
+          },
+          {
+            name: "ソフトバンクカード",
+            rank: 4,
+            highlight: "PayPay連携｜ソフトバンク料金で還元",
+            features: [
+              "PayPayチャージでポイント還元",
+              "Yahoo!ショッピング連携",
+              "ソフトバンク/ワイモバイル料金決済",
+              "年会費実質無料",
+            ],
+            href: "https://www.softbank.jp/mobile/service/softbank-card/",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">キャリア経済圏別 年間還元シミュレーション</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>楽天経済圏フル活用（楽天カード+モバイル+ひかり+市場）</strong>：年間10〜15万ポイント</li>
+          <li><strong>ドコモ経済圏（dカードGOLD+ドコモ+ドコモ光）</strong>：年間5〜8万円還元</li>
+          <li><strong>au経済圏（au PAYカード+UQ+auひかり）</strong>：年間3〜5万円還元</li>
+          <li><strong>ソフトバンク（ソフトバンクカード+SB+SB光）</strong>：年間2〜4万円還元</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="楽天経済圏の中核｜楽天カード"
+        description="年会費永年無料で、楽天市場のSPU最大16倍・楽天証券のクレカ積立1%還元・楽天経済圏連携で総合No.1。1枚目のクレカとしても最適。"
+        buttonText="楽天カードに無料申込"
+        href="https://hb.afl.rakuten.co.jp/hgc/g00q0722.r9tfu12j.g00q0722.r9tfvd42/"
+        icon="💳"
+        highlight="年会費永年無料"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">キャリア経済圏選びのポイント</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>既存のスマホ・ネット回線との組み合わせが重要</li>
+          <li>楽天は市場・証券・銀行の総合力で頭1つ抜けている</li>
+          <li>dカードGOLDは年会費11,000円の元を取れるか事前計算</li>
+          <li>au・ソフトバンクは既存ユーザーの継続に価値</li>
+          <li>複数経済圏の併用より1つに絞るほうが効率的</li>
+        </ul>
+      </section>
+    </>
+  ),
+  "freelance-insurance-comprehensive": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">フリーランス特有の保険リスク</h2>
+        <p>
+          会社員には当然ある「労災」「健康保険の傷病手当金」「有給休暇」「失業保険」がフリーランスにはありません。病気・ケガで働けない期間の収入ゼロ・治療費負担、賠償事故への対応等、自分で備える必要があります。適切な保険選びで、リスクを大幅に低減できます。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="フリーランス必須の4つの保険"
+        services={[
+          {
+            name: "労災保険 特別加入",
+            rank: 1,
+            highlight: "年間保険料2〜5万円｜月収の60%保障",
+            features: [
+              "2021年からフリーランスも特別加入可能",
+              "業務中の病気・ケガで休業時に月収の60%保障",
+              "通勤災害もカバー",
+              "建設・IT等の業種別加入が可能",
+            ],
+            href: "https://www.mhlw.go.jp/",
+            badge: "必須",
+          },
+          {
+            name: "所得補償保険",
+            rank: 2,
+            highlight: "会社員の傷病手当金の代替｜月10〜50万円保障",
+            features: [
+              "病気・ケガで働けない期間の収入を補償",
+              "月額給付金5〜50万円（加入額次第）",
+              "支払期間 1年/2年/就業不能の年齢まで選択可",
+              "月額保険料 1,500〜8,000円程度",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=3Z6F6O+1YZZGQ+38BE+5YRHE",
+            badge: "推奨",
+          },
+          {
+            name: "賠償責任保険",
+            rank: 3,
+            highlight: "年間3,000〜12,000円｜数千万円の賠償事故対応",
+            features: [
+              "仕事上のミスで顧客に損害を与えた場合の賠償",
+              "IT系ならプログラムのバグ・情報漏洩",
+              "建設・デザインは特に必須",
+              "FREENANCE・フリーナンスの統合パッケージも便利",
+            ],
+            href: "https://freenance.net/",
+          },
+          {
+            name: "FREENANCE AWAY（フリーランス向け統合保険）",
+            rank: 4,
+            highlight: "月500円〜｜所得補償+賠償責任+報酬即日払いの複合型",
+            features: [
+              "所得補償保険+賠償責任保険が月500円〜",
+              "GMOクリエイターズネットワーク運営",
+              "請求書の即日払いサービスも付帯",
+              "フリーランスに最適化された統合サービス",
+            ],
+            href: "https://freenance.net/",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">年収別の推奨保険構成</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>年収500万円以下</strong>：労災特別加入（年3万円）＋FREENANCE AWAY（月500円）＝年間約3.6万円</li>
+          <li><strong>年収500〜1,000万円</strong>：労災＋所得補償月20万円（月3,000円）＋賠償責任保険＝年間約7万円</li>
+          <li><strong>年収1,000万円超</strong>：労災＋所得補償月40万円＋賠償責任5,000万円＋役員賠償＝年間約15万円</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="フリーランス保険もFPに相談｜保険見直しラボ"
+        description="フリーランス特化の保険プランはFPに無料相談が最も効率的。所得補償・賠償責任・生命保険を一元設計、30社超から中立的な提案を受けられる。"
+        buttonText="保険見直しラボに無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=3Z6F6O+1YZZGQ+38BE+5YRHE"
+        icon="🛡️"
+        highlight="相談料完全無料"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">フリーランスの社会保険の基本</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>国民健康保険：年収・自治体で月1〜5万円</li>
+          <li>国民年金：月16,520円（2024年度）</li>
+          <li>付加年金：月+400円で将来年2万円増</li>
+          <li>iDeCoで月6.8万円まで所得控除</li>
+          <li>小規模企業共済で月7万円まで所得控除</li>
+        </ul>
+      </section>
+    </>
+  ),
+  "student-investment-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">学生だからこそ投資を始めるべき理由</h2>
+        <p>
+          18歳から新NISA口座開設可能。月3万円を20代から40年積立すれば、年利5%で約4,575万円の資産に。同じ月3万円を30代から30年積立でも約2,497万円にとどまるため、「時間」こそ学生の最大の武器。バイト代の一部からでも、まずは月1,000円から始めるのが圧倒的に有利です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="学生におすすめの証券会社"
+        services={[
+          {
+            name: "SBI証券",
+            rank: 1,
+            highlight: "業界最大手｜三井住友カードNL年会費無料でクレカ積立",
+            features: [
+              "投資信託取扱2,500本以上",
+              "三井住友カードNL（年会費無料）で1%還元",
+              "国内株式売買手数料無料",
+              "新NISAで月10万円まで積立可",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "総合No.1",
+          },
+          {
+            name: "楽天証券",
+            rank: 2,
+            highlight: "楽天カード積立1%還元｜ポイント投資で楽天経済圏活用",
+            features: [
+              "楽天カード（年会費無料）でクレカ積立1%還元",
+              "楽天ポイント500ポイント〜投資可能",
+              "楽天市場でのお買物でSPU最大16倍",
+              "NISA口座開設まで全てスマホで完結",
+            ],
+            href: "https://www.rakuten-sec.co.jp/web/nisa/",
+          },
+          {
+            name: "マネックス証券",
+            rank: 3,
+            highlight: "マネックスカード積立1.1%｜業界最高還元率",
+            features: [
+              "マネックスカードで1.1%還元（業界最高）",
+              "米国株取扱4,000銘柄超",
+              "為替手数料が買付時無料",
+              "マネックスポイントで投資可能",
+            ],
+            href: "https://info.monex.co.jp/nisa/index.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">学生の月3万円プランの40年後</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>20代積立開始（40年運用）</strong>：元本1,440万円→約4,575万円</li>
+          <li><strong>25歳積立開始（35年運用）</strong>：元本1,260万円→約3,400万円</li>
+          <li><strong>30歳積立開始（30年運用）</strong>：元本1,080万円→約2,497万円</li>
+          <li><strong>早く始めるほど複利で大きな差に</strong></li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="学生の1枚目｜楽天カード"
+        description="18歳以上の学生でも発行可能、年会費永年無料。楽天証券のクレカ積立で1%還元、楽天市場でSPU最大化で日常の買物も最適化。バイト代の効率化に最強。"
+        buttonText="楽天カードに無料申込"
+        href="https://hb.afl.rakuten.co.jp/hgc/g00q0722.r9tfu12j.g00q0722.r9tfvd42/"
+        icon="💳"
+        highlight="年会費永年無料"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">学生の投資、5つの注意点</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>バイト代の全額を投資に回さない（生活費・学費優先）</li>
+          <li>FX・暗号資産は避ける（インデックス投信のみ）</li>
+          <li>個別株も避ける（情報収集に時間取られて学業に支障）</li>
+          <li>新NISAは絶対に使い切らず、自分のペースで</li>
+          <li>親のクレカで作った口座は本人名義に変更を</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="学費の足しに在宅バイト｜クラウドワークス"
+        description="バイト先での接客業を減らして、空き時間に在宅ワーク。ライター・データ入力・デザイン等で月3〜8万円、その一部を新NISAに回せば卒業時には数十万円の資産に。"
+        buttonText="クラウドワークスに無料登録"
+        href="https://px.a8.net/svt/ejp?a8mat=2NR2GS+DFNXFM+0K3Y+61RIP"
+        icon="💻"
+        highlight="完全無料"
+      />
+    </>
+  ),
+  "card-loan-comparison-2026": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">カードローンの賢い選び方</h2>
+        <p>
+          急な出費でカードローン利用を検討する際、選ぶべきは「金利」「無利息期間」「審査スピード」の3要素。特に無利息期間（30日間等）を上手に活用すれば、実質無料で借入できるケースも。一方で長期利用は高金利の負担が大きいため、早期完済を前提に使うのが鉄則です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="2026年 カードローン比較"
+        services={[
+          {
+            name: "プロミス",
+            rank: 1,
+            highlight: "年利4.5〜17.8%｜最短3分の審査・30日無利息",
+            features: [
+              "初回利用から30日間無利息（条件なし）",
+              "Web完結申込・最短3分審査",
+              "SMBCグループの信頼性",
+              "三井住友銀行ATMで手数料無料",
+            ],
+            href: "https://cyber.promise.co.jp/",
+            badge: "無利息あり",
+          },
+          {
+            name: "アコム",
+            rank: 2,
+            highlight: "年利3.0〜18.0%｜初めての方30日間無利息",
+            features: [
+              "初回契約翌日から30日間無利息",
+              "最短20分審査・即日融資可",
+              "三菱UFJフィナンシャル・グループ",
+              "24時間申込可能、Web完結",
+            ],
+            href: "https://www.acom.co.jp/",
+          },
+          {
+            name: "アイフル",
+            rank: 3,
+            highlight: "年利3.0〜18.0%｜最大30日間無利息",
+            features: [
+              "初回契約翌日から30日間無利息",
+              "Web完結で来店・郵送不要",
+              "最短25分の審査",
+              "SuLaLi（女性専用）等の派生商品も",
+            ],
+            href: "https://www.ir-aiful.com/",
+          },
+          {
+            name: "SMBCモビット",
+            rank: 4,
+            highlight: "年利3.0〜18.0%｜Web完結で在籍確認なしも可",
+            features: [
+              "Web完結申込で原則電話での在籍確認なし",
+              "10秒簡易審査、最短即日融資",
+              "SMBCグループ運営",
+              "三井住友銀行ATMで手数料無料",
+            ],
+            href: "https://www.mobit.ne.jp/",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">銀行カードローン vs 消費者金融カードローン</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>銀行カードローン</strong>：金利年1.5〜15%で低め、審査厳しめ、即日融資不可</li>
+          <li><strong>消費者金融</strong>：金利年3〜18%で高め、審査緩め、最短即日融資</li>
+          <li><strong>総量規制</strong>：消費者金融は年収の1/3まで、銀行は対象外</li>
+          <li><strong>急ぎなら</strong>：消費者金融の無利息期間活用</li>
+          <li><strong>長期利用なら</strong>：銀行カードローンで金利節約</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="まずは1万円〜相談｜プロミス"
+        description="急な出費にも対応のカードローン。30日間無利息で借りれば実質無料、短期間の返済なら利息負担最小化。最短3分の審査で即日融資も。"
+        buttonText="プロミスの詳細"
+        href="https://cyber.promise.co.jp/"
+        icon="💴"
+        highlight="30日間無利息"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">カードローン利用の注意点</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>原則「短期で完済」の計画（長期は高金利負担大）</li>
+          <li>信用情報に記録が残る（住宅ローン審査に影響）</li>
+          <li>複数社からの借入はブラックリスト扱いに</li>
+          <li>返済が困難なら弁護士・司法書士に早めに相談</li>
+          <li>ファクタリング（個人事業主）は別選択肢として検討</li>
+        </ul>
+      </section>
+    </>
+  ),
+  "elderly-care-cost-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">親の介護費用は月5〜30万円、10年で3,000万円超</h2>
+        <p>
+          要介護1〜5の介護費用は、在宅介護で月5〜15万円、施設入居で月15〜30万円。介護期間は平均5〜10年、総額500〜3,000万円の負担に。公的介護保険＋親の年金＋家族負担の組み合わせで賄いますが、早めの資金計画が重要です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="要介護度別の費用目安"
+        services={[
+          {
+            name: "要介護1〜2（在宅介護）",
+            rank: 1,
+            highlight: "月5〜10万円｜介護保険1割負担＋実費",
+            features: [
+              "訪問介護・デイサービス・福祉用具レンタル",
+              "家族の負担もまだ軽め（パート就労可）",
+              "介護休業給付金（最大93日）活用可",
+              "自宅改修費用の補助あり",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=3Z6F6O+1YZZGQ+38BE+5YRHE",
+            badge: "初期段階",
+          },
+          {
+            name: "要介護3〜4（在宅介護）",
+            rank: 2,
+            highlight: "月10〜15万円｜24時間見守りに近づく",
+            features: [
+              "訪問介護の回数増加、家族負担も増大",
+              "ショートステイ・デイサービス併用",
+              "仕事との両立が困難に",
+              "介護離職のリスクが高まる時期",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=3Z6F6O+1YZZGQ+38BE+5YRHE",
+          },
+          {
+            name: "要介護5（施設入居）",
+            rank: 3,
+            highlight: "月15〜30万円｜特養は安いが入居待機1〜2年",
+            features: [
+              "特別養護老人ホーム：月10〜15万円（待機長い）",
+              "介護付有料老人ホーム：月20〜30万円",
+              "認知症対応型グループホーム：月15〜20万円",
+              "親の年金で賄えるかシビアに計算必要",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=3Z6F6O+1YZZGQ+38BE+5YRHE",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">介護費用の資金源</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>親の年金</strong>：月15〜20万円（厚生年金ありの場合）</li>
+          <li><strong>親の貯蓄</strong>：平均1,500〜3,000万円（総務省データ）</li>
+          <li><strong>公的介護保険</strong>：1〜3割負担、高額介護サービス費で上限あり</li>
+          <li><strong>高額医療・介護合算療養費制度</strong>：年間自己負担額の上限</li>
+          <li><strong>家族負担</strong>：不足分を子が補填（平均月3〜5万円）</li>
+          <li><strong>民間介護保険</strong>：月給付金10〜15万円の保険もあり</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="介護の準備もFPに相談｜保険見直しラボ"
+        description="親の介護に備えた資金計画と、民間介護保険・医療保険の見直しを無料FP相談で一元設計。早めに準備するほど家族の負担を抑えられる。"
+        buttonText="保険見直しラボに無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=3Z6F6O+1YZZGQ+38BE+5YRHE"
+        icon="🛡️"
+        highlight="相談料完全無料"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">介護離職を防ぐ制度・サービス</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>介護休業給付金：通算93日、月収の67%を雇用保険から給付</li>
+          <li>介護休暇：年5日（対象家族2人以上は10日）の有給休暇</li>
+          <li>介護短時間勤務制度：所定労働時間の短縮</li>
+          <li>地域包括支援センター：無料で相談・プランニング</li>
+          <li>ケアマネジャー：要介護認定後、ケアプラン作成サポート</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="介護費用の備えに新NISA｜SBI証券"
+        description="親の介護が始まる前に、自分自身の老後資金と合わせて介護資金の準備を。新NISAで月3万円×20年運用で約1,200万円、介護費用の主力資金源として機能。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="💰"
+        highlight="業界No.1"
+      />
+    </>
+  ),
 };
