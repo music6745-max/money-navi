@@ -810,6 +810,33 @@ export const guides: Guide[] = [
     readTime: "13分",
     publishedAt: "2026-04-19",
   },
+  {
+    slug: "auto-insurance-comparison-2026",
+    title: "【2026年】自動車保険おすすめ比較10社｜ネット型 vs 代理店型で年3万円節約",
+    description: "ソニー損保・SBI損保・チューリッヒ・アクサダイレクト等のダイレクト型自動車保険を徹底比較。等級・車種・年齢別の保険料シミュレーション、代理店型との違いを解説。",
+    icon: "🚗",
+    category: "household",
+    readTime: "12分",
+    publishedAt: "2026-04-19",
+  },
+  {
+    slug: "ifa-service-comparison",
+    title: "【2026年】IFA（独立系FA）おすすめ比較｜富裕層向け資産運用パートナー",
+    description: "IFA（Independent Financial Advisor）の選び方とおすすめ事務所を徹底比較。証券会社よりも中立的な資産運用アドバイス、1億円以上の運用に強いIFAとの出会い方。",
+    icon: "💼",
+    category: "nisa",
+    readTime: "12分",
+    publishedAt: "2026-04-19",
+  },
+  {
+    slug: "freelance-retirement-guide",
+    title: "【2026年】フリーランス・個人事業主の年金完全ガイド｜iDeCo/付加年金/国民年金基金",
+    description: "会社員の3分の1しかない国民年金（老齢基礎年金）を補完する、フリーランスの年金戦略。iDeCo月6.8万円・付加年金・国民年金基金・小規模企業共済を組合せて老後月25万円を実現する方法。",
+    icon: "👴",
+    category: "ideco",
+    readTime: "13分",
+    publishedAt: "2026-04-19",
+  },
 ];
 
 export function getGuideBySlug(slug: string) {

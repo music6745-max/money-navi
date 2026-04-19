@@ -6418,4 +6418,378 @@ const guideContents: Record<string, React.ReactNode> = {
       />
     </>
   ),
+  "auto-insurance-comparison-2026": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">ネット型 vs 代理店型：保険料に年3万円差</h2>
+        <p>
+          自動車保険は、ネット型（ダイレクト型）と代理店型で年間保険料に2〜5万円の差が出るのが通常。代理店型の人件費・店舗維持費が保険料に上乗せされているため、ネットで完結する型のほうが断然お得です。例えば30代・6S等級・軽自動車なら、代理店型 年8万円 vs ネット型 年5万円と、年3万円の差に。
+        </p>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>ネット型の保険料：代理店型の60〜75%</li>
+          <li>事故対応品質は両者大差なし（損保ジャパン・東京海上の再保険会社と連携）</li>
+          <li>ネット型の弱点：対面相談がないため、複雑な事故対応で不便さを感じる場合あり</li>
+          <li>代理店型の強み：複雑な車両改造・業務用利用などの特殊ケース</li>
+          <li>乗換タイミングは満期日の1〜2ヶ月前から検討</li>
+        </ul>
+      </section>
+      <ComparisonTableCTA
+        title="2026年 おすすめ自動車保険ランキング（ネット型）"
+        services={[
+          {
+            name: "ソニー損保",
+            rank: 1,
+            highlight: "走行距離で保険料変動｜ロードサービス業界最高水準",
+            features: [
+              "走行距離に応じた合理的な保険料設計",
+              "事故対応満足度 JDパワー19年連続No.1",
+              "無料ロードサービス（レッカー車最大150km無料）",
+              "ネット割引最大10,000円",
+            ],
+            href: "https://www.sonysonpo.co.jp/",
+            badge: "総合No.1",
+          },
+          {
+            name: "SBI損保",
+            rank: 2,
+            highlight: "業界最安水準｜SBIグループのブランド力",
+            features: [
+              "ダイレクト型の中でも最安クラスの保険料",
+              "SBI証券・楽天グループでも割引対象",
+              "ロードサービス充実（レッカー最大100km無料）",
+              "新規・継続とも2,500円割引",
+            ],
+            href: "https://www.sbisonpo.co.jp/",
+            badge: "最安水準",
+          },
+          {
+            name: "チューリッヒ",
+            rank: 3,
+            highlight: "海外展開の信頼感｜弁護士費用特約付帯",
+            features: [
+              "弁護士費用特約が基本セット（相手方との示談交渉で威力）",
+              "スーパー自動車保険なら夫婦の運転も補償",
+              "事故時の専門部隊対応が早い",
+              "ネット割最大21,000円",
+            ],
+            href: "https://www.zurich.co.jp/",
+          },
+          {
+            name: "アクサダイレクト",
+            rank: 4,
+            highlight: "世界最大級保険グループ｜若年層割引が手厚い",
+            features: [
+              "AXAグループ、世界64カ国1億500万人の顧客基盤",
+              "新規契約でネット割20,000円",
+              "23〜29歳の若年ドライバー向け保険料割引",
+              "24時間365日事故受付",
+            ],
+            href: "https://www.axa-direct.co.jp/",
+          },
+          {
+            name: "セゾン自動車火災（おとなの自動車保険）",
+            rank: 5,
+            highlight: "40〜50代に最適｜セゾンポイントが貯まる",
+            features: [
+              "40〜50代の安全運転層に優遇された保険料設計",
+              "セゾン・UC/NICOSカード会員はさらに割引",
+              "永久不滅ポイントが貯まる",
+              "ALSOK事故現場急行サービスが無料",
+            ],
+            href: "https://www.ins-saison.co.jp/otona/",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">一括見積もりサービスで最安値を見つける</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>インズウェブ：最大20社一括見積もり、乗換時の見積もり比較に</li>
+          <li>保険スクエアbang!：5〜10社比較、カーライフアドバイザーが電話相談可</li>
+          <li>保険の窓口インズウェブ：Yahoo!運営の一括サービス</li>
+          <li>各社への直接見積もりより効率的（所要時間5〜10分）</li>
+          <li>見積もり後のしつこい営業電話はない（最近の傾向）</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="複数社一括で最安値を発見｜自動車保険の無料見積もり"
+        description="ソニー損保・SBI損保・チューリッヒ・アクサダイレクト等を最大20社一括比較。車種・年齢・等級を入力するだけで、年間2〜5万円の節約につながる最適プランが見つかる。"
+        buttonText="自動車保険を一括見積り"
+        href="https://www.inzweb.com/"
+        icon="🚗"
+        highlight="無料・5分で完了"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">自動車保険選びのチェックリスト</h2>
+        <ol className="list-decimal list-inside space-y-2 text-sm">
+          <li><strong>対人・対物賠償無制限</strong>：絶対必須、上限設定はNG</li>
+          <li><strong>人身傷害補償</strong>：運転者・同乗者のケガに必要（搭乗者傷害より優先）</li>
+          <li><strong>車両保険</strong>：新車3年以内は必須、10年超の古い車は不要検討</li>
+          <li><strong>弁護士費用特約</strong>：示談交渉で相手方に強く出られる、年1,500〜3,000円</li>
+          <li><strong>家族限定・年齢条件</strong>：特約で保険料20〜30%削減</li>
+        </ol>
+      </section>
+      <AffiliateCTA
+        title="固定費まとめて最適化｜保険見直しラボ"
+        description="自動車保険だけでなく、生命・医療保険も合わせて見直すことで年30万円超の固定費削減に。FPが家計全体を無料診断、新NISA原資の捻出に最適。"
+        buttonText="保険見直しラボに無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=3Z6F6O+1YZZGQ+38BE+5YRHE"
+        icon="🛡️"
+        highlight="相談料完全無料"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">年齢・等級別の保険料目安（年間）</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>20代（新規6S等級・軽自動車）：年10〜15万円</li>
+          <li>30代（12〜15等級・コンパクトカー）：年5〜7万円</li>
+          <li>40代（17〜18等級・ミニバン）：年4〜6万円</li>
+          <li>50代（20等級・セダン）：年3〜5万円</li>
+          <li>60代（20等級・軽自動車）：年3〜4万円</li>
+        </ul>
+      </section>
+    </>
+  ),
+  "ifa-service-comparison": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">IFAとは？証券会社との違い</h2>
+        <p>
+          IFA（Independent Financial Advisor／独立系ファイナンシャルアドバイザー）は、特定の金融機関に属さず、中立的な立場で資産運用アドバイスを行うプロ。通常の証券会社担当者が自社商品の販売ノルマに縛られるのに対し、IFAは複数の証券会社・投資信託・保険等を横断して「本当に顧客のためになる提案」を行うのが特徴。資産1,000万円超の富裕層中心に利用が急増しています。
+        </p>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>転勤なし・担当者が一生変わらない長期パートナー</li>
+          <li>複数の証券会社の商品を比較して中立的に提案</li>
+          <li>相談料・報酬は取扱商品からの手数料で成立（顧客の追加負担なし）</li>
+          <li>資産1,000万円以上あると対応可能なIFAが増える</li>
+          <li>相続・事業承継・法人向けサービスも強み</li>
+        </ul>
+      </section>
+      <ComparisonTableCTA
+        title="2026年 おすすめIFAサービス比較"
+        services={[
+          {
+            name: "マネックスONE",
+            rank: 1,
+            highlight: "マネックスグループ｜対面＋オンライン両対応",
+            features: [
+              "マネックス証券グループのIFAサービス",
+              "東京・大阪・名古屋・福岡に対面拠点、全国オンライン対応",
+              "資産500万円〜相談可能、富裕層特化プランも",
+              "投資信託・外国株・IFA独自ファンドまで幅広い取扱",
+            ],
+            href: "https://www.monex.co.jp/info/home.html",
+            badge: "総合No.1",
+          },
+          {
+            name: "GAIA（ガイア）",
+            rank: 2,
+            highlight: "資産1億円超向け｜IFA業界の最大手",
+            features: [
+              "資産1億円超のクラス対応、富裕層特化",
+              "相続・事業承継・ファミリーオフィス対応",
+              "SBI・楽天・マネックス等の複数証券会社と提携",
+              "東京・大阪・福岡の対面拠点＋オンライン",
+            ],
+            href: "https://www.gaiainc.co.jp/",
+          },
+          {
+            name: "資産運用の窓口",
+            rank: 3,
+            highlight: "オンライン完結｜1,000万円〜対応",
+            features: [
+              "オンライン面談中心、全国から相談可能",
+              "資産1,000万円〜3億円のレンジに強い",
+              "初回相談無料、複数IFAから選べる",
+              "マッチング後のアフターフォロー3ヶ月無料",
+            ],
+            href: "https://shisankakei.com/",
+          },
+          {
+            name: "IFA JAPAN",
+            rank: 4,
+            highlight: "独立系IFA専門マッチング｜特化領域選択可",
+            features: [
+              "不動産・保険・相続など特化領域のIFAを紹介",
+              "無料相談＋報告書作成",
+              "顧客との相性重視のマッチング",
+              "サポート後の満足度で乗換提案も可能",
+            ],
+            href: "https://ifa-japan.jp/",
+          },
+          {
+            name: "楽天証券IFAコース",
+            rank: 5,
+            highlight: "楽天経済圏ユーザー向け｜低コスト",
+            features: [
+              "楽天証券と提携したIFAに相談可能",
+              "楽天ポイント関連特典あり",
+              "資産300万円〜対応でハードル低め",
+              "NISA・iDeCo・投資信託中心のアドバイス",
+            ],
+            href: "https://www.rakuten-sec.co.jp/web/lp/ifa/",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">IFAが向いている人・向かない人</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>向いている人</strong>：資産1,000万円以上、長期的な資産運用パートナーを探している、相続・事業承継の相談をしたい、積極的に海外株・投資信託を運用したい</li>
+          <li><strong>向かない人</strong>：資産300万円以下（自力でSBI/楽天のインデックス積立で十分）、相談は手数料無料のネット証券で完結したい、短期売買中心でアクティブに取引したい</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="まずは自分で始める｜SBI証券 新NISA"
+        description="IFA利用を検討する前に、新NISAとiDeCoでインデックス投資を開始するのが基本。SBI証券なら口座開設無料、クレカ積立でポイント還元1%〜5%。資産1,000万円到達までの王道ルート。"
+        buttonText="SBI証券 新NISAを見る"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="💰"
+        highlight="業界No.1"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">IFA選びの5つのチェックポイント</h2>
+        <ol className="list-decimal list-inside space-y-2 text-sm">
+          <li><strong>所属証券会社</strong>：SBI/楽天/マネックス/大和 等、複数と提携している方が選択肢多い</li>
+          <li><strong>報酬体系</strong>：フィーベース（預かり資産の0.5〜1.5%/年） vs 手数料ベース（商品販売手数料）</li>
+          <li><strong>金融資格</strong>：1級FP技能士・CFP・日本証券アナリスト協会CMA等</li>
+          <li><strong>運用実績・他顧客レビュー</strong>：HP公開実績、面談時に過去の提案例を質問</li>
+          <li><strong>相性</strong>：長期パートナーなので話しやすさ・信頼感が最重要</li>
+        </ol>
+      </section>
+      <AffiliateCTA
+        title="IFA相談前に基礎知識を｜ファイナンシャルアカデミー"
+        description="IFA相談を有意義にするには、自分自身の金融リテラシーも必須。日本最大級の投資スクールで、株式・投資信託・不動産・保険を体系的に学べる。無料体験セミナーから。"
+        buttonText="ファイナンシャルアカデミー無料体験"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1O+G8NPLM+1IRY+25I7J5"
+        icon="📚"
+        highlight="無料体験セミナーあり"
+      />
+    </>
+  ),
+  "freelance-retirement-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">フリーランスの年金の厳しい現実</h2>
+        <p>
+          会社員の年金（老齢基礎年金＋厚生年金）が平均月22万円なのに対し、フリーランス・個人事業主の年金（老齢基礎年金のみ）は月約6.5万円。月15万円の差は、25年で4,500万円にも及びます。これを補うには、iDeCo・付加年金・国民年金基金・小規模企業共済等を総動員する必要があります。
+        </p>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>会社員の年金：月22万円（基礎＋厚生＋企業年金）</li>
+          <li>フリーランスの年金：月6.5万円（基礎のみ）</li>
+          <li>差額を補う原資を、現役時代に自力で作る必要あり</li>
+          <li>iDeCo月6.8万円（年81.6万円）で全額所得控除</li>
+          <li>複数制度の組合せで老後月25万円の実現を目指す</li>
+        </ul>
+      </section>
+      <ComparisonTableCTA
+        title="フリーランス・個人事業主の年金4制度比較"
+        services={[
+          {
+            name: "iDeCo（個人型確定拠出年金）",
+            rank: 1,
+            highlight: "月6.8万円上限｜全額所得控除＋運用益非課税",
+            features: [
+              "掛金上限 月6.8万円（年81.6万円）、会社員の3倍の枠",
+              "掛金全額が所得控除 → 税率30%なら年24万円節税",
+              "運用益非課税（特定口座なら20%課税）",
+              "受取時の退職所得控除も活用可",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lp_ideco.html",
+            badge: "最優先",
+          },
+          {
+            name: "付加年金",
+            rank: 2,
+            highlight: "月400円掛金｜2年で元が取れる最強コスパ",
+            features: [
+              "月400円のみ、国民年金保険料に上乗せ",
+              "受給時は「200円×納付月数」が毎年の年金に追加",
+              "10年納付で年24,000円の終身受給 → 10年で元が取れる",
+              "国民年金基金との併用は不可（どちらか選択）",
+            ],
+            href: "https://www.nenkin.go.jp/service/kokunen/kokuminnenkin/20140213.html",
+            badge: "最強コスパ",
+          },
+          {
+            name: "国民年金基金",
+            rank: 3,
+            highlight: "月6.8万円枠｜確定年金・終身年金",
+            features: [
+              "確定給付型なのでiDeCoと違い受取額が確定",
+              "iDeCoと合わせて月6.8万円の上限",
+              "終身年金プランで長生きリスクに備え可",
+              "インフレ対応がiDeCoより弱い",
+            ],
+            href: "https://www.npfa.or.jp/",
+          },
+          {
+            name: "小規模企業共済",
+            rank: 4,
+            highlight: "月7万円掛金｜退職金としての受取",
+            features: [
+              "個人事業主・法人役員のみ加入可",
+              "月1,000〜7万円、全額所得控除",
+              "20年超加入で元本割れなし",
+              "貸付制度あり（掛金範囲内で低利融資）",
+            ],
+            href: "https://www.smrj.go.jp/kyosai/skyosai/",
+          },
+          {
+            name: "新NISA",
+            rank: 5,
+            highlight: "年360万円枠｜運用益完全非課税",
+            features: [
+              "老後資金の運用益が完全非課税",
+              "生涯1,800万円の枠、iDeCoと併用OK",
+              "60歳以前の引出も自由、流動性高い",
+              "クレカ積立でポイント還元も享受",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">フリーランスの老後資金3,000万円プラン</h2>
+        <ol className="list-decimal list-inside space-y-2 text-sm">
+          <li><strong>iDeCo月6.8万円×30年×年利5%</strong> → 約5,580万円</li>
+          <li><strong>付加年金月400円×30年</strong> → 老齢基礎年金に年72,000円追加</li>
+          <li><strong>小規模企業共済月3万円×30年</strong> → 元本1,080万円＋運用益</li>
+          <li><strong>新NISA月3万円×30年×年利5%</strong> → 約2,500万円</li>
+          <li><strong>合計老後資産</strong>：約8,000万円＋国民年金（終身月6.5万円）</li>
+        </ol>
+      </section>
+      <AffiliateCTA
+        title="フリーランス最強の老後対策｜SBI証券 iDeCo"
+        description="フリーランスのiDeCoは月6.8万円まで掛けられて、全額所得控除。SBI証券なら運営管理手数料無料、投資信託ラインナップも業界最多。今すぐ始めれば30年で5,000万円超の老後資金に。"
+        buttonText="SBI証券 iDeCo 詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lp_ideco.html"
+        icon="🏦"
+        highlight="手数料無料"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">年金制度の落とし穴と対策</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>国民年金未納期間があると、iDeCoの節税メリットが制限される</li>
+          <li>iDeCoは60歳まで引き出し不可（流動性ゼロの縛り）</li>
+          <li>国民年金基金は物価変動に弱い（インフレ時に目減り）</li>
+          <li>小規模企業共済は20年未満の解約で元本割れ</li>
+          <li>付加年金と国民年金基金は併用不可（どちらかを選択）</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="会計・確定申告も自動化｜freee会計"
+        description="フリーランスが年金・節税戦略を回すには、正確な所得把握が大前提。freee会計なら、カード連携・AI仕訳・電子帳簿保存法対応で経理時間を1/3に。iDeCo・小規模企業共済の計算も楽に。"
+        buttonText="freee会計に無料登録"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1DXI+1UOKJ6+3SPO+9FDI8Y"
+        icon="📊"
+        highlight="30日間無料"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">フリーランスが今すぐやるべき3ステップ</h2>
+        <ol className="list-decimal list-inside space-y-2 text-sm">
+          <li><strong>今月中</strong>：付加年金を役所で申込（月400円、最強コスパ）</li>
+          <li><strong>3ヶ月以内</strong>：iDeCo口座開設（SBI or 楽天）、月1万円〜スタート</li>
+          <li><strong>6ヶ月以内</strong>：売上安定後、小規模企業共済 月1〜3万円、iDeCo上限まで増額</li>
+        </ol>
+      </section>
+    </>
+  ),
 };
