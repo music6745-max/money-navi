@@ -738,6 +738,33 @@ export const guides: Guide[] = [
     readTime: "15分",
     publishedAt: "2026-04-18",
   },
+  {
+    slug: "business-card-comparison-2026",
+    title: "【2026年】法人・個人事業主向けビジネスカードおすすめ比較10選",
+    description: "個人事業主・中小企業経営者向けにビジネスカードを徹底比較。freeeカード・三井住友カードビジネス・楽天ビジネス・JCBビジネス等、年会費/還元率/限度額/付帯サービスで選ぶ。",
+    icon: "🏢",
+    category: "card",
+    readTime: "13分",
+    publishedAt: "2026-04-19",
+  },
+  {
+    slug: "fp-consultation-guide",
+    title: "【2026年】FP無料相談おすすめ比較｜保険・資産運用・住宅ローンの無料アドバイス",
+    description: "保険見直しラボ・マネプロ・ほけんのトータルプロフェッショナル等、FP無料相談サービスを徹底比較。相談の流れ・断り方・おすすめの活用法まで解説。",
+    icon: "🧑‍💼",
+    category: "household",
+    readTime: "11分",
+    publishedAt: "2026-04-19",
+  },
+  {
+    slug: "dual-income-household-guide",
+    title: "【2026年】共働き夫婦の資産運用ロードマップ｜世帯年収別の最適プラン",
+    description: "世帯年収700万〜1500万円の共働き夫婦向け、新NISA・iDeCo・クレカ積立・児童手当を組み合わせた最適資産運用戦略。夫婦別口座・家計の折半方法も解説。",
+    icon: "👫",
+    category: "nisa",
+    readTime: "14分",
+    publishedAt: "2026-04-19",
+  },
 ];
 
 export function getGuideBySlug(slug: string) {

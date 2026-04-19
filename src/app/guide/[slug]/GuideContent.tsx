@@ -5353,4 +5353,433 @@ const guideContents: Record<string, React.ReactNode> = {
       </section>
     </>
   ),
+  "business-card-comparison-2026": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">個人事業主・法人向けビジネスカードの選び方</h2>
+        <p>
+          開業・起業した途端、立替経費の把握が煩雑になるのが個人事業主・法人の悩み。ビジネスカードは「経費の一元管理」「キャッシュフロー改善（最大55日後払い）」「会計ソフト連携」の3点で事業オーナーの時短を実現します。
+        </p>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>年会費と初年度無料条件（開業直後は無料カードで十分）</li>
+          <li>還元率（ビジネス系は0.5〜1.5%が標準）</li>
+          <li>利用限度額（仕入れ・広告費・設備購入で月100万円超なら必須）</li>
+          <li>会計ソフト連携（freee・マネフォ・弥生との自動仕訳）</li>
+          <li>追加カード・ETCカード発行枚数</li>
+        </ul>
+      </section>
+      <ComparisonTableCTA
+        title="2026年 個人事業主・法人向けビジネスカードランキング"
+        services={[
+          {
+            name: "三井住友カード ビジネスオーナーズ",
+            rank: 1,
+            highlight: "年会費永年無料｜個人事業主も法人も申込OK｜与信審査ゆるめ",
+            features: [
+              "年会費永年無料（ゴールド版は年会費5,500円＋年100万円利用で翌年以降無料）",
+              "登記簿謄本・決算書不要、本人確認書類のみで申込可能",
+              "追加カード年会費永年無料（18枚まで発行可）",
+              "Amazon Business 利用で1.5%還元（ゴールド版）",
+            ],
+            href: "https://www.smbc-card.com/nyukai/affiliate/business/bo_lp.jsp",
+            badge: "開業直後におすすめ",
+          },
+          {
+            name: "freee カード Unlimited",
+            rank: 2,
+            highlight: "freee会計連携で自動仕訳｜限度額最大2億円｜AI審査で即日発行",
+            features: [
+              "freee会計と連動した自動仕訳で経理工数を大幅削減",
+              "利用限度額はAIが動的に算出（最大2億円）",
+              "年会費無料、海外決済手数料も無料",
+              "決算書・登記簿不要、法人設立直後でも審査通過可能",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1DXI+1UOKJ6+3SPO+9FDI8Y",
+            badge: "会計連携最強",
+          },
+          {
+            name: "楽天ビジネスカード",
+            rank: 3,
+            highlight: "楽天プレミアムカード必須｜空港ラウンジ｜1%還元",
+            features: [
+              "楽天プレミアムカード（年11,000円）の追加カードとして発行",
+              "プライオリティパス無料で世界の空港ラウンジ使い放題",
+              "楽天市場での仕入れで最大5%還元",
+              "楽天市場の出店者と相性最高",
+            ],
+            href: "https://www.rakuten-card.co.jp/card/rakuten-business-card/",
+          },
+          {
+            name: "JCB CARD Biz",
+            rank: 4,
+            highlight: "本人確認書類のみで申込｜JCBプロパーの信頼感",
+            features: [
+              "登記簿謄本・決算書不要、個人の本人確認書類のみで申込",
+              "JCBプロパーの信頼性で対法人取引で有利",
+              "年会費1,375円（初年度無料）",
+              "弥生会計・freee・マネフォ 3大会計ソフトと連携",
+            ],
+            href: "https://www.jcb.co.jp/ordercard/business/biz/",
+          },
+          {
+            name: "UPSIDER",
+            rank: 5,
+            highlight: "スタートアップ・急成長企業向け｜与信枠最大10億円",
+            features: [
+              "設立1日目のスタートアップでも与信枠発行可能",
+              "使い切り型仮想カードを従業員ごとに無制限発行",
+              "年会費無料、ポイント還元率1.0〜1.5%",
+              "クラウド会計との仕訳連携＋承認フロー機能",
+            ],
+            href: "https://up-sider.com/lp/cards",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">用途別のビジネスカード選び方</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>
+            <strong>開業直後・フリーランス</strong>：三井住友カードビジネスオーナーズ or freee カード Unlimited（年会費無料・決算書不要）
+          </li>
+          <li>
+            <strong>ネットショップ運営者</strong>：楽天ビジネスカード（仕入れで5%還元）
+          </li>
+          <li>
+            <strong>スタートアップ・急成長中</strong>：UPSIDER（与信枠10億円・従業員カード無制限）
+          </li>
+          <li>
+            <strong>海外出張多い経営者</strong>：アメックス・ビジネス・ゴールド or JCBプラチナビジネス（ラウンジ・コンシェルジュ）
+          </li>
+          <li>
+            <strong>広告出稿が多い</strong>：Google/Facebook広告出稿でマイル・ポイント還元を狙えるカード
+          </li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="法人・個人事業主の開業書類＋会計を一気通貫｜freee"
+        description="開業届・青色申告承認申請・会計ソフト・法人カード（freee カード Unlimited）まで、freee1つで完結。個人事業主なら年額11,760円〜、開業直後の手続きに最適。"
+        buttonText="freee会計に無料登録"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1DXI+1UOKJ6+3SPO+9FDI8Y"
+        icon="📊"
+        highlight="開業書類も無料作成"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">ビジネスカード利用の税務ポイント</h2>
+        <ol className="list-decimal list-inside space-y-2 text-sm">
+          <li>
+            <strong>事業用と個人用を完全分離</strong>：事業利用のみのカードを1枚作ることで経理が格段に楽に
+          </li>
+          <li>
+            <strong>カード明細は7年保存</strong>：電子帳簿保存法対応の会計ソフトで自動保存推奨
+          </li>
+          <li>
+            <strong>年会費・付帯保険料は経費計上可</strong>：ビジネスカードの年会費は全額経費
+          </li>
+          <li>
+            <strong>ポイント還元は「事業主借」</strong>：個人事業主のポイント還元は会計処理不要（収入計上しない）
+          </li>
+          <li>
+            <strong>法人は貯まったポイントも売上</strong>：法人カードでのポイント還元は法人の収益として計上必要
+          </li>
+        </ol>
+      </section>
+      <AffiliateCTA
+        title="広告出稿・サーバー代を事業用カードで一元管理｜エックスサーバー"
+        description="月額693円〜の高速レンタルサーバー。事業用カードで決済すれば経費の仕訳も自動化。ビジネスサイト・LP運営の定番インフラ。"
+        buttonText="エックスサーバーを見る"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1DXI+1B19KI+CO4+6HES1"
+        icon="🖥️"
+        highlight="10日間無料お試し"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">ビジネスカード発行時の注意点</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>法人代表者の個人信用情報で審査されるケースが多い</li>
+          <li>決算書不要カードでも設立3年目以降は決算書提出を求められる場合あり</li>
+          <li>法人化前の個人事業主はビジネスカード・個人カード両方の保有がベスト</li>
+          <li>キャッシング枠は原則ゼロで設定（総量規制対象外だが信用情報に影響）</li>
+          <li>家族・従業員カード発行時は与信枠を事前確認</li>
+        </ul>
+      </section>
+    </>
+  ),
+  "fp-consultation-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">FP無料相談で解決できる3つの悩み</h2>
+        <p>
+          ファイナンシャルプランナー（FP）無料相談は、保険・住宅ローン・新NISA・老後資金・教育費など、人生のお金の悩みを専門家に相談できるサービス。相談料が無料なのは、保険や金融商品の販売手数料で運営しているため。「売り込まれそう」と不安な方もいますが、優良サービスなら無理な勧誘は一切ありません。
+        </p>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>保険の見直し（加入中の保険が過剰かどうかのチェック）</li>
+          <li>住宅ローンの借り換え相談（金利・総返済額の最適化）</li>
+          <li>老後資金・教育費の積立シミュレーション（新NISA・iDeCo活用）</li>
+        </ul>
+      </section>
+      <ComparisonTableCTA
+        title="2026年 おすすめFP無料相談サービス"
+        services={[
+          {
+            name: "保険見直しラボ",
+            rank: 1,
+            highlight: "業界経験12年超のベテランFP｜訪問or オンライン対応",
+            features: [
+              "全国約60拠点、訪問・店頭・オンライン全対応",
+              "在籍FP300名以上、業界経験平均12年超のベテランFPが担当",
+              "30社以上の保険会社を取扱い、中立的な比較提案",
+              "相談料完全無料・何度相談しても無料",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=3Z6F6O+1YZZGQ+38BE+5YRHE",
+            badge: "経験豊富FP",
+          },
+          {
+            name: "マネプロ",
+            rank: 2,
+            highlight: "IFA所属FPが対応｜保険＋資産運用の総合相談",
+            features: [
+              "保険だけでなくNISA・iDeCo・不動産投資まで総合アドバイス",
+              "IFA（独立系ファイナンシャルアドバイザー）所属FPが対応",
+              "完全オンライン対応で全国から相談可能",
+              "書面設計書を後日送付、納得してから保険契約OK",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=3Z6F6O+2YBOY+50+5YJRM",
+          },
+          {
+            name: "ほけんのトータルプロフェッショナル",
+            rank: 3,
+            highlight: "ハウスメーカー・工務店との提携で住宅ローン相談も強い",
+            features: [
+              "全国270社以上のハウスメーカー・工務店と提携",
+              "住宅購入タイミングの保険見直し・住宅ローン相談が得意",
+              "40社以上の保険会社取扱いで比較提案",
+              "家計全体の見直しにも対応",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=3Z6F6O+3A4U8A+3IQ8+5YJRM",
+          },
+          {
+            name: "マネードクター",
+            rank: 4,
+            highlight: "FP資格保有者のみ｜オンライン面談に強い",
+            features: [
+              "在籍FP全員がFP資格保有者（CFP・1級FP技能士中心）",
+              "オンライン面談比率が高くコロナ以降急成長",
+              "ライフプラン表作成＋保険提案＋NISA提案がセット",
+              "相談後のアフターフォローが手厚い",
+            ],
+            href: "https://www.money-doctor.co.jp/",
+          },
+          {
+            name: "リクルート ほけん比較",
+            rank: 5,
+            highlight: "大手リクルート運営の安心感｜来店型でじっくり相談",
+            features: [
+              "全国350店舗以上の保険ショップと提携",
+              "47社以上の保険会社から中立的に比較提案",
+              "リクルートIDでポイントが貯まる",
+              "自宅・カフェ・オンラインなど希望の場所で相談可能",
+            ],
+            href: "https://hoken.hikaku.recruit.co.jp/",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">FP無料相談の当日の流れ（60〜90分）</h2>
+        <ol className="list-decimal list-inside space-y-2 text-sm">
+          <li>
+            <strong>ヒアリング（15分）</strong>：家族構成・収入・支出・加入保険・今後のライフイベント
+          </li>
+          <li>
+            <strong>現状分析（15分）</strong>：加入保険の過剰・不足、毎月キャッシュフロー診断
+          </li>
+          <li>
+            <strong>ライフプラン表作成（15分）</strong>：老後・教育費・住宅購入までの長期シミュレーション
+          </li>
+          <li>
+            <strong>改善提案（20分）</strong>：保険見直し案・新NISA積立額・iDeCo活用の提案
+          </li>
+          <li>
+            <strong>質疑応答・次回予約（15分）</strong>：疑問点の解消、契約の持ち帰り判断
+          </li>
+        </ol>
+      </section>
+      <AffiliateCTA
+        title="保険見直しで年10万円以上の節約事例多数｜保険見直しラボ"
+        description="年収500万円の30代共働き夫婦で年20万円の保険料削減事例も。現加入保険の無駄をプロ視点でチェック、新NISA原資として月1万円以上を捻出。"
+        buttonText="保険見直しラボに無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=3Z6F6O+1YZZGQ+38BE+5YRHE"
+        icon="🛡️"
+        highlight="相談料完全無料"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">FP相談を上手に使う5つのコツ</h2>
+        <ol className="list-decimal list-inside space-y-2 text-sm">
+          <li>
+            <strong>事前に質問リストを準備</strong>：時間限定の相談を有効活用
+          </li>
+          <li>
+            <strong>現在の契約書類を持参</strong>：保険証券・源泉徴収票・家計簿スクショ
+          </li>
+          <li>
+            <strong>複数FPに相談して比較</strong>：同じ悩みを2〜3社に相談して提案内容を比較
+          </li>
+          <li>
+            <strong>即決しない</strong>：その場で契約を急かされたら保留、一晩冷静に考える
+          </li>
+          <li>
+            <strong>3ヶ月後に再相談</strong>：プラン実行後の検証を依頼、継続的にFPを活用
+          </li>
+        </ol>
+      </section>
+      <AffiliateCTA
+        title="投資の基礎から学びたい方｜ファイナンシャルアカデミー"
+        description="FP相談の前に、自分で基礎知識を付けたい方向け。株式・投資信託・不動産・保険まで、プロ講師が体系的に教える日本最大級の投資スクール。無料体験セミナーあり。"
+        buttonText="ファイナンシャルアカデミー無料体験"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1O+G8NPLM+1IRY+25I7J5"
+        icon="📚"
+        highlight="無料体験セミナーあり"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">FP相談で避けるべき5つの罠</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>外貨建て終身保険の過剰提案（為替リスクが大きい）</li>
+          <li>変額保険の手数料の高さを説明しない FP に注意</li>
+          <li>「この商品しか扱えない」という FPは中立性なし</li>
+          <li>ライフプラン表の「老後必要額」が過剰提示</li>
+          <li>提案書面を持ち帰らせない FP はNG</li>
+        </ul>
+      </section>
+    </>
+  ),
+  "dual-income-household-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">共働き夫婦が最優先で使うべき資産形成4制度</h2>
+        <p>
+          共働き夫婦は、夫婦それぞれが新NISA・iDeCo・ふるさと納税を使えるため、単身者・片働き世帯の2倍の節税・非課税枠を享受できます。世帯年収700万〜1,500万円の共働き層が最も恩恵を受けやすく、20年複利で3,000〜5,000万円の資産形成が十分可能です。
+        </p>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>
+            <strong>新NISA</strong>：夫婦それぞれ年360万円・生涯1,800万円 → 世帯で年720万円・生涯3,600万円
+          </li>
+          <li>
+            <strong>iDeCo</strong>：会社員なら夫婦それぞれ月23,000円（合計月46,000円）の所得控除
+          </li>
+          <li>
+            <strong>ふるさと納税</strong>：夫婦それぞれの年収に応じた上限額（世帯合計で10〜30万円）
+          </li>
+          <li>
+            <strong>クレカ積立</strong>：夫婦別々のカードでそれぞれ月10万円積立→毎月年1,200〜2,400ポイント還元
+          </li>
+        </ul>
+      </section>
+      <ComparisonTableCTA
+        title="共働き夫婦におすすめ ネット証券（夫婦別口座推奨）"
+        services={[
+          {
+            name: "SBI証券",
+            rank: 1,
+            highlight: "取扱投信業界最多｜三井住友カード積立で最大5%還元",
+            features: [
+              "新NISA対応投資信託 2,500本以上で選択肢豊富",
+              "三井住友カードゴールドNLで1%、プラチナプリファードで3%還元",
+              "家族ポイントでSBI経済圏を世帯で最大化",
+              "IPO取扱数が業界No.1（夫婦2口座で当選確率UP）",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "夫用おすすめ",
+          },
+          {
+            name: "楽天証券",
+            rank: 2,
+            highlight: "楽天カード積立で1%還元｜楽天経済圏で世帯最適化",
+            features: [
+              "楽天カード積立で最大1%還元・楽天キャッシュ積立併用で月10万円分還元対象",
+              "楽天市場・楽天モバイル・楽天銀行との連携で還元率UP",
+              "楽天証券×楽天銀行マネーブリッジで普通預金金利0.1%",
+              "投資信託の自動積立設定が直感的",
+            ],
+            href: "https://www.rakuten-sec.co.jp/web/nisa/",
+            badge: "妻用おすすめ",
+          },
+          {
+            name: "マネックス証券",
+            rank: 3,
+            highlight: "クレカ積立還元率1.1%業界最高｜米国株が強い",
+            features: [
+              "マネックスカード積立で1.1%還元（業界最高水準）",
+              "米国株の取扱4,000銘柄超、分析ツール「銘柄スカウター」が強力",
+              "外国株の為替手数料が買付時無料",
+              "iDeCo手数料も業界最安水準",
+            ],
+            href: "https://info.monex.co.jp/nisa/index.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">世帯年収別 共働き夫婦の最適プラン</h2>
+        <ul className="list-disc list-inside space-y-3 text-sm">
+          <li>
+            <strong>世帯年収700万円（夫400＋妻300）</strong>：夫婦クレカ積立 月10万円×2＝年240万円、iDeCo月23,000円×2、ふるさと納税世帯合計6万円。20年後の資産目安: 5,000万円（年利5%）
+          </li>
+          <li>
+            <strong>世帯年収1,000万円（夫600＋妻400）</strong>：夫婦クレカ積立フル活用、iDeCo フル枠、ふるさと納税世帯合計10〜13万円。20年後の資産目安: 7,000〜8,000万円
+          </li>
+          <li>
+            <strong>世帯年収1,500万円（夫900＋妻600）</strong>：新NISA年720万円フル活用、iDeCo＋企業型DC、ふるさと納税世帯合計25〜30万円。20年後の資産目安: 1億円超も視野
+          </li>
+          <li>
+            <strong>世帯年収2,000万円超（DINKs・共働きエグゼクティブ）</strong>：新NISA＋特定口座で米国個別株、不動産投資、IFA経由のプライベートバンキングも検討
+          </li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="夫婦で年2.4%還元｜楽天カード＋楽天証券"
+        description="夫婦それぞれ楽天カード発行＋楽天証券でクレカ積立月10万円ずつ設定。世帯で年24万ポイント還元。さらに楽天市場での日用品購入でSPU最大化し、実質2.4%以上の節約に。"
+        buttonText="楽天カードに無料申込"
+        href="https://hb.afl.rakuten.co.jp/hgc/g00q0722.r9tfu12j.g00q0722.r9tfvd42/"
+        icon="💳"
+        highlight="年会費永年無料"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">共働き夫婦の家計管理 3つのパターン</h2>
+        <ol className="list-decimal list-inside space-y-3 text-sm">
+          <li>
+            <strong>折半型（おすすめ度：★★★★）</strong>：生活費を完全折半、残りは各自管理。独立性が高く、共働きDINKs向け
+          </li>
+          <li>
+            <strong>共通財布型（おすすめ度：★★★）</strong>：2人の収入を共通口座へ。家計が透明、夫婦関係の対立が起きにくい反面、個人自由支出が少ない
+          </li>
+          <li>
+            <strong>収入比例型（おすすめ度：★★★★★）</strong>：家計費を収入比で按分（例：夫6・妻4）。収入差の不公平感が出にくく、子育て期の変動にも柔軟
+          </li>
+        </ol>
+      </section>
+      <AffiliateCTA
+        title="夫婦の家計・投資を1アプリで可視化｜マネーフォワードME"
+        description="夫婦で共有アカウント＋個人アカウントで使い分け。銀行・クレカ・証券口座を自動連携して世帯資産を一元管理。無料版でも十分、プレミアム（月500円）で連携数無制限。"
+        buttonText="マネーフォワードMEを見る"
+        href="https://moneyforward.com/pages/mf_me/"
+        icon="📱"
+        highlight="無料で使える"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">共働き夫婦が失敗しがちな5つの罠</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>お互いの資産・負債を把握していない → 住宅ローン審査で発覚する事例多数</li>
+          <li>どちらか片方だけ投資している → 片働きの税制メリットを使い切れない</li>
+          <li>児童手当を生活費に吸収 → 本来なら全額ジュニアNISA代替で運用すべき</li>
+          <li>夫婦で同じ保険に加入 → 収入保障保険は収入差で加入額を調整</li>
+          <li>出産・育休時の収入減を想定していない → 生活費6ヶ月分以上の預金必須</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="夫婦の保険見直しで年10万円以上の節約事例も｜保険見直しラボ"
+        description="共働き夫婦の保険は夫婦別々に入るか、収入保障保険を収入差で調整するのが鉄則。現加入保険の過不足をプロが無料で診断、新NISA原資を捻出。"
+        buttonText="保険見直しラボに無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=3Z6F6O+1YZZGQ+38BE+5YRHE"
+        icon="🛡️"
+        highlight="相談料完全無料"
+      />
+    </>
+  ),
 };
