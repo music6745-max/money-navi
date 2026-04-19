@@ -5782,4 +5782,640 @@ const guideContents: Record<string, React.ReactNode> = {
       />
     </>
   ),
+  "real-estate-crowdfunding-comparison-2026": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">不動産クラウドファンディングの基礎</h2>
+        <p>
+          不動産クラウドファンディングは、多数の投資家から集めた資金で不動産を運営し、賃料収入や売却益を分配する投資商品。1万円〜の少額から始められ、想定利回り年4〜10%と銀行預金を大きく上回ります。従来の現物不動産投資と違い、物件管理・空室リスク対応は運営会社が行うため、手間ゼロで不動産投資のリターンを得られます。
+        </p>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>1万円〜1口の少額投資（現物不動産の初期費用3,000万円超と対比）</li>
+          <li>想定利回り 4〜10%（銀行預金 0.001%、国債 0.1%）</li>
+          <li>優先劣後構造で元本保全性を高めた商品多数</li>
+          <li>運営会社が物件管理・空室対応を実施、投資家は保有するのみ</li>
+          <li>分配金は雑所得（総合課税、上限55%）のため高所得者は要注意</li>
+        </ul>
+      </section>
+      <ComparisonTableCTA
+        title="2026年 おすすめ不動産クラウドファンディング比較10社"
+        services={[
+          {
+            name: "COZUCHI",
+            rank: 1,
+            highlight: "想定利回り4〜20%｜中途解約可能｜リアルエステート系の最大手",
+            features: [
+              "想定利回り年4%〜20%（平均8%超の高利回り案件多数）",
+              "中途解約可能（他社は満期まで拘束、流動性で圧倒）",
+              "運営会社 LAETOLI株式会社、累計調達額600億円超",
+              "毎週新ファンド公開、募集額数億円でも即日完売",
+            ],
+            href: "https://cozuchi.com/",
+            badge: "総合No.1",
+          },
+          {
+            name: "CREAL",
+            rank: 2,
+            highlight: "東証プライム上場運営｜物件の透明性が高い",
+            features: [
+              "運営 株式会社クリアル（東証プライム上場）",
+              "想定利回り年4〜6%、保育園・児童向け施設など公益性の高い物件",
+              "1万円から投資可能、元本毀損なしの実績",
+              "毎月1〜2件の新規ファンド、投資家優待もあり",
+            ],
+            href: "https://creal.jp/",
+            badge: "東証上場",
+          },
+          {
+            name: "利回りくん",
+            rank: 3,
+            highlight: "応援型×利回り｜楽天ポイント対応",
+            features: [
+              "楽天ポイント連携（楽天Payでファンド購入可能）",
+              "地方創生・アイドル等の応援型ファンド多数",
+              "想定利回り年3〜7%、長期運用向き",
+              "毎月ファンド公開、最低1万円から",
+            ],
+            href: "https://利回りくん.com/",
+          },
+          {
+            name: "OwnersBook",
+            rank: 4,
+            highlight: "東証上場ロードスターキャピタル運営｜厳選物件",
+            features: [
+              "運営 ロードスターキャピタル（東証上場）",
+              "商業不動産メイン、案件数は少ないが厳選された優良物件",
+              "想定利回り年4〜6%、元本毀損ゼロ",
+              "1万円から、運用期間1〜3年中心",
+            ],
+            href: "https://www.ownersbook.jp/",
+          },
+          {
+            name: "Funds",
+            rank: 5,
+            highlight: "貸付型（社債型）｜上場企業の資金調達に投資",
+            features: [
+              "ソーシャルレンディング型、上場企業への貸付",
+              "想定利回り年1.5〜3%、安全性重視",
+              "運用期間3ヶ月〜2年と短期",
+              "元本毀損ゼロの実績、毎週新ファンド",
+            ],
+            href: "https://funds.jp/",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">不動産クラファン投資の始め方（3ステップ）</h2>
+        <ol className="list-decimal list-inside space-y-2 text-sm">
+          <li>
+            <strong>口座開設（10〜15分）</strong>：本人確認書類の撮影、マイナンバー提出。最短翌営業日で開設完了
+          </li>
+          <li>
+            <strong>投資先ファンド選定</strong>：想定利回り・運用期間・優先劣後比率・物件所在地を確認
+          </li>
+          <li>
+            <strong>応募・入金</strong>：抽選または先着で応募。当選後に投資口座へ入金、運用開始
+          </li>
+        </ol>
+      </section>
+      <AffiliateCTA
+        title="想定利回り平均8%超の実績｜COZUCHI"
+        description="不動産クラファンの最大手COZUCHIは、想定利回り平均8%超、中途解約可能という業界随一の流動性。累計調達600億円超、募集開始数分で完売するファンドも。"
+        buttonText="COZUCHIに無料登録"
+        href="https://cozuchi.com/"
+        icon="🏢"
+        highlight="1万円から"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">優先劣後構造とリスク</h2>
+        <p>
+          多くの不動産クラファンは「優先劣後」構造を採用。投資家資金が「優先出資」、運営会社資金が「劣後出資」となり、損失発生時は劣後出資が先に毀損する仕組み。例えば劣後30%の案件なら、物件評価額が30%下落しても投資家の元本は毀損しない設計です。
+        </p>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>優先劣後比率の高いファンド（劣後20〜30%）を選ぶのが基本</li>
+          <li>運用期間が長いほど金利変動リスクに晒される</li>
+          <li>元本保証はないが、上記構造により保全性は高め</li>
+          <li>分配金は雑所得で年20万円超は確定申告必要</li>
+          <li>運営会社破綻リスクはあり（投資家資産は分別管理されているが）</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="東証プライム上場運営で透明性No.1｜CREAL"
+        description="東証プライム上場のクリアル株式会社が運営。保育園・児童向け施設など公益性の高いファンドが中心で、社会貢献×投資を両立。元本毀損なしの実績。"
+        buttonText="CREALを見る"
+        href="https://creal.jp/"
+        icon="🏫"
+        highlight="東証プライム上場"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">税金と確定申告のポイント</h2>
+        <ol className="list-decimal list-inside space-y-2 text-sm">
+          <li><strong>分配金は雑所得</strong>：年20万円超で確定申告必須</li>
+          <li><strong>総合課税</strong>：給与所得と合算で最大55%課税（高所得者は要注意）</li>
+          <li><strong>損失の繰越不可</strong>：株式投資と違い、損失を翌年以降に繰り越せない</li>
+          <li><strong>源泉徴収済</strong>：配当金は20.42%源泉徴収後に支払い</li>
+          <li><strong>NISA対象外</strong>：不動産クラファンは新NISAの投資対象外</li>
+        </ol>
+      </section>
+    </>
+  ),
+  "tax-accountant-consultation-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">個人事業主・フリーランスが税理士に相談すべき3つの場面</h2>
+        <p>
+          個人事業主・フリーランスの確定申告は年1回ですが、売上1,000万円を超えるとインボイス登録・消費税納税義務が発生し、自力での申告は困難に。税理士に相談すべきタイミングを知り、適切なプロを選べば年間節税10〜50万円、かつ申告工数を10分の1に削減できます。
+        </p>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>売上800〜1,000万円を超えそうなタイミング（消費税対応）</li>
+          <li>開業・法人成り・事業承継など事業の大きな転機</li>
+          <li>税務調査の通知が来たとき</li>
+        </ul>
+      </section>
+      <ComparisonTableCTA
+        title="2026年 税理士無料相談おすすめサービス比較"
+        services={[
+          {
+            name: "税理士ドットコム",
+            rank: 1,
+            highlight: "業界最大手｜5,800人超の税理士から無料紹介",
+            features: [
+              "全国5,800人超の税理士ネットワークから希望条件でマッチング",
+              "コーディネーターによる面談事前サポート付き",
+              "相談料・紹介料ともに完全無料",
+              "弁護士ドットコムグループ運営の安心感",
+            ],
+            href: "https://www.zeiri4.com/",
+            badge: "業界最大手",
+          },
+          {
+            name: "税理士紹介ネットワーク",
+            rank: 2,
+            highlight: "創業25年以上｜全国対応・対面相談可能",
+            features: [
+              "1999年創業、累計20万社以上の紹介実績",
+              "全国47都道府県対応、対面・オンライン選択可",
+              "専任コーディネーターが複数税理士を比較提案",
+              "相談料・紹介料完全無料",
+            ],
+            href: "https://www.zeirishi-network.com/",
+          },
+          {
+            name: "freee税理士検索",
+            rank: 3,
+            highlight: "freee認定アドバイザーのみ｜会計ソフト連携最強",
+            features: [
+              "freee会計認定税理士のみ紹介、会計データ連携でスムーズ",
+              "顧問料 月1万円〜の格安税理士が多い",
+              "スタートアップ・ITフリーランスとの相性◎",
+              "オンライン完結可能",
+            ],
+            href: "https://www.freee.co.jp/kojin/advisor/",
+          },
+          {
+            name: "マネーフォワード税理士紹介",
+            rank: 4,
+            highlight: "マネフォ連携税理士｜IT系フリーランス向け",
+            features: [
+              "マネーフォワードクラウド連携税理士を紹介",
+              "会計・給与・請求書を一元管理済みの企業に最適",
+              "顧問料 月1万円〜、比較的若手税理士が多い",
+              "オンライン面談中心",
+            ],
+            href: "https://biz.moneyforward.com/tax_adviser/",
+          },
+          {
+            name: "ビスカス",
+            rank: 5,
+            highlight: "創業30年超｜大手企業向けにも対応",
+            features: [
+              "1997年創業、累計15万社以上の紹介実績",
+              "個人事業主〜大企業まで幅広く対応",
+              "相続・事業承継・M&Aなど専門領域にも強い",
+              "紹介後3ヶ月のフォロー付き",
+            ],
+            href: "https://www.viscas.co.jp/",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">税理士の費用相場（個人事業主）</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>確定申告のみ（スポット）</strong>：5〜20万円（売上規模による）</li>
+          <li><strong>顧問契約（月次）</strong>：月1万〜5万円＋決算料 10〜20万円</li>
+          <li><strong>年間合計</strong>：20〜80万円（顧問契約の場合）</li>
+          <li><strong>会計ソフト連携</strong>：freee/マネフォ連携で顧問料30〜50%割引の事務所多数</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="確定申告を自分でやるなら｜freee会計"
+        description="売上500万円以下なら、freee会計で自力申告が現実的。AI仕訳・電子帳簿保存法対応・e-Tax連携で、税理士料金の節約と経理時間の短縮を両立。"
+        buttonText="freee会計に無料登録"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1DXI+1UOKJ6+3SPO+9FDI8Y"
+        icon="📊"
+        highlight="30日間無料"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">税理士選びで確認すべき5つのポイント</h2>
+        <ol className="list-decimal list-inside space-y-2 text-sm">
+          <li><strong>業種経験</strong>：同業他社の顧問経験があるか（飲食/IT/建設等）</li>
+          <li><strong>会計ソフト対応</strong>：freee/マネフォ/弥生のいずれに対応か</li>
+          <li><strong>インボイス対応</strong>：適格請求書発行事業者登録のサポート可否</li>
+          <li><strong>節税提案</strong>：顧問料以上の節税額を生む提案力があるか</li>
+          <li><strong>コミュニケーション</strong>：月1回の定例MTG・メール対応速度</li>
+        </ol>
+      </section>
+      <AffiliateCTA
+        title="確定申告ソフト比較｜マネーフォワードクラウド"
+        description="マネフォと連携する税理士を後から探せる。給与計算・請求書・会計まで一元管理、月額980円〜。税理士と連携するときも会計データをそのまま引き継ぎ可能。"
+        buttonText="マネーフォワードクラウド確認"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1DXI+4O0FYA+3L0Y+BWGDT"
+        icon="💼"
+        highlight="30日間無料"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">税理士を使わず自力申告できるラインは？</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>売上500万円以下＋単一業種＋仕入れ少 → 自力申告（会計ソフト活用）</li>
+          <li>売上500万〜1,000万円 → スポット依頼（確定申告のみ）</li>
+          <li>売上1,000万円超（インボイス登録） → 顧問契約推奨</li>
+          <li>法人成り検討中 → 必ず税理士相談</li>
+          <li>税務調査通知あり → 即税理士に相談（無料の電話相談から）</li>
+        </ul>
+      </section>
+    </>
+  ),
+  "high-income-tax-strategy": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">年収1000万円超の税負担の実態</h2>
+        <p>
+          年収1,000万円超の給与所得者は、所得税33%＋住民税10%＋社会保険料15%で、実質手取りは額面の60〜65%。年収1,500万円でも所得税45%の超過部分が発生し、2,000万円超は給与所得控除の上限で節税余地が激減します。制度を正しく使い倒すことで、年収1,500万円なら年間80〜120万円の節税が現実的です。
+        </p>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>年収1,000万円：所得税率33%（課税所得900万超部分）</li>
+          <li>年収1,800万円超：所得税率40%</li>
+          <li>年収4,000万円超：所得税率45%（住民税合わせて55%）</li>
+          <li>年収850万円超：給与所得控除195万円で頭打ち（2020年改正）</li>
+          <li>年収2,400万円超：基礎控除48万円の段階的縮小</li>
+        </ul>
+      </section>
+      <ComparisonTableCTA
+        title="高所得者の節税手段ランキング（年収1500万円モデル）"
+        services={[
+          {
+            name: "iDeCo（企業年金なし）",
+            rank: 1,
+            highlight: "所得控除 月23,000円｜年27.6万円×税率40%＝11万円節税",
+            features: [
+              "企業年金なし会社員は月2.3万円（年27.6万円）が全額所得控除",
+              "運用益も非課税（特定口座なら約20%課税）",
+              "受取時の税制優遇（退職所得控除・公的年金等控除）",
+              "SBI/楽天/マネックスは口座管理手数料 月171円",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lp_ideco.html",
+            badge: "最優先",
+          },
+          {
+            name: "ふるさと納税",
+            rank: 2,
+            highlight: "年収1500万円で上限37万円｜実質2,000円で37万円分の返礼品",
+            features: [
+              "年収1,500万円で年間上限 約37万円",
+              "高所得者ほど上限額が大きく、お得度がUP",
+              "ワンストップ特例（6自治体以内）でラクラク申告不要",
+              "楽天ふるさと納税なら最大30%ポイント還元",
+            ],
+            href: "https://event.rakuten.co.jp/furusato/",
+            badge: "即効性",
+          },
+          {
+            name: "小規模企業共済",
+            rank: 3,
+            highlight: "個人事業主・経営者専用｜月7万円×税率40%＝33万円節税",
+            features: [
+              "個人事業主・法人役員のみ加入可能",
+              "掛金 月1,000円〜7万円（年最大84万円）が全額所得控除",
+              "20年超加入で元本割れなし、退職時は退職所得として受取",
+              "貸付制度あり（掛金の範囲内で低利融資）",
+            ],
+            href: "https://www.smrj.go.jp/kyosai/skyosai/",
+          },
+          {
+            name: "新NISA",
+            rank: 4,
+            highlight: "運用益非課税（年20%相当を年率で節税）",
+            features: [
+              "年360万円・生涯1,800万円の非課税投資枠",
+              "運用益・配当益が完全非課税（通常20.315%課税）",
+              "クレカ積立で年1〜3%還元",
+              "夫婦でそれぞれ口座開設で世帯3,600万円枠",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "長期複利",
+          },
+          {
+            name: "不動産投資（区分マンション）",
+            rank: 5,
+            highlight: "減価償却で年収圧縮｜年間30〜80万円の損益通算節税",
+            features: [
+              "減価償却費で会計上の赤字を作り、給与所得と損益通算",
+              "年収1,000万円超で効果大、2,500万円超はビルトイン可",
+              "ローン金利・管理費・修繕費も経費",
+              "出口戦略（売却益）を含めた総合判断が必要",
+            ],
+            href: "https://www.mogecheck.jp/",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">年収1500万円モデルの節税シミュレーション</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>iDeCo 月2.3万円</strong>：年27.6万円 × 税率40% ＝ <strong>約11万円節税</strong></li>
+          <li><strong>ふるさと納税 37万円</strong>：実質2,000円で37万円分の返礼品（約11万円相当）＋楽天SPU還元</li>
+          <li><strong>新NISA 年360万円フル活用</strong>：年利5%運用時、20年後の非課税メリット約700万円</li>
+          <li><strong>医療費控除（家族合算）</strong>：年10万円超の医療費×税率40% ＝ 平均5〜10万円節税</li>
+          <li><strong>生命保険料控除</strong>：新契約で年最大12万円×税率40% ＝ 4.8万円節税</li>
+          <li><strong>合計節税額</strong>：<strong>年間約50〜80万円</strong>（初年度。20年複利で2,000万円超の差）</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="iDeCo月2.3万円で年11万円節税｜SBI証券"
+        description="高所得者のiDeCoは絶対必修。月2.3万円の全額所得控除で年間11万円以上の税金が戻り、さらに運用益も非課税。SBI証券は運営管理手数料無料、商品ラインナップも業界最多。"
+        buttonText="SBI証券 iDeCoを見る"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lp_ideco.html"
+        icon="🏦"
+        highlight="手数料無料"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">2026年以降に注目すべき制度改正</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>相続時精算課税の年110万円基礎控除（2024改正）：生前贈与戦略の主流化</li>
+          <li>生前贈与7年加算ルール：贈与は早めに開始（段階移行中）</li>
+          <li>インボイス制度本格化：副業収入への影響</li>
+          <li>ふるさと納税ルール厳格化（2024/10〜）：還元率・地場産品の条件強化</li>
+          <li>退職所得の課税改正議論：勤続20年超の優遇縮小リスク</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="年37万円のふるさと納税を最大還元｜楽天ふるさと納税"
+        description="年収1500万円なら上限約37万円。楽天ふるさと納税なら楽天市場のSPU（最大16倍）＋5と0の付くキャンペーンで、実質30%以上のポイント還元を狙える最強ルート。"
+        buttonText="楽天ふるさと納税を見る"
+        href="https://event.rakuten.co.jp/furusato/"
+        icon="🎁"
+        highlight="SPU最大16倍"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">高所得者が避けるべき5つの落とし穴</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>営業に勧められるままの節税保険（手数料が高く実質節税にならない）</li>
+          <li>タワマン節税（相続税評価額算定方法の改正で効果激減）</li>
+          <li>海外不動産投資（税制改正で減価償却による損益通算不可）</li>
+          <li>個人年金保険の過剰加入（iDeCoの方が圧倒的に有利）</li>
+          <li>法人化を急ぎすぎる（売上800万円超＋利益500万円超が目安）</li>
+        </ul>
+      </section>
+    </>
+  ),
+  "fixed-cost-reduction-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">固定費削減で年30万円節約の全体像</h2>
+        <p>
+          家計の固定費（通信費・保険・サブスク・光熱費・住居費）は、一度見直すだけで毎月自動的に節約効果が継続する最強の節約術。平均的な家庭で年間30〜50万円の削減が可能で、その資金を新NISAに回せば20年後に1,000〜2,000万円の資産差となります。
+        </p>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>通信費（スマホ＋ネット）：年10〜15万円削減</li>
+          <li>保険（生命・医療）：年5〜15万円削減</li>
+          <li>サブスク：年2〜6万円削減</li>
+          <li>電気・ガス：年1〜5万円削減</li>
+          <li>住宅ローン借り換え：総返済額100〜500万円削減</li>
+        </ul>
+      </section>
+      <ComparisonTableCTA
+        title="固定費削減 おすすめ見直し順"
+        services={[
+          {
+            name: "格安SIM乗り換え",
+            rank: 1,
+            highlight: "大手3キャリアから格安SIMへ→月5,000円節約",
+            features: [
+              "大手キャリア（平均月8,000円）→ IIJmio/mineo/BIGLOBE モバイル（月1,500〜3,000円）",
+              "家族4人なら月2万円、年24万円の節約",
+              "通信品質も改善、楽天モバイルなら月3,000円使い放題",
+              "MNP乗換で特典キャッシュバック",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1DXL+8P60Z6+1QFI+2Z68LU",
+            badge: "即効性No.1",
+          },
+          {
+            name: "保険見直し",
+            rank: 2,
+            highlight: "過剰保険の見直しで月1〜2万円節約",
+            features: [
+              "死亡保険は収入保障型＋定期保険で十分（終身は不要）",
+              "医療保険は高額療養費制度を踏まえて最小限で",
+              "FP無料相談で30社から比較提案",
+              "見直しで月1〜2万円、年12〜24万円削減可能",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=3Z6F6O+1YZZGQ+38BE+5YRHE",
+            badge: "大幅削減",
+          },
+          {
+            name: "光回線見直し",
+            rank: 3,
+            highlight: "NURO光・ドコモ光・ahamo光への乗換で月1,000〜3,000円節約",
+            features: [
+              "NURO光：通信速度業界No.1＋月5,200円",
+              "auひかり・ドコモ光はスマホとセットで割引",
+              "乗換キャッシュバック5〜10万円が毎月出る",
+              "工事費無料キャンペーンを狙え",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1DXL+8GTYIA+3HKU+1ZG8B6",
+          },
+          {
+            name: "電気・ガス自由化",
+            rank: 4,
+            highlight: "電力・ガス会社切替で年1〜3万円節約",
+            features: [
+              "旧料金プランから新料金プランへの切替だけで5〜10%削減",
+              "新電力（Looop/エルピオ/自然電力等）なら月5〜15%削減",
+              "都市ガスは東ガス→大阪ガス系・LPガスなど地域依存",
+              "切替は無料、工事不要で5分で完了",
+            ],
+            href: "https://enechange.jp/",
+          },
+          {
+            name: "住宅ローン借り換え",
+            rank: 5,
+            highlight: "金利差0.5%の借り換えで総返済額100〜500万円削減",
+            features: [
+              "残高1,000万円以上＋金利差0.5%以上＋残期間10年以上が目安",
+              "モゲチェックなら無料シミュレーション＋審査代行",
+              "変動 0.3%台の商品多数、団信も進化中",
+              "諸費用30〜100万円を上回る削減額になるかで判断",
+            ],
+            href: "https://www.mogecheck.jp/",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">固定費見直しの実行順</h2>
+        <ol className="list-decimal list-inside space-y-2 text-sm">
+          <li><strong>今週中</strong>：スマホプラン見直し（格安SIM乗換）、不要サブスク解約</li>
+          <li><strong>今月中</strong>：光回線乗換、電力・ガス会社切替</li>
+          <li><strong>3ヶ月以内</strong>：保険のFP相談、住宅ローン借換検討</li>
+          <li><strong>6ヶ月以内</strong>：見直し後の浮いた固定費をそのまま新NISA自動積立に回す</li>
+        </ol>
+      </section>
+      <AffiliateCTA
+        title="通信費を月5,000円削減｜DTI SIM"
+        description="格安SIMの大手、データ通信SIM 月660円〜、音声通話SIM 月1,200円〜。docomo回線で大手キャリアと同じ品質、乗換ならキャッシュバック最大1万円。"
+        buttonText="DTI SIMを見る"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1DXL+8P60Z6+1QFI+2Z68LU"
+        icon="📱"
+        highlight="月660円〜"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">削減した固定費の最適な再投資先</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>月1万円 → 新NISAつみたて投資枠（年利5%で20年後 約411万円）</li>
+          <li>月2万円 → 新NISA＋iDeCo併用（年利5%で20年後 約822万円＋所得控除）</li>
+          <li>月3万円 → 新NISA成長投資枠も活用（年利6%で20年後 約1,386万円）</li>
+          <li>削減額は絶対に生活費に吸収させず、自動積立で投資に回す</li>
+          <li>ボーナス時に年間分を一括積立する方法もアリ</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="保険見直しで月1〜2万円節約｜保険見直しラボ"
+        description="固定費見直しの本丸は保険。加入中の終身保険・医療保険の過不足をFPが無料診断、大半の家庭で月1〜2万円（年12〜24万円）の削減に成功。"
+        buttonText="保険見直しラボに無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=3Z6F6O+1YZZGQ+38BE+5YRHE"
+        icon="🛡️"
+        highlight="相談料完全無料"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">固定費削減でやってはいけない5つのこと</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>必要な保険まで解約（医療保険の見直しは慎重に、特に既往症あり）</li>
+          <li>激安光回線の飛びつき（回線品質・サポート品質が悪い可能性）</li>
+          <li>複数のキャンペーン条件併用による混乱（乗換タイミングずれ）</li>
+          <li>通信費ばかり切り詰めて住居費を放置（最大の固定費）</li>
+          <li>削減額をそのまま生活費に吸収（必ず投資に回す）</li>
+        </ul>
+      </section>
+    </>
+  ),
+  "early-career-investment-roadmap": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">新社会人が投資を始めるべき5つの理由</h2>
+        <p>
+          20代の新社会人が今すぐ投資を始めるべき最大の理由は「時間」。年利5%で月3万円を30年積立すれば2,500万円、40年なら4,575万円に。同じ金額を40代から始めると2,000万円未満にとどまります。新社会人の今こそ、月3万円から始められる最強の資産形成フェーズです。
+        </p>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>複利の効果は時間に比例（40年運用なら元本の5倍超に）</li>
+          <li>新NISAで生涯1,800万円を30〜40代で使い切るのがベスト</li>
+          <li>少額から始められる（月100円〜OK）</li>
+          <li>給与天引きで貯金が苦手な人でも自動化できる</li>
+          <li>20代で投資習慣を付ければ、将来の収入増にも備えられる</li>
+        </ul>
+      </section>
+      <ComparisonTableCTA
+        title="20代新社会人におすすめの資産形成プラン（年収350万円モデル）"
+        services={[
+          {
+            name: "月3万円積立プラン（推奨）",
+            rank: 1,
+            highlight: "新NISAつみたて投資枠｜年利5%で30年後 約2,500万円",
+            features: [
+              "SBI証券 × 三井住友カードNL（年会費無料）でクレカ積立1%還元",
+              "投資信託はeMAXIS Slim全世界株式 or S&P500一本でOK",
+              "ボーナス月のみ増額設定も可能",
+              "積立額の月3万円×年36万円を新NISAつみたて枠内で運用",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "王道",
+          },
+          {
+            name: "月1万円スタートプラン",
+            rank: 2,
+            highlight: "投資初心者向け｜無理なく習慣化",
+            features: [
+              "楽天証券 × 楽天カード積立で1%ポイント還元",
+              "生活費の見直し後に始めるので貯金ペースと両立",
+              "月1万円×30年×年利5% ＝ 約832万円",
+              "最初の3ヶ月で慣れたら月額増額を検討",
+            ],
+            href: "https://www.rakuten-sec.co.jp/web/nisa/",
+          },
+          {
+            name: "会社の企業型DC＋新NISA併用",
+            rank: 3,
+            highlight: "企業年金ありの場合｜給与天引きで自動化",
+            features: [
+              "企業型DC加入者はiDeCoは月2万円上限、合わせて最強の節税",
+              "企業型DCの運営会社によってはeMAXIS Slimが選べない場合も",
+              "新NISA＋企業型DCで世帯年投資額を最大化",
+              "転職時はiDeCoへの移換手続きを忘れずに",
+            ],
+            href: "https://www.sbisec.co.jp/ETGate/WPLETmgR001Control?OutSide=on&burl=search_home&cat1=home&cat2=none&getFlg=on&dir=home&file=home.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">新社会人 月3万円プランのシミュレーション</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>10年後（30歳）</strong>：元本360万円 → 年利5%で <strong>約466万円</strong>（+106万円）</li>
+          <li><strong>20年後（40歳）</strong>：元本720万円 → 年利5%で <strong>約1,232万円</strong>（+512万円）</li>
+          <li><strong>30年後（50歳）</strong>：元本1,080万円 → 年利5%で <strong>約2,497万円</strong>（+1,417万円）</li>
+          <li><strong>40年後（60歳）</strong>：元本1,440万円 → 年利5%で <strong>約4,575万円</strong>（+3,135万円）</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="新社会人の口座開設は SBI証券｜クレカ積立1%還元"
+        description="20代に圧倒的No.1のおすすめ。三井住友カードNL（年会費無料）でクレカ積立1%還元、投資信託の取扱2,500本以上。新NISAつみたて枠も成長枠も対応。"
+        buttonText="SBI証券に口座開設"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="💰"
+        highlight="業界No.1"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">20代が最初にやるべき5ステップ</h2>
+        <ol className="list-decimal list-inside space-y-2 text-sm">
+          <li><strong>Step1（今週）</strong>：SBI証券 or 楽天証券で口座開設（10〜15分）</li>
+          <li><strong>Step2（来週）</strong>：新NISA口座の申込（1〜2週間で開設完了）</li>
+          <li><strong>Step3（口座開設後）</strong>：クレジットカード申込（三井住友NL or 楽天カード）</li>
+          <li><strong>Step4（開設後）</strong>：クレカ積立 月3万円の自動設定、銘柄はeMAXIS Slim全世界株式</li>
+          <li><strong>Step5（3ヶ月後）</strong>：生活費の見直しで積立額を月5万円に増額検討</li>
+        </ol>
+      </section>
+      <AffiliateCTA
+        title="楽天経済圏で始めるなら｜楽天カード"
+        description="年会費永年無料の楽天カード。楽天証券のクレカ積立で1%還元、楽天市場利用でSPU最大化。新社会人の初クレカとしても使える。"
+        buttonText="楽天カードに無料申込"
+        href="https://hb.afl.rakuten.co.jp/hgc/g00q0722.r9tfu12j.g00q0722.r9tfvd42/"
+        icon="💳"
+        highlight="年会費永年無料"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">新社会人がやりがちな投資の失敗</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>ボーナス全額を株に突っ込む（長期積立から外れてしまう）</li>
+          <li>変額保険・外貨建て保険を資産運用と勘違い（手数料が重い）</li>
+          <li>高配当株・個別株から始める（インデックスの方が遥かに楽で成績が上）</li>
+          <li>短期的な値動きで売却（長期保有の複利が途切れる）</li>
+          <li>不要なFX・暗号資産への手出し（生活費に食い込むリスク）</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="副業で積立原資を増やす｜クラウドワークス"
+        description="新社会人の強み「時間」を活かして、週10時間の副業で月3〜8万円の追加収入。その全額を新NISAに回せば、30年後の資産は倍増レベル。"
+        buttonText="クラウドワークスに無料登録"
+        href="https://px.a8.net/svt/ejp?a8mat=2NR2GS+DFNXFM+0K3Y+61RIP"
+        icon="💻"
+        highlight="完全無料"
+      />
+    </>
+  ),
 };
