@@ -580,6 +580,22 @@ const guideContents: Record<string, React.ReactNode> = {
         href="https://px.a8.net/svt/ejp?a8mat=4B1DXI+1UOKJ6+3SPO+9FDI8Y"
         icon="📊"
       />
+      <AffiliateCTA
+        title="スキマ時間にコツコツ｜マクロミルのアンケートモニター"
+        description="毎日数分のスマホ操作で月5,000〜15,000円が狙える定番の副業。登録無料・銀行振込可で、Web調査・商品モニターなど多彩な案件。"
+        buttonText="マクロミルに無料登録"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+8XJMI+2WL0+CLYLD"
+        icon="📋"
+        highlight="登録無料"
+      />
+      <AffiliateCTA
+        title="ブログ副業を始めるならエックスサーバーで決まり"
+        description="国内シェアNo.1のレンタルサーバー。月990円〜、独自ドメイン永久無料、WordPressクイックスタートで10分でブログ開設可能。"
+        buttonText="エックスサーバーを見る"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1DXI+1B19KI+CO4+6HES1"
+        icon="🖥️"
+        highlight="月990円〜"
+      />
     </>
   ),
   "household-budget-apps": (
@@ -1564,6 +1580,22 @@ const guideContents: Record<string, React.ReactNode> = {
         external={false}
         icon="📈"
       />
+      <AffiliateCTA
+        title="投資の基礎を体系的に｜ファイナンシャルアカデミー【無料体験】"
+        description="日本最大級の投資スクール。株式・不動産・投資信託・FXの基礎を体系的に学べる無料体験セミナーを随時開催。自己流で損を出す前に投資の原則を押さえたい30代におすすめ。"
+        buttonText="無料体験セミナーを予約"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1O+G8NPLM+1IRY+25I7J5"
+        icon="🎓"
+        highlight="無料体験"
+      />
+      <AffiliateCTA
+        title="米国株投資ならDMM株｜取引手数料0円"
+        description="DMM株は新NISA対応、米国株の為替手数料0円・取引手数料0円で業界最安水準。30代の成長投資枠でVOO・VTIを買うならコスト最強。"
+        buttonText="DMM株に無料口座開設"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+1YUMJE+1WP2+15QHIA"
+        icon="📊"
+        highlight="取引手数料0円"
+      />
     </>
   ),
   "investing-40s-strategy": (
@@ -1601,6 +1633,14 @@ const guideContents: Record<string, React.ReactNode> = {
         href="/guide/nisa-broker-ranking-2026"
         external={false}
         icon="📈"
+      />
+      <AffiliateCTA
+        title="40代でも学べる｜ファイナンシャルアカデミー【無料体験】"
+        description="40代で投資デビューするなら、自己流より体系的な学びが近道。不動産投資・株式投資・投資信託の基礎を無料体験セミナーで学べる老舗スクール。"
+        buttonText="無料体験セミナーを予約"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1O+G8NPLM+1IRY+25I7J5"
+        icon="🎓"
+        highlight="無料体験"
       />
     </>
   ),
@@ -3344,6 +3384,14 @@ const guideContents: Record<string, React.ReactNode> = {
         icon="🎁"
         highlight="10%還元相当"
       />
+      <AffiliateCTA
+        title="マルイ系で圧倒的｜エポスカード（年会費無料）"
+        description="楽天経済圏ユーザーでも、マルイOIOIやエポス優待店を使うならエポスカードは必携。年会費永年無料、海外旅行保険自動付帯、新規入会で最大2,000円相当プレゼント。"
+        buttonText="エポスカードに無料申込"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+MMIJE+38L8+BY641"
+        icon="💳"
+        highlight="年会費無料"
+      />
       <section>
         <h2 className="text-xl font-bold mb-3">楽天経済圏のデメリット・注意点</h2>
         <ul className="list-disc list-inside space-y-1 text-sm">
@@ -4363,6 +4411,14 @@ const guideContents: Record<string, React.ReactNode> = {
         icon="🎁"
         highlight="実質2,000円で返礼品"
       />
+      <AffiliateCTA
+        title="年会費無料で海外旅行保険付き｜エポスカード"
+        description="年収問わず作れる高スペック無料カード。海外旅行保険自動付帯・マルイ系10%OFF・エポスゴールド招待制（年会費永年無料化）など、サブカードの定番。"
+        buttonText="エポスカードに無料申込"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+MMIJE+38L8+BY641"
+        icon="💳"
+        highlight="年会費無料"
+      />
       <section>
         <h2 className="text-xl font-bold mb-3">年収1,200万円モデル（50代・役員層）</h2>
         <div className="rounded-xl border border-card-border bg-card-bg p-5">
@@ -4618,6 +4674,14 @@ const guideContents: Record<string, React.ReactNode> = {
         href="https://af.moshimo.com/af/r/regist?a_id=5465446"
         icon="🛒"
         highlight="W報酬"
+      />
+      <AffiliateCTA
+        title="モチベ維持の副収入源｜マクロミル"
+        description="ブログが軌道に乗るまでの半年〜1年は収入ゼロに耐える期間。マクロミルのアンケート副業なら月5,000〜15,000円の即時収入で資金繰りをサポート。"
+        buttonText="マクロミルに無料登録"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+8XJMI+2WL0+CLYLD"
+        icon="📋"
+        highlight="即時収益化"
       />
     </>
   ),
@@ -5268,6 +5332,14 @@ const guideContents: Record<string, React.ReactNode> = {
         href="https://hb.afl.rakuten.co.jp/hgc/g00q0722.r9tfu12j.g00q0722.r9tfvd42/"
         icon="🎁"
         highlight="年会費無料"
+      />
+      <AffiliateCTA
+        title="スキマ時間で月5,000〜15,000円｜マクロミル"
+        description="大手マクロミルのアンケートモニター。スマホで数分のアンケートに答えるだけでポイントが貯まり、現金や電子マネーに交換可能。扶養内で気軽に続けられる定番副業。"
+        buttonText="マクロミルに無料登録"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+8XJMI+2WL0+CLYLD"
+        icon="📋"
+        highlight="スキマ時間OK"
       />
       <section>
         <h2 className="text-xl font-bold mb-3">主婦・主夫の確定申告が必要になるケース</h2>
