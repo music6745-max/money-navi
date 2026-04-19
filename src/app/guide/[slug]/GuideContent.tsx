@@ -6792,4 +6792,800 @@ const guideContents: Record<string, React.ReactNode> = {
       </section>
     </>
   ),
+  "inheritance-tax-filing-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">相続税申告の基礎知識</h2>
+        <p>
+          相続税の申告は、相続開始（被相続人の死亡）を知った日の翌日から10ヶ月以内が期限。基礎控除「3,000万円＋600万円×法定相続人の数」を超える遺産がある場合、申告必須です。税理士に依頼すれば、複雑な評価・各種特例適用で数百万円単位の節税も可能。
+        </p>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>基礎控除: 3,000万円＋600万円×法定相続人の数</li>
+          <li>申告期限: 相続開始から10ヶ月以内（延長不可）</li>
+          <li>税理士費用相場: 遺産総額の0.5〜1.0%（最低30〜50万円）</li>
+          <li>相続税は累進課税: 10%〜最大55%</li>
+          <li>小規模宅地等の特例: 自宅評価額80%減</li>
+        </ul>
+      </section>
+      <ComparisonTableCTA
+        title="2026年 相続税申告おすすめ税理士紹介サービス"
+        services={[
+          {
+            name: "税理士ドットコム",
+            rank: 1,
+            highlight: "全国5,800人超の税理士から相続税に強い専門家を無料紹介",
+            features: [
+              "相続税申告経験豊富な税理士を指定可能",
+              "コーディネーターによる複数税理士の比較支援",
+              "紹介料・相談料ともに完全無料",
+              "弁護士ドットコムグループの信頼性",
+            ],
+            href: "https://www.zeiri4.com/",
+            badge: "業界最大手",
+          },
+          {
+            name: "ベンチャーサポート相続税理士法人",
+            rank: 2,
+            highlight: "相続税申告特化｜年間2,500件超の実績",
+            features: [
+              "相続税申告のみに特化した税理士法人",
+              "土日祝も相談対応、オンライン相談可",
+              "初回相談60分無料",
+              "遺産5,000万円〜30億円まで対応",
+            ],
+            href: "https://v-baitai.com/",
+          },
+          {
+            name: "チェスター",
+            rank: 3,
+            highlight: "相続税専門｜累計申告実績2万件超",
+            features: [
+              "相続税専門の税理士法人、累計2万件の申告実績",
+              "税務調査率0.5%（業界平均10%）",
+              "全国12拠点＋オンライン",
+              "初回相談無料＋書面見積",
+            ],
+            href: "https://chester-tax.com/",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">遺産額別の税理士費用目安</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>遺産5,000万円：税理士費用 30〜50万円</li>
+          <li>遺産1億円：税理士費用 50〜100万円</li>
+          <li>遺産3億円：税理士費用 100〜200万円</li>
+          <li>遺産5億円超：税理士費用 200〜500万円</li>
+          <li>※ 節税効果は税理士費用の3〜10倍になるケース多数</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="相続税申告の相談を今すぐ｜税理士ドットコム"
+        description="相続税申告は経験豊富な専門税理士選びが節税の鍵。税理士ドットコムなら全国5,800人から相続税に強い税理士を無料紹介、複数事務所の比較も可能。"
+        buttonText="税理士ドットコムで無料相談"
+        href="https://www.zeiri4.com/"
+        icon="📋"
+        highlight="紹介料無料"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">生前にやるべき相続対策5ステップ</h2>
+        <ol className="list-decimal list-inside space-y-2 text-sm">
+          <li><strong>生前贈与の開始</strong>：年110万円の暦年贈与を7年以上前から</li>
+          <li><strong>生命保険の活用</strong>：死亡保険金は「500万円×法定相続人」まで非課税</li>
+          <li><strong>不動産の組み換え</strong>：賃貸物件化で評価額圧縮</li>
+          <li><strong>遺言書作成</strong>：公正証書遺言で争族リスク回避</li>
+          <li><strong>税理士との顧問契約</strong>：高資産家は生前から相続税シミュレーション</li>
+        </ol>
+      </section>
+      <AffiliateCTA
+        title="生命保険で相続対策｜保険見直しラボ"
+        description="一時払終身保険で「500万円×法定相続人」の非課税枠を活用。相続人3人なら1,500万円を無税で移転可能。FPが最適プランを無料設計。"
+        buttonText="保険見直しラボに無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=3Z6F6O+1YZZGQ+38BE+5YRHE"
+        icon="🛡️"
+        highlight="相談料無料"
+      />
+    </>
+  ),
+  "company-incorporation-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">法人設立のメリットと判断基準</h2>
+        <p>
+          個人事業主が法人化（法人成り）を検討すべきタイミングは「課税所得900万円超」or「売上1,000万円超」。所得税の累進課税（最大55%）から法人税（実効税率25〜30%）に移行でき、年数十万〜数百万円の節税が可能。ただし社会保険加入義務など固定費増加もあるため、慎重に判断が必要です。
+        </p>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>課税所得900万円超: 法人化で年30〜50万円節税</li>
+          <li>売上1,000万円超: 2期連続でインボイス・消費税対応</li>
+          <li>法人化の固定費: 社保・税理士・法人住民税均等割7万円</li>
+          <li>合同会社の設立費用: 約6〜11万円</li>
+          <li>株式会社の設立費用: 約20〜25万円</li>
+        </ul>
+      </section>
+      <ComparisonTableCTA
+        title="2026年 法人設立代行サービス比較"
+        services={[
+          {
+            name: "freee会社設立",
+            rank: 1,
+            highlight: "設立費用0円｜AIが書類を自動作成",
+            features: [
+              "電子定款の代行で印紙代4万円が無料",
+              "AIが入力データから定款・設立書類を自動生成",
+              "freee会計と連携、設立後の経理も一気通貫",
+              "合同会社6万円/株式会社22万円のみで設立可",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1DXI+1UOKJ6+3SPO+9FDI8Y",
+            badge: "業界No.1",
+          },
+          {
+            name: "マネーフォワード会社設立",
+            rank: 2,
+            highlight: "0円設立｜給与計算・請求書連携",
+            features: [
+              "電子定款対応で印紙代4万円無料",
+              "設立後の経理・給与計算・請求書が一元管理",
+              "法人銀行口座・ビジネスカードとの連携",
+              "税理士マッチング機能付き",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1DXI+4O0FYA+3L0Y+BWGDT",
+          },
+          {
+            name: "弥生の設立支援",
+            rank: 3,
+            highlight: "老舗会計ソフト｜サポート手厚い",
+            features: [
+              "1987年創業の老舗会計ソフト、設立後の弥生会計連携",
+              "電話サポート無料で初心者に優しい",
+              "電子定款対応、印紙代4万円無料",
+              "独立系税理士との連携が豊富",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1DXI+4XF71U+35XE+609HU",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">合同会社 vs 株式会社 徹底比較</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>合同会社</strong>：設立費用 約6万円、小規模事業主・フリーランス法人化に最適、信用力は株式会社より劣る</li>
+          <li><strong>株式会社</strong>：設立費用 約20万円、資金調達・採用でブランド力高い、上場準備可能</li>
+          <li><strong>節税効果</strong>：両者同じ（法人税制は共通）</li>
+          <li><strong>決算公告義務</strong>：株式会社は必須（官報6万円/年）、合同会社は不要</li>
+          <li><strong>推奨</strong>：1人法人・家族経営 → 合同会社、資金調達・採用重視 → 株式会社</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="設立費用0円・AI自動作成｜freee会社設立"
+        description="freee会社設立なら、AI質問に答えるだけで定款・登記書類を自動作成。電子定款で印紙代4万円を節約、freee会計との連携で設立後の経理も自動化。"
+        buttonText="freeeで無料会社設立"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1DXI+1UOKJ6+3SPO+9FDI8Y"
+        icon="🏛️"
+        highlight="設立費用0円"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">法人化後に必要な手続きリスト</h2>
+        <ol className="list-decimal list-inside space-y-2 text-sm">
+          <li>法人銀行口座開設（GMOあおぞら・楽天ビジネスが開設容易）</li>
+          <li>法人ビジネスカード（三井住友ビジネスオーナーズ/freeeカード）</li>
+          <li>社会保険の加入手続き（健康保険・厚生年金）</li>
+          <li>労働保険（従業員雇用時）</li>
+          <li>税理士との顧問契約（月額1.5〜3万円）</li>
+        </ol>
+      </section>
+      <AffiliateCTA
+        title="法人化後の税理士探しは｜税理士ドットコム"
+        description="法人設立後の税務は個人事業主より複雑。税理士ドットコムなら法人対応の税理士を全国5,800人から無料紹介、月額顧問料も比較可能。"
+        buttonText="税理士ドットコムで無料相談"
+        href="https://www.zeiri4.com/"
+        icon="👔"
+        highlight="紹介料無料"
+      />
+    </>
+  ),
+  "retirement-payout-investment": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">退職金運用で失敗しないための3原則</h2>
+        <p>
+          退職金1,500〜2,500万円は、老後30年の生活を支える原資。一括で高リスク商品に投資すると元本毀損のリスクが大きく、逆に全額定期預金ではインフレで目減りします。「守り7：攻め3」の原則で、新NISA・定期預金・投資信託に分散するのが王道です。
+        </p>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>退職金を一括投資しない（平均購入コストの観点で不利）</li>
+          <li>銀行・証券会社の営業商品を鵜呑みにしない（外貨建て保険・仕組債等）</li>
+          <li>新NISA枠（生涯1,800万円）をフル活用</li>
+          <li>リタイア世代は「守り7：攻め3」の分散</li>
+          <li>IFA相談で複数プランを比較</li>
+        </ul>
+      </section>
+      <ComparisonTableCTA
+        title="退職金2,000万円の最適配分モデル"
+        services={[
+          {
+            name: "守り：定期預金・普通預金",
+            rank: 1,
+            highlight: "700万円（35%）｜生活防衛資金3年分",
+            features: [
+              "ネット銀行の定期預金で年0.2〜0.4%",
+              "生活費の3年分を即アクセス可能に",
+              "元本保証、流動性も確保",
+              "SBI新生銀行・楽天銀行・あおぞら銀行が高金利",
+            ],
+            href: "https://www.rakuten-bank.co.jp/",
+            badge: "安全資産",
+          },
+          {
+            name: "新NISA 成長投資枠",
+            rank: 2,
+            highlight: "600万円（30%）｜米国インデックス・高配当ETF",
+            features: [
+              "eMAXIS Slim 米国株式（S&P500）で長期運用",
+              "高配当ETF（HDV/VYM）で毎月の配当収入",
+              "年間240万円枠を2〜3年で埋める",
+              "運用益・配当非課税で節税効果大",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "長期成長",
+          },
+          {
+            name: "新NISA つみたて投資枠",
+            rank: 3,
+            highlight: "360万円（18%）｜全世界株式で月10万円積立",
+            features: [
+              "eMAXIS Slim 全世界株式で分散投資",
+              "月10万円×3年で埋める",
+              "ドルコスト平均法でリスク低減",
+              "クレカ積立で1%還元も享受",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "不動産クラファン",
+            rank: 4,
+            highlight: "200万円（10%）｜年利4〜8%のインカム重視",
+            features: [
+              "COZUCHI・CREAL等で複数ファンド分散",
+              "想定利回り年4〜8%、運用期間1〜3年",
+              "1万円から、複数ファンドで分散",
+              "配当は雑所得（総合課税）注意",
+            ],
+            href: "https://cozuchi.com/",
+          },
+          {
+            name: "個人向け国債",
+            rank: 5,
+            highlight: "140万円（7%）｜元本保証の守り",
+            features: [
+              "変動10年型で金利上昇に強い",
+              "元本保証＋年0.3〜0.5%の利息",
+              "1年経過後はいつでも解約可（1年分利息）",
+              "インフレ懸念時の守りとして",
+            ],
+            href: "https://www.mof.go.jp/jgbs/individual/",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">退職金運用のNGパターン</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>銀行の窓口で勧められる「外貨建て終身保険」（手数料年3〜5%）</li>
+          <li>証券会社の「ファンドラップ」（手数料年2〜3%で運用益ほぼゼロ）</li>
+          <li>高配当に惹かれる「毎月分配型投信」（元本取り崩し型）</li>
+          <li>知識なしの「個別株集中投資」（暴落で老後破綻）</li>
+          <li>親戚・友人からの「高利回り投資話」（元本毀損リスク高）</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="退職金の正しい運用相談を｜保険見直しラボのFP"
+        description="退職金は老後30年の命綱。FP無料相談で、あなたの家族構成・資産状況に合わせた最適配分プランを中立的に提案。外貨建て保険等の罠も回避できる。"
+        buttonText="保険見直しラボに無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=3Z6F6O+1YZZGQ+38BE+5YRHE"
+        icon="🛡️"
+        highlight="相談料完全無料"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">資産3,000万円超はIFAを検討</h2>
+        <p>
+          退職金＋既存資産で3,000万円を超える場合、IFA（独立系ファイナンシャルアドバイザー）を検討する価値あり。特定金融機関に縛られず、中立的な資産配分提案とリバランス支援を長期的に受けられます。
+        </p>
+      </section>
+      <AffiliateCTA
+        title="資産3,000万円超ならIFAも｜マネックスONE"
+        description="マネックスグループのIFAサービス。東京・大阪・名古屋・福岡の対面拠点＋オンライン対応で、中立的な資産運用提案を受けられる。"
+        buttonText="マネックスONEの詳細を見る"
+        href="https://www.monex.co.jp/info/home.html"
+        icon="💼"
+        highlight="対面&オンライン対応"
+      />
+    </>
+  ),
+  "senior-shukatsu-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">60代以降に必要な終活の全体像</h2>
+        <p>
+          終活は「自分の死後、家族に迷惑をかけない」準備。エンディングノート・遺言書・相続税対策・お墓・葬儀・デジタル遺品整理まで、60代から計画的に進めることで家族の負担を大幅に軽減できます。
+        </p>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>エンディングノート作成（市販のものや無料テンプレでOK）</li>
+          <li>遺言書作成（公正証書遺言推奨、法務局保管制度も活用）</li>
+          <li>相続税対策（基礎控除超えなら生前贈与・保険活用）</li>
+          <li>お墓・葬儀の生前準備（費用100〜400万円の幅）</li>
+          <li>デジタル遺品整理（SNS・サブスク・銀行・暗号資産）</li>
+        </ul>
+      </section>
+      <ComparisonTableCTA
+        title="終活に必要なサービス一覧"
+        services={[
+          {
+            name: "FP無料相談（相続対策）",
+            rank: 1,
+            highlight: "相続税シミュレーション＋保険活用",
+            features: [
+              "生前贈与の計画立て",
+              "生命保険を使った相続税非課税枠の活用",
+              "家族構成から最適な相続対策を提案",
+              "相談料完全無料",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=3Z6F6O+1YZZGQ+38BE+5YRHE",
+            badge: "まず最初に",
+          },
+          {
+            name: "税理士紹介（遺言・相続税）",
+            rank: 2,
+            highlight: "公正証書遺言・相続税申告の専門家紹介",
+            features: [
+              "相続専門税理士の無料マッチング",
+              "公正証書遺言の作成サポート",
+              "相続税シミュレーションと節税提案",
+              "全国5,800人超の税理士から選択",
+            ],
+            href: "https://www.zeiri4.com/",
+          },
+          {
+            name: "生命保険（終身保険）",
+            rank: 3,
+            highlight: "500万円×法定相続人数の非課税枠",
+            features: [
+              "相続人3人なら1,500万円を無税で移転",
+              "現金を保険に組み替えることで評価額圧縮",
+              "80代でも加入可能な一時払終身保険",
+              "遺産分割の指定もセットで可能",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=3Z6F6O+1YZZGQ+38BE+5YRHE",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">終活でやるべき順番（チェックリスト）</h2>
+        <ol className="list-decimal list-inside space-y-2 text-sm">
+          <li><strong>Step1</strong>：エンディングノートを書き始める（家族構成・資産状況・希望）</li>
+          <li><strong>Step2</strong>：資産目録作成（銀行口座・証券口座・保険・不動産）</li>
+          <li><strong>Step3</strong>：FP or 税理士に相続税シミュレーション依頼</li>
+          <li><strong>Step4</strong>：遺言書作成（法務局保管制度 or 公正証書）</li>
+          <li><strong>Step5</strong>：生前贈与（年110万円）開始、生命保険で非課税枠活用</li>
+          <li><strong>Step6</strong>：お墓・葬儀の生前準備（家族と相談）</li>
+          <li><strong>Step7</strong>：デジタル遺品整理（ID・パスワード・サブスク一覧）</li>
+        </ol>
+      </section>
+      <AffiliateCTA
+        title="相続税対策をFPに無料相談｜保険見直しラボ"
+        description="相続税対策で最も手堅いのが生命保険の非課税枠活用。FP無料相談で、家族構成に応じた最適な終身保険プランを提案。即日加入できる80代向け商品も。"
+        buttonText="保険見直しラボに無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=3Z6F6O+1YZZGQ+38BE+5YRHE"
+        icon="🛡️"
+        highlight="相談料完全無料"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">終活での失敗を防ぐ5つの注意点</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>家族と情報を共有しない（突然の事態で遺族が困る）</li>
+          <li>高齢での高リスク投資（値下がりから回復できない）</li>
+          <li>詐欺商法への警戒不足（「投資・お墓・墓地」の勧誘）</li>
+          <li>遺言書の方式ミス（自筆要件・押印漏れで無効）</li>
+          <li>生前贈与が名義預金扱い（贈与契約書なし）</li>
+        </ul>
+      </section>
+    </>
+  ),
+  "professional-asset-management": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">医師・弁護士・士業の資産運用が特殊な理由</h2>
+        <p>
+          年収2,000万円超の医師・弁護士・税理士・公認会計士等は、一般サラリーマンと税・社会保険・資産規模が全く異なります。給与所得控除195万円で頭打ち、所得税45%＋住民税10%＝55%課税が常態化。通常の新NISAだけでなく、IFA経由のプライベートバンク・不動産投資・事業承継まで、専門家と長期的に組むのが王道です。
+        </p>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>年収2,400万円超: 基礎控除48万円の段階縮小</li>
+          <li>年収4,000万円超: 基礎控除ゼロ・税率55%</li>
+          <li>個人の節税枠は急速に限界を迎える</li>
+          <li>法人化・MS法人・不動産投資等の活用が必須</li>
+          <li>IFA・税理士・弁護士のチーム体制が基本</li>
+        </ul>
+      </section>
+      <ComparisonTableCTA
+        title="高所得専門職の資産運用4本柱"
+        services={[
+          {
+            name: "IFA経由のプライベートバンキング",
+            rank: 1,
+            highlight: "資産1億円超向け｜複数証券会社・海外資産にアクセス",
+            features: [
+              "マネックスONE・GAIA等の大手IFAと契約",
+              "複数証券会社＋海外ファンド＋私募ファンド",
+              "長期的な担当者が資産運用・税務を伴走",
+              "相続・事業承継・ファミリーオフィス対応",
+            ],
+            href: "https://www.monex.co.jp/info/home.html",
+            badge: "富裕層向け",
+          },
+          {
+            name: "不動産投資（区分マンション・一棟物）",
+            rank: 2,
+            highlight: "減価償却で損益通算｜年間数十〜数百万円節税",
+            features: [
+              "都内区分マンションで減価償却",
+              "年収2,000万円超なら損益通算効果絶大",
+              "モゲチェック等の一括シミュレーション活用",
+              "出口戦略含めた総合コンサルが必須",
+            ],
+            href: "https://www.mogecheck.jp/",
+          },
+          {
+            name: "医療法人・MS法人活用（医師限定）",
+            rank: 3,
+            highlight: "医療法人化で所得分散｜年500万円超の節税事例",
+            features: [
+              "医療法人設立で所得分散・経費範囲拡大",
+              "MS法人（メディカルサービス法人）で診療報酬以外を計上",
+              "役員報酬の分散で家族の所得税率下げ",
+              "税理士＋弁護士の連携で設立支援",
+            ],
+            href: "https://www.zeiri4.com/",
+          },
+          {
+            name: "小規模企業共済（個人開業医・士業）",
+            rank: 4,
+            highlight: "月7万円全額所得控除｜20年で1,680万円の退職金",
+            features: [
+              "個人事業主・法人役員が加入可能",
+              "掛金 月1,000〜7万円全額所得控除",
+              "税率50%なら月3.5万円の即効節税",
+              "20年超で退職金扱いの有利課税",
+            ],
+            href: "https://www.smrj.go.jp/kyosai/skyosai/",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">年収別の推奨構成</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>年収2,000万円（勤務医・中堅士業）</strong>：新NISA＋iDeCo＋小規模企業共済＋区分マンション1戸</li>
+          <li><strong>年収3,000万円（開業医・大手士業パートナー）</strong>：上記＋法人設立＋不動産2〜3戸＋IFA</li>
+          <li><strong>年収5,000万円超（院長・事務所経営者）</strong>：上記＋医療法人／MS法人＋一棟マンション＋相続対策</li>
+          <li><strong>年収1億円超</strong>：プライベートバンク＋海外資産＋事業承継戦略（5年以上の計画）</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="資産1億円超の相談なら｜マネックスONE"
+        description="マネックスグループのIFAサービスで、複数証券会社の商品を横断的に提案。1億円超の運用・相続・事業承継まで、長期パートナーとして伴走。"
+        buttonText="マネックスONEの詳細"
+        href="https://www.monex.co.jp/info/home.html"
+        icon="💼"
+        highlight="富裕層特化"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">専門家チームの構築手順</h2>
+        <ol className="list-decimal list-inside space-y-2 text-sm">
+          <li><strong>Step1</strong>：信頼できる税理士を見つける（医療・士業特化税理士）</li>
+          <li><strong>Step2</strong>：資産1億円超ならIFAとも契約</li>
+          <li><strong>Step3</strong>：不動産投資コンサル（モゲチェック等）で物件選定</li>
+          <li><strong>Step4</strong>：弁護士（相続・事業承継）との顧問契約</li>
+          <li><strong>Step5</strong>：年1回のチーム合同ミーティングで資産戦略レビュー</li>
+        </ol>
+      </section>
+      <AffiliateCTA
+        title="医療・士業特化税理士を無料紹介｜税理士ドットコム"
+        description="医師・弁護士・士業の税務は通常のサラリーマンとは全く異なる。業種特化税理士を全国5,800人から無料マッチング、複数事務所の比較も。"
+        buttonText="税理士ドットコムで無料相談"
+        href="https://www.zeiri4.com/"
+        icon="👔"
+        highlight="紹介料無料"
+      />
+    </>
+  ),
+  "ideco-by-age-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">年代別iDeCoの考え方</h2>
+        <p>
+          iDeCoは加入時の年齢によって運用期間・受取までの時間軸が違うため、最適なポートフォリオが大きく変わります。20代の若年層は100%株式で攻め、50代は債券を増やして守りを固めるのが基本。受取方法（一時金 or 年金）も年齢別の出口戦略として重要です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="年代別iDeCoポートフォリオ目安"
+        services={[
+          {
+            name: "20代（運用期間30年以上）",
+            rank: 1,
+            highlight: "100%株式｜リスク最大化で複利を享受",
+            features: [
+              "eMAXIS Slim 全世界株式（オルカン）100%",
+              "月2.3万円で30年運用＝2,000万円超",
+              "受取時に税控除フル活用（退職所得控除）",
+              "会社員は企業型DCと併用で月2万円上限",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lp_ideco.html",
+            badge: "積極運用",
+          },
+          {
+            name: "30代（運用期間20〜30年）",
+            rank: 2,
+            highlight: "株式90%+債券10%｜結婚・育児コスト対応",
+            features: [
+              "オルカン or S&P500中心の積立",
+              "掛金は昇給に応じて増額（〜月2.3万円）",
+              "同時に新NISAつみたて枠も並走",
+              "年収700万円台なら年6〜10万円の節税",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lp_ideco.html",
+            badge: "成長期",
+          },
+          {
+            name: "40代（運用期間15〜20年）",
+            rank: 3,
+            highlight: "株式70%+債券30%｜老後資金の本格準備",
+            features: [
+              "株式重視でも債券・先進国ETFで安定化",
+              "教育費ピーク後に掛金増額",
+              "iDeCo＋新NISAで老後1,500〜2,500万円",
+              "年収900万円台で年10〜15万円節税",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lp_ideco.html",
+          },
+          {
+            name: "50代（運用期間5〜15年）",
+            rank: 4,
+            highlight: "株式50%+債券50%｜安定重視に移行",
+            features: [
+              "バランスファンド or インデックス＋債券",
+              "55歳以上でも加入可（60歳までは掛金）",
+              "受取方法は退職金と連動で調整",
+              "掛金上限まで積立＝退職金代替",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lp_ideco.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">会社員の掛金上限（再確認）</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>会社員（企業年金なし）：月2.3万円（年27.6万円）</li>
+          <li>会社員（企業型DCのみ）：月2万円（年24万円）</li>
+          <li>会社員（確定給付企業年金あり）：月1.2万円（年14.4万円）</li>
+          <li>公務員：月1.2万円（年14.4万円）</li>
+          <li>自営業・フリーランス：月6.8万円（年81.6万円）</li>
+          <li>専業主婦（夫）：月2.3万円（年27.6万円）</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="iDeCo口座開設はSBI証券｜運営管理手数料無料"
+        description="SBI証券のiDeCoは運営管理手数料無料で最安水準。投資信託ラインナップも業界最多クラス（オルカン・S&P500も対応）、年代別の最適ファンドが見つかる。"
+        buttonText="SBI証券 iDeCoを見る"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lp_ideco.html"
+        icon="🏦"
+        highlight="手数料無料"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">受取方法の選び方</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li><strong>一時金（一括受取）</strong>：退職所得控除活用、勤続年数次第で非課税</li>
+          <li><strong>年金受取（60〜70歳）</strong>：公的年金等控除と併用で税メリット</li>
+          <li><strong>併用</strong>：一時金＋年金の組み合わせで柔軟に設計</li>
+          <li><strong>受取は60〜75歳まで遅延可能</strong>：他資産との調整で最適化</li>
+        </ul>
+      </section>
+    </>
+  ),
+  "life-insurance-case-studies": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">生命保険見直しで月1万円以上節約の実例</h2>
+        <p>
+          「なんとなく」加入している生命保険を見直すと、ほとんどの家庭で月1〜2万円（年12〜24万円）の節約が可能。浮いた保険料を新NISAに回せば20年で400〜800万円の資産差に。本稿では家族構成別10ケースの見直し実例を解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="家族構成別の最適な生命保険プラン"
+        services={[
+          {
+            name: "30代共働き（子1人）",
+            rank: 1,
+            highlight: "収入保障保険＋都道府県民共済｜月6,000円",
+            features: [
+              "夫：収入保障保険（60歳まで月15万円保障）",
+              "妻：都道府県民共済4型（月4,000円）",
+              "子：こども共済（月1,000円）",
+              "見直し前月1.8万円→見直し後月6,000円",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=3Z6F6O+1YZZGQ+38BE+5YRHE",
+            badge: "典型ケース",
+          },
+          {
+            name: "40代子育て（子2人）",
+            rank: 2,
+            highlight: "定期保険＋団信＋医療｜月1万円",
+            features: [
+              "夫：20年定期保険（死亡3,000万円）",
+              "住宅ローン団信ですでに死亡補償あり",
+              "医療保険は高額療養費制度を活用し最小限",
+              "見直し前月2.5万円→見直し後月1万円",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=3Z6F6O+1YZZGQ+38BE+5YRHE",
+          },
+          {
+            name: "50代独身",
+            rank: 3,
+            highlight: "葬儀費用＋医療保険｜月5,000円",
+            features: [
+              "死亡保障は葬儀費用200〜300万円分のみ",
+              "都道府県民共済 熟年型で十分",
+              "終身保険・年金保険は不要",
+              "見直し前月1.5万円→見直し後月5,000円",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=3Z6F6O+1YZZGQ+38BE+5YRHE",
+          },
+          {
+            name: "60代リタイア",
+            rank: 4,
+            highlight: "相続税対策終身保険｜一時払500万円",
+            features: [
+              "死亡保険金500万円×相続人数が非課税",
+              "一時払終身保険で相続対策に特化",
+              "入院給付は貯蓄でカバー",
+              "保険料月額は不要（一時払）",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=3Z6F6O+1YZZGQ+38BE+5YRHE",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">見直しで削れる代表的な保険</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li><strong>終身保険</strong>：保険料が高く、老後では不要なケース多い</li>
+          <li><strong>外貨建て保険</strong>：為替リスク＋手数料3〜5%で運用利回りマイナス化</li>
+          <li><strong>ガン保険の重複加入</strong>：共済型＋医療保険特約でカバー可能</li>
+          <li><strong>学資保険</strong>：新NISAのつみたてで代替可能</li>
+          <li><strong>個人年金保険</strong>：iDeCoのほうが圧倒的に有利</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="保険見直しで年12〜24万円節約｜保険見直しラボ"
+        description="あなたの家族構成・収入に合わせた最適プランをFPが無料診断。30社以上の保険会社から中立的に比較提案、過剰保険を削り新NISA原資を捻出。"
+        buttonText="保険見直しラボに無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=3Z6F6O+1YZZGQ+38BE+5YRHE"
+        icon="🛡️"
+        highlight="相談料完全無料"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">見直し後の余剰資金を新NISAへ</h2>
+        <p>
+          月2万円の保険料削減を新NISA（年利5%）に回すと：
+        </p>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>10年後: 約310万円</li>
+          <li>20年後: 約821万円</li>
+          <li>30年後: 約1,663万円</li>
+        </ul>
+        <p>「保険料を払う」から「保険料を投資する」への発想転換が、老後資産に大きな差を生みます。</p>
+      </section>
+    </>
+  ),
+  "singlemother-investment-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">シングルマザー世帯の資産形成の現実</h2>
+        <p>
+          シングルマザーの平均年収は約243万円（厚生労働省2023）と、二人親世帯の半分以下。しかし児童扶養手当・母子父子寡婦福祉資金・新NISA・iDeCoを活用すれば、20年で1,000〜1,500万円の老後資金準備が可能です。本稿では実践的な戦略を解説します。
+        </p>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>児童扶養手当：年収・子の数で変動、最大月45,500円</li>
+          <li>住宅手当・医療費助成等の自治体制度を漏れなく申請</li>
+          <li>母子父子寡婦福祉資金で学費・事業資金を低利借入</li>
+          <li>扶養内（103万/130万）の壁を見極めた働き方</li>
+          <li>浮いた固定費を新NISAつみたて投資枠に自動配分</li>
+        </ul>
+      </section>
+      <ComparisonTableCTA
+        title="シングルマザー向け 月2万円積立の20年プラン"
+        services={[
+          {
+            name: "新NISA つみたて投資枠",
+            rank: 1,
+            highlight: "月1万円｜運用益非課税で堅実に増やす",
+            features: [
+              "eMAXIS Slim 全世界株式（信託報酬0.058%）",
+              "月1万円×20年×年利5%＝約411万円",
+              "楽天証券なら楽天カード積立で1%還元",
+              "いつでも引き出し可能で教育費にも対応",
+            ],
+            href: "https://www.rakuten-sec.co.jp/web/nisa/",
+            badge: "最優先",
+          },
+          {
+            name: "クラウドワークスで月5万円副業",
+            rank: 2,
+            highlight: "在宅OKの繋ぎ収入｜スキルアップの場",
+            features: [
+              "ライター・データ入力・翻訳等で月3〜8万円",
+              "子が寝た後や家事のスキマ時間で作業",
+              "実績を積めば時給3,000円超も可能",
+              "扶養内の範囲で無理なく",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=2NR2GS+DFNXFM+0K3Y+61RIP",
+          },
+          {
+            name: "iDeCo（月1万円）",
+            rank: 3,
+            highlight: "所得控除で年1万円以上の節税",
+            features: [
+              "年収243万円でも年1万円以上の節税効果",
+              "運用益非課税で長期複利",
+              "60歳以降の老後資金を着実に準備",
+              "SBI証券なら手数料無料",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lp_ideco.html",
+          },
+          {
+            name: "楽天経済圏でポイ活",
+            rank: 4,
+            highlight: "生活費＋ポイント投資で実質節約",
+            features: [
+              "楽天カード+楽天銀行+楽天モバイルでSPU",
+              "年間ポイント5〜10万円獲得",
+              "ポイントも新NISA積立に回せる",
+              "楽天ふるさと納税で食費も削減",
+            ],
+            href: "https://hb.afl.rakuten.co.jp/hgc/g00q0722.r9tfu12j.g00q0722.r9tfvd42/",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">20年後の資産シミュレーション</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>新NISA月1万円×20年×年利5%＝約411万円</li>
+          <li>iDeCo月1万円×20年×年利5%＝約411万円</li>
+          <li>児童扶養手当の一部月5,000円積立×15年＝約133万円</li>
+          <li>副業の一部月1万円積立×20年＝約411万円</li>
+          <li>合計：約1,366万円（老後の基礎資産）</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="在宅で月3〜8万円｜クラウドワークス"
+        description="シングルマザーでも無理なく続けられる在宅副業。ライター・データ入力・翻訳など、子の生活リズムに合わせて働ける案件多数。実績次第で単価アップも。"
+        buttonText="クラウドワークスに無料登録"
+        href="https://px.a8.net/svt/ejp?a8mat=2NR2GS+DFNXFM+0K3Y+61RIP"
+        icon="💻"
+        highlight="完全無料"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">忘れてはいけない公的支援</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>児童扶養手当（全部支給 月45,500円+子加算）</li>
+          <li>児童手当（月1万〜1.5万円）</li>
+          <li>ひとり親家庭医療費助成（自治体による）</li>
+          <li>母子父子寡婦福祉資金（学費・事業資金を低利借入）</li>
+          <li>生活保護世帯減免（公共料金・NHK料金）</li>
+          <li>自立支援教育訓練給付金（資格取得時）</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="家計の土台づくりはFP無料相談で｜保険見直しラボ"
+        description="シングルマザー世帯の保険は必要最小限に。子ども共済＋収入保障保険で月5,000〜1万円に抑え、浮いた分を新NISAへ。FPに無料で全体設計を相談できる。"
+        buttonText="保険見直しラボに無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=3Z6F6O+1YZZGQ+38BE+5YRHE"
+        icon="🛡️"
+        highlight="相談料完全無料"
+      />
+    </>
+  ),
 };
