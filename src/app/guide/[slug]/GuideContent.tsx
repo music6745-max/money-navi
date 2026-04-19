@@ -9174,4 +9174,727 @@ const guideContents: Record<string, React.ReactNode> = {
       </section>
     </>
   ),
+  "pet-insurance-comparison-2026": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">ペット保険で医療費3〜7割カバー</h2>
+        <p>
+          犬・猫の医療費は、手術1回で10〜30万円、慢性疾病の通院で年5〜10万円と高額。ペット保険に加入すれば治療費の50〜70%をカバーでき、月額1,500〜5,000円で大切な家族の備えになります。ただし補償内容・保険料は会社で大差があるため、複数社比較が必須です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="2026年 ペット保険おすすめ比較10選"
+        services={[
+          {
+            name: "アイペット損保",
+            rank: 1,
+            highlight: "業界最大手｜通院・入院・手術すべてカバー",
+            features: [
+              "窓口精算対応の動物病院5,000院以上",
+              "50%プラン・70%プラン・うちの子プラン",
+              "ペットの高齢化にも対応",
+              "月額1,500〜5,000円程度",
+            ],
+            href: "https://www.ipet-ins.com/",
+            badge: "業界最大手",
+          },
+          {
+            name: "アクサダイレクト ペット保険",
+            rank: 2,
+            highlight: "アクサグループの信頼性｜窓口精算なし（立替）",
+            features: [
+              "補償割合50%/70%/90%の3種類",
+              "通院・入院・手術すべて補償",
+              "アクサダイレクト（車保険）契約者は割引",
+              "月額1,600〜4,500円程度",
+            ],
+            href: "https://www.axa-direct.co.jp/pet/",
+          },
+          {
+            name: "SBIいきいき少短（SBI日本興亜）",
+            rank: 3,
+            highlight: "高齢ペット向け｜11歳まで新規加入可",
+            features: [
+              "シニアペット特化、11歳まで新規加入OK",
+              "終身更新可能",
+              "通院・入院・手術補償",
+              "月額1,200〜3,500円と割安",
+            ],
+            href: "https://www.sbiikiiki.co.jp/pet/",
+          },
+          {
+            name: "PS保険（ペット&ファミリー）",
+            rank: 4,
+            highlight: "最大100%補償｜手術重視プラン",
+            features: [
+              "手術補償の厚さが業界トップクラス",
+              "補償割合50%/70%/100%",
+              "免責金額なし",
+              "月額1,400〜4,800円程度",
+            ],
+            href: "https://www.pshoken.co.jp/",
+          },
+          {
+            name: "au損保 ペット保険",
+            rank: 5,
+            highlight: "auユーザー向け割引｜簡単Web手続き",
+            features: [
+              "au／UQユーザーは保険料割引",
+              "通院・入院・手術すべて補償",
+              "auスマートパスプレミアム会員特典",
+              "月額1,300〜4,200円程度",
+            ],
+            href: "https://www.au-sonpo.co.jp/pet/",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">ペット保険選びの5つのポイント</h2>
+        <ol className="list-decimal list-inside space-y-2 text-sm">
+          <li><strong>補償範囲</strong>：通院・入院・手術の3種類カバーが基本</li>
+          <li><strong>補償割合</strong>：50%（保険料安）70%（標準）90-100%（手厚い）</li>
+          <li><strong>窓口精算の可否</strong>：対応病院で立替払い不要</li>
+          <li><strong>限度額と回数制限</strong>：通院日数・手術回数の上限</li>
+          <li><strong>免責金額・待機期間</strong>：加入後30〜60日は対象外が多い</li>
+        </ol>
+      </section>
+      <AffiliateCTA
+        title="ペットの家計・保険もFPで最適化｜保険見直しラボ"
+        description="ペット保険だけでなく、飼い主の生命保険・医療保険の見直しもFP無料相談で一元化。家族全員の保険を見直すことで年10〜20万円の節約も。"
+        buttonText="保険見直しラボに無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=3Z6F6O+1YZZGQ+38BE+5YRHE"
+        icon="🛡️"
+        highlight="相談料完全無料"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">ペット保険加入のタイミング</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>子犬・子猫（生後60日〜）の健康なうちが加入ベスト</li>
+          <li>高齢（7歳以上）は加入制限・保険料増加</li>
+          <li>既往症がある場合、その疾病は対象外</li>
+          <li>手術・入院だけの簡易プランでも月額1,000円台</li>
+          <li>待機期間中の発症は対象外（加入直後は注意）</li>
+        </ul>
+      </section>
+    </>
+  ),
+  "online-english-school-comparison": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">オンライン英会話の選び方</h2>
+        <p>
+          オンライン英会話は月額3,000〜15,000円で毎日マンツーマンレッスン可能。通学型英会話（月3〜5万円）と比べ10分の1のコストで、自宅・通勤時間・スキマ時間に学習できます。ビジネス英語・日常会話・TOEIC対策など目的別に最適サービスを選びましょう。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="2026年 オンライン英会話おすすめ比較"
+        services={[
+          {
+            name: "DMM英会話",
+            rank: 1,
+            highlight: "月6,480円で毎日1レッスン｜135カ国の講師",
+            features: [
+              "毎日1レッスン25分 月6,480円〜",
+              "135カ国10,000人超の講師プール",
+              "iKnow!（単語学習）無料",
+              "レッスン教材無料、多様な難易度に対応",
+            ],
+            href: "https://eikaiwa.dmm.com/",
+            badge: "総合No.1",
+          },
+          {
+            name: "ネイティブキャンプ",
+            rank: 2,
+            highlight: "回数無制限｜月6,480円でレッスン受け放題",
+            features: [
+              "月6,480円でレッスン回数無制限",
+              "24時間365日予約なしで即レッスン可能",
+              "世界120カ国の講師",
+              "家族プランで兄弟・配偶者も安くなる",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1DXO+APTO2+35VG+5YJRM",
+            badge: "回数無制限",
+          },
+          {
+            name: "レアジョブ英会話",
+            rank: 3,
+            highlight: "月7,980円｜ビジネス英語に強い老舗",
+            features: [
+              "2007年創業、業界最大手",
+              "毎日1レッスン25分 月7,980円〜",
+              "ビジネス英会話コース有",
+              "カウンセリング・学習管理が手厚い",
+            ],
+            href: "https://www.rarejob.com/",
+          },
+          {
+            name: "Bizmates（ビズメイツ）",
+            rank: 4,
+            highlight: "ビジネス特化｜社会人向け",
+            features: [
+              "ビジネス特化のオンライン英会話No.1",
+              "フィリピン人講師のビジネス経験者のみ",
+              "月13,200円〜（25分×30回）",
+              "法人研修でも大手企業が採用",
+            ],
+            href: "https://www.bizmates.jp/",
+          },
+          {
+            name: "QQ English",
+            rank: 5,
+            highlight: "TESOL認定講師｜カランメソッド対応",
+            features: [
+              "正社員フィリピン人講師（TESOL保有）",
+              "カランメソッドで英語脳形成",
+              "月2,680円〜（月4回）〜11,980円（月30回）",
+              "子ども向けコースも充実",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1DXO+A4E2A+4HHM+5YJRM",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">目的別の推奨サービス</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>日常会話から始めたい</strong>：DMM英会話 or ネイティブキャンプ（コスパ最強）</li>
+          <li><strong>ビジネス英会話</strong>：Bizmates or レアジョブビジネスコース</li>
+          <li><strong>カランメソッドで早く上達したい</strong>：QQ English・ネイティブキャンプ</li>
+          <li><strong>TOEIC・資格対策</strong>：レアジョブ・QQ English</li>
+          <li><strong>子ども向け</strong>：QQキッズ・Novakid</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="無制限で学べる｜ネイティブキャンプ"
+        description="月6,480円でレッスン回数無制限。毎日3レッスンやれば実質月216円/レッスンの破格。通学型英会話の10分の1以下のコストで、スキマ時間に即レッスン可能。"
+        buttonText="ネイティブキャンプを見る"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1DXO+APTO2+35VG+5YJRM"
+        icon="🗣️"
+        highlight="回数無制限"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">英語力で副業・転職を有利に</h2>
+        <p>
+          英語力（TOEIC 700点以上）があれば、翻訳・英文ライター・海外向けEC・英会話講師など高単価副業の選択肢が広がります。投資情報も英語の一次ソース（Bloomberg・WSJ等）にアクセスでき、資産運用の精度も向上。オンライン英会話への投資は「スキル資産」として長期的に回収可能です。
+        </p>
+      </section>
+    </>
+  ),
+  "programming-school-comparison-2026": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">プログラミング転職で年収+200〜300万円</h2>
+        <p>
+          プログラミングスクールを修了して未経験からエンジニア転職に成功すれば、年収300万円→500〜600万円の上昇も期待できます。受講料30〜70万円の初期投資が1〜2年で回収可能。教育訓練給付金で最大56万円の補助もあり、実質負担を大幅に減らせます。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="2026年 プログラミングスクールおすすめ比較"
+        services={[
+          {
+            name: "TechAcademy",
+            rank: 1,
+            highlight: "オンライン完結｜現役エンジニア講師のマンツーマン",
+            features: [
+              "Webアプリ・フロントエンド・AI・副業向けコース豊富",
+              "メンタリング週2回、現役エンジニア講師",
+              "副業・転職保証コースあり",
+              "受講料16〜56万円、教育訓練給付金対象",
+            ],
+            href: "https://techacademy.jp/",
+            badge: "オンライン最大手",
+          },
+          {
+            name: "DMM WEBCAMP",
+            rank: 2,
+            highlight: "転職保証型｜未経験からエンジニア転職",
+            features: [
+              "転職成功率98%、未経験特化",
+              "チーム開発経験で実践力アップ",
+              "受講料69〜91万円（給付金で実質20〜46万円）",
+              "キャリアアドバイザー付き",
+            ],
+            href: "https://web-camp.io/",
+          },
+          {
+            name: "侍エンジニア",
+            rank: 3,
+            highlight: "マンツーマン指導｜オーダーメイドカリキュラム",
+            features: [
+              "専属マンツーマン講師でオーダーメイドカリキュラム",
+              "受講料16〜88万円",
+              "教育訓練給付金対象",
+              "ポートフォリオ作成支援が手厚い",
+            ],
+            href: "https://www.sejuku.net/",
+          },
+          {
+            name: "tech boost",
+            rank: 4,
+            highlight: "現役エンジニアの個別メンタリング",
+            features: [
+              "未経験からエンジニア転職特化",
+              "月1.7万円〜の分割払い可",
+              "オンライン・通学選択可（東京）",
+              "転職エージェント連携あり",
+            ],
+            href: "https://tech-boost.jp/",
+          },
+          {
+            name: "SkillHacks（スキルハックス）",
+            rank: 5,
+            highlight: "買い切り69,800円｜質問し放題",
+            features: [
+              "動画教材買い切りで継続費用ゼロ",
+              "LINEでの質問し放題",
+              "受講料69,800円（業界最安クラス）",
+              "独学より圧倒的に効率的",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1DXI+4DRW36+4K3S+5YJRM",
+            badge: "業界最安",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">教育訓練給付金を活用する</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>一般教育訓練給付金：受講料の20%（最大10万円）</li>
+          <li>特定一般教育訓練給付金：受講料の40%（最大20万円）</li>
+          <li>専門実践教育訓練給付金：受講料の70%（最大56万円）</li>
+          <li>雇用保険加入1年以上の会社員・退職から1年以内</li>
+          <li>DMM WEBCAMP・TechAcademy・侍エンジニアの一部コースが対象</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="まずは買い切り教材から｜SkillHacks"
+        description="月額制スクールは高すぎる方向け、買い切り69,800円の動画教材。LINEでの質問し放題、プログラミング基礎〜実践まで学べる業界最安値。"
+        buttonText="SkillHacksの詳細"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1DXI+4DRW36+4K3S+5YJRM"
+        icon="💻"
+        highlight="買い切り"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">エンジニア転職後のキャリア</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>1年目：ジュニアエンジニア 年収350〜450万円</li>
+          <li>3年目：ミドルエンジニア 年収500〜700万円</li>
+          <li>5年目：シニアエンジニア 年収700〜1,000万円</li>
+          <li>フリーランス転身：月収80〜150万円も可能</li>
+          <li>AI・クラウドスキルで年収さらにUP</li>
+        </ul>
+      </section>
+    </>
+  ),
+  "finance-job-agent-comparison": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">金融業界転職で年収800万円〜のハイクラスへ</h2>
+        <p>
+          銀行・証券・保険・アセットマネジメント・ファンド等の金融業界転職は、現年収500〜700万円から800〜1,500万円へのアップが狙える領域。転職エージェントの選び方次第で年収と求人の質が大きく変わります。金融特化エージェントと総合エージェントの併用が王道です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="2026年 金融業界転職エージェントおすすめ比較"
+        services={[
+          {
+            name: "JACリクルートメント",
+            rank: 1,
+            highlight: "ハイクラス転職No.1｜金融・外資系に強い",
+            features: [
+              "年収800〜2,000万円のハイクラス特化",
+              "コンサルタントが業界別に分業、専門性が高い",
+              "外資系金融機関（投資銀行・PEファンド等）に強い",
+              "非公開求人が豊富",
+            ],
+            href: "https://www.jac-recruitment.jp/",
+            badge: "ハイクラスNo.1",
+          },
+          {
+            name: "ビズリーチ",
+            rank: 2,
+            highlight: "スカウト型｜ヘッドハンター経由でオファー",
+            features: [
+              "登録するとヘッドハンターからスカウト",
+              "年収1,000万円以上の求人豊富",
+              "無料プランでも最低限使える",
+              "金融機関からの直接スカウトも",
+            ],
+            href: "https://www.bizreach.jp/",
+          },
+          {
+            name: "リクルートエージェント",
+            rank: 3,
+            highlight: "業界最大手｜求人数40万件超",
+            features: [
+              "業界最大手、求人数No.1（40万件超）",
+              "金融業界の求人も豊富",
+              "若手〜ミドル層の幅広い求人",
+              "転職支援ツールが充実",
+            ],
+            href: "https://www.r-agent.com/",
+          },
+          {
+            name: "エンワールド・ジャパン",
+            rank: 4,
+            highlight: "外資系・グローバル特化｜英語力活用",
+            features: [
+              "外資系金融・グローバル企業に特化",
+              "英語力を活かせる求人中心",
+              "年収800〜3,000万円のハイクラス",
+              "ダイバーシティ採用にも強い",
+            ],
+            href: "https://www.enworld.com/",
+          },
+          {
+            name: "パソナキャリア",
+            rank: 5,
+            highlight: "3年連続顧客満足度No.1｜女性支援も手厚い",
+            features: [
+              "オリコン顧客満足度3年連続No.1",
+              "女性のキャリア支援に強い",
+              "金融機関への転職実績多数",
+              "ハイクラス転職「パソナキャリアハイクラス」あり",
+            ],
+            href: "https://www.pasonacareer.jp/",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">転職エージェント活用のコツ</h2>
+        <ol className="list-decimal list-inside space-y-2 text-sm">
+          <li><strong>複数エージェント併用</strong>：2〜3社でスカウト受けて比較</li>
+          <li><strong>面談でキャリア相談</strong>：市場価値・年収水準を客観的に把握</li>
+          <li><strong>ビズリーチで平行してスカウト受信</strong>：想定外のオファーを引き寄せ</li>
+          <li><strong>金融特化のJAC＋総合のリクルート</strong>の組合せが鉄板</li>
+          <li><strong>内定条件交渉はエージェント活用</strong>：年収+50〜100万円も</li>
+        </ol>
+      </section>
+      <AffiliateCTA
+        title="ハイクラス転職なら｜JACリクルートメント"
+        description="年収800〜2,000万円のハイクラス転職で業界No.1。金融・外資系・ファンド等のプロフェッショナル転職に強く、非公開求人も豊富。まず無料登録から。"
+        buttonText="JACリクルートメントに登録"
+        href="https://www.jac-recruitment.jp/"
+        icon="💼"
+        highlight="ハイクラスNo.1"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">金融業界転職の年収相場</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>地方銀行 → メガバンク：年収+100〜200万円</li>
+          <li>事業会社経理 → 監査法人・コンサル：年収+200〜400万円</li>
+          <li>銀行リテール → 証券・投資銀行：年収+300〜500万円</li>
+          <li>国内証券 → 外資系証券：年収+500〜1,000万円</li>
+          <li>IFA・プライベートバンク：成果報酬型で年収1,500万円超も</li>
+        </ul>
+      </section>
+    </>
+  ),
+  "marriage-app-comparison-2026": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">婚活アプリで始める真剣な出会い</h2>
+        <p>
+          マッチングアプリは月額3,000〜5,000円で始められ、結婚相談所（月1〜3万円）と比べ圧倒的にコスパ良好。30代40代の真剣婚活層、20代の恋活層、シニアの再婚希望層と、年齢層別に最適アプリが異なります。複数アプリ並行で成約率を最大化しましょう。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="2026年 婚活マッチングアプリおすすめ比較"
+        services={[
+          {
+            name: "Pairs（ペアーズ）",
+            rank: 1,
+            highlight: "国内最大級会員2,000万人｜20〜30代恋活婚活",
+            features: [
+              "国内会員数No.1、2,000万人超",
+              "女性無料、男性月3,700〜4,100円",
+              "コミュニティで趣味マッチング",
+              "真剣度が高い会員が多い",
+            ],
+            href: "https://www.pairs.lv/",
+            badge: "会員数No.1",
+          },
+          {
+            name: "with（ウィズ）",
+            rank: 2,
+            highlight: "心理テストで相性診断｜20〜30代中心",
+            features: [
+              "心理学者監修の心理テストで相性診断",
+              "女性無料、男性月3,600〜4,200円",
+              "20〜30代の真剣交際希望者が多い",
+              "独自のコミュニティ機能",
+            ],
+            href: "https://with.is/",
+          },
+          {
+            name: "ゼクシィ縁結び",
+            rank: 3,
+            highlight: "リクルート運営｜結婚前提の真剣層",
+            features: [
+              "ゼクシィブランドの安心感、真剣度高い",
+              "男女とも月4,378円〜",
+              "価値観診断で相性マッチング",
+              "30〜40代の結婚前提交際に強い",
+            ],
+            href: "https://zexy-enmusubi.net/",
+          },
+          {
+            name: "Omiai",
+            rank: 4,
+            highlight: "イエローカード制｜安全性重視",
+            features: [
+              "24時間365日の監視、イエローカード通報制",
+              "女性無料、男性月3,980〜4,800円",
+              "結婚意識の高い20〜30代中心",
+              "本人確認厳格",
+            ],
+            href: "https://fb.omiai-jp.com/",
+          },
+          {
+            name: "マリッシュ",
+            rank: 5,
+            highlight: "再婚・シンママパパ支援｜30〜50代",
+            features: [
+              "再婚・バツイチ・シングル親に理解のある会員",
+              "女性無料、男性月3,400〜4,900円",
+              "30〜50代の真剣婚活層",
+              "再婚に前向きな方を優遇",
+            ],
+            href: "https://marrish.com/",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">年齢・目的別の推奨アプリ</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>20代・恋活〜婚活</strong>：Pairs、with（コスパ重視）</li>
+          <li><strong>30代・結婚前提</strong>：ゼクシィ縁結び、Pairs、Omiai</li>
+          <li><strong>40代以降・真剣婚活</strong>：マリッシュ、Match.com（米国系）</li>
+          <li><strong>バツイチ・再婚希望</strong>：マリッシュ、youbride</li>
+          <li><strong>ハイクラス層</strong>：Dine、東カレデート</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="結婚相談所と並行で活動｜ゼクシィ縁結びエージェント"
+        description="マッチングアプリで結果が出ない30代は結婚相談所の検討も。ゼクシィ縁結びエージェントなら月会費9,900円〜で手厚いサポート、アプリとの併用で成婚率を最大化。"
+        buttonText="ゼクシィ縁結びエージェント"
+        href="https://zexy-enmusubi-agent.net/"
+        icon="💍"
+        highlight="結婚相談所"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">マッチングアプリ活用の5つのコツ</h2>
+        <ol className="list-decimal list-inside space-y-2 text-sm">
+          <li>プロフィール写真はプロのフォトスタジオで撮影（マッチング率3倍）</li>
+          <li>自己紹介文は300文字以上、具体的な趣味・休日の過ごし方を記載</li>
+          <li>複数アプリを並行利用（Pairs + Omiai + ゼクシィ等）</li>
+          <li>初回メッセージは相手のプロフィールに触れた質問形式</li>
+          <li>3ヶ月でマッチング、6ヶ月で交際、12ヶ月で結婚の目安</li>
+        </ol>
+      </section>
+    </>
+  ),
+  "lawyer-consultation-comparison": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">弁護士無料相談で解決できる問題</h2>
+        <p>
+          弁護士への相談は「30分5,000円」が一般的ですが、無料相談サービスを使えば費用ゼロで専門家のアドバイスを得られます。借金・離婚・相続・労働問題・交通事故・刑事事件など、幅広い分野で初回無料相談が可能。悩みを抱え込む前に、まず無料相談で解決の道筋を見つけましょう。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="2026年 弁護士無料相談サービス比較"
+        services={[
+          {
+            name: "弁護士ドットコム",
+            rank: 1,
+            highlight: "業界最大手｜全国2万人の弁護士ネットワーク",
+            features: [
+              "全国約20,000人の弁護士が登録",
+              "相談内容からマッチング可能",
+              "口コミ評価で弁護士を選べる",
+              "無料相談対応の弁護士が多数",
+            ],
+            href: "https://www.bengo4.com/",
+            badge: "業界最大手",
+          },
+          {
+            name: "法テラス（日本司法支援センター）",
+            rank: 2,
+            highlight: "無料相談3回まで｜収入基準で利用可",
+            features: [
+              "国が設立した法律相談窓口",
+              "収入基準を満たせば無料相談3回まで",
+              "弁護士費用の立替制度（償還）",
+              "全国110ヶ所の窓口＋電話相談",
+            ],
+            href: "https://www.houterasu.or.jp/",
+          },
+          {
+            name: "ベリーベスト法律事務所",
+            rank: 3,
+            highlight: "全国73拠点｜債務整理・離婚に強い",
+            features: [
+              "全国73拠点、大手法律事務所",
+              "初回無料相談、債務整理・離婚・相続に強い",
+              "分割払い対応",
+              "企業法務・刑事事件まで幅広い",
+            ],
+            href: "https://www.vbest.jp/",
+          },
+          {
+            name: "アディーレ法律事務所",
+            rank: 4,
+            highlight: "債務整理・過払い金請求に特化",
+            features: [
+              "債務整理・過払い金請求の専門",
+              "初回相談無料＋着手金後払い制度",
+              "全国64拠点、電話・Web相談可",
+              "完全報酬制で初期費用ゼロ",
+            ],
+            href: "https://www.adire.jp/",
+          },
+          {
+            name: "アトム法律事務所",
+            rank: 5,
+            highlight: "交通事故・刑事事件に強い",
+            features: [
+              "交通事故・刑事事件に特化",
+              "全国主要都市に拠点",
+              "無料相談・電話相談対応",
+              "24時間対応の刑事事件窓口",
+            ],
+            href: "https://atomfirm.com/",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">相談内容別のおすすめ</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>借金・債務整理</strong>：アディーレ、ベリーベスト（過払い金請求は時効注意）</li>
+          <li><strong>離婚・慰謝料</strong>：ベリーベスト、弁護士ドットコムで離婚専門検索</li>
+          <li><strong>相続トラブル</strong>：税理士ドットコムの相続税理士＋弁護士の連携</li>
+          <li><strong>労働問題（残業代・セクハラ・不当解雇）</strong>：弁護士ドットコム</li>
+          <li><strong>交通事故・被害者請求</strong>：アトム法律事務所</li>
+          <li><strong>刑事事件</strong>：アトム法律事務所（24時間対応）</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="相続の税務面は税理士ドットコム"
+        description="相続トラブルは弁護士＋税理士の連携が必須。税理士ドットコムなら相続専門税理士を無料紹介、弁護士ドットコムと合わせて使えば法務・税務の両面から解決可能。"
+        buttonText="税理士ドットコムで無料相談"
+        href="https://www.zeiri4.com/"
+        icon="👔"
+        highlight="紹介料無料"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">弁護士費用の目安</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>相談料：30分5,000円（無料相談活用でゼロに）</li>
+          <li>着手金：経済的利益の5〜10%（案件により変動）</li>
+          <li>報酬金：経済的利益の10〜20%</li>
+          <li>債務整理：任意整理1社2〜5万円、個人再生30〜50万円、自己破産30〜50万円</li>
+          <li>離婚：協議離婚20〜40万円、裁判離婚80〜150万円</li>
+        </ul>
+      </section>
+    </>
+  ),
+  "reverse-mortgage-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">リバースモーゲージとは</h2>
+        <p>
+          リバースモーゲージは、自宅を担保に銀行から融資を受け、死亡時に自宅売却で一括返済する制度。持ち家シニアの老後資金調達策として注目されています。生存中は利息のみ支払うため毎月の返済負担は軽く、住み慣れた自宅に住み続けながら老後資金を確保可能です。
+        </p>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>借入限度額：自宅評価額の50〜70%</li>
+          <li>返済：死亡時に自宅売却で一括返済</li>
+          <li>生存中は利息のみ支払い（月2〜5万円程度）</li>
+          <li>自宅は所有権を保持、住み続けられる</li>
+          <li>相続人は自宅を継ぐか売却か選択可能</li>
+        </ul>
+      </section>
+      <ComparisonTableCTA
+        title="2026年 リバースモーゲージ取扱金融機関比較"
+        services={[
+          {
+            name: "東京スター銀行",
+            rank: 1,
+            highlight: "業界最大手｜商品設計が柔軟",
+            features: [
+              "リバースモーゲージの先駆者、業界最大手",
+              "借入金の用途自由（生活費・医療費・リフォーム等）",
+              "全国対応、対面相談可",
+              "変動金利年2.9〜3.9%",
+            ],
+            href: "https://www.tokyostarbank.co.jp/",
+            badge: "業界最大手",
+          },
+          {
+            name: "三井住友信託銀行",
+            rank: 2,
+            highlight: "信託銀行のノウハウ｜相続対策も一体",
+            features: [
+              "信託銀行ならではの相続対策連携",
+              "借入用途は生活資金・医療費・介護費等",
+              "全国展開、対面相談可",
+              "家族信託との組合せも可能",
+            ],
+            href: "https://www.smtb.jp/",
+          },
+          {
+            name: "みずほ銀行",
+            rank: 3,
+            highlight: "メガバンクの安心感｜最低500万円〜",
+            features: [
+              "メガバンクの安心感と商品充実度",
+              "借入用途はリフォーム・高齢者施設入居資金",
+              "みずほ信託との連携可能",
+              "固定金利プランあり",
+            ],
+            href: "https://www.mizuhobank.co.jp/",
+          },
+          {
+            name: "住宅金融支援機構 リ・バース60",
+            rank: 4,
+            highlight: "全国の提携金融機関｜ノンリコース型",
+            features: [
+              "ノンリコース型（相続人が残債を負わない）",
+              "全国の民間金融機関が取扱",
+              "満60歳以上が対象",
+              "公的制度の安心感",
+            ],
+            href: "https://www.jhf.go.jp/",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">メリット・デメリット</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>メリット①</strong>：自宅に住み続けながら老後資金を確保</li>
+          <li><strong>メリット②</strong>：毎月の返済は利息のみで負担軽い</li>
+          <li><strong>メリット③</strong>：相続人は自宅を継ぐか売却か選択可能</li>
+          <li><strong>デメリット①</strong>：金利上昇リスク（変動金利の場合）</li>
+          <li><strong>デメリット②</strong>：長生きすると借入金が元本超過のリスク</li>
+          <li><strong>デメリット③</strong>：配偶者の住み続け権が制限される場合あり</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="老後資金全体の相談はFPへ｜保険見直しラボ"
+        description="リバースモーゲージ単体でなく、年金・退職金・貯蓄・保険・不動産を総合的に設計するのが王道。FP無料相談で家計全体のキャッシュフロー計画を。"
+        buttonText="保険見直しラボに無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=3Z6F6O+1YZZGQ+38BE+5YRHE"
+        icon="🛡️"
+        highlight="相談料完全無料"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">リバースモーゲージが向いている人</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>持ち家（一戸建てまたは一定条件のマンション）あり</li>
+          <li>60歳以上で現金資産が限られる</li>
+          <li>子どもが独立済で自宅継承の希望なし</li>
+          <li>年金だけでは生活費が不足しがち</li>
+          <li>住み慣れた自宅を離れたくない</li>
+        </ul>
+      </section>
+    </>
+  ),
 };
