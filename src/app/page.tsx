@@ -51,6 +51,41 @@ export default function Home() {
 
       <ToolSearch />
 
+      {/* 🆕 新着高単価ガイド */}
+      <section className="mb-10">
+        <div className="flex items-center justify-between mb-4">
+          <h2 className="text-xl font-bold">🆕 新着ガイド（2026年4月）</h2>
+          <Link href="/guide" className="text-sm text-primary hover:underline">
+            すべて見る →
+          </Link>
+        </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
+          {[
+            { slug: "business-card-comparison-2026", label: "法人・個人事業主ビジネスカード", icon: "🏢", desc: "freee/三井住友/楽天他10選" },
+            { slug: "fp-consultation-guide", label: "FP無料相談比較", icon: "🧑‍💼", desc: "保険見直しラボ他5選" },
+            { slug: "dual-income-household-guide", label: "共働き夫婦の資産運用", icon: "👫", desc: "世帯年収別最適プラン" },
+            { slug: "real-estate-crowdfunding-comparison-2026", label: "不動産クラファン10社", icon: "🏢", desc: "COZUCHI/CREAL他" },
+            { slug: "high-income-tax-strategy", label: "年収1000万円超節税戦略", icon: "💰", desc: "年50-80万円節税" },
+            { slug: "freelance-retirement-guide", label: "フリーランス年金完全ガイド", icon: "👴", desc: "iDeCo/付加年金/基金" },
+          ].map((g) => (
+            <Link
+              key={g.slug}
+              href={`/guide/${g.slug}`}
+              className="block bg-gradient-to-br from-accent/10 to-accent/0 border-2 border-accent/30 rounded-lg p-4 hover:border-accent/50 hover:shadow-md transition-all"
+            >
+              <div className="flex items-start gap-2">
+                <span className="text-2xl">{g.icon}</span>
+                <div>
+                  <div className="text-sm font-bold">{g.label}</div>
+                  <div className="text-xs text-muted mt-0.5">{g.desc}</div>
+                  <span className="inline-block mt-1 px-2 py-0.5 bg-accent text-white text-[10px] rounded-full font-bold">NEW</span>
+                </div>
+              </div>
+            </Link>
+          ))}
+        </div>
+      </section>
+
       {/* 2026年おすすめランキング */}
       <section className="mb-10">
         <div className="flex items-center justify-between mb-4">
