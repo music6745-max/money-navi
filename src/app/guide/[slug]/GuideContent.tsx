@@ -7588,4 +7588,647 @@ const guideContents: Record<string, React.ReactNode> = {
       />
     </>
   ),
+  "foreign-currency-deposit-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">外貨預金のメリットと為替リスク</h2>
+        <p>
+          外貨預金は、日本円よりも金利の高い米ドル・豪ドル・ユーロ等で預金する金融商品。米国の政策金利が4〜5%台の現在、1年定期で年4%前後の高金利が魅力です。ただし為替変動リスクがあり、預入時より円高になれば元本割れに。新NISAでの外貨建て投資（米国ETF等）との使い分けが重要です。
+        </p>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>金利: 米ドル年4〜5%、豪ドル年4%、ユーロ年2〜3%</li>
+          <li>為替手数料: 1通貨あたり片道6〜25銭</li>
+          <li>預金保険対象外（銀行破綻時は保護されない）</li>
+          <li>利息は20.315%源泉徴収、為替差益は雑所得</li>
+          <li>新NISAでの外貨建てETFのほうが長期運用では有利</li>
+        </ul>
+      </section>
+      <ComparisonTableCTA
+        title="2026年 外貨預金おすすめネット銀行比較"
+        services={[
+          {
+            name: "住信SBIネット銀行",
+            rank: 1,
+            highlight: "為替手数料業界最安｜米ドル片道6銭",
+            features: [
+              "米ドル片道6銭（業界最安水準）",
+              "24時間いつでも両替可能",
+              "定額自動入金で積立外貨預金可",
+              "SBI証券との連携で為替コスト最適化",
+            ],
+            href: "https://www.netbk.co.jp/contents/",
+            badge: "最安水準",
+          },
+          {
+            name: "ソニー銀行",
+            rank: 2,
+            highlight: "10通貨対応｜為替手数料片道4銭のキャンペーンあり",
+            features: [
+              "米ドル・ユーロ・豪ドル等10通貨対応",
+              "定期キャンペーンで米ドル片道4銭",
+              "外貨でVisaデビット利用可能",
+              "Sony Bank Walletで海外ATM引き出しも",
+            ],
+            href: "https://moneykit.net/",
+          },
+          {
+            name: "楽天銀行",
+            rank: 3,
+            highlight: "楽天ポイントで外貨預金可能",
+            features: [
+              "楽天ポイント1ポイント=1円で外貨預金可",
+              "米ドル片道25銭、豪ドル50銭",
+              "楽天証券とのマネーブリッジで連携",
+              "楽天経済圏ユーザーに最適",
+            ],
+            href: "https://www.rakuten-bank.co.jp/",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">外貨預金 vs 米国株ETF（新NISA）</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>金利収入</strong>：外貨預金年4〜5%、米国ETFの配当は年1.5〜4%</li>
+          <li><strong>値上がり益</strong>：外貨預金はゼロ、米国ETFは年5〜10%期待</li>
+          <li><strong>税金</strong>：外貨預金は利息20.315%＋為替差益が雑所得、新NISAは非課税</li>
+          <li><strong>長期20年では</strong>：米国ETFが圧倒的に有利（年7〜10%リターン）</li>
+          <li><strong>使い分け</strong>：短期1〜2年の外貨活用は外貨預金、長期資産形成はNISAで米国ETF</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="新NISAで米国投資なら｜SBI証券"
+        description="新NISAで米国株・ETF（VOO・VTI・VYM）を買えば、外貨預金より圧倒的有利。SBI証券は為替手数料無料、取扱銘柄数も業界最多。外貨預金と併用で使い分け。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="💰"
+        highlight="業界No.1"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">外貨預金が向いている人</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>海外旅行・留学で外貨を使う予定がある</li>
+          <li>海外居住予定で現地通貨での生活準備が必要</li>
+          <li>資産の10〜20%を外貨で分散したい（インフレヘッジ）</li>
+          <li>新NISA枠を使い切った後の追加運用先</li>
+          <li>ドルコスト平均法で短期〜中期（1〜3年）の運用をしたい</li>
+        </ul>
+      </section>
+    </>
+  ),
+  "pension-deferment-strategy": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">年金繰下げ受給の基本</h2>
+        <p>
+          公的年金（老齢基礎年金・老齢厚生年金）は通常65歳から受給ですが、66〜75歳まで繰下げると受給額が増額。1ヶ月繰下げるごとに0.7%増額され、70歳繰下げで1.42倍、75歳繰下げで1.84倍に。ただし繰下げた分だけ受給期間が短くなるため、健康寿命・資産状況からの判断が鍵です。
+        </p>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>65歳受給: 100%（基準）</li>
+          <li>66歳: 108.4%（8.4%増）</li>
+          <li>68歳: 125.2%（25.2%増）</li>
+          <li>70歳: 142%（42%増）</li>
+          <li>72歳: 158.8%（58.8%増）</li>
+          <li>75歳: 184%（84%増）※上限</li>
+        </ul>
+      </section>
+      <ComparisonTableCTA
+        title="繰下げパターン別の損益分岐点（生涯受給額）"
+        services={[
+          {
+            name: "70歳繰下げ（142%）",
+            rank: 1,
+            highlight: "損益分岐点は82歳｜健康寿命超えなら有利",
+            features: [
+              "5年間の年金をガマン、代わりに生涯142%",
+              "65歳から82歳までに死亡なら損",
+              "82歳以降に長生きするほど得（85歳で年間80万円増）",
+              "日本人女性の平均寿命87歳なので統計的に有利",
+            ],
+            href: "https://www.nenkin.go.jp/",
+            badge: "統計上有利",
+          },
+          {
+            name: "75歳繰下げ（184%）",
+            rank: 2,
+            highlight: "損益分岐点は86〜87歳｜長生き前提",
+            features: [
+              "10年間の年金をガマン、代わりに生涯184%",
+              "65歳から87歳までに死亡なら損",
+              "87歳以降に長生きするほど得",
+              "健康寿命73〜75歳を考えると、資産に余裕がある人向き",
+            ],
+            href: "https://www.nenkin.go.jp/",
+          },
+          {
+            name: "65歳受給（100%）",
+            rank: 3,
+            highlight: "早期に使える｜旅行・趣味にお金を使いたい人",
+            features: [
+              "65歳から即受給開始",
+              "元気なうちに使える安心感",
+              "健康不安がある・家族歴で短命の場合も早期受給",
+              "平均寿命未満で死亡すれば繰下げより有利",
+            ],
+            href: "https://www.nenkin.go.jp/",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">繰下げ判断の3つの要素</h2>
+        <ol className="list-decimal list-inside space-y-2 text-sm">
+          <li><strong>健康寿命・家族歴</strong>：両親の寿命・現在の健康状態で平均余命を推測</li>
+          <li><strong>資産状況</strong>：繰下げ期間中の生活費を資産でカバーできるか</li>
+          <li><strong>配偶者の状況</strong>：配偶者の年金・加給年金の扱いも考慮必須</li>
+        </ol>
+      </section>
+      <AffiliateCTA
+        title="繰下げ期間の生活費はiDeCoで備える｜SBI証券"
+        description="70歳まで繰下げるなら、65〜70歳の5年間は自己資金で生活。iDeCoは65歳から75歳までの受取選択が可能なので、繰下げ期間中のキャッシュフロー源として最適。"
+        buttonText="SBI証券 iDeCoの詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lp_ideco.html"
+        icon="🏦"
+        highlight="手数料無料"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">繰下げ時の注意点</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>加給年金（配偶者加算39万円）は繰下げ期間中支給されない</li>
+          <li>繰下げ期間中の生活費を資産で賄える設計が必須</li>
+          <li>途中での繰下げキャンセル・取消も可能（年金事務所へ）</li>
+          <li>繰下げ中の死亡は遺族に一時金として支給される</li>
+          <li>健康状態が悪化したら早めに受給開始に切替え</li>
+        </ul>
+      </section>
+    </>
+  ),
+  "sixties-nisa-exit-strategy": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">60代からのNISA出口設計</h2>
+        <p>
+          新NISAで築いた資産をどう取り崩すかが、60代以降の生活を左右します。感情的に「全部売って使う」のではなく、①4%ルール、②定率取崩、③バケツ戦略の3手法から自分に合う方法を選ぶのが王道。公的年金・iDeCo・退職金との優先順位も戦略的に決めましょう。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="3つの取崩手法比較"
+        services={[
+          {
+            name: "4%ルール（定額取崩）",
+            rank: 1,
+            highlight: "初年度4%→以降インフレ調整｜元本維持しやすい",
+            features: [
+              "初年度は資産4%を取崩（2,000万円なら80万円）",
+              "翌年以降はインフレ率で増額",
+              "米国研究では30年持続率95%以上",
+              "元本を減らしにくい保守的手法",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "王道",
+          },
+          {
+            name: "定率取崩（毎年4%）",
+            rank: 2,
+            highlight: "資産評価額の定率｜相場に応じた柔軟性",
+            features: [
+              "毎年資産評価額の4%を取崩",
+              "相場下落時は自動的に取崩額減少",
+              "元本ゼロにはならない（減り続ける）",
+              "相場連動型で柔軟な生活設計",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "バケツ戦略（3層分散）",
+            rank: 3,
+            highlight: "短期・中期・長期で3層に分ける｜下落耐性",
+            features: [
+              "バケツ1: 2〜3年分の現金（普通預金）",
+              "バケツ2: 4〜10年分の債券・REIT",
+              "バケツ3: 長期株式（新NISA）",
+              "暴落時もバケツ1で生活費確保、バケツ3は売らない",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">取崩順序の推奨</h2>
+        <ol className="list-decimal list-inside space-y-2 text-sm">
+          <li><strong>1. 特定口座の株式・投信</strong>（課税口座を先に取崩し）</li>
+          <li><strong>2. 定期預金・普通預金</strong>（生活防衛資金は最後まで残す）</li>
+          <li><strong>3. iDeCo</strong>（60〜75歳で一時金 or 年金受取）</li>
+          <li><strong>4. 新NISA</strong>（非課税枠を最後まで活用、売却せず配当で生活も）</li>
+          <li><strong>5. 公的年金</strong>（繰下げ検討で最大1.84倍に）</li>
+        </ol>
+      </section>
+      <AffiliateCTA
+        title="出口戦略は新NISAを残す｜SBI証券"
+        description="売却益・配当金が非課税の新NISAは、取崩順序の最後に。高配当ETF（VYM/HDV）を保有すれば毎月の配当だけで生活費の一部を賄える形に。"
+        buttonText="SBI証券の新NISAを見る"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="💰"
+        highlight="業界No.1"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">取崩時の税務ポイント</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>特定口座（源泉徴収あり）は確定申告不要</li>
+          <li>iDeCo一時金は退職所得控除、年金受取は公的年金等控除</li>
+          <li>新NISAは売却益・配当金すべて非課税（確定申告不要）</li>
+          <li>国民健康保険・介護保険料は確定申告不要年金でも算定</li>
+          <li>相続対策として新NISAは早期取崩せず保有継続も選択肢</li>
+        </ul>
+      </section>
+    </>
+  ),
+  "portfolio-rebalancing-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">リバランスとは？なぜ必要か</h2>
+        <p>
+          リバランスは、当初決めた資産配分（株式50%・債券50%等）が相場変動で崩れたときに、元の配分に戻す作業。これにより①リスク水準の維持、②割安資産の買い増し・割高資産の利確、という2つの効果が得られます。年1回の実施だけで運用利回りが0.5〜1.0%向上するという研究結果もあります。
+        </p>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>放置すると株式比率が増加→リスク過大に</li>
+          <li>自動的に「安く買って高く売る」効果</li>
+          <li>年1回の実施で十分（過剰な頻度はコスト高）</li>
+          <li>新NISAは売却せず、追加購入でリバランス</li>
+          <li>iDeCoは売却も買付もできる（スイッチング）</li>
+        </ul>
+      </section>
+      <ComparisonTableCTA
+        title="リバランスの4手法比較"
+        services={[
+          {
+            name: "カレンダー方式（年1回）",
+            rank: 1,
+            highlight: "毎年1月または誕生月に実施｜シンプル",
+            features: [
+              "毎年決まった時期に資産配分チェック",
+              "忘れにくくて継続しやすい",
+              "過剰な売買でコスト増を防げる",
+              "初心者におすすめの王道",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "王道",
+          },
+          {
+            name: "5%バンド幅ルール",
+            rank: 2,
+            highlight: "配分が5%以上崩れたら調整｜相場連動",
+            features: [
+              "株式50%目標が55%以上 or 45%以下になったら調整",
+              "相場の大きな動きに対応可能",
+              "売買頻度が増える可能性あり",
+              "中級者向け",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "年2回方式（半年ごと）",
+            rank: 3,
+            highlight: "3月と9月など半年ごと実施",
+            features: [
+              "相場変動への対応が速め",
+              "取引コストが増えやすい",
+              "NISAのみでは年2回は難しい（枠消費）",
+              "iDeCoや特定口座向き",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "ノーセル・リバランス",
+            rank: 4,
+            highlight: "売らずに追加購入だけでリバランス｜税最適",
+            features: [
+              "不足資産を追加購入するだけで配分を戻す",
+              "売却益課税を回避、NISAに最適",
+              "毎月の積立設定で自動化も可能",
+              "積立初期ほど効果大",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">リバランス実行の3ステップ</h2>
+        <ol className="list-decimal list-inside space-y-2 text-sm">
+          <li><strong>Step1</strong>：目標配分と現在配分を一覧化（家計簿アプリ・証券会社で確認）</li>
+          <li><strong>Step2</strong>：乖離分を計算（不足資産・過剰資産を特定）</li>
+          <li><strong>Step3</strong>：不足資産を購入 or 過剰資産を売却して調整</li>
+        </ol>
+      </section>
+      <AffiliateCTA
+        title="資産管理の一元化｜マネーフォワードME"
+        description="複数の証券口座・銀行口座・クレカを自動連携して資産配分を一目で把握。無料版でも10口座連携、プレミアム（月500円）で無制限。リバランスの前提となる可視化が最強。"
+        buttonText="マネーフォワードMEを見る"
+        href="https://moneyforward.com/pages/mf_me/"
+        icon="📱"
+        highlight="無料で使える"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">リバランス時の注意点</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>新NISA口座は売却すると枠が戻らない（翌年復活）</li>
+          <li>特定口座の売却益は20.315%課税</li>
+          <li>リバランス手数料（売買手数料＋信託財産留保額）</li>
+          <li>感情的な売買を避け、ルール通り機械的に実施</li>
+          <li>相場暴落時こそ規律正しく実施（値下がり資産を追加購入）</li>
+        </ul>
+      </section>
+    </>
+  ),
+  "corporate-dc-matching-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">企業型DC・マッチング拠出の基本</h2>
+        <p>
+          企業型DC（確定拠出年金）は、会社が毎月一定額を拠出する企業年金。社員が自分で運用商品を選び、60歳以降の受取額は運用成績次第。マッチング拠出は社員も上乗せ拠出できる制度で、掛金全額が所得控除になります。2022年改正でiDeCo併用も大幅に柔軟化されました。
+        </p>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>会社拠出金: 月1.5万〜5.5万円（会社により異なる）</li>
+          <li>マッチング拠出: 会社拠出額までかつ合計5.5万円まで</li>
+          <li>マッチング掛金も全額所得控除</li>
+          <li>iDeCo併用可（月2万円、企業型DCと合計5.5万円）</li>
+          <li>運用商品選択が資産額を大きく左右</li>
+        </ul>
+      </section>
+      <ComparisonTableCTA
+        title="企業型DC 運用商品の選び方"
+        services={[
+          {
+            name: "全世界株式インデックス",
+            rank: 1,
+            highlight: "最もおすすめ｜長期運用で年率5〜7%期待",
+            features: [
+              "eMAXIS Slim 全世界株式（オルカン）相当の商品",
+              "信託報酬0.1%台を選ぶ",
+              "全世界への分散投資でリスク低減",
+              "初心者〜中級者の王道選択",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "王道",
+          },
+          {
+            name: "米国株式（S&P500）",
+            rank: 2,
+            highlight: "成長重視｜年率7〜10%期待",
+            features: [
+              "eMAXIS Slim 米国株式（S&P500）相当",
+              "米国経済の成長にベット",
+              "20〜30代の若年層におすすめ",
+              "単国集中リスクあり",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "バランスファンド（株60%・債券40%）",
+            rank: 3,
+            highlight: "自動リバランス｜40代以降の安定運用に",
+            features: [
+              "株式・債券・REIT・金などに自動分散",
+              "年1回のリバランスを自動化",
+              "信託報酬0.2〜0.4%とやや高め",
+              "40代・50代の安定運用向き",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">iDeCo併用で節税最大化（2022年改正後）</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>企業型DCのみ</strong>：会社拠出 月5.5万円上限（年66万円）</li>
+          <li><strong>+ iDeCo併用</strong>：合計月5.5万円まで（iDeCoは月2万円上限）</li>
+          <li><strong>+ 確定給付企業年金あり</strong>：iDeCo月1.2万円まで</li>
+          <li><strong>節税効果</strong>：年収700万円でマッチング月1.5万円＋iDeCo月2万円なら年8万円超節税</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="iDeCo併用で節税を最大化｜SBI証券"
+        description="企業型DC加入者でもiDeCoを月2万円まで併用可能。SBI証券は運営管理手数料無料、eMAXIS Slim等の低コスト投信を組合せて節税＋運用益を両取り。"
+        buttonText="SBI証券 iDeCoの詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lp_ideco.html"
+        icon="🏦"
+        highlight="手数料無料"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">転職時の注意点（移換手続き）</h2>
+        <ol className="list-decimal list-inside space-y-2 text-sm">
+          <li>転職先に企業型DCがある → 移換可（6ヶ月以内）</li>
+          <li>転職先に企業型DCがない → iDeCoに移換（個人型確定拠出年金）</li>
+          <li>自動移換（放置6ヶ月超）すると管理手数料が発生するので必ず手続き</li>
+          <li>運用中商品の乗換も可能（スイッチング）</li>
+          <li>公務員・自営業への転職はiDeCo移換＋掛金上限変更に注意</li>
+        </ol>
+      </section>
+    </>
+  ),
+  "crypto-staking-lending-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">ステーキングとレンディングの違い</h2>
+        <p>
+          ステーキングは、仮想通貨をブロックチェーン上にロックして報酬を得る仕組み。レンディングは、取引所に仮想通貨を貸し出して利息を得る仕組み。どちらも保有通貨を運用できる仕組みですが、リスクとリターンの性質が異なります。
+        </p>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>ステーキング: 年利3〜20%、対応通貨はイーサリアム・ソラナ等</li>
+          <li>レンディング: 年利1〜10%、取引所への貸出</li>
+          <li>どちらも元本毀損リスクあり（通貨価格下落）</li>
+          <li>報酬は雑所得（総合課税、最大55%）</li>
+          <li>貸出中は売却不可（流動性リスク）</li>
+        </ul>
+      </section>
+      <ComparisonTableCTA
+        title="2026年 仮想通貨ステーキング・レンディング比較"
+        services={[
+          {
+            name: "bitbank（びっとばんく）",
+            rank: 1,
+            highlight: "レンディング年率1〜5%｜国内大手",
+            features: [
+              "BTC/ETH/XRP等の主要通貨でレンディング",
+              "14日/30日/90日/180日/365日の期間選択",
+              "レバレッジ取引手数料無料",
+              "セキュリティ対策が業界最高水準",
+            ],
+            href: "https://bitbank.cc/",
+            badge: "信頼性",
+          },
+          {
+            name: "コインチェック",
+            rank: 2,
+            highlight: "貸暗号資産｜国内最大級取扱通貨",
+            features: [
+              "BTC/ETH/XRP/LTC/BCH等の主要通貨",
+              "年率1〜5%の貸出サービス",
+              "アプリDL数No.1",
+              "NFTマーケットプレイスも運営",
+            ],
+            href: "https://coincheck.com/ja/",
+          },
+          {
+            name: "GMOコイン",
+            rank: 3,
+            highlight: "年率1〜3%｜GMOグループの安心感",
+            features: [
+              "BTC/ETH/XRP/LTC/BCH/ETC等",
+              "GMOグループの金融ノウハウ",
+              "手数料・各種送金が無料",
+              "ステーキングサービスも提供",
+            ],
+            href: "https://coin.z.com/jp/",
+          },
+          {
+            name: "SBI VCトレード",
+            rank: 4,
+            highlight: "SBIグループ｜ステーキング対応通貨豊富",
+            features: [
+              "イーサリアム・ソラナ・ポルカドット等のステーキング",
+              "年率3〜12%（通貨による）",
+              "SBI証券とのグループ連携",
+              "強固なセキュリティと運営基盤",
+            ],
+            href: "https://www.sbivc.co.jp/",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">ステーキング・レンディングのリスク</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li><strong>価格変動リスク</strong>：運用中の価格下落で含み損</li>
+          <li><strong>流動性リスク</strong>：貸出期間中は売却不可</li>
+          <li><strong>取引所リスク</strong>：取引所破綻時の資産保全</li>
+          <li><strong>スラッシングリスク</strong>：ステーキングの運用ミスで元本毀損</li>
+          <li><strong>税務リスク</strong>：雑所得として累進課税、高所得者は55%課税</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="ステーキング・レンディングを始めるなら｜bitbank"
+        description="国内大手のbitbankは、BTC/ETH/XRP等の主要通貨でレンディング可能。年率1〜5%で運用でき、セキュリティも業界最高水準。まずは取引所口座開設から。"
+        buttonText="bitbankの詳細を見る"
+        href="https://bitbank.cc/"
+        icon="💎"
+        highlight="業界最高セキュリティ"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">税金の扱い（重要）</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>ステーキング報酬・レンディング利息は受取時に雑所得として課税</li>
+          <li>総合課税で最大55%（所得税45%＋住民税10%）</li>
+          <li>確定申告は年間利益20万円超で必須</li>
+          <li>損失の繰越控除不可（株式と違う）</li>
+          <li>海外取引所利用は税務リスク増（国内取引所推奨）</li>
+        </ul>
+      </section>
+    </>
+  ),
+  "nft-investment-basics": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">NFT投資の基本</h2>
+        <p>
+          NFT（Non-Fungible Token）は、ブロックチェーン上で一意性を証明できるデジタル資産。アート・ゲームアイテム・音楽・写真等、多様な商品が取引されます。投資目的では「売買差益」と「ロイヤリティ収入（クリエイター側）」の2種類。ただし値下がりリスクも大きいため、仮想通貨の総資産の5〜10%以内に留めるのが鉄則です。
+        </p>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>購入手段: イーサリアム（ETH）またはポリゴン（MATIC）が主流</li>
+          <li>主要マーケット: OpenSea（海外）、Adam byGMO・LINE NFT・楽天NFT（国内）</li>
+          <li>税金: 売却益は雑所得（総合課税、最大55%）</li>
+          <li>ガス代（手数料）: 1取引あたり数百〜数千円</li>
+          <li>詐欺プロジェクトに要注意（白紙プロジェクト・Rug Pull）</li>
+        </ul>
+      </section>
+      <ComparisonTableCTA
+        title="2026年 おすすめNFTマーケット比較"
+        services={[
+          {
+            name: "OpenSea",
+            rank: 1,
+            highlight: "世界最大｜取扱点数・流動性No.1",
+            features: [
+              "世界最大のNFTマーケット（取扱数数千万点）",
+              "イーサリアム・ポリゴン・ソラナ対応",
+              "日本円で購入できない（仮想通貨必須）",
+              "詐欺プロジェクトも多いので要注意",
+            ],
+            href: "https://opensea.io/",
+            badge: "世界最大",
+          },
+          {
+            name: "Adam byGMO",
+            rank: 2,
+            highlight: "GMOグループ運営｜日本円決済可",
+            features: [
+              "日本円・クレジットカードで購入可能",
+              "国内クリエイター中心、日本語完全対応",
+              "購入したNFTを外部ウォレットに送信可",
+              "初心者におすすめ",
+            ],
+            href: "https://adam.jp/",
+            badge: "初心者向け",
+          },
+          {
+            name: "LINE NFT",
+            rank: 3,
+            highlight: "LINE運営｜国内ユーザー向け",
+            features: [
+              "LINE Payで購入可能",
+              "スマホアプリ完結でハードル低い",
+              "限定NFTが毎月発行",
+              "LINEの友達にプレゼント可",
+            ],
+            href: "https://nft.line.me/",
+          },
+          {
+            name: "楽天NFT",
+            rank: 4,
+            highlight: "楽天経済圏｜楽天ポイントで購入可",
+            features: [
+              "楽天IDでログイン、楽天ポイントで決済",
+              "楽天IDユーザーなら始めやすい",
+              "スポーツ系NFT（楽天イーグルス・ヴィッセル神戸）充実",
+              "国内向け",
+            ],
+            href: "https://nft.rakuten.co.jp/",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">NFT投資の始め方（5ステップ）</h2>
+        <ol className="list-decimal list-inside space-y-2 text-sm">
+          <li><strong>Step1</strong>：国内仮想通貨取引所（bitbank/コインチェック等）で口座開設</li>
+          <li><strong>Step2</strong>：イーサリアム（ETH）を購入</li>
+          <li><strong>Step3</strong>：MetaMask等のウォレットを作成・ETHを送金</li>
+          <li><strong>Step4</strong>：OpenSea等でNFT購入（ガス代に注意）</li>
+          <li><strong>Step5</strong>：保有・売却のタイミング検討（値動きのチェック）</li>
+        </ol>
+      </section>
+      <AffiliateCTA
+        title="まず仮想通貨口座から｜コインチェック"
+        description="NFT購入にはETHが必要。コインチェックなら取扱通貨数No.1クラス、スマホアプリDL数国内No.1。500円から仮想通貨を購入してNFT投資を開始。"
+        buttonText="コインチェックの詳細"
+        href="https://coincheck.com/ja/"
+        icon="₿"
+        highlight="アプリDL No.1"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">NFT投資の5大リスク</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>値下がりリスク（購入から数ヶ月で半値以下も）</li>
+          <li>詐欺・Rug Pull（プロジェクト放棄）</li>
+          <li>流動性リスク（売りたいときに買い手がつかない）</li>
+          <li>ガス代高騰（イーサリアムネットワーク混雑時）</li>
+          <li>税務リスク（総合課税55%＋確定申告）</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="仮想通貨の基礎を学ぶ｜ファイナンシャルアカデミー"
+        description="NFT・仮想通貨は投資として複雑。ファイナンシャルアカデミーの無料体験セミナーで、株式・投信と合わせた全体戦略を学ぼう。累計受講生78万人超の安心感。"
+        buttonText="ファイナンシャルアカデミー無料体験"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1O+G8NPLM+1IRY+25I7J5"
+        icon="📚"
+        highlight="無料体験あり"
+      />
+    </>
+  ),
 };
