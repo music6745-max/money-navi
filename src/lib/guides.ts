@@ -1035,6 +1035,33 @@ export const guides: Guide[] = [
     readTime: "13分",
     publishedAt: "2026-04-19",
   },
+  {
+    slug: "funeral-cost-guide",
+    title: "【2026年】葬儀費用完全ガイド｜家族葬・一般葬・直葬の相場と格安葬儀社比較",
+    description: "家族葬（50〜150万円）/一般葬（150〜300万円）/直葬（10〜50万円）の費用相場と内訳を解説。いい葬儀・小さなお葬式・よりそう葬儀等の全国対応の格安葬儀社を比較。",
+    icon: "🕊️",
+    category: "household",
+    readTime: "12分",
+    publishedAt: "2026-04-19",
+  },
+  {
+    slug: "wedding-consulting-comparison",
+    title: "【2026年】結婚相談所おすすめ比較10選｜成婚率・料金・会員数で選ぶ",
+    description: "IBJメンバーズ・ゼクシィ縁結び・ツヴァイ・パートナーエージェント等の大手結婚相談所を成婚率・料金・会員数で比較。30代40代の結婚を本気で考える方向けの完全ガイド。",
+    icon: "💍",
+    category: "household",
+    readTime: "13分",
+    publishedAt: "2026-04-19",
+  },
+  {
+    slug: "tutoring-school-comparison",
+    title: "【2026年】学習塾・家庭教師比較｜小中高生向けおすすめ10選",
+    description: "東進・駿台・河合塾・トライ・家庭教師のノーバス等を料金・指導形式・合格実績で徹底比較。個別指導vs集団授業・オンライン塾の選び方、補助金活用法まで。",
+    icon: "📚",
+    category: "household",
+    readTime: "13分",
+    publishedAt: "2026-04-19",
+  },
 ];
 
 export function getGuideBySlug(slug: string) {

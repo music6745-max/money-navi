@@ -8865,4 +8865,313 @@ const guideContents: Record<string, React.ReactNode> = {
       />
     </>
   ),
+  "funeral-cost-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">葬儀費用の種類別相場</h2>
+        <p>
+          葬儀費用は形式によって10万円〜300万円と大きく異なります。直葬（火葬のみ）は10〜50万円、家族葬は50〜150万円、一般葬は150〜300万円が相場。近年は家族葬・直葬のシェアが急増しており、事前準備で100万円以上の節約が可能です。
+        </p>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>直葬（火葬のみ）: 10〜50万円</li>
+          <li>一日葬（通夜なし）: 30〜80万円</li>
+          <li>家族葬: 50〜150万円</li>
+          <li>一般葬: 150〜300万円</li>
+          <li>社葬・合同葬: 500万円〜</li>
+        </ul>
+      </section>
+      <ComparisonTableCTA
+        title="2026年 全国対応の格安葬儀社比較"
+        services={[
+          {
+            name: "小さなお葬式",
+            rank: 1,
+            highlight: "業界最大手｜定額プラン11.9万円〜",
+            features: [
+              "全国4,000以上の葬儀社と提携",
+              "定額制で追加費用なし（直葬11.9万円〜）",
+              "24時間365日対応",
+              "葬儀費用の明朗会計",
+            ],
+            href: "https://www.osohshiki.jp/",
+            badge: "業界最大手",
+          },
+          {
+            name: "よりそうお葬式",
+            rank: 2,
+            highlight: "定額9.8万円〜｜業界最安クラス",
+            features: [
+              "直葬プラン9.8万円〜",
+              "追加費用・返礼品込みのオールインワン",
+              "全国約4,000葬儀社のネットワーク",
+              "事前の葬儀社紹介・無料見積り",
+            ],
+            href: "https://www.yoriso.com/",
+          },
+          {
+            name: "いい葬儀",
+            rank: 3,
+            highlight: "日本最大級の葬儀社比較サイト",
+            features: [
+              "全国6,000超の葬儀社情報",
+              "口コミ・評価で比較検討可能",
+              "24時間対応、急な葬儀にも",
+              "事前の資料請求で無料で情報入手",
+            ],
+            href: "https://www.e-sogi.com/",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">葬儀費用を抑える5つのワザ</h2>
+        <ol className="list-decimal list-inside space-y-2 text-sm">
+          <li><strong>直葬・家族葬を選ぶ</strong>：一般葬より100万円以上節約</li>
+          <li><strong>複数社相見積り</strong>：同じ規模で50〜100万円の差が出ることも</li>
+          <li><strong>会員価格を利用</strong>：互助会・JA葬祭は非会員より20〜30%安い</li>
+          <li><strong>公営斎場を利用</strong>：民間より費用が3〜5割安い</li>
+          <li><strong>事前契約（生前予約）</strong>：さらに10〜20%割引</li>
+        </ol>
+      </section>
+      <AffiliateCTA
+        title="葬儀費用の準備はFPで一元設計｜保険見直しラボ"
+        description="葬儀費用・相続税対策・終活費用を総合的にFP無料相談。一時払終身保険で葬儀費用分を非課税で家族に残す設計も可能。"
+        buttonText="保険見直しラボに無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=3Z6F6O+1YZZGQ+38BE+5YRHE"
+        icon="🛡️"
+        highlight="相談料完全無料"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">葬儀費用の支払方法</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>故人の預金：葬儀後の引出しは要注意（相続財産扱い）</li>
+          <li>相続開始前の引出しは遺産分割時に考慮される</li>
+          <li>クレジットカード払いで返礼品・料理含む全額をポイント還元</li>
+          <li>葬儀費用は相続税の債務控除対象（税控除可）</li>
+          <li>生命保険の「葬祭給付金」特約を活用</li>
+        </ul>
+      </section>
+    </>
+  ),
+  "wedding-consulting-comparison": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">結婚相談所の仕組みと選び方</h2>
+        <p>
+          結婚相談所は、専任カウンセラーが相手紹介・交際サポート・成婚まで伴走するサービス。マッチングアプリと違い、独身証明書・収入証明書が必須で、本気で結婚したい会員のみ。成婚率20〜30%と高く、30代40代の結婚活動で最も効率的な手段です。
+        </p>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>初期費用: 5〜15万円（入会金+登録料）</li>
+          <li>月会費: 1.5〜3万円</li>
+          <li>成婚料: 10〜30万円（成婚時のみ発生）</li>
+          <li>平均活動期間: 6〜12ヶ月</li>
+          <li>総費用: 30〜100万円（活動期間で変動）</li>
+        </ul>
+      </section>
+      <ComparisonTableCTA
+        title="2026年 結婚相談所おすすめ比較"
+        services={[
+          {
+            name: "IBJメンバーズ",
+            rank: 1,
+            highlight: "日本最大級の会員数85,000人｜成婚率50%",
+            features: [
+              "日本結婚相談所連盟（IBJ）の会員プールを活用",
+              "業界最大級の会員数85,000人以上",
+              "成婚率50%超（業界平均の約2倍）",
+              "30代40代の真剣婚活層が多い",
+            ],
+            href: "https://www.ibjmembers.jp/",
+            badge: "会員数No.1",
+          },
+          {
+            name: "ゼクシィ縁結びエージェント",
+            rank: 2,
+            highlight: "リクルート系｜コスパNo.1",
+            features: [
+              "初期費用33,000円〜、月会費9,900円〜と業界最安クラス",
+              "リクルート運営の信頼性",
+              "独自マッチングAIでの紹介",
+              "全国28拠点でサポート",
+            ],
+            href: "https://zexy-enmusubi-agent.net/",
+          },
+          {
+            name: "パートナーエージェント",
+            rank: 3,
+            highlight: "成婚率No.1｜年間成婚者1,900人超",
+            features: [
+              "コンシェルジュによる手厚いサポート",
+              "成婚率No.1（約28%）",
+              "30代40代の成婚実績が多い",
+              "年間1,900人超が成婚",
+            ],
+            href: "https://www.p-a.jp/",
+          },
+          {
+            name: "ツヴァイ",
+            rank: 4,
+            highlight: "イオン系｜会員数4万人超の老舗",
+            features: [
+              "1984年創業、結婚相談所の老舗",
+              "全国50拠点、イオンモール内店舗も",
+              "専任ハンドメイドマッチング",
+              "会員の9割超が年収500万円以上",
+            ],
+            href: "https://www.zwei.com/",
+          },
+          {
+            name: "エン婚活エージェント",
+            rank: 5,
+            highlight: "完全オンライン｜月会費14,300円",
+            features: [
+              "店舗なしの完全オンライン型で低コスト",
+              "月会費14,300円＋登録料10,780円のみ",
+              "成婚料なしで総費用30万円台",
+              "地方在住者にもおすすめ",
+            ],
+            href: "https://en-konkatsu.com/",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">結婚相談所とマッチングアプリの違い</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>本気度</strong>：相談所は結婚前提、アプリは恋愛〜遊びまで幅広い</li>
+          <li><strong>費用</strong>：相談所30〜100万円、アプリ月3,000〜5,000円</li>
+          <li><strong>成婚期間</strong>：相談所6〜12ヶ月、アプリは1〜3年かかるケース多い</li>
+          <li><strong>サポート</strong>：相談所はカウンセラー伴走、アプリは自己責任</li>
+          <li><strong>30代40代向き</strong>：時間効率重視なら相談所、若い層はアプリから</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="結婚相談所選びでFP相談も｜保険見直しラボ"
+        description="結婚後の家計・保険・住宅ローンはFPに無料相談。新婚夫婦の家計設計を早めに固めれば、子育て資金・老後資金の準備もスムーズに。"
+        buttonText="保険見直しラボに無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=3Z6F6O+1YZZGQ+38BE+5YRHE"
+        icon="🛡️"
+        highlight="相談料完全無料"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">結婚相談所活用の5つのコツ</h2>
+        <ol className="list-decimal list-inside space-y-2 text-sm">
+          <li><strong>複数見学</strong>：最低2〜3社の無料カウンセリングを受けて比較</li>
+          <li><strong>プロフィール写真</strong>：プロのフォトスタジオで撮影（成婚率3倍）</li>
+          <li><strong>積極的な申込</strong>：週5〜10人に申込むペースを維持</li>
+          <li><strong>初回デートは1時間のランチ</strong>：カジュアルに会う→2回目で評価</li>
+          <li><strong>3ヶ月でマッチング、6ヶ月で交際、12ヶ月で成婚</strong>の目安</li>
+        </ol>
+      </section>
+    </>
+  ),
+  "tutoring-school-comparison": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">学習塾の種類と選び方</h2>
+        <p>
+          学習塾は大きく「集団授業型」「個別指導型」「映像授業型」「オンライン塾」の4種類。子どもの学習スタイル・予算・志望校によって最適な形式が異なります。小4〜高3までの10年間で200〜500万円の教育費がかかるため、コスパと相性の両方で慎重に選びましょう。
+        </p>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>集団授業型（河合塾・駿台・早稲アカ）: 月2〜5万円</li>
+          <li>個別指導型（東京個別・明光義塾）: 月3〜7万円</li>
+          <li>映像授業型（東進・スタディサプリ）: 月2〜6万円</li>
+          <li>オンライン塾: 月1〜3万円</li>
+          <li>家庭教師: 月5〜15万円</li>
+        </ul>
+      </section>
+      <ComparisonTableCTA
+        title="2026年 学年別おすすめ学習塾"
+        services={[
+          {
+            name: "東進ハイスクール・東進衛星予備校",
+            rank: 1,
+            highlight: "高校生向け映像授業｜東大京大合格実績No.1",
+            features: [
+              "全国1,000校舎超、映像授業で有名講師の授業",
+              "東大・京大・医学部の合格実績業界トップ",
+              "高速マスター基礎力養成講座で弱点克服",
+              "月謝10万円〜（高3）",
+            ],
+            href: "https://www.toshin.com/",
+            badge: "難関大向き",
+          },
+          {
+            name: "駿台・河合塾",
+            rank: 2,
+            highlight: "集団授業の老舗｜医学部・難関大に強い",
+            features: [
+              "1918年創業、大手予備校2トップ",
+              "医学部・旧帝大・早慶特化のコースあり",
+              "ライブ授業の臨場感とクラス対抗の刺激",
+              "月謝3〜5万円（高3）",
+            ],
+            href: "https://www.sundai.ac.jp/",
+          },
+          {
+            name: "家庭教師のトライ",
+            rank: 3,
+            highlight: "個別指導｜AI診断で最適プラン",
+            features: [
+              "業界最大手、完全個別のマンツーマン",
+              "120万人超の指導実績",
+              "AI学習診断で苦手科目を見える化",
+              "月謝2〜5万円（科目数による）",
+            ],
+            href: "https://www.trygroup.co.jp/",
+          },
+          {
+            name: "スタディサプリ",
+            rank: 4,
+            highlight: "業界最安｜月額2,178円の映像授業",
+            features: [
+              "小4〜高3まで全科目の映像授業",
+              "月額2,178円（年契約2万円台）",
+              "無料体験14日間",
+              "オンラインで完結、地方在住者に最適",
+            ],
+            href: "https://studysapuri.jp/",
+            badge: "コスパNo.1",
+          },
+          {
+            name: "明光義塾",
+            rank: 5,
+            highlight: "全国2,000教室の個別指導｜中学受験〜大学受験",
+            features: [
+              "全国2,000教室、業界最大の個別指導",
+              "一人ひとりに合わせた学習プラン",
+              "中学受験から大学受験まで対応",
+              "月謝2〜4万円",
+            ],
+            href: "https://www.meikogijuku.jp/",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">学年別の推奨パターン</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>小4〜小6（中学受験）</strong>：SAPIX・日能研・四谷大塚（集団授業型で月4〜8万円）</li>
+          <li><strong>中1〜中3（高校受験）</strong>：早稲アカ・湘南ゼミナール or 個別指導（月2〜4万円）</li>
+          <li><strong>高1〜高2（基礎固め）</strong>：スタディサプリ＋塾なしor 個別指導（月0.2〜3万円）</li>
+          <li><strong>高3（受験本番）</strong>：東進・駿台・河合塾の集団 or 個別の組合せ（月8〜15万円）</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="教育費の準備は新NISAで｜SBI証券"
+        description="子ども1人の教育費総額は公立1,000万円・私立2,500万円。新NISAで月3万円×15年積立＝約800万円で大学進学費用の準備が完了。児童手当と組み合わせて効率的に。"
+        buttonText="SBI証券 新NISAの詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="💰"
+        highlight="業界No.1"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">教育費の節約術</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>中学受験は早めの判断（小3夏までに決断）</li>
+          <li>映像授業（東進・スタサプ）と個別を組合せて総額を抑える</li>
+          <li>兄弟割引・紹介割引を活用</li>
+          <li>自治体の塾代助成制度（東京都・大阪市等）</li>
+          <li>塾なし戦略（スタディサプリ+参考書）で月3,000円の節約</li>
+        </ul>
+      </section>
+    </>
+  ),
 };
