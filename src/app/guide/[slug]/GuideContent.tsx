@@ -16270,4 +16270,488 @@ const guideContents: Record<string, React.ReactNode> = {
       />
     </>
   ),
+  "startup-equity-crowdfunding-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">株式投資型クラウドファンディングの基本</h2>
+        <p>
+          株式投資型クラウドファンディング（ECF）は、未公開スタートアップに10万円〜投資できる手段。FUNDINNO・イークラウド・ユニコーンの3社が主要プラットフォーム。2017年登場後、IPOやM&A成立案件が増加し、投資額の5〜10倍のリターン事例も。エンジェル税制で最大800万円の所得控除が受けられ、富裕層の節税・スタートアップ応援として注目されています。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="株式投資型クラファン主要3社比較"
+        services={[
+          {
+            name: "FUNDINNO（フアンディーノ）",
+            rank: 1,
+            highlight: "国内シェアNo.1｜累計100億円超",
+            features: [
+              "累計応募金額100億円超",
+              "累計成約案件200件以上",
+              "IPO事例：琉球アスティーダ等",
+              "エンジェル税制優遇措置対象多数",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "シェアNo.1",
+          },
+          {
+            name: "イークラウド",
+            rank: 2,
+            highlight: "大和証券グループの安心感",
+            features: [
+              "大和証券グループ運営",
+              "審査基準厳しく優良案件",
+              "年2〜3件の少数精鋭",
+              "平均1社5000万〜2億円調達",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "ユニコーン",
+            rank: 3,
+            highlight: "新興ベンチャー特化",
+            features: [
+              "AI・DX・バイオ系が中心",
+              "投資家向けセミナー充実",
+              "エンジェル税制対応",
+              "上場化まで徹底サポート",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">投資リスクとエンジェル税制</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>元本割れリスク大（企業倒産で投資額全損）</li>
+          <li>流動性なし（上場まで売却困難）</li>
+          <li>投資から回収まで5〜10年が目安</li>
+          <li>エンジェル税制Aタイプ：最大800万円所得控除</li>
+          <li>エンジェル税制Bタイプ：譲渡所得から控除</li>
+          <li>年間投資額は総資産の5%以内に抑える</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="スタートアップ投資にSBI証券でIPO当選も狙う"
+        description="スタートアップ投資＋IPO株の両取りをSBI証券で。IPO取扱数業界No.1、過去5年で100社以上のIPO取扱実績。未公開株投資のリスクヘッジに上場株も活用。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="🚀"
+        highlight="IPO取扱No.1"
+      />
+    </>
+  ),
+  "stock-lending-service-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">貸株サービスで眠れる株に追加収入</h2>
+        <p>
+          貸株サービスは、保有する現物株を証券会社に貸し出すことで年利0.1〜5%の金利を得る仕組み。SBI・楽天・マネックスで提供され、特に信用取引の空売り需要がある銘柄は高金利（年利5〜20%）になる場合も。月数千円〜数万円の追加収入となり、長期保有銘柄で「株価値上がり＋配当＋貸株金利」の三重取りが可能です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="貸株サービス主要3社比較"
+        services={[
+          {
+            name: "SBI証券（貸株サービス）",
+            rank: 1,
+            highlight: "業界最大級｜対象銘柄多数",
+            features: [
+              "全上場銘柄（約3,900銘柄）対象",
+              "金利0.1〜20%（銘柄により変動）",
+              "優待・配当優先設定可能",
+              "信用取引との両立OK",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "業界No.1",
+          },
+          {
+            name: "楽天証券（貸株サービス）",
+            rank: 2,
+            highlight: "楽天ポイント受取も可能",
+            features: [
+              "金利0.1〜5%",
+              "楽天ポイント受取オプション",
+              "優待自動取得サービス",
+              "スマホアプリから簡単設定",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "マネックス証券（貸株サービス）",
+            rank: 3,
+            highlight: "高金利銘柄が多い",
+            features: [
+              "金利0.1〜15%",
+              "自動優待取得",
+              "配当金相当額も受取可能",
+              "米国株は貸株対象外",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">貸株サービスのメリット・注意点</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>メリット</strong>：保有株から追加収入（年0.1〜5%）、設定だけで完了</li>
+          <li><strong>メリット</strong>：信用取引の売建に比べ低リスク</li>
+          <li><strong>注意</strong>：証券会社倒産時の貸株は保護対象外（分別管理対象外）</li>
+          <li><strong>注意</strong>：貸株金利は雑所得扱い、20万円超で確定申告必要</li>
+          <li><strong>注意</strong>：株主優待・配当取得日は要設定（優先権限設定）</li>
+          <li><strong>NISA口座</strong>：NISA保有株は貸株対象外</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="貸株サービスならSBI証券｜全上場銘柄対象"
+        description="SBI証券の貸株サービスは全3,900銘柄対応、金利0.1〜20%で眠れる株に追加収入。優待・配当優先設定で三重取り可能。口座開設無料、NISA口座併用OK。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="📈"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "individual-corporate-bond-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">個人向け社債で利回り1〜3%の安定運用</h2>
+        <p>
+          個人向け社債は、企業が個人投資家向けに発行する債券で、利回り1〜3%・期間3〜10年が一般的。SBI・ソフトバンク・楽天・みずほなどの大企業が発行し、元本保証は銀行預金ではないが信用格付けが高い企業なら安定運用が可能。定期預金（0.1〜0.3%）より高利回り、株式よりも値動き少なく、50代以降の堅実運用に人気です。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">個人向け社債の特徴</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>最小投資単位：10万円〜100万円</li>
+          <li>利回り：1〜3%（信用格付けにより変動）</li>
+          <li>期間：3年・5年・7年・10年が主流</li>
+          <li>元本保証ではない（発行企業の倒産リスクあり）</li>
+          <li>格付けA以上の投資適格債が目安</li>
+          <li>償還前売却は流動性低く、損失の可能性</li>
+        </ul>
+      </section>
+      <ComparisonTableCTA
+        title="個人向け社債を買える主要証券会社"
+        services={[
+          {
+            name: "SBI証券（個人向け社債）",
+            rank: 1,
+            highlight: "取扱数業界最多",
+            features: [
+              "SBIホールディングス・ソフトバンク等",
+              "楽天グループ債・三菱UFJ債",
+              "既発債市場も充実",
+              "購入手数料無料",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "業界No.1",
+          },
+          {
+            name: "松井証券（個人向け社債）",
+            rank: 2,
+            highlight: "手数料完全無料",
+            features: [
+              "大手企業の新発債取扱",
+              "購入・売却手数料無料",
+              "少額10万円〜投資可能",
+              "顧客サポート充実",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1O+G6VESA+3XCC+6AZAQ",
+            badge: "1,000円/件",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">おすすめの個人向け社債銘柄</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>ソフトバンクグループ債：年利3〜4%（高利回り、BB+格付）</li>
+          <li>楽天グループ債：年利3〜5%（高利回り、BB格付）</li>
+          <li>SBIホールディングス債：年利1〜2%（投資適格、BBB+格付）</li>
+          <li>みずほ銀行・三菱UFJ銀行債：年利0.5〜1%（A格以上、低リスク）</li>
+          <li>トヨタファイナンス債：年利0.3〜0.8%（超安定、AA格以上）</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="個人向け社債はSBI証券で｜取扱数業界No.1"
+        description="SBI証券は個人向け社債の取扱数業界最多。ソフトバンク・楽天・SBI・三菱UFJ等の新発債、既発債市場も充実。購入手数料無料、10万円〜少額投資可能。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="💼"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "insurance-claim-proper-procedure": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">保険金請求の正しい方法｜請求漏れを防ぐ</h2>
+        <p>
+          保険金請求は、契約時の給付条件を満たせば保険法で3年以内に請求する権利があります。医療保険・生命保険・火災保険で請求漏れが多く、入院給付金・手術給付金・通院給付金・三大疾病給付金など複数の給付対象を見逃すケースが多発。正しい請求手順、診断書取得、弁護士依頼タイミングを知ることで、満額受取を実現できます。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">保険金請求の7ステップ</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>①事故・入院発生</strong>：発生日時・場所・状況を記録</li>
+          <li><strong>②保険会社に連絡</strong>：コールセンターor代理店で給付金請求書取寄せ</li>
+          <li><strong>③診断書取得</strong>：入院・手術・通院の診断書を医療機関で発行</li>
+          <li><strong>④給付金請求書提出</strong>：記入＋診断書＋領収書＋身分証</li>
+          <li><strong>⑤保険会社審査</strong>：通常2週間〜1ヶ月</li>
+          <li><strong>⑥給付金振込</strong>：指定口座に入金</li>
+          <li><strong>⑦審査結果に不服なら異議申立て</strong>：or 金融ADR・弁護士依頼</li>
+        </ul>
+      </section>
+      <ComparisonTableCTA
+        title="保険見直し・請求相談サービス"
+        services={[
+          {
+            name: "保険マンモス（無料保険相談）",
+            rank: 1,
+            highlight: "請求漏れの見直しも相談可能",
+            features: [
+              "既契約の保険の確認",
+              "請求可能な給付金の洗出し",
+              "保険見直しの提案",
+              "完全無料・オンライン対応",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+            badge: "EPC 31.06",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">請求漏れしやすい給付金一覧</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>入院中の手術給付金（複数手術なら個別請求）</li>
+          <li>三大疾病給付金（がん・心筋梗塞・脳卒中）</li>
+          <li>女性疾病給付金・女性特約</li>
+          <li>先進医療給付金</li>
+          <li>介護給付金・介護一時金</li>
+          <li>通院給付金（退院後の外来通院）</li>
+          <li>個人年金保険の死亡給付金</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="保険請求漏れチェックは保険マンモスで｜完全無料"
+        description="既契約保険の請求漏れチェック・追加請求相談なら保険マンモス。経験豊富なFPが過去の事故・入院から請求可能な給付金を洗い出し。オンライン相談対応。"
+        buttonText="保険マンモスで無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM"
+        icon="📋"
+        highlight="無料相談"
+      />
+    </>
+  ),
+  "micro-corporation-tax-saving": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">マイクロ法人設立で節税｜年収1000万円攻略</h2>
+        <p>
+          マイクロ法人は、1人社長の小規模会社（資本金1円〜）で、会社員副業・フリーランスの節税手段として注目。年収800〜1200万円のフリーランスなら、所得税・住民税・社会保険で年間70〜150万円の節税効果。役員報酬の最適設計、社会保険の最小化、経費計上の拡大など、適切な運用で個人事業主より大幅に手取り増加できます。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">マイクロ法人のメリット</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>①所得分散</strong>：役員報酬と利益を調整、累進税率を低減</li>
+          <li><strong>②社会保険最適化</strong>：役員報酬6〜10万円で社会保険料最小化</li>
+          <li><strong>③経費範囲拡大</strong>：自宅家賃の一部・車両・通信費・接待費</li>
+          <li><strong>④欠損金繰越10年</strong>：個人事業主は3年のみ</li>
+          <li><strong>⑤退職金で非課税枠活用</strong>：退職所得控除＋1/2課税</li>
+          <li><strong>⑥生命保険料の経費計上</strong>：節税型法人保険</li>
+        </ul>
+      </section>
+      <ComparisonTableCTA
+        title="マイクロ法人設立関連サービス"
+        services={[
+          {
+            name: "ココナラ（税理士マッチング）",
+            rank: 1,
+            highlight: "法人設立・節税相談に対応",
+            features: [
+              "税理士・行政書士の出品多数",
+              "法人設立手続き代行（数万円〜）",
+              "記帳・決算代行",
+              "副業法人化相談",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+4A7B8A+2PEO+OK4PD",
+            badge: "EPC 22.73",
+          },
+          {
+            name: "SBI証券（法人口座開設）",
+            rank: 2,
+            highlight: "法人資産運用を株式・債券で",
+            features: [
+              "法人口座開設可能",
+              "法人節税保険と併用",
+              "役員退職金準備",
+              "個人・法人両方で運用",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">マイクロ法人設立の注意点</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>設立費用：合同会社6万円〜、株式会社25万円〜</li>
+          <li>年間ランニングコスト：法人住民税7万円＋税理士顧問料15〜40万円</li>
+          <li>社会保険加入義務（役員報酬発生すれば）</li>
+          <li>会社員の場合は就業規則の副業条項確認必須</li>
+          <li>税務調査リスクに備え、適切な帳簿管理必要</li>
+          <li>利益200〜300万円以下なら個人事業主のほうが有利な場合も</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="マイクロ法人設立・税理士相談はココナラで｜実績多数"
+        description="ココナラに税理士・行政書士が多数出店。法人設立手続き代行5〜10万円、記帳・決算代行月1〜3万円、節税相談1時間5000円〜。会員登録無料で即相談開始。"
+        buttonText="ココナラで税理士を探す"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+4A7B8A+2PEO+OK4PD"
+        icon="🏢"
+        highlight="登録無料"
+      />
+    </>
+  ),
+  "inheritance-tax-preparation-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">相続税対策完全ガイド｜生前準備で節税</h2>
+        <p>
+          相続税は基礎控除（3000万円＋600万円×法定相続人数）を超える部分に10〜55%の累進課税。対象資産は不動産・預貯金・株式・生命保険・退職金・事業用資産など広範で、適切な対策なしでは相続財産の30〜50%を税金で失う可能性。生前贈与・生命保険非課税枠・小規模宅地等の特例・配偶者控除・教育資金贈与など、複数の対策を組合せて実質税率を下げるのが王道です。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">相続税の基礎知識</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>基礎控除：3000万円＋600万円×法定相続人数</li>
+          <li>税率：10%（1000万円以下）〜55%（6億円超）</li>
+          <li>配偶者控除：法定相続分or1.6億円まで非課税</li>
+          <li>生命保険非課税枠：500万円×法定相続人数</li>
+          <li>退職金非課税枠：500万円×法定相続人数</li>
+          <li>小規模宅地特例：自宅土地330㎡まで80%減額</li>
+        </ul>
+      </section>
+      <ComparisonTableCTA
+        title="相続税対策関連サービス"
+        services={[
+          {
+            name: "保険マンモス（生命保険活用）",
+            rank: 1,
+            highlight: "非課税枠500万円×相続人を活用",
+            features: [
+              "終身保険で非課税枠確保",
+              "受取人指定で遺産分割円滑化",
+              "相続税対策型保険の提案",
+              "完全無料相談",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+            badge: "EPC 31.06",
+          },
+          {
+            name: "SBI証券（生前贈与用口座）",
+            rank: 2,
+            highlight: "贈与後の資産運用で長期成長",
+            features: [
+              "新NISA口座で非課税運用",
+              "贈与された資金を複利運用",
+              "教育資金一括贈与対応",
+              "世代間資産移転の最適化",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">相続税対策7つの王道</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>①暦年贈与</strong>：年110万円×相続人×年数で非課税移転</li>
+          <li><strong>②相続時精算課税</strong>：2500万円特別控除＋年110万円基礎控除（2024年改正）</li>
+          <li><strong>③生命保険</strong>：非課税枠500万円×相続人</li>
+          <li><strong>④小規模宅地特例</strong>：自宅土地の評価額80%減</li>
+          <li><strong>⑤教育資金一括贈与</strong>：1500万円まで非課税</li>
+          <li><strong>⑥結婚子育て資金贈与</strong>：1000万円まで非課税</li>
+          <li><strong>⑦不動産法人化</strong>：相続税評価を圧縮</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="相続税対策の生命保険活用は保険マンモスで｜完全無料"
+        description="相続税対策の要となる生命保険活用を保険マンモスで無料相談。非課税枠500万円×相続人、受取人指定による遺産分割円滑化、相続税対策型終身保険の提案。"
+        buttonText="保険マンモスで無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM"
+        icon="📜"
+        highlight="無料相談"
+      />
+    </>
+  ),
+  "us-treasury-bond-investing-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">米国債投資完全ガイド｜利回り4〜5%の低リスク運用</h2>
+        <p>
+          米国債（U.S. Treasury Bond）は、米国政府が発行する世界最安全レベルの債券。2026年現在、2年債・10年債・30年債の利回り4〜5%と魅力的で、円安局面の為替ヘッジとしても有効。SBI証券・楽天証券で1000ドル〜購入可能、新NISA成長枠は対象外だが特定口座で運用可。満期保有なら元本＋利息が確定、中途売却は金利変動リスクあります。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">米国債の種類と特徴</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>短期国債（T-Bill）</strong>：1年以下、ゼロクーポン、利回り4〜5%</li>
+          <li><strong>中期国債（T-Note）</strong>：2〜10年、半年ごとクーポン、利回り4〜4.5%</li>
+          <li><strong>長期国債（T-Bond）</strong>：20〜30年、利回り4.5〜5%</li>
+          <li><strong>ゼロクーポン債</strong>：割引発行、満期に額面受取（再投資リスクなし）</li>
+          <li><strong>インフレ連動債（TIPS）</strong>：インフレ率に連動して元本調整</li>
+        </ul>
+      </section>
+      <ComparisonTableCTA
+        title="米国債が買える主要証券会社"
+        services={[
+          {
+            name: "SBI証券（米国債・米国ETF）",
+            rank: 1,
+            highlight: "米国債取扱銘柄業界最多",
+            features: [
+              "既発米国債多数取扱",
+              "為替手数料無料（住信SBIネット）",
+              "1000ドル〜少額投資可能",
+              "TLT・IEF等米国債ETFも",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "業界No.1",
+          },
+          {
+            name: "松井証券（米国債）",
+            rank: 2,
+            highlight: "手数料完全無料",
+            features: [
+              "米国債購入手数料無料",
+              "新発債・既発債両方",
+              "少額投資OK",
+              "顧客サポート充実",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1O+G6VESA+3XCC+6AZAQ",
+            badge: "1,000円/件",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">米国債投資のメリット・リスク</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>メリット①</strong>：米国政府保証で世界最安全級</li>
+          <li><strong>メリット②</strong>：利回り4〜5%で日本の定期預金の10倍</li>
+          <li><strong>メリット③</strong>：円安局面の為替ヘッジ</li>
+          <li><strong>メリット④</strong>：満期保有なら元本＋利息確定</li>
+          <li><strong>リスク①</strong>：為替リスク（円高で目減り）</li>
+          <li><strong>リスク②</strong>：金利上昇時の中途売却で損失</li>
+          <li><strong>リスク③</strong>：新NISA対象外（特定口座で20.315%課税）</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="米国債投資はSBI証券で｜業界最大の取扱銘柄"
+        description="SBI証券は米国債取扱銘柄業界最多。既発米国債・ゼロクーポン債・TLT等のETFまで豊富。住信SBIネット銀行連携で為替手数料無料、1000ドル〜少額投資可能。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="🇺🇸"
+        highlight="業界No.1"
+      />
+    </>
+  ),
 };
