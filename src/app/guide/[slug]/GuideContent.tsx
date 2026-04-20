@@ -17238,4 +17238,500 @@ const guideContents: Record<string, React.ReactNode> = {
       />
     </>
   ),
+  "crypto-wallet-security-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">暗号資産ウォレット完全ガイド</h2>
+        <p>
+          暗号資産のセキュリティ要は「ウォレット」の管理。取引所の口座（ホットウォレット）は常時インターネット接続でハッキングリスクあり、Mt.Gox・Coincheck事件の再来も。100万円超の保有ならハードウェアウォレット（Ledger・Trezor・SafePal）で完全オフライン管理が必須。秘密鍵管理・2段階認証・フィッシング対策の基本を解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="ハードウェアウォレット主要3社比較"
+        services={[
+          {
+            name: "Ledger Nano X（レジャーナノX）",
+            rank: 1,
+            highlight: "世界シェアNo.1｜5500通貨対応",
+            features: [
+              "Bluetooth・モバイル対応",
+              "5500通貨対応",
+              "価格2万円前後",
+              "iOS・Android連携OK",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "シェアNo.1",
+          },
+          {
+            name: "Trezor Model T",
+            rank: 2,
+            highlight: "オープンソース｜信頼性No.1",
+            features: [
+              "完全オープンソース",
+              "タッチスクリーン搭載",
+              "価格3万円前後",
+              "1800通貨対応",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "SafePal S1",
+            rank: 3,
+            highlight: "完全エアギャップ｜最安値",
+            features: [
+              "完全オフライン（QRコード通信）",
+              "価格1万円以下で最安",
+              "10,000通貨対応",
+              "Binance投資",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "コスパ最強",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">暗号資産セキュリティ5つの鉄則</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>①秘密鍵管理</strong>：紙に書いて金庫保管、デジタルデータは複製リスクあり</li>
+          <li><strong>②2段階認証</strong>：Google Authenticator必須、SMS認証は非推奨</li>
+          <li><strong>③ハードウェアウォレット</strong>：100万円超の保有は必須</li>
+          <li><strong>④フィッシング対策</strong>：公式URL直接入力、検索結果クリック厳禁</li>
+          <li><strong>⑤分散保管</strong>：取引所30%＋ハードウェア70%の比率目安</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="暗号資産運用はSBI VCトレードで｜安全性No.1"
+        description="暗号資産取引はSBI VCトレードでスタート。日本の規制対応、証券会社SBIグループで安心、ハードウェアウォレット連携も容易。ビットコイン・イーサリアム等主要コインを取扱。"
+        buttonText="SBI VCトレードの詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="🔐"
+        highlight="安全性No.1"
+      />
+    </>
+  ),
+  "ideco-employer-dc-comparison": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">iDeCo vs 企業型DC｜2024年以降の最適戦略</h2>
+        <p>
+          2022年10月から会社員もiDeCo（個人型）と企業型DC（確定拠出年金）の併用が可能に。企業型DCの掛金＋マッチング拠出の余力があれば追加でiDeCoに加入、全額所得控除で節税効果最大化。会社員の場合、年間最大55,000円×12ヶ月＝66万円の所得控除も現実的。自分の企業型DCの規約と掛金上限を確認しましょう。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">iDeCo併用の掛金上限</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>企業型DCのみ加入：iDeCo月20,000円まで（他企業年金なし）</li>
+          <li>企業型DC＋DB（確定給付年金）加入：iDeCo月12,000円まで</li>
+          <li>公務員：iDeCo月20,000円（2024年12月から）</li>
+          <li>会社員（企業年金なし）：iDeCo月23,000円</li>
+          <li>自営業：iDeCo月68,000円</li>
+        </ul>
+      </section>
+      <ComparisonTableCTA
+        title="iDeCoおすすめ金融機関"
+        services={[
+          {
+            name: "SBI証券 iDeCo（セレクトプラン）",
+            rank: 1,
+            highlight: "運営管理手数料無料｜信託報酬最安",
+            features: [
+              "運営管理手数料無料",
+              "eMAXIS Slim全世界株式取扱",
+              "信託報酬0.05775%",
+              "加入者No.1",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "業界No.1",
+          },
+          {
+            name: "松井証券 iDeCo",
+            rank: 2,
+            highlight: "シンプルな商品ラインナップ",
+            features: [
+              "運営管理手数料無料",
+              "40本厳選ラインナップ",
+              "低コストインデックスファンド",
+              "顧客サポート充実",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1O+EKIXI2+3XCC+BXIYQ",
+            badge: "500円/件",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">併用のメリット</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>全額所得控除：企業型DC＋iDeCoの両方とも拠出分は非課税</li>
+          <li>運用益非課税：60歳までの運用益に税金かからない</li>
+          <li>受取時の退職所得控除or年金控除：税制優遇大</li>
+          <li>会社員でも年60万円超の節税効果（年収700万円以上で）</li>
+          <li>企業型DCの商品ラインナップが劣る場合、iDeCoで補完可能</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="iDeCoなら松井証券｜運営管理手数料無料"
+        description="松井証券iDeCoは運営管理手数料無料、40本厳選ラインナップ、低コストインデックスファンド充実。企業型DCと併用で節税効果最大化、老後資金づくりに最適。"
+        buttonText="松井証券iDeCoの詳細"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1O+EKIXI2+3XCC+BXIYQ"
+        icon="🏛️"
+        highlight="手数料無料"
+      />
+    </>
+  ),
+  "nisa-tax-optimization-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">新NISA税務最適化｜手取り最大化戦略</h2>
+        <p>
+          新NISAは運用益非課税だが、特定口座との損益通算不可という弱点あり。NISA優先銘柄は「長期保有で大きく値上がり期待できる成長株＋高配当株」、特定口座には「損切りリスクある個別株＋短期売買銘柄」を配置するのが最適解。配当再投資の複利効果、売却タイミング、配偶者との口座分担まで、手取り最大化の技を解説します。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">NISA配分の鉄則</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>NISAつみたて枠</strong>：長期インデックス（eMAXIS Slim・SBI全世界株）月10万円</li>
+          <li><strong>NISA成長枠</strong>：高配当株（VYM・1489）＋長期成長株（米国ハイテク）年240万円</li>
+          <li><strong>特定口座</strong>：個別株の短期売買、損益通算可能な銘柄</li>
+          <li><strong>回転売買NG</strong>：NISA枠は売却しても復活せず、長期保有が原則</li>
+        </ul>
+      </section>
+      <ComparisonTableCTA
+        title="NISA対応の主要証券会社"
+        services={[
+          {
+            name: "SBI証券（新NISA口座）",
+            rank: 1,
+            highlight: "取扱銘柄業界最多｜手数料無料",
+            features: [
+              "国内株・米国株・投信で手数料無料",
+              "eMAXIS Slim等の低コストファンド",
+              "クレカ積立1%還元",
+              "取扱銘柄業界最多",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "業界No.1",
+          },
+          {
+            name: "松井証券（新NISA口座）",
+            rank: 2,
+            highlight: "シンプル操作｜サポート充実",
+            features: [
+              "国内株・米国株手数料無料",
+              "投信取扱1700本",
+              "100年以上の歴史",
+              "電話サポート充実",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1O+G6VESA+3XCC+6AZAQ",
+            badge: "1,000円/件",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">NISA売却の最適タイミング</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>大きな含み益→NISAで売却、利益全額非課税</li>
+          <li>含み損→NISAでは売らず、特定口座で損益通算可能な銘柄と組合せ</li>
+          <li>60歳以降の取崩し：NISA→特定口座→iDeCoの順番で</li>
+          <li>相続：NISAは非課税継続OK、特定口座は含み益課税なし（相続時の取得費引継ぎ）</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="NISA税務最適化はSBI証券で｜業界No.1銘柄数"
+        description="SBI証券は新NISA対応銘柄業界最多、クレカ積立1%還元、投信・株式すべて手数料無料。税務最適化の専門レポート充実、長期資産形成のベストパートナー。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="💰"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "seniors-nisa-strategy-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">60代以降のNISA戦略｜退職金・年金との併用</h2>
+        <p>
+          60代以降のNISA運用は、資産形成から取崩しへ戦略転換が必要。退職金2000万円の一部（500〜1000万円）をNISA成長枠で運用、配当・分配金で生活費補填、4%ルール（年4%取崩し）で30年以上資産寿命を延ばす設計が王道。年金受給開始年齢の繰下げと組合せ、相続税対策まで考慮した総合戦略を解説します。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">60代のNISA配分モデル</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>NISAつみたて枠：月10万円（全世界株式インデックス）</li>
+          <li>NISA成長枠：年240万円（高配当株・米国債ETF）</li>
+          <li>目標配当利回り3〜4%で月10〜15万円の配当収入</li>
+          <li>特定口座：個人向け国債・定期預金で流動性確保</li>
+          <li>配偶者のNISA枠も活用、夫婦で年720万円の非課税枠</li>
+        </ul>
+      </section>
+      <ComparisonTableCTA
+        title="60代向け運用サービス"
+        services={[
+          {
+            name: "SBI証券（シニア向け商品充実）",
+            rank: 1,
+            highlight: "退職金運用＋NISA併用",
+            features: [
+              "退職金特別定期預金（高金利）",
+              "NISA＋個人向け国債",
+              "高配当株・米国債ETF",
+              "相続対策型保険取扱",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "業界No.1",
+          },
+          {
+            name: "保険マンモス（相続・生前整理）",
+            rank: 2,
+            highlight: "NISA＋保険の総合戦略",
+            features: [
+              "NISA＋生命保険の配分提案",
+              "相続税非課税枠活用",
+              "介護保険の見直し",
+              "完全無料相談",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+            badge: "EPC 31.06",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">取崩し戦略3パターン</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>4%ルール</strong>：年4%を取崩し、30年以上の資産寿命</li>
+          <li><strong>定率取崩し</strong>：毎年資産の3〜5%取崩し、残高連動で柔軟</li>
+          <li><strong>定額取崩し</strong>：毎月同額取崩し、生活費計画立てやすい</li>
+          <li>年金受給開始と連動、足りない分をNISAから補填</li>
+          <li>相続時：NISAは名義変更不可、死亡日評価額で課税</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="退職金＋NISA運用はSBI証券で｜シニア支援充実"
+        description="SBI証券の退職金＋NISA運用プランは、退職金特別定期預金・NISA＋高配当株・米国債ETFまで総合提案。取崩し戦略・相続対策まで、シニアの資産運用をフルサポート。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="👴"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "dividend-etf-us-japan-comparison": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">高配当ETF米日完全比較</h2>
+        <p>
+          高配当ETFは、配当利回り3〜4.5%の米日ETFを組合せて月10万円超の配当収入を狙う強力なツール。米国VYM（Vanguard高配当）・HDV（iShares高配当）・SPYDと、日本1489（NEXT FUNDS高配当40）・1494（One 日経高配当）等、利回り・信託報酬・為替リスク・税制を徹底比較。新NISA成長枠での最適配分も解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="高配当ETF主要6銘柄比較"
+        services={[
+          {
+            name: "VYM（Vanguard米国高配当）",
+            rank: 1,
+            highlight: "400銘柄分散｜信託報酬0.06%",
+            features: [
+              "配当利回り2.9%",
+              "信託報酬0.06%（業界最安）",
+              "400銘柄の超分散",
+              "米国大型高配当株中心",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "分散No.1",
+          },
+          {
+            name: "HDV（iShares米国高配当）",
+            rank: 2,
+            highlight: "財務健全75銘柄｜利回り3.5%",
+            features: [
+              "配当利回り3.5%",
+              "信託報酬0.08%",
+              "財務健全性重視の75銘柄",
+              "エネルギー・生活必需品多め",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "SPYD（SPDR S&P500高配当）",
+            rank: 3,
+            highlight: "高利回り4.5%｜80銘柄均等",
+            features: [
+              "配当利回り4.5%",
+              "信託報酬0.07%",
+              "S&P500高配当80銘柄均等",
+              "不動産・公益中心",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "高利回り",
+          },
+          {
+            name: "1489（NEXT FUNDS 日経平均高配当40）",
+            rank: 4,
+            highlight: "日本高配当40銘柄｜新NISA対応",
+            features: [
+              "配当利回り4.0%",
+              "信託報酬0.308%",
+              "日経平均高配当40",
+              "為替リスクなし",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">高配当ETF配分のベストミックス</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>米国VYM 40%：分散最強、長期安定成長</li>
+          <li>米国HDV 30%：財務健全重視、ディフェンシブ</li>
+          <li>米国SPYD 10%：高利回りブースター、ボラ高め</li>
+          <li>日本1489 20%：為替リスク分散、円ベース配当</li>
+          <li>合計で配当利回り3.5〜4%、月10万円配当には元本3000万円</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="高配当ETF投資はSBI証券で｜米国ETF為替手数料無料"
+        description="SBI証券は米国高配当ETF（VYM・HDV・SPYD）の為替手数料無料、日本高配当ETF（1489）も取扱、新NISA成長枠で非課税運用。月10万円配当生活のベストパートナー。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="💵"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "bond-fund-vs-individual-bond-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">債券ファンド vs 個別債券｜判定ガイド</h2>
+        <p>
+          債券投資には「債券ファンド」（AGG・BND・日本債券インデックス等のETF）と「個別債券」（米国債・個人向け社債）の2種類。流動性・コスト・金利リスク・税制が異なり、投資金額と目的で最適解が変わります。500万円以下なら債券ファンド、1000万円超なら個別債券、という使い分けが王道。満期保有で元本確定の個別債券は、金利上昇局面で特に有利です。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">債券ファンドと個別債券の比較</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>流動性</strong>：ファンド○（いつでも売買）、個別△（満期まで流動性低い）</li>
+          <li><strong>コスト</strong>：ファンド0.03〜0.3%、個別は購入手数料無料</li>
+          <li><strong>金利変動</strong>：ファンドは常に影響受ける、個別は満期まで保有で影響なし</li>
+          <li><strong>新NISA対応</strong>：ファンドのみ（米国ETFは成長枠）、個別債券は対象外</li>
+          <li><strong>少額投資</strong>：ファンドは1万円〜、個別は10万円〜</li>
+        </ul>
+      </section>
+      <ComparisonTableCTA
+        title="債券投資の主要商品"
+        services={[
+          {
+            name: "SBI証券（債券ファンド・個別債券両方）",
+            rank: 1,
+            highlight: "業界最多ラインナップ",
+            features: [
+              "AGG・BND・米国債ETF取扱",
+              "個別米国債・社債も豊富",
+              "新NISA対応ファンド多数",
+              "購入手数料無料",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "業界No.1",
+          },
+          {
+            name: "松井証券（個別社債中心）",
+            rank: 2,
+            highlight: "個別債券の取扱多数",
+            features: [
+              "個人向け社債取扱多数",
+              "米国債・個別債券",
+              "購入・売却手数料無料",
+              "顧客サポート充実",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1O+G6VESA+3XCC+6AZAQ",
+            badge: "1,000円/件",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">資産規模別の使い分け</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>〜500万円：債券ファンド（AGG・BND）で分散＋新NISA</li>
+          <li>500〜1000万円：債券ファンド70%＋個別米国債30%</li>
+          <li>1000〜3000万円：個別米国債＋個人向け社債＋TLT/IEF</li>
+          <li>3000万円超：個別債券中心、満期ラダー戦略</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="債券投資はSBI証券で｜業界最多の取扱銘柄"
+        description="SBI証券は債券ファンド・個別米国債・個人向け社債まで業界最多ラインナップ。新NISA対応ファンド、為替手数料無料の米国ETF、少額から個別債券まで全てカバー。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="📜"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "tax-loss-harvesting-strategy": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">損出し戦略完全ガイド</h2>
+        <p>
+          損出し（Tax Loss Harvesting）は、年末までに含み損銘柄を売却して損益通算し、税金を最小化する節税技。特定口座（源泉徴収あり）で生じた利益と損失を通算、残りの損失は翌年以降3年間繰越可能。NISA口座の損失は通算対象外なので注意が必要。米国のワッシュセール（30日以内の買戻し）ルールと違い、日本では即日買戻しも合法です。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">損出しの基本ステップ</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>①12月中旬</strong>：特定口座の年間利益と含み損銘柄を確認</li>
+          <li><strong>②損切実行</strong>：含み損銘柄を売却して損失確定</li>
+          <li><strong>③同銘柄再購入（任意）</strong>：継続保有したいなら即日買戻しOK（日本では）</li>
+          <li><strong>④確定申告</strong>：翌年3月15日までに損失繰越申告</li>
+          <li><strong>⑤繰越3年</strong>：損失は翌年以降3年間の利益と相殺可能</li>
+        </ul>
+      </section>
+      <ComparisonTableCTA
+        title="損出し対応の主要証券会社"
+        services={[
+          {
+            name: "SBI証券（損出しツール充実）",
+            rank: 1,
+            highlight: "特定口座の年間損益一覧",
+            features: [
+              "年間損益一覧ツール",
+              "損益通算シミュレーター",
+              "確定申告書類自動作成",
+              "米国株・投信の損出しも対応",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "業界No.1",
+          },
+          {
+            name: "松井証券（特定口座・NISA併設）",
+            rank: 2,
+            highlight: "損出し手数料無料",
+            features: [
+              "国内株手数料無料（50万以下）",
+              "NISAと特定口座の併設管理",
+              "確定申告サポート",
+              "電話サポート充実",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1O+G6VESA+3XCC+6AZAQ",
+            badge: "1,000円/件",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">損出しの注意点</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>NISA口座の損失は通算対象外、特定口座のみ</li>
+          <li>年末受渡しベースなので、12月最終営業日の2営業日前までに売却</li>
+          <li>即日買戻し可だが、異なる証券会社間の「繰替取引」は税制注意</li>
+          <li>配当控除と併用時の税率計算に注意（総合課税vs分離課税）</li>
+          <li>繰越控除は毎年確定申告が必要（前年分継続申告）</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="損出し・確定申告はSBI証券で｜ツール業界最強"
+        description="SBI証券の年間損益一覧・損益通算シミュレーターで損出しを自動化。確定申告書類の自動作成まで一気通貫、国内株・米国株・投信すべて対応。業界No.1ツール。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="📉"
+        highlight="業界No.1"
+      />
+    </>
+  ),
 };
