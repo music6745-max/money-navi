@@ -21595,4 +21595,465 @@ const guideContents: Record<string, React.ReactNode> = {
       />
     </>
   ),
+  "fire-earthquake-insurance-detail": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">火災・地震保険完全ガイド</h2>
+        <p>
+          火災保険は住宅の火災・風災・水災・盗難等の損害を補償、地震保険は火災保険と セットで加入し地震による損壊を5段階判定で補償。保険料は建物構造・地域・補償範囲で変動、年間2〜10万円。水災特約の要否、保険金請求のコツ、各社比較（東京海上・損保ジャパン・ソニー損保）で、年数万円の節約が可能です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="火災・地震保険の無料相談"
+        services={[
+          {
+            name: "保険マンモス（火災保険見直し）",
+            rank: 1,
+            highlight: "複数社比較＋見直し相談",
+            features: [
+              "火災保険10社比較",
+              "地震保険の必要補償額診断",
+              "水災特約の要否判定",
+              "完全無料相談",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+            badge: "EPC 31.06",
+          },
+          {
+            name: "家づくり相談所（新築時の火災保険）",
+            rank: 2,
+            highlight: "新築同時の保険設計",
+            features: [
+              "ハウスメーカー提携の火災保険",
+              "住宅ローン団信との併用",
+              "10年一括契約で割引",
+              "専門家紹介無料",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+3PD522+5OGA+5YZ75",
+            badge: "5,000円/件",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">火災保険選びの4つのポイント</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>補償範囲：火災・風災は必須、水災は立地で判断</li>
+          <li>建物構造：M構造（RC）＞T構造（木造鉄骨）＞H構造（木造）</li>
+          <li>契約期間：5年or 10年一括で年2〜3割引</li>
+          <li>免責金額：3万〜5万円で保険料5〜10%削減</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="火災・地震保険の見直しは保険マンモスで｜完全無料"
+        description="火災保険10社を保険マンモスで無料一括比較。水災特約の要否判定、地震保険の最適補償額、免責金額の設計など、年数万円の保険料削減事例多数。オンライン相談対応。"
+        buttonText="保険マンモスで無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM"
+        icon="🔥"
+        highlight="無料相談"
+      />
+    </>
+  ),
+  "travel-insurance-detail-compare": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">海外旅行保険詳細比較</h2>
+        <p>
+          海外旅行保険は「クレカ付帯」（ゴールド以上で傷害治療300〜2000万円）vs「単発加入」（AIG・ジェイアイ・t@bihoなど）の使い分けが重要。医療費実費型・定額型、家族プラン、年間契約（サブスク型）等、目的別の最適解を解説。海外は医療費高額（盲腸手術だけで米国200万円）のため、十分な補償が必須です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="海外旅行保険の主要選択肢"
+        services={[
+          {
+            name: "クレカ付帯（エポスカード等）",
+            rank: 1,
+            highlight: "年会費無料でも自動付帯",
+            features: [
+              "エポスカード年会費永年無料",
+              "傷害治療200万円自動付帯",
+              "疾病治療270万円",
+              "携行品損害20万円",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "無料",
+          },
+          {
+            name: "保険マンモス（旅行保険相談）",
+            rank: 2,
+            highlight: "医療費十分な補償設計",
+            features: [
+              "クレカ付帯＋単発加入の最適化",
+              "長期滞在・留学向けプラン",
+              "家族プランの設計",
+              "完全無料相談",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+            badge: "EPC 31.06",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">海外旅行保険の3つの選び方</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>短期（1週間以内）：クレカ付帯＋足りない分を単発追加</li>
+          <li>中期（1ヶ月）：単発加入でしっかり補償（保険料5000〜1万円）</li>
+          <li>長期（3ヶ月〜）：海外留学保険・長期滞在保険（数万円）</li>
+          <li>欧米は医療費高額（傷害治療500万円以上推奨）</li>
+          <li>アジアは中程度（傷害治療200万円あれば十分）</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="海外旅行保険の最適設計は保険マンモスで｜無料相談"
+        description="海外旅行・留学・長期滞在の保険設計を保険マンモスで無料相談。クレカ付帯＋単発加入の組合せ、家族プラン、年間契約まで、目的別の最適な補償を提案。"
+        buttonText="保険マンモスで無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM"
+        icon="✈️"
+        highlight="無料相談"
+      />
+    </>
+  ),
+  "university-tuition-saving-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">大学学費節約完全ガイド</h2>
+        <p>
+          日本の大学学費は国公立年54万円・私立文系年90万円・私立理系年130万円・医学部年500万円と幅広い。4年間総額で国公立250万円〜医学部2500万円。新NISA・ジュニアNISAの早期運用、奨学金（無利子・有利子・給付型）、親の学費支援の税制優遇（教育資金一括贈与1500万円非課税）など、総合的な節約術を解説します。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">大学学費の実態（4年間総額）</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>国立大学：250万円（初年度81万円＋年54万円×3）</li>
+          <li>公立大学：260万円</li>
+          <li>私立文系：400万円（初年度120万円＋年90万円×3）</li>
+          <li>私立理系：530万円（初年度150万円＋年130万円×3）</li>
+          <li>私立医学部：2500〜5000万円（6年間）</li>
+          <li>別途：下宿代・教材費・通学費で年50〜150万円</li>
+        </ul>
+      </section>
+      <ComparisonTableCTA
+        title="大学学費準備の3戦略"
+        services={[
+          {
+            name: "SBI証券（新NISA早期積立）",
+            rank: 1,
+            highlight: "0歳から月3万円で1000万円",
+            features: [
+              "親の新NISA成長枠活用",
+              "月3万円×18年＝約1050万円",
+              "eMAXIS Slim全世界株式",
+              "児童手当の全額投資",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "業界No.1",
+          },
+          {
+            name: "すらら（塾代わりの学習）",
+            rank: 2,
+            highlight: "月8800円で塾代節約",
+            features: [
+              "AI学習で塾費用節約",
+              "小中高一貫学習",
+              "大学受験対応",
+              "年10〜20万円の塾代削減",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+54KF2Y+4CT0+60OXE",
+            badge: "EPC 15.56",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">学費節約の5つの方法</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>①早期積立：0歳から月3万円の新NISAで1000万円</li>
+          <li>②奨学金活用：JASSO第一種（無利子）優先</li>
+          <li>③自宅通学：下宿代200〜300万円の削減</li>
+          <li>④大学の学費免除制度：成績優秀者は半額〜全額免除</li>
+          <li>⑤祖父母からの教育資金贈与（1500万円非課税）</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="大学学費準備はSBI証券＋すららで｜塾代節約＋運用"
+        description="SBI証券の新NISAで月3万円積立＋すららで塾代月10万円→月8800円に圧縮。18年で1000万円の学費原資＋学力向上の両取りで、大学学費問題を根本解決できる戦略。"
+        buttonText="すららの無料体験"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+54KF2Y+4CT0+60OXE"
+        icon="🎓"
+        highlight="無料体験"
+      />
+    </>
+  ),
+  "kids-money-education-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">子供の金融教育完全ガイド</h2>
+        <p>
+          2022年から高校家庭科で「資産形成」が必修化、金融リテラシーは現代の必須教育。お小遣い制度（定額・報酬型）、金銭感覚を育てる5ステップ、新NISAジュニア枠の活用、18歳からのクレカ教育、大学時代の一人暮らし家計管理まで、親が子供に教えるべき金融知識を年齢別に解説します。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">年齢別の金融教育</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>3〜6歳</strong>：お金の存在・ありがとうの気持ち</li>
+          <li><strong>7〜12歳</strong>：お小遣い管理・貯金箱・買い物体験</li>
+          <li><strong>13〜15歳</strong>：銀行口座開設・キャッシュレス決済</li>
+          <li><strong>16〜18歳</strong>：投資の基礎・新NISAの仕組み</li>
+          <li><strong>18歳以上</strong>：クレカ利用・一人暮らし家計管理・税金</li>
+        </ul>
+      </section>
+      <ComparisonTableCTA
+        title="子供向け金融教育ツール"
+        services={[
+          {
+            name: "すらら（金融リテラシー学習）",
+            rank: 1,
+            highlight: "小中高の家庭科・社会科対応",
+            features: [
+              "小1〜高3の金融リテラシー",
+              "家計管理・税金・投資の基礎",
+              "AI学習で定着率高い",
+              "月8800円〜",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+54KF2Y+4CT0+60OXE",
+            badge: "EPC 15.56",
+          },
+          {
+            name: "SBI証券（親のNISAで実体験）",
+            rank: 2,
+            highlight: "親の運用を共有して学ぶ",
+            features: [
+              "親のNISAの運用状況を共有",
+              "投資信託の値動きを観察",
+              "18歳からの口座開設",
+              "複利効果の実感",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">金融教育5つの実践ステップ</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>①お小遣い：定額（管理力）＋報酬型（労働価値）の併用</li>
+          <li>②貯金：目標金額を決めて、達成する体験</li>
+          <li>③買い物：値段比較・本当に必要か考える訓練</li>
+          <li>④投資：親のNISA運用を子供と一緒に確認</li>
+          <li>⑤独立：18歳からクレカ・家計管理・新NISA開始</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="金融教育はすららで｜小中高の家庭科・社会科対応"
+        description="すららのAI学習は家庭科・社会科の金融リテラシーに対応。小1〜高3まで一貫学習、家計管理・税金・投資の基礎を無理なく習得。無料体験で学習内容確認可能。"
+        buttonText="すららの無料体験"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+54KF2Y+4CT0+60OXE"
+        icon="👶"
+        highlight="無料体験"
+      />
+    </>
+  ),
+  "stock-screening-tool-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">銘柄スクリーニング完全ガイド</h2>
+        <p>
+          銘柄スクリーニングは、数千銘柄から投資条件に合う優良銘柄を絞り込む必須スキル。PER（15倍以下）・PBR（1倍以下）・ROE（10%以上）・配当利回り（3%以上）等の指標を組合せ、月10分で優良銘柄20社を抽出可能。SBI証券・楽天証券のスクリーナー機能、米国株Finviz、日本株Yahoo Financeの使い方を解説します。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">スクリーニング主要5指標</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>PER（株価収益率）</strong>：15倍以下が割安</li>
+          <li><strong>PBR（株価純資産倍率）</strong>：1倍以下が割安</li>
+          <li><strong>ROE（自己資本利益率）</strong>：10%以上が優良</li>
+          <li><strong>配当利回り</strong>：3%以上でインカム重視</li>
+          <li><strong>売上成長率</strong>：5%以上で成長株</li>
+        </ul>
+      </section>
+      <ComparisonTableCTA
+        title="銘柄スクリーニングツール"
+        services={[
+          {
+            name: "SBI証券（スクリーナー機能）",
+            rank: 1,
+            highlight: "50項目以上の絞込み",
+            features: [
+              "50項目以上の絞込み条件",
+              "プリセット条件あり",
+              "米国株・日本株両対応",
+              "手数料無料で実行可能",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "業界No.1",
+          },
+          {
+            name: "松井証券（テクニカル分析）",
+            rank: 2,
+            highlight: "チャート＋スクリーニング",
+            features: [
+              "テクニカル指標絞込み",
+              "50万以下手数料無料",
+              "NISA対応",
+              "サポート充実",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1O+G6VESA+3XCC+6AZAQ",
+            badge: "1,000円/件",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">3つのスクリーニング戦略</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>バリュー戦略</strong>：PER15倍以下＋PBR1倍以下＋ROE10%以上</li>
+          <li><strong>グロース戦略</strong>：売上成長10%以上＋ROE15%以上＋時価総額1000億円超</li>
+          <li><strong>高配当戦略</strong>：配当利回り4%以上＋連続増配5年以上＋PER20倍以下</li>
+          <li>月1回の定期スクリーニングで投資先20社をリスト化</li>
+          <li>決算発表時に再チェック、銘柄入れ替え</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="銘柄スクリーニングはSBI証券で｜50項目以上で絞込み"
+        description="SBI証券のスクリーナーは50項目以上の絞込み条件＋プリセット条件で、月10分で優良銘柄20社抽出可能。米国株・日本株両対応、手数料無料で実行できる業界No.1ツール。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="🔎"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "investment-diary-record-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">投資日記の付け方完全ガイド</h2>
+        <p>
+          投資日記・売買記録は、勝率UP・感情コントロール・税金計算の必須ツール。ExcelやGoogleスプレッドシートでの簡易テンプレート、売買日時・銘柄・理由・結果の記録、月次・年次の振り返り、マネーフォワード等の自動連携ツール活用で、投資スキルの継続的向上が可能。プロ投資家の共通習慣で、勝率10〜20%改善も実現できます。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">投資日記に記録すべき6項目</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>①売買日時・銘柄・数量・価格</li>
+          <li>②エントリー理由（テクニカル・ファンダ・ニュース）</li>
+          <li>③目標利益・損切ライン</li>
+          <li>④エグジット理由・結果</li>
+          <li>⑤感情面（焦り・満足・後悔等）</li>
+          <li>⑥反省・次回への改善点</li>
+        </ul>
+      </section>
+      <ComparisonTableCTA
+        title="投資記録ツール"
+        services={[
+          {
+            name: "マネーフォワード（投資自動集計）",
+            rank: 1,
+            highlight: "口座連携で自動記録",
+            features: [
+              "証券口座自動連携",
+              "ポートフォリオ自動集計",
+              "損益自動計算",
+              "月額500円〜",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+4A7B8A+2PEO+OK4PD",
+            badge: "EPC 22.73",
+          },
+          {
+            name: "SBI証券（取引履歴・損益）",
+            rank: 2,
+            highlight: "年間取引報告書自動作成",
+            features: [
+              "取引履歴の全件管理",
+              "損益自動計算",
+              "確定申告書類自動作成",
+              "無料で利用可能",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">勝率UP 4つのコツ</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>①感情的取引の可視化：記録で発見し改善</li>
+          <li>②勝ちパターン分析：成功取引の共通点抽出</li>
+          <li>③負けパターン回避：失敗取引の共通点を避ける</li>
+          <li>④月次振り返り：勝率・リスクリワード比算出</li>
+          <li>毎回の振り返りで、勝率10〜20%改善可能</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="投資記録自動化はマネーフォワードで｜月500円〜"
+        description="マネーフォワードの投資自動連携で、証券口座のデータを自動取込＋ポートフォリオ集計＋損益計算。月500円の投資で時間節約＋勝率UP、ココナラ経由で税理士相談も併用可能。"
+        buttonText="ココナラで税理士を探す"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+4A7B8A+2PEO+OK4PD"
+        icon="📓"
+        highlight="登録無料"
+      />
+    </>
+  ),
+  "pension-supplement-strategy": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">年金上乗せ戦略完全ガイド</h2>
+        <p>
+          公的年金（月15〜20万円）だけでは老後資金不足は明白。自営業者は国民年金基金（月6.8万円上限）・付加年金（月400円）・iDeCo（月6.8万円上限）の3段重ねで年金を2倍化可能。会社員はiDeCo＋新NISA＋企業年金の活用で、老後の月受給額30万円超を目指す戦略を解説します。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">自営業者の年金上乗せ3段構成</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>①国民年金基金</strong>：月6.8万円上限、所得控除、終身年金</li>
+          <li><strong>②付加年金</strong>：月400円納付で老齢基礎年金に月200円上乗せ（2年で元取れ）</li>
+          <li><strong>③iDeCo</strong>：月6.8万円上限、所得控除＋運用益非課税</li>
+          <li>合計で月13.6万円拠出、所得控除年163万円で節税効果大</li>
+          <li>国民年金基金とiDeCoは合算で月6.8万円以内の制約あり</li>
+        </ul>
+      </section>
+      <ComparisonTableCTA
+        title="年金上乗せの金融機関"
+        services={[
+          {
+            name: "松井証券 iDeCo（自営業者向け）",
+            rank: 1,
+            highlight: "運営管理手数料無料",
+            features: [
+              "iDeCo月6.8万円上限",
+              "運営管理手数料無料",
+              "全世界株式等の低コスト商品",
+              "確定申告サポート",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1O+EKIXI2+3XCC+BXIYQ",
+            badge: "500円/件",
+          },
+          {
+            name: "保険マンモス（国民年金基金相談）",
+            rank: 2,
+            highlight: "自営業者の年金設計",
+            features: [
+              "国民年金基金＋iDeCoの最適配分",
+              "付加年金の活用",
+              "自営業者向け保険見直し",
+              "完全無料相談",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+            badge: "EPC 31.06",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">年金上乗せの効果試算</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>自営業者：基礎年金月6.6万円→上乗せで月20万円超に</li>
+          <li>会社員：厚生年金月15万円→iDeCo＋NISAで月25〜30万円</li>
+          <li>所得控除：年163万円（自営業）で所得税・住民税20〜40万円節税</li>
+          <li>30年継続で累計元本4080万円＋運用益で6000〜8000万円の老後資金</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="iDeCoは松井証券で｜運営管理手数料無料"
+        description="自営業者・フリーランスのiDeCoは松井証券で。運営管理手数料無料、全世界株式・S&P500等の低コスト商品、月6.8万円上限で所得控除年81.6万円の節税効果。"
+        buttonText="松井証券iDeCoの詳細"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1O+EKIXI2+3XCC+BXIYQ"
+        icon="💰"
+        highlight="手数料無料"
+      />
+    </>
+  ),
 };
