@@ -10459,4 +10459,640 @@ const guideContents: Record<string, React.ReactNode> = {
       </section>
     </>
   ),
+  "overseas-migration-tax-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">海外移住時の税務の基本</h2>
+        <p>
+          日本から海外に移住する場合、①日本の居住者判定が変わる、②非居住者の所得税・住民税、③出国税（1億円超の資産）、④国民年金・iDeCoの扱い、⑤相続税の国籍・居住国の影響、の5点が重要。国・滞在期間次第で税負担が大きく変わります。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="移住先国別の税制特徴"
+        services={[
+          {
+            name: "マレーシア（MM2H）",
+            rank: 1,
+            highlight: "10年居住VISA｜所得税0%（海外収入）",
+            features: [
+              "MM2H（Malaysia My 2nd Home）で10年VISA",
+              "海外源泉所得は所得税0%",
+              "英語環境、医療水準も高い",
+              "物価は日本の1/3〜1/2",
+            ],
+            href: "https://www.zeiri4.com/",
+            badge: "人気No.1",
+          },
+          {
+            name: "タイ（長期滞在VISA）",
+            rank: 2,
+            highlight: "エリートVISAで5〜20年滞在可",
+            features: [
+              "タイランドエリートVISAで5〜20年滞在",
+              "海外源泉所得は原則非課税",
+              "バンコク・チェンマイ等選択肢豊富",
+              "医療費・生活費が日本の半分以下",
+            ],
+            href: "https://www.zeiri4.com/",
+          },
+          {
+            name: "ポルトガル（NHR制度）",
+            rank: 3,
+            highlight: "10年間の優遇税制｜EU加盟国",
+            features: [
+              "NHR（非居住者優遇）で10年間税率20%",
+              "EU加盟で欧州自由移動",
+              "温暖な気候、医療・教育水準高い",
+              "ゴールデンビザは近年終了",
+            ],
+            href: "https://www.zeiri4.com/",
+          },
+          {
+            name: "ドバイ（UAE）",
+            rank: 4,
+            highlight: "所得税・相続税0%｜富裕層向け",
+            features: [
+              "所得税・キャピタルゲイン税0%",
+              "相続税・贈与税もなし",
+              "ゴールデンビザで10年滞在可能",
+              "物価高・日本語環境限定的",
+            ],
+            href: "https://www.zeiri4.com/",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">出国税（国外転出時課税制度）</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>有価証券（株式・投信）評価額1億円超の方が対象</li>
+          <li>出国時に含み益に対して課税（現金化していなくても）</li>
+          <li>税率15.315%（所得税15% + 復興特別所得税0.315%）+住民税5%</li>
+          <li>納税猶予制度あり（最長5年まで）</li>
+          <li>資産1億円以下なら対象外</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="海外移住の税務は専門家に｜税理士ドットコム"
+        description="海外移住の税務は極めて複雑。出国税・非居住者の課税・相続対策・年金の扱いまで、国際税務に強い税理士を税理士ドットコムで無料紹介。事前の相談で数百万円の節税も。"
+        buttonText="税理士ドットコムで無料相談"
+        href="https://www.zeiri4.com/"
+        icon="🌍"
+        highlight="紹介料無料"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">年金・iDeCo・NISAの扱い</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>国民年金：海外移住時は任意加入に切替可</li>
+          <li>iDeCo：海外居住者は原則加入継続不可（一部例外あり）</li>
+          <li>新NISA：非居住者は解約・課税口座へ移換必須</li>
+          <li>厚生年金：海外赴任中は会社手続きで継続</li>
+          <li>移住前に証券口座の整理・移換を済ませるのが鉄則</li>
+        </ul>
+      </section>
+    </>
+  ),
+  "divorce-asset-division-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">離婚時の財産分与の基本</h2>
+        <p>
+          離婚時は婚姻中に築いた共有財産を原則50:50で分ける「財産分与」が発生。預貯金・不動産・退職金・iDeCo・新NISA・生命保険・年金まで幅広く対象。弁護士相談で交渉戦略を立てれば、不利な条件を避けられます。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="財産分与の対象と計算方法"
+        services={[
+          {
+            name: "預貯金・現金",
+            rank: 1,
+            highlight: "50:50で分割｜婚前預貯金は除外",
+            features: [
+              "婚姻中に貯めた預貯金は原則50:50",
+              "婚前からの預貯金は「特有財産」で対象外",
+              "相続・贈与で得た資産も特有財産",
+              "通帳の履歴を詳細にチェック",
+            ],
+            href: "https://www.bengo4.com/",
+            badge: "基本",
+          },
+          {
+            name: "不動産（マイホーム）",
+            rank: 2,
+            highlight: "時価評価で分割｜住宅ローン残債考慮",
+            features: [
+              "不動産鑑定で時価評価",
+              "住宅ローン残債を差し引いた額を分割",
+              "どちらかが住み続けるか売却か選択",
+              "名義変更・連帯保証解除が課題",
+            ],
+            href: "https://www.bengo4.com/",
+          },
+          {
+            name: "退職金",
+            rank: 3,
+            highlight: "婚姻期間分｜将来受給分も対象",
+            features: [
+              "退職金×婚姻期間/勤続期間で按分",
+              "支給済分は現実の分割",
+              "将来支給分は予定額を予測して分割",
+              "夫婦とも退職金あれば相殺計算",
+            ],
+            href: "https://www.bengo4.com/",
+          },
+          {
+            name: "iDeCo・新NISA",
+            rank: 4,
+            highlight: "投資資産も対象｜評価額で分割",
+            features: [
+              "iDeCo・新NISAも財産分与対象",
+              "評価額（時価）で分割",
+              "名義変更は不可、現金化して分割",
+              "課税口座への移管＋分割も一般的",
+            ],
+            href: "https://www.bengo4.com/",
+          },
+          {
+            name: "年金分割",
+            rank: 5,
+            highlight: "厚生年金の婚姻期間分｜最大50%",
+            features: [
+              "厚生年金の保険料納付記録を最大50%分割",
+              "合意分割と3号分割の2種類",
+              "2008年4月以降は自動3号分割適用",
+              "離婚後2年以内の手続きが必要",
+            ],
+            href: "https://www.bengo4.com/",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">弁護士に相談すべき5つのケース</h2>
+        <ol className="list-decimal list-inside space-y-2 text-sm">
+          <li>夫婦の総資産が3,000万円超（複雑な分与計算）</li>
+          <li>不動産の名義変更・住宅ローンの問題</li>
+          <li>相手方の隠し財産が疑われる</li>
+          <li>慰謝料（不貞・DV等）で争いあり</li>
+          <li>親権・養育費でも対立している</li>
+        </ol>
+      </section>
+      <AffiliateCTA
+        title="離婚問題の無料相談｜ベリーベスト法律事務所"
+        description="離婚・財産分与・慰謝料・養育費に強い大手法律事務所。全国73拠点で初回無料相談、分割払い対応。離婚調停・裁判にも豊富な実績。"
+        buttonText="ベリーベスト法律事務所の詳細"
+        href="https://www.vbest.jp/"
+        icon="⚖️"
+        highlight="初回無料相談"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">離婚後の生活設計</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>離婚後の生活費を3年分シミュレーション</li>
+          <li>住宅ローン継続 vs 売却の損益計算</li>
+          <li>ひとり親家庭の補助（児童扶養手当・医療費助成）</li>
+          <li>生命保険・医療保険の見直し（元配偶者受取人の変更）</li>
+          <li>新NISA積立を再開して老後資金準備</li>
+        </ul>
+      </section>
+    </>
+  ),
+  "child-allowance-complete-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">2024年10月改正で児童手当が大幅拡充</h2>
+        <p>
+          児童手当は2024年10月から、①所得制限撤廃（すべての世帯が対象）、②支給期間延長（高校生18歳まで）、③第3子加算強化（月3万円）の3大改正。夫婦共働きで子2人世帯なら年36〜42万円、子3人世帯なら年80〜100万円の給付に。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="2026年 児童手当 支給額早見表"
+        services={[
+          {
+            name: "第1子・第2子（0〜2歳）",
+            rank: 1,
+            highlight: "月15,000円｜年18万円",
+            features: [
+              "0〜3歳未満は月15,000円（年18万円）",
+              "所得制限なし、全世帯対象",
+              "4ヶ月毎（6月/10月/2月）に支給",
+              "出生届と同時に申請",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "乳児期",
+          },
+          {
+            name: "第1子・第2子（3〜18歳）",
+            rank: 2,
+            highlight: "月10,000円｜年12万円",
+            features: [
+              "3歳〜高校卒業まで月10,000円",
+              "所得制限なし",
+              "年12万円×16年＝192万円",
+              "高校生は2024年10月から追加",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "第3子以降（0〜18歳）",
+            rank: 3,
+            highlight: "月30,000円｜18年で648万円",
+            features: [
+              "全年齢で月30,000円",
+              "2024年10月改正で大幅増額",
+              "年36万円×18年＝648万円の給付",
+              "第3子の経済的負担を大幅軽減",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "超お得",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">児童手当を新NISAで運用した時の資産</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>子1人分（総額210万円）×年利5%×18年運用</strong>：約580万円</li>
+          <li><strong>子2人分（総額420万円）×年利5%×18年運用</strong>：約1,160万円</li>
+          <li><strong>子3人分（総額858万円）×年利5%×18年運用</strong>：約2,370万円</li>
+          <li>すべて新NISA非課税枠で運用可能</li>
+          <li>大学進学費用の準備として最適</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="児童手当は即新NISAへ｜SBI証券"
+        description="児童手当を使わずに新NISAで18年運用すれば、子の大学進学時に580万円超の資産に。SBI証券なら月1,000円から自動積立設定可能、未成年口座も対応。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="👶"
+        highlight="業界No.1"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">児童手当と他の子育て支援の併用</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>幼児教育・保育の無償化（3〜5歳）</li>
+          <li>高等学校等就学支援金（年収910万円以下は授業料無償）</li>
+          <li>医療費助成（自治体による、中学生まで等）</li>
+          <li>ひとり親家庭向け児童扶養手当（月約4.5万円）</li>
+          <li>出産育児一時金（出産1児につき50万円）</li>
+        </ul>
+      </section>
+    </>
+  ),
+  "solar-energy-investment-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">太陽光発電投資の仕組み</h2>
+        <p>
+          太陽光発電投資は、土地＋太陽光パネルの購入で電力会社に電気を売り、FIT・FIP制度で年利回り8〜12%を狙う投資。2012年制度開始当初の高単価案件は終了しましたが、中古ソーラー市場や産業用10kW以上の新規案件はまだ魅力的です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="太陽光発電投資の3タイプ比較"
+        services={[
+          {
+            name: "新築産業用（10kW以上）",
+            rank: 1,
+            highlight: "FIT制度で20年固定｜投資額1,500万円〜",
+            features: [
+              "10kW以上で事業用、FIT単価10円/kWh台",
+              "投資額1,500万〜3,000万円",
+              "実質利回り8〜10%、20年固定収入",
+              "ローンで初期投資軽減可能",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "新規案件",
+          },
+          {
+            name: "中古ソーラー",
+            rank: 2,
+            highlight: "高FIT単価案件｜残り年数短い",
+            features: [
+              "稼働済みで即収益、FIT単価20〜40円/kWh",
+              "残存年数10〜15年",
+              "投資額800万〜2,000万円",
+              "実質利回り10〜15%",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "高利回り",
+          },
+          {
+            name: "太陽光クラウドファンディング",
+            rank: 3,
+            highlight: "1万円から少額投資｜年利4〜7%",
+            features: [
+              "CHANGE・ちょこっと不動産等で1万円から",
+              "想定利回り年4〜7%、運用期間1〜5年",
+              "運営会社に任せて手間ゼロ",
+              "新NISA非対象（雑所得扱い）",
+            ],
+            href: "https://creal.jp/",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">太陽光投資の税金・経費</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>売電収入は事業所得 or 雑所得で申告</li>
+          <li>パネル・架台・工事費は減価償却（17年定額法）</li>
+          <li>ローン利息・土地代・メンテナンス費は経費</li>
+          <li>青色申告特別控除65万円も活用可能</li>
+          <li>償却資産税（固定資産税）も発生</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="事業所得の税務は税理士に｜税理士ドットコム"
+        description="太陽光発電の事業所得・減価償却・青色申告は複雑。専門税理士の顧問契約で節税＋申告漏れ防止。税理士ドットコムなら全国5,800人から無料マッチング。"
+        buttonText="税理士ドットコムで無料相談"
+        href="https://www.zeiri4.com/"
+        icon="👔"
+        highlight="紹介料無料"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">太陽光投資のリスク</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>災害リスク（台風・豪雨・地震）→保険加入必須</li>
+          <li>発電量リスク（日照量不足）→複数案件で分散</li>
+          <li>メンテナンスコスト（年10〜20万円）</li>
+          <li>パワーコンディショナー交換（10〜15年で必要）</li>
+          <li>売電単価の制度変更リスク</li>
+        </ul>
+      </section>
+    </>
+  ),
+  "mid-career-reskilling-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">40代50代のリスキリングで年収+200万円</h2>
+        <p>
+          人生100年時代、40代50代のリスキリング（学び直し）は必須。プログラミング・AI・動画編集・Webマーケ等の新スキル習得で、年収+100〜300万円のアップや副業での月5〜20万円の追加収入が現実的です。教育訓練給付金で受講料の最大70%が補助される点も大きなメリット。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="40代50代に推奨のリスキリング分野"
+        services={[
+          {
+            name: "Webマーケティング",
+            rank: 1,
+            highlight: "経験・人脈が活きる｜副業月10〜30万円",
+            features: [
+              "業界経験・人脈がそのまま強みに",
+              "フリーランス月単価50〜100万円",
+              "スクール：WEBMARKS・マケキャン等",
+              "副業スタート月5〜10万円の実例多数",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1DXI+4DRW36+4K3S+5YJRM",
+            badge: "年齢有利",
+          },
+          {
+            name: "動画編集",
+            rank: 2,
+            highlight: "PC1台で始められる｜YouTube・TikTok特需",
+            features: [
+              "YouTube・TikTokの需要急増",
+              "Adobe Premiere Pro・Final Cut Pro習得",
+              "案件単価3,000〜30,000円/本",
+              "スクール：MOVA・ムービーハックス等",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=2NR2GS+DFNXFM+0K3Y+61RIP",
+          },
+          {
+            name: "プログラミング（業務効率化）",
+            rank: 3,
+            highlight: "Python/Excel VBAで社内DX人材に",
+            features: [
+              "現職の業務効率化で社内評価UP",
+              "Python・Excel VBA・SQL等",
+              "スクール：SkillHacks・tech boost等",
+              "管理職キャリアに新たな武器",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1DXI+4DRW36+4K3S+5YJRM",
+          },
+          {
+            name: "不動産投資（副業として）",
+            rank: 4,
+            highlight: "既存資産を活かした副収入",
+            features: [
+              "区分マンション投資で月5〜15万円",
+              "ファイナンシャルアカデミーで学習",
+              "モゲチェックでローン選定",
+              "50代なら早めに始めるべき",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1O+G8NPLM+1IRY+25I7J5",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">教育訓練給付金を活用</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>一般教育訓練給付金：受講料の20%（最大10万円）</li>
+          <li>特定一般教育訓練給付金：受講料の40%（最大20万円）</li>
+          <li>専門実践教育訓練給付金：受講料の70%（最大56万円）</li>
+          <li>40代以降は「転職」より「副業」軸でリスキリング推奨</li>
+          <li>受講修了後も6ヶ月以内に雇用されれば追加給付あり</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="業界最安のプログラミング学習｜SkillHacks"
+        description="買い切り69,800円で学べるプログラミング教材。LINEでの質問し放題、40代50代の新しいキャリアの入口として最適。月額制スクールより圧倒的コスパ。"
+        buttonText="SkillHacksの詳細"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1DXI+4DRW36+4K3S+5YJRM"
+        icon="💻"
+        highlight="買い切り"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">リスキリングを成功させる5ステップ</h2>
+        <ol className="list-decimal list-inside space-y-2 text-sm">
+          <li><strong>Step1</strong>：自分の経験×新スキルの組合せを決める</li>
+          <li><strong>Step2</strong>：オンライン学習で基礎固め（2〜3ヶ月）</li>
+          <li><strong>Step3</strong>：ポートフォリオ・実績作成（3〜6ヶ月）</li>
+          <li><strong>Step4</strong>：クラウドワークス・ランサーズで案件獲得</li>
+          <li><strong>Step5</strong>：実績を武器に副業拡大 or 転職</li>
+        </ol>
+      </section>
+    </>
+  ),
+  "premature-cleanup-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">生前整理は60代から始めるのが理想</h2>
+        <p>
+          生前整理は「死後、家族に迷惑をかけない」ための準備。家財・写真・貴重品・デジタル遺品（SNS・ネット銀行・暗号資産）・エンディングノート・遺言書まで、体力と判断力があるうちに少しずつ進めるのがコツ。遺された家族の負担を大幅軽減できます。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="生前整理の5つの領域"
+        services={[
+          {
+            name: "家財整理（衣類・家具・本・食器）",
+            rank: 1,
+            highlight: "不用品は早めに処分・売却",
+            features: [
+              "1年着ていない服・使っていない家具は処分",
+              "メルカリ・セカンドストリート・買取サービス活用",
+              "趣味のコレクションは家族と共有 or 専門買取",
+              "本・CD・DVDはブックオフ宅配買取",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=2NR2GS+DFNXFM+0K3Y+61RIP",
+            badge: "第一歩",
+          },
+          {
+            name: "貴重品・金融資産整理",
+            rank: 2,
+            highlight: "資産目録作成｜口座集約",
+            features: [
+              "銀行口座・証券口座・保険を一覧化",
+              "使っていない口座は解約・集約",
+              "貴金属・宝石は鑑定評価",
+              "金・宝石は専門買取で現金化も",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=3Z6F6O+1YZZGQ+38BE+5YRHE",
+          },
+          {
+            name: "デジタル遺品整理",
+            rank: 3,
+            highlight: "SNS・ネット銀行・暗号資産の一覧化",
+            features: [
+              "SNSアカウント（Facebook・Twitter・Instagram）",
+              "ネット銀行・証券口座のID/パスワード",
+              "暗号資産ウォレットのシードフレーズ",
+              "サブスク（Netflix・Amazon Prime）解約手順",
+            ],
+            href: "https://www.bengo4.com/",
+          },
+          {
+            name: "エンディングノート作成",
+            rank: 4,
+            highlight: "家族への想い・希望を記録",
+            features: [
+              "市販のノートまたは無料テンプレート",
+              "家族構成・資産・希望葬儀内容",
+              "延命治療・臓器提供の意思",
+              "法的効力はないが家族の指針に",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=3Z6F6O+1YZZGQ+38BE+5YRHE",
+          },
+          {
+            name: "遺言書作成",
+            rank: 5,
+            highlight: "法的効力あり｜公正証書推奨",
+            features: [
+              "公正証書遺言（法務局保管）が最も安全",
+              "自筆遺言は法務局保管制度利用",
+              "相続人と財産配分を明確化",
+              "弁護士・行政書士に相談推奨",
+            ],
+            href: "https://www.bengo4.com/",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">生前整理の5年計画</h2>
+        <ol className="list-decimal list-inside space-y-2 text-sm">
+          <li><strong>1年目</strong>：家財整理（衣類・家具の処分、メルカリで売却）</li>
+          <li><strong>2年目</strong>：貴重品・金融資産の整理（口座集約・保険見直し）</li>
+          <li><strong>3年目</strong>：エンディングノート作成、デジタル遺品の整理</li>
+          <li><strong>4年目</strong>：遺言書作成（公正証書推奨）</li>
+          <li><strong>5年目</strong>：相続税対策・生命保険の非課税枠活用</li>
+        </ol>
+      </section>
+      <AffiliateCTA
+        title="相続対策もFPに相談｜保険見直しラボ"
+        description="生前整理と合わせて、生命保険による相続税非課税枠活用、相続対策全体をFPに無料相談。一時払終身保険で「500万円×法定相続人数」の非課税枠を活用可能。"
+        buttonText="保険見直しラボに無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=3Z6F6O+1YZZGQ+38BE+5YRHE"
+        icon="🛡️"
+        highlight="相談料完全無料"
+      />
+    </>
+  ),
+  "gold-jewelry-buyback-comparison": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">金・プラチナ相場と買取のタイミング</h2>
+        <p>
+          金の相場は2024年に1g=13,000円超の歴史的高値を更新。地政学リスク・インフレヘッジの需要で高値が続く見込みです。手元の金・プラチナ・ダイヤ・ブランド時計を最適タイミングで売れば、数十万円〜数百万円の現金化が可能。複数業者の見積もり比較が必須です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="2026年 金・宝石・貴金属買取業者比較"
+        services={[
+          {
+            name: "なんぼや",
+            rank: 1,
+            highlight: "業界大手｜全国100店舗以上・即日買取",
+            features: [
+              "金・プラチナ・宝石・時計・ブランド品の総合買取",
+              "全国100店舗超で対面査定可",
+              "即日現金化",
+              "Web査定で事前に相場把握可能",
+            ],
+            href: "https://nanboya.com/",
+            badge: "業界大手",
+          },
+          {
+            name: "おたからや",
+            rank: 2,
+            highlight: "全国1,000店舗｜ブランド時計に強い",
+            features: [
+              "全国1,000店舗超でアクセス抜群",
+              "ブランド時計・バッグ・ジュエリーに強い",
+              "出張買取・宅配買取も対応",
+              "即日現金化",
+            ],
+            href: "https://otakaraya.jp/",
+          },
+          {
+            name: "バンバン",
+            rank: 3,
+            highlight: "金・プラチナ特化｜高価買取の定評",
+            features: [
+              "金・プラチナの買取特化",
+              "金相場連動の高価買取",
+              "全国展開＋オンライン査定",
+              "自宅に専門スタッフ派遣可",
+            ],
+            href: "https://gold-bangbang.com/",
+          },
+          {
+            name: "ブランドオフ",
+            rank: 4,
+            highlight: "ブランド品特化｜世界中の買取相場",
+            features: [
+              "ロレックス・シャネル・エルメス等の高価買取",
+              "海外市場価格を反映した査定",
+              "国内60店舗＋香港・アメリカ拠点",
+              "宅配買取も充実",
+            ],
+            href: "https://www.brand-off.com/",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">高価買取してもらう5つのコツ</h2>
+        <ol className="list-decimal list-inside space-y-2 text-sm">
+          <li><strong>複数業者で相見積もり</strong>：同じ品物で30〜50%差が出る</li>
+          <li><strong>事前清掃・クリーニング</strong>：見た目で査定額変動</li>
+          <li><strong>鑑定書・保証書を用意</strong>：ダイヤ・時計は鑑定書必須</li>
+          <li><strong>相場が高い時期を狙う</strong>：金相場は日々変動</li>
+          <li><strong>質屋よりも専門買取</strong>：質屋は借入前提で買取額低め</li>
+        </ol>
+      </section>
+      <AffiliateCTA
+        title="売却益を新NISAで運用｜SBI証券"
+        description="貴金属・ブランド品の売却益を新NISAに投資すれば、実質無料の資産形成。売却100万円×年利5%×20年で約265万円に増加、老後資金として活用可能。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="💰"
+        highlight="業界No.1"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">売却時の税金</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>金・貴金属の売却益は譲渡所得（50万円特別控除あり）</li>
+          <li>5年以上保有で長期譲渡所得（半額課税）</li>
+          <li>ブランド品の売却は原則非課税（生活用動産）</li>
+          <li>年50万円超の売却は確定申告必須</li>
+          <li>複数品の合算で計算</li>
+        </ul>
+      </section>
+    </>
+  ),
 };
