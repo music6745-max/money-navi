@@ -9897,4 +9897,566 @@ const guideContents: Record<string, React.ReactNode> = {
       </section>
     </>
   ),
+  "moving-cost-saving-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">引越し費用を最大20万円節約する方法</h2>
+        <p>
+          引越し費用は業者選び・時期・交渉で大きく変わります。3月の繁忙期は通常期の2倍以上になるケースもあり、一括見積もりで複数社比較すれば平均20〜30%の節約が可能。単身で5〜10万円、ファミリーで15〜30万円の費用差が出ます。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="2026年 引越し一括見積もりサービス比較"
+        services={[
+          {
+            name: "SUUMO引越し見積もり",
+            rank: 1,
+            highlight: "リクルート運営｜電話番号登録不要",
+            features: [
+              "電話番号登録不要、メールのみで見積もり取得可能",
+              "最大10社の一括見積もり",
+              "リクルートの信頼性",
+              "業者の口コミ評価も確認可",
+            ],
+            href: "https://hikkoshi.suumo.jp/",
+            badge: "電話なしOK",
+          },
+          {
+            name: "引越し侍",
+            rank: 2,
+            highlight: "業界最大手｜340社の提携先",
+            features: [
+              "全国340社以上の業者と提携",
+              "最大10社一括見積もり",
+              "料金相場・口コミが充実",
+              "即予約プランで時短",
+            ],
+            href: "https://hikkoshizamurai.jp/",
+          },
+          {
+            name: "LIFULL引越し",
+            rank: 3,
+            highlight: "LIFULL HOME'S運営の安心感",
+            features: [
+              "LIFULL HOME'S（不動産大手）運営",
+              "最大10社の一括見積もり",
+              "単身〜家族向けまで対応",
+              "引越し関連の手続きサポート",
+            ],
+            href: "https://hikkoshi.homes.co.jp/",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">引越し費用を抑える5つのコツ</h2>
+        <ol className="list-decimal list-inside space-y-2 text-sm">
+          <li><strong>9〜2月の通常期を狙う</strong>：繁忙期の半額になることも</li>
+          <li><strong>平日昼間を選ぶ</strong>：土日祝より10〜20%安い</li>
+          <li><strong>一括見積もりで最低3社比較</strong>：相見積もりで交渉余地を作る</li>
+          <li><strong>不用品は事前にメルカリで売却</strong>：荷物量を減らして費用削減</li>
+          <li><strong>段ボール・引越し用品は無料提供業者を選ぶ</strong></li>
+        </ol>
+      </section>
+      <AffiliateCTA
+        title="メルカリで不用品処分＋クラウドワークスで引越し資金｜クラウドワークス"
+        description="引越し前の不用品処分はメルカリで現金化、さらにスキマ時間の副業で10〜20万円の引越し資金を捻出可能。クラウドワークスなら在宅で即始められる。"
+        buttonText="クラウドワークスに無料登録"
+        href="https://px.a8.net/svt/ejp?a8mat=2NR2GS+DFNXFM+0K3Y+61RIP"
+        icon="💻"
+        highlight="完全無料"
+      />
+    </>
+  ),
+  "home-renovation-loan-comparison": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">リフォームローンの3種類と選び方</h2>
+        <p>
+          リフォーム費用100〜1,500万円を賄うローンには「住宅ローン型（金利1%台）」「無担保リフォームローン（金利2〜5%）」「カードローン型（金利5〜15%）」の3種類。金利と審査スピードのバランスで選びましょう。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="2026年 リフォームローンおすすめ比較"
+        services={[
+          {
+            name: "住信SBIネット銀行 リフォームローン",
+            rank: 1,
+            highlight: "変動金利1.8〜2.8%｜Web完結・最短即日審査",
+            features: [
+              "変動金利1.8〜2.8%（業界最低水準）",
+              "保証料・繰上返済手数料無料",
+              "最大1,000万円まで借入可能",
+              "Web完結で来店不要",
+            ],
+            href: "https://www.netbk.co.jp/",
+            badge: "最安",
+          },
+          {
+            name: "楽天銀行 リフォームローン",
+            rank: 2,
+            highlight: "変動金利2.5〜7.0%｜楽天会員は0.3%優遇",
+            features: [
+              "楽天会員なら金利優遇あり",
+              "最大500万円まで",
+              "WEBで完結、来店不要",
+              "楽天ポイント獲得",
+            ],
+            href: "https://www.rakuten-bank.co.jp/",
+          },
+          {
+            name: "三菱UFJ銀行 ネットDEリフォームローン",
+            rank: 3,
+            highlight: "変動金利1.99%〜｜メガバンクの安心感",
+            features: [
+              "メガバンクの低金利商品",
+              "最大1,000万円まで",
+              "最長15年の返済期間",
+              "ネット申込で来店不要",
+            ],
+            href: "https://www.bk.mufg.jp/",
+          },
+          {
+            name: "住宅金融支援機構 フラット35リフォーム一体型",
+            rank: 4,
+            highlight: "固定金利1.8%前後｜省エネリフォームで優遇",
+            features: [
+              "住宅購入＋リフォームを一体でフラット35に",
+              "固定金利で返済計画が安定",
+              "省エネリフォームは金利優遇あり",
+              "最長35年返済",
+            ],
+            href: "https://www.jhf.go.jp/",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">省エネリフォーム補助金を活用</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>こどもエコすまい支援事業：最大60万円</li>
+          <li>先進的窓リノベ事業：最大200万円</li>
+          <li>給湯省エネ事業：最大15万円/台</li>
+          <li>長期優良住宅化リフォーム：最大250万円</li>
+          <li>住宅ローン減税（リフォーム）：10年間の所得税控除</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="住宅ローン借換も合わせて｜モゲチェック"
+        description="リフォームローンに加え、既存の住宅ローンも借換検討を。モゲチェックなら複数銀行を無料比較、金利差0.5%以上で総返済額100〜500万円削減の可能性。"
+        buttonText="モゲチェックの詳細"
+        href="https://www.mogecheck.jp/"
+        icon="🏠"
+        highlight="無料診断"
+      />
+    </>
+  ),
+  "business-loan-comparison": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">個人事業主・法人の資金調達5手段</h2>
+        <p>
+          事業の運転資金・設備投資には、①日本政策金融公庫（金利1〜2%台）、②銀行プロパー融資（金利1〜3%）、③信用保証協会付き融資、④ビジネスローン（金利3〜15%）、⑤ファクタリング（買掛売却）の5つが主な選択肢。規模・緊急度で使い分けましょう。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="2026年 事業者ローンおすすめ比較"
+        services={[
+          {
+            name: "日本政策金融公庫",
+            rank: 1,
+            highlight: "金利1〜2%台｜国の金融機関",
+            features: [
+              "国の金融機関で金利最安水準（1〜2.5%）",
+              "開業・創業期の融資に強い",
+              "最大7,200万円、固定金利",
+              "審査は厳しめ、2〜3週間要",
+            ],
+            href: "https://www.jfc.go.jp/",
+            badge: "金利最安",
+          },
+          {
+            name: "ビジネクスト",
+            rank: 2,
+            highlight: "年利3〜18%｜最短即日融資",
+            features: [
+              "オリコグループのビジネスローン",
+              "最短即日融資対応",
+              "最大1,000万円",
+              "Web完結申込",
+            ],
+            href: "https://www.businext.co.jp/",
+          },
+          {
+            name: "GMOあおぞらネット銀行 あんしんワイド",
+            rank: 3,
+            highlight: "金利1.0〜14.0%｜AIによる審査",
+            features: [
+              "AI審査で最短即日融資",
+              "金利1.0〜14.0%（個人信用次第）",
+              "最大1,000万円",
+              "個人事業主・法人対応",
+            ],
+            href: "https://gmo-aozora.com/",
+          },
+          {
+            name: "資金調達プロ（ファクタリング）",
+            rank: 4,
+            highlight: "売掛金を即現金化｜審査なし",
+            features: [
+              "売掛債権を即日現金化",
+              "借入ではないため信用情報に影響なし",
+              "手数料2〜10%",
+              "資金調達プロで複数業者を無料一括比較",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+4VMX0A+40JM+TWTFL",
+            badge: "借入以外",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">用途別の推奨</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>創業・開業資金</strong>：日本政策金融公庫（金利最安＋創業支援）</li>
+          <li><strong>設備投資（数百万〜数千万）</strong>：銀行プロパー＋公庫併用</li>
+          <li><strong>運転資金の急場</strong>：ビジネクスト・GMOあおぞら（即日融資）</li>
+          <li><strong>売掛金待ち</strong>：ファクタリング（SoKuMo・Easy factor等）</li>
+          <li><strong>100万円以下の少額</strong>：法人カードのキャッシング</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="売掛金を即現金化｜資金調達プロ"
+        description="事業資金の急場に、売掛金ファクタリングで即日現金化。借入ではないため信用情報に影響なし、手数料2〜10%で複数業者を無料比較。"
+        buttonText="資金調達プロの詳細"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+4VMX0A+40JM+TWTFL"
+        icon="💼"
+        highlight="即日現金化"
+      />
+    </>
+  ),
+  "cashless-rewards-strategy": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">年間還元10万円超を狙うキャッシュレス戦略</h2>
+        <p>
+          PayPay・楽天Pay・au PAY・d払い・LINE Pay・メルペイの6大キャッシュレス決済を使い分ければ、年間還元10万円以上を狙えます。各サービスのキャンペーン・経済圏連携を理解し、状況に応じて最適な決済を選ぶのがコツ。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="2026年 主要キャッシュレス決済比較"
+        services={[
+          {
+            name: "楽天Pay",
+            rank: 1,
+            highlight: "楽天カード連携で1.5%還元｜楽天経済圏最適",
+            features: [
+              "楽天カードチャージ＋楽天Pay利用で1.5%還元",
+              "楽天市場でのSPU連携",
+              "使える店舗500万店超",
+              "楽天ポイントがそのまま使える",
+            ],
+            href: "https://pay.rakuten.co.jp/",
+            badge: "総合No.1",
+          },
+          {
+            name: "PayPay",
+            rank: 2,
+            highlight: "利用店舗最多｜キャンペーン豊富",
+            features: [
+              "全国430万店以上の加盟店",
+              "PayPayステップで最大1.5%還元",
+              "Yahoo!ショッピング・ebook系で高還元",
+              "ソフトバンクユーザーは連携でさらにお得",
+            ],
+            href: "https://paypay.ne.jp/",
+          },
+          {
+            name: "au PAY",
+            rank: 3,
+            highlight: "ポンタ連携で1%還元｜au経済圏",
+            features: [
+              "au PAYカードからのチャージで1%還元",
+              "au PAY利用で最大1%還元",
+              "au/UQモバイルユーザーは特典豊富",
+              "Pontaポイントが貯まる・使える",
+            ],
+            href: "https://aupay.wallet.auone.jp/",
+          },
+          {
+            name: "d払い",
+            rank: 4,
+            highlight: "dポイント連携｜ドコモユーザー有利",
+            features: [
+              "dカードGOLD+d払いで最大10%還元（条件）",
+              "ドコモ回線なら追加0.5%",
+              "Amazon・メルカリでも使える",
+              "dポイントクラブとの併用でステージ特典",
+            ],
+            href: "https://service.smt.docomo.ne.jp/keitai_payment/",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">経済圏別の最適キャッシュレス</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>楽天経済圏</strong>：楽天Pay（楽天カード＋チャージ＋利用で1.5%）</li>
+          <li><strong>ソフトバンク経済圏</strong>：PayPay＋Yahoo!ショッピング</li>
+          <li><strong>au・UQ経済圏</strong>：au PAY＋au PAYカード</li>
+          <li><strong>ドコモ経済圏</strong>：d払い＋dカードGOLD</li>
+          <li><strong>中立（経済圏指定なし）</strong>：楽天Pay（還元率最高）</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="楽天経済圏の基本｜楽天カード"
+        description="楽天Payとセットで使うなら楽天カード必須。年会費永年無料で、楽天市場SPU最大16倍、楽天証券でクレカ積立1%還元、楽天銀行マネーブリッジ連携も。"
+        buttonText="楽天カードに無料申込"
+        href="https://hb.afl.rakuten.co.jp/hgc/g00q0722.r9tfu12j.g00q0722.r9tfvd42/"
+        icon="💳"
+        highlight="年会費永年無料"
+      />
+    </>
+  ),
+  "point-investment-complete-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">ポイントで実質無料の資産形成</h2>
+        <p>
+          楽天ポイント・Tポイント・Pontaポイント・dポイント等を貯めて投資に回すことで、実質無料で資産形成が可能。月1,000ポイントの投資でも20年で40万円超（年利5%）に成長。ポイ活と新NISAを組み合わせた最強戦略を解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="2026年 ポイント投資対応サービス比較"
+        services={[
+          {
+            name: "楽天証券（楽天ポイント）",
+            rank: 1,
+            highlight: "1ポイント＝1円で投資信託・株式購入",
+            features: [
+              "楽天ポイントで投資信託・国内株式購入可能",
+              "楽天カード積立でさらにポイント獲得",
+              "楽天経済圏の集大成として最適",
+              "100円/1ポイントから投資開始",
+            ],
+            href: "https://www.rakuten-sec.co.jp/",
+            badge: "王道",
+          },
+          {
+            name: "SBI証券（Tポイント・Vポイント・Pontaポイント）",
+            rank: 2,
+            highlight: "3種類のポイントで投資可能｜業界最多",
+            features: [
+              "Tポイント・Vポイント・Pontaポイントで投資信託購入",
+              "三井住友カードNLでクレカ積立1%還元",
+              "投資信託ラインナップNo.1",
+              "新NISA対応",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "auカブコム証券（Pontaポイント）",
+            rank: 3,
+            highlight: "Pontaポイントで投資｜au経済圏",
+            features: [
+              "Pontaポイントで投資信託購入",
+              "au PAYカード積立で1%還元",
+              "auじぶん銀行との連携で金利優遇",
+              "au/UQモバイルユーザーに最適",
+            ],
+            href: "https://kabu.com/",
+          },
+          {
+            name: "マネックス証券（dポイント）",
+            rank: 4,
+            highlight: "dポイントで投資｜ドコモ経済圏",
+            features: [
+              "dポイントで投資信託購入",
+              "マネックスカード積立で1.1%還元（業界最高）",
+              "ドコモユーザーに最適",
+              "米国株に強い",
+            ],
+            href: "https://info.monex.co.jp/nisa/index.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">月1,000ポイント投資の20年後</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>月1,000ポイント×12ヶ月＝年12,000円の投資</li>
+          <li>20年積立×年利5%＝約41万円</li>
+          <li>楽天ポイントならSPUで月2,000〜5,000ポイント可能</li>
+          <li>月5,000ポイント投資なら20年後200万円超</li>
+          <li>すべて実質無料（ポイント獲得原価ゼロ）</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="楽天ポイント×楽天証券｜最強の組合せ"
+        description="楽天カードを日常決済に使えば、年50,000〜100,000ポイント獲得も可能。そのポイントを楽天証券で投資信託購入すれば、実質無料の資産形成に。"
+        buttonText="楽天カードに無料申込"
+        href="https://hb.afl.rakuten.co.jp/hgc/g00q0722.r9tfu12j.g00q0722.r9tfvd42/"
+        icon="🎁"
+        highlight="年会費永年無料"
+      />
+    </>
+  ),
+  "esg-investment-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">ESG投資で社会貢献と運用益を両立</h2>
+        <p>
+          ESG（Environment/環境・Social/社会・Governance/ガバナンス）投資は、企業の環境配慮・社会貢献・透明な経営を評価して投資する手法。近年はESG指数連動ETF・グリーンボンド・SDGs関連投信等、選択肢が急拡大。長期的には非ESG企業を上回るリターン研究結果も。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="2026年 ESG投資おすすめ商品"
+        services={[
+          {
+            name: "MSCI ESG指数連動ETF（2832 等）",
+            rank: 1,
+            highlight: "東証ETF｜MSCIのESG格付上位企業に分散投資",
+            features: [
+              "東証上場ETFで流動性高い",
+              "MSCI ESG格付け上位の企業に分散",
+              "日本株・米国株・新興国株のバリエーション",
+              "信託報酬0.1〜0.3%台",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "入門向け",
+          },
+          {
+            name: "eMAXIS Slim 先進国株式＋ESG",
+            rank: 2,
+            highlight: "三菱UFJ国際投信｜低コストのESGインデックス",
+            features: [
+              "信託報酬0.2%台と低コスト",
+              "先進国株式のESG上位に分散",
+              "新NISAつみたて枠対応",
+              "積立設定で長期運用",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "グリーンボンド（個人向け）",
+            rank: 3,
+            highlight: "環境プロジェクト向け債券｜低リスク",
+            features: [
+              "再生可能エネルギー等の環境事業に資金提供",
+              "元本保証（発行体次第）＋定期利息",
+              "年利0.5〜2%程度",
+              "SDGs貢献と安定運用を両立",
+            ],
+            href: "https://www.mof.go.jp/jgbs/individual/",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">ESG投資のメリット・デメリット</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>メリット①</strong>：長期的には非ESG企業を上回るリターン研究結果</li>
+          <li><strong>メリット②</strong>：環境破壊・人権侵害企業を避けられる</li>
+          <li><strong>メリット③</strong>：次世代への資産移転でESG配慮が重要に</li>
+          <li><strong>デメリット①</strong>：短期では成績劣後する可能性</li>
+          <li><strong>デメリット②</strong>：ESG評価の基準が不統一</li>
+          <li><strong>デメリット③</strong>：信託報酬が通常インデックスよりやや高め</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="新NISAでESG投資｜SBI証券"
+        description="SBI証券なら、ESG関連ETF・投信が豊富。新NISAつみたて枠で月1,000円から始められ、長期運用で社会貢献しながら資産形成が可能。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="🌱"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "defi-beginners-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">DeFi（分散型金融）の基礎</h2>
+        <p>
+          DeFi（Decentralized Finance）は、ブロックチェーン上で動く金融サービス。銀行・証券会社等の中央管理者なしで、貸付・借入・両替・デリバティブ等が可能。年利5〜50%と高利回りが魅力ですが、ハッキング・スマートコントラクトリスクも大きい上級者向けです。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="2026年 主要DeFiプロトコル"
+        services={[
+          {
+            name: "Uniswap（ユニスワップ）",
+            rank: 1,
+            highlight: "分散型取引所No.1｜流動性提供で報酬",
+            features: [
+              "世界最大のDEX（分散型取引所）",
+              "ETH・ERC20トークンの両替が可能",
+              "流動性プールに預けて手数料報酬獲得",
+              "ユーザー数・取引量ともに業界トップ",
+            ],
+            href: "https://uniswap.org/",
+            badge: "DEX最大手",
+          },
+          {
+            name: "Aave（アーベ）",
+            rank: 2,
+            highlight: "レンディング最大手｜年利3〜10%",
+            features: [
+              "暗号資産レンディング・借入プロトコル",
+              "ステーブルコインで年利3〜10%",
+              "複数ブロックチェーン対応",
+              "フラッシュローンも可能",
+            ],
+            href: "https://aave.com/",
+          },
+          {
+            name: "Compound（コンパウンド）",
+            rank: 3,
+            highlight: "老舗レンディング｜機関投資家も利用",
+            features: [
+              "2018年開始の老舗DeFiレンディング",
+              "USDC・DAI・ETH等で貸付可能",
+              "年利1〜8%程度",
+              "COMPトークン付与",
+            ],
+            href: "https://compound.finance/",
+          },
+          {
+            name: "Curve Finance",
+            rank: 4,
+            highlight: "ステーブルコイン両替に特化",
+            features: [
+              "ステーブルコイン間の両替が得意",
+              "低スリッページで効率的",
+              "流動性提供でCRVトークン報酬",
+              "年利5〜30%（プールによる）",
+            ],
+            href: "https://curve.fi/",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">DeFi投資の5つのリスク</h2>
+        <ol className="list-decimal list-inside space-y-2 text-sm">
+          <li><strong>スマートコントラクトリスク</strong>：バグで資産毀損の可能性</li>
+          <li><strong>ハッキングリスク</strong>：プロトコルへの攻撃で盗難</li>
+          <li><strong>価格変動リスク</strong>：仮想通貨自体の暴落</li>
+          <li><strong>流動性リスク</strong>：引き出せなくなる可能性</li>
+          <li><strong>税務リスク</strong>：雑所得で最大55%課税</li>
+        </ol>
+      </section>
+      <AffiliateCTA
+        title="まずは国内取引所から｜bitbank"
+        description="DeFiに進む前に、まず国内の安全な取引所（bitbank・コインチェック）で仮想通貨を保有するのが基本。余裕資金で慎重にDeFiに展開しましょう。"
+        buttonText="bitbankの詳細"
+        href="https://bitbank.cc/"
+        icon="⛓️"
+        highlight="業界最高セキュリティ"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">DeFi投資は上級者向け</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>英語でDeFiプロトコルを理解できる</li>
+          <li>MetaMaskウォレットの扱いに慣れている</li>
+          <li>ガス代高騰期でも利益が出る資金規模</li>
+          <li>余裕資金の5%以内で始める</li>
+          <li>税務申告を自力でできる（または税理士契約）</li>
+        </ul>
+      </section>
+    </>
+  ),
 };
