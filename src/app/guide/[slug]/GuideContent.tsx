@@ -14619,4 +14619,518 @@ const guideContents: Record<string, React.ReactNode> = {
       />
     </>
   ),
+  "hoken-mammoth-review": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">保険マンモスのサービス概要</h2>
+        <p>
+          保険マンモスは、大手FP法人が運営する無料保険相談サービス。全国対応で47都道府県にFPが在籍し、30社以上の保険会社から中立的に最適プランを提案。相談料完全無料で、強引な勧誘もなく、ユーザーが納得できる保険選びをサポートします。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="保険マンモスの5つの特徴"
+        services={[
+          {
+            name: "全国対応・47都道府県のFP",
+            rank: 1,
+            highlight: "自宅・カフェ・オンラインで相談可",
+            features: [
+              "47都道府県すべてにFP在籍",
+              "対面・訪問・オンラインで相談可",
+              "土日祝も対応",
+              "相談料完全無料",
+            ],
+            href: "https://www.hoken-mammoth.com/",
+            badge: "業界大手",
+          },
+          {
+            name: "取扱保険会社30社以上",
+            rank: 2,
+            highlight: "中立的な比較提案",
+            features: [
+              "大手30社以上の保険会社を取扱",
+              "生命保険・医療保険・ガン保険・学資保険",
+              "ユーザーニーズに最適な商品を提案",
+              "特定保険会社に偏らない中立提案",
+            ],
+            href: "https://www.hoken-mammoth.com/",
+          },
+          {
+            name: "強引な勧誘なしの安心感",
+            rank: 3,
+            highlight: "イエローカード制で管理",
+            features: [
+              "強引な勧誘は厳禁（イエローカード制）",
+              "コンプライアンス教育徹底",
+              "納得できなければ契約不要",
+              "FPの変更も可能",
+            ],
+            href: "https://www.hoken-mammoth.com/",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">保険マンモス vs 他サービス比較</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>保険マンモス</strong>：全国47都道府県、30社以上、相談料無料</li>
+          <li><strong>保険見直しラボ</strong>：30社以上、業界経験平均12年超のベテランFP</li>
+          <li><strong>マネプロ</strong>：IFA所属、保険＋資産運用も総合相談</li>
+          <li><strong>ほけんのトータルプロフェッショナル</strong>：ハウスメーカー提携で住宅ローン連携強い</li>
+          <li><strong>リクルートほけん比較</strong>：全国350店舗、リクルートID連携</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="保険マンモスで無料相談｜全国対応"
+        description="保険の見直し・新規加入を考えているなら、保険マンモスの無料相談が最速。47都道府県のFPが対面・オンライン対応、30社以上から最適プラン提案。"
+        buttonText="保険マンモスの詳細"
+        href="https://www.hoken-mammoth.com/"
+        icon="🦣"
+        highlight="相談料完全無料"
+      />
+    </>
+  ),
+  "matsui-securities-review": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">松井証券の特徴</h2>
+        <p>
+          松井証券は創業100年超の老舗ネット証券。25歳以下の日本株売買手数料無料、投信の信託報酬一部をポイントとして還元する独自サービス、NISA口座の取扱銘柄数の豊富さで差別化。サポート品質の高さでも知られ、初心者から上級者まで幅広く支持されています。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="松井証券の5大メリット"
+        services={[
+          {
+            name: "25歳以下 日本株手数料無料",
+            rank: 1,
+            highlight: "若年層に圧倒的有利",
+            features: [
+              "25歳以下は日本株売買手数料無料",
+              "1日の約定代金制限なし",
+              "NISA対応",
+              "若者に優しい料金体系",
+            ],
+            href: "https://www.matsui.co.jp/",
+            badge: "若年層No.1",
+          },
+          {
+            name: "投信保有で松井ポイント還元",
+            rank: 2,
+            highlight: "信託報酬の一部を還元",
+            features: [
+              "投信の信託報酬の一部がポイントとして還元",
+              "独自の還元制度",
+              "Amazonギフト等に交換可",
+              "長期保有で差が大きい",
+            ],
+            href: "https://www.matsui.co.jp/",
+          },
+          {
+            name: "新NISA対応",
+            rank: 3,
+            highlight: "投信ラインナップ豊富",
+            features: [
+              "新NISA口座でも日本株売買可",
+              "投信取扱1,800本超",
+              "eMAXIS Slim・SBI・Vシリーズ対応",
+              "クレカ積立は非対応",
+            ],
+            href: "https://www.matsui.co.jp/",
+          },
+          {
+            name: "手厚いサポート",
+            rank: 4,
+            highlight: "株の問合せ対応に定評",
+            features: [
+              "株の相談窓口が手厚い",
+              "オリコン顧客満足度上位常連",
+              "初心者向けセミナー・教育コンテンツ豊富",
+              "電話・メール・チャット対応",
+            ],
+            href: "https://www.matsui.co.jp/",
+          },
+          {
+            name: "iDeCo手数料業界最安水準",
+            rank: 5,
+            highlight: "iDeCoも取扱",
+            features: [
+              "iDeCo運営管理手数料0円",
+              "投信ラインナップ充実",
+              "40代以降のiDeCoにも最適",
+              "サポート充実",
+            ],
+            href: "https://www.matsui.co.jp/service/nisa/",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">松井証券 vs 他ネット証券比較</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>松井証券</strong>：25歳以下手数料無料、投信ポイント還元、サポート充実</li>
+          <li><strong>SBI証券</strong>：総合力No.1、クレカ積立1%、IPO業界最多</li>
+          <li><strong>楽天証券</strong>：楽天経済圏、楽天カード積立1%</li>
+          <li><strong>マネックス証券</strong>：クレカ積立1.1%、米国株取扱4,000銘柄</li>
+          <li><strong>選び方</strong>：若者は松井、総合は SBI、楽天ユーザーは楽天、米国株はマネックス</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="松井証券 iDeCoはコスパ抜群｜運営管理手数料0円"
+        description="松井証券のiDeCoは運営管理手数料0円、投信ラインナップも充実。手厚いサポートで初心者にも安心、40代以降のiDeCo開始に最適。"
+        buttonText="松井証券 iDeCoの詳細"
+        href="https://www.matsui.co.jp/service/nisa/"
+        icon="🌸"
+        highlight="手数料0円"
+      />
+    </>
+  ),
+  "coconala-side-business-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">ココナラで月5〜20万円の副収入</h2>
+        <p>
+          ココナラは日本最大級のスキルマーケット。ライティング・デザイン・動画編集・占い・相談等、自分のスキルを500円〜10万円で販売できます。登録300万人以上のユーザーの中で、月5〜20万円を稼ぐ副業ユーザーも多数。会社員の副業として最短で収益化できるプラットフォームです。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="ココナラで稼ぎやすいカテゴリTOP5"
+        services={[
+          {
+            name: "ライティング・ブログ執筆",
+            rank: 1,
+            highlight: "月5〜15万円｜文章スキル活用",
+            features: [
+              "記事執筆：1記事3,000〜1万円",
+              "セールスコピー：1案件1〜5万円",
+              "ブログ代行：月1〜5万円/クライアント",
+              "ライティング未経験でも始めやすい",
+            ],
+            href: "https://coconala.com/",
+            badge: "初心者向き",
+          },
+          {
+            name: "デザイン",
+            rank: 2,
+            highlight: "月10〜30万円｜スキル次第",
+            features: [
+              "ロゴ制作：5,000〜5万円",
+              "LP制作：3〜20万円",
+              "Youtubeサムネ：1件1,000〜5,000円",
+              "Canvaレベルから始められる",
+            ],
+            href: "https://coconala.com/",
+          },
+          {
+            name: "動画編集",
+            rank: 3,
+            highlight: "月5〜20万円｜YouTube需要",
+            features: [
+              "YouTube編集：1本3,000〜3万円",
+              "TikTok・Instagramリール編集：1本2,000〜1万円",
+              "セミナー動画：1本1〜5万円",
+              "Premiere Pro・Final Cut Pro習得で高単価",
+            ],
+            href: "https://coconala.com/",
+          },
+          {
+            name: "占い・心理カウンセリング",
+            rank: 4,
+            highlight: "月3〜15万円｜独占市場",
+            features: [
+              "占い：1件500〜5,000円",
+              "悩み相談：1時間3,000〜1万円",
+              "リピーター獲得で安定収入",
+              "資格・専門性があれば単価UP",
+            ],
+            href: "https://coconala.com/",
+          },
+          {
+            name: "Web制作・プログラミング",
+            rank: 5,
+            highlight: "月10〜50万円｜高単価",
+            features: [
+              "WordPress構築：3〜30万円",
+              "コーディング：1ページ1〜5万円",
+              "システム開発：10〜100万円",
+              "技術スキル必須だが圧倒的に稼げる",
+            ],
+            href: "https://coconala.com/",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">ココナラで月20万円稼ぐ5ステップ</h2>
+        <ol className="list-decimal list-inside space-y-2 text-sm">
+          <li><strong>Step1</strong>：スキル棚卸＋出品カテゴリ決定</li>
+          <li><strong>Step2</strong>：プロフィール・出品ページ作成（写真・自己紹介・実績）</li>
+          <li><strong>Step3</strong>：初回価格を安めに設定、レビュー獲得（最初10件）</li>
+          <li><strong>Step4</strong>：レビュー5件＋販売実績10件で価格を50%UP</li>
+          <li><strong>Step5</strong>：リピーター獲得＋SNS連携で月20万円超</li>
+        </ol>
+      </section>
+      <AffiliateCTA
+        title="ココナラで副業デビュー｜登録無料"
+        description="日本最大級のスキルマーケット。登録300万人超、出品350万件以上で需要が豊富。自分のスキルを500円から販売して、月5〜20万円の副収入を実現可能。"
+        buttonText="ココナラに無料登録"
+        href="https://coconala.com/"
+        icon="🎯"
+        highlight="登録無料"
+      />
+    </>
+  ),
+  "suraraa-online-learning-review": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">すららの特徴</h2>
+        <p>
+          すららネットは、不登校児童・発達障害の子供向けに特化したAI学習システム。小学1年生〜高校3年生までの英・数・国・理・社を網羅し、AIが子供の理解度に合わせて問題を自動調整。出席扱いになる自治体も多く、2024年時点で全国1,000校以上の学校で採用されています。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="すららの3つのメリット"
+        services={[
+          {
+            name: "AI教材で自分のペースで学習",
+            rank: 1,
+            highlight: "月8,800円〜｜家庭学習を自動化",
+            features: [
+              "小学1年〜高校3年の全科目カバー",
+              "AIが理解度に合わせて問題生成",
+              "発達障害・ADHD・アスペルガー対応",
+              "月8,800円〜（4教科コース）",
+            ],
+            href: "https://surala.jp/",
+            badge: "AI特化",
+          },
+          {
+            name: "不登校でも出席扱い",
+            rank: 2,
+            highlight: "文科省ガイドライン対応",
+            features: [
+              "全国1,000校以上で出席扱い認定",
+              "文部科学省のガイドラインに準拠",
+              "学校と連携して証明書発行",
+              "進学・進級への影響を最小化",
+            ],
+            href: "https://surala.jp/",
+          },
+          {
+            name: "すららコーチが学習サポート",
+            rank: 3,
+            highlight: "子どもの学習状況を可視化",
+            features: [
+              "専属すららコーチが学習計画作成",
+              "親への学習状況レポート",
+              "モチベーション維持のサポート",
+              "保護者も安心の伴走体制",
+            ],
+            href: "https://surala.jp/",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">料金プラン</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>小中コース（3教科：国・数・英）</strong>：月8,800円〜</li>
+          <li><strong>小中コース（4教科）</strong>：月9,900円〜</li>
+          <li><strong>中高コース（3教科）</strong>：月8,800円〜</li>
+          <li><strong>小中高5教科コース</strong>：月10,978円〜</li>
+          <li>入会金7,700円〜（4教科コースは11,000円）</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="すらら無料体験｜不登校・発達障害の子に"
+        description="すららは不登校・発達障害児童向け学習システム。無料体験受講で子どもの学習スタイルに合うか確認可能。全国1,000校以上で出席扱い認定も。"
+        buttonText="すらら無料体験"
+        href="https://surala.jp/"
+        icon="🎓"
+        highlight="無料体験あり"
+      />
+    </>
+  ),
+  "epos-card-detailed-review": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">エポスカードの特徴</h2>
+        <p>
+          エポスカードは年会費永年無料・即日発行・海外旅行保険自動付帯（最大500万円）の3拍子揃った優秀カード。マルイ系列の優待・ゴールドカードへのインビテーション・プラチナステータスへの道筋まで、コスパ最強クラスの1枚です。サブカードとしても、メインカードとしても機能します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="エポスカード5大メリット"
+        services={[
+          {
+            name: "年会費永年無料",
+            rank: 1,
+            highlight: "一生涯無料で維持可能",
+            features: [
+              "年会費・入会金・更新料すべて無料",
+              "保有するだけでコスト0",
+              "即日発行（マルイ店頭）",
+              "VISAブランドで世界中で使える",
+            ],
+            href: "https://www.eposcard.co.jp/",
+            badge: "コスパNo.1",
+          },
+          {
+            name: "海外旅行保険自動付帯",
+            rank: 2,
+            highlight: "持ってるだけで最大500万円補償",
+            features: [
+              "傷害治療200万円・疾病治療270万円",
+              "携帯品損害20万円",
+              "自動付帯なので利用しなくても適用",
+              "年会費無料カードで最高水準",
+            ],
+            href: "https://www.eposcard.co.jp/",
+          },
+          {
+            name: "マルイ系列優待",
+            rank: 3,
+            highlight: "マルコとマルオの日は10%OFF",
+            features: [
+              "マルイ・モディで年4回10%OFF（マルコとマルオの日）",
+              "マルイのネット通販でも優待対象",
+              "年間20〜50万円マルイ利用なら大きい",
+              "優待店舗10,000店以上",
+            ],
+            href: "https://www.eposcard.co.jp/",
+          },
+          {
+            name: "ゴールドカードへの招待",
+            rank: 4,
+            highlight: "年50万円利用でインビテーション",
+            features: [
+              "年間50万円利用でゴールドインビテーション",
+              "エポスゴールド年会費永年無料に",
+              "年間100万円利用で1万ポイントボーナス",
+              "空港ラウンジ無料利用可",
+            ],
+            href: "https://www.eposcard.co.jp/",
+          },
+          {
+            name: "プラチナカードへの道",
+            rank: 5,
+            highlight: "ゴールドから招待で年会費20,000円",
+            features: [
+              "エポスプラチナ年会費20,000円（招待制）",
+              "家族カード・プライオリティパス付帯",
+              "100万円利用で2万ポイントボーナス",
+              "年200万円利用で実質年会費無料",
+            ],
+            href: "https://www.eposcard.co.jp/",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">エポスカード発行の手順</h2>
+        <ol className="list-decimal list-inside space-y-2 text-sm">
+          <li>エポスカード公式サイトで申込（Web審査3〜5分）</li>
+          <li>マルイ店頭で即日発行 or 郵送（約1週間）</li>
+          <li>エポスNetに登録、アプリインストール</li>
+          <li>年間50万円利用でゴールドインビテーション獲得</li>
+          <li>ゴールド→プラチナへのステップアップ</li>
+        </ol>
+      </section>
+      <AffiliateCTA
+        title="エポスカード｜年会費無料＋海外旅行保険"
+        description="年会費永年無料で海外旅行保険最大500万円付帯、マルイで10%OFF、ゴールド・プラチナへの道もあるコスパ最強1枚。即日発行可能。"
+        buttonText="エポスカード申込"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+MMIJE+38L8+BY641"
+        icon="💳"
+        highlight="年会費永年無料"
+      />
+    </>
+  ),
+  "housing-consultation-builder-comparison": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">ハウスメーカー選びで失敗しない方法</h2>
+        <p>
+          注文住宅・分譲住宅の購入は、人生最大の買い物の一つ。ハウスメーカー・工務店選びで2,000〜5,000万円の予算を適正に使うには、複数業者の無料相談＋一括比較が必須。タウンライフ家づくり・HOME4U家づくり等のサービスを使えば、最短5分で5〜10社から提案を受けられます。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="2026年 ハウスメーカー無料比較サービス"
+        services={[
+          {
+            name: "タウンライフ家づくり",
+            rank: 1,
+            highlight: "1,150社以上｜間取りプランも無料作成",
+            features: [
+              "全国1,150社以上のハウスメーカー・工務店と提携",
+              "間取りプラン・見積もり・土地提案を無料作成",
+              "3分で一括請求可能",
+              "家づくり計画書プレゼント",
+            ],
+            href: "https://www.town-life.jp/",
+            badge: "業界最大手",
+          },
+          {
+            name: "HOME4U家づくり",
+            rank: 2,
+            highlight: "NTTグループ｜大手ハウスメーカー中心",
+            features: [
+              "NTTデータ・スマートソーシング運営",
+              "大手ハウスメーカー中心の提携",
+              "プランニング比較が得意",
+              "家づくり計画書プレゼント",
+            ],
+            href: "https://house.home4u.jp/",
+          },
+          {
+            name: "LIFULL HOME'S",
+            rank: 3,
+            highlight: "不動産情報大手の信頼感",
+            features: [
+              "LIFULL HOME'S（不動産大手）運営",
+              "ハウスメーカー30社以上",
+              "資料請求・展示場予約も対応",
+              "住宅ローン試算機能付き",
+            ],
+            href: "https://house.homes.co.jp/",
+          },
+          {
+            name: "ほけんのトータルプロフェッショナル",
+            rank: 4,
+            highlight: "FP相談＋ハウスメーカー紹介のセット",
+            features: [
+              "全国270社以上のハウスメーカー・工務店と提携",
+              "FPによる住宅ローン・保険見直しもセット",
+              "家計設計から建築まで一元サポート",
+              "相談料完全無料",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=3Z6F6O+1YZZGQ+38BE+5YRHE",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">ハウスメーカー選びの5つのポイント</h2>
+        <ol className="list-decimal list-inside space-y-2 text-sm">
+          <li><strong>予算配分</strong>：建物60%・土地30%・諸費用10%の目安</li>
+          <li><strong>工法選び</strong>：木造軸組・ツーバイフォー・鉄骨・RCの特徴理解</li>
+          <li><strong>アフターサービス</strong>：保証期間（20年・30年・60年）と点検頻度</li>
+          <li><strong>住宅ローン審査</strong>：モゲチェック等で事前審査</li>
+          <li><strong>省エネ基準対応</strong>：ZEH・長期優良住宅で補助金活用</li>
+        </ol>
+      </section>
+      <AffiliateCTA
+        title="住宅ローンも合わせて比較｜モゲチェック"
+        description="ハウスメーカー選びと合わせて、住宅ローンも複数銀行で一括比較。モゲチェックなら金利差0.5%で総返済額100〜500万円削減の可能性。"
+        buttonText="モゲチェックの詳細"
+        href="https://www.mogecheck.jp/"
+        icon="🏠"
+        highlight="無料診断"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">家づくりの補助金・税制優遇</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>住宅ローン減税：年末残高×0.7%を10年間所得税控除</li>
+          <li>長期優良住宅：住宅ローン減税の上限UP＋登録免許税減免</li>
+          <li>ZEH補助金：55〜100万円</li>
+          <li>住宅取得資金贈与の特例：1,000万円まで非課税（父母・祖父母から）</li>
+          <li>すまい給付金（2024年以降は別制度へ移行）</li>
+        </ul>
+      </section>
+    </>
+  ),
 };
