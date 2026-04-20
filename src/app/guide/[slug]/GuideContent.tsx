@@ -17734,4 +17734,472 @@ const guideContents: Record<string, React.ReactNode> = {
       />
     </>
   ),
+  "trust-deed-investment-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">不動産小口化商品完全ガイド</h2>
+        <p>
+          不動産小口化商品は、高額な不動産（都心ビル等）を100万円〜の単位で分割投資できる商品。信託受益権型（信託受益権を小口化）と匿名組合型の2種類があり、利回り3〜6%で都心の優良不動産に投資可能。J-REITが市場価格で日々変動するのに対し、不動産小口化商品は物件保有期間中は安定、元本変動少なめ。相続税対策としても活用されます。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="不動産小口化商品 主要運営会社"
+        services={[
+          {
+            name: "SBI証券（不動産小口化商品取扱）",
+            rank: 1,
+            highlight: "大手運営会社の商品を厳選",
+            features: [
+              "都心オフィスビル・商業施設",
+              "利回り3〜6%",
+              "1口100万円〜",
+              "相続税対策に活用可能",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "業界No.1",
+          },
+          {
+            name: "家づくり相談所（不動産投資相談）",
+            rank: 2,
+            highlight: "不動産投資の総合相談",
+            features: [
+              "不動産小口化商品の選び方",
+              "現物投資との比較",
+              "J-REITとの使い分け",
+              "専門家紹介無料",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+3PD522+5OGA+5YZ75",
+            badge: "5,000円/件",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">不動産小口化商品のメリット</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>都心の優良不動産に100万円〜少額投資</li>
+          <li>利回り3〜6%で安定収益</li>
+          <li>運営は専門会社、手間不要</li>
+          <li>相続税評価減（不動産評価額の60〜80%）</li>
+          <li>現物不動産より流動性高い（専用市場で売却）</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="不動産投資の選び方相談は家づくり相談所で"
+        description="不動産小口化商品・J-REIT・現物投資の使い分けを家づくり相談所で無料相談。専門家が資産規模・目的に合わせて最適な不動産投資を提案。オンライン完結。"
+        buttonText="家づくり相談所で無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+3PD522+5OGA+5YZ75"
+        icon="🏘️"
+        highlight="無料相談"
+      />
+    </>
+  ),
+  "infrastructure-investment-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">インフラ投資完全ガイド｜安定収益の源</h2>
+        <p>
+          インフラ投資は、公益事業・空港・港湾・通信塔・太陽光発電など、社会基盤への投資。景気変動の影響を受けにくく、インフレに強い特徴あり。日本のインフラファンド（タカラレーベン・日本再生エネルギー等）、米国公益事業ETF（XLU）、空港・港湾株など多様な選択肢。利回り3〜6%の安定収益で、ポートフォリオの10〜15%配分が推奨されます。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="インフラ投資の主要商品"
+        services={[
+          {
+            name: "SBI証券（XLU等インフラETF取扱）",
+            rank: 1,
+            highlight: "米国インフラETF完備",
+            features: [
+              "XLU（米国公益事業ETF）",
+              "VPU（バンガード公益）",
+              "GLIN（グローバルインフラ）",
+              "日本インフラファンド",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "業界No.1",
+          },
+          {
+            name: "松井証券（日本インフラファンド）",
+            rank: 2,
+            highlight: "日本の太陽光発電ファンド",
+            features: [
+              "タカラレーベン・インフラファンド",
+              "日本再生エネルギーインフラ",
+              "分配金利回り6%〜",
+              "手数料無料",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1O+G6VESA+3XCC+6AZAQ",
+            badge: "1,000円/件",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">インフラ投資の3つの種類</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>①公益事業株・ETF</strong>：電力・ガス・水道、XLU・VPU等、利回り3〜4%</li>
+          <li><strong>②インフラファンド（日本）</strong>：太陽光発電、タカラレーベン等、利回り6%超</li>
+          <li><strong>③インフラ個別株</strong>：空港・港湾・通信塔、世界の個別企業</li>
+          <li>景気変動に強く、ディフェンシブ資産として有効</li>
+          <li>金利上昇局面は価格下落リスクあり</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="インフラ投資はSBI証券で｜XLU・VPU・日本ファンド完備"
+        description="SBI証券は米国公益事業ETF（XLU・VPU）・グローバルインフラETF・日本インフラファンドまで業界最多取扱。為替手数料無料（住信SBI連携）、新NISA成長枠対応。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="🏗️"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "emerging-markets-investment-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">新興国投資完全ガイド</h2>
+        <p>
+          新興国（中国・インド・ブラジル・メキシコ・インドネシア・ベトナム等）への投資は、GDP成長率5〜7%の高成長を取込める強力な手段。EEM（iShares）・VWO（Vanguard）等の新興国ETF、インドETF（INDA）、中国ETF（FXI・MCHI）で分散投資可能。政治・通貨リスクが高いため、ポートフォリオの10〜20%配分が目安です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="新興国投資の主要ETF"
+        services={[
+          {
+            name: "VWO（バンガード新興国）",
+            rank: 1,
+            highlight: "低コスト｜24カ国分散",
+            features: [
+              "信託報酬0.08%（業界最安）",
+              "中国・インド・台湾・ブラジル等",
+              "4000銘柄超の超分散",
+              "配当利回り3.0%",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "最安",
+          },
+          {
+            name: "EEM（iShares新興国）",
+            rank: 2,
+            highlight: "業界最古｜流動性最高",
+            features: [
+              "信託報酬0.69%",
+              "業界で最も歴史あり",
+              "流動性最高",
+              "オプション取引対応",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "FEZ（SPDR欧州新興）",
+            rank: 3,
+            highlight: "東欧・中東中心",
+            features: [
+              "ロシア・トルコ・ポーランド",
+              "原油・資源多め",
+              "信託報酬0.29%",
+              "為替変動大",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">新興国投資のリスクとリワード</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>GDP成長率5〜7%（先進国2〜3%）</li>
+          <li>過去20年リターン：年率7〜10%（先進国6〜8%）</li>
+          <li>リスク：政治・通貨危機（2014年トルコ・2024年アルゼンチン等）</li>
+          <li>ボラティリティ：先進国の1.5〜2倍</li>
+          <li>推奨配分：ポートフォリオの10〜20%</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="新興国ETFはSBI証券で｜VWO・EEM為替手数料無料"
+        description="SBI証券は新興国ETF（VWO・EEM・IEMG）を為替手数料無料（住信SBI連携）で取扱。中国・インド個別国ETFも豊富、新NISA成長枠対応で非課税運用可能。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="🌏"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "china-stock-investment-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">中国株投資完全ガイド</h2>
+        <p>
+          中国株投資の選択肢は、①香港H株（テンセント700、アリババ9988）、②米国ADR（JD.com、Baidu）、③中国ETF（FXI・MCHI・KWEB）の3ルート。2022〜2024年の規制強化・米中摩擦で株価低迷、2025年からのAI・EV産業回復で見直し局面。ポートフォリオの5%以内に抑え、政治リスク・上場廃止リスクを意識した分散投資が重要です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="中国株投資の主要ETF"
+        services={[
+          {
+            name: "MCHI（iShares MSCI 中国）",
+            rank: 1,
+            highlight: "中国株全体に分散｜信託報酬0.58%",
+            features: [
+              "香港H株＋米国ADR含む",
+              "600銘柄分散",
+              "信託報酬0.58%",
+              "テンセント・アリババ大型保有",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "分散No.1",
+          },
+          {
+            name: "FXI（iShares 中国大型株）",
+            rank: 2,
+            highlight: "香港H株50銘柄",
+            features: [
+              "香港H株の大型50銘柄",
+              "信託報酬0.74%",
+              "金融・エネルギー中心",
+              "ボラ少し低め",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "KWEB（KraneShares 中国インターネット）",
+            rank: 3,
+            highlight: "中国ネット企業特化｜ボラ大",
+            features: [
+              "テンセント・アリババ・JD・Baidu",
+              "信託報酬0.69%",
+              "ボラ高めで短期売買向き",
+              "成長回復期に大化け期待",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">中国株投資の注意点</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>米中摩擦・規制リスク：教育・ネット・ゲーム業界への規制</li>
+          <li>上場廃止リスク：米国ADRの上場廃止可能性</li>
+          <li>為替リスク：人民元・香港ドル・米ドル</li>
+          <li>不動産危機：エバーグランデ等の不動産企業デフォルト</li>
+          <li>ポートフォリオ配分：5%以内が安全</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="中国株投資はSBI証券で｜香港株・米国ADR両対応"
+        description="SBI証券は香港株（H株）・米国上場中国ADR・中国ETF（MCHI・FXI・KWEB）まで総合対応。為替手数料無料（住信SBI連携）、新NISA成長枠で非課税運用可能。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="🇨🇳"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "india-stock-investment-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">インド株投資完全ガイド</h2>
+        <p>
+          インドは2026年時点で世界第5位の経済大国、GDP成長率7%超の驚異的成長。2050年まで続く人口ボーナス（若年層比率高）で消費・IT・製薬産業が急成長中。新興国の中でも最も注目される投資先で、INDA・EPI・INDYのインドETF、ADRのインフォシス・HDFC銀行等、多様な投資手段がある。ポートフォリオの5〜10%配分が推奨されます。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="インド株投資の主要ETF"
+        services={[
+          {
+            name: "INDA（iShares MSCI インド）",
+            rank: 1,
+            highlight: "インド株全体｜流動性最高",
+            features: [
+              "インド全体に分散投資",
+              "85銘柄カバー",
+              "信託報酬0.64%",
+              "配当利回り0.8%",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "流動性No.1",
+          },
+          {
+            name: "EPI（WisdomTree インド利益）",
+            rank: 2,
+            highlight: "利益加重｜割安銘柄多め",
+            features: [
+              "利益額で加重配分",
+              "PER低め銘柄中心",
+              "信託報酬0.85%",
+              "バリュー系",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "INDY（iShares インド50）",
+            rank: 3,
+            highlight: "大型50銘柄特化",
+            features: [
+              "インド大型50銘柄",
+              "Nifty 50指数連動",
+              "信託報酬0.89%",
+              "流動性良好",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">インド投資の3つの追い風</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>①人口ボーナス</strong>：2050年まで若年層比率高</li>
+          <li><strong>②IT産業</strong>：世界のIT人材供給、輸出拡大</li>
+          <li><strong>③内需拡大</strong>：14億人の中間層拡大、消費拡大</li>
+          <li><strong>④モディノミクス</strong>：デジタルインフラ・製造業振興</li>
+          <li>過去10年リターン年率10〜15%、米国S&P500と同水準</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="インド株投資はSBI証券で｜INDA・EPI為替手数料無料"
+        description="SBI証券はインドETF（INDA・EPI・INDY）・インドADR（インフォシス等）まで完備。為替手数料無料（住信SBI連携）、新NISA成長枠で非課税運用可能。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="🇮🇳"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "semiconductor-etf-detailed-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">半導体ETF詳細ガイド｜AI時代の恩恵</h2>
+        <p>
+          半導体ETFは2020〜2024年で+300〜500%の驚異的リターンを実現、AI時代最大の恩恵銘柄。SOXX（iShares）・SMH（VanEck）・SOXL（3倍レバレッジ）の3つが主要選択肢。NVIDIA・TSMC・ASML・Broadcom等を保有、AIチップ需要拡大で今後も高成長期待。高ボラのため、ポートフォリオの5〜15%配分が適正です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="半導体ETF主要3銘柄比較"
+        services={[
+          {
+            name: "SOXX（iShares 半導体）",
+            rank: 1,
+            highlight: "業界最古｜NVIDIA・AVGO大型保有",
+            features: [
+              "30銘柄集中投資",
+              "NVIDIA 9%・AVGO 7%",
+              "信託報酬0.35%",
+              "流動性最高",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "王道",
+          },
+          {
+            name: "SMH（VanEck 半導体）",
+            rank: 2,
+            highlight: "世界半導体25銘柄｜TSMC含む",
+            features: [
+              "25銘柄集中投資",
+              "TSMC・NVIDIA大型保有",
+              "信託報酬0.35%",
+              "SOXXより集中度高い",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "SOXL（Direxion 半導体3倍）",
+            rank: 3,
+            highlight: "3倍レバレッジ｜超ハイリスク",
+            features: [
+              "SOXX指数の3倍連動",
+              "日次リバランス",
+              "信託報酬0.75%",
+              "長期保有非推奨（減価）",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">半導体投資の注意点</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>AI需要拡大で今後も高成長期待（年率20〜30%）</li>
+          <li>シクリカル（景気変動）性質：好不調波大きい</li>
+          <li>2022年に50%下落、2023〜2024年に300%回復の値動き</li>
+          <li>SOXLはレバレッジ減価リスクで長期保有NG</li>
+          <li>ポートフォリオの5〜15%配分目安</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="半導体ETF投資はSBI証券で｜SOXX・SMH為替手数料無料"
+        description="SBI証券は半導体ETF（SOXX・SMH・SOXL）を為替手数料無料で取扱。NVIDIA・TSMC・ASML等の個別株もカバー、新NISA成長枠で非課税運用可能。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="🔌"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "water-investment-etf-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">水関連ETF投資完全ガイド</h2>
+        <p>
+          水は21世紀の石油と呼ばれる戦略資源。気候変動・人口増加で水需要拡大、ヴェオリア・ペンテア・ザイレム等の水処理企業への投資が注目。PHO（米国水）・FIW（グローバル水）・CGW（水インフラ）の3つのETFで分散投資可能。ESG投資としても評価され、長期で年率8〜12%のリターン実績。ポートフォリオの5〜10%配分が推奨されます。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="水関連ETF主要3銘柄比較"
+        services={[
+          {
+            name: "PHO（Invesco 水資源）",
+            rank: 1,
+            highlight: "米国水企業｜利回り0.5%",
+            features: [
+              "米国水企業40銘柄",
+              "ペンテア・ザイレム・エコラボ等",
+              "信託報酬0.6%",
+              "配当利回り0.5%",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "米国特化",
+          },
+          {
+            name: "FIW（First Trust 水）",
+            rank: 2,
+            highlight: "グローバル水企業｜分散No.1",
+            features: [
+              "36銘柄のグローバル水企業",
+              "米国・欧州・日本含む",
+              "信託報酬0.54%",
+              "配当利回り0.8%",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "CGW（Invesco S&P グローバル水）",
+            rank: 3,
+            highlight: "水インフラ特化",
+            features: [
+              "50銘柄のグローバル水インフラ",
+              "ヴェオリア（仏）大型保有",
+              "信託報酬0.57%",
+              "配当利回り1.2%",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">水投資の追い風要因</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>気候変動で水不足地域拡大（2050年に40億人が影響）</li>
+          <li>水処理技術の需要拡大（淡水化・再利用）</li>
+          <li>国連SDGs目標6（水と衛生）で投資マネー流入</li>
+          <li>米国老朽インフラ更新需要（1兆ドル規模）</li>
+          <li>長期リターン：年率8〜12%（S&P500並み）</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="水関連ETFはSBI証券で｜PHO・FIW・CGW対応"
+        description="SBI証券は水関連ETF（PHO・FIW・CGW）・水インフラ個別株（ヴェオリア・ペンテア・ザイレム等）まで完備。ESG投資の柱として、新NISA成長枠で非課税運用可能。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="💧"
+        highlight="業界No.1"
+      />
+    </>
+  ),
 };
