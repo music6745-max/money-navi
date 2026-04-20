@@ -19906,4 +19906,416 @@ const guideContents: Record<string, React.ReactNode> = {
       />
     </>
   ),
+  "side-business-kakutei-shinkoku-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">副業の確定申告完全ガイド</h2>
+        <p>
+          副業所得の年間合計が20万円を超えたら確定申告義務。青色申告（65万円控除）の活用、必要経費の正しい計上、マイナンバー記載、住民税の普通徴収選択（副業バレ回避）、eTax電子申告までを解説。正しい知識で節税＋副業バレ防止を両立、年間10〜30万円の節税効果も可能です。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">副業申告の5つのポイント</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>①所得20万円超</strong>で確定申告義務（収入ではなく所得＝収入−経費）</li>
+          <li><strong>②青色申告</strong>：開業届＋青色申告承認申請で65万円控除</li>
+          <li><strong>③必要経費</strong>：仕事用通信費・取材費・書籍・家賃按分等</li>
+          <li><strong>④住民税</strong>：申告時に「自分で納付」選択で会社に副業バレ回避</li>
+          <li><strong>⑤e-Tax</strong>：電子申告で10万円控除追加（青色申告とe-Taxで65万円）</li>
+        </ul>
+      </section>
+      <ComparisonTableCTA
+        title="副業の会計・申告サポート"
+        services={[
+          {
+            name: "マネーフォワード（クラウド確定申告）",
+            rank: 1,
+            highlight: "月1078円で副業申告完結",
+            features: [
+              "月額1,078円〜（業界最安）",
+              "銀行・カード自動連携",
+              "青色申告65万円控除対応",
+              "e-Tax電子申告",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+4A7B8A+2PEO+OK4PD",
+            badge: "EPC 22.73",
+          },
+          {
+            name: "ココナラ（税理士マッチング）",
+            rank: 2,
+            highlight: "副業申告専門税理士",
+            features: [
+              "確定申告代行3万円〜",
+              "副業開始の相談5000円〜",
+              "税務調査対応",
+              "会員登録無料",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+4A7B8A+2PEO+OK4PD",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">経費計上できる副業費目</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>通信費：仕事用スマホ・Wi-Fi（家事按分30〜50%）</li>
+          <li>書籍・セミナー：事業関連の学習費</li>
+          <li>交通費：打合せ・取材・出張</li>
+          <li>家賃按分：作業スペース面積分（総家賃の20〜30%）</li>
+          <li>水道光熱費：家事按分（家賃同様）</li>
+          <li>パソコン・備品：減価償却対象（10万円未満は一括経費）</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="副業の確定申告はマネフォ＋税理士で｜月1078円〜"
+        description="マネーフォワード（月1,078円）で青色申告65万円控除を自動化、難しい経費判断は ココナラの税理士に相談（5000円〜）。副業年収300万円なら節税効果10〜30万円、元は即取れます。"
+        buttonText="ココナラで税理士を探す"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+4A7B8A+2PEO+OK4PD"
+        icon="📝"
+        highlight="登録無料"
+      />
+    </>
+  ),
+  "medical-expense-deduction-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">医療費控除完全ガイド</h2>
+        <p>
+          医療費控除は、年間の医療費が10万円（所得200万円以下は所得の5%）を超えた分を所得から控除する制度。家族分合算OK、出産・歯科治療・介護費用・交通費も対象。セルフメディケーション税制（市販薬12,000円超）との選択制で、年間5〜10万円の還付金獲得が現実的です。サラリーマン・自営業問わず活用できます。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">医療費控除の対象費目</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>①診療・治療費</strong>：病院・歯科・整骨院（一部）</li>
+          <li><strong>②出産・不妊治療</strong>：検査・入院・出産費用</li>
+          <li><strong>③医薬品</strong>：医師処方薬・市販薬（治療目的）</li>
+          <li><strong>④介護費用</strong>：一部の介護サービス</li>
+          <li><strong>⑤交通費</strong>：通院・入院の公共交通機関</li>
+          <li>対象外：健康診断・予防接種・美容整形・サプリ</li>
+        </ul>
+      </section>
+      <ComparisonTableCTA
+        title="医療費控除の申告サポート"
+        services={[
+          {
+            name: "ココナラ（税理士マッチング）",
+            rank: 1,
+            highlight: "確定申告代行5000円〜",
+            features: [
+              "医療費控除の代行申告",
+              "家族分の最適化アドバイス",
+              "eTax電子申告対応",
+              "会員登録無料",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+4A7B8A+2PEO+OK4PD",
+            badge: "EPC 22.73",
+          },
+          {
+            name: "保険マンモス（医療保険見直し）",
+            rank: 2,
+            highlight: "高額医療費の備え",
+            features: [
+              "医療費控除＋医療保険の総合見直し",
+              "高額療養費制度との組合せ",
+              "がん保険・先進医療特約",
+              "完全無料相談",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+            badge: "EPC 31.06",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">医療費控除の節税効果</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>年間医療費50万円・所得税率20%→控除額40万円×20%＝還付8万円</li>
+          <li>住民税も10%減額→追加4万円軽減</li>
+          <li>年間合計12万円の節税効果</li>
+          <li>家族分合算で還付額さらに拡大</li>
+          <li>e-Tax電子申告で時間短縮、スマホ申告も可能</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="医療費控除＋医療保険見直しは保険マンモスで｜無料相談"
+        description="医療費控除で還付金獲得＋医療保険の見直しを保険マンモスで無料相談。高額療養費制度・がん保険・先進医療特約の組合せで、万一の医療費に備える最適設計を提案。"
+        buttonText="保険マンモスで無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM"
+        icon="💊"
+        highlight="無料相談"
+      />
+    </>
+  ),
+  "ideco-product-selection-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">iDeCo商品選定完全ガイド</h2>
+        <p>
+          iDeCoは運用商品で手取りが大きく変わる。eMAXIS Slim全世界株式・S&P500等の低コストインデックスが王道、アクティブファンドは選び方次第、バランス型は手間なし運用に最適。年代別の配分（20代：株式100%、50代：株式60%+債券40%）、スイッチング戦略、受取時の税金まで、SBI・楽天・松井のiDeCo商品選定を完全解説します。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">iDeCoおすすめ商品タイプ別</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>王道インデックス</strong>：eMAXIS Slim全世界株式・S&P500（信託報酬0.05〜0.1%）</li>
+          <li><strong>低コストバランス</strong>：楽天・全世界バランス（株式60%型、信託報酬0.2%）</li>
+          <li><strong>米国集中</strong>：iFree S&P500、信託報酬0.15%</li>
+          <li><strong>先進国株式</strong>：eMAXIS Slim先進国株式、信託報酬0.1%</li>
+          <li><strong>債券含む</strong>：年代上がったらスイッチング検討</li>
+        </ul>
+      </section>
+      <ComparisonTableCTA
+        title="iDeCoおすすめ金融機関"
+        services={[
+          {
+            name: "SBI証券 iDeCo（加入者No.1）",
+            rank: 1,
+            highlight: "商品数最多｜運営手数料無料",
+            features: [
+              "加入者業界No.1",
+              "eMAXIS Slim全世界・S&P500",
+              "運営管理手数料無料",
+              "37商品のラインナップ",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "業界No.1",
+          },
+          {
+            name: "松井証券 iDeCo",
+            rank: 2,
+            highlight: "40本厳選｜シンプル選択",
+            features: [
+              "40本厳選ラインナップ",
+              "運営管理手数料無料",
+              "低コストインデックス中心",
+              "顧客サポート充実",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1O+EKIXI2+3XCC+BXIYQ",
+            badge: "500円/件",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">年代別配分モデル</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>20〜30代：全世界株式100%（eMAXIS Slim全世界）</li>
+          <li>40代：全世界株式80%＋先進国債券20%</li>
+          <li>50代前半：全世界株式60%＋先進国債券30%＋定期預金10%</li>
+          <li>50代後半：株式40%＋債券40%＋定期預金20%（スイッチング開始）</li>
+          <li>60歳受給直前：定期預金中心（暴落リスク回避）</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="iDeCoは松井証券で｜運営管理手数料無料＋40本厳選"
+        description="松井証券iDeCoは運営管理手数料無料、40本厳選ラインナップで初心者も迷わない。eMAXIS Slim全世界株式・S&P500等の低コスト商品で、年60万円超の節税＋非課税運用を実現。"
+        buttonText="松井証券iDeCoの詳細"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1O+EKIXI2+3XCC+BXIYQ"
+        icon="🎯"
+        highlight="手数料無料"
+      />
+    </>
+  ),
+  "nisa-insurance-ideco-compare": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">NISA vs 保険 vs iDeCo 3制度比較</h2>
+        <p>
+          資産形成の3つの柱：新NISA（非課税枠年360万円）・iDeCo（全額所得控除）・生命保険（死亡保障＋一部運用）。それぞれ目的・税制優遇・流動性が異なり、最適な組合せで年100万円超の節税効果も。所得税率20%以上の会社員は「iDeCo 27.6万円＋NISA 360万円＋最小限の保険」が王道、所得税率低い若年層はNISA優先の配分が効率的です。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">3制度の特徴比較</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>新NISA</strong>：年360万円非課税、流動性高、生涯1800万円まで</li>
+          <li><strong>iDeCo</strong>：全額所得控除＋運用益非課税＋受取時控除、60歳まで引出不可</li>
+          <li><strong>生命保険</strong>：死亡保障＋一部運用、相続対策に有効、流動性低</li>
+          <li>目的：NISA=資産形成、iDeCo=老後資金、保険=死亡保障</li>
+          <li>税制優遇：iDeCo＞NISA＞保険の順</li>
+        </ul>
+      </section>
+      <ComparisonTableCTA
+        title="3制度活用のおすすめサービス"
+        services={[
+          {
+            name: "SBI証券（NISA＋iDeCo）",
+            rank: 1,
+            highlight: "2大税制優遇制度を集約",
+            features: [
+              "新NISA年360万円非課税",
+              "iDeCo運営管理手数料無料",
+              "クレカ積立1〜3%還元",
+              "加入者業界No.1",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "業界No.1",
+          },
+          {
+            name: "保険マンモス（保険最適化）",
+            rank: 2,
+            highlight: "最小限の保険で相続対策",
+            features: [
+              "必要最低限の生命保険",
+              "終身保険の非課税枠活用",
+              "医療保険・がん保険見直し",
+              "完全無料相談",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+            badge: "EPC 31.06",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">年収別の最適配分</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>年収300万円：NISAつみたて月3万円＋iDeCo月1万円＋掛捨保険のみ</li>
+          <li>年収500万円：NISA月10万円＋iDeCo月2.3万円＋終身保険500万円</li>
+          <li>年収800万円：NISA年360万円満額＋iDeCo月2.3万円＋相続対策の終身</li>
+          <li>年収1000万円超：上記＋ふるさと納税＋マイクロ法人検討</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="NISA＋iDeCoの集約はSBI証券で｜業界No.1"
+        description="SBI証券は新NISA＋iDeCoの2大制度に対応、合計年600万円超の税制優遇枠を活用可能。クレカ積立1〜3%還元、eMAXIS Slim等の低コスト商品で長期資産形成のベスト。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="⚖️"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "micro-investing-1000yen-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">1000円から始める投資</h2>
+        <p>
+          投資スタートに数百万円は不要。1000円・1万円から始められる少額投資が現代のスタンダード。投信は100円〜、単元未満株は1株〜、ETFは1口〜購入可能。SBI・楽天・松井のミニ株取引手数料無料化で、コスト障壁も撤廃。積立投資の複利効果で、月1万円×20年運用→約400万円、月3万円→1200万円の資産形成が現実的です。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">1000円投資の4つの手段</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>①投資信託</strong>：100円〜、eMAXIS Slim全世界株式が王道</li>
+          <li><strong>②単元未満株（ミニ株）</strong>：1株から、数百円でAppleやトヨタを買える</li>
+          <li><strong>③ETF</strong>：1口〜、S&P500連動（VOO・1306）等</li>
+          <li><strong>④ポイント投資</strong>：楽天・Tポイント・dポイントで1円〜</li>
+        </ul>
+      </section>
+      <ComparisonTableCTA
+        title="少額投資におすすめの証券会社"
+        services={[
+          {
+            name: "SBI証券（S株・投信100円〜）",
+            rank: 1,
+            highlight: "単元未満株手数料無料",
+            features: [
+              "S株（単元未満株）手数料無料",
+              "投信100円〜積立",
+              "クレカ積立1%還元",
+              "業界No.1",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "業界No.1",
+          },
+          {
+            name: "松井証券（ミニ株手数料無料）",
+            rank: 2,
+            highlight: "50万円以下の取引手数料無料",
+            features: [
+              "50万円以下手数料無料",
+              "ミニ株取引",
+              "NISA対応",
+              "顧客サポート充実",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1O+G6VESA+3XCC+6AZAQ",
+            badge: "1,000円/件",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">月1万円・3万円・5万円の20年後</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>月1万円×20年（年利5%）：約410万円（元本240万円）</li>
+          <li>月3万円×20年：約1,230万円（元本720万円）</li>
+          <li>月5万円×20年：約2,050万円（元本1,200万円）</li>
+          <li>月1万円×40年：約1,530万円（元本480万円）</li>
+          <li>新NISA活用で非課税、複利効果最大化</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="少額投資はSBI証券で｜100円〜・S株手数料無料"
+        description="SBI証券は投信100円〜、S株（単元未満株）手数料無料で少額投資最適。新NISAつみたて枠＋クレカ積立1%還元で、月1万円からでも20年で400万円超の資産形成が可能。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="💴"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "insurance-cancel-refund-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">保険解約の判断ガイド</h2>
+        <p>
+          不要になった生命保険・医療保険の解約判断。解約返戻金（終身保険なら10〜20年で元本回収）、解約控除（契約10年以内は解約控除で返戻金減額）、乗換えタイミング、見直し先の選び方など、年数十万円の固定費削減事例多数。保険マンモス等の無料相談で客観的判断、月3〜5万円の保険料を月1万円に圧縮→年30万円の可処分所得アップが現実的です。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">解約を検討すべき保険</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>①加入時からライフスタイル変化（結婚・子供独立等）</li>
+          <li>②保険料負担が家計圧迫（手取りの5%超は過剰）</li>
+          <li>③同じ保障が公的制度でカバー（高額療養費・遺族年金）</li>
+          <li>④新しい保険の方が条件有利（解約返戻金含めて比較）</li>
+          <li>⑤運用型保険（予定利率低）→新NISAの方が効率的</li>
+        </ul>
+      </section>
+      <ComparisonTableCTA
+        title="保険解約・見直しサービス"
+        services={[
+          {
+            name: "保険マンモス（無料見直し相談）",
+            rank: 1,
+            highlight: "FPが客観的に判断",
+            features: [
+              "解約・継続の判断相談",
+              "保険商品の比較提案",
+              "月数万円の削減事例多数",
+              "完全無料相談",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+            badge: "EPC 31.06",
+          },
+          {
+            name: "SBI証券（解約返戻金の運用）",
+            rank: 2,
+            highlight: "解約返戻金を新NISAで運用",
+            features: [
+              "受取金を新NISA成長枠に",
+              "eMAXIS Slim等で長期運用",
+              "保険より高利回り期待",
+              "流動性も高い",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">保険解約の3ステップ</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>①現状把握：保険証券の内容・解約返戻金額確認</li>
+          <li>②代替保障の検討：公的制度・代替保険・貯蓄でカバー可能か</li>
+          <li>③解約手続き：保険会社に書面提出、解約返戻金受取（7〜10日）</li>
+          <li>注意：短期解約は解約控除で返戻金減、10年超なら元本割れしにくい</li>
+          <li>解約返戻金の運用は新NISAで非課税・長期複利が効率的</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="保険見直しは保険マンモスで｜完全無料FP相談"
+        description="不要な保険の解約・見直しを保険マンモスで無料相談。月数万円の保険料削減事例多数、削減分を新NISAで運用すれば20年で数百万円の資産形成。年1回の見直し推奨。"
+        buttonText="保険マンモスで無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM"
+        icon="🔄"
+        highlight="無料相談"
+      />
+    </>
+  ),
 };
