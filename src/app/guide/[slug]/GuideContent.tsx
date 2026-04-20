@@ -3061,6 +3061,14 @@ const guideContents: Record<string, React.ReactNode> = {
         href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+7USXWA+44CA+5YJRM"
         icon="💰"
       />
+      <AffiliateCTA
+        title="【西日本ファクター】借りずに資金調達・最短即日1,000万円"
+        description="株式会社西日本ファクター。手数料2.8%〜・最短即日1,000万円までの資金化。新規申込25,000円の高単価。法人経営者のキャッシュフロー改善に。"
+        buttonText="西日本ファクターで申し込む"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+7R8C9M+3XT0+5YJRM"
+        icon="🌅"
+        highlight="最短即日1,000万円"
+      />
     </>
   ),
   "investment-books-2026": (
