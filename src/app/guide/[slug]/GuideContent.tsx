@@ -15788,4 +15788,486 @@ const guideContents: Record<string, React.ReactNode> = {
       />
     </>
   ),
+  "moving-overseas-tax-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">海外移住の税金・年金完全ガイド</h2>
+        <p>
+          海外移住（非居住者化）すると、日本の税制上の扱いが大きく変わります。出国税（国外転出時課税、1億円以上の有価証券保有者対象）、住民税・所得税の非課税化、国民年金の任意加入、国際税務の基本を理解しなければ、二重課税や未納リスクがあります。5年ルール・10年ルールで居住者判定されるため、出国前の準備が重要です。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">出国前に必ずやるべき手続き</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>住民票の海外転出届</strong>：出国予定日14日前以降に市区町村に提出</li>
+          <li><strong>国民健康保険の脱退</strong>：転出届提出と同時に手続き</li>
+          <li><strong>国民年金の任意加入</strong>：保険料納付継続で将来の年金受給権を維持</li>
+          <li><strong>出国税の申告</strong>：有価証券1億円以上なら確定申告が必要</li>
+          <li><strong>納税管理人の選任</strong>：日本に不動産・賃貸収入ある場合</li>
+        </ul>
+      </section>
+      <ComparisonTableCTA
+        title="海外移住関連の相談窓口"
+        services={[
+          {
+            name: "保険マンモス（無料保険相談）",
+            rank: 1,
+            highlight: "海外移住前の保険見直し",
+            features: [
+              "海外移住時の生命保険の継続可否",
+              "海外傷害保険の選び方",
+              "日本の保険を海外で受取可能か",
+              "無料相談・オンライン対応",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+            badge: "EPC 31.06",
+          },
+          {
+            name: "SBI証券（海外移住後の運用継続）",
+            rank: 2,
+            highlight: "非居住者でも継続可能な口座",
+            features: [
+              "海外移住後も口座維持可能",
+              "NISA口座は原則解約必要",
+              "特定口座は継続保有可能",
+              "為替手数料無料で米ドル運用",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">海外移住後の確定申告</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>日本国内の不動産賃貸収入→確定申告必要（非居住者課税20.42%）</li>
+          <li>日本の会社からの給与→源泉徴収のみで完結（確定申告不要）</li>
+          <li>日本株の配当→15.315%源泉徴収（租税条約で軽減可能）</li>
+          <li>日本株の譲渡益→非居住者は原則非課税</li>
+          <li>海外口座の利子配当→現地国税のみ（日本は非課税）</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="海外移住前の保険見直しは保険マンモスで｜完全無料"
+        description="海外移住前後の保険見直しなら保険マンモス。生命保険の継続・海外傷害保険・医療保険など、海外移住者向けプランを複数社から比較。オンライン相談対応。"
+        buttonText="保険マンモスで無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM"
+        icon="✈️"
+        highlight="無料相談"
+      />
+    </>
+  ),
+  "divorce-financial-recovery-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">離婚時の財産分与完全ガイド</h2>
+        <p>
+          離婚時の財産分与は、婚姻中に築いた財産を原則1/2で分ける制度です。不動産・預貯金・退職金・年金など対象範囲は広く、住宅ローン残債や税金（譲渡所得税・贈与税）も考慮が必要。3号分割（会社員妻の厚生年金）と合意分割（協議で決める）の違い、離婚調停・財産分与請求の期限（2年）など、正しい知識が重要です。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">財産分与の対象になる資産</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>不動産</strong>：マイホーム・投資用不動産（住宅ローン残債控除後の純資産）</li>
+          <li><strong>預貯金・証券</strong>：婚姻期間中に積み立てた資産</li>
+          <li><strong>退職金</strong>：婚姻期間に対応する部分（別居時点の見込額）</li>
+          <li><strong>年金</strong>：厚生年金・共済年金（3号分割or合意分割）</li>
+          <li><strong>生命保険解約返戻金</strong>：婚姻期間中に積立てた部分</li>
+          <li><strong>対象外</strong>：特有財産（婚前資産・相続・贈与）</li>
+        </ul>
+      </section>
+      <ComparisonTableCTA
+        title="離婚時の資産関連サービス"
+        services={[
+          {
+            name: "保険マンモス（生命保険見直し）",
+            rank: 1,
+            highlight: "離婚後のライフプラン見直し",
+            features: [
+              "契約者・受取人変更の相談",
+              "シングル家計の保険設計",
+              "子供の学資保険の扱い",
+              "無料相談・オンライン対応",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+            badge: "11,278円/件",
+          },
+          {
+            name: "家づくり相談所（住宅売却・買替）",
+            rank: 2,
+            highlight: "離婚時の不動産処分相談",
+            features: [
+              "住宅ローン残債と財産分与",
+              "売却か共有継続かの判断",
+              "新居建築の相談",
+              "専門家紹介無料",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+3PD522+5OGA+5YZ75",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">財産分与に伴う税金の注意点</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>財産分与は原則贈与税非課税（配偶者間の精算のため）</li>
+          <li>不動産分与で時価相当→譲渡所得税（所有者）が発生</li>
+          <li>3000万円特別控除（居住用財産）で節税可能</li>
+          <li>分与額が過大な場合→贈与税対象となるリスク</li>
+          <li>離婚後2年以内に財産分与請求しないと時効</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="離婚後の保険見直しは保険マンモスで｜無料相談"
+        description="離婚後のシングル家計・子供の学資保険・生命保険受取人変更など、離婚前後の保険見直しを保険マンモスで無料相談。経験豊富なFPが対応。"
+        buttonText="保険マンモスで無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM"
+        icon="⚖️"
+        highlight="無料相談"
+      />
+    </>
+  ),
+  "child-allowance-expanded-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">2024年10月拡充後の児童手当制度</h2>
+        <p>
+          児童手当は2024年10月から大幅拡充：①所得制限の撤廃（高所得世帯も受給可）、②高校生年代（18歳年度末）まで支給延長、③第3子以降は月3万円（従来1.5万円）。新NISAとの併用、ジュニアNISA代替の投資戦略、申請方法を解説します。共働き子育て世帯は年間36〜108万円の公的支援を受けられる制度です。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">児童手当の支給額（2024年10月〜）</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>3歳未満</strong>：月1.5万円（第1子・第2子）、月3万円（第3子以降）</li>
+          <li><strong>3歳〜小学校修了</strong>：月1万円（第1子・第2子）、月3万円（第3子以降）</li>
+          <li><strong>中学生</strong>：月1万円（第1子・第2子）、月3万円（第3子以降）</li>
+          <li><strong>高校生年代</strong>：月1万円（第1子・第2子）、月3万円（第3子以降）※新設</li>
+          <li><strong>第3子カウント</strong>：22歳年度末まで兄姉を第1子とカウント</li>
+        </ul>
+      </section>
+      <ComparisonTableCTA
+        title="児童手当で始める子供の教育投資"
+        services={[
+          {
+            name: "すらら（小中高オンライン学習）",
+            rank: 1,
+            highlight: "AI搭載オンライン学習｜不登校でも安心",
+            features: [
+              "小1〜高3対応のAI学習",
+              "月額8,800円から",
+              "不登校児童の出席認定実績",
+              "発達障害児への配慮",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+54KF2Y+4CT0+60OXE",
+            badge: "EPC 15.56",
+          },
+          {
+            name: "SBI証券（新NISA成長枠で教育資金）",
+            rank: 2,
+            highlight: "児童手当をインデックス投資で運用",
+            features: [
+              "月1〜3万円を全世界株に積立",
+              "年利5%想定で18年間運用",
+              "18歳時点で500〜700万円",
+              "新NISA成長枠で非課税",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">児童手当の申請方法と注意点</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>出生後15日以内に市区町村に申請（遅延で翌月分からしか受給できない）</li>
+          <li>申請書＋健康保険証＋年金手帳＋印鑑＋マイナンバー</li>
+          <li>年2回（6月・10月）に現況届を提出</li>
+          <li>支給月：2月・6月・10月（4ヶ月分まとめて）</li>
+          <li>2024年10月以降、高所得世帯も新たに申請必要</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="児童手当を活かした教育資金づくりならすらら｜AI学習"
+        description="児童手当月1万円で、すららのAI学習（月8,800円〜）と教材費を実質無料化。小1〜高3まで一貫学習、不登校児童の出席認定実績も豊富。無料体験可能。"
+        buttonText="すららの無料体験"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+54KF2Y+4CT0+60OXE"
+        icon="👶"
+        highlight="無料体験"
+      />
+    </>
+  ),
+  "green-energy-investment-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">再生可能エネルギー投資完全ガイド</h2>
+        <p>
+          再エネ投資は、2030年までに電源構成36〜38%を再エネ化する国策を追い風に拡大中。太陽光・風力・地熱・水素などの投資手段は、個別株・ETF・グリーンボンド・太陽光クラウドファンディングなど多岐にわたります。FIT（固定価格買取）からFIP（市場価格連動プレミアム）への移行、ESG投資との連動、税制優遇（中小企業経営強化税制）まで解説します。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">再エネ投資の4つの方法</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>①再エネETF</strong>：iShares Global Clean Energy（ICLN）、信託報酬0.4%</li>
+          <li><strong>②個別株</strong>：ファーストソーラー・ヴェスタス・エネコム、日本はレノバ・Jクリエーション等</li>
+          <li><strong>③グリーンボンド</strong>：環境プロジェクト資金調達、利回り0.5〜2%</li>
+          <li><strong>④太陽光クラウドファンディング</strong>：1万円から投資可能、利回り4〜8%</li>
+        </ul>
+      </section>
+      <ComparisonTableCTA
+        title="再エネ投資のおすすめ証券会社"
+        services={[
+          {
+            name: "SBI証券（米国再エネETF・個別株）",
+            rank: 1,
+            highlight: "ICLN・TANなど再エネETF為替手数料無料",
+            features: [
+              "ICLN（グローバル再エネETF）取扱",
+              "TAN（ソーラーETF）取扱",
+              "ファーストソーラー等の米国株",
+              "新NISA成長枠で非課税",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "業界No.1",
+          },
+          {
+            name: "松井証券（日本の再エネ関連株）",
+            rank: 2,
+            highlight: "日本の再エネ株を手数料無料",
+            features: [
+              "50万円以下の取引手数料無料",
+              "レノバ・イーレックス等",
+              "NISA口座の手数料無料",
+              "顧客サポート充実",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1O+G6VESA+3XCC+6AZAQ",
+            badge: "1,000円/件",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">FIT/FIP制度と投資リスク</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>FIT（固定価格買取）：20年間固定、但し買取価格は年々低下（10円/kWh台）</li>
+          <li>FIP（市場価格連動）：2022年4月〜、市場価格+プレミアム</li>
+          <li>太陽光発電投資のリスク：出力抑制・パネル劣化・災害リスク</li>
+          <li>メリット：中小企業経営強化税制で即時償却or税額控除可能</li>
+          <li>ESG投資としての長期安定リターン（再エネ株は年5〜10%）</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="再エネETF・個別株はSBI証券で｜米国株為替手数料無料"
+        description="SBI証券は再エネETF（ICLN・TAN）と米国個別株（ファーストソーラー・ヴェスタス等）を為替手数料無料で取扱。新NISA成長枠で非課税運用可能。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="🌱"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "mid-career-retraining-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">40〜50代のリスキリング完全戦略</h2>
+        <p>
+          リスキリング（学び直し）は人生100年時代の必須スキル。教育訓練給付金（最大受講料の80%）、リスキリングを通じたキャリアアップ支援事業（企業経由で最大100万円補助）、自己啓発支援制度など、国・自治体の支援が豊富。IT・AI・データサイエンス・語学学習の需要が高く、40〜50代でも年収100〜200万円アップの転職が可能です。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">リスキリングで年収アップが狙える分野</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>IT・プログラミング</strong>：Python・JavaScript、平均年収500〜800万円</li>
+          <li><strong>AI・機械学習</strong>：TensorFlow・PyTorch、平均年収700〜1200万円</li>
+          <li><strong>データサイエンス</strong>：SQL・統計、平均年収600〜1000万円</li>
+          <li><strong>クラウド資格</strong>：AWS・Azure、平均年収600〜900万円</li>
+          <li><strong>語学（英語ビジネス）</strong>：TOEIC 800点以上で年収+100〜300万円</li>
+        </ul>
+      </section>
+      <ComparisonTableCTA
+        title="リスキリングおすすめサービス"
+        services={[
+          {
+            name: "すらら（社会人の学び直し）",
+            rank: 1,
+            highlight: "小中高の基礎からAI学習",
+            features: [
+              "数学・英語の基礎固め",
+              "AI学習で効率的",
+              "月額8,800円〜",
+              "教育訓練給付金対象外（自費）",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+54KF2Y+4CT0+60OXE",
+            badge: "EPC 15.56",
+          },
+          {
+            name: "ココナラ（副業・スキル販売）",
+            rank: 2,
+            highlight: "学んだスキルを副業収入化",
+            features: [
+              "プログラミング・デザインの副業",
+              "翻訳・コンサル販売",
+              "月5〜30万円の副収入実績",
+              "手数料10〜20%",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+4A7B8A+2PEO+OK4PD",
+            badge: "EPC 22.73",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">教育訓練給付金・リスキリング助成金の活用</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>一般教育訓練給付金：受講料の20%（上限10万円）</li>
+          <li>特定一般教育訓練給付金：受講料の40%（上限20万円）</li>
+          <li>専門実践教育訓練給付金：受講料の50〜70%（上限56万円）</li>
+          <li>リスキリングを通じたキャリアアップ支援事業：企業経由で最大75万円補助</li>
+          <li>人材開発支援助成金：企業が従業員の訓練に活用</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="学んだスキルを副業収入に｜ココナラで月5〜30万円"
+        description="プログラミング・デザイン・翻訳など学んだスキルをココナラで販売。400万人超のユーザー、月5〜30万円の副収入実績多数。登録無料で即販売開始。"
+        buttonText="ココナラに登録"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+4A7B8A+2PEO+OK4PD"
+        icon="🎓"
+        highlight="登録無料"
+      />
+    </>
+  ),
+  "senior-life-organization-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">生前整理完全ガイド｜終活で家族に迷惑をかけない</h2>
+        <p>
+          生前整理は、50〜70代から始める終活の核心。エンディングノート（法的効力なし）と遺言書（法的効力あり）、デジタル遺品（SNS・サブスク・暗号資産）整理、保険証券・不動産の整理、相続税対策、介護費用の準備など、死後の家族負担を大幅軽減できます。葬儀費用200〜300万円、相続税の10ヶ月以内申告など、予備知識が必須です。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">生前整理でやるべき7つのこと</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>①エンディングノート作成</strong>：資産・連絡先・葬儀希望を記載</li>
+          <li><strong>②遺言書作成</strong>：自筆証書遺言or公正証書遺言（3〜5万円）</li>
+          <li><strong>③デジタル遺品整理</strong>：SNSアカウント・サブスク・ネット銀行のID/PW管理</li>
+          <li><strong>④保険証券の整理</strong>：契約一覧を作成、不要保険を解約</li>
+          <li><strong>⑤不動産の処分検討</strong>：空き家売却or相続対策</li>
+          <li><strong>⑥介護費用の準備</strong>：介護保険・高齢者医療費</li>
+          <li><strong>⑦葬儀の事前相談</strong>：家族葬・直葬など形式決定</li>
+        </ul>
+      </section>
+      <ComparisonTableCTA
+        title="生前整理関連サービス"
+        services={[
+          {
+            name: "保険マンモス（保険整理・相続対策）",
+            rank: 1,
+            highlight: "生前の保険整理でスッキリ",
+            features: [
+              "生命保険の解約・減額相談",
+              "受取人変更・相続対策",
+              "医療保険・がん保険の見直し",
+              "相続税対策として終身保険活用",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+            badge: "11,278円/件",
+          },
+          {
+            name: "家づくり相談所（実家処分・小さな家）",
+            rank: 2,
+            highlight: "50代からの住替え相談",
+            features: [
+              "空き家の処分・売却",
+              "終の住処の建替え・リフォーム",
+              "バリアフリー住宅",
+              "専門家紹介無料",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+3PD522+5OGA+5YZ75",
+            badge: "5,000円/件",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">相続税対策の基礎</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>基礎控除：3000万円＋600万円×法定相続人数</li>
+          <li>生命保険の非課税枠：500万円×法定相続人数</li>
+          <li>生前贈与：年110万円まで非課税（暦年贈与）</li>
+          <li>相続時精算課税：2500万円までの特別控除</li>
+          <li>小規模宅地等の特例：自宅土地の評価額80%減</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="生前の保険整理・相続対策は保険マンモスで｜完全無料"
+        description="生命保険の整理・相続対策・受取人変更など、生前整理に必要な保険見直しを保険マンモスで無料相談。FPが50〜70代のニーズに合わせて提案。"
+        buttonText="保険マンモスで無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM"
+        icon="📔"
+        highlight="無料相談"
+      />
+    </>
+  ),
+  "gold-jewelry-buyback-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">金・宝石買取完全ガイド｜高額売却のコツ</h2>
+        <p>
+          2026年の金相場は1g1万円超と史上最高値を更新。不要な金・プラチナ・ダイヤモンド・時計・ブランド品は、買取店選びと査定のコツで売却額が20〜30%変わります。田中貴金属・なんぼや・大黒屋など大手の特徴、譲渡所得50万円控除、金の税務処理、買取詐欺の回避法まで実践的に解説します。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">買取対象とおすすめ買取店</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>金・プラチナ</strong>：田中貴金属（最高値・手数料低）、石福金属</li>
+          <li><strong>ダイヤモンド・宝石</strong>：GIA鑑定書付は専門店で高額査定</li>
+          <li><strong>ブランドバッグ</strong>：なんぼや・大黒屋・コメ兵</li>
+          <li><strong>高級時計</strong>：ロレックス・オメガ等は専門店で</li>
+          <li><strong>骨董・美術品</strong>：目利きある老舗店で鑑定</li>
+        </ul>
+      </section>
+      <ComparisonTableCTA
+        title="金・宝石売却後の運用先"
+        services={[
+          {
+            name: "SBI証券（金ETFで再投資）",
+            rank: 1,
+            highlight: "売却益で金ETFに再投資",
+            features: [
+              "SPDR ゴールド（1326）で金連動",
+              "物理金より信託報酬安い（0.4%）",
+              "新NISA成長枠で非課税",
+              "相場上昇時は即売却可能",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "業界No.1",
+          },
+          {
+            name: "松井証券（コモディティETF）",
+            rank: 2,
+            highlight: "金・銀・プラチナETFを手数料無料",
+            features: [
+              "50万円以下の取引手数料無料",
+              "純金上場信託（1540）取扱",
+              "NISA口座の手数料無料",
+              "顧客サポート充実",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1O+G6VESA+3XCC+6AZAQ",
+            badge: "1,000円/件",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">金・宝石売却時の税金</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>譲渡所得50万円特別控除（金・宝石は対象）</li>
+          <li>5年超保有で長期譲渡所得（所得額1/2で課税）</li>
+          <li>5年以下は短期譲渡所得（全額課税）</li>
+          <li>200万円超の売却は買取店から税務署に支払調書提出</li>
+          <li>副業的に繰返売却→事業所得となる可能性</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="金売却後の資産運用は松井証券で｜手数料無料"
+        description="金売却の現金を松井証券で運用。50万円以下の取引手数料無料、純金上場信託（1540）・金鉱株ETFなど豊富な商品ラインアップ。NISA口座の手数料も無料。"
+        buttonText="松井証券で口座開設"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1O+G6VESA+3XCC+6AZAQ"
+        icon="💍"
+        highlight="手数料無料"
+      />
+    </>
+  ),
 };
