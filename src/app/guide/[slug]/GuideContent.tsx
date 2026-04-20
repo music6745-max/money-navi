@@ -247,7 +247,7 @@ const guideContents: Record<string, React.ReactNode> = {
               "信託報酬に応じたポイント還元",
               "老舗証券のサポート体制",
             ],
-            href: "https://www.matsui.co.jp/ideco/",
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1O+EKIXI2+3XCC+BXIYQ",
           },
         ]}
       />
@@ -14759,7 +14759,7 @@ const guideContents: Record<string, React.ReactNode> = {
               "40代以降のiDeCoにも最適",
               "サポート充実",
             ],
-            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1O+G6VESA+3XCC+6AZAQ",
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1O+EKIXI2+3XCC+BXIYQ",
           },
         ]}
       />
