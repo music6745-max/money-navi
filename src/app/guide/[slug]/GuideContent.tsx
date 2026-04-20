@@ -14640,7 +14640,7 @@ const guideContents: Record<string, React.ReactNode> = {
               "土日祝も対応",
               "相談料完全無料",
             ],
-            href: "https://www.hoken-mammoth.com/",
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
             badge: "業界大手",
           },
           {
@@ -14653,7 +14653,7 @@ const guideContents: Record<string, React.ReactNode> = {
               "ユーザーニーズに最適な商品を提案",
               "特定保険会社に偏らない中立提案",
             ],
-            href: "https://www.hoken-mammoth.com/",
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
           },
           {
             name: "強引な勧誘なしの安心感",
@@ -14665,7 +14665,7 @@ const guideContents: Record<string, React.ReactNode> = {
               "納得できなければ契約不要",
               "FPの変更も可能",
             ],
-            href: "https://www.hoken-mammoth.com/",
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
           },
         ]}
       />
@@ -14680,12 +14680,12 @@ const guideContents: Record<string, React.ReactNode> = {
         </ul>
       </section>
       <AffiliateCTA
-        title="保険マンモスで無料相談｜全国対応"
-        description="保険の見直し・新規加入を考えているなら、保険マンモスの無料相談が最速。47都道府県のFPが対面・オンライン対応、30社以上から最適プラン提案。"
-        buttonText="保険マンモスの詳細"
-        href="https://www.hoken-mammoth.com/"
+        title="顧客満足度95%の保険相談なら保険マンモス"
+        description="保険の見直し・新規加入なら、保険マンモスの無料相談が最速。47都道府県のFPが対面・オンライン対応、30社以上から最適プラン提案。イエローカード制で強引勧誘なし。"
+        buttonText="無料保険相談の詳細"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM"
         icon="🦣"
-        highlight="相談料完全無料"
+        highlight="新規面談11,278円報酬"
       />
     </>
   ),
@@ -14710,7 +14710,7 @@ const guideContents: Record<string, React.ReactNode> = {
               "NISA対応",
               "若者に優しい料金体系",
             ],
-            href: "https://www.matsui.co.jp/",
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1O+G6VESA+3XCC+6AZAQ",
             badge: "若年層No.1",
           },
           {
@@ -14723,7 +14723,7 @@ const guideContents: Record<string, React.ReactNode> = {
               "Amazonギフト等に交換可",
               "長期保有で差が大きい",
             ],
-            href: "https://www.matsui.co.jp/",
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1O+G6VESA+3XCC+6AZAQ",
           },
           {
             name: "新NISA対応",
@@ -14735,7 +14735,7 @@ const guideContents: Record<string, React.ReactNode> = {
               "eMAXIS Slim・SBI・Vシリーズ対応",
               "クレカ積立は非対応",
             ],
-            href: "https://www.matsui.co.jp/",
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1O+G6VESA+3XCC+6AZAQ",
           },
           {
             name: "手厚いサポート",
@@ -14747,7 +14747,7 @@ const guideContents: Record<string, React.ReactNode> = {
               "初心者向けセミナー・教育コンテンツ豊富",
               "電話・メール・チャット対応",
             ],
-            href: "https://www.matsui.co.jp/",
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1O+G6VESA+3XCC+6AZAQ",
           },
           {
             name: "iDeCo手数料業界最安水準",
@@ -14759,7 +14759,7 @@ const guideContents: Record<string, React.ReactNode> = {
               "40代以降のiDeCoにも最適",
               "サポート充実",
             ],
-            href: "https://www.matsui.co.jp/service/nisa/",
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1O+G6VESA+3XCC+6AZAQ",
           },
         ]}
       />
@@ -14774,12 +14774,12 @@ const guideContents: Record<string, React.ReactNode> = {
         </ul>
       </section>
       <AffiliateCTA
-        title="松井証券 iDeCoはコスパ抜群｜運営管理手数料0円"
-        description="松井証券のiDeCoは運営管理手数料0円、投信ラインナップも充実。手厚いサポートで初心者にも安心、40代以降のiDeCo開始に最適。"
-        buttonText="松井証券 iDeCoの詳細"
-        href="https://www.matsui.co.jp/service/nisa/"
+        title="松井証券で口座開設｜新NISA・iDeCo両対応"
+        description="松井証券は25歳以下日本株無料・投信ポイント還元・iDeCo手数料0円の三拍子。老舗100年超の信頼性とネット証券の低コストを両立、初心者〜ベテランまで幅広く支持。"
+        buttonText="松井証券の詳細（公式）"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1O+G6VESA+3XCC+6AZAQ"
         icon="🌸"
-        highlight="手数料0円"
+        highlight="新規口座開設1,000円報酬"
       />
     </>
   ),
@@ -14804,7 +14804,7 @@ const guideContents: Record<string, React.ReactNode> = {
               "ブログ代行：月1〜5万円/クライアント",
               "ライティング未経験でも始めやすい",
             ],
-            href: "https://coconala.com/",
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+4A7B8A+2PEO+OK4PD",
             badge: "初心者向き",
           },
           {
@@ -14817,7 +14817,7 @@ const guideContents: Record<string, React.ReactNode> = {
               "Youtubeサムネ：1件1,000〜5,000円",
               "Canvaレベルから始められる",
             ],
-            href: "https://coconala.com/",
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+4A7B8A+2PEO+OK4PD",
           },
           {
             name: "動画編集",
@@ -14829,7 +14829,7 @@ const guideContents: Record<string, React.ReactNode> = {
               "セミナー動画：1本1〜5万円",
               "Premiere Pro・Final Cut Pro習得で高単価",
             ],
-            href: "https://coconala.com/",
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+4A7B8A+2PEO+OK4PD",
           },
           {
             name: "占い・心理カウンセリング",
@@ -14841,7 +14841,7 @@ const guideContents: Record<string, React.ReactNode> = {
               "リピーター獲得で安定収入",
               "資格・専門性があれば単価UP",
             ],
-            href: "https://coconala.com/",
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+4A7B8A+2PEO+OK4PD",
           },
           {
             name: "Web制作・プログラミング",
@@ -14853,7 +14853,7 @@ const guideContents: Record<string, React.ReactNode> = {
               "システム開発：10〜100万円",
               "技術スキル必須だが圧倒的に稼げる",
             ],
-            href: "https://coconala.com/",
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+4A7B8A+2PEO+OK4PD",
           },
         ]}
       />
@@ -14869,11 +14869,11 @@ const guideContents: Record<string, React.ReactNode> = {
       </section>
       <AffiliateCTA
         title="ココナラで副業デビュー｜登録無料"
-        description="日本最大級のスキルマーケット。登録300万人超、出品350万件以上で需要が豊富。自分のスキルを500円から販売して、月5〜20万円の副収入を実現可能。"
-        buttonText="ココナラに無料登録"
-        href="https://coconala.com/"
+        description="日本最大級のスキルマーケット。登録300万人超、出品350万件以上で需要が豊富。自分のスキルを500円から販売して、月5〜20万円の副収入を実現可能。無料会員登録して相談することから始められます。"
+        buttonText="ココナラ無料会員登録"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+4A7B8A+2PEO+OK4PD"
         icon="🎯"
-        highlight="登録無料"
+        highlight="新規会員登録100円報酬"
       />
     </>
   ),
@@ -14898,7 +14898,7 @@ const guideContents: Record<string, React.ReactNode> = {
               "発達障害・ADHD・アスペルガー対応",
               "月8,800円〜（4教科コース）",
             ],
-            href: "https://surala.jp/",
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+54KF2Y+4CT0+60OXE",
             badge: "AI特化",
           },
           {
@@ -14911,7 +14911,7 @@ const guideContents: Record<string, React.ReactNode> = {
               "学校と連携して証明書発行",
               "進学・進級への影響を最小化",
             ],
-            href: "https://surala.jp/",
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+54KF2Y+4CT0+60OXE",
           },
           {
             name: "すららコーチが学習サポート",
@@ -14923,7 +14923,7 @@ const guideContents: Record<string, React.ReactNode> = {
               "モチベーション維持のサポート",
               "保護者も安心の伴走体制",
             ],
-            href: "https://surala.jp/",
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+54KF2Y+4CT0+60OXE",
           },
         ]}
       />
@@ -14939,11 +14939,11 @@ const guideContents: Record<string, React.ReactNode> = {
       </section>
       <AffiliateCTA
         title="すらら無料体験｜不登校・発達障害の子に"
-        description="すららは不登校・発達障害児童向け学習システム。無料体験受講で子どもの学習スタイルに合うか確認可能。全国1,000校以上で出席扱い認定も。"
-        buttonText="すらら無料体験"
-        href="https://surala.jp/"
+        description="塾に通わず自宅で学習！自分のペースで学習できる【すらら】は不登校・発達障害児童向けAI学習システム。全国1,000校以上で出席扱い認定、無料体験受講で相性確認可能。"
+        buttonText="すらら無料体験の詳細"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+54KF2Y+4CT0+60OXE"
         icon="🎓"
-        highlight="無料体験あり"
+        highlight="新規受講申込15,385円報酬"
       />
     </>
   ),
@@ -15053,8 +15053,21 @@ const guideContents: Record<string, React.ReactNode> = {
         title="2026年 ハウスメーカー無料比較サービス"
         services={[
           {
-            name: "タウンライフ家づくり",
+            name: "家づくり相談所",
             rank: 1,
+            highlight: "住宅会社がわかる無料相談｜1万人以上利用",
+            features: [
+              "ハウスメーカー・工務店・建築家を幅広く紹介",
+              "住宅のプロが要望ヒアリング→最適な会社を厳選紹介",
+              "しつこい営業なし、中立的なアドバイス",
+              "資金計画・土地探しもワンストップで相談可",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+3PD522+5OGA+5YZ75",
+            badge: "後悔しない家づくり",
+          },
+          {
+            name: "タウンライフ家づくり",
+            rank: 2,
             highlight: "1,150社以上｜間取りプランも無料作成",
             features: [
               "全国1,150社以上のハウスメーカー・工務店と提携",
@@ -15067,7 +15080,7 @@ const guideContents: Record<string, React.ReactNode> = {
           },
           {
             name: "HOME4U家づくり",
-            rank: 2,
+            rank: 3,
             highlight: "NTTグループ｜大手ハウスメーカー中心",
             features: [
               "NTTデータ・スマートソーシング運営",
@@ -15079,7 +15092,7 @@ const guideContents: Record<string, React.ReactNode> = {
           },
           {
             name: "LIFULL HOME'S",
-            rank: 3,
+            rank: 4,
             highlight: "不動産情報大手の信頼感",
             features: [
               "LIFULL HOME'S（不動産大手）運営",
@@ -15091,7 +15104,7 @@ const guideContents: Record<string, React.ReactNode> = {
           },
           {
             name: "ほけんのトータルプロフェッショナル",
-            rank: 4,
+            rank: 5,
             highlight: "FP相談＋ハウスメーカー紹介のセット",
             features: [
               "全国270社以上のハウスメーカー・工務店と提携",
@@ -15114,11 +15127,19 @@ const guideContents: Record<string, React.ReactNode> = {
         </ol>
       </section>
       <AffiliateCTA
+        title="家づくりの後悔を無くす！【家づくり相談所】"
+        description="ハウスメーカー選びで失敗したくないなら、まず家づくり相談所の無料相談。住宅のプロがあなたの要望を聞き取り、全国のハウスメーカー・工務店・建築家から最適な会社を厳選紹介。しつこい営業一切なし。"
+        buttonText="家づくり相談所の無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+3PD522+5OGA+5YZ75"
+        icon="🏠"
+        highlight="新規無料相談5,000円報酬"
+      />
+      <AffiliateCTA
         title="住宅ローンも合わせて比較｜モゲチェック"
         description="ハウスメーカー選びと合わせて、住宅ローンも複数銀行で一括比較。モゲチェックなら金利差0.5%で総返済額100〜500万円削減の可能性。"
         buttonText="モゲチェックの詳細"
         href="https://www.mogecheck.jp/"
-        icon="🏠"
+        icon="💰"
         highlight="無料診断"
       />
       <section>
