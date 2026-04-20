@@ -16754,4 +16754,488 @@ const guideContents: Record<string, React.ReactNode> = {
       />
     </>
   ),
+  "corporate-card-detailed-ranking": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">ビジネスカード詳細ランキング2026</h2>
+        <p>
+          個人事業主・法人向けビジネスカードは、経費管理の効率化・ポイント還元・出張保険など、事業運営に欠かせない武器。アメックスビジネスゴールド（年会費31,900円）は豪華特典、三井住友ビジネスカード（年会費1,375円〜）は定番、セゾンプラチナビジネス（年会費22,000円）はコスパ良。事業規模・利用シーンで最適な1枚を選びましょう。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="ビジネスカード主要5枚比較"
+        services={[
+          {
+            name: "アメックス・ビジネス・ゴールド",
+            rank: 1,
+            highlight: "ステータス＋豊富な特典",
+            features: [
+              "年会費36,300円（初年度無料キャンペーンあり）",
+              "ポイント還元1%（対象加盟店で3%）",
+              "国内外空港ラウンジ無料",
+              "海外旅行保険1億円",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "ステータス",
+          },
+          {
+            name: "三井住友カード ビジネスオーナーズ",
+            rank: 2,
+            highlight: "年会費永年無料",
+            features: [
+              "年会費永年無料（一般）",
+              "利用限度額最大500万円",
+              "ポイント還元0.5%",
+              "個人事業主・法人OK",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "年会費無料",
+          },
+          {
+            name: "セゾンプラチナ・ビジネス・アメックス",
+            rank: 3,
+            highlight: "プライオリティパス付きでコスパ良",
+            features: [
+              "年会費22,000円",
+              "プライオリティパス（空港ラウンジ）",
+              "コンシェルジュサービス",
+              "マイル還元率1.125%",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">ビジネスカード選びの3つの基準</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>①年会費</strong>：事業規模との釣合い。年商3000万円以下は無料カード、それ以上はゴールド以上推奨</li>
+          <li><strong>②ポイント還元率</strong>：年間利用額×還元率でゴールドの年会費を相殺可能か</li>
+          <li><strong>③付帯特典</strong>：空港ラウンジ・旅行保険・ETCカード・従業員用追加カード</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="事業資金運用はSBI証券の法人口座で"
+        description="ビジネスカード決済の余剰資金をSBI証券の法人口座で運用。米国株・投資信託・個人向け社債で法人資産を最適化。個人NISA・iDeCoと合わせて事業主の総合資産運用を実現。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="💳"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "fx-beginner-complete-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">FX初心者完全ガイド｜円安時代の資産防衛</h2>
+        <p>
+          FX（外国為替証拠金取引）は、ドル円など通貨ペアを売買して為替変動から利益を得る投資手法。2022年以降の円安局面で注目度急上昇。1000円〜の少額スタート可、レバレッジ最大25倍、スワップポイント（金利差）で日々の収入も。GMO・DMM・SBIの大手3社で口座開設無料、初心者はドル円のスワップ運用から始めるのが王道です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="FX主要口座3社比較"
+        services={[
+          {
+            name: "GMOクリック証券",
+            rank: 1,
+            highlight: "取引高世界No.1｜スプレッド業界最狭",
+            features: [
+              "取引高世界1位（10年連続）",
+              "ドル円スプレッド0.2銭",
+              "スワップポイント業界高水準",
+              "1000通貨〜取引可能",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "世界No.1",
+          },
+          {
+            name: "DMM FX",
+            rank: 2,
+            highlight: "初心者向け操作性｜LINEサポート",
+            features: [
+              "LINE問合せ24時間対応",
+              "スプレッド0.2銭",
+              "取引ツール使いやすい",
+              "1万通貨〜",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "SBI FXトレード",
+            rank: 3,
+            highlight: "1通貨〜取引可能｜超少額OK",
+            features: [
+              "1通貨〜取引可能（約4円〜）",
+              "スプレッド0.17銭（ドル円）",
+              "スワップポイント高水準",
+              "手数料完全無料",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">FX初心者の3つの基本戦略</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>①スワップ運用</strong>：ドル円・メキシコペソ・トルコリラで毎日金利受取（年利3〜10%）</li>
+          <li><strong>②デイトレード</strong>：短期の値動きで利益、レバレッジ活用でリスク/リワード最大化</li>
+          <li><strong>③スイングトレード</strong>：数日〜数週間保有、テクニカル分析ベース</li>
+          <li>初心者はスワップ運用＋1万円からのスタートが安全</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="FX口座と併せて外貨MMFも｜SBI証券で総合運用"
+        description="FX口座でスワップ運用しながら、SBI証券の外貨MMFで米ドル・豪ドルの安定運用。為替手数料無料（住信SBIネット連携）、米国債・海外ETFで多通貨分散投資が可能。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="💹"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "pet-insurance-detailed-comparison": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">ペット保険詳細比較｜10社ランキング</h2>
+        <p>
+          ペット保険は、犬・猫の医療費を50〜70%カバーする保険商品。アニコム・アイペットの2大手のほか、ipet・FPC・楽天等、10社以上の選択肢。月額1000〜5000円で手術・入院・通院までカバー。加入年齢制限（新規7歳まで等）、待機期間、継続可能年齢、更新拒否リスクなど、選び方で大きく差が出ます。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="ペット保険主要3社比較"
+        services={[
+          {
+            name: "アニコム損保（どうぶつ健保）",
+            rank: 1,
+            highlight: "業界シェアNo.1｜動物病院窓口精算",
+            features: [
+              "シェア42%で業界最大",
+              "全国6,200動物病院で窓口精算",
+              "補償割合50%・70%",
+              "月額1,500〜5,000円",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+            badge: "シェアNo.1",
+          },
+          {
+            name: "アイペット損保（うちの子）",
+            rank: 2,
+            highlight: "手術保険金充実｜多頭割引",
+            features: [
+              "手術1回50〜70%補償（最大30万円）",
+              "通院・入院・手術フル補償",
+              "多頭飼育割引",
+              "月額1,200〜4,500円",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+          },
+          {
+            name: "FPCペット保険",
+            rank: 3,
+            highlight: "掛け捨てで最安｜若い犬猫向け",
+            features: [
+              "業界最安月額680円〜",
+              "補償割合50%",
+              "手術・入院のみ（通院なし）",
+              "若年層の予防加入向け",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">ペット保険選びの5つのポイント</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>補償範囲：通院・入院・手術のどこまでカバーされるか</li>
+          <li>補償割合：50% or 70%（高い程月額高）</li>
+          <li>加入年齢：新規加入は7歳以下が多い（高齢犬猫は選択肢限定）</li>
+          <li>継続可能年齢：終身継続可能な保険を選ぶ</li>
+          <li>待機期間：加入直後30日は補償対象外が一般的</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="ペット保険選びは保険マンモスで｜無料相談"
+        description="ペット保険10社の中から愛犬・愛猫に最適な商品を保険マンモスで無料相談。補償範囲・月額・加入年齢・継続性まで、FPが客観的に比較。オンライン相談対応。"
+        buttonText="保険マンモスで無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM"
+        icon="🐕"
+        highlight="無料相談"
+      />
+    </>
+  ),
+  "retirement-allowance-optimization": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">退職金最適受取｜税金を最小化して手取り最大化</h2>
+        <p>
+          退職金は勤続年数と受取方法で税金が大きく変わります。退職所得控除（勤続20年まで年40万円、超過後年70万円）、1/2課税特例、年金受取なら公的年金控除、確定拠出年金との合算など、知識次第で手取り額が数百万円変わります。一時金受取・年金受取・併用受取の3パターンをシミュレーションし、自分に最適な方法を選択しましょう。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">退職所得控除の計算</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>勤続20年以下：40万円×勤続年数（最低80万円）</li>
+          <li>勤続20年超：800万円＋70万円×（勤続年数−20年）</li>
+          <li>例：勤続30年なら800万円＋70万円×10年＝1500万円</li>
+          <li>控除後の金額×1/2が課税対象</li>
+          <li>他の所得と分離課税（税率低い）</li>
+        </ul>
+      </section>
+      <ComparisonTableCTA
+        title="退職金運用のおすすめ証券会社"
+        services={[
+          {
+            name: "SBI証券（退職金運用プラン）",
+            rank: 1,
+            highlight: "退職金特別定期預金＋投資信託",
+            features: [
+              "退職金特別定期預金（高金利）",
+              "投資信託2,800本以上",
+              "新NISA＋iDeCo併用可能",
+              "為替手数料無料で米国債も",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "業界No.1",
+          },
+          {
+            name: "保険マンモス（退職金保険相談）",
+            rank: 2,
+            highlight: "一時払い終身保険で相続対策",
+            features: [
+              "退職金を一時払い終身保険に",
+              "相続税非課税枠500万×相続人",
+              "介護保険・医療保険の見直し",
+              "完全無料相談",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+            badge: "EPC 31.06",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">退職金の受取方法3パターン</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>①一時金受取</strong>：退職所得控除＋1/2課税で税金最小、自由に運用可能</li>
+          <li><strong>②年金受取</strong>：公的年金等控除適用、毎月安定収入、運用会社任せ</li>
+          <li><strong>③併用受取</strong>：一部一時金＋一部年金、税制最適化＋安定収入のバランス</li>
+          <li>確定拠出年金（企業型DC・iDeCo）と退職金は同年受取で控除重複注意</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="退職金運用はSBI証券で｜退職金特別プラン"
+        description="SBI証券の退職金特別定期預金は高金利、投資信託2,800本以上で最適なポートフォリオ構築。新NISA＋iDeCoと併用で、退職後30年の資産寿命を最大化。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="🏖️"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "freelance-accounting-software-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">フリーランス会計ソフト完全比較</h2>
+        <p>
+          フリーランス・個人事業主の必須ツールが会計ソフト。freee（月2,178円〜）・マネーフォワードクラウド（月1,078円〜）・弥生オンライン（月2,700円〜）の3社が主要選択肢。電子帳簿保存法・インボイス制度・青色申告65万円控除への対応で、確定申告の手間を1/10に短縮。事業規模・業種・使い勝手で最適な1本を選びましょう。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="会計ソフト3社比較"
+        services={[
+          {
+            name: "freee（フリー）",
+            rank: 1,
+            highlight: "簿記知識不要｜質問形式で入力",
+            features: [
+              "月額2,178円〜",
+              "簿記知識ゼロでもOK",
+              "スマホアプリで完結",
+              "インボイス・電子帳簿保存法対応",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+4A7B8A+2PEO+OK4PD",
+            badge: "初心者向け",
+          },
+          {
+            name: "マネーフォワードクラウド",
+            rank: 2,
+            highlight: "銀行連携最多｜経理経験者向け",
+            features: [
+              "月額1,078円〜（最安）",
+              "銀行・カード連携2,500以上",
+              "経理経験者向け機能充実",
+              "給与計算・請求書も統合",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+4A7B8A+2PEO+OK4PD",
+            badge: "最安",
+          },
+          {
+            name: "弥生オンライン（青色申告）",
+            rank: 3,
+            highlight: "国内シェアNo.1の老舗",
+            features: [
+              "月額2,700円〜（初年度無料キャンペーン）",
+              "国内シェアNo.1",
+              "電話サポート充実",
+              "税理士連携しやすい",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+4A7B8A+2PEO+OK4PD",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">選び方の3ポイント</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>①簿記知識</strong>：知識なしならfreee、あればマネーフォワード</li>
+          <li><strong>②事業規模</strong>：年商1000万円以下はfreee/マネフォ、それ以上は弥生＋税理士</li>
+          <li><strong>③連携サービス</strong>：銀行・カードの自動連携数が多いほど入力工数減</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="会計ソフトの選定相談はココナラで｜税理士が対応"
+        description="会計ソフトの選び方・移行方法・確定申告のサポートをココナラで税理士・FPに相談。1時間5,000円〜の個別相談、月1万円〜の顧問契約も。会員登録無料。"
+        buttonText="ココナラで税理士を探す"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+4A7B8A+2PEO+OK4PD"
+        icon="📊"
+        highlight="登録無料"
+      />
+    </>
+  ),
+  "mortgage-refinance-detailed-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">住宅ローン借換え詳細ガイド｜年100万円得する戦略</h2>
+        <p>
+          住宅ローン借換えは、金利差0.3%以上・残期間10年以上・残債1000万円以上の3条件を満たせば総返済額削減が可能。2022〜2023年の金利上昇局面で変動金利から固定金利への借換え需要が拡大。諸費用40〜100万円、手続き期間1〜2ヶ月、損益分岐点シミュレーションを正しく行うことで、年間10〜100万円の返済軽減が実現します。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">借換えの3条件チェックリスト</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>①金利差</strong>：現在の金利−新しい金利が0.3%以上あるか</li>
+          <li><strong>②残期間</strong>：完済まで10年以上残っているか</li>
+          <li><strong>③残債</strong>：1000万円以上の借入残高があるか</li>
+          <li>3条件全てYESなら借換え検討、2条件なら要シミュレーション</li>
+        </ul>
+      </section>
+      <ComparisonTableCTA
+        title="住宅ローン借換え相談サービス"
+        services={[
+          {
+            name: "家づくり相談所（住替え相談）",
+            rank: 1,
+            highlight: "借換え＋住替えも同時相談",
+            features: [
+              "住宅ローン借換えシミュレーション",
+              "建替え・リフォーム相談",
+              "専門家紹介無料",
+              "オンライン完結",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+3PD522+5OGA+5YZ75",
+            badge: "5,000円/件",
+          },
+          {
+            name: "保険マンモス（団信見直し）",
+            rank: 2,
+            highlight: "借換え時の団信保険見直し",
+            features: [
+              "借換え時の団体信用生命保険",
+              "がん団信・3大疾病団信の提案",
+              "借換え諸費用の削減",
+              "完全無料相談",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+            badge: "EPC 31.06",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">借換えの諸費用</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>保証料：借入額×2%（銀行により0〜）</li>
+          <li>事務手数料：3〜5万円or借入額×2.2%</li>
+          <li>登録免許税：借入額×0.4%</li>
+          <li>司法書士報酬：7〜15万円</li>
+          <li>印紙税：2万円</li>
+          <li>合計目安：40〜100万円（3000万円借換えで）</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="住宅ローン借換え＋住替え相談は家づくり相談所で"
+        description="借換え＋リフォーム・建替え・住替えまで家づくり相談所で一括相談。住宅ローンのプロが金利比較＋住まいの総合相談。専門家紹介無料、オンライン完結。"
+        buttonText="家づくり相談所で無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+3PD522+5OGA+5YZ75"
+        icon="🏠"
+        highlight="無料相談"
+      />
+    </>
+  ),
+  "business-loan-comparison-detailed": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">事業者ローン詳細比較｜10社ランキング</h2>
+        <p>
+          事業者ローンは、個人事業主・法人向けの事業資金ローン。AGビジネスサポート・GMOあおぞらネット銀行・ビジネスパートナー等、10社以上の選択肢。金利3〜18%、即日融資・無担保・無保証・オンライン完結が主流。運転資金・設備投資・納税資金に活用でき、信用情報・決算書で審査。金融機関と比較して審査緩やかだが、金利は高めです。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="事業者ローン主要3社比較"
+        services={[
+          {
+            name: "GMOあおぞらネット銀行（あんしんワイド）",
+            rank: 1,
+            highlight: "最低金利1.0%｜法人口座連動",
+            features: [
+              "金利1.0〜14.0%（業界最安級）",
+              "最大1億円融資",
+              "決算書不要（口座情報で審査）",
+              "オンライン完結",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+7R8C9M+3XT0+5YJRM",
+            badge: "最安金利",
+          },
+          {
+            name: "AGビジネスサポート（旧アイフルビジネス）",
+            rank: 2,
+            highlight: "即日融資対応｜最大1000万円",
+            features: [
+              "金利3.1〜18.0%",
+              "最大1000万円融資",
+              "即日融資可能",
+              "無担保・無保証",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+7R8C9M+3XT0+5YJRM",
+          },
+          {
+            name: "ビジネスパートナー（法人融資）",
+            rank: 3,
+            highlight: "創業1年以上でOK｜追加融資可",
+            features: [
+              "金利5.9〜14.8%",
+              "最大500万円融資",
+              "創業1年以上が目安",
+              "追加融資・借換えOK",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+7R8C9M+3XT0+5YJRM",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">事業者ローン選びのコツ</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>緊急性高：即日融資のAGビジネスサポート</li>
+          <li>低金利優先：GMOあおぞらネット銀行（1.0〜）</li>
+          <li>小規模事業：ビジネスパートナー（500万まで）</li>
+          <li>ファクタリング（売掛金早期現金化）も選択肢</li>
+          <li>金融機関融資（日本政策金融公庫）は最安だが審査厳しい</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="事業資金調達はファクタリングも検討｜西日本ファクター"
+        description="売掛金を即日現金化するファクタリング。西日本ファクターは手数料2%〜、個人事業主・法人OK、3社間・2社間対応。融資と違い負債にならず、信用情報に影響なし。"
+        buttonText="西日本ファクターの詳細"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+7R8C9M+3XT0+5YJRM"
+        icon="💰"
+        highlight="25,000円/件"
+      />
+    </>
+  ),
 };
