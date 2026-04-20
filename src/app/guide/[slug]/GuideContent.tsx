@@ -22942,4 +22942,548 @@ const guideContents: Record<string, React.ReactNode> = {
       />
     </>
   ),
+  "rental-income-tax-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">家賃収入・不動産所得の税金完全ガイド</h2>
+        <p>
+          不動産投資・アパート経営等で得た家賃収入は「不動産所得」として確定申告が必要です。青色申告で65万円控除、経費計上（減価償却・修繕費）、事業的規模（5棟10室以上）判定で節税幅が大きく変わります。適切な申告で所得税・住民税の負担を最小化できます。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="不動産所得の申告形態比較"
+        services={[
+          {
+            name: "青色申告（事業的規模）",
+            rank: 1,
+            highlight: "65万円控除・最大節税",
+            features: [
+              "65万円控除（e-Tax・複式簿記）",
+              "家族への給与を経費化（青色事業専従者給与）",
+              "30万円未満の少額減価償却資産特例",
+              "赤字の3年繰越控除",
+            ],
+            href: "https://www.all-senmonka.jp/",
+            badge: "王道",
+          },
+          {
+            name: "青色申告（非事業的規模）",
+            rank: 2,
+            highlight: "10万円控除・基本形",
+            features: [
+              "10万円控除（単式簿記でOK）",
+              "記帳の手間が少ない",
+              "損益通算で給与所得と相殺",
+              "5棟10室未満が対象",
+            ],
+            href: "https://www.zeiri4.com/",
+          },
+          {
+            name: "白色申告",
+            rank: 3,
+            highlight: "簡単・控除なし",
+            features: [
+              "特別控除なし",
+              "帳簿付けが簡易",
+              "事業規模に関係なく選択可能",
+              "税理士不要でも可能",
+            ],
+            href: "https://www.freee.co.jp/kaikei/",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">経費計上できる主な費目</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>減価償却費（建物：木造22年・RC造47年で償却）</li>
+          <li>修繕費・リフォーム費（20万円未満は一括経費化）</li>
+          <li>管理費・管理会社委託料</li>
+          <li>固定資産税・都市計画税</li>
+          <li>火災・地震保険料</li>
+          <li>ローン金利（元本返済は経費外）</li>
+          <li>税理士報酬・司法書士報酬</li>
+          <li>交通費・物件調査費</li>
+        </ul>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">事業的規模（5棟10室）の判定</h2>
+        <p className="text-sm">
+          独立家屋なら5棟以上、マンション・アパートなら10室以上で「事業的規模」と判定され、青色申告65万円控除が適用可能になります。5棟10室未満でも青色申告は可能ですが、控除は10万円に下がります。大規模投資家ほど事業的規模＞青色申告＞65万円控除の恩恵が大きくなる構造です。
+        </p>
+      </section>
+      <AffiliateCTA
+        title="不動産投資の税務相談は税理士ドットコムで｜無料マッチング"
+        description="税理士ドットコムは全国6000人以上の税理士から無料で紹介。不動産所得の確定申告・青色申告対応税理士を地域・料金・実績で絞り込み、相性の合う先生をマッチング。初回相談も無料で承れる。"
+        buttonText="税理士ドットコムで無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5"
+        icon="🏢"
+        highlight="無料マッチング"
+      />
+    </>
+  ),
+  "sideline-writing-monetize-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">ライティング副業で月10万円稼ぐ完全ガイド</h2>
+        <p>
+          ライティング副業は初期投資ゼロ、スキマ時間で始められる人気の副業。クラウドワークス・ランサーズ等のクラウドソーシングで案件獲得、SEO記事・取材記事・シナリオ等のジャンルで文字単価0.5〜5円まで幅広い。継続的な実績作りで月10万円以上も現実的です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="ライティング副業のプラットフォーム比較"
+        services={[
+          {
+            name: "クラウドワークス",
+            rank: 1,
+            highlight: "案件数No.1・初心者歓迎",
+            features: [
+              "登録ユーザー480万人超",
+              "案件数業界最大級",
+              "初心者向け案件多数（0.3〜1円/字）",
+              "システム手数料20%（5万円以下）",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+4A7B8A+2PEO+OK4PD",
+            badge: "王道",
+          },
+          {
+            name: "ランサーズ",
+            rank: 2,
+            highlight: "高単価案件が多い",
+            features: [
+              "登録ランサー110万人",
+              "認定ランサー制度で実績差別化",
+              "直接契約（エージェント案件）もあり",
+              "文字単価1〜3円の中〜高単価",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+4A7B8A+2PEO+OK4PD",
+          },
+          {
+            name: "ココナラ",
+            rank: 3,
+            highlight: "出品型で自由度高",
+            features: [
+              "スキル出品型のマーケット",
+              "価格を自分で設定可能",
+              "得意ジャンルで指名受注",
+              "システム手数料22%",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+4A7B8A+2PEO+OK4PD",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">文字単価の相場と月10万円達成戦略</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>初心者：0.3〜0.8円/字（月3〜5万円が目安）</li>
+          <li>中級者：1〜2円/字（月10〜20万円可能）</li>
+          <li>上級者・専門家：3〜5円/字（月30万円以上）</li>
+          <li>取材記事・インタビュー：5,000〜30,000円/本</li>
+          <li>シナリオライティング：10,000〜100,000円/本</li>
+          <li>SEO特化ライター：月30〜50万円（継続契約）</li>
+        </ul>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">副業収入の確定申告</h2>
+        <p className="text-sm">
+          会社員で副業収入が年20万円を超えたら確定申告が必要。青色申告なら65万円控除＋赤字繰越可能で節税幅大。freee会計・マネーフォワードクラウド確定申告等のソフトを使えば簿記知識ゼロでも自動化できます。経費計上（パソコン・書籍・通信費の按分）で課税所得を圧縮しましょう。
+        </p>
+      </section>
+      <AffiliateCTA
+        title="ライティング案件獲得ならココナラ｜初心者から上級者まで"
+        description="ココナラは150万人超の登録者数、ライティング出品者の約15%が月収10万円超。文字単価1〜3円の中単価案件が豊富、SEO記事・シナリオ・取材記事等のジャンル特化で指名受注も可能。"
+        buttonText="ココナラに登録する"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+4A7B8A+2PEO+OK4PD"
+        icon="✍️"
+        highlight="スキル売買No.1"
+      />
+    </>
+  ),
+  "online-salon-subscription-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">オンラインサロン運営で月100万円稼ぐ完全ガイド</h2>
+        <p>
+          オンラインサロンは、固定ファンから月額料金を継続的に得られる高収益ビジネスモデル。DMMオンラインサロン・CAMPFIRE Community・Fanbox等のプラットフォームを活用し、会員100人×月3,000円で月30万円、会員500人×月5,000円で月250万円の収益化が現実的です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="オンラインサロンプラットフォーム比較"
+        services={[
+          {
+            name: "DMMオンラインサロン",
+            rank: 1,
+            highlight: "国内最大手・集客力",
+            features: [
+              "DMMの集客力を活用できる",
+              "決済・管理システム完備",
+              "システム手数料20〜30%",
+              "審査があるため一定の質担保",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+4A7B8A+2PEO+OK4PD",
+            badge: "王道",
+          },
+          {
+            name: "CAMPFIRE Community",
+            rank: 2,
+            highlight: "審査緩い・始めやすい",
+            features: [
+              "個人でも始めやすい",
+              "月額課金＋単発プロジェクト併用可",
+              "手数料10〜15%",
+              "Facebookグループ連携OK",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+4A7B8A+2PEO+OK4PD",
+          },
+          {
+            name: "note（有料マガジン）",
+            rank: 3,
+            highlight: "クリエイター向け",
+            features: [
+              "記事単位の課金も可能",
+              "手数料10%＋決済手数料5%",
+              "SEOに強いプラットフォーム",
+              "note pro（法人）もあり",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+4A7B8A+2PEO+OK4PD",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">会員獲得＆継続率UPの戦略</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>SNS（X・Instagram・YouTube）からの集客（フォロワー1万人以上推奨）</li>
+          <li>無料コンテンツを毎日発信→有料サロンでプレミアム情報提供</li>
+          <li>月額2,000〜5,000円が最も継続率高い（サブスク心理的上限）</li>
+          <li>Discord・Slack・Facebookグループでコミュニティ形成</li>
+          <li>月1回のオフ会・Zoom座談会で脱会防止</li>
+          <li>コンテンツ更新頻度（週2〜3回）で満足度維持</li>
+        </ul>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">収益化シミュレーション</h2>
+        <p className="text-sm">
+          月3,000円×100人＝月30万円、月5,000円×500人＝月250万円、月10,000円×1000人＝月1000万円まで収益拡大可能。手数料20%引いた実収入は8割程度、経費（ツール・広告・運営費）引いて最終利益率は60〜70%が目安。法人化（マイクロ法人）で節税効果も狙えます。
+        </p>
+      </section>
+      <AffiliateCTA
+        title="サロン開設の準備はココナラで｜ロゴ・サムネ・コンサル"
+        description="ココナラではオンラインサロン立ち上げに必要なロゴ制作・ランディングページ・サムネ作成・運営コンサル等が1万円〜依頼可能。プロの力を借りて質の高いサロンを短期間で構築できる。"
+        buttonText="ココナラで相談する"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+4A7B8A+2PEO+OK4PD"
+        icon="🎪"
+        highlight="スキル売買No.1"
+      />
+    </>
+  ),
+  "voice-actor-side-business-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">声優・ナレーター副業完全ガイド</h2>
+        <p>
+          声優・ナレーター副業は、自宅録音環境と営業力があれば未経験からでも始められる人気副業。ココナラ・Voip・MyLevel等のプラットフォームで1件500円〜10万円の案件を獲得、月5〜30万円の収入も現実的。YouTube動画・企業VP・ゲーム・電子書籍朗読と需要は拡大中です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="声優・ナレーター副業プラットフォーム"
+        services={[
+          {
+            name: "ココナラ",
+            rank: 1,
+            highlight: "初心者でも始めやすい",
+            features: [
+              "声優・ナレーションカテゴリあり",
+              "1件500〜30,000円の案件多数",
+              "出品型で価格自由設定",
+              "実績を積めばランキング上位で集客",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+4A7B8A+2PEO+OK4PD",
+            badge: "王道",
+          },
+          {
+            name: "クラウドワークス",
+            rank: 2,
+            highlight: "企業案件が多い",
+            features: [
+              "企業のVP・CM音声案件",
+              "1件5,000〜50,000円の中単価",
+              "継続契約の可能性あり",
+              "登録者480万人の大手",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+4A7B8A+2PEO+OK4PD",
+          },
+          {
+            name: "SKIMA / MyLevel",
+            rank: 3,
+            highlight: "ゲーム・音声作品特化",
+            features: [
+              "乙女ゲーム・シチュエーションCD等",
+              "1本5,000〜30,000円",
+              "ファン層のつきやすいジャンル",
+              "長期ファンからのリピート多め",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+4A7B8A+2PEO+OK4PD",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">必要な機材・環境</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>コンデンサーマイク（SHURE SM7B・Audio-Technica AT2020等、2〜5万円）</li>
+          <li>オーディオインターフェイス（Focusrite Scarlett等、1〜3万円）</li>
+          <li>ポップガード・リフレクションフィルター（吸音処理、5,000円〜）</li>
+          <li>DAW（Audacity無料、Adobe Audition月3,000円）</li>
+          <li>静かな録音環境（深夜・クローゼット活用）</li>
+          <li>初期投資合計：5〜15万円で開始可能</li>
+        </ul>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">案件単価と月収ロードマップ</h2>
+        <p className="text-sm">
+          初心者（〜3ヶ月）：月1〜5万円（1件500〜3000円、実績作り段階）。中級者（3〜12ヶ月）：月10〜20万円（1件3000〜10000円、リピート受注）。上級者（1年以上）：月30万円〜（1件1〜10万円、企業案件・継続契約）。声質・演技力・営業力の3要素で差がつく副業です。
+        </p>
+      </section>
+      <AffiliateCTA
+        title="声優・ナレーター案件獲得ならココナラ｜月30万円も実現可能"
+        description="ココナラは150万人超の登録者数、声優・ナレーターカテゴリで指名受注が狙える。出品価格も自由設定、SNSとの連携で集客力UP、実績積み重ねで月30万円以上の収入も実現可能。"
+        buttonText="ココナラに登録する"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+4A7B8A+2PEO+OK4PD"
+        icon="🎙️"
+        highlight="スキル売買No.1"
+      />
+    </>
+  ),
+  "photo-stock-royalty-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">写真・動画素材販売で不労所得</h2>
+        <p>
+          ストックフォト・動画素材販売は、一度アップロードすれば半永久的に収益が発生する「不労所得型副業」。PIXTA・Adobe Stock・Shutterstock・iStock等に素材を投稿すると、DL毎にロイヤリティ（20〜60%）を得られ、100〜1000枚の素材ストックで月1〜10万円の継続収入を実現できます。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="ストックフォト・動画プラットフォーム比較"
+        services={[
+          {
+            name: "PIXTA",
+            rank: 1,
+            highlight: "日本最大・ロイヤリティ高",
+            features: [
+              "ロイヤリティ35〜58%（ランク制）",
+              "日本人モデル・和風素材が売れる",
+              "審査厳しめで質重視",
+              "月1〜5万円の収入例多数",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+4A7B8A+2PEO+OK4PD",
+            badge: "王道",
+          },
+          {
+            name: "Adobe Stock",
+            rank: 2,
+            highlight: "世界最大・DL数多",
+            features: [
+              "ロイヤリティ33%",
+              "Adobe Creative Cloudから購入される",
+              "動画素材の需要高",
+              "海外DL中心（英語タイトル推奨）",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+4A7B8A+2PEO+OK4PD",
+          },
+          {
+            name: "Shutterstock",
+            rank: 3,
+            highlight: "老舗・審査緩め",
+            features: [
+              "ロイヤリティ15〜40%（階段式）",
+              "世界200カ国のクリエイター登録",
+              "月100DLで中級ランクアップ",
+              "動画・音楽素材もOK",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+4A7B8A+2PEO+OK4PD",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">売れる写真ジャンル</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>ビジネスシーン（会議・打ち合わせ・PC作業）</li>
+          <li>日常生活（家族・料理・健康）</li>
+          <li>季節イベント（正月・桜・紅葉・クリスマス）</li>
+          <li>背景素材（シンプル・無地・テクスチャ）</li>
+          <li>医療・介護（看護・健診・高齢者）</li>
+          <li>IT・テクノロジー（AI・スマホ・ガジェット）</li>
+          <li>動画素材（4K・短尺・ループ可能）は高単価</li>
+        </ul>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">収益化の目安と戦略</h2>
+        <p className="text-sm">
+          初心者：月100〜5000円（素材50〜200枚）。中級者：月1〜5万円（素材500〜2000枚）。上級者：月10〜30万円（素材3000枚以上＋動画併用）。カメラ1台＋スマホでも開始可、初期投資5〜20万円でスタート可能。継続アップロード＋トレンド対応で安定収入を構築できます。
+        </p>
+      </section>
+      <AffiliateCTA
+        title="副業カメラマンのスキルアップはココナラで｜現役プロに相談"
+        description="ココナラでは現役プロカメラマン・写真家が「売れる写真の撮り方」「PIXTA審査合格のコツ」等を5,000円〜指南。初心者が短期間で成果を出すための個別アドバイスが受けられる。"
+        buttonText="ココナラで相談する"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+4A7B8A+2PEO+OK4PD"
+        icon="📸"
+        highlight="スキル売買No.1"
+      />
+    </>
+  ),
+  "youtube-shorts-monetize-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">YouTube Shorts収益化完全ガイド</h2>
+        <p>
+          YouTube Shortsは、60秒以下の縦型動画で広告収益・Super Thanks・メンバーシップから収益化可能。収益化条件はチャンネル登録者1000人＋過去90日のShorts視聴1000万回（or 通常動画4000時間）。1日10万再生で月3万円〜、バズれば月100万円超も実現可能です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="YouTube Shorts収益化の主要手段"
+        services={[
+          {
+            name: "広告収益（YouTubeパートナープログラム）",
+            rank: 1,
+            highlight: "Shorts Fund廃止後の正式プログラム",
+            features: [
+              "RPM 0.01〜0.05ドル/再生",
+              "1000万再生で15〜50万円",
+              "日本語動画は単価低め（0.01〜0.02ドル）",
+              "英語動画は高単価（0.03〜0.05ドル）",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+4A7B8A+2PEO+OK4PD",
+            badge: "王道",
+          },
+          {
+            name: "企業案件・PR",
+            rank: 2,
+            highlight: "フォロワー×単価で高収益",
+            features: [
+              "チャンネル登録者1万人×1円＝10,000円〜",
+              "10万人登録なら1案件5〜30万円",
+              "ファッション・コスメ・ガジェット系が高単価",
+              "Instagramと併用で単価UP",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+4A7B8A+2PEO+OK4PD",
+          },
+          {
+            name: "Super Thanks・メンバーシップ",
+            rank: 3,
+            highlight: "コアファン課金",
+            features: [
+              "Super Thanks（動画への投げ銭）",
+              "メンバーシップ月額490〜5,990円",
+              "登録者1万人で月3〜10万円が目安",
+              "コミュニティ形成で継続収入",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+4A7B8A+2PEO+OK4PD",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">バズる動画の作り方</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>冒頭3秒で視聴者を掴む（意外性・疑問・驚き）</li>
+          <li>縦型16:9比率・高画質（1080p以上）</li>
+          <li>30〜45秒の最適尺（完視聴率70%以上）</li>
+          <li>トレンド音源を活用（流行のBGMで拡散）</li>
+          <li>ハッシュタグ3〜5個（#Shorts必須）</li>
+          <li>サムネイル要素（テキストオーバーレイ）</li>
+          <li>投稿タイミング（平日19〜22時が最適）</li>
+        </ul>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">月10万円達成ロードマップ</h2>
+        <p className="text-sm">
+          初月：毎日1本投稿（30本で1本バズる確率）。3ヶ月：登録者1000人・10万再生達成で収益化開始（月1〜3万円）。6ヶ月：登録者1万人・100万再生で月10〜30万円。1年：登録者10万人・月1000万再生で月100〜300万円。継続力＆トレンド対応が成功の鍵です。
+        </p>
+      </section>
+      <AffiliateCTA
+        title="YouTube運営の悩みはココナラで｜サムネ・編集・コンサル"
+        description="ココナラではサムネイル制作（3,000円〜）、動画編集（1本5,000円〜）、YouTube運営コンサル（1時間10,000円〜）等を依頼可能。プロの力で短期間でチャンネル急成長を実現できる。"
+        buttonText="ココナラで相談する"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+4A7B8A+2PEO+OK4PD"
+        icon="📱"
+        highlight="スキル売買No.1"
+      />
+    </>
+  ),
+  "tiktok-creator-fund-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">TikTokクリエイター収益化ガイド</h2>
+        <p>
+          TikTokの収益化手段は、Creator Rewards Program（旧Creator Fund）・ライブ配信ギフト・企業案件・TikTok Shopアフィリエイト等多様。1万フォロワー＋動画10万再生で収益化開始、フォロワー10万人で月30〜100万円、フォロワー100万人で月300万円以上のトップクリエイターも珍しくありません。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="TikTok収益化の主要手段"
+        services={[
+          {
+            name: "Creator Rewards Program",
+            rank: 1,
+            highlight: "広告収益型・2024年刷新",
+            features: [
+              "1万フォロワー・動画10万再生条件",
+              "1分以上の動画が対象",
+              "RPM 0.5〜2ドル（日本は低め）",
+              "100万再生で5〜20万円",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+4A7B8A+2PEO+OK4PD",
+            badge: "王道",
+          },
+          {
+            name: "ライブ配信ギフト",
+            rank: 2,
+            highlight: "フォロワー1000人で配信可能",
+            features: [
+              "ギフトの50%が収益化",
+              "人気ライバーは月100万円超",
+              "毎日配信の継続が重要",
+              "アプリ内通貨換金率50%",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+4A7B8A+2PEO+OK4PD",
+          },
+          {
+            name: "企業案件・PR投稿",
+            rank: 3,
+            highlight: "フォロワー数×単価で高収益",
+            features: [
+              "フォロワー×1〜5円が相場",
+              "10万人なら1案件10〜50万円",
+              "コスメ・ファッション・ガジェット系多",
+              "Instagramと併用で単価UP",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+4A7B8A+2PEO+OK4PD",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">TikTokで伸ばすコツ</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>ニッチなジャンル特化（料理・美容・コメディ・教育）</li>
+          <li>1日1〜3本投稿を最低1ヶ月継続（アルゴリズム評価期間）</li>
+          <li>1秒目でフック作り（完視聴率80%以上を狙う）</li>
+          <li>トレンド音源・ハッシュタグを常にチェック</li>
+          <li>コメント返信で エンゲージメント向上</li>
+          <li>Shorts・Reels等の他SNSでクロスプロモ</li>
+          <li>TikTok LIVEで週2〜3回配信＝ファン化加速</li>
+        </ul>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">月30万円達成のロードマップ</h2>
+        <p className="text-sm">
+          初月〜3ヶ月：毎日投稿でフォロワー1000人＋配信開始。3〜6ヶ月：フォロワー1万人＋Creator Rewards対象、月5〜10万円の収益化。6〜12ヶ月：フォロワー5〜10万人＋企業案件獲得、月20〜50万円。1年以降：100万フォロワー目標で月100万円超のトップクリエイターへ。
+        </p>
+      </section>
+      <AffiliateCTA
+        title="TikTok運用ならココナラで｜動画編集・コンサル"
+        description="ココナラではTikTok特化の動画編集（1本3,000円〜）、運用コンサル（月額30,000円〜）、サムネイル・BGM制作等を依頼可能。プロの力で再生数＆フォロワー数を一気に伸ばせる。"
+        buttonText="ココナラで相談する"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+4A7B8A+2PEO+OK4PD"
+        icon="🎵"
+        highlight="スキル売買No.1"
+      />
+    </>
+  ),
 };
