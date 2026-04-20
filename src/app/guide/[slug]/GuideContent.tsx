@@ -15133,4 +15133,630 @@ const guideContents: Record<string, React.ReactNode> = {
       </section>
     </>
   ),
+  "japanese-stock-ranking-2026": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">2026年 注目の日本株10選</h2>
+        <p>
+          日本株市場は2024年から好調で、日経平均は4万円台を維持。新NISA成長枠（年240万円）を活用して、厳選10銘柄でポートフォリオを組むのが王道です。時価総額・成長性・配当利回りの3要素で、2026年に注目すべき日本株を厳選しました。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="2026年 日本株ランキングTOP10"
+        services={[
+          {
+            name: "トヨタ自動車（7203）",
+            rank: 1,
+            highlight: "時価総額1位｜EV・HV両輪戦略",
+            features: [
+              "日本最大手の自動車メーカー",
+              "配当利回り約2.5%",
+              "EV（ハイブリッド・水素）多方面展開",
+              "連続増配傾向",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "時価総額No.1",
+          },
+          {
+            name: "ソニーグループ（6758）",
+            rank: 2,
+            highlight: "ゲーム・音楽・映画・半導体の複合企業",
+            features: [
+              "PlayStation・映画・音楽・半導体イメージセンサー",
+              "配当利回り約1%",
+              "継続的な成長戦略",
+              "海外売上比率70%超",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "任天堂（7974）",
+            rank: 3,
+            highlight: "Switch後継機期待｜世界的ブランド",
+            features: [
+              "Nintendo Switch後継機発売期待",
+              "配当利回り約2.5%",
+              "世界的IP（マリオ・ポケモン・ゼルダ）",
+              "映画事業も拡大",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "三菱UFJフィナンシャル・グループ（8306）",
+            rank: 4,
+            highlight: "配当利回り3.5%｜金利上昇で追い風",
+            features: [
+              "日本最大のメガバンク",
+              "配当利回り約3.5%",
+              "金利上昇局面で収益拡大",
+              "海外展開も積極的",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "高配当",
+          },
+          {
+            name: "武田薬品工業（4502）",
+            rank: 5,
+            highlight: "配当利回り4.5%｜製薬大手",
+            features: [
+              "日本最大の製薬会社",
+              "配当利回り約4.5%",
+              "希少疾病・消化器で世界展開",
+              "高配当維持",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">ポートフォリオ構築の基本</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>コア銘柄（時価総額上位）5銘柄に資産の60%</li>
+          <li>成長株（ソニー・任天堂等）3銘柄に20%</li>
+          <li>高配当株（武田・三菱UFJ等）2銘柄に20%</li>
+          <li>業種分散で特定業種への偏重避ける</li>
+          <li>年1回のリバランスで比率維持</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="日本株売買手数料無料｜SBI証券 新NISA"
+        description="SBI証券なら新NISA口座で日本株売買手数料完全無料。配当金も非課税で受け取れ、長期複利効果を最大化できます。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="📈"
+        highlight="手数料無料"
+      />
+    </>
+  ),
+  "dividend-kings-japan": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">日本版「連続増配株」の魅力</h2>
+        <p>
+          米国には「配当王（Dividend Kings）」と呼ばれる50年以上連続増配企業がありますが、日本でも20年以上連続増配を維持する企業が増加中。花王34年連続増配をはじめ、長期の配当成長で安定収入を得られる銘柄を長期保有するのが、配当投資の王道戦略です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="2026年 日本の連続増配株ランキング"
+        services={[
+          {
+            name: "花王（4452）",
+            rank: 1,
+            highlight: "34年連続増配｜日本最長",
+            features: [
+              "日用品・化粧品の大手",
+              "34年連続増配の実績",
+              "配当利回り約3%",
+              "海外売上比率40%超",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "連続増配No.1",
+          },
+          {
+            name: "KDDI（9433）",
+            rank: 2,
+            highlight: "22年連続増配｜通信大手の安定感",
+            features: [
+              "通信事業の高安定収益",
+              "22年連続増配",
+              "配当利回り約3.5%",
+              "auブランド＋金融事業も拡大",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "リコーリース（8566）",
+            rank: 3,
+            highlight: "27年連続増配｜リース事業の安定性",
+            features: [
+              "リコー系リース会社",
+              "27年連続増配",
+              "配当利回り約3.5%",
+              "顧客基盤の安定性",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "小林製薬（4967）",
+            rank: 4,
+            highlight: "25年連続増配｜独自商品戦略",
+            features: [
+              "独自ブランド商品（熱さまシート等）",
+              "25年連続増配",
+              "配当利回り約2%",
+              "中国市場も展開",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "三菱HCキャピタル（8593）",
+            rank: 5,
+            highlight: "26年連続増配｜総合金融",
+            features: [
+              "総合金融・リース・不動産",
+              "26年連続増配",
+              "配当利回り約4.5%",
+              "高配当銘柄として注目",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "高配当",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">連続増配株投資のメリット</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>配当金が毎年増え続け、インフレにも対応</li>
+          <li>長期保有で複利効果が最大化</li>
+          <li>経営の安定性・透明性が高い</li>
+          <li>新NISA成長枠で非課税受取</li>
+          <li>リーマンショック等の不況時でも配当維持</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="連続増配株もSBI証券で｜国内株式手数料無料"
+        description="日本の連続増配株への投資はSBI証券が最適。新NISA口座で日本株売買手数料完全無料、配当金も非課税で長期複利効果を享受。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="👑"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "growth-stock-investment-strategy": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">成長株投資の基本</h2>
+        <p>
+          成長株（グロース株）投資は、売上・利益の成長率が平均を大きく上回る企業に投資する手法。配当よりもキャピタルゲイン（株価上昇）を狙い、米国ハイテク株・日本グロース株の長期保有で年率10〜20%のリターンも可能。ただし変動幅が大きく、慎重な銘柄選定が必要です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="成長株投資の対象"
+        services={[
+          {
+            name: "米国ハイテク7社（MAGNIFICENT 7）",
+            rank: 1,
+            highlight: "Apple・Microsoft・Google・Amazon・NVIDIA・Meta・Tesla",
+            features: [
+              "世界を牽引する米国ハイテク大手",
+              "過去10年で年率20%超のリターン",
+              "AI・クラウド・EV・デジタル広告",
+              "NASDAQ100 ETF（QQQ）で一括投資も可",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "世界の主役",
+          },
+          {
+            name: "日本グロース株（キーエンス等）",
+            rank: 2,
+            highlight: "高収益・高成長の日本企業",
+            features: [
+              "キーエンス（6861）：営業利益率50%超",
+              "SBIホールディングス・エムスリー・GMOインターネット",
+              "成長率20%超を維持する企業群",
+              "時価総額上位の安定感",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "新興市場グロース株",
+            rank: 3,
+            highlight: "マザーズ・JASDAQの高成長企業",
+            features: [
+              "東証グロース市場の中小型株",
+              "10倍株（テンバガー）候補多数",
+              "ボラティリティ大きい",
+              "ポートフォリオの5〜10%以内",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">成長株選定の5指標</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>売上成長率</strong>：年率20%超が目安</li>
+          <li><strong>営業利益率</strong>：15%以上</li>
+          <li><strong>ROE（自己資本利益率）</strong>：15%以上</li>
+          <li><strong>PER</strong>：業界平均の1.5〜2倍以内（成長性に応じて）</li>
+          <li><strong>PEGレシオ</strong>：1以下なら割安、2超は割高</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="米国ハイテク株は SBI証券｜為替手数料無料"
+        description="SBI証券なら米国個別株（NVIDIA・Apple・Microsoft等）を為替手数料無料で購入可能。新NISA成長枠で非課税運用、世界のハイテク成長を享受。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="🚀"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "value-investing-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">バリュー投資の基本</h2>
+        <p>
+          バリュー投資は、本質的価値より市場価格が割安な銘柄を買う手法。ウォーレン・バフェット・ベンジャミン・グレアムが提唱する王道戦略で、長期保有で安定したリターンを得られます。PER・PBR・ROE等の指標を活用し、財務健全性の高い割安株を見つけるのが鍵です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="バリュー投資の主要指標"
+        services={[
+          {
+            name: "PER（株価収益率）",
+            rank: 1,
+            highlight: "10倍以下なら割安候補",
+            features: [
+              "株価÷1株あたり利益",
+              "10倍以下なら割安（業界により変動）",
+              "日本株平均14〜15倍",
+              "米国株平均20倍",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "最重要",
+          },
+          {
+            name: "PBR（株価純資産倍率）",
+            rank: 2,
+            highlight: "1倍以下なら純資産より安い",
+            features: [
+              "株価÷1株あたり純資産",
+              "1倍以下なら理論上解散価値より安い",
+              "東証PBR1倍割れ企業の改革圧力",
+              "バリュー投資家の定番指標",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "ROE（自己資本利益率）",
+            rank: 3,
+            highlight: "10%以上なら優良",
+            features: [
+              "純利益÷自己資本",
+              "10%以上が優良企業の目安",
+              "15%以上なら超優良",
+              "収益性の高さを示す",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "配当利回り",
+            rank: 4,
+            highlight: "3%以上で割安＋配当の両取り",
+            features: [
+              "1株配当÷株価",
+              "3%以上で高配当",
+              "バリュー株は配当利回り高めが多い",
+              "新NISAで配当非課税",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">バリュー投資の対象</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>日本の大手商社（三菱商事・伊藤忠・三井物産）</li>
+          <li>メガバンク（三菱UFJ・三井住友）</li>
+          <li>大手保険（東京海上・MS&AD）</li>
+          <li>高配当公益株（ENEOS・電力・ガス）</li>
+          <li>米国ダウ構成銘柄（Coca-Cola・P&G等）</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="バリュー投資を学ぶ｜ファイナンシャルアカデミー"
+        description="バフェット流のバリュー投資を体系的に学ぶなら、ファイナンシャルアカデミーの無料体験セミナーが最適。株式投資の基礎から応用まで、累計受講生78万人超。"
+        buttonText="ファイナンシャルアカデミー無料体験"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1O+G8NPLM+1IRY+25I7J5"
+        icon="📚"
+        highlight="無料体験あり"
+      />
+    </>
+  ),
+  "sector-investment-strategy": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">セクターローテーションとは</h2>
+        <p>
+          景気サイクルに応じて、上昇しやすいセクター（業種）に投資を切替える戦略。景気拡大期は「消費・工業・金融」、景気後退期は「公益・ヘルスケア・生活必需品」が強くなる傾向。セクター別ETFを活用して、機動的に投資配分を調整できます。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="主要セクター別投資対象"
+        services={[
+          {
+            name: "テクノロジー（XLK）",
+            rank: 1,
+            highlight: "米国ハイテク｜長期成長期待",
+            features: [
+              "Apple・Microsoft・NVIDIA等",
+              "過去10年で年率20%超",
+              "AI・クラウドの成長継続",
+              "ボラティリティ大きい",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "成長",
+          },
+          {
+            name: "金融（XLF）",
+            rank: 2,
+            highlight: "金利上昇局面で有利",
+            features: [
+              "JPMorgan・Bank of America等",
+              "金利上昇で収益拡大",
+              "配当利回り約2〜3%",
+              "景気拡大期に強い",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "ヘルスケア（XLV）",
+            rank: 3,
+            highlight: "ディフェンシブ｜景気に左右されにくい",
+            features: [
+              "Johnson & Johnson・UnitedHealth等",
+              "景気後退期に強い",
+              "高齢化で長期需要",
+              "配当利回り約1〜2%",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "生活必需品（XLP）",
+            rank: 4,
+            highlight: "ディフェンシブ｜不況でも安定",
+            features: [
+              "Procter & Gamble・Coca-Cola等",
+              "景気後退期に強い",
+              "配当利回り約2〜3%",
+              "長期安定配当",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "エネルギー（XLE）",
+            rank: 5,
+            highlight: "インフレ時に強い｜資源価格連動",
+            features: [
+              "ExxonMobil・Chevron等",
+              "インフレ・原油高で収益拡大",
+              "配当利回り約3〜4%",
+              "景気循環セクター",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">景気サイクル別 推奨セクター</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>景気拡大初期</strong>：テクノロジー・一般消費財・工業</li>
+          <li><strong>景気拡大後期</strong>：エネルギー・素材</li>
+          <li><strong>景気後退初期</strong>：金融縮小→生活必需品へシフト</li>
+          <li><strong>景気後退後期</strong>：ヘルスケア・生活必需品・公益</li>
+          <li><strong>景気回復期</strong>：金融・一般消費財が先に上昇</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="セクター別ETFはSBI証券｜米国ETF為替手数料無料"
+        description="SPDRセクターETF（XLK・XLF・XLV等）はSBI証券で為替手数料無料で購入可能。新NISA成長枠でセクター別の配分調整も可能。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="🔀"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "jreit-detailed-investment": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">J-REITの種類と特徴</h2>
+        <p>
+          J-REIT（日本不動産投資信託）は、オフィス・住居・物流・商業施設・ホテル・ヘルスケア等の不動産に分散投資する金融商品。分配金利回り年4〜6%で、個別不動産を買うよりも手軽に不動産投資できます。J-REIT個別銘柄を組合せてポートフォリオ構築するのが基本戦略です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="J-REIT種類別おすすめ"
+        services={[
+          {
+            name: "オフィス系：日本ビルファンド（8951）",
+            rank: 1,
+            highlight: "業界最大手｜都心大型オフィス中心",
+            features: [
+              "J-REIT時価総額1位",
+              "三井不動産がスポンサー",
+              "東京都心Aクラスオフィス中心",
+              "分配金利回り約3.5%",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "業界No.1",
+          },
+          {
+            name: "住居系：アドバンス・レジデンス（3269）",
+            rank: 2,
+            highlight: "住居特化｜安定性高い",
+            features: [
+              "都心賃貸マンション中心",
+              "住居系J-REIT最大手",
+              "分配金利回り約4%",
+              "景気変動に強い",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "物流系：日本プロロジスリート（3283）",
+            rank: 3,
+            highlight: "物流特化｜EC拡大で追い風",
+            features: [
+              "最大規模の物流特化REIT",
+              "Amazon等の物流施設賃貸",
+              "EC市場拡大で需要拡大",
+              "分配金利回り約4%",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "商業施設系：フロンティア不動産投資（8964）",
+            rank: 4,
+            highlight: "イオンモール等の大型商業施設",
+            features: [
+              "郊外型大型商業施設中心",
+              "三井不動産・三菱地所系",
+              "分配金利回り約5%",
+              "地域経済との連動",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "J-REIT指数連動ETF（1343）",
+            rank: 5,
+            highlight: "J-REIT全体に分散投資",
+            features: [
+              "J-REIT全銘柄に分散投資",
+              "NEXT FUNDS 東証REIT指数連動",
+              "信託報酬0.155%",
+              "分配金利回り約4%",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "分散投資",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">J-REIT投資のメリット・デメリット</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>メリット①</strong>：少額から不動産投資可能（数万円から）</li>
+          <li><strong>メリット②</strong>：分配金利回り4〜6%と高い</li>
+          <li><strong>メリット③</strong>：新NISA成長枠で非課税受取</li>
+          <li><strong>メリット④</strong>：不動産運営の手間不要</li>
+          <li><strong>デメリット</strong>：金利上昇時に価格下落リスク、スポンサー企業の信用リスク</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="J-REIT投資はSBI証券｜新NISA成長枠対応"
+        description="SBI証券なら全J-REIT銘柄を新NISA成長枠で購入可能。日本株同様に売買手数料完全無料、分配金も非課税で長期運用が有利。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="🏗️"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "commodity-etf-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">コモディティETFでインフレヘッジ</h2>
+        <p>
+          コモディティETFは、金・銀・原油・天然ガス・農産物等の実物資産に連動するETF。株式と相関が低く、インフレ・地政学リスクのヘッジとしてポートフォリオ5〜15%の配分が推奨されます。SPDR ゴールド等の大手ETFで個人投資家も少額から投資可能です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="主要コモディティETF比較"
+        services={[
+          {
+            name: "SPDR ゴールド・シェア（1326）",
+            rank: 1,
+            highlight: "金現物の裏付け｜世界最大",
+            features: [
+              "金価格に連動、現物で裏付け",
+              "世界最大の金ETF",
+              "信託報酬0.4%",
+              "東証上場で日本円で買える",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "金の王道",
+          },
+          {
+            name: "SLV（iShares シルバー）",
+            rank: 2,
+            highlight: "銀価格連動｜ボラティリティ大",
+            features: [
+              "銀価格に連動",
+              "金より値動き2〜3倍大きい",
+              "産業需要（太陽光パネル等）",
+              "投機的な性格強め",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "USO（United States Oil Fund）",
+            rank: 3,
+            highlight: "WTI原油先物連動",
+            features: [
+              "WTI原油先物価格に連動",
+              "短期トレード向き",
+              "長期保有でコンタンゴ（期差損）に注意",
+              "地政学リスクヘッジに",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "DBA（Invesco 農産物）",
+            rank: 4,
+            highlight: "穀物・砂糖等の農産物分散",
+            features: [
+              "小麦・トウモロコシ・大豆・砂糖・ココア等",
+              "食料インフレヘッジ",
+              "分散型で安定性",
+              "信託報酬0.85%",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "PDBC（Invesco コモディティ総合）",
+            rank: 5,
+            highlight: "コモディティ全体に分散投資",
+            features: [
+              "エネルギー・金属・農産物を総合",
+              "14種類のコモディティに分散",
+              "信託報酬0.59%",
+              "ポートフォリオ簡素化",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "総合分散",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">コモディティETFのポートフォリオ配分</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>総資産の5〜15%をコモディティETFに</li>
+          <li>うち半分を金（SPDR ゴールド）でインフレヘッジ</li>
+          <li>残り半分をエネルギー・農産物に分散</li>
+          <li>株式との相関低く、ポートフォリオ全体のリスク低減</li>
+          <li>新NISA成長枠で非課税運用可能</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="コモディティETFもSBI証券で｜米国ETF為替手数料無料"
+        description="SBI証券は米国コモディティETF（SLV・USO・DBA・PDBC等）の為替手数料無料。日本の金ETF（1326）と組合せて、インフレヘッジの分散投資を実現。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="🛢️"
+        highlight="業界No.1"
+      />
+    </>
+  ),
 };
