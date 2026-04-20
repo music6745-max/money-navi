@@ -23486,4 +23486,496 @@ const guideContents: Record<string, React.ReactNode> = {
       />
     </>
   ),
+  "dollar-cost-averaging-vs-lumpsum": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">ドルコスト平均法vs一括投資｜徹底比較</h2>
+        <p>
+          1000万円の資金をどう投資するか？これは投資家の永遠の課題です。ドルコスト平均法（DCA）で月々分割投資する派と、一括投資（Lump Sum）で全額投入する派、過去40年のS&P500データで検証すると約70%の期間で一括投資が有利ですが、心理的負担ゼロの積立投資も実用性は高い。目的別の最適解を解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="ドルコスト平均法 vs 一括投資の比較"
+        services={[
+          {
+            name: "一括投資（Lump Sum）",
+            rank: 1,
+            highlight: "過去70%の期間で有利",
+            features: [
+              "資金を即座に市場暴露",
+              "機会損失を最小化",
+              "期待リターン最大化",
+              "上昇相場で圧倒的に有利",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "統計的優位",
+          },
+          {
+            name: "ドルコスト平均法（DCA）",
+            rank: 2,
+            highlight: "心理的負担ゼロ",
+            features: [
+              "高値掴みリスク回避",
+              "価格下落時の買い増し効果",
+              "毎月一定額で継続可能",
+              "積立NISA・iDeCoの基本形",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "実用性高",
+          },
+          {
+            name: "分割投資（Value Averaging）",
+            rank: 3,
+            highlight: "両者のハイブリッド",
+            features: [
+              "6〜12ヶ月で分割投資",
+              "市場下落時に追加投資",
+              "心理的ハードル低下",
+              "上級者向け戦略",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">あなたに最適な戦略</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>退職金・相続等のまとまった資金：6〜12ヶ月で分割投資</li>
+          <li>毎月の給与からの積立：ドルコスト平均法一択（新NISA・iDeCo）</li>
+          <li>暴落後の投資判断：一括投資が有利（Buy the Dip）</li>
+          <li>初心者・心配性：ドルコスト平均法で心理的負担軽減</li>
+          <li>1億円以上の富裕層：半分一括＋半分DCAが実用的</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="積立投資も一括投資もSBI証券で｜投資信託・ETF両対応"
+        description="SBI証券は新NISA・iDeCo完全対応、投資信託2500本以上、米国株ETF（VTI・VOO等）・国内ETF（TOPIX連動等）に対応。ドルコスト平均法・一括投資どちらの戦略でも最強のプラットフォーム。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="⚖️"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "rebalancing-strategy-detail": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">リバランス戦略完全ガイド</h2>
+        <p>
+          ポートフォリオは時間経過で本来の配分から乖離します。株式80%・債券20%の目標が、好調相場で株式90%・債券10%になることも。リバランスで初期配分に戻すことで、リスク管理＆逆張り効果を得られます。定期リバランス（年1〜2回）vs 閾値リバランス（±5%乖離）の最適解と、税金コスト最小化を解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="リバランス手法の比較"
+        services={[
+          {
+            name: "定期リバランス（年1〜2回）",
+            rank: 1,
+            highlight: "シンプル・実用的",
+            features: [
+              "年始or誕生日の固定タイミング",
+              "忘れない仕組みが作れる",
+              "税金コスト予測可能",
+              "初心者に最適",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "王道",
+          },
+          {
+            name: "閾値リバランス（±5%乖離）",
+            rank: 2,
+            highlight: "市場変動に応じた対応",
+            features: [
+              "目標配分から5%超乖離で実施",
+              "大相場・暴落時に自動対応",
+              "監視の手間が必要",
+              "中上級者向け",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "ロボアド自動リバランス",
+            rank: 3,
+            highlight: "完全自動化",
+            features: [
+              "ウェルスナビ・THEO等",
+              "四半期ごと自動実施",
+              "手数料1.1%が必要",
+              "手間ゼロで運用",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">税金コスト最小化の実装</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>新NISA口座で保有：売買益非課税でリバランスコストゼロ</li>
+          <li>iDeCo口座：売買・スイッチング無料、退職時のみ課税</li>
+          <li>特定口座：売却時20.315%課税、リバランスは最小限に</li>
+          <li>新規買付で配分調整：売却ゼロで配分調整（最も税効率良い）</li>
+          <li>年末調整で損出し：含み損銘柄を売却して益出しと相殺</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="リバランス実装はSBI証券で｜新NISA非課税で税コストゼロ"
+        description="SBI証券の新NISA口座ではリバランス売買の税金がゼロ。iDeCoもスイッチング無料、特定口座でも損益通算活用で税負担最小化。リバランスを気にせず長期運用を継続できる。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="🔄"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "portfolio-60-40-classic-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">60/40ポートフォリオ｜王道戦略</h2>
+        <p>
+          株式60%・債券40%の配分は、数十年間ウォール街で「王道戦略」と呼ばれてきました。過去50年の年平均リターン8%、最大下落30%、シャープレシオも優秀。2022年は金利上昇で株債両落ちの異例を経験したものの、長期的な有効性は健在です。実装方法と新NISAでの構築例を解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="60/40ポートフォリオの実装例"
+        services={[
+          {
+            name: "米国特化型",
+            rank: 1,
+            highlight: "VTI 60%＋BND 40%",
+            features: [
+              "米国全株式ETF（VTI）60%",
+              "米国総合債券ETF（BND）40%",
+              "信託報酬0.03〜0.04%",
+              "SBI証券・楽天証券で購入可",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "低コスト",
+          },
+          {
+            name: "日本人向け（為替ヘッジ）",
+            rank: 2,
+            highlight: "全世界株＋国内債券",
+            features: [
+              "eMAXIS Slim全世界株60%",
+              "eMAXIS Slim国内債券40%",
+              "為替リスク軽減",
+              "新NISA積立枠対応",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "グローバル分散型",
+            rank: 3,
+            highlight: "VT 60%＋BNDW 40%",
+            features: [
+              "全世界株式ETF（VT）60%",
+              "全世界債券ETF（BNDW）40%",
+              "カントリーリスク最小",
+              "究極の分散投資",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">60/40の過去パフォーマンス</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>1990〜2024年：年平均リターン8.5%（S&P500単独は10.5%）</li>
+          <li>最大下落：2008年-30%・2022年-16%（S&P500は-37%・-18%）</li>
+          <li>シャープレシオ0.75（S&P500の0.6より優秀）</li>
+          <li>リタイア期（取崩し期）に最適な配分</li>
+          <li>2022年の株債両落ちは例外的現象（インフレ＋利上げ同時）</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="60/40ポートフォリオ実装はSBI証券で｜VTI・BND対応"
+        description="SBI証券はVTI・BND・VT・BNDW等の米国ETFが買付手数料無料。為替手数料も住信SBIネット銀行連携で無料、新NISA成長枠で非課税運用。60/40戦略を最安コストで実装できる。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="⚖️"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "all-weather-portfolio-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">オールウェザー・ポートフォリオ｜ダリオ流分散戦略</h2>
+        <p>
+          ヘッジファンドBridgewater創業者レイ・ダリオが考案したオールウェザー・ポートフォリオは、株式30%・長期債40%・中期債15%・コモディティ7.5%・金7.5%の配分で、成長・不況・インフレ・デフレの4局面すべてで安定リターンを狙う戦略。過去40年間、年平均6〜8%・最大下落10%前後と驚異的な安定性を実現しています。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="オールウェザー構成と実装ETF"
+        services={[
+          {
+            name: "株式30%",
+            rank: 1,
+            highlight: "VTI（米国全株式）",
+            features: [
+              "VTI or VT（全世界株）",
+              "eMAXIS Slim全世界株",
+              "成長局面で収益源",
+              "インフレ耐性も一部あり",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "長期債40%＋中期債15%",
+            rank: 2,
+            highlight: "TLT＋IEF",
+            features: [
+              "TLT（20年超米国債）40%",
+              "IEF（7〜10年米国債）15%",
+              "不況・デフレ時に収益源",
+              "株式と逆相関",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "コア債券",
+          },
+          {
+            name: "金7.5%＋コモディティ7.5%",
+            rank: 3,
+            highlight: "GLD＋DBC",
+            features: [
+              "GLD（金ETF）7.5%",
+              "DBC（コモディティ）7.5%",
+              "インフレ耐性",
+              "地政学リスクヘッジ",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">オールウェザーの過去実績</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>1984〜2024年：年平均リターン7.7%</li>
+          <li>最大下落：2008年-10%（S&P500は-37%）</li>
+          <li>2022年：-15%前後（金利上昇・株債同時下落の例外）</li>
+          <li>シャープレシオ0.9超（投資戦略トップクラス）</li>
+          <li>富裕層・リタイア層に人気、安定志向向け</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="オールウェザー実装はSBI証券で｜VTI・TLT・GLD対応"
+        description="SBI証券はオールウェザー構成の米国ETF（VTI・TLT・IEF・GLD・DBC）をすべて購入可能。為替手数料無料、新NISA成長枠で非課税運用、ダリオ流戦略を個人投資家でも実装できる。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="🌦️"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "permanent-portfolio-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">パーマネント・ポートフォリオ｜4均等戦略</h2>
+        <p>
+          ハリー・ブラウンが1980年代に考案したパーマネント・ポートフォリオは、株式25%・長期債25%・金25%・現金25%の均等配分戦略。どんな経済局面（繁栄・不況・インフレ・デフレ）でも4資産のいずれかが収益源となり、年平均6〜8%・最大下落15%前後の安定リターンを実現。危機耐性が極めて高い、保守派向けの名戦略です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="パーマネント・ポートフォリオ構成"
+        services={[
+          {
+            name: "株式25%",
+            rank: 1,
+            highlight: "繁栄局面の収益源",
+            features: [
+              "VTI（米国全株式）or VT",
+              "eMAXIS Slim全世界株",
+              "成長局面で10〜20%リターン",
+              "インフレ耐性も一部あり",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "長期債25%",
+            rank: 2,
+            highlight: "不況・デフレの収益源",
+            features: [
+              "TLT（20年超米国債）",
+              "EDV（超長期米国債）",
+              "不況時に価格上昇",
+              "金利低下で収益最大",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "金25%＋現金25%",
+            rank: 3,
+            highlight: "インフレ＆安全資産",
+            features: [
+              "GLD（金ETF）25%",
+              "現金（MMF・定期預金）25%",
+              "地政学リスク・インフレ耐性",
+              "暴落時の買い増し原資",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "防衛",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">パーマネントの実績</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>1972〜2024年：年平均リターン7.8%</li>
+          <li>最大下落：2008年-10%・2022年-15%</li>
+          <li>70年代スタグフレーション期：年平均9%超（S&P500は-1%）</li>
+          <li>インフレ耐性・危機耐性でトップクラス</li>
+          <li>60代以上のリタイア層・保守派投資家に最適</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="パーマネント・ポートフォリオ実装はSBI証券で"
+        description="SBI証券ではVTI・TLT・GLDの米国ETFと国内MMF・定期預金の4資産を1つの口座で管理可能。為替手数料無料、新NISA成長枠で非課税運用、どんな相場でも眠れる安定ポートフォリオを実装できる。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="🏛️"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "three-fund-portfolio-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">3ファンドポートフォリオ｜ボーグル流シンプル投資</h2>
+        <p>
+          バンガード創業者ジョン・ボーグルが提唱した3ファンドポートフォリオは、米国株式・海外株式・米国債券の3本だけで構築する究極のシンプル戦略。年齢＝債券配分のルール（20代20%、40代40%等）で年代別調整も容易。低コスト（信託報酬0.1%以下）＆全世界分散で、S&P500にも匹敵する長期リターンを実現します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="3ファンドの実装例（年代別）"
+        services={[
+          {
+            name: "20〜30代（積極型）",
+            rank: 1,
+            highlight: "株式80%＋債券20%",
+            features: [
+              "VTI（米国全株式）50%",
+              "VXUS（海外株式）30%",
+              "BND（米国債券）20%",
+              "年平均リターン9%目標",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "成長重視",
+          },
+          {
+            name: "40〜50代（バランス型）",
+            rank: 2,
+            highlight: "株式60%＋債券40%",
+            features: [
+              "VTI 40%＋VXUS 20%",
+              "BND 40%",
+              "年平均リターン7〜8%",
+              "退職準備期に最適",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "60代以降（保守型）",
+            rank: 3,
+            highlight: "株式40%＋債券60%",
+            features: [
+              "VTI 25%＋VXUS 15%",
+              "BND 60%",
+              "年平均リターン5〜6%",
+              "取崩し期の安定性重視",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">3ファンドの優位性</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>シンプル：3本だけで全世界分散を実現</li>
+          <li>低コスト：信託報酬0.05〜0.1%（ロボアド1.1%より圧倒的に安い）</li>
+          <li>年代別調整：年齢＝債券配分の明確ルール</li>
+          <li>リバランス容易：年1回、新規買付で配分調整</li>
+          <li>新NISA対応：積立＋成長枠で効率的運用</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="3ファンドポートフォリオはSBI証券で｜VTI・VXUS・BND対応"
+        description="SBI証券では3ファンド（VTI・VXUS・BND）がすべて買付手数料無料。為替手数料も住信SBI連携で無料、新NISA成長枠で非課税運用、年0.1%の激安コストでボーグル流投資を実装できる。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="📊"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "core-satellite-strategy-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">コア・サテライト戦略｜安定と成長の最適配分</h2>
+        <p>
+          コア・サテライト戦略は、安定のコア（全世界株式・S&P500等のインデックス70〜80%）＋成長狙いのサテライト（個別株・テーマETF・REIT・暗号資産等の20〜30%）を組み合わせる実用的戦略。インデックスの安定性を保ちつつ、個別の勝ち馬を狙う攻守両立のアプローチで、平均以上のリターンを実現できます。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="コア・サテライト構成例"
+        services={[
+          {
+            name: "王道型（80/20）",
+            rank: 1,
+            highlight: "初心者〜中級者向け",
+            features: [
+              "コア80%（eMAXIS Slim全世界株）",
+              "サテライト20%（個別株・テーマETF）",
+              "リスク管理しやすい",
+              "年平均リターン8〜10%目標",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "王道",
+          },
+          {
+            name: "成長重視型（70/30）",
+            rank: 2,
+            highlight: "中〜上級者向け",
+            features: [
+              "コア70%（S&P500・全世界株）",
+              "サテライト30%（テーマETF・個別株）",
+              "NASDAQ・半導体・AI等で成長狙い",
+              "年平均リターン10〜12%期待",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "保守型（90/10）",
+            rank: 3,
+            highlight: "シニア・保守派向け",
+            features: [
+              "コア90%（全世界株＋債券）",
+              "サテライト10%（高配当・優良株）",
+              "リスク最小限",
+              "安定＋α程度の成長",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">サテライト部分の選び方</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>テーマETF：半導体（SOXX）・AI（BOTZ）・クリーンエネルギー（ICLN）</li>
+          <li>高配当ETF：HDV・VYM・日経高配当（月次配当も人気）</li>
+          <li>個別株：GAFAM・Tesla・日本個別株（トヨタ・任天堂等）</li>
+          <li>REIT：VNQ（米国REIT）・J-REIT（国内不動産）</li>
+          <li>暗号資産：BTC・ETH（ポートフォリオ1〜5%以内）</li>
+          <li>サテライトは短期売買NG、長期保有が基本</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="コア・サテライト戦略はSBI証券で｜インデックス＋個別株対応"
+        description="SBI証券は投資信託2500本＋米国ETF＋日本個別株＋暗号資産（BTC・ETH）まで1口座で完結。コア（全世界株インデックス）＋サテライト（テーマETF・個別株）の組合せ戦略を最適コストで実装できる。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="🎯"
+        highlight="業界No.1"
+      />
+    </>
+  ),
 };
