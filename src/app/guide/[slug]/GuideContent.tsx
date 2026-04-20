@@ -12907,4 +12907,546 @@ const guideContents: Record<string, React.ReactNode> = {
       </section>
     </>
   ),
+  "us-etf-core-satellite-strategy": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">米国ETFのコア・サテライト戦略</h2>
+        <p>
+          コア・サテライト戦略は、資産の70〜80%を安定的なコア（VTI/VOO/VT等の広範分散ETF）、20〜30%を成長性の高いサテライト（半導体・AI・クリーンエネルギー等のテーマETF）に配分する投資手法。長期安定＋高リターンを両立できる王道戦略です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="2026年 米国ETFポートフォリオ"
+        services={[
+          {
+            name: "VTI（Vanguard Total Stock Market）",
+            rank: 1,
+            highlight: "米国株式全体｜信託報酬0.03%",
+            features: [
+              "米国株式4,000銘柄に分散",
+              "業界最低信託報酬0.03%",
+              "S&P500より幅広い（小型株も含む）",
+              "コア資産として最適",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "コア",
+          },
+          {
+            name: "VOO（Vanguard S&P 500）",
+            rank: 2,
+            highlight: "S&P500｜信託報酬0.03%",
+            features: [
+              "S&P 500指数連動、米国大型株500銘柄",
+              "信託報酬0.03%",
+              "過去30年の年平均リターン10%超",
+              "バフェットおすすめ",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "SOXL（半導体3倍レバレッジ）",
+            rank: 3,
+            highlight: "サテライト｜高リスク高リターン",
+            features: [
+              "半導体指数の3倍レバレッジ",
+              "AI・半導体需要拡大で成長期待",
+              "ボラティリティ大きい（上昇・下落とも3倍）",
+              "サテライト5〜10%以内で運用",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "攻め",
+          },
+          {
+            name: "ICLN（クリーンエネルギー）",
+            rank: 4,
+            highlight: "サテライト｜ESG投資と重ね打ち",
+            features: [
+              "クリーンエネルギー関連100銘柄",
+              "Tesla・Enphase等を含む",
+              "長期成長期待",
+              "信託報酬0.41%",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "ROBO（AI・ロボット）",
+            rank: 5,
+            highlight: "AI・ロボット関連企業",
+            features: [
+              "AI・ロボット関連企業80銘柄",
+              "NVIDIA・ABB等を含む",
+              "長期成長期待",
+              "信託報酬0.95%",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">モデルポートフォリオ（月10万円積立）</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>コア（70%）：VTI 5万円 + VOO 2万円 = 7万円</li>
+          <li>サテライト（30%）：SOXL 1万円 + ROBO 1万円 + ICLN 1万円 = 3万円</li>
+          <li>20年運用（年利7%平均）：元本2,400万円→約5,200万円</li>
+          <li>新NISA成長枠をフル活用で配当も非課税</li>
+          <li>年1回のリバランスで比率維持</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="米国ETF積立はSBI証券｜為替手数料無料"
+        description="SBI証券なら米国ETFの為替手数料完全無料、定期買付も設定可能。新NISA成長枠（年240万円）で配当非課税、コア・サテライト戦略の基盤に最適。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="🌎"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "side-business-tax-accounting": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">副業の税務ルール20万円の壁</h2>
+        <p>
+          会社員が副業した場合、副業所得（売上-経費）が年20万円超なら確定申告必須。20万円以下なら所得税の申告不要ですが、住民税は申告必要。副業が「雑所得」か「事業所得」かで経費計上範囲・青色申告特別控除の有無等が大きく変わります。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="雑所得 vs 事業所得の違い"
+        services={[
+          {
+            name: "雑所得",
+            rank: 1,
+            highlight: "副業初心者｜確定申告簡単",
+            features: [
+              "月数万円の副業に多い分類",
+              "経費計上可能だが青色申告特別控除なし",
+              "損失の繰越控除不可",
+              "確定申告書B＋雑所得欄の記載",
+            ],
+            href: "https://www.zeiri4.com/",
+            badge: "基本",
+          },
+          {
+            name: "事業所得（青色申告）",
+            rank: 2,
+            highlight: "本格副業｜税制優遇大",
+            features: [
+              "継続・安定した売上・利益があること",
+              "青色申告特別控除65万円",
+              "損失の3年繰越控除",
+              "家族への給与を経費計上可能",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1DXI+1UOKJ6+3SPO+9FDI8Y",
+            badge: "本格派",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">副業バレしない税務対策</h2>
+        <ol className="list-decimal list-inside space-y-2 text-sm">
+          <li><strong>住民税を普通徴収に変更</strong>：確定申告書で「自分で納付」を選択</li>
+          <li><strong>副業所得を抑えめに申告</strong>：会社からの住民税通知で気づかれやすい</li>
+          <li><strong>SNS等での公開は慎重に</strong>：実名・顔出しは会社関係者に見られるリスク</li>
+          <li><strong>本業との競合避け</strong>：同業界・競合他社との取引を避ける</li>
+          <li><strong>会社の副業規定を確認</strong>：禁止ならトラブル回避</li>
+        </ol>
+      </section>
+      <AffiliateCTA
+        title="副業の税務はfreee会計で自動化｜月1,180円から"
+        description="副業の売上・経費・確定申告を自動化。freee会計なら月1,180円から、AI仕訳・e-Tax連携で副業バレ対策の住民税「自分で納付」も1クリック設定。"
+        buttonText="freee会計の詳細"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1DXI+1UOKJ6+3SPO+9FDI8Y"
+        icon="📊"
+        highlight="30日無料"
+      />
+    </>
+  ),
+  "investment-trust-active-vs-index": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">アクティブvsインデックスの20年リターン差</h2>
+        <p>
+          アクティブ投信（プロが銘柄選定、信託報酬1〜2%）とインデックス投信（指数連動、信託報酬0.05〜0.2%）の20年リターン差は、信託報酬の複利効果で大きな差に。月3万円・20年積立で信託報酬1.5%差があれば、最終資産で300〜500万円の差が出ます。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="代表的なアクティブ vs インデックス投信"
+        services={[
+          {
+            name: "eMAXIS Slim 全世界株式（インデックス）",
+            rank: 1,
+            highlight: "信託報酬0.058%｜業界最安",
+            features: [
+              "オールカントリー、全世界の株式に分散",
+              "信託報酬0.058%と業界最安",
+              "過去10年リターン年率10%超",
+              "新NISAつみたて枠対応",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "インデックスNo.1",
+          },
+          {
+            name: "SBI・V・S&P500インデックス（インデックス）",
+            rank: 2,
+            highlight: "信託報酬0.09%｜米国集中",
+            features: [
+              "S&P 500指数連動、米国株式500銘柄",
+              "信託報酬0.09%",
+              "過去30年年率10%超",
+              "SBI証券オリジナル商品",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "ひふみプラス（アクティブ）",
+            rank: 3,
+            highlight: "信託報酬1.078%｜国内株中心",
+            features: [
+              "日本株中心で運用",
+              "過去10年年率8〜12%程度",
+              "信託報酬1.078%（インデックスの10倍以上）",
+              "運用者のスター性あり",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "セゾン・バンガード・グローバルバランスファンド（アクティブ）",
+            rank: 4,
+            highlight: "信託報酬0.57%｜バランス型",
+            features: [
+              "株式50%・債券50%のバランス型",
+              "Vanguardファンドを使用",
+              "信託報酬0.57%",
+              "リスクを抑えた運用",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">20年積立シミュレーション（月3万円）</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>インデックス（信託報酬0.1%・年率7%）：約1,580万円</li>
+          <li>アクティブ（信託報酬1.5%・年率7%）：約1,400万円</li>
+          <li>信託報酬差0.9%で20年後に約180万円の差</li>
+          <li>アクティブが市場平均を上回る確率は10〜20%</li>
+          <li>結論：特別な理由がない限りインデックス投信が合理的</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="低コストインデックス投信ならSBI証券｜投信取扱No.1"
+        description="SBI証券は投資信託取扱2,500本以上、eMAXIS Slim・SBI・V・インデックス等の低コスト投信が豊富。新NISAつみたて枠で月10万円まで積立設定可能。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="📊"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "crowd-funding-donation-trust": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">寄付型クラウドファンディングの仕組み</h2>
+        <p>
+          寄付型クラウドファンディングは、社会貢献プロジェクト（災害支援・医療・教育等）への資金提供方法。認定NPO法人への寄付なら所得税の寄附金控除（所得税40%控除 or 寄附金特別控除）が受けられ、社会貢献と節税を両立できます。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="寄付型クラウドファンディングサービス"
+        services={[
+          {
+            name: "READYFOR",
+            rank: 1,
+            highlight: "日本最大級｜社会貢献型プロジェクト多数",
+            features: [
+              "日本最大級のクラウドファンディング",
+              "社会課題解決プロジェクト豊富",
+              "認定NPO法人のプロジェクトで税控除可",
+              "災害支援・医療・教育等",
+            ],
+            href: "https://readyfor.jp/",
+            badge: "業界最大手",
+          },
+          {
+            name: "CAMPFIRE",
+            rank: 2,
+            highlight: "プロジェクト数No.1｜創業期支援にも",
+            features: [
+              "プロジェクト数No.1",
+              "購入型＋寄付型の両方対応",
+              "個人発信プロジェクトも多数",
+              "クリエイター・起業家支援",
+            ],
+            href: "https://camp-fire.jp/",
+          },
+          {
+            name: "ふるさとチョイス（GCF）",
+            rank: 3,
+            highlight: "ふるさと納税×クラファン｜税控除＋返礼品",
+            features: [
+              "自治体プロジェクトに寄付",
+              "ふるさと納税として控除対象",
+              "返礼品も受け取れる",
+              "地域の具体的な課題解決支援",
+            ],
+            href: "https://www.furusato-tax.jp/gcf/",
+            badge: "税控除",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">寄付の税制優遇</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>認定NPO法人への寄付：所得税の寄附金控除 or 寄附金特別控除（40%）</li>
+          <li>公益社団法人・学校法人への寄付：所得税控除</li>
+          <li>ふるさと納税：寄付金額-2,000円が翌年の住民税から控除</li>
+          <li>寄附金特別控除：所得税率20〜30%より有利なケース多い</li>
+          <li>確定申告で寄附金受領証明書を添付</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="ふるさと納税でクラファン支援｜楽天ふるさと納税"
+        description="楽天ふるさと納税ならSPU最大16倍＋5と0の付く日で最大30%還元。実質2,000円で返礼品＋社会貢献、自治体クラファン型の寄付も対応。"
+        buttonText="楽天ふるさと納税を見る"
+        href="https://event.rakuten.co.jp/furusato/"
+        icon="❤️"
+        highlight="SPU最大16倍"
+      />
+    </>
+  ),
+  "unemployment-benefits-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">失業給付（雇用保険）の基礎</h2>
+        <p>
+          雇用保険加入1年以上の会社員は、退職時に失業給付（基本手当）を受給可能。自己都合退職は3ヶ月待機後に受給開始、会社都合は即受給。受給期間90〜330日、月給与の50〜80%の支給で、転職活動期間の生活を守ります。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="失業給付の受給条件と金額"
+        services={[
+          {
+            name: "自己都合退職",
+            rank: 1,
+            highlight: "3ヶ月待機＋7日｜受給期間90〜150日",
+            features: [
+              "3ヶ月の給付制限期間あり",
+              "受給期間：雇用保険加入期間10年未満90日・10〜20年120日・20年以上150日",
+              "給付率50〜80%（月給の）",
+              "ハローワークで求職申込必須",
+            ],
+            href: "https://www.hellowork.mhlw.go.jp/",
+            badge: "通常",
+          },
+          {
+            name: "会社都合退職",
+            rank: 2,
+            highlight: "即受給｜受給期間90〜330日",
+            features: [
+              "待機期間7日後に即受給開始",
+              "受給期間は自己都合の2倍（〜330日）",
+              "給付率50〜80%",
+              "国民健康保険・国民年金の軽減あり",
+            ],
+            href: "https://www.hellowork.mhlw.go.jp/",
+            badge: "優遇",
+          },
+          {
+            name: "教育訓練給付金併用",
+            rank: 3,
+            highlight: "失業給付＋スキルアップの最強組合せ",
+            features: [
+              "失業給付中に職業訓練校受講",
+              "教育訓練給付金で受講料60〜70%補助",
+              "訓練延長給付で給付期間延長",
+              "ハローワーク経由でのスキル転換",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1DXI+4DRW36+4K3S+5YJRM",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">失業給付の受給額計算</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>基本手当日額＝賃金日額（退職前6ヶ月の平均日額）×給付率（50〜80%）</li>
+          <li>月給30万円→基本手当日額約6,000円→月15〜18万円</li>
+          <li>月給50万円→基本手当日額約8,000円（上限）→月20〜24万円</li>
+          <li>年齢・賃金水準で給付率変動</li>
+          <li>受給総額は最大200〜300万円</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="失業中のスキルアップに｜SkillHacks"
+        description="失業給付受給中は時間に余裕があるので、プログラミング・Webマーケ等のスキル習得に最適。買い切り69,800円のSkillHacksなら失業給付の1ヶ月分で学べます。"
+        buttonText="SkillHacksの詳細"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1DXI+4DRW36+4K3S+5YJRM"
+        icon="💻"
+        highlight="買い切り"
+      />
+    </>
+  ),
+  "maternity-leave-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">出産前の家計準備5ポイント</h2>
+        <p>
+          出産は人生の大きなイベントで、費用は出産前後で合計100〜150万円かかります。出産育児一時金50万円・出産手当金（産休中の月給の2/3）等の公的給付を最大限活用し、不足分は事前貯蓄で備えることで、経済不安なく出産を迎えられます。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="出産前後の公的給付"
+        services={[
+          {
+            name: "出産育児一時金",
+            rank: 1,
+            highlight: "50万円｜健康保険から支給",
+            features: [
+              "2023年4月から50万円に増額",
+              "健康保険・国民健康保険から支給",
+              "直接支払制度で病院への立替不要",
+              "産科医療補償制度対象の病院で出産",
+            ],
+            href: "https://www.kyoukaikenpo.or.jp/",
+            badge: "必須",
+          },
+          {
+            name: "出産手当金",
+            rank: 2,
+            highlight: "産前42日＋産後56日｜月給の2/3",
+            features: [
+              "会社員の健康保険加入者のみ",
+              "産前42日＋産後56日＝98日間",
+              "月給の約2/3を給付",
+              "月給30万円なら合計約66万円",
+            ],
+            href: "https://www.kyoukaikenpo.or.jp/",
+          },
+          {
+            name: "育児休業給付金",
+            rank: 3,
+            highlight: "育休中｜月給の67%→50%",
+            features: [
+              "産後〜子1歳（延長2歳まで）",
+              "最初180日：月給67%、以降50%",
+              "雇用保険から支給、非課税",
+              "社会保険料免除との組合せで手取り維持",
+            ],
+            href: "https://www.mhlw.go.jp/",
+          },
+          {
+            name: "自治体の出産祝金",
+            rank: 4,
+            highlight: "自治体による｜10〜100万円の差",
+            features: [
+              "自治体により出産祝金が異なる",
+              "移住後の出産で数十万円支給もあり",
+              "子の数で増額（第3子100万円等）",
+              "事前に自治体HPで確認",
+            ],
+            href: "https://www.mhlw.go.jp/",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">出産準備費用の目安</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>出産費用（病院代）：50〜80万円（出産育児一時金50万円でカバー）</li>
+          <li>マタニティ用品：10〜20万円</li>
+          <li>ベビー用品：10〜30万円</li>
+          <li>出産後の生活費（半年分）：60〜120万円</li>
+          <li>合計の事前貯蓄目安：100〜200万円</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="出産前の保険見直しはFPに｜保険見直しラボ"
+        description="出産を機に学資保険不要・生命保険見直し・医療保険追加等、保険ポートフォリオの再設計が必要。FP無料相談で家族構成・収入に合わせた最適プランを提案。"
+        buttonText="保険見直しラボに無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=3Z6F6O+1YZZGQ+38BE+5YRHE"
+        icon="🛡️"
+        highlight="相談料完全無料"
+      />
+    </>
+  ),
+  "home-loan-refinancing-strategy": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">住宅ローン借換の3条件</h2>
+        <p>
+          住宅ローン借換は「金利差0.3%以上＋残債1,000万円以上＋残期間10年以上」の3条件が揃えば検討価値あり。諸費用30〜100万円を払っても、総返済額100〜500万円の削減が実現できます。変動金利0.3%台の現在、固定→変動への借換も選択肢です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="2026年 住宅ローン借換比較サービス"
+        services={[
+          {
+            name: "モゲチェック",
+            rank: 1,
+            highlight: "複数銀行一括審査｜無料診断",
+            features: [
+              "複数銀行の審査を無料で一括比較",
+              "金利・諸費用・諸条件を総合判断",
+              "借換プロのコンサル付き",
+              "業界最大級のユーザー数",
+            ],
+            href: "https://www.mogecheck.jp/",
+            badge: "業界最大手",
+          },
+          {
+            name: "住信SBIネット銀行",
+            rank: 2,
+            highlight: "変動金利0.3%台｜業界最低水準",
+            features: [
+              "変動金利0.3〜0.5%",
+              "保証料・繰上返済手数料無料",
+              "団信・疾病保障充実",
+              "Web完結で来店不要",
+            ],
+            href: "https://www.netbk.co.jp/",
+          },
+          {
+            name: "auじぶん銀行",
+            rank: 3,
+            highlight: "変動0.2〜0.5%｜auユーザー特典",
+            features: [
+              "変動金利0.2〜0.5%の業界最安級",
+              "auユーザーは金利優遇",
+              "Web完結",
+              "団信・保証料無料",
+            ],
+            href: "https://www.jibunbank.co.jp/",
+          },
+          {
+            name: "ソニー銀行",
+            rank: 4,
+            highlight: "変動0.5〜0.7%｜フリーランスも対応",
+            features: [
+              "変動金利0.5〜0.7%",
+              "フリーランス・個人事業主の審査実績",
+              "所得金額での審査",
+              "最長35年返済",
+            ],
+            href: "https://moneykit.net/",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">借換シミュレーション（残債2,000万円）</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>金利1.5%→0.5%（差1%）、残期間20年の場合</li>
+          <li>月返済：約97,000円→約88,000円（月9,000円減）</li>
+          <li>総返済額：約2,330万円→約2,120万円（210万円減）</li>
+          <li>諸費用50万円を差し引いても、約160万円の節約</li>
+          <li>浮いた分を新NISAで運用すれば老後資金UP</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="住宅ローン借換は一括比較｜モゲチェック"
+        description="モゲチェックなら複数銀行の借換条件を無料一括比較。金利差0.5%以上で総返済額100〜500万円の削減を狙える最強の無料ツール。事前審査も代行してくれる。"
+        buttonText="モゲチェックの詳細"
+        href="https://www.mogecheck.jp/"
+        icon="🔄"
+        highlight="無料診断"
+      />
+    </>
+  ),
 };
