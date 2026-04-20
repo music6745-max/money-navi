@@ -20318,4 +20318,421 @@ const guideContents: Record<string, React.ReactNode> = {
       />
     </>
   ),
+  "internet-banking-rate-compare": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">ネット銀行金利・手数料完全比較</h2>
+        <p>
+          ネット銀行の普通預金金利は、メガバンク（0.001%）の100〜400倍。住信SBIネット銀行（優遇時0.2%）、楽天銀行（マネーブリッジ0.1%）、auじぶん銀行（au連携0.4%）、SBI新生銀行（ステップアッププラン0.15%）など、優遇ステージ活用で年5〜10万円の利息差が発生。ATM無料回数・他行振込無料枠も重要な比較ポイントです。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="ネット銀行主要4行比較"
+        services={[
+          {
+            name: "住信SBIネット銀行（SBI証券連携）",
+            rank: 1,
+            highlight: "SBI証券連携で外貨手数料無料",
+            features: [
+              "優遇時金利0.2%",
+              "ATM無料月2〜20回",
+              "米ドル為替手数料無料",
+              "SBI証券クレカ積立対応",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "SBI経済圏",
+          },
+          {
+            name: "楽天銀行（マネーブリッジ）",
+            rank: 2,
+            highlight: "楽天証券連携で金利0.1%",
+            features: [
+              "マネーブリッジで普通預金0.1%",
+              "楽天ポイント連携",
+              "給与振込でステージUP",
+              "楽天カードとの連携",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "auじぶん銀行（au経済圏）",
+            rank: 3,
+            highlight: "金利0.4%（上乗せ）",
+            features: [
+              "au経済圏で最大0.4%",
+              "Pontaポイント連携",
+              "auカブコム証券連携",
+              "ATM無料月8回",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">ネット銀行選びの4ポイント</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>①金利：優遇ステージ活用で年0.1〜0.4%確保</li>
+          <li>②ATM無料：月5回以上は欲しい</li>
+          <li>③他行振込無料：月3回以上あれば合格</li>
+          <li>④証券会社連携：SBI-住信SBI、楽天-楽天銀行の経済圏内</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="住信SBIネット銀行＋SBI証券で経済圏構築"
+        description="住信SBIネット銀行＋SBI証券の連携で、外貨手数料無料・優遇金利0.2%・ATM20回無料。新NISA＋iDeCo＋高金利預金を1つの経済圏で管理、年10万円超のメリット獲得。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="🏦"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "credit-score-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">信用情報・クレジットスコア完全ガイド</h2>
+        <p>
+          個人信用情報は、CIC（クレカ・ローン）・JICC（消費者金融）・KSC（全国銀行協会）の3機関が管理。住宅ローン・自動車ローン審査で確認され、信用スコア低いと借入金利が高くなる or 審査不合格。スコア向上のコツ（延滞ゼロ・長期利用履歴・クレカ枚数適正化）、開示請求の手順、ブラックリスト解除時期を解説します。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">信用情報の3機関</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>CIC</strong>：クレジットカード・割賦・ローン（最大）</li>
+          <li><strong>JICC</strong>：消費者金融・信販系</li>
+          <li><strong>KSC</strong>：銀行系ローン・住宅ローン</li>
+          <li>開示：オンライン500〜1000円、郵送1000円</li>
+          <li>延滞記録：5年保持、自己破産は7〜10年</li>
+        </ul>
+      </section>
+      <ComparisonTableCTA
+        title="信用情報関連サービス"
+        services={[
+          {
+            name: "家づくり相談所（住宅ローン審査対策）",
+            rank: 1,
+            highlight: "信用情報＋住宅ローン事前相談",
+            features: [
+              "信用情報の事前確認",
+              "住宅ローン審査対策",
+              "複数行一括審査",
+              "専門家紹介無料",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+3PD522+5OGA+5YZ75",
+            badge: "5,000円/件",
+          },
+          {
+            name: "ココナラ（FP・弁護士相談）",
+            rank: 2,
+            highlight: "信用情報トラブル相談",
+            features: [
+              "信用情報の開示サポート",
+              "ブラック解除相談",
+              "FP・弁護士5000円〜",
+              "会員登録無料",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+4A7B8A+2PEO+OK4PD",
+            badge: "EPC 22.73",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">信用スコア向上の6つのコツ</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>①延滞ゼロを維持（クレカ・公共料金・携帯）</li>
+          <li>②クレカ長期利用履歴（5年以上継続保有）</li>
+          <li>③複数枚保有（3〜5枚が理想、10枚超は過剰）</li>
+          <li>④借入金額を利用枠の30%以内に</li>
+          <li>⑤頻繁なクレカ新規申込を避ける</li>
+          <li>⑥リボ・キャッシングは信用スコア低下要因</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="住宅ローン審査前の信用情報確認＋相談は家づくり相談所で"
+        description="住宅ローン審査を控えた方は、家づくり相談所で事前に信用情報の確認＋対策相談。複数行一括審査でベスト金利を獲得、信用スコア向上のアドバイスも無料で受けられる。"
+        buttonText="家づくり相談所で無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+3PD522+5OGA+5YZ75"
+        icon="📊"
+        highlight="無料相談"
+      />
+    </>
+  ),
+  "mortgage-flat35-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">フラット35完全ガイド</h2>
+        <p>
+          フラット35は、住宅金融支援機構と民間金融機関の提携で提供される全期間固定金利の住宅ローン。最長35年、金利1.5〜2%（2026年）、融資上限8000万円。金利Sプラン（省エネ・耐震住宅で0.25%減）、買取型と保証型の違い、変動金利との比較、借換えシミュレーションまで、長期安心の住宅ローン選びを解説します。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">フラット35の特徴</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>全期間固定金利（金利変動リスクゼロ）</li>
+          <li>最長35年、融資上限8000万円</li>
+          <li>返済比率：年収400万超で35%以内、以下で30%以内</li>
+          <li>団体信用生命保険は任意加入（別途加入料）</li>
+          <li>金利Sプラン：省エネ・耐震住宅で当初10年0.25%減</li>
+        </ul>
+      </section>
+      <ComparisonTableCTA
+        title="フラット35＋比較相談サービス"
+        services={[
+          {
+            name: "家づくり相談所（住宅ローン総合相談）",
+            rank: 1,
+            highlight: "フラット35＋民間ローン比較",
+            features: [
+              "フラット35の審査対策",
+              "複数金融機関一括審査",
+              "金利比較＋団信比較",
+              "専門家紹介無料",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+3PD522+5OGA+5YZ75",
+            badge: "5,000円/件",
+          },
+          {
+            name: "保険マンモス（団信比較）",
+            rank: 2,
+            highlight: "団信の最適選択",
+            features: [
+              "団信（通常・がん・3大疾病）比較",
+              "フラット35の団信任意加入判断",
+              "生命保険との併用最適化",
+              "完全無料相談",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+            badge: "EPC 31.06",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">フラット35 vs 変動金利</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>フラット35：金利1.5〜2%固定、35年安心</li>
+          <li>変動金利：金利0.3〜0.5%、将来上昇リスク</li>
+          <li>2026年金利上昇局面でフラット35の人気急上昇</li>
+          <li>リスク許容度低い家庭＝フラット35、高い家庭＝変動</li>
+          <li>ミックスローン（半分固定＋半分変動）も選択肢</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="フラット35＋住宅ローン比較は家づくり相談所で"
+        description="フラット35と民間住宅ローンを一括比較。家づくり相談所の専門家が、あなたの年収・物件・返済計画に最適な住宅ローンを提案。複数金融機関を横断審査で最安金利獲得。"
+        buttonText="家づくり相談所で無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+3PD522+5OGA+5YZ75"
+        icon="🏘️"
+        highlight="無料相談"
+      />
+    </>
+  ),
+  "education-loan-scholarship-compare": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">奨学金 vs 教育ローン完全比較</h2>
+        <p>
+          大学・専門学校の学費調達の2大手段が奨学金と教育ローン。日本学生支援機構（JASSO）の奨学金は、第一種（無利子・学力/家計基準）・第二種（有利子、在学中無利子）・給付型（返還不要）の3種類。民間教育ローン（銀行・労金）は金利1.5〜3.5%、審査緩やか。学費平均500〜800万円の調達戦略を解説します。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">奨学金vs教育ローン比較</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>奨学金（第一種無利子）</strong>：年収500万以下・学力基準、最も有利</li>
+          <li><strong>奨学金（第二種有利子）</strong>：在学中無利子、卒業後返還開始、年利0.4%</li>
+          <li><strong>奨学金（給付型）</strong>：低所得世帯のみ、返還不要の理想形</li>
+          <li><strong>民間教育ローン</strong>：金利1.5〜3.5%、親名義、即融資可</li>
+          <li>併用可能：奨学金＋教育ローンで総額カバー</li>
+        </ul>
+      </section>
+      <ComparisonTableCTA
+        title="教育資金準備のサービス"
+        services={[
+          {
+            name: "SBI証券（ジュニアNISA・親の新NISA）",
+            rank: 1,
+            highlight: "早期の教育資金積立",
+            features: [
+              "親の新NISAで教育資金準備",
+              "月3万×18年＝約1050万円",
+              "児童手当の全額投資",
+              "18歳までに十分な資金形成",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "業界No.1",
+          },
+          {
+            name: "すらら（学費軽減の学習）",
+            rank: 2,
+            highlight: "塾費用節約＋成績アップ",
+            features: [
+              "月8,800円〜で塾代わり",
+              "AI学習で効率的",
+              "大学受験対応",
+              "無料体験あり",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+54KF2Y+4CT0+60OXE",
+            badge: "EPC 15.56",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">学費調達の3つの戦略</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>①早期積立：0歳から親の新NISA月3万円→18歳で1000万円超</li>
+          <li>②奨学金活用：第一種（無利子）優先、次に第二種</li>
+          <li>③民間ローン：不足分のみ、金利1.5〜2%の銀行系</li>
+          <li>④返還免除制度：教員・研究職等で一部免除可能</li>
+          <li>⑤大学院進学時：学部奨学金と別枠で追加借入可能</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="教育資金の早期準備はSBI証券で｜月3万円×18年で1000万円"
+        description="0歳から月3万円を新NISAに積立→18歳で約1050万円（年利5%想定）。児童手当もフル活用で教育資金を完全カバー、奨学金に頼らず大学進学できる資産形成が実現可能。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="🎓"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "car-insurance-compare-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">自動車保険詳細比較</h2>
+        <p>
+          自動車保険はダイレクト系（ネット販売）と代理店系で年間保険料が2〜5万円も違う。ダイレクト系（ソニー損保・SBI損保・三井ダイレクト）は代理店手数料なしで年3〜5万円、代理店系（東京海上・損保ジャパン）は手厚いサポート込みで年5〜10万円。等級・年齢条件・特約（対人無制限・弁護士費用等）の最適化で、年数万円の節約が可能です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="自動車保険主要3社"
+        services={[
+          {
+            name: "ソニー損保（ダイレクト系No.1）",
+            rank: 1,
+            highlight: "16年連続売上No.1｜走行距離制",
+            features: [
+              "保険料3〜5万円/年",
+              "走行距離による保険料調整",
+              "ロードサービス充実",
+              "事故対応評価高い",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+            badge: "売上No.1",
+          },
+          {
+            name: "SBI損保（ネット専業最安級）",
+            rank: 2,
+            highlight: "保険料業界最安級",
+            features: [
+              "保険料2〜4万円/年",
+              "ネット完結で安い",
+              "対人無制限基本",
+              "SBIグループの安心感",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+          },
+          {
+            name: "三井ダイレクト損保",
+            rank: 3,
+            highlight: "三井住友海上グループ",
+            features: [
+              "保険料3〜5万円/年",
+              "代理店系のサポート",
+              "ロードサービス24h",
+              "事故対応スピード",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">保険料節約の5つのポイント</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>①ダイレクト系に乗換え（年2〜5万円削減）</li>
+          <li>②年齢条件最大化（全年齢→35歳以上で30%減）</li>
+          <li>③運転者限定（家族限定・本人限定で5〜10%減）</li>
+          <li>④特約整理（不要な車両保険・人身傷害を削減）</li>
+          <li>⑤等級最大化（20等級到達で最大63%割引）</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="自動車保険も保険マンモスで無料一括見積"
+        description="自動車保険の最安プランを保険マンモスで無料一括見積。ソニー損保・SBI損保・三井ダイレクト等のダイレクト系＋代理店系まで、あなたの条件に最適な保険を比較提案。"
+        buttonText="保険マンモスで無料見積"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM"
+        icon="🚗"
+        highlight="無料相談"
+      />
+    </>
+  ),
+  "smartphone-carrier-compare-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">スマホ料金プラン完全比較</h2>
+        <p>
+          スマホ通信費は家計の固定費の代表。大手3キャリア（ドコモ・au・ソフトバンク）の月7000〜10000円 vs 格安SIM（IIJmio・UQ・ahamo・povo）の月1000〜3000円で、年5〜10万円の差。楽天モバイルの1078円〜3278円従量制、ahamo（ドコモ回線）の2970円20GB、IIJmio（格安SIM最安）月500円〜など、ニーズ別の最適選択を解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="スマホ料金プラン3系統"
+        services={[
+          {
+            name: "楽天モバイル（従量制・無制限）",
+            rank: 1,
+            highlight: "データ無制限3,278円｜楽天経済圏",
+            features: [
+              "3GB以下1,078円・無制限3,278円",
+              "楽天市場SPU+1倍",
+              "国内通話無料",
+              "海外2GBまで無料",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "経済圏連携",
+          },
+          {
+            name: "ahamo（ドコモ回線）",
+            rank: 2,
+            highlight: "2,970円で20GB｜ドコモ品質",
+            features: [
+              "月2,970円で20GB",
+              "ドコモ回線で高速安定",
+              "国内通話5分無料",
+              "海外20GBまで無料",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "IIJmio（格安SIM最安級）",
+            rank: 3,
+            highlight: "月500円〜｜家族割あり",
+            features: [
+              "月500円〜（2GB）",
+              "家族割でさらに安く",
+              "ドコモ・au回線選択可",
+              "サポート充実",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">年間削減額の具体例</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>ドコモ8000円→ahamo 2970円：年6万円削減</li>
+          <li>au 9000円→povo 2728円：年7.5万円削減</li>
+          <li>ソフトバンク10000円→楽天モバイル3278円：年8万円削減</li>
+          <li>家族4人ドコモ→IIJmio家族割：年20万円超削減</li>
+          <li>削減分を新NISAで運用→20年で約200万円の資産形成</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="通信費削減＋投資の総合設計はSBI証券で"
+        description="スマホ通信費の削減分を新NISAで運用。月5000円削減なら年6万円、20年で約200万円の資産形成。SBI証券のクレカ積立＋新NISAで、節約＋資産形成の一石二鳥を実現。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="📱"
+        highlight="業界No.1"
+      />
+    </>
+  ),
 };
