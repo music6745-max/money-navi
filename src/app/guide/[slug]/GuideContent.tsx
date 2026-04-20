@@ -11680,4 +11680,634 @@ const guideContents: Record<string, React.ReactNode> = {
       </section>
     </>
   ),
+  "severance-early-retirement-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">早期退職パッケージの賢い活用</h2>
+        <p>
+          大手企業では45歳以上を対象に「早期退職優遇パッケージ」を提供する動きが増加。通常退職金の2〜3倍（＋割増金）が支給され、3,000〜5,000万円を超えるケースも。一方で退職後のキャリア・資産運用・社会保険の設計が必要で、パッケージ受取り前の事前計画が成否を決めます。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="早期退職後の選択肢"
+        services={[
+          {
+            name: "再就職（転職）",
+            rank: 1,
+            highlight: "年収ダウンが一般的｜50代管理職は厳しい",
+            features: [
+              "同業界で年収70〜90%水準",
+              "異業界転身は年収50〜70%が現実",
+              "JACリクルートメント・ビズリーチが有効",
+              "パッケージ＋再就職で老後資金構築",
+            ],
+            href: "https://www.jac-recruitment.jp/",
+            badge: "最多選択",
+          },
+          {
+            name: "独立・起業",
+            rank: 2,
+            highlight: "退職金を資本金に｜freeeで法人設立0円",
+            features: [
+              "退職金1,000〜3,000万円を資本金に",
+              "freee会社設立で合同会社6万円",
+              "前職人脈を活かした独立",
+              "個人事業主からの段階スタートも",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1DXI+1UOKJ6+3SPO+9FDI8Y",
+          },
+          {
+            name: "早期リタイア（FIRE）",
+            rank: 3,
+            highlight: "資産5,000万円超が目安｜4%ルール",
+            features: [
+              "資産5,000万円＋年金で完全リタイア",
+              "4%ルール（年間200万円取崩し）で生活",
+              "新NISA＋特定口座の配分最適化",
+              "健康保険任意継続2年間の手続き",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "セミリタイア（副業生活）",
+            rank: 4,
+            highlight: "月10〜30万円の収入で資産維持",
+            features: [
+              "退職金で生活費をカバー、副業で月10〜30万円",
+              "クラウドワークス・Webマーケ等",
+              "前職スキルのコンサル業も有力",
+              "ストレスない暮らしを実現",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=2NR2GS+DFNXFM+0K3Y+61RIP",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">退職金の税務（退職所得の計算）</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>退職所得控除：勤続年数×40万円（20年超は800万円+70万円×超過年数）</li>
+          <li>課税対象：(退職金-退職所得控除)×1/2</li>
+          <li>勤続30年なら1,500万円まで無税</li>
+          <li>勤続35年なら1,850万円まで無税</li>
+          <li>分離課税なので他の所得と合算されない</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="退職金の運用相談はFPに｜保険見直しラボ"
+        description="退職金の最適運用プラン（守り7：攻め3の分散）をFP無料相談で設計。外貨建て保険等の罠を避け、新NISA・定期預金・不動産クラファンへの分散が鉄則。"
+        buttonText="保険見直しラボに無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=3Z6F6O+1YZZGQ+38BE+5YRHE"
+        icon="🛡️"
+        highlight="相談料完全無料"
+      />
+    </>
+  ),
+  "credit-score-improve-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">個人信用情報（クレヒス）の重要性</h2>
+        <p>
+          日本のCIC・JICC・KSCに記録される個人信用情報は、クレジットカード・住宅ローン・カードローン審査の最重要指標。延滞・債務整理・多重申込等で信用スコアが低下すると、5〜10年間審査通過が困難に。逆に適切なクレヒスを積めば、プレミアムカード・ゴールドカード・住宅ローンの審査通過率が飛躍的に向上します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="日本の個人信用情報機関3社"
+        services={[
+          {
+            name: "CIC（株式会社シー・アイ・シー）",
+            rank: 1,
+            highlight: "クレジットカード会社系｜一番重要",
+            features: [
+              "クレジットカード・信販会社の情報を保有",
+              "個人で開示請求可能（1,000円/回）",
+              "延滞情報は5年保存",
+              "住宅ローン審査で必ずチェックされる",
+            ],
+            href: "https://www.cic.co.jp/",
+            badge: "最重要",
+          },
+          {
+            name: "JICC（日本信用情報機構）",
+            rank: 2,
+            highlight: "消費者金融系｜カードローン情報",
+            features: [
+              "消費者金融・銀行カードローンの情報",
+              "個人で開示請求可能（1,000円/回）",
+              "任意整理・自己破産の情報保存",
+              "カードローン審査で必ずチェック",
+            ],
+            href: "https://www.jicc.co.jp/",
+          },
+          {
+            name: "KSC（全国銀行個人信用情報センター）",
+            rank: 3,
+            highlight: "銀行系｜住宅ローン・自動車ローン",
+            features: [
+              "銀行・住宅金融機構の情報",
+              "個人で開示請求可能（1,000円/回）",
+              "自己破産情報は10年保存",
+              "住宅ローン審査で重視",
+            ],
+            href: "https://www.zenginkyo.or.jp/pcic/",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">信用スコアを上げる5ステップ</h2>
+        <ol className="list-decimal list-inside space-y-2 text-sm">
+          <li><strong>開示請求で現状確認</strong>：CIC/JICC/KSCの3社で開示（各1,000円）</li>
+          <li><strong>延滞を解消</strong>：未払いを完済、5年経過で記録消去</li>
+          <li><strong>クレヒス構築</strong>：クレカ1〜2枚を計画的に利用（毎月10〜20万円を使い、期日までに全額支払）</li>
+          <li><strong>借入を整理</strong>：カードローン借入を圧縮、年収1/3以内に</li>
+          <li><strong>複数申込を避ける</strong>：一度に3社以上のクレカ・ローン申込はブラック扱い</li>
+        </ol>
+      </section>
+      <AffiliateCTA
+        title="信用構築にはクレヒスを積む｜楽天カード"
+        description="年会費永年無料で取得しやすい楽天カードから、計画的な利用で良質なクレヒスを積むのが王道。6ヶ月〜1年の利用実績で、ゴールドカードやプレミアムカードへの昇格も見えてきます。"
+        buttonText="楽天カードに無料申込"
+        href="https://hb.afl.rakuten.co.jp/hgc/g00q0722.r9tfu12j.g00q0722.r9tfvd42/"
+        icon="💳"
+        highlight="年会費永年無料"
+      />
+    </>
+  ),
+  "angel-investment-japan-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">エンジェル投資とは？</h2>
+        <p>
+          エンジェル投資は、スタートアップ企業の創業期〜成長期に個人投資家が資金提供する投資手法。成功すれば10〜100倍のリターンも可能ですが、失敗リスクも高く「ハイリスク・ハイリターン」の典型。日本では2008年制定のエンジェル税制により、所得控除・譲渡益軽減の税制優遇が受けられます。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="2026年 エンジェル投資プラットフォーム比較"
+        services={[
+          {
+            name: "FUNDINNO（ファンディーノ）",
+            rank: 1,
+            highlight: "国内最大の株式投資型クラファン",
+            features: [
+              "日本最大の株式投資型クラウドファンディング",
+              "1社あたり10〜50万円の少額投資可",
+              "エンジェル税制対応案件あり",
+              "通算調達額200億円超",
+            ],
+            href: "https://fundinno.com/",
+            badge: "業界No.1",
+          },
+          {
+            name: "イークラウド",
+            rank: 2,
+            highlight: "ベンチャーキャピタル連携",
+            features: [
+              "大和証券グループ運営",
+              "VCと同じ案件に個人投資家もアクセス",
+              "エンジェル税制対応",
+              "1案件10〜50万円",
+            ],
+            href: "https://ecrowd.co.jp/",
+          },
+          {
+            name: "SonyStart（ソニースタート）",
+            rank: 3,
+            highlight: "ソニーグループ運営｜厳選案件",
+            features: [
+              "ソニーグループのブランド力",
+              "厳選された成長企業のみ",
+              "投資最低金額10万円〜",
+              "エンジェル税制対応多数",
+            ],
+            href: "https://sonystart.sony-fs.com/",
+          },
+          {
+            name: "Unicorn",
+            rank: 4,
+            highlight: "ディープテック・DX特化",
+            features: [
+              "AI・バイオ・ディープテック特化",
+              "高成長企業への投資機会",
+              "最低投資10万円〜",
+              "エンジェル税制対応",
+            ],
+            href: "https://unicorn-cf.com/",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">エンジェル税制の2つのタイプ</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>優遇措置A</strong>：投資額の所得控除（総所得金額×40%または800万円のいずれか低い方）</li>
+          <li><strong>優遇措置B</strong>：投資額を他の株式譲渡益と相殺</li>
+          <li><strong>損失時</strong>：翌年以降3年間の譲渡所得と相殺</li>
+          <li><strong>対象企業</strong>：設立5年以内＋資本金など一定要件を満たす企業</li>
+          <li><strong>手続き</strong>：確定申告時にエンジェル税制適用書類を添付</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="エンジェル投資の税務は専門家に｜税理士ドットコム"
+        description="エンジェル投資は税制が複雑で、税理士ドットコムで投資税務に強い税理士を無料紹介。適切な節税＋確定申告で、投資リターンを最大化。"
+        buttonText="税理士ドットコムで無料相談"
+        href="https://www.zeiri4.com/"
+        icon="👔"
+        highlight="紹介料無料"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">エンジェル投資のリスク</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>10社投資して成功1〜2社、残りは元本毀損が現実</li>
+          <li>資金回収まで5〜10年（M&A・IPO待ち）</li>
+          <li>投資先の経営状況把握が困難</li>
+          <li>流動性ゼロ（売却困難）</li>
+          <li>余裕資金の5〜10%以内で分散投資が鉄則</li>
+        </ul>
+      </section>
+    </>
+  ),
+  "year-end-tax-strategy": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">年末までに実施すべき節税20項目</h2>
+        <p>
+          年内（12月31日まで）に実施することで税制メリットが得られる節税施策を20項目網羅。ふるさと納税・iDeCo・生命保険料・医療費・寄付金・住宅ローン控除等、合計で年収700万円の会社員なら年30〜50万円の節税も可能です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="年末までに完了すべき節税TOP10"
+        services={[
+          {
+            name: "ふるさと納税",
+            rank: 1,
+            highlight: "年収別上限まで完全活用｜楽天SPU16倍",
+            features: [
+              "年収500万円→約6万円、700万円→10万円、1,000万円→18万円",
+              "12/31 23:59までに決済完了が必須",
+              "楽天ふるさと納税なら最大30%ポイント還元",
+              "6自治体以内ならワンストップ特例で確定申告不要",
+            ],
+            href: "https://event.rakuten.co.jp/furusato/",
+            badge: "最優先",
+          },
+          {
+            name: "iDeCo 年末まとめ拠出",
+            rank: 2,
+            highlight: "月掛金を年末に1年分｜全額所得控除",
+            features: [
+              "月掛金を年末に一括拠出で節税効果最大化",
+              "会社員は月23,000円、自営業は月68,000円",
+              "12月中に証券会社に入金",
+              "翌年の確定申告で控除",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lp_ideco.html",
+          },
+          {
+            name: "生命保険料控除",
+            rank: 3,
+            highlight: "一般・介護・個人年金で最大12万円控除",
+            features: [
+              "一般生命保険・介護医療保険・個人年金の3区分",
+              "各区分4万円ずつ、合計12万円まで控除",
+              "年収500万円なら年2.4万円の節税",
+              "12月末までの加入分が対象",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=3Z6F6O+1YZZGQ+38BE+5YRHE",
+          },
+          {
+            name: "医療費控除",
+            rank: 4,
+            highlight: "家族合算10万円超の医療費を控除",
+            features: [
+              "家族合算で年10万円超の医療費が対象",
+              "薬局で買う医薬品も対象（セルフメディケーション税制）",
+              "領収書は5年保存、Myナポータルで確認可",
+              "確定申告で還付",
+            ],
+            href: "https://www.zeiri4.com/",
+          },
+          {
+            name: "小規模企業共済 12月拠出",
+            rank: 5,
+            highlight: "個人事業主年84万円｜全額所得控除",
+            features: [
+              "12月末までに1〜7万円/月×12ヶ月を前納",
+              "年最大84万円の所得控除",
+              "個人事業主・法人役員限定",
+              "税率30%なら年25万円節税",
+            ],
+            href: "https://www.smrj.go.jp/kyosai/skyosai/",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">残り15項目のチェックリスト</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>6. 住宅ローン控除（年末残高×0.7%）の申請準備</li>
+          <li>7. 地震保険料控除（年5万円まで）</li>
+          <li>8. 寄付金控除（認定NPO・政党等）</li>
+          <li>9. 小規模企業共済の増額拠出</li>
+          <li>10. 新NISAつみたて枠の年120万円使い切り</li>
+          <li>11. 新NISA成長枠の年240万円使い切り</li>
+          <li>12. 特定支出控除（給与所得者の研修費等）</li>
+          <li>13. 雑損控除（災害被害）</li>
+          <li>14. 青色申告の65万円控除（個人事業主）</li>
+          <li>15. 消費税のインボイス登録見直し</li>
+          <li>16. 親族への年110万円贈与</li>
+          <li>17. 法人の役員報酬の年末調整</li>
+          <li>18. 法人の決算期変更検討</li>
+          <li>19. 事業用車両・PC・備品の年末購入（経費・減価償却）</li>
+          <li>20. 確定拠出年金マッチング拠出の増額</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="年末の節税は税理士に｜税理士ドットコム"
+        description="年末の節税タイミングは税理士に相談するのが効率的。全国5,800人の税理士から業種・規模で最適な専門家を無料紹介、年30〜100万円の節税事例多数。"
+        buttonText="税理士ドットコムで無料相談"
+        href="https://www.zeiri4.com/"
+        icon="👔"
+        highlight="紹介料無料"
+      />
+    </>
+  ),
+  "corporate-tax-planning-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">法人の節税戦略5大ポイント</h2>
+        <p>
+          法人税は実効税率約30%（地方税含む）。個人の所得税最高55%と比べ、法人化による節税効果は大きい。役員報酬の最適配分・経費計上・減価償却・退職金準備・決算対策等、複合的な施策で年数百万〜数千万円の節税が可能です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="法人節税の5大施策"
+        services={[
+          {
+            name: "役員報酬の最適配分",
+            rank: 1,
+            highlight: "所得税＋法人税の合計を最小化",
+            features: [
+              "役員報酬を上げ過ぎると所得税高、下げ過ぎると法人税高",
+              "家族役員への報酬分散で所得分散",
+              "事前確定届出給与で賞与も損金算入",
+              "株価対策として低めに設定する戦略も",
+            ],
+            href: "https://www.zeiri4.com/",
+            badge: "最重要",
+          },
+          {
+            name: "小規模企業共済（役員向け）",
+            rank: 2,
+            highlight: "月7万円｜全額所得控除＋退職金準備",
+            features: [
+              "役員・個人事業主のみ加入可",
+              "月1,000〜70,000円、年最大84万円の所得控除",
+              "20年超加入で元本割れなし",
+              "退職時は退職所得として有利課税",
+            ],
+            href: "https://www.smrj.go.jp/kyosai/skyosai/",
+          },
+          {
+            name: "倒産防止共済（経営セーフティ共済）",
+            rank: 3,
+            highlight: "月20万円｜損金算入",
+            features: [
+              "取引先倒産時の連鎖リスク対策",
+              "月5,000〜200,000円、年最大240万円",
+              "掛金は全額損金算入",
+              "40ヶ月以上加入で解約時100%戻り",
+            ],
+            href: "https://www.smrj.go.jp/kyosai/tkyosai/",
+          },
+          {
+            name: "決算期前の経費計上",
+            rank: 4,
+            highlight: "30万円未満の備品は即時償却",
+            features: [
+              "中小企業の少額減価償却資産（30万円未満）は即時全額経費",
+              "パソコン・備品・什器の年末購入",
+              "年300万円まで利用可能",
+              "青色申告法人のみ",
+            ],
+            href: "https://www.zeiri4.com/",
+          },
+          {
+            name: "法人保険",
+            rank: 5,
+            highlight: "生命保険で退職金準備＋節税",
+            features: [
+              "逓増定期保険・長期平準定期保険で退職金準備",
+              "払込保険料の1/2〜全額損金算入",
+              "契約から10年後に解約返戻金受取",
+              "税制改正で効果減少中、慎重な選定必要",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=3Z6F6O+1YZZGQ+38BE+5YRHE",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">決算期前3ヶ月でやるべきこと</h2>
+        <ol className="list-decimal list-inside space-y-2 text-sm">
+          <li>予想納税額のシミュレーション（税理士と相談）</li>
+          <li>役員報酬の調整（次年度分）</li>
+          <li>30万円未満の備品購入（年300万円まで）</li>
+          <li>広告宣伝費・研究開発費の前倒し</li>
+          <li>生命保険料・共済掛金の前納</li>
+          <li>中小企業投資促進税制の活用検討</li>
+          <li>欠損金の繰越控除（最大10年）</li>
+        </ol>
+      </section>
+      <AffiliateCTA
+        title="法人節税の専門家に依頼｜税理士ドットコム"
+        description="法人節税は高度な専門性が必要。税理士ドットコムで法人顧問に強い税理士を無料紹介、年数百万〜数千万円の節税実績多数。"
+        buttonText="税理士ドットコムで無料相談"
+        href="https://www.zeiri4.com/"
+        icon="🏢"
+        highlight="紹介料無料"
+      />
+    </>
+  ),
+  "sole-proprietor-tax-handbook": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">個人事業主の税務基礎</h2>
+        <p>
+          個人事業主は会社員と異なり、確定申告で自ら税金を計算・納付する必要があります。青色申告特別控除65万円・経費計上・小規模企業共済・iDeCo・ふるさと納税を組み合わせれば、年収500万円でも年30〜50万円の節税が可能。正しい税務知識と会計ソフト活用が成功の鍵です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="個人事業主の節税TOP5"
+        services={[
+          {
+            name: "青色申告特別控除 65万円",
+            rank: 1,
+            highlight: "e-Tax＋電子帳簿保存で最大控除",
+            features: [
+              "青色申告＋e-Tax＋電子帳簿保存で65万円控除",
+              "紙の申告や単純簿記では10〜55万円に減額",
+              "年収500万円なら年13〜20万円の節税",
+              "freee・マネフォ・弥生で自動対応",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1DXI+1UOKJ6+3SPO+9FDI8Y",
+            badge: "必須",
+          },
+          {
+            name: "経費の家事按分",
+            rank: 2,
+            highlight: "家賃・光熱費・通信費の一部を経費化",
+            features: [
+              "自宅兼事務所の家賃30〜50%を経費",
+              "電気・ガス・水道の20〜40%",
+              "スマホ・インターネットの50〜80%",
+              "按分比率は実態に即して設定",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1DXI+1UOKJ6+3SPO+9FDI8Y",
+          },
+          {
+            name: "小規模企業共済",
+            rank: 3,
+            highlight: "月7万円｜全額所得控除",
+            features: [
+              "月1,000〜70,000円、年最大84万円",
+              "所得税率20〜30%なら年17〜25万円節税",
+              "20年超で元本割れなし",
+              "退職金代替として老後資金に",
+            ],
+            href: "https://www.smrj.go.jp/kyosai/skyosai/",
+          },
+          {
+            name: "iDeCo（個人型確定拠出年金）",
+            rank: 4,
+            highlight: "月6.8万円｜会社員の3倍枠",
+            features: [
+              "月6.8万円×12ヶ月＝年81.6万円の所得控除",
+              "運用益も非課税",
+              "税率30%なら年24.5万円節税",
+              "60歳まで引き出し不可",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lp_ideco.html",
+          },
+          {
+            name: "ふるさと納税",
+            rank: 5,
+            highlight: "年収別上限｜実質2,000円で特産品",
+            features: [
+              "個人事業主は年末の所得確定後に実施",
+              "楽天ふるさと納税なら最大30%還元",
+              "6自治体以内ならワンストップ特例",
+              "実質2,000円で年数万円分の返礼品",
+            ],
+            href: "https://event.rakuten.co.jp/furusato/",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">インボイス制度の対応</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>売上1,000万円超なら2023年10月以降インボイス登録必須</li>
+          <li>売上1,000万円以下は任意だが、取引先次第で登録推奨</li>
+          <li>登録すると消費税納税義務が発生（年数十万円〜）</li>
+          <li>2026年9月末まで経過措置あり（仕入税額控除80%）</li>
+          <li>freee・マネフォなら登録申請・請求書対応が簡単</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="個人事業主の税務は会計ソフトで｜freee会計"
+        description="freee会計なら青色申告特別控除65万円対応、インボイス制度対応、AI仕訳で経理時間7〜8割削減。月額1,180円からの業界最安値で、個人事業主の税務を全自動化。"
+        buttonText="freee会計に無料登録"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1DXI+1UOKJ6+3SPO+9FDI8Y"
+        icon="📊"
+        highlight="30日無料"
+      />
+    </>
+  ),
+  "freelance-housing-loan-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">フリーランスの住宅ローン審査は厳しい？</h2>
+        <p>
+          フリーランス・個人事業主は会社員より住宅ローン審査が厳しいのは事実。収入の安定性が評価しにくいためです。しかし、①確定申告書3期分・所得要件をクリア、②金融機関選びを工夫、③連帯債務・頭金を多めに用意、の3点で審査通過率は大幅に上げられます。本記事で具体的な戦略を解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="フリーランスに強い住宅ローン"
+        services={[
+          {
+            name: "住信SBIネット銀行",
+            rank: 1,
+            highlight: "個人事業主の融資実績豊富｜変動0.3%台",
+            features: [
+              "変動金利0.3〜0.5%の業界最低水準",
+              "フリーランス向けの審査実績多数",
+              "確定申告書3期分（最低2期分）で審査",
+              "Web完結で来店不要",
+            ],
+            href: "https://www.netbk.co.jp/",
+            badge: "フリーランス◎",
+          },
+          {
+            name: "ソニー銀行",
+            rank: 2,
+            highlight: "フリーランス対応｜柔軟な審査",
+            features: [
+              "所得金額での審査（額面売上は関係なし）",
+              "変動金利0.5〜0.7%",
+              "団信・保証料無料",
+              "最長35年返済",
+            ],
+            href: "https://moneykit.net/",
+          },
+          {
+            name: "住宅金融支援機構 フラット35",
+            rank: 3,
+            highlight: "固定金利｜フリーランスでも通過率高い",
+            features: [
+              "固定金利で返済計画が安定",
+              "所得要件をクリアすれば通過しやすい",
+              "年収400万円以下でも適用可能",
+              "長期10年優遇金利プランあり",
+            ],
+            href: "https://www.flat35.com/",
+          },
+          {
+            name: "auじぶん銀行",
+            rank: 4,
+            highlight: "変動金利最低水準｜オンライン完結",
+            features: [
+              "変動金利0.2〜0.5%台",
+              "auユーザーは金利優遇",
+              "フリーランス向け審査あり",
+              "Web完結で来店不要",
+            ],
+            href: "https://www.jibunbank.co.jp/",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">審査通過率を上げる5つのコツ</h2>
+        <ol className="list-decimal list-inside space-y-2 text-sm">
+          <li><strong>確定申告3期分で所得安定性を示す</strong>：各期の所得が500万円以上あれば審査に有利</li>
+          <li><strong>頭金を2〜3割用意</strong>：借入比率を下げて審査通過率アップ</li>
+          <li><strong>連帯債務・連帯保証を活用</strong>：配偶者・親族と共同で審査</li>
+          <li><strong>個人信用情報をクリアに</strong>：CIC/JICC/KSCで延滞記録なし</li>
+          <li><strong>事業の安定性を示す資料</strong>：取引先・契約書・ポートフォリオ</li>
+        </ol>
+      </section>
+      <AffiliateCTA
+        title="複数銀行で一括比較｜モゲチェック"
+        description="フリーランスでも通る住宅ローンを無料で一括比較。モゲチェックなら複数銀行の審査通過見込みを事前確認、最適な金融機関選びで審査通過率UP。"
+        buttonText="モゲチェックで無料診断"
+        href="https://www.mogecheck.jp/"
+        icon="🏠"
+        highlight="無料診断"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">フリーランスの住宅ローン注意点</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>売上ではなく「所得（売上-経費）」で審査される</li>
+          <li>経費計上し過ぎで所得が低いと審査通過困難</li>
+          <li>住宅ローン控除は会社員と同じく10年間適用</li>
+          <li>住宅取得前2〜3年は節税より所得高めに調整</li>
+          <li>青色申告3期分が最低必須（法人化直後は要注意）</li>
+        </ul>
+      </section>
+    </>
+  ),
 };
