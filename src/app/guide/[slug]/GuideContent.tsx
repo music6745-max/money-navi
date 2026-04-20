@@ -21118,4 +21118,481 @@ const guideContents: Record<string, React.ReactNode> = {
       />
     </>
   ),
+  "gold-advanced-strategy-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">金投資上級戦略｜4形態の使い分け</h2>
+        <p>
+          金投資は4つの形態：①現物（地金・金貨）、②金ETF（1326・GLD・IAU）、③金鉱株（GDX・NEM・NUGT）、④金先物。2026年の金価格1g1万円超の現在、インフレヘッジ＋地政学リスク対応として、総資産10〜15%を金配分することが推奨されます。ポートフォリオ全体のリスク低減効果＋長期的な価値保存に優れた戦略です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="金投資4形態の特徴"
+        services={[
+          {
+            name: "金ETF（1326 SPDR Gold）",
+            rank: 1,
+            highlight: "流動性・低コスト｜王道",
+            features: [
+              "信託報酬0.4%",
+              "東証上場で円建て",
+              "新NISA成長枠対応",
+              "即時売買可能",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "王道",
+          },
+          {
+            name: "金鉱株ETF（GDX）",
+            rank: 2,
+            highlight: "金価格の1.5〜2倍の値動き",
+            features: [
+              "ニューモント等金鉱株",
+              "金価格上昇時に倍率効果",
+              "配当利回り1〜2%",
+              "下落時も倍率リスク",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "金現物（田中貴金属）",
+            rank: 3,
+            highlight: "究極の安全資産",
+            features: [
+              "1g1万円超（2026年）",
+              "金融危機時も価値不変",
+              "保管コスト・盗難リスク",
+              "長期50〜100年保有向き",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">金投資の推奨配分</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>金ETF（1326 or GLD）：総資産の7〜10%</li>
+          <li>金鉱株ETF（GDX）：総資産の3〜5%（ブースター）</li>
+          <li>金現物：総資産の0〜5%（超長期保有・相続）</li>
+          <li>金先物：総資産の0〜2%（上級者のみ）</li>
+          <li>合計10〜15%の金配分でポートフォリオ最適化</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="金投資4形態はSBI証券で｜ETF・個別株・先物対応"
+        description="SBI証券は金ETF（1326・GLD・IAU）・金鉱株（NEM・GDX）・金先物まで完備。為替手数料無料（住信SBI連携）、新NISA成長枠で金ETFを非課税運用可能。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="🪙"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "silver-platinum-investment-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">銀・プラチナ投資完全ガイド</h2>
+        <p>
+          銀・プラチナは「金の弟分」と呼ばれる貴金属投資。金より値動き2〜3倍大きいボラティリティ、産業需要（太陽光パネル・自動車触媒）による長期成長性あり。SLV（銀ETF）・PPLT（プラチナETF）・SIVR等のETFで分散投資可能、新NISA成長枠で非課税運用OK。金と併せた貴金属ポートフォリオで、リスク分散効果最大化です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="銀・プラチナETF主要3銘柄"
+        services={[
+          {
+            name: "SLV（iShares 銀ETF）",
+            rank: 1,
+            highlight: "銀現物裏付け｜業界最大",
+            features: [
+              "銀現物の裏付け",
+              "信託報酬0.5%",
+              "業界最大の銀ETF",
+              "流動性最高",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "王道",
+          },
+          {
+            name: "PPLT（Aberdeen プラチナETF）",
+            rank: 2,
+            highlight: "プラチナ現物ETF",
+            features: [
+              "プラチナ現物裏付け",
+              "信託報酬0.6%",
+              "自動車触媒需要",
+              "長期成長性あり",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "SIVR（Aberdeen 銀ETF）",
+            rank: 3,
+            highlight: "SLVより低コスト",
+            features: [
+              "銀現物裏付け",
+              "信託報酬0.3%（SLVより安い）",
+              "流動性はSLVに劣る",
+              "長期保有向き",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">銀・プラチナの投資魅力</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>銀：太陽光パネル（1枚20g銀使用）需要拡大</li>
+          <li>銀：金より安価で小口投資可能（1オンス約30ドル）</li>
+          <li>プラチナ：自動車触媒需要で長期安定</li>
+          <li>プラチナ：金より希少（産出量1/10）で価値保存</li>
+          <li>貴金属ポートフォリオ：金50%＋銀30%＋プラチナ20%</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="銀・プラチナETFはSBI証券で｜SLV・PPLT為替手数料無料"
+        description="SBI証券は銀ETF（SLV・SIVR）・プラチナETF（PPLT）を為替手数料無料で取扱。新NISA成長枠で非課税運用、金＋銀＋プラチナの貴金属ポートフォリオで分散投資。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="⚪"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "rare-metal-investment-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">レアメタル投資完全ガイド｜EV革命の恩恵</h2>
+        <p>
+          レアメタル（リチウム・コバルト・ニッケル・レアアース）は、EV（電気自動車）・バッテリー革命の中核資材。Tesla・Apple・Samsung等のテクノロジー需要で2030年まで年率10〜20%成長予想。LIT（リチウムETF）・BATT（バッテリー素材）・REMX（レアアース）、個別株（ALB・ピルバラ等）、中国・豪州・チリの地政学を意識した分散投資が鍵です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="レアメタル関連ETF主要3銘柄"
+        services={[
+          {
+            name: "LIT（Global X リチウム＆バッテリー）",
+            rank: 1,
+            highlight: "リチウム上流〜バッテリー下流",
+            features: [
+              "ALB・ピルバラ等のリチウム鉱山",
+              "バッテリー製造企業",
+              "信託報酬0.75%",
+              "EV革命の恩恵最大化",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "王道",
+          },
+          {
+            name: "BATT（Amplify バッテリーメタル）",
+            rank: 2,
+            highlight: "リチウム・コバルト・ニッケル",
+            features: [
+              "バッテリー材料総合",
+              "信託報酬0.59%",
+              "LITより分散広い",
+              "電動化テーマ総合投資",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "REMX（VanEck レアアース）",
+            rank: 3,
+            highlight: "レアアース特化｜中国集中リスク",
+            features: [
+              "レアアース鉱山企業",
+              "中国銘柄中心",
+              "信託報酬0.54%",
+              "地政学リスク注意",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">レアメタル投資のリスク管理</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>価格変動大（リチウム2022年+500%→2023年-70%）</li>
+          <li>中国集中リスク（レアアース生産の80%）</li>
+          <li>採掘企業の国別分散（豪州・チリ・南米）</li>
+          <li>ポートフォリオ3〜5%以内の配分推奨</li>
+          <li>ドルコスト平均法で急変動リスク軽減</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="レアメタルETFはSBI証券で｜LIT・BATT対応"
+        description="SBI証券はレアメタルETF（LIT・BATT・REMX）・個別株（ALB・ピルバラ等）を為替手数料無料で取扱。EV革命・バッテリー革命の恩恵を、新NISA成長枠で非課税運用可能。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="🔋"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "private-banking-japan-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">プライベートバンキング完全ガイド</h2>
+        <p>
+          プライベートバンキング（PB）は、資産1億円超の富裕層向けのオーダーメイド金融サービス。三菱UFJ・SMBC・野村・大和の各PB部門が日本の主要プレーヤー、運用手数料1〜2%、専任担当者による資産運用・相続・事業承継のフルサポート。一般的な証券会社では提供されない、超富裕層向けの特別なサービス内容を解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="プライベートバンキング主要3社"
+        services={[
+          {
+            name: "三菱UFJ プライベートバンキング",
+            rank: 1,
+            highlight: "国内最大手｜資産1億円〜",
+            features: [
+              "最低資産1億円〜",
+              "運用手数料1〜1.5%",
+              "専任担当者の個別対応",
+              "相続・事業承継サポート",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "業界No.1",
+          },
+          {
+            name: "野村プライベートバンキング",
+            rank: 2,
+            highlight: "証券系最大｜3億円〜",
+            features: [
+              "最低資産3億円〜",
+              "海外投資・オルタナ強み",
+              "IPO・未公開株優遇",
+              "世界の投資機会提供",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "SMBC日興プライベートバンキング",
+            rank: 3,
+            highlight: "三井住友系列",
+            features: [
+              "最低資産1億円〜",
+              "三井住友FGのリソース活用",
+              "法人オーナー向け",
+              "税務・法務サポート",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">PBを選ぶ基準</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>1億〜3億円：三菱UFJ・SMBC（最低資産低め）</li>
+          <li>3億円〜：野村（証券系で投資機会豊富）</li>
+          <li>5億円超：複数PB併用も選択肢</li>
+          <li>事業オーナー：事業承継サポート充実の銀行系</li>
+          <li>海外投資重視：外資系PB（UBS・クレディスイス）も検討</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="資産1億円以下はSBI証券で｜PB代替サービス"
+        description="資産1億円以下ならSBI証券のIFA・対面サービスがPBの代替。手数料大幅に安く、SBI証券の運用担当者による個別対応で、新NISA＋iDeCoを活用した総合資産運用を実現。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="💎"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "wealth-management-service-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">ウェルスマネジメント完全ガイド</h2>
+        <p>
+          ウェルスマネジメント（WM）は、資産3000万円〜1億円の「アッパーマス層」向け資産運用サービス。野村・大和・SMBC日興等のWM部門、IFA（独立系ファイナンシャルアドバイザー）、ロボアドの3つの選択肢。運用手数料1%前後、プライベートバンキング（1億円〜）より敷居低く、対面サポート＋専門知識のメリットを享受できます。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="ウェルスマネジメント比較"
+        services={[
+          {
+            name: "SBI証券（IFA・対面サービス）",
+            rank: 1,
+            highlight: "手数料最安でWM代替",
+            features: [
+              "IFAのアドバイス無料",
+              "運用手数料業界最安",
+              "新NISA＋iDeCo＋米国株",
+              "資産3000万円〜ベスト",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "業界No.1",
+          },
+          {
+            name: "保険マンモス（FP・ライフプラン）",
+            rank: 2,
+            highlight: "保険＋投資の総合相談",
+            features: [
+              "FPによる個別ライフプラン",
+              "保険＋投資＋税制の総合最適化",
+              "完全無料相談",
+              "オンライン対応",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+            badge: "EPC 31.06",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">WM選びの4ポイント</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>①資産規模：3000万〜1億円はWM、1億円超はPB</li>
+          <li>②手数料：野村・大和1% vs SBI/楽天0.1%以下</li>
+          <li>③サポート：対面重視ならWM、オンライン派はIFA</li>
+          <li>④専門領域：税務・相続の専門知識の有無</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="手数料を抑えたWMはSBI証券＋保険マンモス"
+        description="野村・大和の1%手数料に対し、SBI証券は0.1%以下＋保険マンモスのFP無料相談で総合ウェルスマネジメントを実現。資産3000万〜1億円ならこの組合せが圧倒的にコスパ良い。"
+        buttonText="保険マンモスで無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM"
+        icon="🎯"
+        highlight="無料相談"
+      />
+    </>
+  ),
+  "etf-vs-index-fund-detailed-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">ETF vs インデックスファンド詳細比較</h2>
+        <p>
+          ETFとインデックスファンドは似て非なる投資商品。ETF（上場投信）はリアルタイム売買可能・信託報酬やや安い、インデックスファンド（非上場）は1日1回基準価額・少額積立向き。新NISAでの使い分け、分配金の扱い、税制、機関投資家視点での違いまで、実用的に解説します。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">ETF vs インデックスファンド対比</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>取引時間</strong>：ETF（リアルタイム）vs 投信（1日1回）</li>
+          <li><strong>信託報酬</strong>：ETF 0.03〜0.1% vs 投信 0.05〜0.2%</li>
+          <li><strong>少額積立</strong>：ETF（1口数千円〜）vs 投信（100円〜）</li>
+          <li><strong>分配金</strong>：ETF（現金支給）vs 投信（再投資コース可）</li>
+          <li><strong>新NISA</strong>：両方対応、投信の方がつみたて枠適合多い</li>
+        </ul>
+      </section>
+      <ComparisonTableCTA
+        title="ETF・投信の主要証券会社"
+        services={[
+          {
+            name: "SBI証券（ETF＋投信業界最多）",
+            rank: 1,
+            highlight: "両方の業界最多銘柄",
+            features: [
+              "ETF：VTI・VOO・VT等",
+              "投信：eMAXIS Slim全世界等",
+              "投信100円〜・ETF1株〜",
+              "新NISA対応",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "業界No.1",
+          },
+          {
+            name: "松井証券（シンプル選択）",
+            rank: 2,
+            highlight: "初心者向け商品絞り込み",
+            features: [
+              "投信1700本・ETF主要銘柄",
+              "50万以下手数料無料",
+              "NISA対応",
+              "顧客サポート充実",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1O+G6VESA+3XCC+6AZAQ",
+            badge: "1,000円/件",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">使い分けの指針</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>月1万円〜の積立：投信（少額対応）</li>
+          <li>まとまった一括投資：ETF（低コスト）</li>
+          <li>新NISAつみたて枠：投信優先（クレカ積立対応）</li>
+          <li>新NISA成長枠：ETFも投信もOK</li>
+          <li>分配金を再投資：投信の自動再投資コース</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="ETF＋投信の両方はSBI証券で｜業界最多銘柄"
+        description="SBI証券はETF・投信の両方で業界最多銘柄、信託報酬最安水準。新NISAつみたて枠は投信（100円〜）、成長枠はETF＋投信で使い分け、長期資産形成のベストパートナー。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="🔍"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "thematic-investment-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">テーマ型投資完全ガイド</h2>
+        <p>
+          テーマ型投資は、特定の成長テーマ（AI・ロボット・5G・宇宙・バイオ等）に集中投資する戦略。BOTZ（ロボット・AI）・ARKK（革新テクノロジー）・SKYY（クラウド）・UFO（宇宙）等のテーマETFは、コア資産（S&P500）とは異なるリターン期待。集中投資のメリット（大化け可能性）とデメリット（テーマ崩壊リスク）を理解し、ポートフォリオの10〜20%配分が推奨です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="テーマ型ETF主要銘柄"
+        services={[
+          {
+            name: "BOTZ（Global X ロボット＆AI）",
+            rank: 1,
+            highlight: "ロボット・AI集中投資",
+            features: [
+              "NVIDIA・キーエンス・ABB等",
+              "信託報酬0.68%",
+              "AI時代の恩恵",
+              "2030年までの成長期待",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "AI投資",
+          },
+          {
+            name: "SKYY（First Trust クラウド）",
+            rank: 2,
+            highlight: "クラウドコンピューティング特化",
+            features: [
+              "AWS・Azure・GCP関連",
+              "Microsoft・Amazon・Google",
+              "信託報酬0.6%",
+              "SaaS企業中心",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "UFO（Procure 宇宙探査）",
+            rank: 3,
+            highlight: "宇宙・航空・衛星",
+            features: [
+              "SpaceX関連（非上場除く）",
+              "ロッキードマーティン等",
+              "信託報酬0.75%",
+              "宇宙産業の長期成長",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">テーマ型投資の注意点</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>テーマ崩壊リスク（2021年ARKK-70%下落）</li>
+          <li>集中投資で値動き激しい（コア資産の2倍変動）</li>
+          <li>ポートフォリオ10〜20%以内の配分</li>
+          <li>複数テーマ分散（AI＋クラウド＋宇宙等）</li>
+          <li>コア（S&P500）70%＋テーマ20%＋安全資産10%</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="テーマ型ETFはSBI証券で｜BOTZ・ARKK・SKYY対応"
+        description="SBI証券はテーマ型ETF（BOTZ・ARKK・SKYY・UFO）完備。為替手数料無料（住信SBI連携）、新NISA成長枠で非課税運用、AI・クラウド・宇宙等の成長テーマの恩恵を最大化。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="🚀"
+        highlight="業界No.1"
+      />
+    </>
+  ),
 };
