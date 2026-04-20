@@ -19086,11 +19086,427 @@ const guideContents: Record<string, React.ReactNode> = {
       </section>
       <AffiliateCTA
         title="配当貴族投資はSBI証券で｜NOBL・VIG対応"
-        description="SBI証券は配当貴族ETF（NOBL・VIG・REGL）・米国個別株（JNJ・KO・PG等）・日本連続増配銘柄完備。為替手数料無料、新NISA成長枠で非課税、世代を超える安定運用。"
+        description="SBI証券は配当貴族ETF（NOBL・VIG・REGL）・米国個別株（JNJ・KO・PG等)・日本連続増配銘柄完備。為替手数料無料、新NISA成長枠で非課税、世代を超える安定運用。"
         buttonText="SBI証券の詳細"
         href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
         icon="👑"
         highlight="業界No.1"
+      />
+    </>
+  ),
+  "asia-pacific-etf-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">アジア太平洋ETF完全ガイド</h2>
+        <p>
+          アジア太平洋地域は世界のGDP成長の中心。VPL（Vanguard太平洋）・AAXJ（iSharesアジア除日本）・EPP（iShares太平洋除日本）等のETFで、日本・韓国・台湾・オーストラリア・香港・シンガポール等に分散投資可能。信託報酬0.08〜0.5%、配当利回り2〜3%、ポートフォリオの10〜20%配分が推奨です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="アジア太平洋ETF主要4銘柄"
+        services={[
+          {
+            name: "VPL（Vanguard 太平洋）",
+            rank: 1,
+            highlight: "信託報酬0.08%｜最安",
+            features: [
+              "日本60%＋豪州＋韓国＋台湾等",
+              "信託報酬0.08%（業界最安）",
+              "2500銘柄分散",
+              "配当利回り3%",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "最安",
+          },
+          {
+            name: "AAXJ（iShares アジア除日本）",
+            rank: 2,
+            highlight: "日本除いた中韓台等",
+            features: [
+              "中国・韓国・台湾・インド等",
+              "日本除外で新興アジア特化",
+              "信託報酬0.69%",
+              "配当利回り2.3%",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "EPP（iShares 太平洋除日本）",
+            rank: 3,
+            highlight: "豪州＋韓国＋香港＋シンガポール",
+            features: [
+              "日本除外で新興・先進アジア",
+              "豪州が最大比重",
+              "信託報酬0.47%",
+              "配当利回り3.5%",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">アジア太平洋投資戦略</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>日本重視：VPL（日本60%含む）</li>
+          <li>新興アジア重視：AAXJ（中韓台印）</li>
+          <li>先進・豪州：EPP（豪州・香港・シンガポール）</li>
+          <li>個別国ETF：FXI（中国）・INDA（インド）・EWY（韓国）で微調整</li>
+          <li>ポートフォリオ10〜20%配分推奨</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="アジア太平洋ETFはSBI証券で｜VPL・AAXJ・EPP対応"
+        description="SBI証券はアジア太平洋ETF（VPL・AAXJ・EPP）完備。為替手数料無料（住信SBI連携）、新NISA成長枠で非課税運用、世界のGDP成長の中心であるアジアの恩恵を最大化。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="🌏"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "europe-stock-investment-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">欧州株投資完全ガイド</h2>
+        <p>
+          欧州は世界第2位の経済圏、ネスレ・LVMH・ASML・アストラゼネカ等のグローバル企業を擁する。VGK（Vanguard欧州）・IEUR（iShares欧州）・EZU（ユーロ圏）等のETFで分散投資可能。米国株に比べ割安（PER15倍 vs 米国25倍）、配当利回り3〜4%と高め。ユーロ為替リスクを意識し、ポートフォリオの5〜15%配分が推奨です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="欧州株ETF主要3銘柄"
+        services={[
+          {
+            name: "VGK（Vanguard 欧州）",
+            rank: 1,
+            highlight: "信託報酬0.08%｜最安",
+            features: [
+              "欧州17カ国1300銘柄",
+              "信託報酬0.08%（業界最安）",
+              "配当利回り3.2%",
+              "英・仏・独・スイス中心",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "最安",
+          },
+          {
+            name: "IEUR（iShares 欧州）",
+            rank: 2,
+            highlight: "流動性高・オプション対応",
+            features: [
+              "欧州15カ国1000銘柄",
+              "信託報酬0.09%",
+              "配当利回り3.0%",
+              "オプション取引対応",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "EZU（iShares ユーロ圏）",
+            rank: 3,
+            highlight: "ユーロ圏のみに集中",
+            features: [
+              "ユーロ導入11カ国のみ",
+              "独・仏・蘭・伊・西中心",
+              "信託報酬0.51%",
+              "配当利回り3.3%",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">欧州投資のメリット</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>米国株より割安（PER15倍 vs 米国25倍）</li>
+          <li>配当利回り3〜4%で高配当</li>
+          <li>グローバル企業多数（ネスレ・LVMH・ASML等）</li>
+          <li>米国と低相関でポートフォリオ分散効果</li>
+          <li>注意：ユーロ為替・景気停滞リスク</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="欧州株投資はSBI証券で｜VGK・IEUR・個別株対応"
+        description="SBI証券は欧州ETF（VGK・IEUR・EZU）・欧州個別株（ネスレ・LVMH・ASML等）完備。為替手数料無料（住信SBI連携）、新NISA成長枠で非課税運用可能。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="🇪🇺"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "monthly-budget-optimization-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">月次予算最適化完全ガイド</h2>
+        <p>
+          月次予算の50-30-20ルールは、収入を「必要経費50%・余暇30%・貯蓄投資20%」に配分する黄金比率。手取り30万円なら必要経費15万円・余暇9万円・貯蓄投資6万円。固定費削減（通信・保険・光熱費）で余裕を作り、新NISAつみたて枠で月10万円積立が実現可能。家計簿アプリ（マネーフォワードME・Zaim）で自動化、貯蓄率30%達成への道を解説します。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">固定費削減のターゲット</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>①通信費</strong>：格安SIM乗換で月5000円削減（年6万円）</li>
+          <li><strong>②生命保険</strong>：見直しで月1〜3万円削減</li>
+          <li><strong>③光熱費</strong>：新電力・新ガスで月3000円削減</li>
+          <li><strong>④サブスク</strong>：使っていないサービス解約で月5000円削減</li>
+          <li><strong>⑤住宅ローン借換え</strong>：金利差0.3%で年20万円削減</li>
+          <li>合計で月3〜8万円の固定費削減可能</li>
+        </ul>
+      </section>
+      <ComparisonTableCTA
+        title="家計最適化サービス"
+        services={[
+          {
+            name: "マネーフォワードクラウド（家計簿）",
+            rank: 1,
+            highlight: "銀行・カード連携2500以上",
+            features: [
+              "銀行・カード自動連携",
+              "家計簿自動記録",
+              "固定費見直し提案",
+              "月500円〜",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+4A7B8A+2PEO+OK4PD",
+            badge: "EPC 22.73",
+          },
+          {
+            name: "保険マンモス（保険見直し）",
+            rank: 2,
+            highlight: "固定費の最大費目を最適化",
+            features: [
+              "生命保険見直し相談",
+              "月1〜3万円の削減事例多数",
+              "完全無料相談",
+              "オンライン対応",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+            badge: "EPC 31.06",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">貯蓄投資20%の最適配分</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>緊急資金（生活費3〜6ヶ月分）：定期預金・MMF</li>
+          <li>中期資金（5〜10年）：新NISA成長枠で高配当ETF</li>
+          <li>長期資金（20年超）：新NISAつみたて枠で全世界株</li>
+          <li>老後資金：iDeCoで所得控除＋運用益非課税</li>
+          <li>目安：手取り30万円なら月6万円（NISA 4万＋iDeCo 2万）</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="家計見直し＋保険最適化は保険マンモスで｜完全無料"
+        description="固定費の最大費目である保険見直しを保険マンモスで無料相談。月1〜3万円の削減事例多数、FPが家計全体を診断＋投資配分提案。オンライン相談対応。"
+        buttonText="保険マンモスで無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM"
+        icon="💰"
+        highlight="無料相談"
+      />
+    </>
+  ),
+  "gift-tax-detailed-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">贈与税詳細ガイド｜2024年改正対応</h2>
+        <p>
+          贈与税は、親族間の資産移転に課される税金。暦年贈与（年110万円非課税）、相続時精算課税（2500万円特別控除＋2024年から年110万円基礎控除）、教育資金1500万円・結婚子育て1000万円の特例など、多彩な節税スキームあり。2024年改正で相続前3年→7年の生前贈与加算となり、早めの計画的贈与が重要です。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">贈与税の2つの方式</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>①暦年贈与</strong>：年110万円非課税、超過分は10〜55%課税</li>
+          <li><strong>②相続時精算課税</strong>：2500万円特別控除＋年110万円基礎控除（2024年〜）</li>
+          <li>一度選択したら変更不可（精算課税→暦年贈与戻せない）</li>
+          <li>60歳以上の親/祖父母から20歳以上の子/孫への贈与</li>
+          <li>相続時に精算課税分も相続財産に加算</li>
+        </ul>
+      </section>
+      <ComparisonTableCTA
+        title="贈与・相続対策関連サービス"
+        services={[
+          {
+            name: "保険マンモス（生命保険活用）",
+            rank: 1,
+            highlight: "非課税枠500万円×相続人",
+            features: [
+              "終身保険で非課税枠確保",
+              "生前贈与と併用の設計",
+              "受取人指定で遺産分割円滑化",
+              "完全無料相談",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+            badge: "EPC 31.06",
+          },
+          {
+            name: "ココナラ（税理士マッチング）",
+            rank: 2,
+            highlight: "贈与・相続の専門税理士",
+            features: [
+              "贈与税申告代行",
+              "相続税シミュレーション",
+              "税理士1時間5000円〜",
+              "会員登録無料",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+4A7B8A+2PEO+OK4PD",
+            badge: "EPC 22.73",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">非課税特例を最大活用</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>暦年贈与：年110万円×子2人×30年＝6600万円の無税移転</li>
+          <li>教育資金一括贈与：1500万円非課税（30歳まで）</li>
+          <li>結婚子育て資金贈与：1000万円非課税（50歳まで）</li>
+          <li>住宅取得資金贈与：最大1000万円非課税</li>
+          <li>夫婦間贈与の特例：居住用不動産2000万円非課税</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="贈与・相続対策の生命保険は保険マンモスで｜完全無料"
+        description="生前贈与＋生命保険の組合せで相続税を最小化。保険マンモスで無料FP相談、終身保険の非課税枠500万円×相続人を活用した総合戦略を提案。オンライン対応。"
+        buttonText="保険マンモスで無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM"
+        icon="🎁"
+        highlight="無料相談"
+      />
+    </>
+  ),
+  "nenkin-kuriage-kurisage-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">年金繰上げ・繰下げ完全ガイド</h2>
+        <p>
+          公的年金の受給開始年齢は原則65歳だが、60歳〜75歳の範囲で調整可能。繰上げ受給：最大60歳まで早く、1ヶ月あたり0.4%減額（60歳受給で24%減）。繰下げ受給：最大75歳まで遅く、1ヶ月あたり0.7%増額（75歳受給で84%増）。長寿リスク対応、退職金・iDeCoとの併用タイミング最適化まで解説します。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">繰上げ・繰下げの損益分岐点</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>60歳繰上げ（-24%）</strong>：80歳まで生きるなら損、79歳以下は得</li>
+          <li><strong>65歳通常受給</strong>：平均余命（男81歳・女87歳）で標準</li>
+          <li><strong>70歳繰下げ（+42%）</strong>：82歳まで生きるなら得</li>
+          <li><strong>75歳繰下げ（+84%）</strong>：87歳まで生きるなら得</li>
+          <li>男性平均余命81歳→70歳繰下げが合理的、女性87歳→75歳繰下げも視野</li>
+        </ul>
+      </section>
+      <ComparisonTableCTA
+        title="年金受給最適化サービス"
+        services={[
+          {
+            name: "保険マンモス（年金・ライフプラン）",
+            rank: 1,
+            highlight: "受給タイミング相談",
+            features: [
+              "年金繰上げ・繰下げ相談",
+              "iDeCo・退職金との併用設計",
+              "長寿リスクシミュレーション",
+              "完全無料相談",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+            badge: "EPC 31.06",
+          },
+          {
+            name: "SBI証券（退職金＋NISA連携）",
+            rank: 2,
+            highlight: "繰下げ中のブリッジ運用",
+            features: [
+              "繰下げ期間中の生活費を運用",
+              "退職金特別定期預金",
+              "新NISA成長枠で運用",
+              "iDeCo口座併用",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">繰下げ戦略のメリット</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>長寿リスク対策（90歳以上生きれば受取総額最大化）</li>
+          <li>75歳繰下げで受給額84%増（月20万円→月36.8万円）</li>
+          <li>税金面でも有利（低年齢時は働いて収入あり、繰下げで所得調整）</li>
+          <li>注意：繰下げ中は年金収入ゼロなので生活費準備必須</li>
+          <li>健康状態・資産状況で判断、保険マンモスのFP相談推奨</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="年金繰下げ戦略は保険マンモスで｜FP無料相談"
+        description="年金繰上げ・繰下げの最適タイミングを保険マンモスで無料相談。iDeCo・退職金・資産運用との併用設計、長寿リスクシミュレーションまで、経験豊富なFPが対応。"
+        buttonText="保険マンモスで無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM"
+        icon="📅"
+        highlight="無料相談"
+      />
+    </>
+  ),
+  "corporate-pension-kigyonenkin-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">企業年金完全ガイド｜DB・DC・基金の違い</h2>
+        <p>
+          企業年金は大きく3種類：①確定給付企業年金（DB：給付額確定）、②確定拠出企業年金（DC：拠出額確定・運用自己責任）、③厚生年金基金（代行返上完了で縮小）。転職時のポータビリティ（DCはiDeCoに移管可）、退職時の受取方法（一時金・年金・併用）、税制優遇まで、複雑な企業年金制度を整理します。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">企業年金3種類の比較</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>DB（確定給付）</strong>：給付額確定、企業が運用責任</li>
+          <li><strong>DC（確定拠出）</strong>：拠出額確定、個人が運用責任、ポータビリティあり</li>
+          <li><strong>厚生年金基金</strong>：2014年以降新設不可、既存は代行返上→DB化</li>
+          <li><strong>ハイブリッド型</strong>：一部DB＋一部DCの混合型</li>
+          <li>転職時：DC→iDeCo移管OK、DB→一時金or 他社DBに移管</li>
+        </ul>
+      </section>
+      <ComparisonTableCTA
+        title="企業年金の運用サービス"
+        services={[
+          {
+            name: "松井証券 iDeCo（DC移管先）",
+            rank: 1,
+            highlight: "運営管理手数料無料",
+            features: [
+              "企業型DCからiDeCo移管OK",
+              "運営管理手数料無料",
+              "40本厳選ラインナップ",
+              "顧客サポート充実",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1O+EKIXI2+3XCC+BXIYQ",
+            badge: "500円/件",
+          },
+          {
+            name: "SBI証券 iDeCo",
+            rank: 2,
+            highlight: "加入者No.1・商品豊富",
+            features: [
+              "加入者業界No.1",
+              "eMAXIS Slim等の低コスト",
+              "運営管理手数料無料",
+              "信託報酬最安",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "業界No.1",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">企業年金の受取方法</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>①一時金受取</strong>：退職所得控除（勤続年数×40〜70万円）＋1/2課税</li>
+          <li><strong>②年金受取</strong>：公的年金等控除適用、毎月安定収入</li>
+          <li><strong>③併用受取</strong>：一部一時金＋一部年金、税制最適化</li>
+          <li>退職金と同年受取は退職所得控除を合算計算（要注意）</li>
+          <li>iDeCo・退職金との3本立てで、受取年度分散が節税のカギ</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="企業型DCからの移管は松井証券iDeCoで｜手数料無料"
+        description="退職・転職時の企業型DCは松井証券iDeCoに移管。運営管理手数料無料、40本厳選ラインナップで老後資金運用継続。加入者サポート充実、乗換手続きも簡単。"
+        buttonText="松井証券iDeCoの詳細"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1O+EKIXI2+3XCC+BXIYQ"
+        icon="🏛️"
+        highlight="手数料無料"
       />
     </>
   ),
