@@ -13449,4 +13449,648 @@ const guideContents: Record<string, React.ReactNode> = {
       />
     </>
   ),
+  "doctor-asset-building-detailed": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">医師の資産形成の3つの柱</h2>
+        <p>
+          医師（勤務医・開業医）の資産形成は、①税制優遇（iDeCo・小規模企業共済・医療法人化）、②不動産投資（減価償却節税）、③専門家チーム活用（IFA・税理士・弁護士）の3本柱で設計。年収1,500〜3,000万円の医師が年間節税300〜800万円を実現する事例多数です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="医師向け資産形成の優先順位"
+        services={[
+          {
+            name: "iDeCo（企業型DC未加入の勤務医）",
+            rank: 1,
+            highlight: "月2.3万円｜年約14万円節税",
+            features: [
+              "月2.3万円×12＝年27.6万円の所得控除",
+              "税率50%（住民税込）なら年14万円節税",
+              "運用益も非課税",
+              "SBI・楽天証券で手数料無料",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lp_ideco.html",
+            badge: "最優先",
+          },
+          {
+            name: "小規模企業共済（開業医）",
+            rank: 2,
+            highlight: "月7万円｜年約40万円節税",
+            features: [
+              "月7万円×12＝年84万円の所得控除",
+              "税率50%なら年42万円節税",
+              "退職所得として受取で二重節税",
+              "個人医院の開業医が対象",
+            ],
+            href: "https://www.smrj.go.jp/kyosai/skyosai/",
+          },
+          {
+            name: "不動産投資（区分マンション）",
+            rank: 3,
+            highlight: "減価償却節税｜年50〜150万円節税",
+            features: [
+              "減価償却費で会計上の赤字を作り損益通算",
+              "年収2,000万円で節税効果最大",
+              "モゲチェック等で物件・ローン比較",
+              "2〜3戸保有で年100〜300万円節税",
+            ],
+            href: "https://www.mogecheck.jp/",
+          },
+          {
+            name: "医療法人化（開業医）",
+            rank: 4,
+            highlight: "所得分散＋経費拡大で節税500万円超",
+            features: [
+              "年間医業収入5,000万円超で検討",
+              "役員報酬分散（家族役員に）",
+              "経費範囲拡大（生命保険・退職金）",
+              "設立費用100〜300万円、税理士必須",
+            ],
+            href: "https://www.zeiri4.com/",
+          },
+          {
+            name: "新NISA（年360万円）",
+            rank: 5,
+            highlight: "運用益非課税｜長期複利で大差",
+            features: [
+              "年360万円×5年で生涯枠1,800万円",
+              "米国ETF（VTI/VOO/VYM）＋全世界株式",
+              "20年運用で元本2.5〜3倍に",
+              "SBI証券のクレカ積立も活用",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">勤務医 vs 開業医の資産形成比較</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>勤務医（年収1,500〜2,500万円）</strong>：iDeCo＋新NISA＋不動産2〜3戸で年節税100〜200万円</li>
+          <li><strong>開業医（年収3,000〜5,000万円）</strong>：上記＋小規模企業共済＋医療法人化で年節税500〜1,000万円</li>
+          <li><strong>副業可能な勤務医</strong>：産業医・外勤・著作権等で年収＋300〜500万円</li>
+          <li><strong>退職後</strong>：退職所得控除を最大活用、iDeCoも退職金扱いで有利</li>
+          <li><strong>相続対策</strong>：生命保険の非課税枠＋家族信託で円滑な承継</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="医師専門の税理士を無料紹介｜税理士ドットコム"
+        description="医師の税務は極めて複雑。税理士ドットコムで医療法人・開業医専門税理士を無料紹介、年間節税500〜1,000万円の事例多数。"
+        buttonText="税理士ドットコムで無料相談"
+        href="https://www.zeiri4.com/"
+        icon="⚕️"
+        highlight="紹介料無料"
+      />
+    </>
+  ),
+  "public-servant-money-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">公務員の資産形成のコツ</h2>
+        <p>
+          公務員は原則副業禁止ですが、①株式・投資信託投資、②不動産投資（5棟10室未満）、③執筆・講演、④家業の手伝い、⑤許可制の専門資格活用等は可能。安定した給与＋共済年金＋退職金＋iDeCo/NISAで、退職時3,000万円超の資産構築が現実的です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="公務員が活用できる資産形成5手段"
+        services={[
+          {
+            name: "iDeCo（月1.2万円）",
+            rank: 1,
+            highlight: "全額所得控除｜運用益非課税",
+            features: [
+              "公務員の上限は月1.2万円（年14.4万円）",
+              "税率30%なら年約4.3万円節税",
+              "SBI・楽天証券で手数料無料",
+              "退職後の年金代替資金",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lp_ideco.html",
+            badge: "最優先",
+          },
+          {
+            name: "新NISA（年360万円）",
+            rank: 2,
+            highlight: "運用益非課税｜副業禁止でも可",
+            features: [
+              "株式・投信の運用は副業にあたらず",
+              "年360万円の枠をフル活用",
+              "米国ETF・インデックス投信中心",
+              "SBI証券のクレカ積立で還元",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "不動産投資（5棟10室未満）",
+            rank: 3,
+            highlight: "事業的規模未満なら副業に当たらず",
+            features: [
+              "5棟10室未満の小規模不動産投資は可能",
+              "区分マンション1〜4戸＋戸建て等",
+              "相続による承継も可",
+              "事前に職場の服務規程で確認",
+            ],
+            href: "https://www.mogecheck.jp/",
+          },
+          {
+            name: "執筆・講演",
+            rank: 4,
+            highlight: "職務経験を活かした副収入",
+            features: [
+              "学術論文・専門書・講演等は許可制で可能",
+              "職務に関連する内容で上長許可",
+              "年間数十万円の副収入",
+              "学校教員・研究者・技術系公務員に多い",
+            ],
+            href: "https://www.zeiri4.com/",
+          },
+          {
+            name: "共済年金＋退職金",
+            rank: 5,
+            highlight: "公務員の最大の資産",
+            features: [
+              "国家公務員退職手当：勤続35年で約2,200万円",
+              "地方公務員：類似水準",
+              "共済年金（厚生年金相当）で月20〜25万円",
+              "iDeCo・NISA併用で老後3,000万円超",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">公務員のNG副業一覧</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>他企業への労働（アルバイト・パート）</li>
+          <li>ネット通販・物販（事業的規模）</li>
+          <li>YouTuber・ブロガーでの広告収入（営利活動）</li>
+          <li>ネットワークビジネス（MLM）</li>
+          <li>フリーランス・個人事業主としての活動</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="公務員でもOK｜楽天証券で新NISA開始"
+        description="公務員の副業禁止規則でも、株式・投信の運用は可能。楽天証券なら楽天カード積立で1%還元、新NISAで年360万円までの非課税投資が可能。"
+        buttonText="楽天証券 新NISAを見る"
+        href="https://www.rakuten-sec.co.jp/web/nisa/"
+        icon="🏛️"
+        highlight="副業禁止でもOK"
+      />
+    </>
+  ),
+  "dual-income-family-high-income": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">世帯年収2,000万円超の家計戦略</h2>
+        <p>
+          世帯年収2,000〜3,000万円の共働き高収入夫婦は、所得税率40〜45%の高税率ゾーンで苦しむケース多。ただし、①所得分散（夫婦それぞれフル活用）、②法人化、③不動産投資、④IFA活用、⑤相続対策の5本柱で年間節税200〜500万円が実現します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="高収入共働き夫婦の節税5大戦略"
+        services={[
+          {
+            name: "新NISA 夫婦それぞれフル活用",
+            rank: 1,
+            highlight: "世帯で年720万円の非課税枠",
+            features: [
+              "夫婦別口座で各年360万円×2＝720万円",
+              "生涯で3,600万円の非課税枠",
+              "米国ETF・全世界株式でコア運用",
+              "SBI証券・楽天証券のクレカ積立で還元も",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "最優先",
+          },
+          {
+            name: "iDeCo 夫婦それぞれフル",
+            rank: 2,
+            highlight: "所得控除＋運用益非課税",
+            features: [
+              "夫婦とも月2.3万円（会社員）＝世帯年55万円",
+              "世帯年収2,500万円なら年節税25〜30万円",
+              "運用益も非課税で20年複利",
+              "受取時の退職所得控除活用",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lp_ideco.html",
+          },
+          {
+            name: "不動産投資（2〜5戸）",
+            rank: 3,
+            highlight: "減価償却で年100〜300万円節税",
+            features: [
+              "夫名義・妻名義で分散購入",
+              "高所得者は減価償却効果最大化",
+              "モゲチェックでローン金利比較",
+              "家族信託で相続対策も",
+            ],
+            href: "https://www.mogecheck.jp/",
+          },
+          {
+            name: "法人化（不動産管理法人）",
+            rank: 4,
+            highlight: "所得分散＋経費拡大",
+            features: [
+              "不動産保有が多い世帯向け",
+              "配偶者・親族を役員にして所得分散",
+              "生命保険・退職金を経費計上",
+              "年節税100〜300万円",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1DXI+1UOKJ6+3SPO+9FDI8Y",
+          },
+          {
+            name: "IFA活用（資産1億円超）",
+            rank: 5,
+            highlight: "中立的な資産運用提案",
+            features: [
+              "マネックスONE・GAIA等のIFA",
+              "海外資産・私募ファンドへのアクセス",
+              "資産1億円超で検討価値",
+              "相続対策も一元化",
+            ],
+            href: "https://www.monex.co.jp/info/home.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">高収入共働き世帯の家計管理</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>家計管理は「収入比例型」がベスト（収入比で家計費を按分）</li>
+          <li>個人の自由支出を月20〜30万円確保（心理的健全性）</li>
+          <li>夫婦合わせて月50万円は強制投資（新NISA＋iDeCo＋不動産）</li>
+          <li>生命保険は収入保障型でシンプルに</li>
+          <li>ふるさと納税は世帯合計で年30〜50万円</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="高収入世帯の資産管理もFPに相談｜保険見直しラボ"
+        description="世帯年収2,000万円超は所得税・相続税対策が複雑。FP無料相談で家計全体を最適化、保険・投資・相続の一元設計で年数百万円の節税を実現。"
+        buttonText="保険見直しラボに無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=3Z6F6O+1YZZGQ+38BE+5YRHE"
+        icon="💎"
+        highlight="相談料完全無料"
+      />
+    </>
+  ),
+  "yen-depreciation-strategy": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">円安時代の資産防衛</h2>
+        <p>
+          2022年からの急速な円安（1ドル=150円台）により、日本円資産だけの購買力は実質30%以上減少。米国株・外貨預金・ゴールドETFを組み合わせて、円安ヘッジポートフォリオを構築することで、円安が続いても資産価値を維持できます。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="円安ヘッジポートフォリオ（3,000万円モデル）"
+        services={[
+          {
+            name: "米国ETF VTI・VOO（40%＝1,200万円）",
+            rank: 1,
+            highlight: "ドル建て資産｜長期成長",
+            features: [
+              "米国株式全体に分散投資",
+              "ドル建てなので円安メリット享受",
+              "信託報酬0.03%と業界最安",
+              "新NISA成長枠で非課税",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "コア",
+          },
+          {
+            name: "全世界株式 eMAXIS Slim（20%＝600万円）",
+            rank: 2,
+            highlight: "世界分散｜為替リスク低減",
+            features: [
+              "全世界の株式に自動分散",
+              "日本株も含むため為替ヘッジ効果",
+              "信託報酬0.058%",
+              "新NISAつみたて枠対応",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "ゴールドETF（10%＝300万円）",
+            rank: 3,
+            highlight: "実物資産｜インフレ対策",
+            features: [
+              "SPDR ゴールドシェア（1326）",
+              "円安・インフレのヘッジ",
+              "地政学リスク対策",
+              "信託報酬0.4%",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "外貨預金（10%＝300万円）",
+            rank: 4,
+            highlight: "高金利＋為替差益",
+            features: [
+              "米ドル定期預金で年4〜5%金利",
+              "住信SBIネット銀行（為替手数料6銭）",
+              "ソニー銀行（キャンペーン4銭）",
+              "流動性確保として",
+            ],
+            href: "https://www.netbk.co.jp/",
+          },
+          {
+            name: "日本株・J-REIT（20%＝600万円）",
+            rank: 5,
+            highlight: "円建て資産｜配当金",
+            features: [
+              "日本高配当株（三菱商事・伊藤忠等）",
+              "J-REIT（配当利回り4〜5%）",
+              "円資産として家計安定",
+              "為替リスクなし",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">円安が加速した場合のシナリオ</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>1ドル180円：米国ETF・ドル預金の円換算資産が20%増</li>
+          <li>1ドル200円：ゴールドETF・海外資産がさらに上昇</li>
+          <li>日本円資産のみだと購買力30%以上低下</li>
+          <li>ヘッジポートフォリオなら資産価値を維持 or 増加</li>
+          <li>インフレ2〜3%×円安が進むほど重要性増</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="ドル建て投資の入口｜SBI証券"
+        description="SBI証券は米国ETFの為替手数料無料、定期買付設定で円安対策の自動積立が可能。新NISA成長枠で年240万円の非課税投資を最大活用。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="💱"
+        highlight="為替手数料無料"
+      />
+    </>
+  ),
+  "bonus-investment-strategy": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">ボーナスの黄金ルール「3:3:4」</h2>
+        <p>
+          ボーナス（夏冬各50〜100万円）の使い方で資産形成のスピードが決まります。「30%投資・30%貯金・40%使う」の3:3:4ルールが王道で、年2回×10年で1,000〜3,000万円の資産構築が可能。新NISA成長枠への一括投資がボーナス活用の最強戦略です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="ボーナス活用の優先順位"
+        services={[
+          {
+            name: "新NISA成長投資枠 一括投資",
+            rank: 1,
+            highlight: "ボーナスの30%｜即時全額投資",
+            features: [
+              "ボーナス60万円なら18万円を新NISA成長枠へ",
+              "米国ETF（VTI/VOO）に一括投入",
+              "運用益・配当非課税",
+              "年2回のボーナスで計36万円の追加投資",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "最優先",
+          },
+          {
+            name: "iDeCo 年末増額拠出",
+            rank: 2,
+            highlight: "年末ボーナスで月掛金の1年分を一括",
+            features: [
+              "12月に翌年分をまとめて拠出",
+              "所得控除額最大化",
+              "税率30%なら年8万円の節税",
+              "SBI・楽天証券で手数料無料",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lp_ideco.html",
+          },
+          {
+            name: "生活防衛資金",
+            rank: 3,
+            highlight: "月給6ヶ月分｜いざという時の備え",
+            features: [
+              "貯金30%のうち半分を生活防衛資金に",
+              "ネット銀行の普通預金（年0.2〜0.4%）",
+              "住信SBI・あおぞら・楽天銀行",
+              "目標月給の6ヶ月分まで積み上げ",
+            ],
+            href: "https://www.netbk.co.jp/",
+          },
+          {
+            name: "ふるさと納税 年内完了",
+            rank: 4,
+            highlight: "冬ボーナスで年間上限を活用",
+            features: [
+              "12月末までに年間上限額まで完了",
+              "楽天ふるさと納税で最大30%還元",
+              "実質2,000円で返礼品獲得",
+              "6自治体以内ならワンストップ特例",
+            ],
+            href: "https://event.rakuten.co.jp/furusato/",
+          },
+          {
+            name: "自己投資・趣味・旅行（40%）",
+            rank: 5,
+            highlight: "継続モチベーション維持",
+            features: [
+              "全額を投資するとモチベ低下",
+              "自己投資（書籍・セミナー）",
+              "趣味・旅行でリフレッシュ",
+              "家族との思い出作り",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1DXI+4DRW36+4K3S+5YJRM",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">10年後の資産シミュレーション（年2回ボーナス）</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>ボーナス30%投資（年36万円）×10年×年利5%＝約461万円</li>
+          <li>ボーナス30%貯金（年36万円）×10年＝360万円</li>
+          <li>合計10年後：約821万円</li>
+          <li>20年運用なら約1,600万円</li>
+          <li>給与分の積立と合算で20年3,000〜5,000万円</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="ボーナス一括投資はSBI証券で｜新NISA成長枠"
+        description="SBI証券の新NISA成長枠は年240万円、ボーナスでの一括投資に最適。米国ETF買付で為替手数料無料、運用益・配当も非課税で長期複利を最大化。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="💰"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "large-assets-management": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">資産5,000万円超の運用戦略</h2>
+        <p>
+          資産5,000万円〜5億円の富裕層は、通常の新NISAだけでは物足りず、プライベートバンキング・IFA・ファミリーオフィス・海外資産・私募ファンド等、多角的なポートフォリオが必要。相続・事業承継も視野に入れた長期戦略が求められます。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="富裕層向け資産運用チャネル"
+        services={[
+          {
+            name: "プライベートバンキング（1億円超）",
+            rank: 1,
+            highlight: "三菱UFJ・三井住友・SMBC信託等",
+            features: [
+              "最低資産1〜3億円（銀行による）",
+              "専属担当者が一元サポート",
+              "海外資産・相続対策・不動産まで",
+              "年間手数料0.5〜1.5%程度",
+            ],
+            href: "https://www.smtb.jp/",
+            badge: "超富裕層",
+          },
+          {
+            name: "IFA（独立系FA）5,000万〜1億円",
+            rank: 2,
+            highlight: "中立的な資産運用提案",
+            features: [
+              "マネックスONE・GAIA等",
+              "複数証券会社の商品を横断提案",
+              "年間手数料0.5〜1%",
+              "長期パートナー関係が築ける",
+            ],
+            href: "https://www.monex.co.jp/info/home.html",
+          },
+          {
+            name: "ファミリーオフィス（5億円超）",
+            rank: 3,
+            highlight: "資産管理・相続・教育まで総合",
+            features: [
+              "個別の家族ごとの専属チーム",
+              "資産管理・税務・法務・相続・教育",
+              "シングルファミリー型（1家専属）も可",
+              "年間手数料0.3〜1%",
+            ],
+            href: "https://www.zeiri4.com/",
+          },
+          {
+            name: "海外プライベートバンク（数億円）",
+            rank: 4,
+            highlight: "スイス・シンガポールで資産分散",
+            features: [
+              "UBS・クレディスイス・DBS等",
+              "多通貨・多国籍資産管理",
+              "相続対策・海外移住との連携",
+              "最低資産数億円〜",
+            ],
+            href: "https://www.zeiri4.com/",
+          },
+          {
+            name: "私募ファンド（PEファンド等）",
+            rank: 5,
+            highlight: "非公開企業への投資",
+            features: [
+              "未公開株・不動産・ヘッジファンド",
+              "最低投資1,000万円〜1億円",
+              "期待リターン年8〜15%",
+              "流動性低い・5〜10年ロック",
+            ],
+            href: "https://www.monex.co.jp/info/home.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">資産規模別の推奨ポートフォリオ</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>5,000万円</strong>：新NISA＋iDeCo＋IFA活用＋不動産1〜2戸</li>
+          <li><strong>1億円</strong>：上記＋IFA経由の海外資産＋不動産3〜5戸</li>
+          <li><strong>3億円</strong>：プライベートバンキング＋家族信託＋法人化検討</li>
+          <li><strong>5億円超</strong>：ファミリーオフィス＋海外プライベートバンク</li>
+          <li><strong>10億円超</strong>：シングルファミリーオフィス＋PEファンド</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="資産1億円超の相談はIFAで｜マネックスONE"
+        description="マネックスONEは富裕層向けIFAサービスの代表格。複数証券会社の商品横断提案、海外資産・相続・事業承継まで一元サポート、年間手数料0.5〜1%で長期パートナーに。"
+        buttonText="マネックスONEの詳細"
+        href="https://www.monex.co.jp/info/home.html"
+        icon="🏆"
+        highlight="富裕層特化"
+      />
+    </>
+  ),
+  "diamond-investment-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">ダイヤモンド投資の基礎</h2>
+        <p>
+          ダイヤモンド投資（投資ダイヤ）は、GIA鑑定書付きの一定グレード以上のダイヤモンドを購入し、価格上昇で利益を得る投資手法。現物資産としてインフレヘッジ機能があり、ポートフォリオの5〜10%程度の分散投資として使われます。ただし流動性・鑑定リスクがあり、上級者向けです。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="ダイヤモンド投資のグレード基準"
+        services={[
+          {
+            name: "投資グレード（1ct以上）",
+            rank: 1,
+            highlight: "最低100万円〜｜流動性あり",
+            features: [
+              "1カラット以上のダイヤモンド",
+              "GIA鑑定書付き（Dカラー・IF〜VVSクラリティ）",
+              "100万〜1,000万円のレンジ",
+              "海外オークションで取引可能",
+            ],
+            href: "https://nanboya.com/",
+            badge: "本格投資",
+          },
+          {
+            name: "宝飾グレード（0.5〜1ct）",
+            rank: 2,
+            highlight: "30〜100万円｜宝飾品兼用",
+            features: [
+              "0.5〜1カラットの宝飾品グレード",
+              "Fカラー以上・VSクラリティ以上",
+              "30〜100万円",
+              "結婚指輪等の宝飾品としても活用",
+            ],
+            href: "https://nanboya.com/",
+          },
+          {
+            name: "ハイエンド投資（3ct以上）",
+            rank: 3,
+            highlight: "1,000万円超｜世界オークション",
+            features: [
+              "3カラット以上の希少ダイヤ",
+              "ファンシーカラー（ピンク・ブルー）は特に高価",
+              "1,000万〜1億円超",
+              "Sotheby's・Christie'sオークションで取引",
+            ],
+            href: "https://nanboya.com/",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">ダイヤモンド投資の注意点</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>流動性が低い（売却に時間がかかる）</li>
+          <li>購入価格と買取価格の差が大きい（数十%）</li>
+          <li>GIA以外の鑑定書は信頼性低い</li>
+          <li>偽物・処理済ダイヤ（レーザー処理等）に注意</li>
+          <li>ポートフォリオの5〜10%以内が適正</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="ダイヤの査定・売却は専門業者で｜なんぼや"
+        description="なんぼやは全国100店舗超、ダイヤモンドの査定・買取に強い業界大手。GIA鑑定書付きダイヤを適正価格で査定、売却・現金化がスムーズ。"
+        buttonText="なんぼやの詳細"
+        href="https://nanboya.com/"
+        icon="💍"
+        highlight="業界大手"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">ダイヤ投資が向いている人</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>資産3,000万円超の余裕資金がある</li>
+          <li>宝飾品への知識・興味がある</li>
+          <li>長期保有（5〜20年）の心構えがある</li>
+          <li>インフレ・通貨下落対策としての位置づけ</li>
+          <li>相続財産としての価値も活用したい</li>
+        </ul>
+      </section>
+    </>
+  ),
 };
