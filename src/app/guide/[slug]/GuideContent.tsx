@@ -12310,4 +12310,601 @@ const guideContents: Record<string, React.ReactNode> = {
       </section>
     </>
   ),
+  "japan-high-dividend-strategy": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">日本高配当株で月5万円の配当収入</h2>
+        <p>
+          日本高配当株は配当利回り3〜5%と、米国ETF（2〜4%）を上回るケースも。2,000万円を利回り4%で運用すれば年80万円（月6.7万円）の配当収入。新NISA口座（年240万円成長枠）で運用すれば配当も非課税で、退職後の年金代替資金として最強の選択肢になります。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="2026年 おすすめ日本高配当株10選"
+        services={[
+          {
+            name: "三菱商事（8058）",
+            rank: 1,
+            highlight: "配当利回り3.5%前後｜総合商社最大手",
+            features: [
+              "世界的な総合商社、資源・食品・機械等に分散",
+              "バフェットも投資、増配傾向",
+              "配当性向30%前後で安定",
+              "SBI証券・楽天証券で1株から購入可",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "総合商社",
+          },
+          {
+            name: "伊藤忠商事（8001）",
+            rank: 2,
+            highlight: "配当利回り3.2%｜非資源型で安定",
+            features: [
+              "非資源型で総合商社の中でも安定収益",
+              "繊維・食料・情報通信等に強み",
+              "11期連続増配",
+              "海外展開積極的",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "ENEOSホールディングス（5020）",
+            rank: 3,
+            highlight: "配当利回り4.5%｜石油元売最大手",
+            features: [
+              "日本石油元売り最大手、ガソリンスタンド全国展開",
+              "高配当利回りが魅力",
+              "脱炭素シフトでの変革期",
+              "株価は割安傾向",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "ソフトバンク（9434）",
+            rank: 4,
+            highlight: "配当利回り4.5%｜通信大手で業績安定",
+            features: [
+              "通信事業で安定キャッシュフロー",
+              "配当性向85%で高水準",
+              "ヤフー・PayPay等のグループ連携",
+              "Zホールディングスとの関係も",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "武田薬品工業（4502）",
+            rank: 5,
+            highlight: "配当利回り4.5%｜製薬大手",
+            features: [
+              "日本最大の製薬会社、グローバル展開",
+              "高水準の配当利回り",
+              "希少疾病・消化器等の特化分野",
+              "配当は長期安定",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">配当月5万円・年60万円のモデルポートフォリオ</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>必要投資額：1,500万円（想定利回り4%）</li>
+          <li>5銘柄に300万円ずつ分散（各銘柄の配当年12万円）</li>
+          <li>新NISA成長枠を活用して配当を非課税化</li>
+          <li>定期的なリバランスで業種分散</li>
+          <li>年2回の決算確認＋配当再投資</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="日本高配当株の購入はSBI証券｜国内株式手数料無料"
+        description="SBI証券なら新NISA口座で日本株売買手数料完全無料。配当金も非課税で受け取れ、月5万円の配当生活に一歩近づきます。取扱銘柄も東証全上場企業に対応。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="💰"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "monthly-dividend-portfolio": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">毎月配当で月10万円の不労所得</h2>
+        <p>
+          米国ETF・日本株・J-REIT・毎月分配型投信を組み合わせれば、毎月配当・分配金を受け取るポートフォリオが構築可能。米国ETFは3月/6月/9月/12月、日本株は3月/9月、J-REITは3月/6月/9月/12月等、それぞれの配当時期を組合せることで月間不労所得が実現します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="毎月配当ポートフォリオの構成例"
+        services={[
+          {
+            name: "米国高配当ETF VYM",
+            rank: 1,
+            highlight: "Vanguard｜400銘柄分散｜四半期配当",
+            features: [
+              "Vanguard High Dividend Yield ETF",
+              "400銘柄以上に分散投資",
+              "3月/6月/9月/12月の四半期配当",
+              "配当利回り約3%",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "米国王道",
+          },
+          {
+            name: "米国高配当ETF HDV",
+            rank: 2,
+            highlight: "iShares｜75銘柄｜四半期配当",
+            features: [
+              "iShares Core High Dividend ETF",
+              "75銘柄の厳選高配当企業",
+              "3月/6月/9月/12月の四半期配当",
+              "配当利回り約4%",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "SPYD",
+            rank: 3,
+            highlight: "State Street｜80銘柄｜高利回り4%超",
+            features: [
+              "SPDR ポートフォリオS&P 500 高配当株式ETF",
+              "S&P 500の高配当80銘柄",
+              "配当利回り約4%",
+              "四半期配当",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "J-REIT（日本REIT）",
+            rank: 4,
+            highlight: "四半期配当｜分配金利回り4〜5%",
+            features: [
+              "オフィス・住居・物流・商業施設REIT",
+              "四半期または半期ごとの分配金",
+              "分配金利回り4〜5%",
+              "安定収益型の投資",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">月10万円配当のモデル（投資額3,000万円）</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>米国ETF（VYM/HDV/SPYD）：1,500万円×4%＝年60万円</li>
+          <li>日本高配当株：800万円×4%＝年32万円</li>
+          <li>J-REIT：500万円×4.5%＝年22.5万円</li>
+          <li>高配当個別米国株（VZ/IBM等）：200万円×5%＝年10万円</li>
+          <li>合計：年124万円（月10.3万円）、税引前</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="米国ETFの積立はSBI証券｜為替手数料無料"
+        description="SBI証券は米国ETFの為替手数料無料、定期買付設定で自動積立も。毎月配当ポートフォリオ構築に最適、新NISA成長枠で配当も非課税化。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="💰"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "online-store-setup-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">ネットショップ開業で月10万円の副収入</h2>
+        <p>
+          ネットショップ開業はBASE・STORESなら無料で始められ、Shopify・楽天市場・Yahoo!ショッピングと使い分けで月10万円〜100万円の売上も現実的。初心者はBASE・STORESからスタートし、売上10万円超えたらShopifyや楽天市場への拡大が王道ルートです。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="2026年 ネットショップ開業プラットフォーム比較"
+        services={[
+          {
+            name: "BASE",
+            rank: 1,
+            highlight: "無料開業｜初心者に最適",
+            features: [
+              "初期費用・月額無料、決済手数料3.6%＋40円",
+              "テンプレートで数時間でショップ開設",
+              "アプリ追加で機能拡張可能",
+              "商品登録数無制限",
+            ],
+            href: "https://thebase.com/",
+            badge: "初心者向け",
+          },
+          {
+            name: "STORES",
+            rank: 2,
+            highlight: "無料プラン｜デザイン性高い",
+            features: [
+              "無料プラン（月商10万円以下）＋スタンダード月1,980円",
+              "デザインテンプレート豊富",
+              "予約・サブスク機能も標準装備",
+              "SNS連携強化",
+            ],
+            href: "https://stores.jp/",
+          },
+          {
+            name: "Shopify",
+            rank: 3,
+            highlight: "世界シェアNo.1｜拡張性最強",
+            features: [
+              "月額3,650円〜、機能拡張アプリ数千種",
+              "海外販売に強い（多言語・多通貨対応）",
+              "決済手数料2.95%〜",
+              "本格EC事業向き",
+            ],
+            href: "https://www.shopify.com/jp/",
+          },
+          {
+            name: "楽天市場",
+            rank: 4,
+            highlight: "モール型｜集客力最強",
+            features: [
+              "月額25,000円〜＋成約手数料",
+              "楽天の集客力で売上ゼロからでも販売可能",
+              "ポイント還元で顧客囲い込み",
+              "審査あり、法人優遇",
+            ],
+            href: "https://www.rakuten.co.jp/ec/",
+          },
+          {
+            name: "Yahoo!ショッピング",
+            rank: 5,
+            highlight: "出店料無料｜PayPay連携",
+            features: [
+              "初期費用・月額無料",
+              "PayPay・Yahoo!プレミアム連携",
+              "ストア数国内最大",
+              "決済・成約手数料のみ",
+            ],
+            href: "https://business-ec.yahoo.co.jp/",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">月10万円達成までのロードマップ</h2>
+        <ol className="list-decimal list-inside space-y-2 text-sm">
+          <li><strong>1〜2ヶ月目</strong>：商品開発・BASE開設・SNS発信開始</li>
+          <li><strong>3〜4ヶ月目</strong>：最初の売上10個達成、改善PDCA</li>
+          <li><strong>5〜6ヶ月目</strong>：月商3〜5万円、広告出稿開始（月1万円）</li>
+          <li><strong>7〜10ヶ月目</strong>：月商10万円達成、リピーター獲得</li>
+          <li><strong>11〜12ヶ月目</strong>：Shopify移行検討、拡大</li>
+        </ol>
+      </section>
+      <AffiliateCTA
+        title="オンラインショップ運営にはサーバーも｜エックスサーバー"
+        description="ネットショップと連動するブログ・LPを作るなら、高速レンタルサーバーが必須。エックスサーバーなら月693円〜、WordPress簡単インストールで10分で開設。"
+        buttonText="エックスサーバーの詳細"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1DXI+1B19KI+CO4+6HES1"
+        icon="🖥️"
+        highlight="10日間無料"
+      />
+    </>
+  ),
+  "amazon-side-business-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">Amazon物販で月10万円の副収入</h2>
+        <p>
+          Amazon物販（せどり・OEM・FBA）は、サラリーマンの副業として人気No.1。月商30〜50万円で利益10万円、月商100万円で利益30万円程度が現実的。Amazon の巨大な集客力＋FBA（フルフィルメント by Amazon）の物流代行を活用すれば、在宅で完結する副業が実現します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="Amazon物販の3つの手法"
+        services={[
+          {
+            name: "国内せどり",
+            rank: 1,
+            highlight: "初心者向け｜初期投資10万円〜",
+            features: [
+              "Amazon店頭・楽天・メルカリから仕入れ",
+              "Amazonで高値転売（利益率15〜30%）",
+              "ツール（Keepa・せどりすと）で価格差を分析",
+              "初期投資10〜30万円から",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=2NR2GS+DFNXFM+0K3Y+61RIP",
+            badge: "初心者向け",
+          },
+          {
+            name: "中国輸入",
+            rank: 2,
+            highlight: "利益率高い｜初期投資30万円〜",
+            features: [
+              "アリババ・タオバオから仕入れ",
+              "独自商品で他との差別化",
+              "利益率30〜50%を狙える",
+              "代行業者使用で安全",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=2NR2GS+DFNXFM+0K3Y+61RIP",
+          },
+          {
+            name: "OEM・メーカー直販",
+            rank: 3,
+            highlight: "長期安定｜初期投資100万円〜",
+            features: [
+              "自社ブランド商品の製造委託",
+              "価格競争回避で利益率高い",
+              "月商100万円超のスケール可能",
+              "事業化レベル",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=2NR2GS+DFNXFM+0K3Y+61RIP",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">Amazon物販の税務と確定申告</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>副業所得20万円超で確定申告必須（会社員も同様）</li>
+          <li>freee会計等で帳簿付けを自動化（仕入・売上・Amazon手数料）</li>
+          <li>インボイス登録（売上1,000万円超で消費税課税）</li>
+          <li>青色申告特別控除65万円で節税</li>
+          <li>在庫・仕入コストの管理が重要</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="Amazon物販の税務はfreee会計で｜初心者に最適"
+        description="Amazon物販の売上・仕入・手数料を自動連携、AI仕訳で経理時間1/3に削減。freee会計なら青色申告特別控除65万円にも対応、月1,180円から。"
+        buttonText="freee会計の詳細"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1DXI+1UOKJ6+3SPO+9FDI8Y"
+        icon="📊"
+        highlight="30日無料"
+      />
+    </>
+  ),
+  "childcare-leave-finance-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">育休中の家計を守る4つの制度</h2>
+        <p>
+          育休中は収入が減少しますが、①育児休業給付金（月給の67%→50%、最長2年）、②社会保険料免除（月数万円の手取り維持）、③児童手当（月1〜1.5万円）、④各種子育て支援（自治体）を活用すれば、手取り額は意外に減らない設計です。計画的な家計管理で育休を乗り切りましょう。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="育休中に使える4つの公的支援"
+        services={[
+          {
+            name: "育児休業給付金",
+            rank: 1,
+            highlight: "月給の67%→180日後50%｜最長2年",
+            features: [
+              "産休後〜子1歳（延長で最長2年）まで支給",
+              "最初180日：月給の67%、以降50%",
+              "月額上限315,369円（67%）/235,350円（50%）",
+              "雇用保険から支給、非課税",
+            ],
+            href: "https://www.mhlw.go.jp/",
+            badge: "最重要",
+          },
+          {
+            name: "社会保険料免除",
+            rank: 2,
+            highlight: "育休中の健康保険・厚生年金が免除",
+            features: [
+              "育休中の健康保険・厚生年金の本人負担・会社負担とも免除",
+              "月3〜8万円の負担軽減",
+              "年金額は免除期間も納付扱い（損なし）",
+              "申請は会社経由",
+            ],
+            href: "https://www.nenkin.go.jp/",
+          },
+          {
+            name: "児童手当",
+            rank: 3,
+            highlight: "3歳未満月15,000円｜所得制限撤廃",
+            features: [
+              "0〜3歳未満月15,000円",
+              "3歳〜中学生月10,000円（第3子以降30,000円）",
+              "2024年10月改正で所得制限撤廃",
+              "出生届と同時に申請",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "出産育児一時金",
+            rank: 4,
+            highlight: "出産1児につき50万円",
+            features: [
+              "2023年4月から50万円に増額（以前42万円）",
+              "健康保険から支給",
+              "直接支払制度で病院への立替不要",
+              "産科医療補償制度対象",
+            ],
+            href: "https://www.kyoukaikenpo.or.jp/",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">育休中の家計最適化5ステップ</h2>
+        <ol className="list-decimal list-inside space-y-2 text-sm">
+          <li><strong>固定費削減</strong>：格安SIM・保険見直しで月2〜3万円削減</li>
+          <li><strong>育児休業給付金の予測計算</strong>：職場の給与明細＋概算で把握</li>
+          <li><strong>生活費の最適化</strong>：外食減・家事シェア・メルカリ活用</li>
+          <li><strong>児童手当は全額投資</strong>：新NISAで18年運用→約300万円</li>
+          <li><strong>復職準備</strong>：保育園申込・時短勤務の検討</li>
+        </ol>
+      </section>
+      <AffiliateCTA
+        title="育休中の家計最適化もFPに相談｜保険見直しラボ"
+        description="育休中こそ家計を見直すチャンス。FP無料相談で保険・通信費・ローン等の固定費を最適化、浮いた分を新NISAに回すことで子の教育費を準備。"
+        buttonText="保険見直しラボに無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=3Z6F6O+1YZZGQ+38BE+5YRHE"
+        icon="🛡️"
+        highlight="相談料完全無料"
+      />
+    </>
+  ),
+  "divorce-finance-recovery-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">離婚後の家計再建5ステップ</h2>
+        <p>
+          離婚後は収入・支出両面で大きな変化。シングル世帯の平均年収は父子家庭で約550万円・母子家庭で約243万円と大きな差がある反面、児童扶養手当・医療費助成等の公的支援もあります。計画的な家計再建で、離婚前より豊かな生活を目指すことが可能です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="離婚後の家計再建に使える制度"
+        services={[
+          {
+            name: "児童扶養手当",
+            rank: 1,
+            highlight: "ひとり親世帯｜最大月45,500円",
+            features: [
+              "全部支給：月45,500円（子1人）",
+              "第2子は月10,750円加算、第3子以降は月6,450円",
+              "所得制限あり（前年所得で判定）",
+              "自治体窓口で申請",
+            ],
+            href: "https://www.mhlw.go.jp/",
+            badge: "最重要",
+          },
+          {
+            name: "ひとり親家庭医療費助成",
+            rank: 2,
+            highlight: "医療費負担大幅軽減｜自治体による",
+            features: [
+              "自治体により異なる（月1,500〜3,000円程度）",
+              "健康保険適用分の自己負担を助成",
+              "児童の医療費も対象",
+              "所得制限あり",
+            ],
+            href: "https://www.mhlw.go.jp/",
+          },
+          {
+            name: "母子父子寡婦福祉資金",
+            rank: 3,
+            highlight: "低利融資｜学費・事業資金",
+            features: [
+              "利率1%以下（保証人ありなら無利子）",
+              "学費・修学資金・事業開始資金等",
+              "民間ローンより圧倒的に有利",
+              "自治体福祉課で申請",
+            ],
+            href: "https://www.mhlw.go.jp/",
+          },
+          {
+            name: "自立支援教育訓練給付金",
+            rank: 4,
+            highlight: "資格取得費用の60%補助",
+            features: [
+              "看護師・介護福祉士・保育士等の資格取得支援",
+              "受講費用の60%（上限20万円）を補助",
+              "自立のためのスキル獲得",
+              "児童扶養手当受給世帯対象",
+            ],
+            href: "https://www.mhlw.go.jp/",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">離婚後の家計再建戦略</h2>
+        <ol className="list-decimal list-inside space-y-2 text-sm">
+          <li><strong>収入の確保</strong>：正社員復帰・スキルアップ転職・副業開始</li>
+          <li><strong>支出の最適化</strong>：固定費（家賃・通信・保険）の削減</li>
+          <li><strong>養育費の確保</strong>：公正証書で合意＋強制執行可能な状態に</li>
+          <li><strong>公的支援フル活用</strong>：児童扶養手当・医療費助成等</li>
+          <li><strong>資産形成開始</strong>：新NISAで少額積立、児童手当を投資に回す</li>
+        </ol>
+      </section>
+      <AffiliateCTA
+        title="シングル世帯の資産運用もSBI証券｜月1,000円から"
+        description="シングル世帯でも新NISAは月1,000円から始められる。児童扶養手当の一部や副業収入を運用することで、老後資金1,000万円超の準備が可能。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="💰"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "second-home-investment-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">2軒目不動産の4つの活用方法</h2>
+        <p>
+          年収1,000万円超の世帯が2軒目不動産を購入する目的は、①別荘としての自家利用、②投資用賃貸、③自宅オフィス兼用、④民泊運営、の4種類。目的次第で最適な物件・ローン・税務対策が変わるため、事前の戦略設計が成否を分けます。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="2軒目不動産の活用方法比較"
+        services={[
+          {
+            name: "別荘（自家利用）",
+            rank: 1,
+            highlight: "リゾート地｜軽井沢・湯沢・八ヶ岳",
+            features: [
+              "家族のリフレッシュ・別荘地での交流",
+              "住宅ローン型ではなく別荘ローン or 一括購入",
+              "固定資産税・管理費が発生",
+              "相続時は評価額が下がる傾向",
+            ],
+            href: "https://www.mogecheck.jp/",
+            badge: "ライフスタイル",
+          },
+          {
+            name: "投資用区分マンション",
+            rank: 2,
+            highlight: "家賃収入＋減価償却節税",
+            features: [
+              "都内1R・1K物件で月家賃8〜15万円",
+              "減価償却で給与所得と損益通算",
+              "年収1,000万円超で節税効果大",
+              "モゲチェック等で物件選定",
+            ],
+            href: "https://www.mogecheck.jp/",
+            badge: "投資",
+          },
+          {
+            name: "自宅兼オフィス",
+            rank: 3,
+            highlight: "法人取得で経費化",
+            features: [
+              "法人名義で取得、家賃50%を会社経費化",
+              "個人事業主は家事按分20〜50%",
+              "自宅勤務の増加で需要高まる",
+              "登記・税務対策が複雑",
+            ],
+            href: "https://www.zeiri4.com/",
+          },
+          {
+            name: "民泊物件",
+            rank: 4,
+            highlight: "短期賃貸で高利回り",
+            features: [
+              "Airbnb・Booking.comで貸出",
+              "年180日の営業日制限あり",
+              "利回り10〜20%も可能（立地次第）",
+              "民泊新法の手続き・管理会社活用",
+            ],
+            href: "https://www.mogecheck.jp/",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">2軒目取得時の税務注意点</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>住宅ローン控除は2軒目には適用されない（自宅限定）</li>
+          <li>投資用物件は減価償却・損益通算でメリット大</li>
+          <li>固定資産税・都市計画税は毎年発生</li>
+          <li>相続税対策として不動産評価は時価の70〜80%</li>
+          <li>譲渡所得税は5年超保有で半減（長期譲渡所得）</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="2軒目ローンはモゲチェックで比較｜複数銀行一括審査"
+        description="2軒目不動産のローンは銀行により金利・条件が大きく異なる。モゲチェックなら複数銀行の条件を無料一括比較、金利差で総返済額100〜500万円の削減も。"
+        buttonText="モゲチェックで無料診断"
+        href="https://www.mogecheck.jp/"
+        icon="🏘️"
+        highlight="無料診断"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">法人 vs 個人の取得比較</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>法人取得：経費計上範囲広い、相続対策に有効、設立コストあり</li>
+          <li>個人取得：住宅ローン条件良い、手続き簡素、節税メリット限定的</li>
+          <li>年収3,000万円超なら法人取得が有利</li>
+          <li>複数物件保有なら法人化が効率的</li>
+          <li>税理士と早めの相談が鉄則</li>
+        </ul>
+      </section>
+    </>
+  ),
 };
