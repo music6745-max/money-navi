@@ -11095,4 +11095,589 @@ const guideContents: Record<string, React.ReactNode> = {
       </section>
     </>
   ),
+  "health-insurance-comparison-2026": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">医療保険は本当に必要？</h2>
+        <p>
+          公的健康保険＋高額療養費制度（月8〜9万円で医療費頭打ち）で日本の医療保障は手厚いです。ただし差額ベッド代・先進医療費（陽子線治療等300万円超）・休業中の収入減はカバーされないため、民間医療保険で補完するのが賢明。月額2,000〜5,000円の掛け捨てで十分です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="2026年 医療保険おすすめ比較"
+        services={[
+          {
+            name: "アクサダイレクト生命 終身医療",
+            rank: 1,
+            highlight: "月額1,500円台〜｜ネット専業で格安",
+            features: [
+              "インターネット完結で保険料業界最安水準",
+              "入院日額5,000〜1万円から選択",
+              "先進医療特約月額100円程度",
+              "手術給付金10〜20倍",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=3Z6F6O+1YZZGQ+38BE+5YRHE",
+            badge: "最安水準",
+          },
+          {
+            name: "オリックス生命 新CURE",
+            rank: 2,
+            highlight: "手厚い保障｜三大疾病で保険料免除",
+            features: [
+              "七大生活習慣病で入院給付金倍額",
+              "三大疾病（がん・心疾患・脳卒中）で保険料免除",
+              "先進医療特約必須級",
+              "月額2,500〜5,000円",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=3Z6F6O+1YZZGQ+38BE+5YRHE",
+          },
+          {
+            name: "チューリッヒ生命 終身医療保険プレミアムDX",
+            rank: 3,
+            highlight: "カスタマイズ性最強｜ガン対応手厚い",
+            features: [
+              "入院日額・手術倍率・特約が細かく選べる",
+              "ガン一時金100万円特約",
+              "月額1,800〜4,500円",
+              "Web申込で保険料割引",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=3Z6F6O+1YZZGQ+38BE+5YRHE",
+          },
+          {
+            name: "メットライフ生命 フレキシィゴールドS",
+            rank: 4,
+            highlight: "外資系ならではの充実保障",
+            features: [
+              "メットライフグループのノウハウ",
+              "入院給付金日額1万円プランが人気",
+              "女性特有疾病特約",
+              "月額2,000〜5,000円",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=3Z6F6O+1YZZGQ+38BE+5YRHE",
+          },
+          {
+            name: "都道府県民共済 総合保障型",
+            rank: 5,
+            highlight: "月額1,000〜4,000円｜コスパ最強",
+            features: [
+              "月額1,000円から加入可能",
+              "85歳まで継続可能",
+              "死亡保障・入院保障・通院保障が1パックに",
+              "割戻金制度で実質さらに割安",
+            ],
+            href: "https://www.kyosai-cc.or.jp/",
+            badge: "コスパNo.1",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">医療保険選びの5つのチェックポイント</h2>
+        <ol className="list-decimal list-inside space-y-2 text-sm">
+          <li><strong>入院日額</strong>：5,000円（貯蓄あり）〜1万円（貯蓄少なめ）</li>
+          <li><strong>先進医療特約</strong>：必須。月額100円程度で陽子線治療等をカバー</li>
+          <li><strong>一時金特約</strong>：入院10万円・手術給付金の倍率</li>
+          <li><strong>保険期間</strong>：終身型が主流、定期型は掛け金抑制</li>
+          <li><strong>免責期間・待機期間</strong>：加入後30〜180日は対象外の場合あり</li>
+        </ol>
+      </section>
+      <AffiliateCTA
+        title="医療保険見直しはFPに無料相談｜保険見直しラボ"
+        description="30社以上の保険を中立的に比較提案。現加入保険の過不足診断＋最適プラン提案で、月1〜2万円の保険料削減事例多数。浮いた分を新NISAへ。"
+        buttonText="保険見直しラボに無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=3Z6F6O+1YZZGQ+38BE+5YRHE"
+        icon="🛡️"
+        highlight="相談料完全無料"
+      />
+    </>
+  ),
+  "cancer-insurance-comparison-2026": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">ガン保険の必要性</h2>
+        <p>
+          日本人の2人に1人が生涯でガンに罹患するとされ、治療費は入院・手術・抗がん剤・放射線・先進医療を合わせ、総額100〜500万円に達することも。ガン保険に加入すれば診断時に一時金50〜200万円、治療期間中は月給付金を受け取れ、治療と生活の両面をサポートします。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="2026年 ガン保険おすすめ比較"
+        services={[
+          {
+            name: "アクサダイレクト生命 がん保険",
+            rank: 1,
+            highlight: "月額1,000円台〜｜ネット専業で格安",
+            features: [
+              "診断一時金100万円プラン月額1,500円台",
+              "通院給付金月5〜20万円",
+              "先進医療特約月100円程度",
+              "上皮内新生物も同額保障",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=3Z6F6O+1YZZGQ+38BE+5YRHE",
+            badge: "最安水準",
+          },
+          {
+            name: "チューリッヒ生命 終身ガン治療保険",
+            rank: 2,
+            highlight: "抗がん剤治療特化｜月10万円給付",
+            features: [
+              "抗がん剤・ホルモン剤治療で月10万円",
+              "放射線治療10万円",
+              "診断一時金100〜300万円",
+              "再発時も複数回給付",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=3Z6F6O+1YZZGQ+38BE+5YRHE",
+          },
+          {
+            name: "メットライフ生命 ガードX",
+            rank: 3,
+            highlight: "上皮内新生物対応｜一時金複数回",
+            features: [
+              "診断一時金100〜300万円",
+              "上皮内新生物（初期がん）も同額保障",
+              "2年経過後は再発ごとに一時金支給",
+              "月額2,500〜5,000円",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=3Z6F6O+1YZZGQ+38BE+5YRHE",
+          },
+          {
+            name: "オリックス生命 Belieible",
+            rank: 4,
+            highlight: "通院・先進医療特化｜手厚い保障",
+            features: [
+              "通院治療給付金1回5〜10万円",
+              "抗がん剤・放射線治療月5〜10万円",
+              "診断一時金50〜200万円",
+              "月額2,000〜4,500円",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=3Z6F6O+1YZZGQ+38BE+5YRHE",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">ガン治療費のリアル</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>手術</strong>：初回入院20〜50万円（高額療養費適用後の自己負担）</li>
+          <li><strong>抗がん剤治療</strong>：月3〜10万円（継続6ヶ月〜2年）</li>
+          <li><strong>放射線治療</strong>：総額50〜100万円</li>
+          <li><strong>陽子線・重粒子線</strong>：300万円超（先進医療）</li>
+          <li><strong>休業による収入減</strong>：平均年300〜500万円</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="ガン保険見直しもFP無料相談｜保険見直しラボ"
+        description="ガン保険は給付条件が複雑で、30社以上から最適商品を選ぶのは困難。FP無料相談で中立的に比較提案、家族構成・年収に合わせた保障設計が可能。"
+        buttonText="保険見直しラボに無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=3Z6F6O+1YZZGQ+38BE+5YRHE"
+        icon="🎗️"
+        highlight="相談料完全無料"
+      />
+    </>
+  ),
+  "private-nursing-insurance-comparison": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">民間介護保険で老後の介護費用を備える</h2>
+        <p>
+          公的介護保険は1〜3割負担と手厚いですが、施設入居費・差額ベッド代・付添費用・食事代などはカバーされません。民間介護保険に加入すれば、要介護2〜3以降に月5〜20万円の一時金・年金を受取り可能。40〜50代から月額3,000〜1万円台で備えるのが現実的です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="2026年 民間介護保険おすすめ比較"
+        services={[
+          {
+            name: "ソニー生命 終身介護保障保険",
+            rank: 1,
+            highlight: "要介護2以上で一時金300万円",
+            features: [
+              "要介護2〜3以上で一時金300万円＋年金月10万円",
+              "ソニー生命の高い信頼性",
+              "個別コンサル型営業で相談充実",
+              "月額5,000〜15,000円",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=3Z6F6O+1YZZGQ+38BE+5YRHE",
+            badge: "業界上位",
+          },
+          {
+            name: "メットライフ生命 フレキシィ介護",
+            rank: 2,
+            highlight: "要介護1から給付｜幅広い受給条件",
+            features: [
+              "要介護1から一時金100万円支給",
+              "定期型で保険料抑え可能",
+              "通常の医療保険と組合せ可",
+              "月額3,000〜8,000円",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=3Z6F6O+1YZZGQ+38BE+5YRHE",
+          },
+          {
+            name: "SOMPOひまわり生命 介護一時金",
+            rank: 3,
+            highlight: "シンプル一時金型｜終身保障",
+            features: [
+              "要介護2以上で一時金300万円",
+              "終身型で加入時の保険料が一生変わらない",
+              "年金型との選択可",
+              "月額4,000〜12,000円",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=3Z6F6O+1YZZGQ+38BE+5YRHE",
+          },
+          {
+            name: "東京海上日動あんしん生命",
+            rank: 4,
+            highlight: "認知症特化型も｜多様な商品ラインナップ",
+            features: [
+              "認知症特化型プランあり",
+              "要介護2以上で一時金＋年金",
+              "三井住友銀行等のメガバンク提携",
+              "月額4,000〜10,000円",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=3Z6F6O+1YZZGQ+38BE+5YRHE",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">公的介護保険と民間介護保険の違い</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>公的</strong>：40歳以上全員加入、保険料月5,000〜6,000円程度、現物給付（介護サービス利用）</li>
+          <li><strong>民間</strong>：任意加入、保険料月3,000〜10,000円、現金給付（一時金・年金）</li>
+          <li><strong>給付開始</strong>：公的は要介護1〜5の認定、民間は要介護2〜3以上が主流</li>
+          <li><strong>使える範囲</strong>：公的はサービス限定、民間は生活費・施設入居費等自由</li>
+          <li><strong>両者併用がベスト</strong>：公的＋民間で老後の安心をダブルで確保</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="介護保険の見直しもFPで｜保険見直しラボ"
+        description="民間介護保険は40〜50代から加入するのが理想。FP無料相談で家族構成・預貯金に合わせた必要保障額を試算、30社以上から中立的に提案可能。"
+        buttonText="保険見直しラボに無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=3Z6F6O+1YZZGQ+38BE+5YRHE"
+        icon="🛡️"
+        highlight="相談料完全無料"
+      />
+    </>
+  ),
+  "income-protection-insurance-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">所得補償保険は「働けない」リスクの備え</h2>
+        <p>
+          病気・ケガで長期間働けなくなると、会社員の傷病手当金（最長1年6ヶ月、月給の2/3）・自営業はそれすらなく収入ゼロに。所得補償保険に加入すれば、月10〜50万円の給付を最長65歳まで受け取れます。月額保険料2,000〜8,000円で、経済的死亡リスクをカバー可能です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="2026年 所得補償保険おすすめ比較"
+        services={[
+          {
+            name: "SBI損保 就業不能保険",
+            rank: 1,
+            highlight: "月額1,500円〜｜ネット専業で格安",
+            features: [
+              "月給付金10〜50万円から選択可能",
+              "支払期間1年・2年・5年・60歳/65歳まで",
+              "精神疾患も対象",
+              "Web申込で保険料割引",
+            ],
+            href: "https://www.sbisonpo.co.jp/",
+            badge: "最安水準",
+          },
+          {
+            name: "チューリッヒ生命 くらすプラス",
+            rank: 2,
+            highlight: "ストレス性疾病対応｜月額2,500円〜",
+            features: [
+              "うつ病等のストレス性疾病も対象",
+              "月給付金10〜30万円",
+              "60日免責期間後から給付",
+              "Web申込で保険料割引",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=3Z6F6O+1YZZGQ+38BE+5YRHE",
+          },
+          {
+            name: "アクサダイレクト生命 就業不能保険",
+            rank: 3,
+            highlight: "アクサグループ｜ネット完結",
+            features: [
+              "月給付金10〜50万円",
+              "支払期間60歳/65歳まで",
+              "インターネット完結で保険料抑え",
+              "精神疾患も5年間保障",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=3Z6F6O+1YZZGQ+38BE+5YRHE",
+          },
+          {
+            name: "ライフネット生命 働く人の保険3",
+            rank: 4,
+            highlight: "シンプル設計｜Web完結",
+            features: [
+              "月給付金10〜50万円のシンプル設計",
+              "支払期間55歳/60歳/65歳まで",
+              "60日免責期間後",
+              "ネット完結で保険料抑え",
+            ],
+            href: "https://www.lifenet-seimei.co.jp/",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">会社員 vs 自営業の所得補償の必要性</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>会社員</strong>：傷病手当金（月給の2/3、最長1年6ヶ月）＋貯蓄で半年〜1年は生活可</li>
+          <li><strong>自営業</strong>：傷病手当金なし、即収入ゼロ。所得補償保険は必須レベル</li>
+          <li><strong>共働き会社員</strong>：配偶者収入でカバー可能なら必要性低め</li>
+          <li><strong>子育て世帯</strong>：夫婦とも必須（世帯収入の維持が重要）</li>
+          <li><strong>賃貸 vs 持ち家</strong>：住宅ローンがあるなら必須（団信と合わせて備え）</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="所得補償保険もFPに相談｜保険見直しラボ"
+        description="自営業・フリーランスは特に所得補償保険が必須。家族構成・収入・貯蓄状況からの必要保障額をFPが無料で計算、最適プランを中立的に提案。"
+        buttonText="保険見直しラボに無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=3Z6F6O+1YZZGQ+38BE+5YRHE"
+        icon="🛡️"
+        highlight="相談料完全無料"
+      />
+    </>
+  ),
+  "travel-insurance-comparison": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">海外旅行保険の必要性</h2>
+        <p>
+          海外での医療費は日本の10〜50倍。米国で虫垂炎の手術なら300万円超、高度医療なら1,000万円を超えるケースも。海外旅行保険に加入すれば、治療費・救援者費用・携行品損害・賠償責任まで広くカバー。1週間の保険料は1,500〜5,000円程度で、絶対必須の備えです。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="2026年 海外旅行保険おすすめ比較"
+        services={[
+          {
+            name: "AIG損保 海外旅行保険",
+            rank: 1,
+            highlight: "24時間多言語サポート｜海外拠点豊富",
+            features: [
+              "世界190カ国での医療機関ネットワーク",
+              "24時間日本語サポート",
+              "キャッシュレス医療対応多数",
+              "1週間1,500〜3,500円",
+            ],
+            href: "https://travel.aig.co.jp/pa/",
+            badge: "業界最大手",
+          },
+          {
+            name: "損保ジャパン 新・海外旅行保険off!",
+            rank: 2,
+            highlight: "パッケージプランがシンプル",
+            features: [
+              "目的別のパッケージプランで選びやすい",
+              "治療・救援者費用無制限プラン",
+              "スマホから即日加入可能",
+              "1週間2,000〜5,000円",
+            ],
+            href: "https://www.sjnk.co.jp/",
+          },
+          {
+            name: "東京海上日動 海外旅行保険",
+            rank: 3,
+            highlight: "国内最大手の信頼感｜補償手厚い",
+            features: [
+              "国内保険業界最大手",
+              "世界中の提携病院でキャッシュレス治療",
+              "弁護士費用特約も選択可",
+              "1週間2,500〜5,500円",
+            ],
+            href: "https://www.tokiomarine-nichido.co.jp/",
+          },
+          {
+            name: "tabiho/t@biho（旅行ホ）",
+            rank: 4,
+            highlight: "Web専業｜格安プランが人気",
+            features: [
+              "ネット申込で保険料抑え",
+              "最短即日の申込可能",
+              "項目別の自由設計",
+              "1週間1,200〜3,000円",
+            ],
+            href: "https://www.t-hoken.co.jp/",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">クレカ付帯 vs 単体加入</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>クレカ付帯</strong>：年会費無料カードでも治療費100〜200万円程度カバー</li>
+          <li><strong>ゴールドカード</strong>：治療費300〜500万円、家族特約ありも</li>
+          <li><strong>単体加入</strong>：治療費無制限、より手厚い補償＋携行品・賠償責任</li>
+          <li><strong>推奨組合せ</strong>：クレカ付帯＋単体加入（足りない部分補完）</li>
+          <li><strong>長期滞在（30日超）</strong>：単体加入が必須</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="海外旅行用のクレカも選択肢｜楽天プレミアムカード"
+        description="楽天プレミアムカード（年11,000円）なら、プライオリティパス無料・海外旅行保険最大5,000万円補償付き。年2〜3回の海外旅行で元が取れる定番カード。"
+        buttonText="楽天プレミアムカード"
+        href="https://www.rakuten-card.co.jp/card/rakuten-premium-card/"
+        icon="💳"
+        highlight="海外旅行特化"
+      />
+    </>
+  ),
+  "bike-insurance-comparison": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">バイク保険は任意保険が必須</h2>
+        <p>
+          バイクで公道を走るには自賠責保険（強制）が必要ですが、自賠責は人身事故の対人賠償のみ（最大3,000万円）で対物・自損・搭乗者はカバーされません。任意保険に加入すれば、対物賠償無制限・人身傷害・車両保険まで総合的に備えられ、事故時の経済的負担を大幅軽減できます。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="2026年 バイク任意保険おすすめ比較"
+        services={[
+          {
+            name: "アクサダイレクト バイク保険",
+            rank: 1,
+            highlight: "ネット専業｜保険料業界最安水準",
+            features: [
+              "対人・対物賠償無制限",
+              "ロードサービス付帯",
+              "ネット割最大20,000円",
+              "年間保険料 原付1万円台〜",
+            ],
+            href: "https://www.axa-direct.co.jp/bike/",
+            badge: "最安水準",
+          },
+          {
+            name: "チューリッヒ バイク保険",
+            rank: 2,
+            highlight: "弁護士費用特約あり｜手厚い補償",
+            features: [
+              "弁護士費用特約基本セット",
+              "搭乗者傷害・人身傷害充実",
+              "レッカー無料150km",
+              "年間保険料 1万2千円〜",
+            ],
+            href: "https://www.zurich.co.jp/",
+          },
+          {
+            name: "三井ダイレクト バイク保険",
+            rank: 3,
+            highlight: "三井住友海上系｜大手の安心感",
+            features: [
+              "三井住友海上グループ",
+              "事故対応満足度業界上位",
+              "最大2万円のネット割",
+              "年間保険料 1万2千円〜",
+            ],
+            href: "https://www.mitsui-direct.co.jp/",
+          },
+          {
+            name: "AIG損保 バイク保険",
+            rank: 4,
+            highlight: "海外展開の信頼感｜付帯サービス豊富",
+            features: [
+              "AIGグループの世界的ネットワーク",
+              "ロードサービス・カーレスキュー充実",
+              "全車種対応（大型バイク含む）",
+              "年間保険料 1万5千円〜",
+            ],
+            href: "https://www.aig.co.jp/",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">バイク保険選びの5つのポイント</h2>
+        <ol className="list-decimal list-inside space-y-2 text-sm">
+          <li><strong>対人・対物賠償無制限</strong>：絶対必須、上限設定はNG</li>
+          <li><strong>人身傷害補償</strong>：単独事故でも自分のケガをカバー</li>
+          <li><strong>車両保険</strong>：新車3年以内は加入推奨、10年超は貯蓄カバーでOK</li>
+          <li><strong>弁護士費用特約</strong>：年1,500〜3,000円で示談交渉を有利に</li>
+          <li><strong>ロードサービス</strong>：レッカー無料km数が重要</li>
+        </ol>
+      </section>
+      <AffiliateCTA
+        title="自動車保険と合わせて見直し｜保険見直しラボ"
+        description="バイクと自動車の両方持ちなら、合わせて見直すことで年5〜10万円の削減も可能。FP無料相談で家計全体の保険を最適化。"
+        buttonText="保険見直しラボに無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=3Z6F6O+1YZZGQ+38BE+5YRHE"
+        icon="🛡️"
+        highlight="相談料完全無料"
+      />
+    </>
+  ),
+  "family-trust-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">家族信託とは？成年後見制度との違い</h2>
+        <p>
+          家族信託は、親（委託者）が自分の財産を子（受託者）に託して管理してもらう制度。認知症になる前に設定することで、親が認知症になっても子が財産を運用・処分でき、成年後見制度の厳格な制約（裁判所の許可必須）を回避できます。2006年施行の比較的新しい制度で、近年急速に普及中です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="家族信託 vs 成年後見制度 vs 遺言"
+        services={[
+          {
+            name: "家族信託",
+            rank: 1,
+            highlight: "認知症対策＋相続対策｜柔軟性高い",
+            features: [
+              "認知症発症前に設定、以降も財産管理継続",
+              "不動産の売却・リフォーム・運用を子が代行可",
+              "資産承継の指定も可能（受益者連続型）",
+              "設定費用30〜100万円（司法書士・弁護士）",
+            ],
+            href: "https://www.bengo4.com/",
+            badge: "最有力",
+          },
+          {
+            name: "成年後見制度",
+            rank: 2,
+            highlight: "認知症後でも可｜制約大きい",
+            features: [
+              "認知症発症後の唯一の選択肢",
+              "後見人は裁判所選任、家族がなれないこと多い",
+              "不動産売却等は家裁の許可必須",
+              "月2〜6万円の後見人報酬が発生",
+            ],
+            href: "https://www.bengo4.com/",
+          },
+          {
+            name: "遺言",
+            rank: 3,
+            highlight: "相続時の財産配分指定",
+            features: [
+              "死後の財産配分を明確化",
+              "認知症対策にはならない",
+              "公正証書遺言5〜10万円",
+              "家族信託と併用が王道",
+            ],
+            href: "https://www.bengo4.com/",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">家族信託が必要なケース</h2>
+        <ol className="list-decimal list-inside space-y-2 text-sm">
+          <li><strong>親が高齢（70代〜）で認知症リスクあり</strong></li>
+          <li><strong>親名義の不動産があり、将来の売却を見据える</strong></li>
+          <li><strong>子が海外在住等で成年後見制度が使いにくい</strong></li>
+          <li><strong>障害のある子の将来の生活を保障したい</strong></li>
+          <li><strong>事業承継を円滑に進めたい</strong></li>
+        </ol>
+      </section>
+      <AffiliateCTA
+        title="家族信託の設定は専門家に｜弁護士ドットコム"
+        description="家族信託は司法書士・弁護士への依頼費用30〜100万円。弁護士ドットコムで家族信託に強い専門家を無料検索、複数事務所の比較相談も可能。"
+        buttonText="弁護士ドットコムで検索"
+        href="https://www.bengo4.com/"
+        icon="⚖️"
+        highlight="家族信託対応"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">家族信託の注意点</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>受託者（子）が信頼できる家族であることが前提</li>
+          <li>設定後の変更は難しい（事前設計が重要）</li>
+          <li>税務面の優遇はなし（相続税は通常通り）</li>
+          <li>金融機関の取扱実績あり（信託銀行が有利）</li>
+          <li>不動産に抵当権があると制約あり</li>
+        </ul>
+      </section>
+    </>
+  ),
 };
