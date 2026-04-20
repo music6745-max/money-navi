@@ -18609,4 +18609,489 @@ const guideContents: Record<string, React.ReactNode> = {
       />
     </>
   ),
+  "roboadvisor-detailed-comparison": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">ロボアドバイザー詳細比較</h2>
+        <p>
+          ロボアドバイザーは、AIが最適な国際分散ポートフォリオを自動構築・運用する投資サービス。ウェルスナビ・THEO・ON COMPASSの3大ロボアドが主要選択肢。手数料年1%前後、最低投資額1万円〜、税金最適化（DeTAX機能）搭載。過去10年のリターン年率5〜8%、新NISA対応も進展中。自分で運用する時間がない人、投資初心者向けの強力な選択肢です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="ロボアドバイザー主要3社比較"
+        services={[
+          {
+            name: "ウェルスナビ（WealthNavi）",
+            rank: 1,
+            highlight: "預かり資産業界No.1｜1.2兆円",
+            features: [
+              "預かり資産1.2兆円（業界最大）",
+              "手数料1.1%（3000万円超で0.55%）",
+              "DeTAX（税金最適化）搭載",
+              "新NISA対応",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "業界No.1",
+          },
+          {
+            name: "THEO（テオ）",
+            rank: 2,
+            highlight: "docomo連携｜ポイント還元",
+            features: [
+              "手数料1.1%（5000万超で0.55%）",
+              "ドコモユーザーはdポイント還元",
+              "最低1万円から",
+              "年次リバランス",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "ON COMPASS（マネックス系）",
+            rank: 3,
+            highlight: "マネックス証券で口座連携",
+            features: [
+              "手数料年0.9825%（業界最安級）",
+              "マネックス証券で口座連携",
+              "米国大型株メインの運用",
+              "最低1000円から",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">ロボアドvs自分で運用どっち？</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>ロボアド：手数料1%高いが完全お任せ、時間節約</li>
+          <li>自分で運用：手数料0.1%以下、年1回リバランスで十分</li>
+          <li>資産3000万円以上：自分で運用（手数料差が年30万円以上）</li>
+          <li>資産100万円以下：ロボアドで学びながら運用</li>
+          <li>両立も可能：ロボアド＋新NISAで王道分散</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="自分で運用するならSBI証券で｜手数料最安"
+        description="ロボアドの手数料1%を払うのがもったいない方はSBI証券で自分で運用。eMAXIS Slim等の低コストインデックスで、年0.1%以下の信託報酬＋新NISA成長枠で非課税。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="🤖"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "crypto-beginner-mistakes-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">暗号資産初心者が陥る10の失敗</h2>
+        <p>
+          暗号資産市場は2009年のBitcoin誕生以降、1000倍超の値動きを繰り返す高ボラ市場。初心者の約80%が1年以内に損失・退場すると言われる。FOMO（取り残される恐怖）でピーク買い、レバレッジ乱用、詐欺コイン購入、秘密鍵紛失、税金未申告など、典型的な10の失敗を事例と共に解説。失敗を事前に学ぶことで、長期的な資産形成が可能になります。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">初心者の典型的な10の失敗</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>①FOMO買い</strong>：値上がり中に焦って高値掴み</li>
+          <li><strong>②レバレッジ乱用</strong>：10倍以上のレバレッジで即退場</li>
+          <li><strong>③詐欺コイン投資</strong>：「1日で100倍」等の甘言に乗る</li>
+          <li><strong>④秘密鍵紛失</strong>：ハードウェアウォレットなし、取引所依存</li>
+          <li><strong>⑤フィッシング被害</strong>：偽サイトへのアクセスで資産流出</li>
+          <li><strong>⑥税金未申告</strong>：年間利益20万超で申告義務、追徴課税リスク</li>
+          <li><strong>⑦暴落時の狼狽売り</strong>：20%下落で損切り、その後反発を逃す</li>
+          <li><strong>⑧過剰な分散</strong>：100銘柄以上に分散して管理不能</li>
+          <li><strong>⑨証拠金維持率を見ない</strong>：強制ロスカットで資産ゼロ</li>
+          <li><strong>⑩ポジション管理甘い</strong>：総資産の50%以上を投入</li>
+        </ul>
+      </section>
+      <ComparisonTableCTA
+        title="暗号資産の安全な始め方"
+        services={[
+          {
+            name: "SBI VCトレード（SBIグループ）",
+            rank: 1,
+            highlight: "証券会社の安心感｜日本規制対応",
+            features: [
+              "SBIグループで信頼性最高",
+              "日本金融庁の規制対応",
+              "ビットコイン・イーサリアム等",
+              "初心者向けUI",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "業界No.1",
+          },
+          {
+            name: "保険マンモス（リスク管理相談）",
+            rank: 2,
+            highlight: "税制・投資計画の相談",
+            features: [
+              "暗号資産を含む資産運用相談",
+              "税金申告サポート",
+              "リスク許容度診断",
+              "完全無料相談",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+            badge: "EPC 31.06",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">初心者向け5つの鉄則</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>総資産の5%以内に抑える</li>
+          <li>ビットコイン70%＋イーサリアム20%＋他10%のコア配分</li>
+          <li>レバレッジ厳禁（最初1年は現物のみ）</li>
+          <li>ドルコスト平均法で月1〜5万円の積立</li>
+          <li>100万円超ならハードウェアウォレットに移管</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="暗号資産は大手取引所で｜SBI VCトレードが安心"
+        description="暗号資産取引はSBI VCトレードでスタート。SBIグループの安心感、日本規制対応、初心者向けUI、ビットコイン・イーサリアム等主要コインを取扱。100円から始められます。"
+        buttonText="SBI VCトレードの詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="⚠️"
+        highlight="安全性No.1"
+      />
+    </>
+  ),
+  "vietnam-stock-investment-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">ベトナム株投資完全ガイド</h2>
+        <p>
+          ベトナムは人口1億人・GDP成長率7%の東南アジア成長エース。中国＋1政策の恩恵で製造業拠点拡大、若年層比率高・FDI流入でフロンティア市場として注目。VNM ETF（Market Vectors Vietnam）・VN指数連動ETFでベトナム全体に分散投資可能。ドン為替・流動性リスクを意識し、ポートフォリオの3〜5%配分が推奨されます。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="ベトナム株投資の主要商品"
+        services={[
+          {
+            name: "VNM（Market Vectors Vietnam ETF）",
+            rank: 1,
+            highlight: "ベトナム株全体に分散",
+            features: [
+              "ベトナム主要50銘柄",
+              "Vinamilk・VinGroup・FPT等",
+              "信託報酬0.66%",
+              "米国上場で買いやすい",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "王道",
+          },
+          {
+            name: "SBI証券（ベトナム株個別株）",
+            rank: 2,
+            highlight: "日本の証券会社で唯一対応",
+            features: [
+              "日本の証券会社唯一のベトナム株取扱",
+              "VinGroup・Vinamilk等の個別株",
+              "手数料2.2%（最低1200円）",
+              "為替は円→ドン直接",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "業界唯一",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">ベトナム投資の3つの追い風</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>①人口ボーナス</strong>：1億人・平均年齢32歳</li>
+          <li><strong>②製造業拡大</strong>：中国＋1政策でFDI急増</li>
+          <li><strong>③内需拡大</strong>：中間層急成長、消費・不動産拡大</li>
+          <li>GDP成長率7%、先進国比2倍以上</li>
+          <li>過去10年リターン年率8〜12%、ボラ高め</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="ベトナム株はSBI証券で｜日本で唯一対応"
+        description="SBI証券は日本の証券会社で唯一ベトナム株個別株を取扱。VinGroup・Vinamilk・FPT等のベトナム主要企業に円建てで直接投資可能。VNM ETFも米国市場経由で購入OK。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="🇻🇳"
+        highlight="業界唯一"
+      />
+    </>
+  ),
+  "dividend-reinvestment-strategy": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">配当再投資完全戦略｜DRIP活用</h2>
+        <p>
+          配当再投資（DRIP：Dividend Reinvestment Plan）は、受取配当を自動or手動で同銘柄に再投資する強力な複利戦略。30年保有で元本の10倍超、配当込みトータルリターンが株価上昇だけの2〜3倍に達する実績あり。SBI証券・楽天証券・マネックス証券で自動再投資機能、新NISA成長枠で非課税再投資など、税効率最大化の実践法を解説します。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">配当再投資の複利効果</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>元本1000万円・利回り4%・年5%値上がり×30年</li>
+          <li>配当受取だけ：累計配当3,000万円＋元本4,322万円＝7,322万円</li>
+          <li>配当再投資：累計10,063万円（+2,741万円の差）</li>
+          <li>40年保有なら差は8,000万円超に拡大</li>
+          <li>S&P500過去100年リターンの約1/3は配当再投資由来</li>
+        </ul>
+      </section>
+      <ComparisonTableCTA
+        title="配当再投資に対応する証券会社"
+        services={[
+          {
+            name: "SBI証券（自動・手動両対応）",
+            rank: 1,
+            highlight: "米国株DRIP自動対応",
+            features: [
+              "米国株の自動再投資可能",
+              "新NISAで非課税再投資",
+              "投信の分配金再投資自動",
+              "手数料無料",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "業界No.1",
+          },
+          {
+            name: "松井証券（手動再投資メイン）",
+            rank: 2,
+            highlight: "シンプル運用で手動向け",
+            features: [
+              "配当を手動で再投資",
+              "50万以下の取引手数料無料",
+              "新NISA対応",
+              "顧客サポート充実",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1O+G6VESA+3XCC+6AZAQ",
+            badge: "1,000円/件",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">配当再投資の3つの戦略</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>①同銘柄再投資</strong>：DRIPで自動、長期積立に最適</li>
+          <li><strong>②新NISA枠集中</strong>：配当20.315%を非課税で再投資</li>
+          <li><strong>③ポートフォリオ調整</strong>：配当を割安銘柄に投下、リバランス兼用</li>
+          <li>新NISA成長枠年240万円、配当も枠内なら非課税</li>
+          <li>20代から40年再投資なら元本の20倍超も現実的</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="配当再投資はSBI証券で｜DRIP・新NISA対応"
+        description="SBI証券は米国株DRIP自動対応＋新NISA成長枠で配当非課税再投資。投信分配金の自動再投資も可能、手数料無料で複利効果を最大化、長期資産形成のベストパートナー。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="📈"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "asset-allocation-age-based-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">年代別資産配分戦略</h2>
+        <p>
+          「100−年齢」が株式比率の目安と言われるが、現代の長寿化で「110−年齢」「120−年齢」も推奨されつつある。20代は株式90%＋債券10%、30代は株式85%、50代は株式60%、70代は株式40%など、年代別の最適ポートフォリオを、ライフイベント（結婚・住宅購入・教育費・退職）と連動して設計。新NISA・iDeCo活用の年代別最適解を解説します。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">年代別推奨配分モデル</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>20代</strong>：株式90%＋債券10%（成長重視、長期30年以上）</li>
+          <li><strong>30代</strong>：株式85%＋債券15%（住宅・教育費準備開始）</li>
+          <li><strong>40代</strong>：株式75%＋債券25%（教育費ピーク、老後準備本格化）</li>
+          <li><strong>50代</strong>：株式60%＋債券40%（退職前、リスク抑制）</li>
+          <li><strong>60代</strong>：株式50%＋債券50%（退職直後、資産取崩し開始）</li>
+          <li><strong>70代</strong>：株式40%＋債券60%（年金補填メイン）</li>
+          <li><strong>80代</strong>：株式30%＋債券70%＋現金保有</li>
+        </ul>
+      </section>
+      <ComparisonTableCTA
+        title="年代別おすすめ運用サービス"
+        services={[
+          {
+            name: "SBI証券（全年代対応）",
+            rank: 1,
+            highlight: "新NISA＋iDeCoで年代別最適化",
+            features: [
+              "新NISA年360万円対応",
+              "iDeCo運営管理手数料無料",
+              "低コストインデックス豊富",
+              "年代別モデルポートフォリオ提供",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "業界No.1",
+          },
+          {
+            name: "保険マンモス（FP相談）",
+            rank: 2,
+            highlight: "ライフプラン設計",
+            features: [
+              "年代別資産配分提案",
+              "保険と投資の最適バランス",
+              "相続・教育費計画",
+              "完全無料相談",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+            badge: "EPC 31.06",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">ライフイベント別の調整</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>結婚：夫婦合算で配分、収入状況に応じて株式比率調整</li>
+          <li>住宅購入：頭金確保後に株式比率復元、住宅ローン金利と株式リターン比較</li>
+          <li>教育費：子供0〜18歳は学資保険＋新NISA成長枠で運用</li>
+          <li>退職：一時金受取→5〜10年かけて徐々に債券シフト</li>
+          <li>介護：流動性確保、株式比率30%以下に</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="年代別資産配分の相談は保険マンモスで｜無料FP相談"
+        description="年代・ライフイベントに応じた最適資産配分を保険マンモスで無料相談。経験豊富なFPが保険・投資・税制のバランスを診断、20代から80代まで幅広く対応。"
+        buttonText="保険マンモスで無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM"
+        icon="🎯"
+        highlight="無料相談"
+      />
+    </>
+  ),
+  "sustainable-investing-sri-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">サステナブル投資・SRI完全ガイド</h2>
+        <p>
+          サステナブル投資（SRI：Socially Responsible Investing）は、社会課題解決と投資リターン両立を目指す投資手法。ネガティブスクリーニング（武器・タバコ・化石燃料除外）、ESG統合（環境・社会・ガバナンス評価）、インパクト投資（社会的影響測定）の3分類あり。SPYX・ESGU・SUSL等のSRI ETFで、機関投資家と同等のサステナブル投資が個人でも可能になりました。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="サステナブル投資の主要ETF"
+        services={[
+          {
+            name: "ESGU（iShares ESG 米国）",
+            rank: 1,
+            highlight: "ESGスコア上位米国株｜信託報酬0.15%",
+            features: [
+              "MSCI USA ESGフォーカス指数連動",
+              "300社のESG上位銘柄",
+              "信託報酬0.15%",
+              "S&P500とほぼ同等リターン",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "王道",
+          },
+          {
+            name: "SPYX（SPDR S&P500 化石燃料除外）",
+            rank: 2,
+            highlight: "化石燃料完全除外",
+            features: [
+              "エネルギー株除外のS&P500",
+              "信託報酬0.2%",
+              "450銘柄構成",
+              "クリーンエネルギー時代の指標",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "SUSL（iShares MSCI KLD 400）",
+            rank: 3,
+            highlight: "社会的責任400企業",
+            features: [
+              "社会的責任高い400企業",
+              "信託報酬0.25%",
+              "1990年からの長い歴史",
+              "初期SRIの代表",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">サステナブル投資のリターン</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>過去10年リターン：ESG ETFはS&P500と同等〜+1%</li>
+          <li>リスク：S&P500より低い（ESGスコア高い企業は財務健全）</li>
+          <li>2022年エネルギー高騰で一時的劣位、中長期では挽回</li>
+          <li>機関投資家の資金流入で構造的追い風</li>
+          <li>新NISA成長枠で非課税運用可能</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="サステナブル投資はSBI証券で｜ESGU・SPYX対応"
+        description="SBI証券はサステナブル投資ETF（ESGU・SPYX・SUSL）完備。為替手数料無料（住信SBI連携）、新NISA成長枠で非課税運用、社会貢献と投資リターンの両立を実現。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="🌱"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "global-dividend-aristocrats-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">世界の配当貴族完全ガイド</h2>
+        <p>
+          配当貴族（Dividend Aristocrats）とは、25年以上連続増配を達成したエリート銘柄群。S&P500配当貴族指数（NOBL）・欧州配当貴族ETF（EDIV）・日本連続増配銘柄（花王・KDDI・小林製薬等）、ジョンソン&ジョンソン・コカコーラ・P&G等の王道銘柄を網羅。過去30年でS&P500を上回るリターン＋低ボラの「攻守最強」の投資戦略です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="世界の配当貴族ETF比較"
+        services={[
+          {
+            name: "NOBL（ProShares S&P500配当貴族）",
+            rank: 1,
+            highlight: "25年連続増配の米国エリート",
+            features: [
+              "S&P500配当貴族指数連動",
+              "約65社の連続増配企業",
+              "信託報酬0.35%",
+              "配当利回り2.5%",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "王道",
+          },
+          {
+            name: "REGL（ProShares S&P中型配当貴族）",
+            rank: 2,
+            highlight: "中型株の15年増配企業",
+            features: [
+              "中型株配当貴族",
+              "NOBLより成長性高い",
+              "信託報酬0.40%",
+              "配当利回り2%",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "VIG（Vanguard 配当増加）",
+            rank: 3,
+            highlight: "10年連続増配｜信託報酬最安",
+            features: [
+              "10年以上連続増配",
+              "信託報酬0.06%（最安）",
+              "300社分散",
+              "配当利回り1.8%",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "最安",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">配当貴族の代表銘柄</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>米国：ジョンソン&ジョンソン（JNJ）</strong>：61年連続増配、配当利回り3%</li>
+          <li><strong>米国：コカコーラ（KO）</strong>：61年連続増配、配当利回り3%</li>
+          <li><strong>米国：P&G（PG）</strong>：67年連続増配、配当利回り2.4%</li>
+          <li><strong>日本：花王</strong>：34年連続増配、配当利回り3%</li>
+          <li><strong>日本：KDDI</strong>：22年連続増配、配当利回り3.5%</li>
+          <li><strong>日本：小林製薬</strong>：23年連続増配、配当利回り2%</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="配当貴族投資はSBI証券で｜NOBL・VIG対応"
+        description="SBI証券は配当貴族ETF（NOBL・VIG・REGL）・米国個別株（JNJ・KO・PG等）・日本連続増配銘柄完備。為替手数料無料、新NISA成長枠で非課税、世代を超える安定運用。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="👑"
+        highlight="業界No.1"
+      />
+    </>
+  ),
 };
