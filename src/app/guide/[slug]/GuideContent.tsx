@@ -24465,4 +24465,492 @@ const guideContents: Record<string, React.ReactNode> = {
       />
     </>
   ),
+  "insurance-tax-deduction-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">生命保険料控除完全ガイド</h2>
+        <p>
+          生命保険料控除は、会社員・自営業問わず使える節税制度で、年間最大12万円（新制度）or 10万円（旧制度）の所得控除を受けられます。3種類の枠（一般生命保険・介護医療保険・個人年金保険）を賢く活用することで、年3〜5万円の節税効果が期待できる重要な制度です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="新制度vs旧制度の比較"
+        services={[
+          {
+            name: "新制度（2012年以降契約）",
+            rank: 1,
+            highlight: "3種類で年12万円控除",
+            features: [
+              "一般生命保険：4万円控除",
+              "介護医療保険：4万円控除",
+              "個人年金保険：4万円控除",
+              "合計12万円（所得税）",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+            badge: "王道",
+          },
+          {
+            name: "旧制度（2011年以前契約）",
+            rank: 2,
+            highlight: "2種類で年10万円控除",
+            features: [
+              "一般生命保険：5万円控除",
+              "個人年金保険：5万円控除",
+              "介護医療保険枠なし",
+              "合計10万円（所得税）",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+          },
+          {
+            name: "住民税控除",
+            rank: 3,
+            highlight: "所得税と別枠で控除",
+            features: [
+              "新制度：各2.8万円×3=最大7万円",
+              "旧制度：各3.5万円×2=最大7万円",
+              "所得税控除より控除額少",
+              "自動適用・書類提出不要",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">効率的な契約戦略</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>3枠すべて利用：定期保険（一般）＋医療保険（介護医療）＋個人年金の組合せ</li>
+          <li>共働き夫婦は夫婦それぞれで3枠×2＝年6枠活用（控除額2倍）</li>
+          <li>個人年金枠は「税制適格特約」付きのみ対象（要確認）</li>
+          <li>年8万円超の保険料でも控除上限は各4万円、配分見直しが有効</li>
+          <li>新NISA・iDeCoと併用で総控除額を最大化（年20万円以上可能）</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="保険の見直し相談は保険マンモスで｜無料FP相談"
+        description="保険マンモスは全国のFPが自宅・カフェで無料相談対応。生命保険料控除の3枠フル活用プランや、掛け捨て＋新NISA戦略への転換等、専門家の視点で最適化。相談回数無制限・無理な勧誘なし。"
+        buttonText="保険マンモスで無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM"
+        icon="🛡️"
+        highlight="無料FP相談"
+      />
+    </>
+  ),
+  "personal-pension-insurance-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">個人年金保険vs新NISA｜どっちがお得？</h2>
+        <p>
+          個人年金保険は月数万円積立で60〜70歳から年金形式で受け取る老後資金商品。定額型（予定利率0.3〜0.5%）と変額型（投資信託運用・平均3〜5%）、円建てvs外貨建て（米ドル3〜5%）で大きくリターンが異なります。新NISA（年7〜10%期待）との比較で、個人年金保険は「元本確保」「税制控除」「強制貯蓄」の3大メリットが強みです。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="人気の個人年金保険3社比較"
+        services={[
+          {
+            name: "ソニー生命（変額個人年金）",
+            rank: 1,
+            highlight: "運用実績重視",
+            features: [
+              "投資信託で運用（平均年5〜7%）",
+              "月1万円〜積立可能",
+              "契約者貸付制度あり",
+              "税制適格特約で控除対象",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+            badge: "運用重視",
+          },
+          {
+            name: "明治安田生命（米ドル建て個人年金）",
+            rank: 2,
+            highlight: "外貨で高利回り",
+            features: [
+              "予定利率年3〜5%（米ドルベース）",
+              "為替リスクあり",
+              "10年確定年金or終身年金選択",
+              "契約時手数料あり",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+          },
+          {
+            name: "住友生命（定額個人年金）",
+            rank: 3,
+            highlight: "元本保証重視",
+            features: [
+              "予定利率0.3〜0.5%",
+              "元本割れリスクなし",
+              "税制適格特約で控除対象",
+              "保守派向け",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">新NISAとの併用戦略</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>個人年金保険：月5,000〜15,000円（年4万円控除枠フル活用）</li>
+          <li>新NISA：月5〜10万円（年60〜120万円）でメイン運用</li>
+          <li>iDeCo：月1〜2万円（全額所得控除＋非課税運用）</li>
+          <li>3つ組合せで年収600万円なら年15〜20万円節税可能</li>
+          <li>個人年金は「強制貯蓄＋税制メリット」目的、運用は新NISA・iDeCoメインが合理的</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="個人年金選びは保険マンモスで｜ソニー・明治安田・住友の詳細比較"
+        description="保険マンモスは全国の保険会社40社以上から最適な個人年金プランを提案。運用型・外貨建て・定額型の違いを詳しく解説、新NISA・iDeCoとの併用戦略まで無料で相談可能。"
+        buttonText="保険マンモスで無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM"
+        icon="👵"
+        highlight="無料FP相談"
+      />
+    </>
+  ),
+  "dental-insurance-detail-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">歯科保険＆治療費節約完全ガイド</h2>
+        <p>
+          歯科治療費は公的医療保険の対象と対象外（自由診療）があり、インプラント1本30〜50万円、矯正治療50〜100万円と高額。歯科保険（ライフネット生命・エクセルエイド等）で費用の一部カバー、医療費控除の活用、デンタルローンの活用等、賢く負担を減らす戦略を解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="歯科治療費の節約手段"
+        services={[
+          {
+            name: "歯科保険（民間）",
+            rank: 1,
+            highlight: "月1,000〜3,000円で備える",
+            features: [
+              "ライフネット生命・エクセルエイド",
+              "虫歯・歯周病・インプラント対応",
+              "年間10〜50万円の給付金",
+              "待機期間90日〜1年",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+            badge: "実用",
+          },
+          {
+            name: "医療費控除の活用",
+            rank: 2,
+            highlight: "年10万円超で税金還付",
+            features: [
+              "年間医療費-10万円が控除額",
+              "家族全員分合算可",
+              "通院交通費も対象",
+              "確定申告で実施",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+          },
+          {
+            name: "デンタルローン",
+            rank: 3,
+            highlight: "自由診療の分割払い",
+            features: [
+              "金利2〜5%（クレカより安い）",
+              "最長84回払い",
+              "高額治療でも月々3〜5万円に",
+              "アプラス・ジャックス等",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">主要治療の費用目安</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>虫歯治療（保険適用）：1回1,500〜3,000円、合計5,000〜10,000円</li>
+          <li>根管治療（保険適用）：3〜5回通院で5,000〜15,000円</li>
+          <li>セラミッククラウン（自由診療）：1本8〜15万円</li>
+          <li>インプラント（自由診療）：1本30〜50万円</li>
+          <li>矯正治療（自由診療）：50〜100万円（ワイヤー・マウスピース）</li>
+          <li>ホワイトニング：オフィス3〜5万円、ホーム1〜3万円</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="歯科保険は保険マンモスで｜複数社から最適プラン提案"
+        description="保険マンモスは歯科保険を扱う複数社から比較提案。ライフネット生命・エクセルエイド等の違い、インプラント・矯正カバー範囲、月額保険料（1,000〜3,000円）を無料で分かりやすく解説。"
+        buttonText="保険マンモスで無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM"
+        icon="🦷"
+        highlight="無料FP相談"
+      />
+    </>
+  ),
+  "disability-insurance-detail-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">就業不能保険完全比較</h2>
+        <p>
+          就業不能保険・所得補償保険は、病気・ケガで働けなくなった時に月給の代替として給付金を受け取れる保険です。月10〜30万円の給付額、免責期間60日〜180日、精神疾患対応の有無で各社大きく異なります。住宅ローン＋子育て世帯では重要な保険、年10〜30万円の保険料で将来の生活不安を解消できます。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="就業不能保険の主要3社比較"
+        services={[
+          {
+            name: "ライフネット生命（働く人への保険3）",
+            rank: 1,
+            highlight: "精神疾患対応・シンプル",
+            features: [
+              "月10〜50万円の給付額",
+              "精神疾患も給付対象",
+              "免責期間60日",
+              "月保険料3,000〜10,000円",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+            badge: "総合1位",
+          },
+          {
+            name: "アクサダイレクト生命",
+            rank: 2,
+            highlight: "シンプルでわかりやすい",
+            features: [
+              "月10〜30万円の給付額",
+              "精神疾患対応あり",
+              "免責期間180日",
+              "月保険料2,000〜8,000円",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+          },
+          {
+            name: "SBI生命",
+            rank: 3,
+            highlight: "安さ重視",
+            features: [
+              "月10〜20万円の給付額",
+              "精神疾患は5年後から",
+              "免責期間60日",
+              "月保険料1,500〜5,000円",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">加入判断のポイント</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>住宅ローン契約者：就業不能で返済困難→必要性高い</li>
+          <li>子育て世帯：教育費継続確保のため必要</li>
+          <li>自営業・フリーランス：傷病手当金なしのため特に重要</li>
+          <li>共働き・貯蓄1000万円超：必要性低め、NISA＋貯金で十分</li>
+          <li>会社員は傷病手当金（月給の2/3・最大1年6ヶ月）＋貯蓄でカバー可能</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="就業不能保険選びは保険マンモスで｜3社比較提案"
+        description="保険マンモスはライフネット・アクサダイレクト・SBI生命の就業不能保険を比較提案。精神疾患対応・免責期間・保険料の違いを詳しく解説、住宅ローン世帯・自営業の方の最適プランを無料相談。"
+        buttonText="保険マンモスで無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM"
+        icon="♿"
+        highlight="無料FP相談"
+      />
+    </>
+  ),
+  "whole-life-insurance-use-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">終身保険の活用法完全ガイド</h2>
+        <p>
+          終身保険は死亡時に必ず保険金が支払われる保険で、相続税対策・貯蓄性・解約返戻金の3つの目的で活用されます。非課税枠500万円×法定相続人数、ドル建て終身保険の高利回り（4〜5%）、低解約返戻金型の解約返戻金200%超等、賢く使えば強力な資産形成・承継ツールになります。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="終身保険の3大活用法"
+        services={[
+          {
+            name: "相続税対策",
+            rank: 1,
+            highlight: "非課税枠最大活用",
+            features: [
+              "500万円×法定相続人数が非課税",
+              "妻+子2人なら1500万円非課税",
+              "現金よりも相続税削減効果大",
+              "高所得者・富裕層の必須戦略",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+            badge: "王道",
+          },
+          {
+            name: "ドル建て終身保険（貯蓄性）",
+            rank: 2,
+            highlight: "利回り4〜5%で運用",
+            features: [
+              "米ドルベースで予定利率高",
+              "10年後に110〜120%の返戻金",
+              "為替リスクあり",
+              "メットライフ・プルデンシャル等",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+          },
+          {
+            name: "低解約返戻金型（長期貯蓄）",
+            rank: 3,
+            highlight: "払込満了後200%超",
+            features: [
+              "60歳払込満了で200%返戻",
+              "子供の大学資金・老後資金",
+              "途中解約は70%以下で不利",
+              "保険料割安",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">新NISA時代の終身保険の位置付け</h2>
+        <p className="text-sm">
+          新NISA（年8〜10%期待）とドル建て終身保険（年4〜5%）を比較すると、純粋な資産形成はNISAが有利。ただし終身保険は「死亡時に必ず保険金が出る」「相続税非課税枠の活用」「強制貯蓄（中途解約しにくい）」の3要素で補完的な役割を果たします。年収1000万円超・相続税対策が必要な世帯では併用が合理的です。
+        </p>
+      </section>
+      <AffiliateCTA
+        title="終身保険の活用法は保険マンモスで｜相続税対策にも"
+        description="保険マンモスは全国のFPが終身保険・相続税対策・ドル建て商品を詳しく解説。非課税枠フル活用・低解約返戻金型・ドル建ての違い、新NISAとの最適組合せを無料で相談可能。富裕層の資産承継対策に。"
+        buttonText="保険マンモスで無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM"
+        icon="💰"
+        highlight="無料FP相談"
+      />
+    </>
+  ),
+  "insurance-receipt-tax-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">保険金受取の税金完全ガイド</h2>
+        <p>
+          保険金受取時の税金は、契約者・被保険者・受取人の関係によって3パターン（所得税・相続税・贈与税）に分かれます。最も有利なのは相続税（非課税枠500万円×法定相続人）、最も不利なのは贈与税（超過累進税率最大55%）。契約設計次第で税額が10倍以上変わるため、保険契約時の名義選択が極めて重要です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="保険金の3つの課税パターン"
+        services={[
+          {
+            name: "相続税（推奨）",
+            rank: 1,
+            highlight: "非課税枠あり・最有利",
+            features: [
+              "契約者=被保険者、受取人=配偶者or子",
+              "500万円×法定相続人分が非課税",
+              "妻+子2人なら1500万円非課税",
+              "基礎控除3000万円+600万円×相続人",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+            badge: "最有利",
+          },
+          {
+            name: "所得税（一時所得）",
+            rank: 2,
+            highlight: "50万円控除・1/2課税",
+            features: [
+              "契約者=受取人、被保険者=別",
+              "（保険金-支払保険料-50万円）×1/2が課税",
+              "満期保険金・解約返戻金が対象",
+              "累進税率5〜45%",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+          },
+          {
+            name: "贈与税（最不利）",
+            rank: 3,
+            highlight: "避けるべき契約形態",
+            features: [
+              "契約者・被保険者・受取人が全員別",
+              "基礎控除110万円のみ",
+              "累進税率10〜55%で最も重い",
+              "契約時に避けるべき組合せ",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">節税最適化の契約例</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>相続税対策：契約者＋被保険者=夫、受取人=妻・子（相続税・非課税枠適用）</li>
+          <li>学資保険：契約者=親、被保険者=子、受取人=親（所得税・一時所得＋50万円控除）</li>
+          <li>NG例：契約者=夫、被保険者=妻、受取人=子（贈与税で最大55%課税）</li>
+          <li>満期保険金受取時は所得税が基本、累進税率で節税戦略も可能</li>
+          <li>契約見直し（名義変更）で相続税 → 所得税への変更も可能</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="保険契約の税金最適化は保険マンモスで｜プロFPが無料相談"
+        description="保険マンモスは保険金の税金（相続税・所得税・贈与税）の違いと、最適な契約形態を無料で詳しく解説。現在の契約見直し・新規契約時の名義選択アドバイスで、将来の税額を10倍以上の差で最適化。"
+        buttonText="保険マンモスで無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM"
+        icon="📜"
+        highlight="無料FP相談"
+      />
+    </>
+  ),
+  "insurance-vs-investment-comparison": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">保険vs投資｜掛け捨て＋新NISAが最強な理由</h2>
+        <p>
+          貯蓄型保険（年1〜3%）と新NISA（年7〜10%期待）を30年間シミュレーションすると、新NISAが圧倒的に有利。保険は必要最小限の掛け捨て（死亡・医療）で、浮いた保険料を新NISAに回す「掛け捨て＋NISA」戦略が、最新の資産形成の定石。30年で1000万円以上の差が出ます。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="30年運用の比較（月3万円）"
+        services={[
+          {
+            name: "新NISA（年7%想定）",
+            rank: 1,
+            highlight: "30年で3,657万円",
+            features: [
+              "全世界株式インデックスで運用",
+              "30年で3,657万円（元本1,080万円）",
+              "売買益・配当非課税",
+              "柔軟な引出し可能",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "最有利",
+          },
+          {
+            name: "変額個人年金（年5%想定）",
+            rank: 2,
+            highlight: "30年で2,498万円",
+            features: [
+              "投資信託で運用",
+              "30年で2,498万円",
+              "個人年金保険料控除4万円",
+              "手数料で実質-1%",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+          },
+          {
+            name: "定額終身保険（年1%想定）",
+            rank: 3,
+            highlight: "30年で1,258万円",
+            features: [
+              "元本保証型",
+              "30年で1,258万円",
+              "一般生命保険料控除4万円",
+              "リターン極めて低い",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">最適戦略</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>掛け捨て死亡保険：月2,000〜3,000円（ライフネット生命・月3000円で3000万円保障）</li>
+          <li>掛け捨て医療保険：月2,000〜3,000円（必要最小限、または貯蓄でカバー）</li>
+          <li>新NISA：月3〜5万円で全世界株インデックス積立</li>
+          <li>iDeCo：月1〜2万円で所得控除＋非課税運用</li>
+          <li>個人年金保険：月5,000円程度（年4万円控除枠活用のみ）</li>
+          <li>30年後には資産5,000万円＋遺族保障3,000万円の鉄壁構成</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="保険の見直しは保険マンモスで｜掛け捨て＋NISA戦略"
+        description="保険マンモスは貯蓄型保険から掛け捨て＋新NISA戦略への転換を無料でコンサル。現在の保険料・保障内容を分析、月2〜5万円の余剰を新NISAに回す最適設計で30年後の資産3,000〜5,000万円増を実現。"
+        buttonText="保険マンモスで無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM"
+        icon="⚖️"
+        highlight="無料FP相談"
+      />
+    </>
+  ),
 };
