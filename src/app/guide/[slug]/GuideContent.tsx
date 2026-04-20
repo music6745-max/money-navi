@@ -14093,4 +14093,530 @@ const guideContents: Record<string, React.ReactNode> = {
       </section>
     </>
   ),
+  "luxury-watch-investment-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">高級時計投資の概要</h2>
+        <p>
+          高級時計投資は、ロレックス・パテックフィリップ・オーデマピゲ等の投資グレード時計を購入し、価格上昇で利益を得る投資手法。人気モデル（ロレックス デイトナ・パテック ノーチラス等）は定価の2〜5倍のプレミアム価格で取引され、年10〜30%のリターンも可能。ただし相場変動と偽物リスクに注意。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="投資価値のある高級時計ブランド"
+        services={[
+          {
+            name: "ロレックス（Rolex）",
+            rank: 1,
+            highlight: "デイトナ・サブマリーナー｜投資時計No.1",
+            features: [
+              "デイトナ：定価170万円→プレミア400〜600万円",
+              "サブマリーナー・GMTマスターも人気",
+              "世界中で流動性高く、売却しやすい",
+              "定価購入は抽選・長い順番待ち",
+            ],
+            href: "https://nanboya.com/",
+            badge: "王道",
+          },
+          {
+            name: "パテックフィリップ",
+            rank: 2,
+            highlight: "ノーチラス5711｜定価300万→1,500万円",
+            features: [
+              "ノーチラス・アクアノート等のスポーツモデル",
+              "ヴィンテージ・コンプリケーションは数千万〜",
+              "世界三大時計メーカーの最高峰",
+              "オークションで取引が活発",
+            ],
+            href: "https://nanboya.com/",
+          },
+          {
+            name: "オーデマピゲ",
+            rank: 3,
+            highlight: "ロイヤルオーク｜定価400万→800万円超",
+            features: [
+              "ロイヤルオーク・オフショア系が人気",
+              "スポーツラグジュアリーの代表",
+              "プレミア倍率1.5〜3倍",
+              "少ない生産量で希少性維持",
+            ],
+            href: "https://nanboya.com/",
+          },
+          {
+            name: "ブランパン・ヴァシュロン",
+            rank: 4,
+            highlight: "コレクターズアイテム｜長期値上がり期待",
+            features: [
+              "機械式時計の老舗ブランド",
+              "シリーズ限定品は資産性高い",
+              "市場流通が少なく相場が安定",
+              "50〜300万円の価格帯",
+            ],
+            href: "https://nanboya.com/",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">高級時計投資の注意点</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>偽物リスク大（ロレックスは世界的に偽物最多）</li>
+          <li>ボックス・保証書・余コマ保管必須（査定額15〜20%差）</li>
+          <li>定価購入は抽選・長い順番待ち（2〜5年）</li>
+          <li>プレミア価格で購入するなら信頼できる業者選び</li>
+          <li>売却時の税金：5年超保有で譲渡所得の半額課税</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="高級時計の売却・査定は｜なんぼや・ブランドオフ"
+        description="高級時計の売却なら、なんぼや（全国100店舗超）・ブランドオフ（国内60店舗＋海外）等の専門店が高価買取。複数業者で相見積もり、最高値で売却するのが鉄則。"
+        buttonText="なんぼやの詳細"
+        href="https://nanboya.com/"
+        icon="⌚"
+        highlight="業界大手"
+      />
+    </>
+  ),
+  "wine-investment-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">ワイン投資（ファインワイン）の基礎</h2>
+        <p>
+          ファインワイン投資は、ボルドー五大シャトー（ラフィット・ムートン・ラトゥール・マルゴー・オーブリオン）・ブルゴーニュ（DRC・ルロワ等）・シャンパーニュの高級ワインを購入・熟成・売却する投資。Liv-ex指数によると過去20年で年率約10%のリターンを記録しています。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="投資価値のあるワイン"
+        services={[
+          {
+            name: "ボルドー五大シャトー",
+            rank: 1,
+            highlight: "ラフィット・ムートン等｜流動性高い",
+            features: [
+              "ラフィット・ロートシルト、ムートン・ロートシルト等",
+              "1本10〜100万円の価格帯",
+              "世界的な流動性、オークション取引活発",
+              "ヴィンテージで数倍の価格差",
+            ],
+            href: "https://nanboya.com/",
+            badge: "王道",
+          },
+          {
+            name: "ブルゴーニュ（DRC・ルロワ）",
+            rank: 2,
+            highlight: "DRC ロマネ・コンティ｜1本300万円超",
+            features: [
+              "DRC（ドメーヌ・ド・ラ・ロマネコンティ）ロマネ・コンティ",
+              "1本200〜1,000万円のプレミアム",
+              "生産量極少で希少性最高",
+              "上級コレクター向け",
+            ],
+            href: "https://nanboya.com/",
+          },
+          {
+            name: "シャンパーニュ（クリスタル・ドン・ペリニヨン）",
+            rank: 3,
+            highlight: "飲みやすく投資性も高い",
+            features: [
+              "クリスタル・ドン・ペリニヨン P3等",
+              "1本3〜30万円",
+              "初心者にもアクセスしやすい",
+              "祝い事需要で安定的な需要",
+            ],
+            href: "https://nanboya.com/",
+          },
+          {
+            name: "カリフォルニア・ナパバレー",
+            rank: 4,
+            highlight: "新世界ワイン｜成長性期待",
+            features: [
+              "スクリーミング・イーグル、ハーラン・エステート等",
+              "1本30〜300万円",
+              "米国投資家の需要急増",
+              "ボルドーよりも流通量少ない",
+            ],
+            href: "https://nanboya.com/",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">ワイン投資のリスクと注意点</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>保管条件（13〜18℃・湿度70%）が超重要、環境崩壊で価値ゼロ</li>
+          <li>セラー保管料：年1本500〜2,000円（ワインセラー業者）</li>
+          <li>偽物リスク（高級ボトルほど偽物が多い）</li>
+          <li>流動性は低い（売却まで数ヶ月）</li>
+          <li>日本では酒類販売免許が必要（転売目的）</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="ワイン投資の基礎を学ぶ｜ファイナンシャルアカデミー"
+        description="実物資産投資の入門なら、ファイナンシャルアカデミーの無料体験セミナーで体系的に学習。株式・不動産・ワイン等、多角的な投資の基礎を理解。"
+        buttonText="ファイナンシャルアカデミー無料体験"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1O+G8NPLM+1IRY+25I7J5"
+        icon="📚"
+        highlight="無料体験あり"
+      />
+    </>
+  ),
+  "cryptocurrency-tax-advanced": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">仮想通貨・NFTの複雑な税務</h2>
+        <p>
+          仮想通貨・NFT取引の税務は極めて複雑。売却益だけでなく、DeFi報酬・イールドファーミング・エアドロップ・NFTマーケット手数料（ガス代）まで損益計算に影響。雑所得で総合課税（最大55%）、損失の繰越不可、厳密な取引記録が必須です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="仮想通貨取引の所得区分"
+        services={[
+          {
+            name: "売買益・利益確定",
+            rank: 1,
+            highlight: "雑所得｜総合課税（最大55%）",
+            features: [
+              "購入価格と売却価格の差額が雑所得",
+              "他の所得と合算して累進課税",
+              "年間20万円超なら確定申告必須",
+              "損失の翌年繰越不可",
+            ],
+            href: "https://www.zeiri4.com/",
+            badge: "基本",
+          },
+          {
+            name: "DeFi報酬・ステーキング",
+            rank: 2,
+            highlight: "受取時の時価で所得計上",
+            features: [
+              "ステーキング報酬受取時の時価で雑所得",
+              "受取後の値動きは別途譲渡所得",
+              "エアドロップも受取時の時価で課税",
+              "ガス代は必要経費として控除可",
+            ],
+            href: "https://www.zeiri4.com/",
+          },
+          {
+            name: "NFT売買",
+            rank: 3,
+            highlight: "雑所得 or 譲渡所得",
+            features: [
+              "投資目的なら雑所得（総合課税）",
+              "趣味の範囲なら譲渡所得（50万円控除）",
+              "個人クリエイターの販売は事業所得も",
+              "判断基準は頻度・規模",
+            ],
+            href: "https://www.zeiri4.com/",
+          },
+          {
+            name: "海外取引所利用",
+            rank: 4,
+            highlight: "取引記録管理が極めて重要",
+            features: [
+              "Binance・Bybit等の海外取引所も同様に課税",
+              "取引履歴を詳細に保管（7年）",
+              "税務調査対象になりやすい",
+              "Cryptact・Tax Pro等の専門ツール活用必須",
+            ],
+            href: "https://www.zeiri4.com/",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">確定申告の必要書類</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>各取引所の取引履歴（CSV）</li>
+          <li>MetaMask等のウォレット取引履歴</li>
+          <li>Cryptact・Tax Pro等での損益計算書</li>
+          <li>Gas代・手数料の記録</li>
+          <li>ステーキング・エアドロップ受取時の時価記録</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="仮想通貨の税務は専門家に｜税理士ドットコム"
+        description="仮想通貨・NFTの税務は極めて複雑。税理士ドットコムで仮想通貨専門税理士を無料紹介、適切な申告で税務調査リスクを回避。Cryptact等のツール活用もサポート。"
+        buttonText="税理士ドットコムで無料相談"
+        href="https://www.zeiri4.com/"
+        icon="📐"
+        highlight="紹介料無料"
+      />
+    </>
+  ),
+  "corporate-housing-welfare": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">法人社宅制度の仕組み</h2>
+        <p>
+          法人が賃貸物件を借りて社員（役員含む）に社宅として貸す制度。家賃の50〜90%を会社経費化でき、社員の手取り増＋法人の節税という二重のメリットがあります。1人法人でも活用可能で、年間100〜300万円の節税効果が期待できます。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="社宅制度の種類と節税効果"
+        services={[
+          {
+            name: "役員社宅（小規模住宅）",
+            rank: 1,
+            highlight: "家賃の50%が経費｜年間数百万円節税",
+            features: [
+              "延床132㎡以下の役員社宅",
+              "家賃の50%を個人負担、残り50%を会社経費",
+              "家賃20万円なら月10万円を会社経費化",
+              "1人法人でも活用可能",
+            ],
+            href: "https://www.zeiri4.com/",
+            badge: "王道",
+          },
+          {
+            name: "役員社宅（一般住宅）",
+            rank: 2,
+            highlight: "家賃の50%＋専有部分経費",
+            features: [
+              "延床132㎡超の役員社宅",
+              "国税庁計算式で個人負担額算出",
+              "通常家賃の10〜30%の個人負担でOK",
+              "節税効果さらに大きい",
+            ],
+            href: "https://www.zeiri4.com/",
+          },
+          {
+            name: "従業員社宅",
+            rank: 3,
+            highlight: "従業員の住居費を会社が補助",
+            features: [
+              "社員の月給の20%以下なら個人負担",
+              "会社経費として全額計上",
+              "社員福利厚生で採用競争力UP",
+              "給与でないため社会保険料対象外",
+            ],
+            href: "https://www.zeiri4.com/",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">社宅制度活用の5ステップ</h2>
+        <ol className="list-decimal list-inside space-y-2 text-sm">
+          <li>法人契約で賃貸物件を借りる（本人確認書類のみ）</li>
+          <li>法人と社員（役員）で社宅使用契約を締結</li>
+          <li>国税庁計算式で個人負担額を算出</li>
+          <li>給与から個人負担分を天引き</li>
+          <li>残額を法人経費として処理</li>
+        </ol>
+      </section>
+      <AffiliateCTA
+        title="法人設立＋社宅制度で節税｜freee会社設立"
+        description="社宅制度活用には法人化が必要。freee会社設立なら設立費用0円（印紙代4万円無料）、freee会計との連携で社宅制度の仕訳も自動化。"
+        buttonText="freee会社設立の詳細"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1DXI+1UOKJ6+3SPO+9FDI8Y"
+        icon="🏠"
+        highlight="設立費用0円"
+      />
+    </>
+  ),
+  "education-fund-gift-strategy": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">教育資金一括贈与の特例</h2>
+        <p>
+          祖父母（直系尊属）から孫（30歳未満）への教育資金を、信託銀行を通じて1,500万円まで非課税で一括贈与できる制度。2026年3月末までの期限付き制度で、相続財産の大幅圧縮＋孫の教育費確保を両立できる相続対策の王道です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="教育資金贈与 vs 通常暦年贈与"
+        services={[
+          {
+            name: "教育資金一括贈与の特例",
+            rank: 1,
+            highlight: "1,500万円｜非課税｜相続財産圧縮",
+            features: [
+              "1人につき1,500万円まで非課税",
+              "学校関係500万円・塾等1,000万円",
+              "30歳までに使い切れば残額も非課税",
+              "信託銀行（三井住友信託等）経由で手続き",
+            ],
+            href: "https://www.smtb.jp/",
+            badge: "大型贈与",
+          },
+          {
+            name: "暦年贈与（年110万円）",
+            rank: 2,
+            highlight: "シンプル｜毎年繰返し可能",
+            features: [
+              "年110万円までの贈与は非課税",
+              "10年で1,100万円を無税移転",
+              "相続開始前7年以内は相続財産加算",
+              "使途自由",
+            ],
+            href: "https://www.zeiri4.com/",
+          },
+          {
+            name: "結婚・子育て資金贈与の特例",
+            rank: 3,
+            highlight: "1,000万円｜結婚・育児資金に限定",
+            features: [
+              "20〜50歳の子・孫に1,000万円まで非課税",
+              "結婚関連300万円、その他700万円",
+              "2025年3月末まで（延長の可能性）",
+              "用途限定",
+            ],
+            href: "https://www.smtb.jp/",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">教育資金贈与の活用ステップ</h2>
+        <ol className="list-decimal list-inside space-y-2 text-sm">
+          <li>信託銀行（三井住友信託・三菱UFJ信託等）に口座開設</li>
+          <li>祖父母が孫の口座に一括入金（最大1,500万円）</li>
+          <li>孫の教育費支払い後、領収書を信託銀行に提出</li>
+          <li>信託銀行が口座から教育費分を引き出し</li>
+          <li>30歳到達時に残額は贈与税課税（または残額ゼロなら終了）</li>
+        </ol>
+      </section>
+      <AffiliateCTA
+        title="相続税対策もFPに相談｜保険見直しラボ"
+        description="教育資金贈与と合わせて、生命保険の非課税枠・家族信託・遺言書等の相続対策をFP無料相談で一元設計。年間数百万〜数千万円の節税効果を実現。"
+        buttonText="保険見直しラボに無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=3Z6F6O+1YZZGQ+38BE+5YRHE"
+        icon="🛡️"
+        highlight="相談料完全無料"
+      />
+    </>
+  ),
+  "hedge-fund-japan-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">日本人個人投資家とヘッジファンド</h2>
+        <p>
+          ヘッジファンドは機関投資家中心の投資商品ですが、日本でも富裕層個人向けのヘッジファンド投資が拡大。スマートエクイティ・フォートレスインベストメント等の国内対応ファンドは、最低投資1,000万円〜3,000万円から参入可能です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="日本人個人が投資できるヘッジファンド"
+        services={[
+          {
+            name: "スマートエクイティ",
+            rank: 1,
+            highlight: "最低投資1,000万円｜日本人向け",
+            features: [
+              "日本人個人投資家向けヘッジファンド",
+              "最低投資1,000万円〜",
+              "想定利回り年5〜15%",
+              "四半期ごとの解約機会",
+            ],
+            href: "https://www.monex.co.jp/info/home.html",
+            badge: "参入しやすい",
+          },
+          {
+            name: "フォートレス インベストメント",
+            rank: 2,
+            highlight: "世界的ヘッジファンド｜IFA経由",
+            features: [
+              "ソフトバンク傘下の世界大手",
+              "最低投資3,000万円〜",
+              "複数戦略（イベントドリブン・マクロ等）",
+              "IFA経由でのアクセス",
+            ],
+            href: "https://www.monex.co.jp/info/home.html",
+          },
+          {
+            name: "ヘッジファンド証券",
+            rank: 3,
+            highlight: "日本のヘッジファンド専門",
+            features: [
+              "日本人向けヘッジファンド運用会社",
+              "最低投資1,000万円〜",
+              "日本株ロングショート戦略",
+              "日本語サポート完備",
+            ],
+            href: "https://www.monex.co.jp/info/home.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">ヘッジファンドの特徴</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>相場環境に左右されない絶対収益を目指す</li>
+          <li>手数料は2%（管理報酬）+20%（成功報酬）が一般的</li>
+          <li>流動性低い（四半期・半期単位の解約）</li>
+          <li>運用成績の変動大きい</li>
+          <li>最低投資1,000〜3,000万円</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="ヘッジファンド投資はIFA経由｜マネックスONE"
+        description="マネックスONEのIFAサービスで、ヘッジファンド投資へのアクセスを提供。資産3,000万円超の個人投資家向け、中立的な運用相談＋複数ファンド比較。"
+        buttonText="マネックスONEの詳細"
+        href="https://www.monex.co.jp/info/home.html"
+        icon="🎯"
+        highlight="富裕層特化"
+      />
+    </>
+  ),
+  "foreign-tax-credit-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">米国株配当の二重課税を取り戻す</h2>
+        <p>
+          米国株・米国ETFの配当金は、米国で10%源泉徴収＋日本で20.315%課税の二重課税を受けます。確定申告で「外国税額控除」を申請すれば、米国源泉税10%分を日本の税金から控除可能。配当金100万円なら約7〜8万円の還付を受けられる重要な税制です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="外国税額控除の計算例"
+        services={[
+          {
+            name: "配当10万円のケース",
+            rank: 1,
+            highlight: "約7,000円の還付",
+            features: [
+              "米国配当10万円",
+              "米国源泉税10,000円（10%）",
+              "日本の税金20,315円",
+              "外国税額控除で約7,000円還付",
+            ],
+            href: "https://www.zeiri4.com/",
+            badge: "基本",
+          },
+          {
+            name: "配当100万円のケース",
+            rank: 2,
+            highlight: "約7〜8万円の還付",
+            features: [
+              "米国配当100万円",
+              "米国源泉税100,000円",
+              "日本の税金203,150円",
+              "外国税額控除で約70,000〜80,000円還付",
+            ],
+            href: "https://www.zeiri4.com/",
+          },
+          {
+            name: "配当500万円のケース",
+            rank: 3,
+            highlight: "約35〜40万円の還付",
+            features: [
+              "米国配当500万円",
+              "米国源泉税500,000円",
+              "外国税額控除で約350,000〜400,000円還付",
+              "富裕層には効果絶大",
+            ],
+            href: "https://www.zeiri4.com/",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">確定申告の手順</h2>
+        <ol className="list-decimal list-inside space-y-2 text-sm">
+          <li>証券会社から「外国所得税額及び外国所得税額の内訳」を取得</li>
+          <li>確定申告書Bの「外国税額控除」欄に記載</li>
+          <li>「外国税額控除に関する明細書」を添付</li>
+          <li>所得税・復興特別所得税・住民税の3段階で控除適用</li>
+          <li>国税庁のe-Taxで電子申告も可能</li>
+        </ol>
+      </section>
+      <AffiliateCTA
+        title="外国税額控除の計算も自動化｜freee会計"
+        description="米国株投資の税務処理もfreee会計で効率化。証券口座の自動連携で配当・為替損益を自動仕訳、外国税額控除の計算もサポート。"
+        buttonText="freee会計の詳細"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1DXI+1UOKJ6+3SPO+9FDI8Y"
+        icon="🌐"
+        highlight="30日無料"
+      />
+    </>
+  ),
 };
