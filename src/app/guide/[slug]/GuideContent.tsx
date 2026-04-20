@@ -19510,4 +19510,400 @@ const guideContents: Record<string, React.ReactNode> = {
       />
     </>
   ),
+  "debt-consolidation-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">債務整理完全ガイド｜3つの法的手段</h2>
+        <p>
+          多重債務・返済困難な借金問題を解決する法的手段が債務整理。①任意整理（将来利息カット・3〜5年分割）、②個人再生（借金5分の1〜10分の1に圧縮・住宅ローン除外可能）、③自己破産（借金全額免責・財産は清算）の3つ。弁護士費用20〜50万円、ブラックリスト（信用情報ブラック）5〜10年、生活への影響と再建ロードマップを解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="債務整理の相談窓口"
+        services={[
+          {
+            name: "ココナラ（弁護士マッチング）",
+            rank: 1,
+            highlight: "債務整理の専門弁護士多数",
+            features: [
+              "弁護士1時間5000円〜相談",
+              "任意整理・個人再生・自己破産",
+              "費用見積も事前確認",
+              "会員登録無料",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+4A7B8A+2PEO+OK4PD",
+            badge: "EPC 22.73",
+          },
+          {
+            name: "保険マンモス（生活再建相談）",
+            rank: 2,
+            highlight: "債務整理後の家計再建",
+            features: [
+              "保険見直しで固定費削減",
+              "再建期の家計設計",
+              "緊急資金づくり相談",
+              "完全無料相談",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+            badge: "EPC 31.06",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">債務整理3つの違い</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>①任意整理</strong>：将来利息カット、3〜5年分割。弁護士費用4〜6万円/社</li>
+          <li><strong>②個人再生</strong>：借金を5分の1〜10分の1に圧縮。住宅ローン除外可能</li>
+          <li><strong>③自己破産</strong>：借金全額免責、財産は清算。保険・車等一部除外</li>
+          <li>選び方：任意整理→個人再生→自己破産の順で検討</li>
+          <li>借金300万円以下なら任意整理、500万〜2000万円なら個人再生、返済不能なら自己破産</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="債務整理の弁護士相談はココナラで｜初回相談5000円〜"
+        description="債務整理の専門弁護士をココナラで探せる。任意整理・個人再生・自己破産のプロが、あなたの状況に最適な方法を提案。費用も事前見積で安心、会員登録無料で即相談開始。"
+        buttonText="ココナラで弁護士を探す"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+4A7B8A+2PEO+OK4PD"
+        icon="⚖️"
+        highlight="登録無料"
+      />
+    </>
+  ),
+  "crowd-lending-comparison-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">ソーシャルレンディング完全比較</h2>
+        <p>
+          ソーシャルレンディング（貸付型クラウドファンディング）は、個人が企業に1万円〜貸付する投資手段。利回り5〜10%と銀行預金の100倍以上、株式より低ボラの魅力。Funds・クラウドバンク・OwnersBook・LENDEX等、主要10社以上の選択肢あり。元本割れリスク（年1〜3%）、運営会社倒産リスクを意識して分散投資が鉄則です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="ソーシャルレンディング主要3社"
+        services={[
+          {
+            name: "Funds（ファンズ）",
+            rank: 1,
+            highlight: "上場企業向け貸付｜低リスク",
+            features: [
+              "上場企業・大手子会社向け",
+              "利回り2〜4%",
+              "累計調達額500億円超",
+              "1円〜投資可能",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "安全性No.1",
+          },
+          {
+            name: "クラウドバンク",
+            rank: 2,
+            highlight: "業界最大級｜不動産中心",
+            features: [
+              "不動産・太陽光発電案件中心",
+              "利回り6〜8%",
+              "累計募集1800億円超",
+              "1万円〜",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "OwnersBook",
+            rank: 3,
+            highlight: "不動産特化｜運営老舗",
+            features: [
+              "不動産案件特化",
+              "利回り4〜6%",
+              "1万円〜投資",
+              "運営8年以上の実績",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">ソーシャルレンディングのリスク対策</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>複数社分散：3〜5社に分散投資</li>
+          <li>案件分散：1社内で複数案件に分散</li>
+          <li>運営健全性：上場企業運営 or 累計実績大の会社優先</li>
+          <li>税制：雑所得扱い、20万超で確定申告必要</li>
+          <li>ポートフォリオ5〜10%以内の配分推奨</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="安全な運用はSBI証券で｜個別社債も選択肢"
+        description="ソーシャルレンディングのリスクが気になる方はSBI証券の個人向け社債（利回り1〜3%）も検討。元本割れリスク低く、購入手数料無料。新NISA成長枠で非課税運用可能。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="💸"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "financial-literacy-test-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">金融リテラシー検定完全ガイド</h2>
+        <p>
+          金融リテラシー向上は、資産形成・防衛の第一歩。FP（ファイナンシャルプランナー）3級→2級→1級の段階的取得、証券外務員（一種・二種）、簿記検定（日商2級・1級）など、金融系資格の取得ロードマップ。FP3級は1ヶ月の学習で取得可、FP2級は副業・転職にも活用可能。ユーキャン・TAC等の通信講座活用で効率的に学べます。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">おすすめ金融系資格</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>FP3級</strong>：学習1ヶ月、取得率80%、家計管理の基礎</li>
+          <li><strong>FP2級</strong>：学習3ヶ月、取得率40%、副業・転職にも有利</li>
+          <li><strong>FP1級</strong>：学習1年、取得率10%、独立・高収入可</li>
+          <li><strong>証券外務員</strong>：金融業界必須、学習1ヶ月</li>
+          <li><strong>日商簿記2級</strong>：経理・財務理解、学習3ヶ月</li>
+          <li><strong>宅建士</strong>：不動産投資・仕事両用、学習6ヶ月</li>
+        </ul>
+      </section>
+      <ComparisonTableCTA
+        title="資格学習のおすすめサービス"
+        services={[
+          {
+            name: "すらら（オンライン学習）",
+            rank: 1,
+            highlight: "社会人の基礎学習にも",
+            features: [
+              "金融・経済の基礎学習",
+              "AI学習で効率的",
+              "月額8,800円〜",
+              "無料体験あり",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+54KF2Y+4CT0+60OXE",
+            badge: "EPC 15.56",
+          },
+          {
+            name: "ココナラ（FP・税理士マッチング）",
+            rank: 2,
+            highlight: "個別指導・相談",
+            features: [
+              "FP個別指導5000円〜",
+              "資格取得後の活用相談",
+              "副業としてのFP相談",
+              "会員登録無料",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+4A7B8A+2PEO+OK4PD",
+            badge: "EPC 22.73",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">FP資格の活用法</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>自分・家族の資産設計（節税・保険・投資）</li>
+          <li>副業：ココナラ等でFP相談1時間5000円〜</li>
+          <li>転職：金融・不動産・保険業界で評価</li>
+          <li>独立：FP事務所開業、年収500万円〜</li>
+          <li>投資判断の質向上、詐欺商品の見分け</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="FP資格取得後の副業はココナラで｜月5〜30万円"
+        description="FP資格を活かして副業収入化。ココナラで家計相談・保険見直し・投資アドバイスを1時間5000円〜販売。400万人ユーザーで集客も容易、会員登録無料で即販売開始。"
+        buttonText="ココナラに登録"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+4A7B8A+2PEO+OK4PD"
+        icon="📚"
+        highlight="登録無料"
+      />
+    </>
+  ),
+  "sbi-rakuten-economy-compare": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">SBI経済圏 vs 楽天経済圏</h2>
+        <p>
+          SBI経済圏（三井住友カード・SBI証券・住信SBIネット銀行・Olive）と楽天経済圏（楽天カード・楽天証券・楽天銀行・楽天市場・楽天モバイル）の頂上対決。クレカ積立ポイント（三井住友0.5〜3% vs 楽天0.5〜1%）、銀行金利（SBI 0.001〜0.2% vs 楽天0.1〜0.4%）、ポイント還元、総合力で年10〜30万円の差が出ます。両方活用も選択肢です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="SBI vs 楽天経済圏対決"
+        services={[
+          {
+            name: "SBI経済圏（三井住友×SBI）",
+            rank: 1,
+            highlight: "クレカ積立最大3%還元",
+            features: [
+              "三井住友NL 0.5%（Olive 3%）",
+              "SBI証券クレカ積立3%",
+              "住信SBI銀行金利0.2%（優遇時）",
+              "投信Vポイント還元",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "業界No.1",
+          },
+          {
+            name: "楽天経済圏",
+            rank: 2,
+            highlight: "楽天ポイントで日常使い",
+            features: [
+              "楽天カード1%還元",
+              "楽天証券クレカ積立0.5〜1%",
+              "楽天銀行金利0.1%",
+              "楽天市場でSPU最大16倍",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">経済圏選びのポイント</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>新NISA積立重視→SBI経済圏（クレカ積立3%）</li>
+          <li>日常ショッピング重視→楽天経済圏（楽天市場SPU）</li>
+          <li>投信保有ポイント重視→SBI（業界最高水準）</li>
+          <li>銀行金利重視→住信SBIネット銀行（優遇時0.2%）</li>
+          <li>両方併用も有効：新NISAはSBI、日常決済は楽天カード</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="SBI経済圏の入口はSBI証券口座開設から"
+        description="SBI証券口座開設でSBI経済圏スタート。三井住友カード（Olive）連携でクレカ積立最大3%、投信残高0.1%還元、住信SBIネット銀行の高金利まで、年10万円以上の特典獲得。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="🏆"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "home-sales-tax-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">マイホーム売却時の税金完全ガイド</h2>
+        <p>
+          マイホーム売却時の譲渡所得税は、売却価格−（取得費＋譲渡費用）の利益に課税。ただし「3000万円特別控除」「10年超所有の軽減税率14.21%」「買換え特例」等の特例あり、多くの場合で無税or低税率になります。住宅ローン残債あり・退職後の売却・相続後の売却など、ケース別の税制最適化を解説します。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">マイホーム売却の税金特例</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>3000万円特別控除</strong>：譲渡所得から3000万円控除（居住用条件）</li>
+          <li><strong>軽減税率（10年超所有）</strong>：譲渡所得6000万円以下の部分が14.21%税率</li>
+          <li><strong>買換え特例</strong>：一定要件で課税繰延可能</li>
+          <li><strong>損失通算・繰越</strong>：住宅ローン残債ありの売却損は3年繰越可</li>
+          <li>相続後3年以内の売却：被相続人の取得費・期間引継ぎ</li>
+        </ul>
+      </section>
+      <ComparisonTableCTA
+        title="マイホーム売却関連サービス"
+        services={[
+          {
+            name: "家づくり相談所（売却＋買替え）",
+            rank: 1,
+            highlight: "売却価格査定＋買替え提案",
+            features: [
+              "マイホーム売却査定",
+              "買替え相談",
+              "専門家紹介無料",
+              "税理士相談可",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+3PD522+5OGA+5YZ75",
+            badge: "5,000円/件",
+          },
+          {
+            name: "ココナラ（税理士マッチング）",
+            rank: 2,
+            highlight: "譲渡所得税の確定申告",
+            features: [
+              "譲渡所得の計算代行",
+              "確定申告書作成",
+              "税理士1時間5000円〜",
+              "会員登録無料",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+4A7B8A+2PEO+OK4PD",
+            badge: "EPC 22.73",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">売却時の節税5ステップ</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>①3000万円特別控除の適用確認（居住要件）</li>
+          <li>②所有期間10年超で軽減税率（14.21%）適用</li>
+          <li>③買替え特例 or 損失通算の有利判定</li>
+          <li>④譲渡費用（仲介手数料・印紙・登記費用）を漏れなく計上</li>
+          <li>⑤税理士相談で最適化＋確定申告</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="マイホーム売却＋税理士相談はココナラで"
+        description="マイホーム売却の譲渡所得税計算・確定申告をココナラの税理士に依頼。1時間5000円〜、3000万円特別控除・軽減税率の適用判定まで、総合的に税金最適化。"
+        buttonText="ココナラで税理士を探す"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+4A7B8A+2PEO+OK4PD"
+        icon="🏠"
+        highlight="登録無料"
+      />
+    </>
+  ),
+  "digital-money-paypay-linepay-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">電子マネー・PayPay・LINE Pay完全比較</h2>
+        <p>
+          キャッシュレス決済は、現金決済より年3〜5%のポイント還元で手取りアップ。PayPay（5800万ユーザー）・楽天ペイ・d払い・au PAY・LINE Payの5大コード決済、Suica・WAON・nanaco等の電子マネー、クレジットカードとの使い分けで年間5〜10万円のポイント獲得が現実的です。年齢・用途別の最適組合せを解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="コード決済5社比較"
+        services={[
+          {
+            name: "PayPay（ペイペイ）",
+            rank: 1,
+            highlight: "ユーザー数No.1｜加盟店最多",
+            features: [
+              "ユーザー数5800万超",
+              "加盟店400万超",
+              "還元率0.5〜1.5%",
+              "個人間送金OK",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "シェアNo.1",
+          },
+          {
+            name: "楽天ペイ",
+            rank: 2,
+            highlight: "楽天経済圏との相乗効果",
+            features: [
+              "楽天ポイント2重取り",
+              "SPU連携で楽天市場ポイントUP",
+              "還元率1〜1.5%",
+              "楽天カードとの併用最強",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "d払い（NTTドコモ）",
+            rank: 3,
+            highlight: "dポイント還元｜ドコモユーザー向け",
+            features: [
+              "dポイント還元0.5〜1%",
+              "Amazon・コンビニOK",
+              "ドコモ料金支払いでdポイント",
+              "ショッピングモールでdカード併用",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">電子マネー・カードとの使い分け</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>コード決済：スマホで完結、還元率高い</li>
+          <li>交通系IC（Suica）：電車・駅ナカ特化</li>
+          <li>流通系（WAON・nanaco）：特定店舗の割引</li>
+          <li>クレジットカード：高額決済、ポイント2重取りベース</li>
+          <li>ベスト組合せ：楽天カード→楽天ペイ→楽天ポイントの三重取り</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="SBI経済圏のOliveでもキャッシュレス最大3%還元"
+        description="SBI・三井住友グループのOlive（ワンカード）は、利用シーン別に最大3%還元。SBI証券クレカ積立・PayPay等のコード決済も対応、経済圏統合で年10万円超のポイント獲得。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="📱"
+        highlight="業界No.1"
+      />
+    </>
+  ),
 };
