@@ -18202,4 +18202,411 @@ const guideContents: Record<string, React.ReactNode> = {
       />
     </>
   ),
+  "reits-usa-detailed-comparison": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">米国REIT詳細比較｜VNQ・IYR・SCHH・RWR</h2>
+        <p>
+          米国REIT（Real Estate Investment Trust）は、個人が少額から米国不動産に投資できる強力なツール。VNQ（Vanguard）・IYR（iShares）・SCHH（Schwab）・RWR（SPDR）の4大REIT ETFを比較。分配金利回り3〜4%、信託報酬0.08〜0.4%、オフィス・住居・倉庫・データセンターの分散投資が可能。新NISA成長枠で非課税運用、ポートフォリオの5〜15%配分が推奨です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="米国REIT主要4ETF比較"
+        services={[
+          {
+            name: "VNQ（Vanguard 米国REIT）",
+            rank: 1,
+            highlight: "業界最大｜信託報酬0.12%",
+            features: [
+              "資産規模最大（600億ドル超）",
+              "信託報酬0.12%（業界最安級）",
+              "170銘柄の超分散",
+              "分配金利回り3.8%",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "業界No.1",
+          },
+          {
+            name: "SCHH（Schwab 米国REIT）",
+            rank: 2,
+            highlight: "信託報酬最安0.07%",
+            features: [
+              "信託報酬0.07%（業界最安）",
+              "140銘柄分散",
+              "分配金利回り3.5%",
+              "長期保有で最安コスト",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "最安",
+          },
+          {
+            name: "IYR（iShares 米国REIT）",
+            rank: 3,
+            highlight: "流動性最高｜オプション対応",
+            features: [
+              "流動性最高",
+              "オプション取引対応",
+              "信託報酬0.40%",
+              "分配金利回り3.2%",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">米国REITの種類別特徴</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>住居REIT（Equity Residential等）</strong>：アパート賃貸、安定性高</li>
+          <li><strong>オフィスREIT（Boston Properties等）</strong>：コロナ後回復中</li>
+          <li><strong>倉庫REIT（Prologis）</strong>：EC拡大で高成長</li>
+          <li><strong>データセンターREIT（Equinix・Digital Realty）</strong>：AI需要で急成長</li>
+          <li><strong>商業施設REIT（Simon Property）</strong>：郊外大型モール中心</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="米国REITはSBI証券で｜VNQ・SCHH・IYR対応"
+        description="SBI証券は米国REIT ETF（VNQ・SCHH・IYR・RWR）・個別REIT（Prologis・Equinix等）まで完備。為替手数料無料（住信SBI連携）、新NISA成長枠で非課税運用可能。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="🏢"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "commodity-futures-comparison-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">商品先物投資完全ガイド</h2>
+        <p>
+          商品先物（Futures）は、金・銀・原油・穀物等のコモディティをレバレッジ取引する高度な投資手段。COMEX（金・銀）・NYMEX（原油）・CBOT（穀物）が主要取引所。日本では東証商品先物・くりっく365でレバレッジ取引可能。コンタンゴ（先物＞現物）・バックワーデーション（先物＜現物）の理解が必須で、ETF経由より直接取引で手数料・税制メリットを取れます。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="商品先物取引の主要サービス"
+        services={[
+          {
+            name: "SBI証券（くりっく365）",
+            rank: 1,
+            highlight: "商品CFD・先物取引対応",
+            features: [
+              "金・銀・原油・穀物のCFD",
+              "レバレッジ最大20倍",
+              "手数料業界最安級",
+              "税率20.315%（申告分離）",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "業界No.1",
+          },
+          {
+            name: "松井証券（商品先物）",
+            rank: 2,
+            highlight: "商品先物取引手数料無料",
+            features: [
+              "金・白金・ゴム先物",
+              "手数料無料",
+              "少額証拠金",
+              "サポート充実",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1O+G6VESA+3XCC+6AZAQ",
+            badge: "1,000円/件",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">商品先物の3つの活用法</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>①インフレヘッジ</strong>：金・銀・原油の先物で物価上昇対策</li>
+          <li><strong>②短期売買</strong>：ボラ高く、デイトレード・スイング向き</li>
+          <li><strong>③ヘッジ取引</strong>：株式ロング＋金先物ショートで下落リスク相殺</li>
+          <li>レバレッジ管理が重要、総資産の5%以内</li>
+          <li>コンタンゴ影響でETFより先物直接取引有利な場合多い</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="商品先物はSBI証券で｜CFD・くりっく365対応"
+        description="SBI証券は商品CFD（金・銀・原油・穀物）・くりっく365に対応、レバレッジ最大20倍。手数料業界最安級、申告分離課税20.315%で確定申告も簡単。少額から始められます。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="📈"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "private-equity-intro-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">プライベートエクイティ入門</h2>
+        <p>
+          プライベートエクイティ（PE）は、未上場企業への投資で高リターンを狙う投資手法。機関投資家・富裕層向けのPEファンド（KKR・ブラックストーン・カーライル・アポロ等）は、10年保有で年率15〜20%のリターン実績。個人投資家も、PE運用会社の上場株・PE連動ETF（PSP・PEX）で間接的に参加可能。LBO（レバレッジド・バイアウト）・バイアウトファンドの基本も解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="個人が投資できるPE関連商品"
+        services={[
+          {
+            name: "SBI証券（PE運用会社株・PE ETF）",
+            rank: 1,
+            highlight: "KKR・BX・APO等のPE大手株",
+            features: [
+              "KKR・Blackstone・Apollo個別株",
+              "PSP（PE ETF）取扱",
+              "配当利回り3〜5%",
+              "為替手数料無料",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "業界No.1",
+          },
+          {
+            name: "FUNDINNO（株式投資型クラファン）",
+            rank: 2,
+            highlight: "未公開株投資の代替手段",
+            features: [
+              "10万円〜未公開株投資",
+              "PE代替として活用",
+              "エンジェル税制対応",
+              "IPO事例多数",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">PE投資の4つの特徴</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>①高リターン</strong>：過去30年でS&P500を年率5%超アウトパフォーム</li>
+          <li><strong>②長期ロックアップ</strong>：10年以上の流動性なし</li>
+          <li><strong>③高手数料</strong>：2%の運用報酬＋20%の成功報酬（2-20）</li>
+          <li><strong>④リスク分散</strong>：50社以上の分散投資</li>
+          <li>個人は運用会社株or PE ETFでエクスポージャー取得</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="PE関連株はSBI証券で｜KKR・BX・APO対応"
+        description="SBI証券はKKR・Blackstone・Apollo等のPE大手個別株、PSP（PE ETF）まで完備。為替手数料無料（住信SBI連携）、新NISA成長枠で非課税運用可能。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="💎"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "alternative-investments-overview": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">オルタナティブ投資完全ガイド</h2>
+        <p>
+          オルタナティブ投資は、株式・債券という伝統資産以外の投資分類で、①不動産、②コモディティ、③プライベートエクイティ、④ヘッジファンド、⑤インフラ、⑥アート・コレクティブル、⑦暗号資産の7つ。伝統資産との相関が低く、ポートフォリオ全体のリスク分散・リターン向上に寄与。機関投資家のポートフォリオでは20〜30%の配分が一般的です。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">オルタナティブ投資7分類</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>①不動産</strong>：現物・J-REIT・小口化商品、利回り3〜6%</li>
+          <li><strong>②コモディティ</strong>：金・銀・原油・穀物、インフレヘッジ</li>
+          <li><strong>③プライベートエクイティ</strong>：未上場企業投資、年率15〜20%</li>
+          <li><strong>④ヘッジファンド</strong>：絶対収益追求、多様な戦略</li>
+          <li><strong>⑤インフラ</strong>：公益事業・空港・太陽光、安定利回り</li>
+          <li><strong>⑥アート・コレクティブル</strong>：絵画・時計・ワイン・ウイスキー</li>
+          <li><strong>⑦暗号資産</strong>：ビットコイン・イーサリアム等</li>
+        </ul>
+      </section>
+      <ComparisonTableCTA
+        title="個人向けオルタナティブ投資商品"
+        services={[
+          {
+            name: "SBI証券（オルタナETF取扱）",
+            rank: 1,
+            highlight: "業界最多のオルタナETF",
+            features: [
+              "金ETF（1326）・石油ETF",
+              "J-REIT・米国REIT",
+              "PE ETF（PSP）",
+              "新NISA成長枠対応",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "業界No.1",
+          },
+          {
+            name: "保険マンモス（オルタナ保険相談）",
+            rank: 2,
+            highlight: "変額保険・外貨建保険",
+            features: [
+              "変額保険（投資型）",
+              "外貨建終身保険",
+              "ヘッジファンド連動保険",
+              "完全無料相談",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+            badge: "EPC 31.06",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">推奨配分モデル</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>保守的：伝統資産90%＋オルタナ10%（不動産・金中心）</li>
+          <li>バランス：伝統70%＋オルタナ30%（不動産・コモディティ・PE）</li>
+          <li>攻撃的：伝統50%＋オルタナ50%（多様な分散）</li>
+          <li>個人の総資産規模・リスク許容度で調整</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="オルタナティブ投資はSBI証券で｜総合対応"
+        description="SBI証券はJ-REIT・米国REIT・金ETF・PE ETF・インフラETFまでオルタナティブ投資全領域に対応。為替手数料無料、新NISA成長枠で非課税運用可能。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="🎯"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "smart-beta-etf-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">スマートベータETF完全ガイド</h2>
+        <p>
+          スマートベータETFは、時価総額加重（S&P500）とは異なる特定要因（ファクター）で銘柄選定するETF。バリュー（VLUE）・モメンタム（MTUM）・クオリティ（QUAL）・低ボラ（USMV）・小型（IJR）などのファクターETFは、長期でS&P500を年1〜2%アウトパフォームする実績。信託報酬0.15〜0.35%とパッシブETFより若干高めも、超過リターンで十分カバー可能です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="スマートベータETF主要4銘柄"
+        services={[
+          {
+            name: "QUAL（iShares クオリティ）",
+            rank: 1,
+            highlight: "財務健全性重視｜長期安定",
+            features: [
+              "ROE・利益安定性・低負債で選定",
+              "Apple・Microsoft等の優良企業",
+              "信託報酬0.15%",
+              "S&P500+1〜2%の実績",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "最有力",
+          },
+          {
+            name: "MTUM（iShares モメンタム）",
+            rank: 2,
+            highlight: "上昇中の銘柄に集中",
+            features: [
+              "過去6〜12ヶ月の上昇銘柄",
+              "四半期リバランス",
+              "信託報酬0.15%",
+              "トレンドフォロー戦略",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "USMV（iShares 低ボラ）",
+            rank: 3,
+            highlight: "低ボラでディフェンシブ",
+            features: [
+              "ボラ低い銘柄に集中",
+              "金融危機時の下落抑制",
+              "信託報酬0.15%",
+              "リスク調整後リターン最高",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "VLUE（iShares バリュー）",
+            rank: 4,
+            highlight: "割安株中心",
+            features: [
+              "PER・PBR低め銘柄",
+              "金融・エネルギー多め",
+              "信託報酬0.15%",
+              "バリュー復活相場で活躍",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">スマートベータETF活用戦略</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>コア（S&P500）70%＋サテライト（QUAL・MTUM等）30%</li>
+          <li>4ファクター分散：QUAL 30%+MTUM 20%+USMV 30%+VLUE 20%</li>
+          <li>景気サイクル：拡大期はMTUM・VLUE、後退期はUSMV・QUAL</li>
+          <li>長期保有10年以上でS&P500を年1〜2%アウトパフォーム期待</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="スマートベータETFはSBI証券で｜QUAL・MTUM・USMV対応"
+        description="SBI証券はスマートベータETF（QUAL・MTUM・USMV・VLUE）完備。為替手数料無料（住信SBI連携）、新NISA成長枠で非課税運用、S&P500を超えるリターンを目指せます。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="🎨"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "factor-investing-complete-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">ファクター投資完全ガイド｜5ファクター・モデル</h2>
+        <p>
+          ファクター投資は、株式のリターンを5つの要因（ファクター）で説明・予測する科学的手法。Fama-French 5ファクターモデル：①市場、②サイズ（小型株プレミアム）、③バリュー（割安株プレミアム）、④収益性、⑤投資。DFA（Dimensional Fund Advisors）が先駆者で、日本でもスマートベータETFで個人投資家も実装可能。アカデミック研究に基づく長期アウトパフォーム戦略です。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">5ファクターの実装ETF</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>市場ファクター</strong>：VTI（全米株）・VT（全世界株）</li>
+          <li><strong>サイズファクター</strong>：IJR（S&P小型株）・VB（バンガード小型）</li>
+          <li><strong>バリューファクター</strong>：VLUE・IVE（S&P500 バリュー）</li>
+          <li><strong>収益性ファクター</strong>：QUAL・MOAT（ワイドモート）</li>
+          <li><strong>投資ファクター</strong>：企業の設備投資度合、OMFL等</li>
+        </ul>
+      </section>
+      <ComparisonTableCTA
+        title="ファクター投資の主要ETF"
+        services={[
+          {
+            name: "SBI証券（ファクターETF業界最多）",
+            rank: 1,
+            highlight: "5ファクター対応完備",
+            features: [
+              "全5ファクターETF取扱",
+              "為替手数料無料",
+              "新NISA成長枠対応",
+              "長期ポートフォリオ構築",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "業界No.1",
+          },
+          {
+            name: "松井証券（シンプル実装）",
+            rank: 2,
+            highlight: "主要ファクターETF対応",
+            features: [
+              "VLUE・QUAL・IJR等",
+              "米国株手数料無料",
+              "NISA口座対応",
+              "顧客サポート充実",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1O+G6VESA+3XCC+6AZAQ",
+            badge: "1,000円/件",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">ファクター投資の実践配分</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>コア（VTI）50%＋5ファクター均等配分（各10%）</li>
+          <li>長期：ファクターのリバランス年1回</li>
+          <li>アカデミック研究：S&P500+年1〜3%のアウトパフォーム期待</li>
+          <li>注意：5〜10年の短期では逆転も、最低10年以上の保有前提</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="ファクター投資はSBI証券で｜5ファクター全対応"
+        description="SBI証券は5ファクター投資に必要な全ETF（VTI・IJR・VLUE・QUAL・MOAT等）を完備。為替手数料無料、新NISA成長枠で非課税運用、アカデミック理論で市場を超える。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="🔬"
+        highlight="業界No.1"
+      />
+    </>
+  ),
 };
