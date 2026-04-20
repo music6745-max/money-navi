@@ -20735,4 +20735,387 @@ const guideContents: Record<string, React.ReactNode> = {
       />
     </>
   ),
+  "international-tax-treaty-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">国際税務・租税条約完全ガイド</h2>
+        <p>
+          日本から米国株・欧州株に投資する際、配当金は現地国で源泉徴収（米国10%・欧州15%等）＋日本で20.315%課税の二重課税が発生。日米租税条約で配当は10%に軽減、外国税額控除で二重課税回避が可能。正しい手続きで年数万円〜数十万円の税金を節約できます。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">二重課税と回避策</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>米国株配当：米国10%＋日本20.315%＝実効28.28%</li>
+          <li>外国税額控除：確定申告で米国10%を日本税から控除</li>
+          <li>新NISA内の米国株配当：米国10%は控除不可（NISA非課税のため）</li>
+          <li>日米租税条約：通常税率30%→10%に軽減済</li>
+          <li>特定口座：自動計算で楽、自分で申告なら還付金獲得</li>
+        </ul>
+      </section>
+      <ComparisonTableCTA
+        title="国際税務対応の証券会社"
+        services={[
+          {
+            name: "SBI証券（外国税額控除自動計算）",
+            rank: 1,
+            highlight: "年間取引報告書で自動計算",
+            features: [
+              "米国株配当の源泉徴収明示",
+              "外国税額控除用データ提供",
+              "確定申告書作成ツール",
+              "e-Tax連携",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "業界No.1",
+          },
+          {
+            name: "ココナラ（国際税務専門税理士）",
+            rank: 2,
+            highlight: "複雑な国際税務を代行",
+            features: [
+              "外国税額控除の確定申告",
+              "海外不動産投資の税務",
+              "税理士1時間5000円〜",
+              "会員登録無料",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+4A7B8A+2PEO+OK4PD",
+            badge: "EPC 22.73",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">国際税務の5ステップ</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>①W-8BEN提出：米国株保有前に証券会社経由で提出（租税条約適用）</li>
+          <li>②年間取引報告書の配当欄を確認</li>
+          <li>③確定申告で外国税額控除を申告（所得税・住民税の両方）</li>
+          <li>④還付金受取（3〜4月頃）</li>
+          <li>⑤e-Tax活用で電子申告＋還付金を早期受取</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="国際税務の税理士相談はココナラで｜5000円〜"
+        description="米国株・欧州株の配当金・売却益の国際税務を、ココナラの税理士に相談。外国税額控除の確定申告、海外不動産投資の税務、国際相続まで、5000円〜の個別相談で解決。"
+        buttonText="ココナラで税理士を探す"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+4A7B8A+2PEO+OK4PD"
+        icon="🌐"
+        highlight="登録無料"
+      />
+    </>
+  ),
+  "forex-carry-trade-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">FXキャリートレード完全ガイド</h2>
+        <p>
+          キャリートレードは、低金利通貨を売り、高金利通貨を買ってスワップポイント（金利差収益）を得る戦略。メキシコペソ（金利9%）・トルコリラ（金利40%）・南アフリカランド（金利7%）等の高金利通貨が主な対象。10万円の証拠金で1万通貨（約50万円相当）保有なら、年利3〜10%のスワップ収入。為替リスク管理が鍵です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="スワップ運用向けFX口座"
+        services={[
+          {
+            name: "SBI FXトレード",
+            rank: 1,
+            highlight: "1通貨〜｜スワップ業界最高水準",
+            features: [
+              "1通貨〜取引可能（約6円〜）",
+              "メキシコペソ・トルコリラ高スワップ",
+              "スプレッド業界最狭",
+              "手数料完全無料",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "業界No.1",
+          },
+          {
+            name: "GMOクリック証券",
+            rank: 2,
+            highlight: "取引高世界No.1",
+            features: [
+              "高金利通貨スワップ高水準",
+              "安定した運営",
+              "1000通貨〜",
+              "スマホアプリ使いやすい",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">キャリートレードの注意点</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>為替急落リスク（2018年トルコリラ-40%）で大損失</li>
+          <li>レバレッジは2〜3倍以内に抑制</li>
+          <li>ストップロス設定で下落時の損失限定</li>
+          <li>分散：複数高金利通貨に分散投資</li>
+          <li>長期保有目的、短期売買は不要</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="キャリートレードはSBI FXトレードで｜1通貨〜少額OK"
+        description="SBI FXトレードは1通貨（約6円）から取引可能、メキシコペソ・トルコリラのスワップ業界最高水準。証拠金1万円でスタート、年利5〜10%のスワップ収入獲得が現実的。"
+        buttonText="SBI FXトレードの詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="💱"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "cfd-investing-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">CFD（差金決済取引）完全ガイド</h2>
+        <p>
+          CFD（Contract for Difference）は、株価指数・コモディティ・暗号資産等を証拠金で取引する派生商品。日経225・S&P500・DAX・金・原油をレバレッジ10倍で取引可能、取引時間24時間、空売りも容易。IG証券・GMOクリック証券・DMM CFDが主要プラットフォーム。株式投資より多様な投資対象、短期トレード向きです。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="CFD取引の主要証券会社"
+        services={[
+          {
+            name: "SBI証券（米国ETF・株式CFD）",
+            rank: 1,
+            highlight: "通常取引＋CFD両対応",
+            features: [
+              "日経225・S&P500・DAX",
+              "金・原油・暗号資産",
+              "手数料業界最安",
+              "24時間取引",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "業界No.1",
+          },
+          {
+            name: "GMOクリック証券（CFD）",
+            rank: 2,
+            highlight: "業界シェアNo.1 CFD",
+            features: [
+              "業界シェアNo.1のCFD",
+              "取引手数料無料",
+              "スプレッド業界最狭",
+              "アプリ使いやすい",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">CFDの活用法</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>株価指数（S&P500・日経225）の方向性投資</li>
+          <li>金・原油のインフレヘッジ＋短期トレード</li>
+          <li>空売り（ショート）で下落相場でも利益</li>
+          <li>ヘッジ取引：株式ロング＋日経CFDショートで下落リスク相殺</li>
+          <li>レバレッジ管理：総資産5%以内のポジション</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="CFD取引はSBI証券で｜手数料業界最安"
+        description="SBI証券は株価指数CFD・商品CFD・暗号資産CFDに対応、手数料業界最安＋24時間取引。新NISA・通常取引と連動した総合ポートフォリオ構築が可能、業界No.1の取引環境。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="📊"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "option-trading-basics-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">オプション取引完全ガイド</h2>
+        <p>
+          オプションは、特定の価格で株・ETFを買う/売る権利を取引する金融商品。コール（買う権利）とプット（売る権利）の2種類、買い手は損失限定＋利益無限大、売り手は利益限定＋損失無限大。ヘッジ戦略（カバードコール・プロテクティブプット）で保有株の収益向上＋リスク管理が可能。高度な投資手法です。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">オプションの基本</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>コール</strong>：買う権利。原資産上昇で利益</li>
+          <li><strong>プット</strong>：売る権利。原資産下落で利益</li>
+          <li><strong>権利行使価格</strong>：権利行使できる価格</li>
+          <li><strong>プレミアム</strong>：オプションの購入代金</li>
+          <li><strong>満期</strong>：期限到達で権利消滅</li>
+          <li><strong>インザマネー</strong>：原資産価格が行使価格を上回る（コール）</li>
+        </ul>
+      </section>
+      <ComparisonTableCTA
+        title="オプション取引の証券会社"
+        services={[
+          {
+            name: "SBI証券（日経225オプション）",
+            rank: 1,
+            highlight: "国内最大の日経オプション取引",
+            features: [
+              "日経225オプション主力",
+              "米国オプション取引（限定）",
+              "取引手数料業界最安",
+              "取引ツール豊富",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "業界No.1",
+          },
+          {
+            name: "松井証券（日経225オプション）",
+            rank: 2,
+            highlight: "手数料無料（一部）",
+            features: [
+              "日経225オプション対応",
+              "1デイ信用取引との連携",
+              "サポート充実",
+              "顧客満足度高い",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1O+G6VESA+3XCC+6AZAQ",
+            badge: "1,000円/件",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">オプションのヘッジ戦略</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>カバードコール</strong>：保有株＋コール売りで追加収入</li>
+          <li><strong>プロテクティブプット</strong>：保有株＋プット買いで下落保険</li>
+          <li><strong>カラー戦略</strong>：カバードコール＋プロテクティブプットで上下限定</li>
+          <li><strong>ストラドル</strong>：コール＋プット同時買いで大きな値動き狙い</li>
+          <li>初心者はカバードコールから、月1〜2%の追加収入が現実的</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="オプション取引はSBI証券で｜業界最安手数料"
+        description="SBI証券は日経225オプション・米国オプション（限定）に対応、取引手数料業界最安。カバードコール・プロテクティブプット等のヘッジ戦略で、保有株の収益最大化が可能。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="📉"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "day-trading-strategy-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">デイトレード戦略完全ガイド</h2>
+        <p>
+          デイトレードは、1日のうちにポジションを完結させる短期売買スタイル。板情報（Order Book）の読み方、スキャルピング（数秒〜数分）・デイトレ（数時間）の戦略、資金管理の鉄則（1回の損失を資金の2%以内）、勝率50%超で利益を出すロジック。SBI・楽天・松井の手数料比較、成功率20%と言われる厳しい世界の実態まで解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="デイトレ向けの証券会社"
+        services={[
+          {
+            name: "SBI証券（国内株・米国株）",
+            rank: 1,
+            highlight: "手数料無料｜約定速度最速",
+            features: [
+              "国内株手数料無料",
+              "米国株も手数料無料",
+              "約定速度業界最速",
+              "ツール豊富",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "業界No.1",
+          },
+          {
+            name: "松井証券（デイトレ1日信用）",
+            rank: 2,
+            highlight: "1日信用取引金利0%",
+            features: [
+              "1日信用取引金利0%",
+              "50万円以下手数料無料",
+              "空売りし放題",
+              "デイトレ特化ツール",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1O+G6VESA+3XCC+6AZAQ",
+            badge: "1,000円/件",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">デイトレの5つの鉄則</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>①1回の損失は資金の2%以内（100万円なら2万円まで）</li>
+          <li>②必ずストップロス設定（建値-1〜3%）</li>
+          <li>③利確は損切の2〜3倍（リスクリワード1:2以上）</li>
+          <li>④取引時間は9:00〜10:30＋14:00〜15:00の好機のみ</li>
+          <li>⑤感情取引厳禁、ルール厳守</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="デイトレは松井証券で｜1日信用取引金利0%"
+        description="松井証券の1日信用取引は金利0%、空売りし放題で、デイトレーダーに最適。50万円以下の手数料無料、専用ツール充実。初心者は少額から始めて、ルール厳守でコツコツ積み上げを。"
+        buttonText="松井証券の詳細"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1O+G6VESA+3XCC+6AZAQ"
+        icon="⚡"
+        highlight="金利0%"
+      />
+    </>
+  ),
+  "swing-trading-strategy-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">スイングトレード完全ガイド</h2>
+        <p>
+          スイングトレードは、数日〜数週間保有する中期トレード戦略。デイトレより時間的余裕があり、会社員・個人投資家にも実践可能。移動平均線・MACD・RSI等のテクニカル指標、銘柄選定（出来高・時価総額・ボラティリティ）、ストップロス設定、月利3〜5%のリターン目標。年率40%超の実績も可能な、コスパ良い投資スタイルです。
+        </p>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">スイングトレードの基本指標</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li><strong>移動平均線</strong>：25日・75日線の上抜け/下抜けでトレンド判定</li>
+          <li><strong>MACD</strong>：トレンド転換のシグナル検出</li>
+          <li><strong>RSI</strong>：30以下買われすぎ解消、70以上売られすぎ</li>
+          <li><strong>出来高</strong>：急増で大きな動きの前兆</li>
+          <li><strong>ボリンジャーバンド</strong>：±2σ逸脱で逆張り</li>
+        </ul>
+      </section>
+      <ComparisonTableCTA
+        title="スイングトレードの証券会社"
+        services={[
+          {
+            name: "SBI証券（国内株・米国株スイング）",
+            rank: 1,
+            highlight: "日本株＋米国株で国際分散スイング",
+            features: [
+              "国内株手数料無料",
+              "米国株手数料無料",
+              "テクニカル分析ツール",
+              "情報量業界No.1",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "業界No.1",
+          },
+          {
+            name: "松井証券（スイング用信用取引）",
+            rank: 2,
+            highlight: "50万以下手数料無料",
+            features: [
+              "50万円以下手数料無料",
+              "信用取引で空売り可能",
+              "テクニカルツール",
+              "サポート充実",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1O+G6VESA+3XCC+6AZAQ",
+            badge: "1,000円/件",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">スイングトレードの実践5ステップ</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>①銘柄選定：出来高100万株以上・時価総額500億円以上</li>
+          <li>②エントリー：移動平均線上抜け＋RSI 30-70内</li>
+          <li>③ストップロス：建値-3〜5%で必ず設定</li>
+          <li>④利確：+10〜20%or 移動平均線下抜けで売却</li>
+          <li>⑤週1回の振り返り：勝率・リスクリワード確認</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="スイングトレードはSBI証券で｜国内＋米国株"
+        description="SBI証券で国内株＋米国株のスイングトレード、両市場の手数料無料＋テクニカル分析ツール充実。業界No.1の情報量で、初心者〜上級者まで月利3〜5%を目指せる環境。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="🌊"
+        highlight="業界No.1"
+      />
+    </>
+  ),
 };
