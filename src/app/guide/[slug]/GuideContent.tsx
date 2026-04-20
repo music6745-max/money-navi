@@ -23978,4 +23978,491 @@ const guideContents: Record<string, React.ReactNode> = {
       />
     </>
   ),
+  "new-startup-tax-credit-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">スタートアップ支援税制｜エンジェル税制の最新活用法</h2>
+        <p>
+          2023年大幅拡充されたスタートアップ支援税制（エンジェル税制）は、未上場スタートアップへの投資で最大1億円以上の税額控除が可能。プレシード・シード特例（20億円まで全額控除）・非上場株式譲渡益20億円非課税等、富裕層の節税戦略として活用価値が急上昇しています。本記事でその全貌を解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="エンジェル税制の4タイプ比較"
+        services={[
+          {
+            name: "プレシード・シード特例",
+            rank: 1,
+            highlight: "20億円まで全額控除",
+            features: [
+              "2023年4月施行の新制度",
+              "投資額20億円まで全額課税所得控除",
+              "スタートアップ創業5年以内対象",
+              "超富裕層の最強節税手段",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+            badge: "最強",
+          },
+          {
+            name: "優遇措置A",
+            rank: 2,
+            highlight: "総所得から控除",
+            features: [
+              "対象企業への投資額-2,000円",
+              "総所得金額等×40%が上限",
+              "設立3年未満企業対象",
+              "年収高い人ほど有利",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+          {
+            name: "優遇措置B・Bプラス",
+            rank: 3,
+            highlight: "株式譲渡益から控除",
+            features: [
+              "優遇B：株式譲渡益から控除",
+              "優遇Bプラス：20億円まで非課税",
+              "設立10年未満企業対象",
+              "出口戦略重視",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">節税効果シミュレーション</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>年収3000万円・投資1000万円の場合、優遇A適用で税額200〜300万円減</li>
+          <li>株式譲渡益1億円・投資5000万円の場合、優遇B適用で税額1000万円減</li>
+          <li>プレシード特例は投資額全額が所得控除、超富裕層なら最大55%の節税</li>
+          <li>Bプラスで20億円まで譲渡益非課税、M&A成功時のリターン最大化</li>
+          <li>5〜10年の長期投資が前提、出口（IPO・M&A）確保が重要</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="エンジェル税制の詳細は税理士ドットコムで｜専門家無料マッチング"
+        description="税理士ドットコムでは、エンジェル税制・プレシード特例・優遇措置Bプラス等の高度な税務対応経験のある税理士を無料で紹介。富裕層の節税戦略に特化した専門家を全国から探せる。"
+        buttonText="税理士ドットコムで無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5"
+        icon="🚀"
+        highlight="無料マッチング"
+      />
+    </>
+  ),
+  "hometown-tax-advanced-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">ふるさと納税上級活用術</h2>
+        <p>
+          ふるさと納税は「2,000円の自己負担で返礼品（寄付額の30%）」が基本ですが、上級者は年収別限度額の見極め・ワンストップ特例vs確定申告・楽天ポイント還元・医療費控除との併用で実質メリットを最大化します。年収800万円なら年12万円寄付で返礼品4万円相当＋楽天ポイント1万円獲得可能です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="ふるさと納税 申告方式の比較"
+        services={[
+          {
+            name: "ワンストップ特例",
+            rank: 1,
+            highlight: "年5自治体まで簡単",
+            features: [
+              "確定申告不要",
+              "年5自治体まで",
+              "住民税のみ控除（所得税還付なし）",
+              "サラリーマン向き",
+            ],
+            href: "https://search.rakuten.co.jp/search/mall/%E3%81%B5%E3%82%8B%E3%81%95%E3%81%A8%E7%B4%8D%E7%A8%8E/",
+            badge: "簡単",
+          },
+          {
+            name: "確定申告（推奨）",
+            rank: 2,
+            highlight: "無制限＋医療費控除併用可",
+            features: [
+              "寄付自治体数に制限なし",
+              "所得税還付＋住民税控除",
+              "医療費控除・副業と併用可",
+              "e-Taxで簡単",
+            ],
+            href: "https://search.rakuten.co.jp/search/mall/%E3%81%B5%E3%82%8B%E3%81%95%E3%81%A8%E7%B4%8D%E7%A8%8E/",
+          },
+          {
+            name: "楽天ふるさと納税",
+            rank: 3,
+            highlight: "ポイント還元最大化",
+            features: [
+              "SPU最大16倍還元",
+              "お買い物マラソンで+10倍",
+              "寄付額の10%以上ポイント還元",
+              "楽天経済圏ユーザー必須",
+            ],
+            href: "https://search.rakuten.co.jp/search/mall/%E3%81%B5%E3%82%8B%E3%81%95%E3%81%A8%E7%B4%8D%E7%A8%8E/",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">年収別ふるさと納税限度額</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>年収400万円（独身）：年42,000円（返礼品13,000円相当）</li>
+          <li>年収600万円（独身）：年77,000円（返礼品23,000円相当）</li>
+          <li>年収800万円（独身）：年130,000円（返礼品40,000円相当）</li>
+          <li>年収1000万円（独身）：年176,000円（返礼品53,000円相当）</li>
+          <li>年収1500万円（独身）：年390,000円（返礼品117,000円相当）</li>
+          <li>年収2000万円（独身）：年570,000円（返礼品170,000円相当）</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="楽天ふるさと納税でポイント大量還元｜SPU最大16倍"
+        description="楽天ふるさと納税は、寄付額に応じて通常購入の最大16倍のポイント還元。お買い物マラソン期間中は+10倍、年末年始キャンペーンと合わせれば寄付額の15〜20%がポイントで戻る。楽天経済圏ユーザー必須。"
+        buttonText="楽天ふるさと納税で探す"
+        href="https://search.rakuten.co.jp/search/mall/%E3%81%B5%E3%82%8B%E3%81%95%E3%81%A8%E7%B4%8D%E7%A8%8E/"
+        icon="🎁"
+        highlight="ポイント最大化"
+      />
+    </>
+  ),
+  "corporate-dc-detail-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">企業型確定拠出年金（DC）完全ガイド</h2>
+        <p>
+          企業型DC（確定拠出年金）は、企業が掛金を拠出し従業員が運用する退職年金制度。2022年改正でiDeCo併用ルールが緩和（事業主掛金5.5万円以内なら併用可）、マッチング拠出の活用、運用商品の選定、退職時のiDeCo移換等、活用次第で老後資金に1000万円以上の差が出る重要制度です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="企業型DC×iDeCo併用の最適解"
+        services={[
+          {
+            name: "企業型DCのみ（マッチング拠出）",
+            rank: 1,
+            highlight: "事業主+従業員で節税",
+            features: [
+              "事業主掛金月5.5万円以内",
+              "従業員マッチング（事業主同額まで）",
+              "合計月5.5万円節税可能",
+              "給与所得控除＋全額非課税運用",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/ideco/lp/lpideco.html",
+            badge: "王道",
+          },
+          {
+            name: "企業型DC×iDeCo併用",
+            rank: 2,
+            highlight: "月最大5.5万円",
+            features: [
+              "2022年10月改正で併用可能に",
+              "事業主掛金月5.5万円以内で",
+              "iDeCoも月2万円まで追加可能",
+              "年収1000万円超なら最強",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/ideco/lp/lpideco.html",
+          },
+          {
+            name: "退職時にiDeCoへ移換",
+            rank: 3,
+            highlight: "自営業・転職後の継続",
+            features: [
+              "退職後6ヶ月以内に移換必須",
+              "iDeCoで自由に運用継続",
+              "SBI・楽天証券が手数料最安",
+              "60歳まで引き出し不可",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/ideco/lp/lpideco.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">企業型DC運用のコツ</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>元本確保型（定期預金・保険）ではなく、投資信託で運用（年4〜8%リターン狙う）</li>
+          <li>インデックス型（MAXIS 日経平均・DIAM外国株等）の低コスト商品選定</li>
+          <li>年1回の配分見直し（リバランス）で初期配分に戻す</li>
+          <li>マッチング拠出は月5,000円から可能、給与所得控除も含め年間数十万円節税</li>
+          <li>転職・退職時のiDeCo移換を忘れずに（6ヶ月以内）</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="iDeCoへの移換はSBI証券で｜手数料業界最安"
+        description="SBI証券のiDeCoは運営管理手数料0円、投資信託約40本のラインナップで運用商品を自由選択可能。企業型DCからの移換も簡単、60歳まで非課税運用で老後資金を大きく育てられる。"
+        buttonText="SBI証券iDeCoの詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/ideco/lp/lpideco.html"
+        icon="🏢"
+        highlight="手数料0円"
+      />
+    </>
+  ),
+  "investment-tax-schedule-detail": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">投資の税金完全ガイド</h2>
+        <p>
+          株式・投資信託・ETFの売買益・配当は申告分離課税20.315%（所得税15.315%＋住民税5%）。新NISA口座なら非課税、特定口座（源泉徴収あり）なら申告不要、損失は確定申告で3年繰越控除可能。配当金の受取方式（株式数比例配分・登録配当金方式）の選択もNISA効率を左右する重要ポイントです。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="投資口座タイプの比較"
+        services={[
+          {
+            name: "新NISA口座",
+            rank: 1,
+            highlight: "永年非課税",
+            features: [
+              "売却益・配当が全て非課税",
+              "年360万円・生涯1800万円",
+              "確定申告不要",
+              "損失繰越不可",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "最優先",
+          },
+          {
+            name: "特定口座（源泉徴収あり）",
+            rank: 2,
+            highlight: "申告不要で簡単",
+            features: [
+              "売却益・配当20.315%源泉徴収",
+              "確定申告原則不要",
+              "他口座との損益通算で申告可",
+              "会社員・忙しい人向き",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "特定口座（源泉徴収なし）",
+            rank: 3,
+            highlight: "確定申告必須",
+            features: [
+              "売却益20万円超で申告必要",
+              "他の所得と合算可能",
+              "損失繰越3年可能",
+              "税金コントロール自由",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">節税戦略のポイント</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>新NISA枠優先、枠を使い切ってから特定口座</li>
+          <li>配当金は「株式数比例配分方式」でNISA非課税適用（登録配当金方式は課税）</li>
+          <li>年末に含み損銘柄売却→益出し相殺で税金ゼロ（損出し戦略）</li>
+          <li>3年繰越控除を活用、確定申告で翌年以降の益と相殺</li>
+          <li>配当控除（所得税5〜10%の税額控除）で国内株配当の税負担軽減</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="税効率の良い投資はSBI証券で｜新NISA＋特定口座連携"
+        description="SBI証券は新NISA・特定口座を1つの画面で統合管理。配当金は株式数比例配分方式でNISA非課税最大化、損益通算・繰越控除も自動計算、確定申告書類も簡単ダウンロード可能。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="📋"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "crypto-tax-optimization-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">暗号資産節税戦略完全ガイド</h2>
+        <p>
+          暗号資産（仮想通貨）は雑所得課税で累進最大55%（住民税含む）。株式（20%）に比べて圧倒的に不利ですが、法人化（法人税約20〜23%）・損失時期のコントロール・ステーキング/DeFi収益の適切な申告で税負担を大幅に抑えられます。海外移住（シンガポール・UAE等）も上級者の選択肢です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="暗号資産節税の主な手段"
+        services={[
+          {
+            name: "マイクロ法人設立",
+            rank: 1,
+            highlight: "税率55%→23%に半減",
+            features: [
+              "法人税約23%（所得800万円以下15%）",
+              "経費計上範囲大幅拡大",
+              "役員報酬で給与所得控除活用",
+              "設立費用20〜30万円",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+            badge: "王道",
+          },
+          {
+            name: "損益通算＆繰越",
+            rank: 2,
+            highlight: "暗号資産内は可",
+            features: [
+              "同年内の暗号資産同士は損益通算可",
+              "株式との損益通算は不可",
+              "繰越控除も不可（株式と違い）",
+              "年内での利確・損切りのタイミング調整",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+          {
+            name: "海外移住（上級）",
+            rank: 3,
+            highlight: "シンガポール・UAE等",
+            features: [
+              "シンガポール：暗号資産売却益非課税",
+              "UAE：所得税なし",
+              "マレーシア：MM2H制度",
+              "年収数千万超の富裕層向け",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">申告の注意点</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>取引ごとに損益計算必要（移動平均法または総平均法）</li>
+          <li>ステーキング・DeFi報酬は受領時の時価で雑所得計上</li>
+          <li>NFT売却益も雑所得（営利目的継続的なら事業所得）</li>
+          <li>ハードフォークで得た新トークンは受領時時価で所得計上</li>
+          <li>Cryptact・Gtax等の税計算ソフト（年1〜3万円）で自動化推奨</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="暗号資産の節税は税理士ドットコムで｜仮想通貨税務専門"
+        description="税理士ドットコムでは暗号資産・DeFi・NFT税務に詳しい税理士を無料マッチング。法人化設計・確定申告書類作成・複雑な取引履歴の損益計算まで、暗号資産投資家の節税を徹底サポート。"
+        buttonText="税理士ドットコムで無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5"
+        icon="₿"
+        highlight="仮想通貨専門"
+      />
+    </>
+  ),
+  "real-estate-depreciation-strategy": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">不動産減価償却節税完全ガイド</h2>
+        <p>
+          不動産投資の大きな魅力は、減価償却費による節税効果です。建物取得価格を法定耐用年数で分割して毎年経費計上、給与所得との損益通算で所得税・住民税を圧縮可能。特に築古木造物件の簡便法（残耐用年数4年で全額償却）・米国不動産の建物割合80%を活用すると、年収1500万円超の高所得者は数百万円の節税が可能です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="減価償却戦略の比較"
+        services={[
+          {
+            name: "築古木造（簡便法）",
+            rank: 1,
+            highlight: "4年で全額償却",
+            features: [
+              "築22年超の木造は耐用年数4年",
+              "年間25%ずつ償却可能",
+              "2000万円物件で年500万円経費計上",
+              "年収1500万円超の節税最強",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+            badge: "王道",
+          },
+          {
+            name: "米国不動産",
+            rank: 2,
+            highlight: "建物割合80%・短期償却",
+            features: [
+              "木造27.5年・土地は償却なし",
+              "日本は土地20%・建物80%が標準",
+              "米国は土地10%・建物90%が一般的",
+              "為替リスクあるも節税効果高",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+          {
+            name: "RC造マンション（長期保有）",
+            rank: 3,
+            highlight: "耐用年数47年",
+            features: [
+              "新築RC造は47年償却",
+              "毎年2.1%ずつ償却",
+              "安定したキャッシュフロー",
+              "長期保有向き",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">デッドクロスに注意</h2>
+        <p className="text-sm">
+          築古木造の簡便法による4年償却は、5年目以降に減価償却費がゼロになるため、急激な所得税増加（デッドクロス）を引き起こします。対策は5年目直前に売却（出口戦略）、新規物件取得で償却費を維持等。税理士と連携した長期シミュレーションが重要です。
+        </p>
+      </section>
+      <AffiliateCTA
+        title="不動産節税の最適解は税理士ドットコムで｜不動産税務専門家"
+        description="税理士ドットコムでは不動産投資・減価償却・デッドクロス対策に強い税理士を無料マッチング。築古物件・米国不動産・法人化を総合的に検討し、年収数千万円の高所得者の節税を最大化。"
+        buttonText="税理士ドットコムで無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5"
+        icon="🏠"
+        highlight="不動産税務専門"
+      />
+    </>
+  ),
+  "company-expense-rules-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">会社員の経費計上ルール完全ガイド</h2>
+        <p>
+          会社員でも確定申告で経費を計上する方法があります。特定支出控除（給与所得控除を超える経費があれば追加控除）、副業収入からの経費計上（雑所得or事業所得）、各種控除の活用で年数十万円の節税が可能。年収800万円・経費100万円なら所得税20〜30万円の還付を受けられます。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="会社員の経費計上の3ルート"
+        services={[
+          {
+            name: "特定支出控除",
+            rank: 1,
+            highlight: "給与所得控除超で追加控除",
+            features: [
+              "通勤費・転居費・研修費等が対象",
+              "給与所得控除の半分超で適用",
+              "年収500万円なら控除額77万円超",
+              "会社の証明書必要",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+          {
+            name: "副業の経費計上",
+            rank: 2,
+            highlight: "事業所得なら青色65万円控除",
+            features: [
+              "副業収入から経費差引き",
+              "事業所得（300万円超）は青色申告可",
+              "パソコン・通信費・書籍・交通費",
+              "家事按分（家賃・光熱費の一部）",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+            badge: "実用的",
+          },
+          {
+            name: "各種所得控除",
+            rank: 3,
+            highlight: "医療費・ふるさと納税・iDeCo",
+            features: [
+              "医療費控除（年10万円超分）",
+              "ふるさと納税（年収別限度額）",
+              "iDeCo全額控除（月2.3万円）",
+              "地震保険料控除（年5万円まで）",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">具体的な節税効果</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>年収800万円・副業経費100万円：所得税・住民税で年30万円節税</li>
+          <li>年収1000万円・特定支出控除50万円：年20万円節税</li>
+          <li>年収500万円・医療費20万円・ふるさと納税77,000円：年5万円節税</li>
+          <li>iDeCo月2万円：年収600万円で年7.2万円節税</li>
+          <li>副業事業所得＋青色申告65万円控除：追加で年13万円節税</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="確定申告はfreeeで｜会社員の副業・経費計上も簡単"
+        description="freee会計はスマホから5分で確定申告完了。副業経費の仕訳・家事按分・青色申告65万円控除の書類作成まで全自動。税理士ドットコムで税務相談も併用可能、会社員の節税を最大化。"
+        buttonText="税理士ドットコムで無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5"
+        icon="💼"
+        highlight="副業節税"
+      />
+    </>
+  ),
 };
