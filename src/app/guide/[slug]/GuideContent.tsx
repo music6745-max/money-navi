@@ -24953,4 +24953,497 @@ const guideContents: Record<string, React.ReactNode> = {
       />
     </>
   ),
+  "rakuten-economy-master-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">楽天経済圏完全攻略ガイド</h2>
+        <p>
+          楽天経済圏は、楽天カード・楽天モバイル・楽天証券・楽天銀行・楽天ひかりの5大サービス連携でSPU（スーパーポイントアッププログラム）最大16倍を実現可能。平均的な4人家族なら年間10〜20万ポイント獲得、楽天市場での買い物で30%以上の還元も。改悪対応と他経済圏との比較で、最適活用法を解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="楽天SPU上乗せ倍率の主要要素"
+        services={[
+          {
+            name: "楽天カード（基本）",
+            rank: 1,
+            highlight: "SPU +2倍・月上限5000pt",
+            features: [
+              "楽天カード通常：+1倍",
+              "楽天プレミアムカード：+2倍",
+              "年会費無料で始めやすい",
+              "楽天市場での定番",
+            ],
+            href: "https://hb.afl.rakuten.co.jp/hgc/g00n15i1.3cb8aef3.g00n15i2.3cb8af52/?pc=https%3A%2F%2Fwww.rakuten-card.co.jp%2F",
+            badge: "必須",
+          },
+          {
+            name: "楽天モバイル",
+            rank: 2,
+            highlight: "SPU +4倍・月上限5000pt",
+            features: [
+              "3GB以下2,980円/月",
+              "Rakuten最強プラン",
+              "家族割引あり",
+              "楽天ペイ還元1%も",
+            ],
+            href: "https://hb.afl.rakuten.co.jp/hgc/g00n15i1.3cb8aef3.g00n15i2.3cb8af52/?pc=https%3A%2F%2Fnetwork.mobile.rakuten.co.jp%2F",
+          },
+          {
+            name: "楽天証券×楽天カード積立",
+            rank: 3,
+            highlight: "SPU +1倍＋月1%還元",
+            features: [
+              "投信積立月5万円まで",
+              "楽天カード積立で1%還元",
+              "楽天キャッシュ積立併用可",
+              "新NISA対応",
+            ],
+            href: "https://hb.afl.rakuten.co.jp/hgc/g00n15i1.3cb8aef3.g00n15i2.3cb8af52/?pc=https%3A%2F%2Fwww.rakuten-sec.co.jp%2F",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">年間20万ポイント獲得の実例</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>楽天市場（月10万円利用）：月5000pt×12＝60,000pt</li>
+          <li>楽天カード（月30万円利用）：月3000pt×12＝36,000pt</li>
+          <li>楽天モバイル・ひかりSPU：月5000pt×12＝60,000pt</li>
+          <li>お買い物マラソン（月1〜2回参加）：月5000〜15000pt×12＝120,000pt</li>
+          <li>楽天ふるさと納税（年20万円寄付）：30,000pt</li>
+          <li>年間合計：200,000〜250,000pt（実質年収+20〜25万円）</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="楽天経済圏スタートは楽天カードから｜新規入会8000pt"
+        description="楽天カードは楽天経済圏の土台。年会費永年無料、新規入会＋利用で8000pt獲得（過去最大2万pt時期も）。楽天市場SPU+1倍、楽天ペイ・楽天Edy・楽天銀行と連携で還元率は3〜5%にUP。"
+        buttonText="楽天カードの詳細"
+        href="https://hb.afl.rakuten.co.jp/hgc/g00n15i1.3cb8aef3.g00n15i2.3cb8af52/?pc=https%3A%2F%2Fwww.rakuten-card.co.jp%2F"
+        icon="🎯"
+        highlight="新規8000pt"
+      />
+    </>
+  ),
+  "paypay-docomo-ecosystem-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">docomo経済圏完全ガイド</h2>
+        <p>
+          docomo経済圏は、dポイント・d払い・ドコモ光・ahamo・dカードGOLD等の連携で、年間10〜20万ポイント獲得が可能。楽天経済圏より地味ですが、3キャリアで最もユーザー数多く、dカードGOLDの金色サービス（ケータイ補償・海外旅行保険）等、付加価値で差別化されている経済圏です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="docomo経済圏の主要サービス"
+        services={[
+          {
+            name: "dカードGOLD",
+            rank: 1,
+            highlight: "ドコモ利用10%還元",
+            features: [
+              "ドコモ料金・ドコモ光10%還元",
+              "年会費11,000円（ケータイ補償10万円付帯）",
+              "海外旅行保険最大1億円",
+              "ドコモユーザー必須",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+            badge: "王道",
+          },
+          {
+            name: "dポイント・d払い",
+            rank: 2,
+            highlight: "ポイント最大10%還元",
+            features: [
+              "d払い：0.5〜1%還元",
+              "dポイントカード：特定店最大7%",
+              "dポイント投資（SBI・マネックス）",
+              "全国130万店舗で利用可",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+          {
+            name: "dポイントクラブ（LINEMO・ahamo）",
+            rank: 3,
+            highlight: "格安プランでdポイント",
+            features: [
+              "ahamo：月20GB 2970円",
+              "LINEMO：月3GB 990円〜",
+              "dポイントが貯まる・使える",
+              "eSIM対応",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">楽天経済圏との比較</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>還元率：楽天（最大16倍）＞docomo（最大10%）でポイント絶対額は楽天優位</li>
+          <li>ユーザー数：docomo 9000万人＞楽天 5000万人で安定性はdocomo優位</li>
+          <li>付帯保険：dカードGOLD（ケータイ補償10万円）が楽天プレミアム超え</li>
+          <li>キャリアメール：docomo＠docomo.ne.jp継続、楽天なし</li>
+          <li>選び方：楽天市場よく使うなら楽天、docomoモバイル契約あるならdocomo優位</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="docomo経済圏はdカードGOLDから｜年会費11,000円で元取れる"
+        description="dカードGOLDはドコモ料金・ドコモ光の10%還元、ケータイ補償10万円付帯、海外旅行保険最大1億円。ドコモユーザーなら年会費11,000円は月1万円のモバイル利用で完全に元取れる、家族カードも1枚無料。"
+        buttonText="dカードGOLDの詳細"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5"
+        icon="📱"
+        highlight="ドコモ10%還元"
+      />
+    </>
+  ),
+  "paypay-softbank-economy-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">PayPay経済圏完全攻略</h2>
+        <p>
+          PayPay経済圏は、PayPayカード・ソフトバンクモバイル・PayPay証券・Yahoo! Japan・LYPプレミアム等の連携で、PayPay残高やPayPayポイントを中心とした決済＆買い物の総合エコシステム。6000万人超のPayPayユーザーで国内最大級のキャッシュレス経済圏、Yahoo!ショッピング・LOHACOでの還元率10%超も可能です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="PayPay経済圏の主要サービス"
+        services={[
+          {
+            name: "PayPayカード（基本）",
+            rank: 1,
+            highlight: "PayPayに即チャージ",
+            features: [
+              "還元率1%（PayPay残高）",
+              "年会費永年無料",
+              "Yahoo!ショッピング3%還元",
+              "ソフトバンク・ワイモバイル割引",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+            badge: "王道",
+          },
+          {
+            name: "LYPプレミアム",
+            rank: 2,
+            highlight: "月508円の有料会員",
+            features: [
+              "Yahoo!ショッピング5%還元",
+              "PayPayジャンボ当選率UP",
+              "LINEギガフリー",
+              "ソフトバンクユーザー無料",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+          {
+            name: "PayPay証券・PayPay銀行",
+            rank: 3,
+            highlight: "1000円からの投資",
+            features: [
+              "PayPay証券：米国株1000円から",
+              "PayPay銀行：ATM手数料優遇",
+              "金融連携で利便性UP",
+              "新NISA対応",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">還元率最大化の戦略</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>PayPayカード＋ソフトバンクスマホで+5%還元</li>
+          <li>Yahoo!ショッピング：LYPプレミアム会員なら+5%、毎月5のつく日＋5%で計15%還元</li>
+          <li>LOHACO（Yahoo!系）：PayPayジャンボで最大100%還元のチャンス</li>
+          <li>PayPay残高払い＋ポイント2重取りで決済還元2〜3%</li>
+          <li>月利用10万円で年20〜30万円のPayPayポイント獲得可能</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="PayPay経済圏はPayPayカードから｜年会費無料で還元1%"
+        description="PayPayカードは年会費永年無料、PayPay残高チャージで1%還元、Yahoo!ショッピング3%還元。ソフトバンク・ワイモバイル・LINEMOユーザーは特別優待あり、PayPay決済とのシナジーでキャッシュレス還元を最大化できる。"
+        buttonText="PayPayカードの詳細"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5"
+        icon="💳"
+        highlight="年会費無料"
+      />
+    </>
+  ),
+  "au-pontas-ecosystem-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">au経済圏（Ponta）完全ガイド</h2>
+        <p>
+          au経済圏は、au PAYカード・UQモバイル・auじぶん銀行・Pontaポイント等の連携で、3キャリアの中では最も提携ポイント（Pontaポイント）の汎用性が高い特徴があります。ローソン・じゃらん・高島屋・ホットペッパーグルメ等でPontaが使える強みで、買い物・旅行派には大きな魅力です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="au経済圏の主要サービス"
+        services={[
+          {
+            name: "au PAYカード",
+            rank: 1,
+            highlight: "Pontaポイント還元1%",
+            features: [
+              "年会費無料（ゴールドは1,375円）",
+              "au PAYチャージで1.5%還元",
+              "au料金・auでんき還元",
+              "au PAY連携で還元率UP",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+            badge: "王道",
+          },
+          {
+            name: "UQモバイル",
+            rank: 2,
+            highlight: "格安プラン+Ponta",
+            features: [
+              "くりこしプラン+5G：月1628円〜",
+              "Pontaポイントが貯まる",
+              "auじぶん銀行と自動連携",
+              "au PAY還元率UP",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+          {
+            name: "auじぶん銀行",
+            rank: 3,
+            highlight: "au系金融連携",
+            features: [
+              "普通預金金利0.21%（au PAY連携）",
+              "ATM手数料優遇",
+              "外貨預金・投資信託対応",
+              "au PAYチャージで還元",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">Pontaポイントの使い勝手</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>ローソン：毎週火・金曜にお試し引換券（Ponta 15〜30P → 定価150〜300円商品）</li>
+          <li>じゃらん：旅行予約で2〜5%還元・宿泊代に使える</li>
+          <li>高島屋・ホットペッパーグルメ：決済でPonta使用・還元</li>
+          <li>au PAYマーケット：楽天・Amazonより安いことも、キャンペーン多数</li>
+          <li>Ponta投資（auじぶん）：1P＝1円で投資信託購入可能</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="au経済圏はau PAYカードから｜年会費無料・Ponta1%還元"
+        description="au PAYカードは年会費無料でPontaポイント1%還元。au PAYチャージで1.5%還元にUP、auユーザーはさらに割引。ローソン・じゃらん・高島屋等でPontaが使える汎用性の高さが魅力、買い物・旅行好きに最適。"
+        buttonText="au PAYカードの詳細"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5"
+        icon="📲"
+        highlight="Ponta1%還元"
+      />
+    </>
+  ),
+  "aeon-waon-economy-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">イオン経済圏完全ガイド</h2>
+        <p>
+          イオン経済圏は、WAON・イオンカードセレクト・イオン銀行・WAON POINT・ウエルシア等の連携で、主婦・ファミリー層に圧倒的人気。毎月20日・30日のお客さま感謝デー5%OFF、毎月20日ウエルシアデー（WAON POINT 1.5倍）等、日常的な節約効果が大きく、年間10〜30万円の節約が可能な経済圏です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="イオン経済圏の主要サービス"
+        services={[
+          {
+            name: "イオンカードセレクト",
+            rank: 1,
+            highlight: "WAONオートチャージで二重取り",
+            features: [
+              "年会費永年無料",
+              "WAONオートチャージで0.5%還元",
+              "WAON決済で0.5%還元（計1%）",
+              "イオンで5%OFF（毎月20日・30日）",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+            badge: "王道",
+          },
+          {
+            name: "ウエルシア（WAONポイント1.5倍）",
+            rank: 2,
+            highlight: "毎月20日・月曜日1.5倍",
+            features: [
+              "毎月20日（ウエルシアデー）WAON 1.5倍",
+              "月曜日もWAON 1.5倍",
+              "薬・食品・日用品全品対象",
+              "医療費控除対象商品多数",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+          {
+            name: "イオン銀行",
+            rank: 3,
+            highlight: "ATM手数料無料",
+            features: [
+              "イオン銀行ATM・コンビニATM無料",
+              "イオンカードと自動連携",
+              "普通預金金利優遇",
+              "住宅ローンの繰上返済手数料無料",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">主婦層に人気の理由</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>毎月20日・30日のお客さま感謝デー5%OFF（食品・日用品も対象）</li>
+          <li>G.G感謝デー（55歳以上対象、毎月15日5%OFF）</li>
+          <li>ウエルシアで医薬品・オムツを節約（WAON 1.5倍で実質7.5%還元）</li>
+          <li>映画館（イオンシネマ）1000円鑑賞（株主優待・クーポン併用）</li>
+          <li>イオンペット・旅行・保険・住宅ローン等、生活全般をカバー</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="イオン経済圏はイオンカードセレクトから｜年会費無料"
+        description="イオンカードセレクトは年会費永年無料、イオングループで5%OFF（毎月20日・30日）、WAONオートチャージで1%還元。主婦・ファミリー層の日常支出を年間10〜30万円削減、イオン銀行ATM無料で日常の財布にも。"
+        buttonText="イオンカードセレクトの詳細"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5"
+        icon="🛒"
+        highlight="年会費無料"
+      />
+    </>
+  ),
+  "credit-card-combination-strategy": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">クレカ3枚持ち戦略｜還元率最大化</h2>
+        <p>
+          クレカ3枚持ち戦略は、メインカード（万能1%還元）＋サブカード（ジャンル特化3〜5%還元）＋投資用（クレカ積立ポイント）の組合せで、年間還元額を最大化する王道戦略。実質還元率2〜3%を実現し、年間利用300万円なら年間還元6〜9万円のキャッシュバック効果が得られます。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="最強3枚組合せの例"
+        services={[
+          {
+            name: "メイン：三井住友カードNL",
+            rank: 1,
+            highlight: "対象店舗で最大7%還元",
+            features: [
+              "年会費永年無料",
+              "対象コンビニ・飲食店で最大7%",
+              "Visaタッチ決済で高還元",
+              "SBI証券クレカ積立で0.5〜3%",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+            badge: "メイン",
+          },
+          {
+            name: "サブ：楽天カード",
+            rank: 2,
+            highlight: "楽天経済圏で高還元",
+            features: [
+              "年会費永年無料",
+              "楽天市場SPU+1倍",
+              "楽天ペイ・楽天Edy連携",
+              "楽天証券クレカ積立で1%",
+            ],
+            href: "https://hb.afl.rakuten.co.jp/hgc/g00n15i1.3cb8aef3.g00n15i2.3cb8af52/?pc=https%3A%2F%2Fwww.rakuten-card.co.jp%2F",
+          },
+          {
+            name: "特化：リクルートカード or エポス",
+            rank: 3,
+            highlight: "公共料金1.2% or マルイ10%",
+            features: [
+              "リクルートカード：公共料金も1.2%",
+              "エポスカード：マルイ10%OFF・海外保険",
+              "サブで年会費無料維持",
+              "用途別に使い分け",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">3枚使い分けの実例</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>三井住友NL：コンビニ・マクドナルド・スタバで7%還元</li>
+          <li>楽天カード：楽天市場・楽天ペイ・楽天トラベルで3〜5%</li>
+          <li>リクルート：公共料金（電気・ガス・水道・携帯）で1.2%</li>
+          <li>投資用：SBI証券×三井住友プラチナプリファードで3%還元</li>
+          <li>年300万円利用で年間還元6〜9万円（実質年収+6〜9万円）</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="最強3枚組合せは三井住友カードNLから｜コンビニ7%還元"
+        description="三井住友カードNLは年会費永年無料、対象コンビニ・飲食店で最大7%還元（Visaタッチ決済）。SBI証券のクレカ積立で0.5〜3%の還元も、新NISA運用と合わせて資産形成の基盤に。3枚持ち戦略のメインカードに最適。"
+        buttonText="三井住友カードNLの詳細"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5"
+        icon="🎴"
+        highlight="最大7%還元"
+      />
+    </>
+  ),
+  "point-site-maximize-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">ポイントサイト攻略法完全ガイド</h2>
+        <p>
+          ポイントサイト（ハピタス・モッピー・ECナビ）は、クレカ発行・口座開設・証券口座・各種申込みを経由することで、通常の申込みでは得られない高額ポイントを獲得できる裏技的サービス。年10〜30万円相当のポイント獲得が可能で、楽天・Yahoo・Amazon経由利用でも1〜5%の還元上乗せができます。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="主要ポイントサイト比較"
+        services={[
+          {
+            name: "ハピタス",
+            rank: 1,
+            highlight: "案件数No.1・交換手数料無料",
+            features: [
+              "高額案件の主要獲得先",
+              "3000以上の対応ショップ",
+              "現金・電子マネー交換無料",
+              "JRE POINT・dポイント等に交換可",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+            badge: "王道",
+          },
+          {
+            name: "モッピー",
+            rank: 2,
+            highlight: "高単価案件で月1万以上稼げる",
+            features: [
+              "高単価広告案件が豊富",
+              "友達紹介で追加ポイント",
+              "ミニゲーム・アンケートで毎日稼げる",
+              "交換先多数（現金・電子マネー・マイル）",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+          {
+            name: "ECナビ",
+            rank: 3,
+            highlight: "Yahoo!グループで安心",
+            features: [
+              "Yahoo!系列運営",
+              "高額案件多数",
+              "Tポイント・PayPayポイントと連携",
+              "20歳以上なら誰でも登録可",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">年間10〜30万円獲得の実例</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>楽天カード発行：ハピタス経由で8000〜15000pt</li>
+          <li>SBI証券口座開設：10000pt</li>
+          <li>FX口座開設：20000〜40000pt（GMO・DMM・外為どっとコム）</li>
+          <li>U-NEXT申込：2000pt</li>
+          <li>保険相談：3000〜10000pt（保険マンモス・マネプロ等）</li>
+          <li>楽天・Yahoo・Amazon経由利用：年5万円利用で1000〜3000pt</li>
+          <li>年間合計：10〜30万円のポイント（実質年収+10〜30万円）</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="ポイ活の始まりはハピタスから｜新規登録で400pt"
+        description="ハピタスは業界No.1のポイントサイト、クレカ・証券・FX申込で年10〜30万円獲得可能。現金・電子マネー交換も手数料無料、始めやすさ・安全性・高還元率の3拍子揃った最強のポイ活プラットフォーム。"
+        buttonText="ハピタスで無料登録"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5"
+        icon="🎁"
+        highlight="新規400pt"
+      />
+    </>
+  ),
 };
