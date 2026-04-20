@@ -22056,4 +22056,434 @@ const guideContents: Record<string, React.ReactNode> = {
       />
     </>
   ),
+  "fintech-startup-investment-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">フィンテック投資完全ガイド</h2>
+        <p>
+          フィンテック（Finance×Technology）は、キャッシュレス決済・デジタル銀行・投資アプリ等、金融×ITの成長分野。Square（Block）・PayPal・Adyen・Marqeta等のグローバル企業が急成長中、2030年までに市場規模1兆ドル予測。FINX・IPAY等のフィンテックETFで分散投資可能、新NISA成長枠で非課税運用できる注目テーマです。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="フィンテック投資の主要銘柄"
+        services={[
+          {
+            name: "FINX（Global X フィンテック）",
+            rank: 1,
+            highlight: "フィンテック総合ETF",
+            features: [
+              "Square・PayPal・Adyen等",
+              "信託報酬0.68%",
+              "グローバル分散",
+              "AI・ブロックチェーン含む",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "王道",
+          },
+          {
+            name: "IPAY（ETFMG プライム モバイル決済）",
+            rank: 2,
+            highlight: "決済特化ETF",
+            features: [
+              "Visa・Mastercard含む",
+              "モバイル決済企業",
+              "信託報酬0.75%",
+              "キャッシュレス拡大恩恵",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">フィンテック投資の魅力</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>2030年市場規模1兆ドル予測（年率15%成長）</li>
+          <li>キャッシュレス決済・デジタル銀行・AI投資の融合</li>
+          <li>新興国市場でも急成長（インド・東南アジア）</li>
+          <li>銀行業界のDX需要拡大で長期追い風</li>
+          <li>ポートフォリオ5〜10%配分推奨</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="フィンテックETFはSBI証券で｜FINX・IPAY対応"
+        description="SBI証券はフィンテックETF（FINX・IPAY）・個別株（Block・PayPal・Adyen等）完備。為替手数料無料（住信SBI連携）、新NISA成長枠で非課税運用、金融×IT革命の恩恵を最大化。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="💳"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "metaverse-investment-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">メタバース投資完全ガイド</h2>
+        <p>
+          メタバース（仮想空間）は、VR/AR・ゲーム・ソーシャル・商業活動が融合する次世代インターネット。Meta（旧Facebook）・Roblox・Unity・NVIDIA等のプラットフォーム企業、METV（Roundhill メタバースETF）で分散投資可能。2030年市場規模1兆ドル予測、VR・ARヘッドセット（Apple Vision Pro等）普及で急成長期待。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="メタバース投資の主要ETF"
+        services={[
+          {
+            name: "METV（Roundhill Ball メタバース）",
+            rank: 1,
+            highlight: "メタバース専業ETF",
+            features: [
+              "Meta・Roblox・Unity・NVIDIA等",
+              "信託報酬0.59%",
+              "ゲーム・VR/AR・決済総合",
+              "メタバースのパイオニアETF",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "王道",
+          },
+          {
+            name: "FMET（Fidelity メタバース）",
+            rank: 2,
+            highlight: "信託報酬0.39%の最安",
+            features: [
+              "Fidelityの低コストETF",
+              "信託報酬0.39%（業界最安）",
+              "メタバース関連35銘柄",
+              "2022年新規ローンチ",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">メタバース関連の主要個別株</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>Meta（META）：Facebook・Instagram・Horizon Worldsの親会社</li>
+          <li>Roblox（RBLX）：クリエイター主導のメタバースプラットフォーム</li>
+          <li>Unity（U）：3D・VRコンテンツ開発エンジン</li>
+          <li>NVIDIA（NVDA）：GPUでメタバース処理能力提供</li>
+          <li>Apple（AAPL）：Vision Pro で本格参入</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="メタバース投資はSBI証券で｜METV・FMET対応"
+        description="SBI証券はメタバースETF（METV・FMET）・個別株（Meta・Roblox・Unity・NVIDIA等）完備。為替手数料無料、新NISA成長枠で非課税運用、次世代インターネットの恩恵を最大化。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="🥽"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "quantum-computing-investment-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">量子コンピューティング投資完全ガイド</h2>
+        <p>
+          量子コンピューティングは、2030年代の実用化が期待される革命的技術。IBM・Google・Microsoft・Amazon等の大手が研究開発に巨額投資、純粋プレー（IonQ・Rigetti・D-Wave）も上場中。QTUM（Defiance Quantum ETF）で分散投資可能。高リスクハイリターンの新興テーマ、ポートフォリオ2〜5%配分が適切です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="量子コンピューティング投資手段"
+        services={[
+          {
+            name: "QTUM（Defiance Quantum ETF）",
+            rank: 1,
+            highlight: "量子＋機械学習ETF",
+            features: [
+              "量子コンピューティング＋AI",
+              "IBM・Google・MS・NVDA等",
+              "信託報酬0.4%",
+              "70銘柄分散",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "王道",
+          },
+          {
+            name: "IonQ（IONQ）",
+            rank: 2,
+            highlight: "量子純粋プレー",
+            features: [
+              "イオントラップ方式のリーダー",
+              "Amazon・Azure連携",
+              "時価総額10億ドル級",
+              "高ボラで変動大",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">量子コンピューティングの投資戦略</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>QTUMでETF分散（メイン、資産の3〜4%）</li>
+          <li>純粋プレー（IONQ・RGTI等）は資産の0〜1%</li>
+          <li>大手（IBM・GOOGL・MSFT）は他のETF経由で保有</li>
+          <li>2030年代の商用化まで5〜10年の長期保有前提</li>
+          <li>短期は赤字企業中心、損失許容度重要</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="量子コンピューティング投資はSBI証券で｜QTUM対応"
+        description="SBI証券は量子ETF（QTUM）・個別株（IonQ・Rigetti・D-Wave）・大手テック（IBM・Google・MS）まで完備。為替手数料無料、新NISA成長枠で非課税運用可能。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="⚛️"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "biotech-investment-detailed-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">バイオテック投資完全ガイド</h2>
+        <p>
+          バイオテック（バイオテクノロジー）は、医薬品・遺伝子治療・再生医療等の先端医療分野。モデルナ・ファイザー・リジェネロン・ヴェルテックス等のグローバル企業、IBB（大型）・XBI（中小型）等のバイオETFで分散投資可能。新薬開発の成功失敗で株価激変する特徴、長期成長性とボラ大きさの両面を理解して投資が重要です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="バイオテックETF比較"
+        services={[
+          {
+            name: "IBB（iShares バイオ）",
+            rank: 1,
+            highlight: "大型バイオ中心｜信託報酬0.45%",
+            features: [
+              "アムジェン・ギリアド・モデルナ等",
+              "時価総額加重で大型中心",
+              "信託報酬0.45%",
+              "配当利回り0.5%",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "大型",
+          },
+          {
+            name: "XBI（SPDR バイオ）",
+            rank: 2,
+            highlight: "中小型均等｜高リターン狙い",
+            features: [
+              "中小型バイオ均等加重",
+              "ハイリスクハイリターン",
+              "信託報酬0.35%",
+              "IBBより値動き2倍",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">バイオテック投資の特徴</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>新薬承認で+50〜300%、失敗で-50%以上の値動き</li>
+          <li>長期（15〜20年）で高齢化・がん治療需要拡大</li>
+          <li>IBB（大型）でコア、XBI（中小型）でサテライト</li>
+          <li>個別株は分散必須（5〜10社）</li>
+          <li>ポートフォリオ5〜10%配分推奨</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="バイオテック投資はSBI証券で｜IBB・XBI対応"
+        description="SBI証券はバイオETF（IBB・XBI）・個別株（モデルナ・ファイザー・リジェネロン等）完備。為替手数料無料、新NISA成長枠で非課税運用、医療革新の恩恵を取込める環境。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="🧬"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "cybersecurity-etf-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">サイバーセキュリティETF完全ガイド</h2>
+        <p>
+          サイバーセキュリティは、DX化・リモートワーク拡大で需要爆増の成長分野。HACK・CIBR・BUGの主要3ETF、パロアルトネットワークス・クラウドストライク・フォーティネット等の個別株で投資可能。2030年市場規模5000億ドル予測、ランサムウェア・DDoS攻撃増加で継続需要拡大の王道テーマ、ポートフォリオ5〜10%配分推奨です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="サイバーセキュリティETF主要3銘柄"
+        services={[
+          {
+            name: "HACK（ETFMG プライム サイバー）",
+            rank: 1,
+            highlight: "業界最古｜流動性最高",
+            features: [
+              "2014年からのパイオニア",
+              "50銘柄分散",
+              "信託報酬0.6%",
+              "流動性最高",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "王道",
+          },
+          {
+            name: "CIBR（First Trust サイバー）",
+            rank: 2,
+            highlight: "純粋プレー重視",
+            features: [
+              "サイバー純粋銘柄",
+              "40銘柄集中",
+              "信託報酬0.6%",
+              "高成長銘柄多め",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "BUG（Global X サイバー）",
+            rank: 3,
+            highlight: "信託報酬0.5%最安",
+            features: [
+              "信託報酬0.5%（最安）",
+              "30銘柄厳選",
+              "クラウドセキュリティ多め",
+              "新しいETF",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">サイバーセキュリティの追い風</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>2030年市場規模5000億ドル予測（年率10〜15%成長）</li>
+          <li>ランサムウェア被害年20兆円超</li>
+          <li>DX化・クラウド移行でセキュリティ需要爆増</li>
+          <li>政府機関・金融機関の必須投資分野</li>
+          <li>景気後退にも需要安定のディフェンシブ性質</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="サイバーセキュリティETFはSBI証券で｜HACK・CIBR・BUG対応"
+        description="SBI証券はサイバーセキュリティETF（HACK・CIBR・BUG）・個別株（パロアルト・クラウドストライク・フォーティネット等）完備。為替手数料無料、新NISA成長枠で非課税運用。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="🛡️"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "streaming-entertainment-etf-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">動画ストリーミング・エンタメETF完全ガイド</h2>
+        <p>
+          動画ストリーミング・エンターテインメントは、Netflix・Disney+・Prime Video・Spotify等のサブスク市場急拡大で成長中。PEJ（Invesco エンタメETF）・PBS（Invesco 番組ETF）で分散投資、Netflix・Disney・Spotify等の個別株も選択肢。2030年サブスク市場5000億ドル超予想、ゲーム・スポーツコンテンツ含めた総合成長テーマです。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="エンタメ投資の主要手段"
+        services={[
+          {
+            name: "PEJ（Invesco エンタメ）",
+            rank: 1,
+            highlight: "動画・音楽・ゲーム総合",
+            features: [
+              "Netflix・Disney・Spotify等",
+              "信託報酬0.58%",
+              "エンタメ総合30銘柄",
+              "メディア含む幅広い",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "王道",
+          },
+          {
+            name: "個別株（Netflix・Disney）",
+            rank: 2,
+            highlight: "集中投資で高リターン",
+            features: [
+              "Netflix（NFLX）：動画ストリーミング王者",
+              "Disney（DIS）：コンテンツIP最強",
+              "Spotify（SPOT）：音楽ストリーミング",
+              "Warner Bros. Discovery（WBD）",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">エンタメ市場の成長性</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>2030年サブスク市場5000億ドル超予測</li>
+          <li>動画・音楽・ゲーム・ライブ配信の融合</li>
+          <li>新興国のインターネット普及で拡大加速</li>
+          <li>コンテンツIP（ディズニー等）が長期優位性</li>
+          <li>ポートフォリオ3〜7%配分推奨</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="エンタメ投資はSBI証券で｜PEJ・個別株対応"
+        description="SBI証券はエンタメETF（PEJ・PBS）・個別株（Netflix・Disney・Spotify等）完備。為替手数料無料、新NISA成長枠で非課税運用、サブスク市場急成長の恩恵を最大化。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="🎬"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "cloud-saas-etf-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">クラウド・SaaS ETF完全ガイド</h2>
+        <p>
+          クラウドコンピューティング・SaaS（Software as a Service）は、企業DXの中核分野で年率15%成長中。SKYY（First Trust クラウド）・WCLD（WisdomTree SaaS）・CLOU（Global X）の主要3ETF、Salesforce・Adobe・Snowflake・ServiceNow等の個別株で投資可能。AI時代の基盤として長期成長性が高いコアテーマです。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="クラウド・SaaS主要ETF3銘柄"
+        services={[
+          {
+            name: "SKYY（First Trust クラウド）",
+            rank: 1,
+            highlight: "クラウド総合最大手",
+            features: [
+              "AWS・Azure・GCP関連含む",
+              "Amazon・Microsoft・Google",
+              "信託報酬0.6%",
+              "クラウド総合70銘柄",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "王道",
+          },
+          {
+            name: "WCLD（WisdomTree SaaS）",
+            rank: 2,
+            highlight: "SaaS純粋プレー",
+            features: [
+              "Salesforce・Snowflake等",
+              "純粋SaaS企業特化",
+              "信託報酬0.45%",
+              "成長株中心",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "CLOU（Global X クラウド）",
+            rank: 3,
+            highlight: "クラウドサービス特化",
+            features: [
+              "ServiceNow・Zscaler等",
+              "信託報酬0.68%",
+              "35銘柄集中",
+              "セキュリティクラウド含む",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">クラウド・SaaSの投資戦略</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>コア（SKYY）40%＋SaaS特化（WCLD）30%＋セキュリティ（CLOU）30%</li>
+          <li>SKYYはAmazon・Microsoft・Google等の大手で安定</li>
+          <li>WCLD・CLOUは中小型SaaS中心で高ボラ・高成長</li>
+          <li>AI時代の基盤でコア資産として長期保有</li>
+          <li>ポートフォリオ10〜15%配分推奨</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="クラウド・SaaS投資はSBI証券で｜SKYY・WCLD・CLOU対応"
+        description="SBI証券はクラウド・SaaS ETF（SKYY・WCLD・CLOU）・個別株（Salesforce・Adobe・Snowflake等）完備。為替手数料無料、新NISA成長枠で非課税運用、AI時代の基盤に投資。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="☁️"
+        highlight="業界No.1"
+      />
+    </>
+  ),
 };
