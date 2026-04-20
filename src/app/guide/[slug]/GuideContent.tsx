@@ -22486,4 +22486,460 @@ const guideContents: Record<string, React.ReactNode> = {
       />
     </>
   ),
+  "e-commerce-investment-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">eコマース投資完全ガイド</h2>
+        <p>
+          Eコマース市場は2030年に7兆ドル到達予測、年率10%超の持続的成長。Amazon（米国）・Shopify（プラットフォーム）・Mercado Libre（南米）・JD.com（中国）・アリババ・楽天等のEC大手、EBIZ・IBUY等のECETFで分散投資可能。コロナ後も継続的にEC化が進行、長期成長テーマのコア資産として最適です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="Eコマース投資の主要手段"
+        services={[
+          {
+            name: "EBIZ（Global X Eコマース）",
+            rank: 1,
+            highlight: "グローバルEC 40銘柄",
+            features: [
+              "Amazon・Shopify・Mercado Libre等",
+              "信託報酬0.5%",
+              "グローバル分散",
+              "成長株中心",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "王道",
+          },
+          {
+            name: "IBUY（Amplify Online Retail）",
+            rank: 2,
+            highlight: "オンライン小売特化",
+            features: [
+              "オンライン小売専業40銘柄",
+              "信託報酬0.65%",
+              "Etsy・Wayfair・Chewy等",
+              "米国中心",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">EC市場の成長性</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>2030年市場規模7兆ドル予測（年率10%成長）</li>
+          <li>新興国のEC化は先進国の2倍のペース</li>
+          <li>ラストマイル配送・物流インフラ需要も拡大</li>
+          <li>Amazon個別株 or EBIZ/IBUY等のETF分散</li>
+          <li>ポートフォリオ10〜15%配分推奨</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="EコマースETFはSBI証券で｜EBIZ・IBUY対応"
+        description="SBI証券はECETF（EBIZ・IBUY）・個別株（Amazon・Shopify・Mercado Libre等）完備。為替手数料無料（住信SBI連携）、新NISA成長枠で非課税運用、EC革命の恩恵を最大化。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="🛒"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "gig-economy-etf-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">ギグエコノミー投資完全ガイド</h2>
+        <p>
+          ギグエコノミー（単発仕事のプラットフォーム経済）は、Uber・Airbnb・DoorDash・Lyft等のアプリベースサービスで急成長。フリーランス需要拡大、AI進化でタスクの細分化加速。個別株＋PTECH等の関連ETFで分散投資可能、新興国でも拡大中のテーマです。ポートフォリオ3〜7%配分推奨。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="ギグエコノミー関連銘柄"
+        services={[
+          {
+            name: "Uber（UBER）",
+            rank: 1,
+            highlight: "世界最大のギグ配車プラットフォーム",
+            features: [
+              "時価総額1000億ドル超",
+              "配車＋Uber Eats両事業",
+              "2023年初の黒字化達成",
+              "AI活用で効率化中",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "王道",
+          },
+          {
+            name: "Airbnb（ABNB）",
+            rank: 2,
+            highlight: "民泊プラットフォーム最大手",
+            features: [
+              "世界220カ国でサービス",
+              "コロナ後回復＋体験市場拡大",
+              "キャッシュフロー健全",
+              "長期滞在需要も増",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">ギグエコノミーの投資戦略</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>Uber・Airbnb：大手プラットフォーム（安定性高）</li>
+          <li>DoorDash・Lyft：競合優位性で中位</li>
+          <li>個別株は2〜3社分散（総資産3〜5%）</li>
+          <li>ギグ労働者規制リスクで変動あり</li>
+          <li>長期（5〜10年）保有前提でAI時代の恩恵取込む</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="ギグエコノミー個別株はSBI証券で｜Uber・Airbnb対応"
+        description="SBI証券はギグエコノミー個別株（Uber・Airbnb・DoorDash・Lyft等）完備。為替手数料無料（住信SBI連携）、新NISA成長枠で非課税運用、プラットフォーム経済の恩恵を取込める。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="🚕"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "solar-investment-detail-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">太陽光発電投資詳細ガイド</h2>
+        <p>
+          太陽光発電投資は3形態：①土地付き太陽光（1000万円〜、FIT20年固定買取）、②太陽光ETF（TAN・ICLN・KWT）、③太陽光クラウドファンディング（10万円〜、利回り6〜10%）。2022年の買取価格10円/kWh、FIP制度（市場連動）への移行、税制優遇（中小企業経営強化税制）まで、投資家視点で解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="太陽光投資3形態の比較"
+        services={[
+          {
+            name: "太陽光ETF（TAN・ICLN）",
+            rank: 1,
+            highlight: "少額から分散投資",
+            features: [
+              "TAN（Invesco ソーラー）",
+              "ICLN（iShares クリーンエネルギー）",
+              "1万円〜投資可能",
+              "新NISA成長枠対応",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "王道",
+          },
+          {
+            name: "太陽光クラウドファンディング",
+            rank: 2,
+            highlight: "利回り6〜10%・中額投資",
+            features: [
+              "CRE Funding・SOLMINA等",
+              "利回り6〜10%",
+              "10万円〜投資",
+              "元本保証なし",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "家づくり相談所（不動産投資の一形態）",
+            rank: 3,
+            highlight: "土地付き太陽光相談",
+            features: [
+              "新築時の太陽光導入",
+              "蓄電池併用のシミュレーション",
+              "ZEH（省エネ住宅）対応",
+              "専門家紹介無料",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+3PD522+5OGA+5YZ75",
+            badge: "5,000円/件",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">太陽光投資のリスク・リターン</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>土地付き太陽光：利回り8〜12%、初期1000〜2000万円、運用手間大</li>
+          <li>ETF：利回りは株価変動依存、少額から可能</li>
+          <li>クラファン：利回り6〜10%、中額・運営会社リスク</li>
+          <li>FIT期間満了後の売電価格下落リスク</li>
+          <li>自然災害（台風・豪雪）による発電量減少リスク</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="太陽光付き新築住宅相談は家づくり相談所で"
+        description="新築時の太陽光発電＋蓄電池導入の相談を家づくり相談所で無料相談。初期費用・発電量・売電収入・節税効果の総合シミュレーション、ZEH対応住宅の提案まで専門家が対応。"
+        buttonText="家づくり相談所で無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+3PD522+5OGA+5YZ75"
+        icon="☀️"
+        highlight="無料相談"
+      />
+    </>
+  ),
+  "healthcare-reit-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">ヘルスケアREIT完全ガイド</h2>
+        <p>
+          ヘルスケアREITは、病院・介護施設・シニア住宅・医療オフィス等に投資するREIT。高齢化社会の進行で長期需要拡大、利回り4〜6%の安定収益が魅力。米国のHCN（Welltower）・Ventas・HCPが世界3大ヘルスケアREIT、日本にもヘルスケア＆メディカル投資法人等あり。ディフェンシブ性質で景気後退にも強い資産クラスです。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="ヘルスケアREIT主要銘柄"
+        services={[
+          {
+            name: "Welltower（WELL）",
+            rank: 1,
+            highlight: "世界最大のヘルスケアREIT",
+            features: [
+              "時価総額800億ドル超",
+              "シニア住宅・介護施設・医療オフィス",
+              "配当利回り3%",
+              "30年連続配当支給",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "業界No.1",
+          },
+          {
+            name: "Ventas（VTR）",
+            rank: 2,
+            highlight: "医療研究施設・病院特化",
+            features: [
+              "時価総額250億ドル",
+              "大学病院・研究施設多数",
+              "配当利回り4%",
+              "Welltowerより分散広い",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "保険マンモス（介護保険見直し）",
+            rank: 3,
+            highlight: "介護保険＋投資の両取り",
+            features: [
+              "介護保険見直し相談",
+              "介護費用の概算試算",
+              "終身保険との組合せ",
+              "完全無料相談",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+            badge: "EPC 31.06",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">高齢化の追い風</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>日本：2030年に高齢者人口3700万人、介護市場15兆円超</li>
+          <li>米国：ベビーブーマー世代の退職で医療需要拡大</li>
+          <li>シニア住宅・介護施設の継続的不足</li>
+          <li>長期賃貸契約でREITのキャッシュフロー安定</li>
+          <li>景気変動に強いディフェンシブ性質</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="介護保険見直しは保険マンモスで｜無料相談"
+        description="ヘルスケアREIT投資と並行して、自身の介護保険も保険マンモスで無料見直し。将来の介護費用（月10〜20万円）に備え、終身介護保険・民間介護保険の最適設計を提案。"
+        buttonText="保険マンモスで無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM"
+        icon="🏥"
+        highlight="無料相談"
+      />
+    </>
+  ),
+  "data-center-etf-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">データセンターETF完全ガイド</h2>
+        <p>
+          データセンターはAI・クラウド時代の「新たな石油」。Equinix（EQIX）・Digital Realty（DLR）が世界2大データセンターREIT、SRVR（Pacer データセンター）ETFで分散投資可能。AI革命で需要爆増、2030年市場規模3000億ドル予測、年率15%成長。高速通信・電力インフラ投資の恩恵を受ける成長テーマです。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="データセンター投資の主要銘柄"
+        services={[
+          {
+            name: "Equinix（EQIX）",
+            rank: 1,
+            highlight: "世界最大のデータセンター",
+            features: [
+              "時価総額800億ドル超",
+              "世界31カ国240施設",
+              "配当利回り1.8%",
+              "S&P500組入れ",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "業界No.1",
+          },
+          {
+            name: "Digital Realty（DLR）",
+            rank: 2,
+            highlight: "ハイパースケール特化",
+            features: [
+              "時価総額500億ドル",
+              "AWS・Azure・GCPのデータセンター",
+              "配当利回り3.2%",
+              "成長性高い",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "SRVR（Pacer データセンター）",
+            rank: 3,
+            highlight: "データセンターETF",
+            features: [
+              "データセンター関連20銘柄",
+              "信託報酬0.55%",
+              "EQIX・DLR含む",
+              "分散投資に最適",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">データセンターの投資メリット</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>AI革命で需要爆増（ChatGPT等の大規模モデルで計算需要拡大）</li>
+          <li>長期契約で安定したキャッシュフロー</li>
+          <li>配当利回り2〜3%＋価格上昇の両取り</li>
+          <li>REIT形態で新NISA成長枠対応</li>
+          <li>AIチップ（NVIDIA等）とセットで投資効果最大化</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="データセンター投資はSBI証券で｜EQIX・DLR・SRVR対応"
+        description="SBI証券はデータセンター個別株（EQIX・DLR）・ETF（SRVR）完備。為替手数料無料（住信SBI連携）、新NISA成長枠で非課税運用、AI革命の「デジタルインフラ」への投資機会。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="🗄️"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "autonomous-vehicle-investment-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">自動運転・EV投資完全ガイド</h2>
+        <p>
+          自動運転・EVは2030年市場8000億ドル予測、Tesla・BYD・Waymo（Google）・Apple・NVIDIA等の覇権争い激化。DRIV（Global X 自動運転ETF）・IDRV（iShares 自動運転ETF）で分散投資可能。EVバッテリー（レアメタル）・半導体・ソフトウェア・保険等、関連産業も拡大する長期成長テーマです。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="自動運転・EV投資の主要手段"
+        services={[
+          {
+            name: "DRIV（Global X 自動運転EV）",
+            rank: 1,
+            highlight: "自動運転＋EV総合ETF",
+            features: [
+              "Tesla・BYD・NVIDIA・Alphabet等",
+              "75銘柄グローバル分散",
+              "信託報酬0.68%",
+              "自動運転技術＋EV両対応",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "王道",
+          },
+          {
+            name: "Tesla（TSLA）",
+            rank: 2,
+            highlight: "EV・自動運転王者",
+            features: [
+              "時価総額世界トップクラス",
+              "FSD（完全自動運転）開発中",
+              "エネルギー貯蔵事業も拡大",
+              "高ボラの象徴",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "BYD（1211.HK）",
+            rank: 3,
+            highlight: "中国EV最大手・Tesla超え",
+            features: [
+              "2023年世界EV販売No.1達成",
+              "バッテリー自社製で垂直統合",
+              "低価格EVで新興国攻略",
+              "ウォーレン・バフェット投資",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">自動運転・EV投資戦略</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>DRIV/IDRV ETFで分散（コア資産5〜7%）</li>
+          <li>Tesla個別株は1〜2%（高ボラで集中投資リスク大）</li>
+          <li>NVIDIA（AIチップ）経由で間接投資も有効</li>
+          <li>レアメタルETF（LIT）との組合せでEVバリューチェーン全体カバー</li>
+          <li>2030年EV普及率50%予測、長期保有で恩恵最大化</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="自動運転・EV投資はSBI証券で｜DRIV・Tesla・BYD対応"
+        description="SBI証券は自動運転ETF（DRIV・IDRV）・個別株（Tesla・BYD・Rivian・NVIDIA等）・香港株BYD完備。為替手数料無料、新NISA成長枠で非課税運用、モビリティ革命の恩恵を最大化。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="🚗"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "5g-telecom-etf-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">5G・通信ETF完全ガイド</h2>
+        <p>
+          5G（第5世代通信）は、IoT・自動運転・メタバース等を支える基盤インフラ。FIVG（Defiance 5G ETF）・NXTG（First Trust 5G ETF）で分散投資、Verizon・AT&T・T-Mobile等の通信キャリア、Qualcomm・Ericsson・Nokia等の技術提供企業に投資可能。通信キャリアは高配当（4〜7%）、技術企業は成長性重視の2本柱です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="5G・通信投資の主要手段"
+        services={[
+          {
+            name: "FIVG（Defiance 5G）",
+            rank: 1,
+            highlight: "5G技術特化ETF",
+            features: [
+              "Qualcomm・Ericsson・Nokia等",
+              "5Gインフラ技術75銘柄",
+              "信託報酬0.3%",
+              "新NISA成長枠対応",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "王道",
+          },
+          {
+            name: "Verizon（VZ）",
+            rank: 2,
+            highlight: "米国通信大手・高配当",
+            features: [
+              "時価総額1800億ドル",
+              "配当利回り6〜7%",
+              "5G展開で事業拡大",
+              "ディフェンシブ株",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">5G投資の戦略</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>成長重視：FIVG・NXTG ETF（5G技術企業）</li>
+          <li>高配当重視：Verizon・AT&T等の通信キャリア</li>
+          <li>両方組合せ：成長ETF 60%＋高配当株40%</li>
+          <li>IoT・自動運転・スマート家電普及で長期需要</li>
+          <li>ポートフォリオ5〜10%配分推奨</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="5G・通信投資はSBI証券で｜FIVG・Verizon対応"
+        description="SBI証券は5G ETF（FIVG・NXTG）・通信個別株（Verizon・AT&T・Qualcomm等）完備。為替手数料無料（住信SBI連携）、新NISA成長枠で非課税運用、通信インフラ革命の恩恵を取込める。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="📡"
+        highlight="業界No.1"
+      />
+    </>
+  ),
 };
