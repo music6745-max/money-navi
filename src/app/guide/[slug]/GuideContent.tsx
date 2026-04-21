@@ -27918,4 +27918,506 @@ const guideContents: Record<string, React.ReactNode> = {
       />
     </>
   ),
+  "stock-option-rsu-tax-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">ストックオプション・RSU税制完全ガイド</h2>
+        <p>
+          スタートアップ・上場企業のストックオプション（SO）・RSU（Restricted Stock Unit）は、社員が会社株式で報酬を受け取る制度です。税制適格SO（優遇）vs 税制非適格SO（重税）の違い、RSUの給与所得扱い、3段階課税（付与・権利行使・売却）、確定申告ポイントまで、上場企業社員が知るべき税務知識を網羅的に解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="ストックオプション・RSUの3タイプ"
+        services={[
+          {
+            name: "税制適格ストックオプション",
+            rank: 1,
+            highlight: "売却時のみ課税（優遇）",
+            features: [
+              "付与時・権利行使時は非課税",
+              "売却時のみ申告分離20.315%",
+              "年1200万円までの枠上限",
+              "スタートアップの王道制度",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+            badge: "最優遇",
+          },
+          {
+            name: "税制非適格ストックオプション",
+            rank: 2,
+            highlight: "権利行使時給与所得（重税）",
+            features: [
+              "権利行使時の含み益が給与所得",
+              "累進課税最大55%",
+              "上場企業で一般的",
+              "売却時は別途20.315%",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+          {
+            name: "RSU（譲渡制限付株式）",
+            rank: 3,
+            highlight: "権利確定時給与所得",
+            features: [
+              "権利確定（Vest）時の時価が給与所得",
+              "累進課税最大55%",
+              "源泉徴収される場合多",
+              "売却時は別途20.315%",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">節税戦略のポイント</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>税制非適格SO・RSUは権利行使・確定年に所得集中、年末調整・確定申告必須</li>
+          <li>RSU売却時の税金：含み益は給与所得済み、売却益のみ追加課税（20.315%）</li>
+          <li>損益通算：別銘柄・別口座の損失と相殺可能</li>
+          <li>分散売却：同年内に複数回売却で税率最適化</li>
+          <li>長期保有→低税率で売却、タイミング戦略</li>
+          <li>確定申告漏れに注意、税務調査対象になりやすい分野</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="ストックオプション税務は税理士ドットコムで｜専門家無料相談"
+        description="税理士ドットコムはストックオプション・RSU税制に精通した税理士を無料マッチング。外資系・日本スタートアップ・上場企業別の最適戦略、確定申告書類作成、税務調査対策まで、数百万円の節税実績多数。"
+        buttonText="税理士ドットコムで無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5"
+        icon="💎"
+        highlight="無料マッチング"
+      />
+    </>
+  ),
+  "us-etf-advanced-strategy": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">米国ETF上級戦略完全ガイド</h2>
+        <p>
+          米国ETFを使い分けることで、長期リターンと安定性を同時に追求できます。VTI（全米）・VOO（S&P500）・VIG（連続増配）・VYM（高配当）・SCHD（高配当成長）のそれぞれの特性を理解し、年齢・ライフステージ・リスク許容度に応じた最適配分を構築する上級者向け戦略を解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="主要米国ETFの特性比較"
+        services={[
+          {
+            name: "VTI（バンガード全米株式）",
+            rank: 1,
+            highlight: "約4000銘柄に分散",
+            features: [
+              "信託報酬0.03%",
+              "全米株式時価総額加重",
+              "大型株80%＋中小型株20%",
+              "万能型・コア資産向き",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "王道",
+          },
+          {
+            name: "VOO（S&P500）",
+            rank: 2,
+            highlight: "米国大型株500銘柄",
+            features: [
+              "信託報酬0.03%",
+              "米国大型株特化",
+              "過去100年年平均10%",
+              "ウォーレン・バフェット推奨",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "SCHD（高配当成長）",
+            rank: 3,
+            highlight: "連続配当＋資本成長",
+            features: [
+              "信託報酬0.06%",
+              "配当利回り3〜4%",
+              "連続増配企業100銘柄",
+              "FIRE・退職後の収入源",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">年齢別最適配分例</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>20〜30代：VTI 80%＋QQQ 20%（成長重視）</li>
+          <li>30〜40代：VTI 60%＋VOO 20%＋SCHD 20%（バランス）</li>
+          <li>40〜50代：VOO 50%＋SCHD 30%＋BND 20%（安定性重視）</li>
+          <li>50〜60代：SCHD 40%＋VOO 30%＋BND 30%（配当収入重視）</li>
+          <li>60代以降：SCHD 50%＋BND 40%＋VOO 10%（取崩し期）</li>
+          <li>レバレッジETF（SOXL・TQQQ）は個別口座でサテライト5%以内</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="米国ETF運用はSBI証券で｜買付手数料無料＋為替無料"
+        description="SBI証券はVTI・VOO・VIG・VYM・SCHD等の米国ETF買付手数料無料＋住信SBI連携で為替手数料無料。新NISA成長枠で非課税運用、年0.1%以下の圧倒的低コストで上級者向け戦略を実装できる。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="🇺🇸"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "medical-expense-practical-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">医療費控除の実践的活用ガイド</h2>
+        <p>
+          医療費控除は、年10万円超の医療費を所得から控除できる制度で、確定申告するだけで数万円の還付が受けられる強力な節税手段です。通院交通費・治療目的医薬品も対象、家族全員合算可能、セルフメディケーション税制との選択も含めた実践活用法を、e-Tax手続きも含めて網羅的に解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="医療費控除の2タイプ比較"
+        services={[
+          {
+            name: "医療費控除（通常）",
+            rank: 1,
+            highlight: "年10万円超で適用",
+            features: [
+              "年間医療費-10万円（総所得5%の低い方）",
+              "最大200万円控除",
+              "家族全員合算可能",
+              "通院交通費・処方薬も対象",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+            badge: "王道",
+          },
+          {
+            name: "セルフメディケーション税制",
+            rank: 2,
+            highlight: "年1.2万円超で適用",
+            features: [
+              "スイッチOTC医薬品購入額-1.2万円",
+              "最大8.8万円控除",
+              "健診・予防接種受診者のみ",
+              "通常医療費控除との選択制",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+          {
+            name: "高額療養費制度",
+            rank: 3,
+            highlight: "月の医療費上限",
+            features: [
+              "月自己負担上限（年収により）",
+              "年収370〜770万なら月8〜17万円上限",
+              "医療費控除と併用可",
+              "事前申請で病院窓口負担軽減",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">対象となる医療費の範囲</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>医師・歯科医師による診療・治療費（保険適用＋自由診療）</li>
+          <li>治療目的の医薬品購入費（市販薬含む）</li>
+          <li>通院交通費（電車・バス・タクシー※やむを得ない場合）</li>
+          <li>妊娠中・出産時の費用（定期検診・出産費用）</li>
+          <li>入院時の食事代・付き添い家族の交通費</li>
+          <li>歯科矯正（美容目的以外）、インプラント、レーシック</li>
+          <li>介護保険サービス自己負担分</li>
+          <li>対象外：美容整形、健康診断（治療につながらない）、サプリメント</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="医療費控除の申請は税理士ドットコムで｜無料相談で還付最大化"
+        description="税理士ドットコムは医療費控除・高額療養費制度の実践活用に強い税理士を無料マッチング。過去5年分の医療費を遡って申告可能、家族全員の医療費集計＋最適な申告形態選択で、年10〜30万円の還付実現。"
+        buttonText="税理士ドットコムで無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5"
+        icon="🏥"
+        highlight="無料マッチング"
+      />
+    </>
+  ),
+  "kaigo-work-balance-support": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">介護と仕事の両立支援完全ガイド</h2>
+        <p>
+          親の介護で介護離職すると生涯経済損失1億円超。法定の介護休業（通算93日）・介護休暇（年5日）・介護給付金（月給の67%）・短時間勤務・在宅勤務制度を徹底活用し、仕事を継続しながら介護を乗り切るための公的支援・会社制度・民間サービスを網羅的に解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="介護両立支援制度の全容"
+        services={[
+          {
+            name: "介護休業（法定）",
+            rank: 1,
+            highlight: "通算93日・給付金67%",
+            features: [
+              "対象家族1人につき3回まで分割",
+              "介護休業給付金月給の67%",
+              "就業規則で確認",
+              "社会保険料免除",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+            badge: "必須活用",
+          },
+          {
+            name: "介護休暇（年5〜10日）",
+            rank: 2,
+            highlight: "日・時間単位で取得",
+            features: [
+              "年5日（対象1人）・年10日（2人以上）",
+              "1日または半日・時間単位",
+              "無給が多いが有給の会社も",
+              "通院付添・手続き時に活用",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+          {
+            name: "短時間勤務・在宅勤務",
+            rank: 3,
+            highlight: "柔軟な働き方",
+            features: [
+              "介護のための短時間勤務",
+              "フレックスタイム・時差出勤",
+              "在宅勤務の活用",
+              "会社規定による",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">介護離職回避の実践戦略</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>要介護認定の早期申請（市区町村窓口で無料）</li>
+          <li>ケアマネと連携してケアプラン作成</li>
+          <li>介護休業93日で介護体制整備に集中</li>
+          <li>デイサービス・ショートステイ・訪問介護の最大活用</li>
+          <li>きょうだい間で介護分担（公正証書で明確化）</li>
+          <li>在宅勤務・時短勤務制度の利用</li>
+          <li>親の資産活用（年金・預貯金・生命保険）</li>
+          <li>施設入居検討（特養5〜15万円、有料老人ホーム15〜30万円）</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="介護費用の資金計画は保険マンモスで｜FP無料相談"
+        description="保険マンモスは介護資金計画・介護特約付き生命保険の無料相談。親の介護費用シミュレーション＋自分の将来介護への備えを総合的にコンサル、年10〜30万円の保険料節約＋介護離職回避の最適プラン設計。"
+        buttonText="保険マンモスで無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM"
+        icon="🤝"
+        highlight="無料FP相談"
+      />
+    </>
+  ),
+  "fuyo-koujo-optimization-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">扶養控除最適化完全ガイド</h2>
+        <p>
+          扶養控除の賢い使い方で、世帯年収200〜500万円UPの効果を実現できます。配偶者控除（年収103・150万円の壁）、16歳以上の子の扶養控除（38万円）、親の扶養控除（同居58万円・別居48万円）、複数扶養の組合せ、誰の扶養に入れるかの戦略で、年20万円以上の世帯節税が可能です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="主要扶養控除の種類"
+        services={[
+          {
+            name: "配偶者控除・特別控除",
+            rank: 1,
+            highlight: "年38〜48万円",
+            features: [
+              "年収103万円：配偶者控除38万円",
+              "年収150万円：特別控除38万円",
+              "年収201万円：特別控除終了",
+              "年約7〜11万円節税",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+            badge: "定番",
+          },
+          {
+            name: "扶養控除（16歳以上の子）",
+            rank: 2,
+            highlight: "年38〜63万円",
+            features: [
+              "16〜18歳：38万円",
+              "19〜22歳（特定扶養）：63万円",
+              "大学生は年12万円節税可能",
+              "所得税＋住民税ダブル効果",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+          {
+            name: "扶養控除（親・親族）",
+            rank: 3,
+            highlight: "年48〜58万円",
+            features: [
+              "70歳以上同居老親：58万円",
+              "別居の親：48万円",
+              "仕送り要件で別居も対象",
+              "複数兄弟で分担可能",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">扶養最適化の上級テクニック</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>夫婦のうち高収入側に扶養を集中（累進税率で節税効果最大化）</li>
+          <li>大学生の子は特定扶養控除63万円をフル活用（年12〜18万円節税）</li>
+          <li>親の扶養：年金収入158万円以下なら扶養に入れる</li>
+          <li>別居の親：仕送り年60〜100万円で扶養に入れる</li>
+          <li>共働き夫婦：どちらに子の扶養を入れるかシミュレーション必須</li>
+          <li>兄弟で親の扶養を交代（数年ごとに入替で税負担分散）</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="扶養控除の最適化は税理士ドットコムで｜世帯全体の節税"
+        description="税理士ドットコムは世帯全員の扶養控除最適化に強い税理士を無料マッチング。共働き夫婦・複数子世帯・親の扶養・兄弟分担まで総合的にシミュレーション、年20〜50万円の世帯節税効果を実現。"
+        buttonText="税理士ドットコムで無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5"
+        icon="👨‍👩‍👧‍👦"
+        highlight="無料マッチング"
+      />
+    </>
+  ),
+  "business-card-2026-detail-compare": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">ビジネスカード詳細比較2026</h2>
+        <p>
+          2026年のビジネスカード（法人カード）は、個人事業主・法人経営者にとって必須の経費管理・資金繰りツール。還元率・年会費・付帯特典・審査難易度等、10社以上の主要カードを徹底比較。個人事業主の経費管理＋ポイント還元で年間5〜30万円のメリットが得られる最強の組合せを提案します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="主要ビジネスカード比較"
+        services={[
+          {
+            name: "三井住友カードビジネスオーナーズ",
+            rank: 1,
+            highlight: "年会費無料＋還元0.5〜1%",
+            features: [
+              "年会費永年無料",
+              "還元率0.5%（対象店舗最大1.5%）",
+              "法人向け特典豊富",
+              "個人事業主も申込可",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+            badge: "初心者向け",
+          },
+          {
+            name: "freeeカード Unlimited",
+            rank: 2,
+            highlight: "freee会計統合・審査甘め",
+            features: [
+              "年会費無料",
+              "freee会計と自動連携",
+              "freee特約店で還元率UP",
+              "設立1年以内も申込可",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+          {
+            name: "アメックスビジネスゴールド",
+            rank: 3,
+            highlight: "年会費3.4万円・高付帯",
+            features: [
+              "年会費36,300円",
+              "還元率0.4〜1%（メンバーシップ・リワード）",
+              "海外旅行保険最大1億円",
+              "ラウンジ・コンシェルジュ",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">ビジネスカード活用のコツ</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>経費支払いを全てカードに集約＝freee・マネフォで自動仕訳</li>
+          <li>年会費無料カードから始める、業績安定してゴールド昇格</li>
+          <li>追加カード発行で従業員管理＋経費把握（社長・役員用）</li>
+          <li>会計ソフト連携で記帳時間を月10〜20時間削減</li>
+          <li>高年会費カードは年商3000万円超なら元取れる可能性大</li>
+          <li>出張の多い業種はラウンジ・旅行保険付帯のアメックス系有利</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="ビジネスカードは三井住友BOで｜年会費無料＋SBI証券連携"
+        description="三井住友ビジネスオーナーズは年会費永年無料、SBI証券のクレカ積立も1%還元。個人事業主・法人経営者の経費管理＋freee会計連携で月10時間の記帳時間削減、年間5〜15万円のポイント獲得も実現。"
+        buttonText="ビジネスカード詳細"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5"
+        icon="💼"
+        highlight="年会費無料"
+      />
+    </>
+  ),
+  "furusato-nisa-combo-strategy": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">ふるさと納税×新NISA連携戦略</h2>
+        <p>
+          ふるさと納税（節税）と新NISA（資産形成）を組み合わせると、年100万円以上の家計効果を生み出せます。年収500万円なら、ふるさと納税77,000円で返礼品23,000円相当＋楽天ポイント12,000円、さらに新NISA満額活用で将来資産数千万円の二刀流戦略。節税と資産形成の最強の組合せを徹底解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="連携戦略の3パターン"
+        services={[
+          {
+            name: "楽天経済圏統合型",
+            rank: 1,
+            highlight: "楽天ふるさと納税＋楽天証券",
+            features: [
+              "楽天ふるさと納税SPU最大16倍",
+              "楽天証券NISA年360万円",
+              "楽天カード積立1%還元",
+              "ポイント最大化戦略",
+            ],
+            href: "https://search.rakuten.co.jp/search/mall/%E3%81%B5%E3%82%8B%E3%81%95%E3%81%A8%E7%B4%8D%E7%A8%8E/",
+            badge: "王道",
+          },
+          {
+            name: "SBI経済圏統合型",
+            rank: 2,
+            highlight: "ふるなび＋SBI証券",
+            features: [
+              "ふるなびAmazonギフト還元",
+              "SBI証券NISA＋三井住友NL積立",
+              "投信保有残高ポイント",
+              "低コスト運用重視",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "さとふる＋PayPay経済圏",
+            rank: 3,
+            highlight: "PayPayポイント最大化",
+            features: [
+              "さとふるでPayPay還元",
+              "PayPay証券で米国株投資",
+              "ワンストップ特例アプリ",
+              "スマホ完結型",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">実践の年間スケジュール</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>1月：前年のふるさと納税確定申告、NISA積立再開</li>
+          <li>3月：年収予想計算、ふるさと納税限度額算出</li>
+          <li>6月：夏のボーナスでNISA成長枠買付</li>
+          <li>9月：秋の返礼品（米・食品）寄付</li>
+          <li>11月：年末セール＋楽天お買い物マラソンでふるさと納税集中</li>
+          <li>12月：年末ぎりぎりまでふるさと納税、NISA枠残確認</li>
+          <li>翌年1月：ワンストップ特例or確定申告</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="楽天経済圏フル活用で｜楽天ふるさと納税＋楽天証券NISA"
+        description="楽天ふるさと納税はSPU最大16倍でポイント還元、楽天証券NISAはクレカ積立1%還元。年収500万円なら、ふるさと納税77,000円＋返礼品23,000円＋楽天ポイント12,000円＋NISA年120万円で年間100万円以上の家計メリット実現。"
+        buttonText="楽天ふるさと納税を見る"
+        href="https://search.rakuten.co.jp/search/mall/%E3%81%B5%E3%82%8B%E3%81%95%E3%81%A8%E7%B4%8D%E7%A8%8E/"
+        icon="🎯"
+        highlight="ポイント最強"
+      />
+    </>
+  ),
 };
