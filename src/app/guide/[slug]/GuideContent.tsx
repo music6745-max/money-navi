@@ -30396,4 +30396,499 @@ const guideContents: Record<string, React.ReactNode> = {
       />
     </>
   ),
+  "stocks-fundamental-analysis": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">株式ファンダメンタル分析完全ガイド</h2>
+        <p>
+          ファンダメンタル分析は、企業の財務指標（PER・PBR・ROE・配当利回り・EPS等）から本来価値を算出し、割安株・優良株を見つける投資手法。チャート分析（テクニカル）と対比される基本アプローチで、長期投資家のバフェット・ピーター・リンチ等が実践。各指標の読み方、業種別の目安、割安株の選別方法を体系的に解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="主要ファンダメンタル指標"
+        services={[
+          {
+            name: "PER（株価収益率）",
+            rank: 1,
+            highlight: "株価が割安か判定",
+            features: [
+              "株価÷EPS（1株当たり純利益）",
+              "日本株平均PER15倍、割安12倍以下",
+              "成長株30倍超も許容",
+              "業種比較で判断",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "基本",
+          },
+          {
+            name: "PBR（株価純資産倍率）",
+            rank: 2,
+            highlight: "解散価値との比較",
+            features: [
+              "株価÷1株当たり純資産",
+              "1倍以下は解散価値割れ",
+              "日本株平均1.5倍",
+              "金融・素材業種で低め",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "ROE（自己資本利益率）",
+            rank: 3,
+            highlight: "収益性の指標",
+            features: [
+              "純利益÷自己資本×100%",
+              "10%以上が優良企業",
+              "15%以上はグローバル水準",
+              "バフェット重視の指標",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">割安優良株の選別手法</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>①PER 15倍以下＋ROE 10%以上＋配当利回り3%以上の3条件</li>
+          <li>②5年連続増益・増配企業</li>
+          <li>③自己資本比率50%以上（財務健全性）</li>
+          <li>④売上高成長率3%以上（成長性）</li>
+          <li>⑤時価総額1000億円以上（流動性）</li>
+          <li>スクリーニング：SBI証券・楽天証券の銘柄検索で一括抽出可能</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="ファンダメンタル投資はSBI証券で｜スクリーニングツール完備"
+        description="SBI証券のスクリーニングツールで、PER・PBR・ROE・配当利回り等10以上の条件で銘柄絞り込み可能。日本株・米国株の両方で割安優良株を自動抽出、新NISA成長枠で非課税運用、本格的なファンダメンタル投資の実装に最適。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="📐"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "macro-economic-indicators-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">マクロ経済指標完全ガイド</h2>
+        <p>
+          マクロ経済指標は、一国の経済状況を把握し、投資判断を左右する重要な情報。GDP成長率・インフレ率（CPI）・失業率・政策金利・10年国債利回り・購買力平価（PPP）・景気動向指数等の基本指標を理解することで、中長期的な相場予測、資産配分の最適化、景気サイクルに沿った投資戦略が可能になります。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="投資判断の重要指標TOP5"
+        services={[
+          {
+            name: "GDP成長率",
+            rank: 1,
+            highlight: "経済全体の健康度",
+            features: [
+              "四半期ごと公表",
+              "日本1〜2%・米国2〜3%が標準",
+              "3%超は過熱・0%以下は後退",
+              "株式相場と強い相関",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "最重要",
+          },
+          {
+            name: "インフレ率（CPI）",
+            rank: 2,
+            highlight: "物価上昇率・金利政策の根拠",
+            features: [
+              "月次公表",
+              "目標2%（日米欧共通）",
+              "3%超で利上げ圧力",
+              "インフレ連動債・不動産ヘッジ",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "政策金利・10年債利回り",
+            rank: 3,
+            highlight: "金融政策・債券価格",
+            features: [
+              "日銀（-0.1〜0.5%）、FRB（4〜5%）",
+              "10年債利回り：株式の評価基準",
+              "金利上昇で株価下落圧力",
+              "GDP成長率との関係重要",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">主要経済指標の確認方法</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>日本：内閣府・日銀・総務省統計局の月次レポート</li>
+          <li>米国：BEA（経済分析局）・BLS（労働統計局）・FRBの経済指標カレンダー</li>
+          <li>欧州：ECB・Eurostatの統計データ</li>
+          <li>民間：Bloomberg・Reuters・日経新聞の速報・分析</li>
+          <li>カレンダー：みんかぶFX等の経済指標カレンダーで翌日の発表予定把握</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="経済指標の分析はSBI証券で｜情報量業界No.1"
+        description="SBI証券は経済指標カレンダー・アナリストレポート・企業決算情報を一元提供。日米欧の主要指標をリアルタイムで把握、投資判断に必要な情報を全て無料で取得できる、上級投資家にも対応できる情報量の多さ。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="🌐"
+        highlight="情報量No.1"
+      />
+    </>
+  ),
+  "option-futures-basic-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">オプション・先物取引基礎完全ガイド</h2>
+        <p>
+          オプション・先物取引は、将来の価格変動に対応するデリバティブ（派生商品）。ヘッジ（リスク回避）と投機（リスク取り利益狙い）の両面で活用され、日経225先物・個別株オプション・商品先物・FX先物等多岐にわたります。個人投資家向けに、基本の仕組み、実践的な活用法、レバレッジリスクの管理まで体系的に解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="主要デリバティブの特徴"
+        services={[
+          {
+            name: "日経225先物",
+            rank: 1,
+            highlight: "日経平均のレバレッジ取引",
+            features: [
+              "ミニ先物：1単位10万円の証拠金",
+              "マイクロ先物：1万円から可",
+              "レバレッジ20〜30倍",
+              "ヘッジ・投機の両活用",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "定番",
+          },
+          {
+            name: "個別株オプション",
+            rank: 2,
+            highlight: "銘柄ごとの権利取引",
+            features: [
+              "コール：買う権利、プット：売る権利",
+              "プレミアム（権利料）を支払い",
+              "最大損失＝プレミアム額限定",
+              "保険的活用も可能",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "商品先物・ETF連動",
+            rank: 3,
+            highlight: "金・原油・農産物等",
+            features: [
+              "金ETF（1540・GLD）",
+              "原油ETF（1699・USO）",
+              "商品先物取引業者経由",
+              "インフレヘッジ効果",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">個人投資家のリスク管理</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>レバレッジ10倍以下、投資資金の10%以内を原則</li>
+          <li>損切りライン事前設定（-5〜-10%で機械的に損切り）</li>
+          <li>ヘッジ目的の活用：保有株の下落リスクを先物売りでカバー</li>
+          <li>オプション買い（プレミアム支払い）は最大損失限定で安全</li>
+          <li>投機より長期インデックス投資が圧倒的に勝率高い</li>
+          <li>知識・経験不足のまま取引すると短期間で資産喪失の可能性大</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="先物・オプション取引はSBI証券で｜低コスト・充実した情報"
+        description="SBI証券はデリバティブ取引手数料業界最安水準、日経225先物・個別株オプション・商品ETFまで総合カバー。リスク管理ツール・シミュレーターで安全な取引、上級投資家の高度戦略実装にも対応。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="⚡"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "esop-stock-purchase-plan": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">従業員持株会・ESPP完全ガイド</h2>
+        <p>
+          従業員持株会・ESPP（Employee Stock Purchase Plan）は、会社員だけが使える特権的な制度。会社の奨励金（拠出額の5〜10%上乗せ）、株価10〜15%割引購入、配当金の自動再投資で、5〜10年で数百万円の資産形成が可能。ただし自社株集中リスクの管理が重要、退職時の対応含めて実践的な活用法を解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="持株会・ESPPのメリット"
+        services={[
+          {
+            name: "会社奨励金（最大のメリット）",
+            rank: 1,
+            highlight: "拠出額の5〜10%上乗せ",
+            features: [
+              "月3万円拠出＋奨励金3000円",
+              "ノーリスクの利益確定",
+              "年36〜72万円のリターン",
+              "全員参加推奨レベル",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "最強",
+          },
+          {
+            name: "ESPP割引購入（外資系）",
+            rank: 2,
+            highlight: "株価10〜15%割引",
+            features: [
+              "6ヶ月ごとの購入機会",
+              "最安値基準＋15%割引",
+              "即売却で確定利益",
+              "GAFAM等で実施",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "配当金自動再投資",
+            rank: 3,
+            highlight: "複利効果の最大化",
+            features: [
+              "配当で追加株式購入",
+              "長期で複利効果大",
+              "手動再投資の手間ゼロ",
+              "10年で株数30%UPも",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">自社株集中リスクの管理</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>自社株比率はポートフォリオの20%以内に制限</li>
+          <li>ESPP割引購入後は即売却（割引分だけ確定利益化）</li>
+          <li>持株会は長期保有、ただし会社業績悪化時は早期売却</li>
+          <li>退職時は全株売却＆NISA等へ再投資の検討</li>
+          <li>リーマン・シャープの悲劇（自社株＋失業のダブルパンチ）回避</li>
+          <li>奨励金を得つつ、分散投資を維持する賢いバランス</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="自社株売却後の再投資はSBI証券で｜NISA活用"
+        description="SBI証券は自社株の売却資金を、新NISAでの分散投資（全世界株式・高配当株）に効率的に再投資可能。新NISA成長枠での非課税運用、持株会＋ESPP＋NISAの三層戦略で、会社員の資産形成を最大化できる。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="🏢"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "wealth-report-book-recommend": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">富裕層の必読書100冊</h2>
+        <p>
+          富裕層や成功した投資家が読んでいる、お金・投資・人生の名著を厳選紹介。バフェットの師ベンジャミン・グレアム「賢明なる投資家」、モーガン・ハウゼル「お金の心理学」、ラミット・サティ「金持ちになる方法」等、数十年読み継がれる古典＋2020年代の現代の名著を組合せ。読書が人生と資産を変える100冊を領域別に解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="必読書TOP5（ジャンル別）"
+        services={[
+          {
+            name: "投資の古典",
+            rank: 1,
+            highlight: "時代を超える名著",
+            features: [
+              "賢明なる投資家（ベンジャミン・グレアム）",
+              "敗者のゲーム（チャールズ・エリス）",
+              "ピーター・リンチの株で勝つ",
+              "マネーマスターズ列伝（ジョン・トレイン）",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+            badge: "王道",
+          },
+          {
+            name: "行動経済学・心理",
+            rank: 2,
+            highlight: "投資心理の理解",
+            features: [
+              "お金の心理学（モーガン・ハウゼル）",
+              "ファスト＆スロー（カーネマン）",
+              "投資家が大切にしたいたった3つの疑問",
+              "行動経済学入門",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+          {
+            name: "FIRE・人生設計",
+            rank: 3,
+            highlight: "現代の生き方",
+            features: [
+              "Your Money or Your Life",
+              "サイコロジー・オブ・マネー",
+              "Die With Zero（死ぬ時は最大限使う）",
+              "FIRE 最強の早期リタイア術",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">読書の実践方法</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>紙の本：主要投資本は紙で購入、書き込み・読み返しに有利</li>
+          <li>Kindle Unlimited（月980円）：多数のビジネス書読み放題</li>
+          <li>Audible（月1,500円）：通勤時間で月2〜3冊の耳読書</li>
+          <li>読書ノート：重要な学びをメモ、実践に繋げる</li>
+          <li>年50冊目標：週1冊ペース、5年で250冊の蓄積で人生変わる</li>
+          <li>図書館活用：無料で古典・新刊読めて経済的</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="投資本購入は楽天ブックスで｜SPU+0.5倍＋送料無料"
+        description="楽天ブックスは投資・ビジネス書の品揃え業界トップクラス。楽天カード決済でSPU+0.5倍、1冊から送料無料、書籍ポイント＋楽天経済圏でのポイント還元でお得。月3〜5冊の継続読書で人生が変わる習慣を。"
+        buttonText="楽天ブックスで本を探す"
+        href="https://hb.afl.rakuten.co.jp/hgc/g00n15i1.3cb8aef3.g00n15i2.3cb8af52/?pc=https%3A%2F%2Fwww.rakuten-card.co.jp%2F"
+        icon="📚"
+        highlight="送料無料"
+      />
+    </>
+  ),
+  "keizai-cycle-timing-investment": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">景気サイクル投資戦略完全ガイド</h2>
+        <p>
+          景気は「好況→後退→停滞→回復」の4局面を繰り返し、各局面で有利な資産クラスが異なります。好況期は株式・REIT、後退期は国債・金、停滞期は高配当株・債券、回復期は新興国株・コモディティが強い傾向。景気サイクルを読んで資産配分を調整することで、年リターン+2〜3%の改善が可能な上級戦略を徹底解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="4局面と有利な資産クラス"
+        services={[
+          {
+            name: "好況期（金利低〜上昇）",
+            rank: 1,
+            highlight: "株式・REIT主力",
+            features: [
+              "株式：新興国・成長株・シクリカル",
+              "REIT：金利上昇前に売却検討",
+              "コモディティ：エネルギー・素材",
+              "債券比率を下げる",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "攻め",
+          },
+          {
+            name: "後退期（金利高止まり）",
+            rank: 2,
+            highlight: "防御モード",
+            features: [
+              "国債（TLT・BND）で利益確保",
+              "金（GLD）で危機ヘッジ",
+              "ディフェンシブ株（生活必需品）",
+              "現金ポジション増加",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "回復期（金利低下）",
+            rank: 3,
+            highlight: "再び攻めへ",
+            features: [
+              "中小型株・新興国株の買戻し",
+              "高配当株で配当＋値上がり",
+              "不動産・REITの再加重",
+              "インフレヘッジ資産の継続",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">相場転換のシグナル</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>逆イールド（長短金利逆転）：後退シグナル、6〜18ヶ月後にリセッション</li>
+          <li>失業率の底打ち→上昇：景気後退の初期シグナル</li>
+          <li>製造業PMI 50割れ：景気後退突入の可能性</li>
+          <li>消費者信頼感指数の急落：消費減退→企業業績悪化</li>
+          <li>VIX（恐怖指数）30超：市場混乱、大底近い可能性</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="景気サイクル投資はSBI証券で｜多様な資産クラス対応"
+        description="SBI証券は株式・ETF・投資信託・債券・REIT・商品・金・外貨預金まで1口座で総合運用可能。景気サイクルに応じた資産配分の機動的変更、経済指標レポート・アナリスト情報の豊富さで、上級戦略の実装を支援。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="🌊"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "real-time-portfolio-monitor": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">リアルタイムポートフォリオ管理完全ガイド</h2>
+        <p>
+          複数口座・複数銘柄のポートフォリオを効率的に管理するには、リアルタイム監視ツールが必須。マネーフォワード・OANDA・Yahoo!ファイナンス・TradingView・証券会社純正アプリの特徴を比較、用途別の最適な組合せ、自動通知設定による機会損失回避、リバランス頻度の最適化まで、プロ級の資産管理手法を解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="ポートフォリオ管理ツール比較"
+        services={[
+          {
+            name: "マネーフォワード ME",
+            rank: 1,
+            highlight: "総合家計管理・投資統合",
+            features: [
+              "証券口座全て自動連携",
+              "月500円・全銀行/証券カバー",
+              "時価評価リアルタイム",
+              "家計＋投資の統合管理",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "王道",
+          },
+          {
+            name: "TradingView",
+            rank: 2,
+            highlight: "チャート分析特化",
+            features: [
+              "世界の株式・FX・暗号資産",
+              "有料月15ドル〜",
+              "アラート通知",
+              "プロ級のテクニカル分析",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "SBI証券アプリ",
+            rank: 3,
+            highlight: "取引＋管理の一体化",
+            features: [
+              "口座残高・損益リアルタイム",
+              "株価アラート機能",
+              "注文・決済直接実行",
+              "SBIユーザーなら必須",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">効率的な管理方法</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>基本：マネフォで家計＋全資産を一元管理（日次確認）</li>
+          <li>分析：TradingViewで保有銘柄のチャート＆アラート設定</li>
+          <li>取引：証券会社アプリで売買実行</li>
+          <li>月1回：配分チェック＆必要なリバランス実行</li>
+          <li>年1回：年間パフォーマンス評価・戦略見直し</li>
+          <li>自動化：アラート・自動積立で手作業最小化</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="ポートフォリオ管理はSBI証券＋マネフォで｜資産一元把握"
+        description="SBI証券は業界最大手、マネーフォワードMEとの自動連携で全資産を一元管理。新NISA・iDeCo・特定口座の損益リアルタイム確認、リバランス・配分調整が効率的、プロ級の資産運用体制を個人でも実現可能。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="📊"
+        highlight="業界No.1"
+      />
+    </>
+  ),
 };
