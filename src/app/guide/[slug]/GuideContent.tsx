@@ -28915,4 +28915,500 @@ const guideContents: Record<string, React.ReactNode> = {
       />
     </>
   ),
+  "health-checkup-kenshin-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">健康診断・人間ドック完全ガイド</h2>
+        <p>
+          健康診断は、会社員の定期健診（無料）から、自費の人間ドック（3〜10万円）まで幅広い選択肢。協会けんぽの一般健診（自己負担5,000円程度）・自治体補助（5,000〜20,000円）・医療費控除対象（10万円超）等を活用すれば、高額な検査も実質負担を大幅軽減できます。年1回の健康投資で将来の医療費を削減する戦略を解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="健康診断の3大選択肢"
+        services={[
+          {
+            name: "会社・協会けんぽ健診",
+            rank: 1,
+            highlight: "自己負担0〜5,000円",
+            features: [
+              "会社の定期健診は無料",
+              "協会けんぽ一般健診5,000円程度",
+              "生活習慣病予防健診で心電図・胃がん検診追加",
+              "基本的な検査は網羅",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+            badge: "定番",
+          },
+          {
+            name: "人間ドック（一般）",
+            rank: 2,
+            highlight: "3〜10万円・詳細検査",
+            features: [
+              "MRI・CT・内視鏡等の詳細検査",
+              "自治体補助5,000〜20,000円",
+              "医療費控除対象（10万円超）",
+              "年1回受診推奨",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+          },
+          {
+            name: "PET・脳ドック等特殊ドック",
+            rank: 3,
+            highlight: "10〜30万円",
+            features: [
+              "PET-CT（がん検診）10〜15万円",
+              "脳ドック（MRI・MRA）5〜8万円",
+              "心臓ドック（冠動脈CT）10〜15万円",
+              "40〜50代から検討推奨",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">年齢別の推奨検査</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>30代：基本健診（血液・尿・心電図・レントゲン）、女性は乳がん・子宮頸がん検診</li>
+          <li>40代：+ 胃・大腸・肺がん検診、脂質・糖尿病チェック</li>
+          <li>50代：+ PET-CT（がん全身検査）、脳ドック、前立腺がん検査（男性）</li>
+          <li>60代以降：骨密度測定、認知機能検査、心臓ドック</li>
+          <li>家族歴がある人：30代から該当部位の精密検査</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="医療保険の見直しは保険マンモスで｜健診結果連動プラン"
+        description="保険マンモスは健診結果に基づいた医療保険の最適提案が可能。人間ドックで異常値が出た場合の加入制限前に、FPが無料相談で最適プラン設計。40代・50代のがん保険・三大疾病保険の加入タイミングもアドバイス。"
+        buttonText="保険マンモスで無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM"
+        icon="🏥"
+        highlight="無料FP相談"
+      />
+    </>
+  ),
+  "sharehouse-cost-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">シェアハウス完全ガイド</h2>
+        <p>
+          シェアハウスは、家賃3〜10万円・初期費用3〜10万円・光熱費/Wi-Fi込みで、通常賃貸（初期費用20〜30万円）より圧倒的に安く住める選択肢。オークハウス・ひつじ不動産・ソーシャルアパートメント・LABHOTEL等の大手を中心に、東京・大阪・福岡の都市部で急増中。若手社会人・転勤族・上京者の生活コスト削減策として解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="主要シェアハウス運営会社"
+        services={[
+          {
+            name: "オークハウス",
+            rank: 1,
+            highlight: "物件数業界最大",
+            features: [
+              "東京・関東200物件超",
+              "家賃3万円台〜",
+              "初期費用4万円台〜",
+              "国際交流・英語環境",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+4A7B8A+2PEO+OK4PD",
+            badge: "王道",
+          },
+          {
+            name: "ひつじ不動産",
+            rank: 2,
+            highlight: "デザイン性重視",
+            features: [
+              "東京中心100物件超",
+              "家賃5〜15万円",
+              "ハイグレード物件多",
+              "デザイナーズシェアハウス",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+4A7B8A+2PEO+OK4PD",
+          },
+          {
+            name: "ソーシャルアパートメント",
+            rank: 3,
+            highlight: "個室＋共用ラウンジ",
+            features: [
+              "個室重視・プライバシー確保",
+              "家賃7〜15万円",
+              "ジム・スタジオ・BBQ施設",
+              "高所得層・クリエイター向き",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+4A7B8A+2PEO+OK4PD",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">シェアハウスのメリット・デメリット</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>メリット①：初期費用が安い（敷金礼金なし）、即入居可能</li>
+          <li>メリット②：家賃＋光熱費＋Wi-Fiで月3〜10万円</li>
+          <li>メリット③：家具・家電付きで引越し楽</li>
+          <li>メリット④：国際交流・人脈形成</li>
+          <li>デメリット①：プライバシー限定（個室＋共用）</li>
+          <li>デメリット②：ルームメイトとの相性リスク</li>
+          <li>デメリット③：独自ルール（深夜の利用制限等）</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="シェアハウス探しは家づくり相談所で｜住宅全般の相談"
+        description="家づくり相談所はシェアハウス・賃貸・マイホームを含む住まい全般の無料相談。月3〜10万円のシェアハウスから、将来のマイホーム購入まで、ライフステージに合わせた住まい選びのロードマップを提案。"
+        buttonText="家づくり相談所で無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+3PD522+5OGA+5YZ75"
+        icon="🏘️"
+        highlight="無料相談"
+      />
+    </>
+  ),
+  "investment-diversify-global-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">グローバル分散投資完全ガイド</h2>
+        <p>
+          グローバル分散投資は、通貨・資産・地域の3軸でリスク分散する上級戦略。円資産だけでなくドル・ユーロ資産、株式だけでなく債券・不動産・金、日本だけでなく米欧新興国への分散で、どんな経済局面でも安定的なリターンを目指します。新NISA成長枠でのETF活用を中心に、実践的な配分例を解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="3軸分散投資の実装例"
+        services={[
+          {
+            name: "通貨分散（3通貨）",
+            rank: 1,
+            highlight: "円40%・ドル40%・ユーロ20%",
+            features: [
+              "日本円（生活防衛＋日本株）",
+              "米ドル（VTI・VOO等）",
+              "ユーロ（VGK等）",
+              "為替変動リスク軽減",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "必須",
+          },
+          {
+            name: "資産分散（4資産）",
+            rank: 2,
+            highlight: "株50%・債券30%・REIT10%・金10%",
+            features: [
+              "株式（VTI・eMAXIS全世界）",
+              "債券（BND・TLT）",
+              "不動産（VNQ・J-REIT）",
+              "金（GLD・純金積立）",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "地域分散（4地域）",
+            rank: 3,
+            highlight: "日10%・米60%・欧15%・新興国15%",
+            features: [
+              "日本株（TOPIX ETF）",
+              "米国株（VTI・VOO）",
+              "欧州株（VGK・HEDJ）",
+              "新興国株（VWO）",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">分散投資のリターン期待値</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>通貨分散：為替リスク軽減で年0.5〜1%のリターン安定化</li>
+          <li>資産分散：株式単独より最大下落30%→15%に軽減</li>
+          <li>地域分散：日本一国集中より年リターン+1〜2%</li>
+          <li>全分散組合せ：年5〜7%のリターン＋最大下落10〜15%</li>
+          <li>シャープレシオ（リスク調整後リターン）0.7〜0.9で優秀</li>
+          <li>富裕層・保守派のポートフォリオとして定番の戦略</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="グローバル分散投資はSBI証券で｜ETF・投信・日本株完結"
+        description="SBI証券は世界各国のETF・投資信託・日本株・米国株・新興国株を1口座で取引可能。為替手数料無料（住信SBI連携）、新NISA成長枠での非課税運用、グローバル分散投資の実装に最強のプラットフォーム。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="🌍"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "overseas-bank-account-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">海外銀行口座完全ガイド</h2>
+        <p>
+          海外銀行口座（HSBC香港・DBSシンガポール・米国シティバンク等）は、為替リスク分散・相続対策・海外投資のゲートウェイとして富裕層に活用されています。ただしマネロン規制強化で開設ハードル上昇中。Wise・Revolut等のオンライン口座なら手軽に開設可能、用途別の最適解を徹底解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="海外銀行口座の3大選択肢"
+        services={[
+          {
+            name: "HSBC香港",
+            rank: 1,
+            highlight: "アジア富裕層の定番",
+            features: [
+              "Premier口座：1000万円以上",
+              "Advance口座：100万円以上",
+              "世界中のHSBCで取引可",
+              "現地訪問での開設",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+            badge: "富裕層",
+          },
+          {
+            name: "Wise（オンライン）",
+            rank: 2,
+            highlight: "手数料安・手軽",
+            features: [
+              "マルチカレンシー口座",
+              "為替スプレッド0.3〜0.5%",
+              "オンライン完結",
+              "個人の国際送金に最適",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+          {
+            name: "Revolut（欧州系フィンテック）",
+            rank: 3,
+            highlight: "30通貨対応・即時送金",
+            features: [
+              "日本版あり、スマホで口座開設",
+              "30通貨の外貨保有可",
+              "仮想通貨取引も対応",
+              "月額0〜3,000円プラン",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">海外口座の注意点</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>マネロン規制：現地訪問・本人確認書類・住所証明・職業証明等が必要</li>
+          <li>CRS（共通報告基準）：口座情報が日本の税務署に自動報告</li>
+          <li>5000万円超の海外資産：国外財産調書提出義務</li>
+          <li>相続時の手続き複雑、現地の法律・税金も考慮</li>
+          <li>閉鎖・凍結リスク：税務当局の調査対象になりやすい</li>
+          <li>用途が明確でない場合は国内口座の方が合理的</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="海外資産の税務は税理士ドットコムで｜国際税務の専門家"
+        description="税理士ドットコムは海外資産・国際税務に強い税理士を無料マッチング。海外口座開設・相続対策・国外財産調書の作成、CRS対応まで、国際税務の複雑な問題を総合的にサポート、数千万円の節税実現事例多数。"
+        buttonText="税理士ドットコムで無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5"
+        icon="🏦"
+        highlight="無料マッチング"
+      />
+    </>
+  ),
+  "credit-card-lounge-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">空港ラウンジカード完全ガイド</h2>
+        <p>
+          空港ラウンジ付帯クレジットカードは、国内外の空港ラウンジ（年間2,000〜10,000円相当のサービス）を無料利用できる特典付きカード。年10回以上の出張・旅行なら年会費を超える恩恵、出張族・旅行好きの必須アイテム。プライオリティ・パス（年3万円・世界1,300箇所）vs カードラウンジ（国内限定）の使い分けを徹底解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="空港ラウンジ付きクレカTOP3"
+        services={[
+          {
+            name: "楽天プレミアムカード",
+            rank: 1,
+            highlight: "年11,000円でプライオリティパス",
+            features: [
+              "年会費11,000円",
+              "プライオリティパス本会員",
+              "楽天市場SPU+2倍",
+              "コスパ最強",
+            ],
+            href: "https://hb.afl.rakuten.co.jp/hgc/g00n15i1.3cb8aef3.g00n15i2.3cb8af52/?pc=https%3A%2F%2Fwww.rakuten-card.co.jp%2F",
+            badge: "王道",
+          },
+          {
+            name: "エポスゴールド",
+            rank: 2,
+            highlight: "年会費無料（条件達成で）",
+            features: [
+              "年50万円利用で年会費無料",
+              "国内空港ラウンジ無料",
+              "海外旅行傷害保険最大5000万円",
+              "マルイでの割引",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+          {
+            name: "セゾンプラチナアメックス",
+            rank: 3,
+            highlight: "ハイエンド付帯",
+            features: [
+              "年会費22,000円",
+              "プライオリティパス本会員",
+              "コンシェルジュサービス",
+              "海外旅行保険1億円",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">ラウンジ活用のコツ</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>国内ラウンジ（カードラウンジ）：軽食・ドリンクの範囲、ネット・充電</li>
+          <li>プライオリティ・パス：世界1,300箇所・食事＋シャワー＋マッサージも</li>
+          <li>年10回利用で年2〜3万円相当の節約（1回あたり2,000〜3,000円換算）</li>
+          <li>同伴者料金3,000円前後、家族旅行時は本会員＋同伴で利用</li>
+          <li>出発3〜4時間前からラウンジ入り、食事・休憩に活用</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="プライオリティ・パスは楽天プレミアムカードで｜年会費11,000円"
+        description="楽天プレミアムカードは年会費11,000円で、通常年3万円のプライオリティ・パスが付帯。年5回以上空港利用する人は余裕で元取れる、楽天SPU+2倍で楽天市場でのポイント還元も魅力、コスパ最強のラウンジカード。"
+        buttonText="楽天プレミアムカード詳細"
+        href="https://hb.afl.rakuten.co.jp/hgc/g00n15i1.3cb8aef3.g00n15i2.3cb8af52/?pc=https%3A%2F%2Fwww.rakuten-card.co.jp%2F"
+        icon="✈️"
+        highlight="プライオリティPass"
+      />
+    </>
+  ),
+  "retirement-income-diversify": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">老後の収入源多様化完全ガイド</h2>
+        <p>
+          老後の収入源を「公的年金」だけに頼るのは危険。公的年金（月15万円）＋配当収入（月5〜10万円）＋副業収入（月3〜10万円）の三本柱で月25〜35万円確保し、生活の質を保ちながら資産を減らさない戦略を解説します。高配当株投資・シニア副業・不動産収入まで、65歳以降の収入源多様化の実践戦略を網羅します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="老後の収入源3本柱"
+        services={[
+          {
+            name: "公的年金（基本）",
+            rank: 1,
+            highlight: "月13〜22万円",
+            features: [
+              "国民年金月6.8万円",
+              "厚生年金月8〜15万円（加入期間による）",
+              "65歳から支給開始",
+              "繰上げ・繰下げ受給可能",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "基本",
+          },
+          {
+            name: "配当収入（新NISA高配当株）",
+            rank: 2,
+            highlight: "月5〜15万円",
+            features: [
+              "高配当ETF（HDV・VYM・SCHD）",
+              "日本個別株（三菱商事・NTT等）",
+              "配当利回り3〜5%",
+              "1500万円投資で月5万円",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "シニア副業",
+            rank: 3,
+            highlight: "月3〜15万円",
+            features: [
+              "ブログ・YouTubeでの経験発信",
+              "シルバー人材センター週3日",
+              "コンサル業務（元管理職）",
+              "趣味を活かした販売",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+4A7B8A+2PEO+OK4PD",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">年齢別の収入源プラン</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>60〜65歳：現役継続＋副業準備＋新NISA高配当株移行</li>
+          <li>65〜75歳：年金＋副業＋配当収入の三本柱で月35万円</li>
+          <li>75〜85歳：年金＋配当収入が中心、副業は縮小</li>
+          <li>85歳以降：年金＋配当＋取崩しで生活維持</li>
+          <li>100歳時代の老後設計：70歳まで働く＋投資で資産増加の時代</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="高配当株投資はSBI証券で｜新NISA成長枠で非課税配当"
+        description="SBI証券は高配当ETF（HDV・VYM・SCHD）と日本個別株（三菱商事・JT・NTT等）を1口座で取引可能。新NISA成長枠での投資は配当も非課税、月5〜15万円の配当収入を老後の生活費に活用できる強力なプラットフォーム。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="👴"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "etf-bond-ladder-strategy": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">債券ETFラダー戦略完全ガイド</h2>
+        <p>
+          債券ETFラダー戦略は、異なる満期の債券ETFを階段状に保有し、毎年満期分を再投資することで金利変動リスクを分散する上級戦略。BIL（短期）・IEF（中期）・TLT（長期）の組合せで、年3〜5%の安定収入を目指します。退職後のリタイア期資金管理、金利上昇時代の安定運用として注目される手法です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="主要債券ETFラダー構成"
+        services={[
+          {
+            name: "BIL（短期1〜3ヶ月米国債）",
+            rank: 1,
+            highlight: "利回り4〜5%",
+            features: [
+              "短期金利連動",
+              "元本変動ほぼなし",
+              "流動性高い",
+              "現金代替資産として",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "短期",
+          },
+          {
+            name: "IEF（7〜10年中期米国債）",
+            rank: 2,
+            highlight: "利回り3〜4%",
+            features: [
+              "中期金利リスク",
+              "安定収入",
+              "株式と逆相関",
+              "バランス型に最適",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "中期",
+          },
+          {
+            name: "TLT（20年超長期米国債）",
+            rank: 3,
+            highlight: "利回り4〜5%",
+            features: [
+              "金利低下時の値上がり益大",
+              "ボラ大（20〜30%変動）",
+              "低金利時代の主力",
+              "株式暴落時のヘッジ",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">ラダー戦略の実践例（1000万円の場合）</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>BIL（短期）300万円：年15万円配当</li>
+          <li>IEF（中期）400万円：年14万円配当</li>
+          <li>TLT（長期）300万円：年13万円配当</li>
+          <li>合計：年42万円の配当収入（利回り4.2%）</li>
+          <li>毎年、満期分を再投資することで金利変動リスクを平準化</li>
+          <li>新NISA成長枠で非課税運用＝実質利回り5.2%相当</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="債券ETFラダー戦略はSBI証券で｜米国債券ETF完備"
+        description="SBI証券はBIL・IEF・TLT等の米国債券ETFを買付手数料無料で取引可能。為替手数料無料（住信SBI連携）、新NISA成長枠で非課税運用、金利上昇時代の安定収入戦略を低コストで実装、リタイア期の資金管理に最適。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="📶"
+        highlight="業界No.1"
+      />
+    </>
+  ),
 };
