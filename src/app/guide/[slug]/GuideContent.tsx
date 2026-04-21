@@ -25446,4 +25446,498 @@ const guideContents: Record<string, React.ReactNode> = {
       />
     </>
   ),
+  "furusato-satofuru-review": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">さとふる徹底レビュー｜ふるさと納税No.1の理由</h2>
+        <p>
+          「さとふる」は国内最大級のふるさと納税ポータルサイト。累計寄付金額5000億円超、掲載自治体1400以上、返礼品42万点と圧倒的なラインナップを誇ります。楽天ふるさと納税と並ぶ2大巨頭で、PayPay還元・AmazonPay対応・ワンストップ特例のオンライン完結等、初心者でも手軽に利用できるのが魅力です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="さとふる vs 楽天ふるさと納税"
+        services={[
+          {
+            name: "さとふる",
+            rank: 1,
+            highlight: "ワンストップ特例オンライン完結",
+            features: [
+              "掲載自治体数1400超",
+              "返礼品42万点",
+              "PayPayポイント還元",
+              "ワンストップ特例アプリで完結",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+            badge: "初心者向け",
+          },
+          {
+            name: "楽天ふるさと納税",
+            rank: 2,
+            highlight: "SPU最大16倍・ポイント最強",
+            features: [
+              "楽天ポイント還元最大16%",
+              "お買い物マラソン併用可",
+              "楽天会員なら即開始",
+              "返礼品30万点超",
+            ],
+            href: "https://search.rakuten.co.jp/search/mall/%E3%81%B5%E3%82%8B%E3%81%95%E3%81%A8%E7%B4%8D%E7%A8%8E/",
+            badge: "還元最強",
+          },
+          {
+            name: "ふるなび",
+            rank: 3,
+            highlight: "Amazonギフト券還元",
+            features: [
+              "Amazonギフト券で還元",
+              "家電・電化製品が豊富",
+              "高額寄付者向けキャンペーン",
+              "ふるなびプレミアム",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">さとふるの特徴・メリット</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>ワンストップ特例申請を「さとふるアプリ」でオンライン完結（郵送不要）</li>
+          <li>PayPay残高還元＋PayPayポイント還元のダブル恩恵</li>
+          <li>AmazonPay・d払い対応で決済柔軟性高い</li>
+          <li>お肉・海鮮・フルーツ等の定番返礼品が豊富</li>
+          <li>掲載自治体1400超で地域分散寄付に便利</li>
+          <li>年末駆け込み（12月31日23:59）まで受付対応</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="ふるさと納税はさとふるで｜ワンストップ特例オンライン完結"
+        description="さとふるは累計寄付金額5000億円超の実績あるふるさと納税サイト。1400自治体・42万点の返礼品、PayPay還元、ワンストップ特例オンライン完結で初心者でも簡単。年12万円寄付で返礼品4万円相当獲得可能。"
+        buttonText="さとふるで返礼品を探す"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5"
+        icon="🎁"
+        highlight="返礼品42万点"
+      />
+    </>
+  ),
+  "fx-jfx-review": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">JFX MATRIX TRADER徹底レビュー</h2>
+        <p>
+          JFX株式会社のMATRIX TRADERは、スキャルピング公式認定の数少ないFX会社として、FX上級者から圧倒的な支持を得ています。USD/JPYスプレッド業界最狭水準0.2銭、約定力・執行速度の高さ、高額キャッシュバックキャンペーンで、初心者から上級者まで幅広く活用できる高機能FXプラットフォームです。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="主要FX会社のスプレッド比較"
+        services={[
+          {
+            name: "JFX MATRIX TRADER",
+            rank: 1,
+            highlight: "スキャルピング歓迎・約定力No.1級",
+            features: [
+              "USD/JPYスプレッド0.2銭原則固定",
+              "スキャルピング公式認定",
+              "約定スピード0.001秒級",
+              "キャッシュバック最大20万円",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+            badge: "上級者向け",
+          },
+          {
+            name: "GMOクリック証券",
+            rank: 2,
+            highlight: "口座開設数国内No.1",
+            features: [
+              "USD/JPYスプレッド0.2銭",
+              "高機能取引ツール",
+              "キャッシュバック最大55万円",
+              "初心者向け情報豊富",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+          {
+            name: "DMM FX",
+            rank: 3,
+            highlight: "キャッシュバック業界高水準",
+            features: [
+              "USD/JPYスプレッド0.2銭",
+              "キャッシュバック最大30万円",
+              "LINE問合せ24時間対応",
+              "初心者サポート充実",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">JFX MATRIX TRADERの強み</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>スキャルピング公式OKで、業界でも数少ない短期売買歓迎のFX</li>
+          <li>USD/JPYスプレッド0.2銭原則固定、他通貨ペアも業界最狭水準</li>
+          <li>約定スピード0.001秒、スリッページ発生率も極めて低い</li>
+          <li>代表の小林芳彦氏（元為替ディーラー）による毎日の相場解説</li>
+          <li>キャッシュバック最大20万円＋新規口座開設キャンペーン</li>
+          <li>MT4型の高機能チャート、50種類以上のテクニカル指標</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="スキャルピング歓迎FXはJFXで｜新規口座開設＋キャッシュバック"
+        description="JFX MATRIX TRADERはスキャルピング公式認定、スプレッド業界最狭水準（USD/JPY 0.2銭）、約定力抜群。新規口座開設＋取引でキャッシュバック最大20万円、FX上級者・スキャル派の方の最適解。"
+        buttonText="JFXで口座開設"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5"
+        icon="💹"
+        highlight="スキャル公式OK"
+      />
+    </>
+  ),
+  "factoring-mirai-asset-review": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">MIRAIアセットファイナンス徹底レビュー</h2>
+        <p>
+          MIRAIアセットファイナンス（MIRAI Assets Finance）は、最短即日資金化対応のファクタリング会社。個人事業主・中小企業の資金繰り改善に特化、手数料2〜20%の業界平均水準、2社間・3社間どちらも対応可能で、ノンバンク系ファクタリングの選択肢として注目されています。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="ファクタリング会社比較"
+        services={[
+          {
+            name: "MIRAIアセットファイナンス",
+            rank: 1,
+            highlight: "最短即日・個人事業主OK",
+            features: [
+              "最短即日資金化",
+              "手数料2〜20%",
+              "2社間/3社間選択可",
+              "個人事業主・中小企業対応",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+            badge: "スピード重視",
+          },
+          {
+            name: "西日本ファクター",
+            rank: 2,
+            highlight: "西日本エリア特化",
+            features: [
+              "手数料3〜15%",
+              "最短即日入金",
+              "審査通過率90%超",
+              "対面相談も可能",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+7R8C9M+3XT0+5YJRM",
+          },
+          {
+            name: "えんナビ",
+            rank: 3,
+            highlight: "初心者向けオンライン完結",
+            features: [
+              "オンライン完結",
+              "手数料5〜20%",
+              "24時間申込受付",
+              "個人事業主特化",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">ファクタリング利用時の注意点</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>手数料は2〜20%と幅広く、複数社の相見積り必須</li>
+          <li>2社間は高速だが手数料高め、3社間は取引先承認必要だが手数料安い</li>
+          <li>ヤミ金・悪徳業者に注意、金融庁登録事業者を選ぶ</li>
+          <li>売掛金買取で借入ではないため、信用情報に影響しない</li>
+          <li>長期利用は経営悪化シグナル、一時的な資金繰り対策として活用</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="ファクタリングはMIRAIアセットファイナンスで｜最短即日資金化"
+        description="MIRAIアセットファイナンスは最短即日資金化対応のファクタリング会社。個人事業主・中小企業の資金繰り改善に特化、手数料2〜20%、2社間・3社間選択可、オンライン完結で全国対応可能。"
+        buttonText="MIRAIアセットで無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5"
+        icon="💰"
+        highlight="最短即日"
+      />
+    </>
+  ),
+  "invoice-system-complete-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">インボイス制度完全ガイド</h2>
+        <p>
+          2023年10月開始のインボイス制度（適格請求書等保存方式）は、全ての事業者に影響する消費税の新ルール。免税事業者の7割が課税事業者に転換、個人事業主・フリーランスは「適格請求書発行事業者登録」の要否で事業の継続性が変わります。2割特例・少額特例等の経過措置を活用した最適な対応方法を解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="インボイス対応の3パターン"
+        services={[
+          {
+            name: "適格請求書発行事業者に登録",
+            rank: 1,
+            highlight: "取引継続・納税発生",
+            features: [
+              "課税事業者に変更",
+              "消費税納税必要",
+              "2割特例で負担軽減（6年間）",
+              "取引先の仕入税額控除OK",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+            badge: "推奨",
+          },
+          {
+            name: "免税事業者継続（登録せず）",
+            rank: 2,
+            highlight: "納税ゼロ・取引減リスク",
+            features: [
+              "消費税納税不要",
+              "取引先が仕入税額控除不可",
+              "値下げ要請リスクあり",
+              "B2C事業者向け",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+          {
+            name: "2割特例の活用",
+            rank: 3,
+            highlight: "2023-2029年の経過措置",
+            features: [
+              "消費税納税額を売上税額×20%に",
+              "6年間限定",
+              "簡易課税より有利な場合多",
+              "売上200万円なら納税4万円",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">会計ソフトによる対応</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>freee会計：インボイス自動判定・適格請求書発行ワンクリック</li>
+          <li>マネーフォワードクラウド：AI仕訳でインボイス対応自動化</li>
+          <li>弥生会計オンライン：老舗の安心感、インボイス書式完備</li>
+          <li>月1,000〜3,000円の投資で、月10〜20時間の経理時間を削減可能</li>
+          <li>税理士ドットコムでインボイス対応税理士を無料マッチング</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="インボイス対応は税理士ドットコムで｜無料マッチング"
+        description="税理士ドットコムはインボイス制度対応に強い税理士を全国から無料マッチング。適格請求書発行事業者登録、2割特例、電子帳簿保存法との併用対応、フリーランス・個人事業主の最適プランを提案。"
+        buttonText="税理士ドットコムで無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5"
+        icon="📋"
+        highlight="無料マッチング"
+      />
+    </>
+  ),
+  "denshi-chobo-preservation-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">電子帳簿保存法完全ガイド</h2>
+        <p>
+          電子帳簿保存法（電帳法）は2024年1月から本格施行。電子取引データ（メール受信の請求書・ECサイトのPDF等）の電子保存が義務化され、紙プリントアウト保存は認められなくなりました。freee・マネフォ等の対応システム導入、タイムスタンプ運用、罰則回避のための実務対応を解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="電帳法対応の3分類"
+        services={[
+          {
+            name: "電子取引データ保存（義務）",
+            rank: 1,
+            highlight: "2024年1月から必須",
+            features: [
+              "メール・EC・クラウドの電子取引",
+              "改ざん防止要件満たす保存",
+              "検索機能（日付・金額・取引先）",
+              "7年間保存必須",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+            badge: "必須対応",
+          },
+          {
+            name: "スキャナ保存（任意）",
+            rank: 2,
+            highlight: "紙領収書をPDF化",
+            features: [
+              "紙の請求書・領収書をスキャン",
+              "タイムスタンプ必要",
+              "解像度200dpi以上",
+              "事務負担軽減可能",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+          {
+            name: "電子帳簿保存（任意）",
+            rank: 3,
+            highlight: "会計帳簿の電子保存",
+            features: [
+              "一般・優良電子帳簿から選択",
+              "優良電子帳簿は青色申告65万円控除",
+              "システム要件厳しい",
+              "上級者向け",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">罰則・注意点</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>違反時：青色申告取消（65万円控除消失）＋重加算税10%加重</li>
+          <li>電子取引データを紙で保存は違反、必ず電子保存</li>
+          <li>タイムスタンプ必要（改ざん防止要件）</li>
+          <li>猶予措置：2023年12月末までは紙保存でも可だったが、2024年から不可</li>
+          <li>小規模事業者の猶予措置：2024年以降も一定要件で紙保存可（相当の理由）</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="電帳法対応は税理士ドットコムで｜専門家無料相談"
+        description="税理士ドットコムは電帳法対応に強い税理士を無料マッチング。電子取引データ保存、スキャナ保存、タイムスタンプ運用、freee・マネフォ導入支援まで、実務に即したアドバイスが受けられる。"
+        buttonText="税理士ドットコムで無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5"
+        icon="💾"
+        highlight="電帳法対応"
+      />
+    </>
+  ),
+  "cashless-business-payment-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">店舗向けキャッシュレス決済完全ガイド</h2>
+        <p>
+          2026年のキャッシュレス決済比率は41%に達し、店舗にとってキャッシュレス対応は必須。Square・STORES決済・Airペイ・楽天ペイ・PayPay for Business等、各社の手数料（1.5〜3.25%）・入金サイクル・端末費用を比較し、業種別（飲食・小売・美容院・個人教室）の最適な選び方を解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="店舗向けキャッシュレス決済サービス比較"
+        services={[
+          {
+            name: "Square",
+            rank: 1,
+            highlight: "手数料業界最安・翌営業日入金",
+            features: [
+              "手数料3.25%（Visa/Master）",
+              "端末4,980円〜",
+              "翌営業日入金（三井住友銀行）",
+              "ECとPOS統合",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+            badge: "初心者向け",
+          },
+          {
+            name: "STORES決済",
+            rank: 2,
+            highlight: "美容・サロン業界で人気",
+            features: [
+              "手数料3.24%",
+              "端末0円キャンペーン",
+              "STORES EC連携",
+              "QR決済も対応",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+          {
+            name: "Airペイ",
+            rank: 3,
+            highlight: "リクルート運営・幅広い決済",
+            features: [
+              "手数料3.24〜3.74%",
+              "交通系IC・電子マネー対応",
+              "HOT PEPPER連携",
+              "端末0円申込可能",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">業種別おすすめ</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>飲食店：Square（タブレットPOS統合）or Airペイ（HPG連携）</li>
+          <li>美容室・サロン：STORES決済（予約管理と統合）</li>
+          <li>個人教室・教室：Square（レシート印刷不要モード）</li>
+          <li>イベント・催事：STORES決済（モバイル特化）</li>
+          <li>小売店：PayPay for Business＋Square（QR＋カード両対応）</li>
+          <li>オンライン店舗：Stripe・PayPal・Stripe（低手数料）</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="店舗のキャッシュレス化はSquareから｜端末4,980円・手数料業界最安"
+        description="Squareは手数料3.25%の業界最安水準、端末4,980円〜でスタート可能。翌営業日入金（三井住友銀行）、POS・在庫管理・EC統合で店舗DXを加速。飲食・小売・美容業界で導入実績多数。"
+        buttonText="Squareの詳細"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5"
+        icon="🏪"
+        highlight="手数料3.25%"
+      />
+    </>
+  ),
+  "inbound-travel-investment-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">インバウンド投資完全ガイド</h2>
+        <p>
+          訪日外国人旅行者数は2024年に3687万人を記録、2030年までに6000万人を目指す日本政府目標。円安・観光促進政策で観光・宿泊・小売産業に追い風が続きます。航空・ホテル・百貨店・ドラッグストア・JR各社等の関連銘柄、HDV・IWM等のETFで、インバウンド需要の恩恵を投資で取込む戦略を解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="インバウンド関連の主要銘柄"
+        services={[
+          {
+            name: "鉄道・航空",
+            rank: 1,
+            highlight: "JR東日本・ANA・JAL",
+            features: [
+              "JR東日本（9020）新幹線需要",
+              "ANA（9202）・JAL（9201）国際線",
+              "成田空港・関空関連株",
+              "円安恩恵で売上UP",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "王道",
+          },
+          {
+            name: "ホテル・観光",
+            rank: 2,
+            highlight: "星野リゾート・帝国ホテル",
+            features: [
+              "星野リゾート・リート投資法人",
+              "藤田観光（9722）",
+              "帝国ホテル（9708）",
+              "ホテル稼働率高水準維持",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "小売・ドラッグストア",
+            rank: 3,
+            highlight: "三越伊勢丹・マツキヨ",
+            features: [
+              "三越伊勢丹HD（3099）",
+              "マツキヨココカラ（3088）",
+              "ドン・キホーテ（3048）",
+              "免税売上増加",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">インバウンド投資の注意点</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>為替依存（円安で売上増、円高で売上減）の高ボラ</li>
+          <li>地政学リスク（中国・韓国の情勢で訪日数大きく変動）</li>
+          <li>個別株は集中リスク、インバウンドETF・J-REIT分散推奨</li>
+          <li>長期（5〜10年）目線で、短期の観光トレンド変動に耐える必要</li>
+          <li>ポートフォリオの5〜10%配分が適正、サテライト位置付け</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="インバウンド関連株はSBI証券で｜個別株＋REIT対応"
+        description="SBI証券はJR東日本・ANA・星野リート投資法人等のインバウンド関連株＋J-REIT＋観光ETFが1口座で取引可能。為替手数料無料（住信SBI連携）、新NISA成長枠で非課税運用、2030年6000万人時代の恩恵を取込む。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="✈️"
+        highlight="業界No.1"
+      />
+    </>
+  ),
 };
