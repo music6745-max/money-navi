@@ -28420,4 +28420,499 @@ const guideContents: Record<string, React.ReactNode> = {
       />
     </>
   ),
+  "international-school-cost-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">インターナショナルスクール費用完全ガイド</h2>
+        <p>
+          インターナショナルスクール（インター）は、日本に住みながら英語環境で教育を受けられる選択肢。年間授業料200〜400万円の高額投資だが、グローバル人材育成・海外大学進学の準備として注目されています。幼稚園〜高校までの総費用3000〜5000万円、公立教育との比較、節税対策、奨学金制度まで網羅的に解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="主要インターナショナルスクールの費用"
+        services={[
+          {
+            name: "アメリカンスクール・イン・ジャパン（ASIJ）",
+            rank: 1,
+            highlight: "年350〜400万円",
+            features: [
+              "東京調布市、創立1902年",
+              "幼稚園年365万・高校年400万",
+              "入学金160万円",
+              "米国認定校",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+4A7B8A+2PEO+OK4PD",
+            badge: "名門",
+          },
+          {
+            name: "西町インターナショナルスクール",
+            rank: 2,
+            highlight: "年280〜350万円",
+            features: [
+              "東京港区、創立1949年",
+              "幼稚園〜9年生",
+              "入学金150万円",
+              "小規模で面倒見良い",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+4A7B8A+2PEO+OK4PD",
+          },
+          {
+            name: "国際バカロレア認定校",
+            rank: 3,
+            highlight: "年200〜350万円",
+            features: [
+              "カナディアンインター（千葉・東京）",
+              "ハロウインターナショナル（安曇野）",
+              "IB認定で海外大学進学有利",
+              "文科省認可で卒業資格取得可",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+4A7B8A+2PEO+OK4PD",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">公立＋インター比較の総費用</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>公立（幼〜高校）：約1000万円 vs インター：3000〜5000万円</li>
+          <li>差額2000〜4000万円は大学進学費用にも匹敵</li>
+          <li>メリット：ネイティブレベルの英語、海外大学進学有利、国際的な交友関係</li>
+          <li>デメリット：日本の大学受験に不利、日本文化理解薄め</li>
+          <li>ハイブリッド：幼・小はインター→中高は日本校、柔軟に選択可</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="教育費の資産形成はSBI証券で｜新NISAで18年で1260万円"
+        description="SBI証券の新NISA積立月5万円×18年で約2000万円（年7%想定）の教育資金準備可能。インターナショナルスクール費用の一部カバーに、クレカ積立1%還元も活用、早期からのコツコツ積立が鉄則です。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="🌍"
+        highlight="教育資金"
+      />
+    </>
+  ),
+  "nisa-rollover-strategy-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">NISA移管戦略完全ガイド</h2>
+        <p>
+          NISA口座は年1回のみ金融機関変更可能。メガバンク系から低コストネット証券（SBI・楽天・マネックス）への移管で、クレカ積立1%還元・買付手数料無料・投資信託ラインナップ豊富等の大きなメリットを享受できます。旧NISA（つみたてNISA・一般NISA）の新NISAへの移管、手続きタイミング等を徹底解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="NISA金融機関変更の3大メリット"
+        services={[
+          {
+            name: "SBI証券への移管",
+            rank: 1,
+            highlight: "投信2,500本・クレカ積立",
+            features: [
+              "三井住友NL積立で1%還元",
+              "投信・米国ETF最多水準",
+              "為替手数料無料（住信SBI連携）",
+              "業界最強の総合力",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "王道",
+          },
+          {
+            name: "楽天証券への移管",
+            rank: 2,
+            highlight: "楽天ポイント連携",
+            features: [
+              "楽天カード積立1%還元",
+              "楽天SPU+0.5〜1倍",
+              "楽天経済圏統合",
+              "投信・米国ETF豊富",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "マネックス証券への移管",
+            rank: 3,
+            highlight: "マネックスカード1.1%",
+            features: [
+              "クレカ積立1.1%（業界最高）",
+              "iFreeシリーズ豊富",
+              "米国株情報量トップクラス",
+              "dポイント連携（docomo経済圏）",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">移管手続きのタイミング</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>変更時期：年1回のみ、前年10月〜当年9月の間に手続き</li>
+          <li>10月以降の手続きは翌年1月から新金融機関で開始</li>
+          <li>既存の保有商品は旧金融機関に残る、新規買付のみ新金融機関で</li>
+          <li>年内に新NISA買付していない場合は、当年から変更可能</li>
+          <li>手続き書類：勘定廃止通知書、新金融機関のNISA口座申込書</li>
+          <li>郵送で2〜4週間、電子手続き対応の金融機関は1〜2週間</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="NISA口座はSBI証券へ移管｜年1回の無料手続きで最強運用"
+        description="SBI証券のNISA口座は、投信・米国ETF・日本株の業界最多ラインナップ、三井住友NLクレカ積立1%、為替無料（住信SBI）の三拍子。メガバンク系からの移管で、年数千〜数万円のコスト削減＋還元ポイント獲得が可能。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="🔄"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "single-retirement-planning-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">独身の老後設計完全ガイド</h2>
+        <p>
+          独身者の老後は「経済面」と「孤独死対策」の二本柱で設計が必要。必要老後資金3000万円、公的年金月13万円、介護費用1000万円の準備、孤独死対策（生命保険・見守りサービス・任意後見）、相続の扱いまで、独身者特有の課題を網羅的に解説します。生涯独身率上昇中の2026年、必須の知識です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="独身者の老後3本柱"
+        services={[
+          {
+            name: "老後資金3000万円",
+            rank: 1,
+            highlight: "NISA＋iDeCo併用",
+            features: [
+              "新NISA月5〜10万円積立",
+              "iDeCo月2.3万円（会社員）",
+              "30年で3,000〜5,000万円",
+              "年金月13万+運用資産で安心",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "必須",
+          },
+          {
+            name: "孤独死・見守り対策",
+            rank: 2,
+            highlight: "月3,000〜10,000円",
+            features: [
+              "セコム・ALSOK見守り（月3,000〜5,000円）",
+              "緊急通報システム",
+              "定期安否確認サービス",
+              "任意後見契約（元気なうちに）",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+          },
+          {
+            name: "生命保険・相続準備",
+            rank: 3,
+            highlight: "相続人・遺言書の準備",
+            features: [
+              "生命保険受取人指定",
+              "遺言書作成（公正証書10万円〜）",
+              "家族信託の活用",
+              "終活サービス契約",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">独身老後の支出シミュレーション</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>老後生活費：月20〜25万円（家賃含む場合）</li>
+          <li>公的年金：国民年金月6.8万円＋厚生年金月8〜15万円＝計15〜22万円</li>
+          <li>不足分：月3〜5万円×20年（65〜85歳）＝700〜1200万円</li>
+          <li>介護費用：月10〜30万円×5〜10年＝600〜3600万円</li>
+          <li>葬儀・墓代：300〜500万円</li>
+          <li>目標老後資金：3000万円（介護期間考慮なら5000万円）</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="独身老後の備えは保険マンモスで｜終身保険＋介護保険の設計"
+        description="保険マンモスは独身者の老後設計に強いFPが無料相談。終身保険（相続税対策＋葬儀費用）、介護保険（月10〜30万円の介護費カバー）、任意後見契約の専門家紹介まで、独身者の全リスクに備える総合提案可能。"
+        buttonText="保険マンモスで無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM"
+        icon="🧑"
+        highlight="無料FP相談"
+      />
+    </>
+  ),
+  "business-succession-ma-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">事業承継・M&A完全ガイド</h2>
+        <p>
+          中小企業経営者の事業承継は、親族承継・従業員承継・M&A（第三者譲渡）の3パターンがあります。2026年の事業承継税制（納税猶予・免除）、M&A仲介会社（日本M&Aセンター・M&Aキャピタルパートナーズ等）の活用、事業価値評価、譲渡益の税務まで、経営者のイグジット戦略として必読の内容を解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="事業承継の3大パターン"
+        services={[
+          {
+            name: "親族承継",
+            rank: 1,
+            highlight: "事業承継税制活用で納税猶予",
+            features: [
+              "子・親族への承継",
+              "特例事業承継税制で相続・贈与税100%猶予",
+              "特例承認計画の提出必須",
+              "5〜10年継続で全額免除",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+            badge: "税制優遇",
+          },
+          {
+            name: "従業員承継（EBO・MBO）",
+            rank: 2,
+            highlight: "社内人材への承継",
+            features: [
+              "役員・従業員への株式譲渡",
+              "経営者個人の株式を分割売却",
+              "融資＋自己資金で買取",
+              "3〜5年かけた段階承継",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+          {
+            name: "M&A（第三者譲渡）",
+            rank: 3,
+            highlight: "日本M&Aセンター等仲介",
+            features: [
+              "売却益を一括現金化",
+              "仲介手数料3〜10%（売上規模で）",
+              "事業シナジー＋プレミアム評価",
+              "2〜6ヶ月の手続き期間",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">M&Aの売却価格シミュレーション</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>一般的な評価：純資産＋営業利益×3〜5年分</li>
+          <li>売上1億円・営業利益1000万円：売却価格3,000〜5,000万円</li>
+          <li>売上5億円・営業利益5000万円：売却価格1.5〜3億円</li>
+          <li>売上10億円・営業利益1億円：売却価格3〜5億円</li>
+          <li>高プレミアム業種：SaaS・医療・福祉・インフラ（5〜10倍評価）</li>
+          <li>低プレミアム業種：小売・飲食（2〜3倍評価）</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="事業承継・M&Aは税理士ドットコムで｜専門家無料相談"
+        description="税理士ドットコムは事業承継税制・M&A税務に強い税理士を無料マッチング。親族承継の相続・贈与税対策、M&A売却益の税務最適化、事業承継計画の策定まで、経営者の生涯財産を守る総合サポートを提供。"
+        buttonText="税理士ドットコムで無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5"
+        icon="🏢"
+        highlight="無料マッチング"
+      />
+    </>
+  ),
+  "real-estate-loan-advanced-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">不動産投資用融資完全ガイド</h2>
+        <p>
+          不動産投資用融資は、住宅ローンと異なる審査基準（物件の収益性＋個人の属性）で判断されます。三井住友トラストL&F・オリックス銀行等のアパートローン、日本政策金融公庫、プロパー融資（地銀・信金）の使い分け、金利2〜5%、融資期間15〜35年、頭金2〜3割の準備、年収700万円以上の属性要件まで解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="不動産投資用融資の3大選択肢"
+        services={[
+          {
+            name: "アパートローン（ノンバンク系）",
+            rank: 1,
+            highlight: "金利2.5〜4.5%",
+            features: [
+              "三井住友トラストL&F",
+              "オリックス銀行",
+              "融資期間25〜35年",
+              "融資額物件価格の80〜90%",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+            badge: "王道",
+          },
+          {
+            name: "日本政策金融公庫",
+            rank: 2,
+            highlight: "金利1.5〜3%・公的資金",
+            features: [
+              "創業初期・新規参入向き",
+              "融資期間10〜20年",
+              "融資額最大7,200万円",
+              "女性・若者・シニア優遇",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+          {
+            name: "プロパー融資（地銀・信金）",
+            rank: 3,
+            highlight: "物件評価次第で有利条件",
+            features: [
+              "金利1.5〜3.5%",
+              "融資期間15〜30年",
+              "物件・エリアの詳細審査",
+              "取引実績で条件改善",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">融資審査の属性要件</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>年収要件：700万円以上（アパートローン）、500万円以上（公庫）</li>
+          <li>勤続年数：3年以上（会社員）、1年以上（自営業）</li>
+          <li>自己資金：物件価格の20〜30%＋諸費用100〜200万円</li>
+          <li>借入比率（DTI）：年間返済額÷年収 35%以内</li>
+          <li>物件の利回り：表面利回り8%以上、実質利回り5%以上が目安</li>
+          <li>他借入（住宅ローン・カーローン）を加味して判断</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="不動産投資の相談は家づくり相談所で｜融資シミュレーション"
+        description="家づくり相談所は不動産投資向け融資シミュレーション＋物件選定＋税務対策までワンストップサポート。アパートローン・日本政策金融公庫の最適な選択、年収別の借入可能額計算で、失敗しない不動産投資を実現。"
+        buttonText="家づくり相談所で無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+3PD522+5OGA+5YZ75"
+        icon="🏢"
+        highlight="無料相談"
+      />
+    </>
+  ),
+  "mama-papa-remote-work-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">ママ・パパの在宅副業完全ガイド</h2>
+        <p>
+          育児中でも子育ての空き時間（1日2〜4時間）で月5〜15万円稼ぐママ・パパが増加中。ライティング・動画編集・オンライン秘書・Web制作・ポイ活・アフィリエイト等、場所と時間に縛られない在宅副業の具体的な始め方、扶養範囲内の働き方、確定申告まで、子育て世帯の家計改善を徹底サポートします。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="育児中に最適な副業TOP3"
+        services={[
+          {
+            name: "ライティング（クラウドワークス）",
+            rank: 1,
+            highlight: "文字単価0.5〜3円",
+            features: [
+              "スキマ時間で記事執筆",
+              "月5〜15万円（月20〜50記事）",
+              "子どもの昼寝中に作業",
+              "実績積めば単価UP",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+4A7B8A+2PEO+OK4PD",
+            badge: "初心者向け",
+          },
+          {
+            name: "オンライン秘書・アシスタント",
+            rank: 2,
+            highlight: "時給1500〜3000円",
+            features: [
+              "スケジュール管理・資料作成",
+              "週10〜20時間で月7〜15万",
+              "事務職経験活かせる",
+              "リモート完結",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+4A7B8A+2PEO+OK4PD",
+          },
+          {
+            name: "ポイ活＋アフィリエイト",
+            rank: 3,
+            highlight: "月3〜10万円",
+            features: [
+              "ハピタス・モッピー活用",
+              "ブログ・SNS経由のアフィリエイト",
+              "初期投資ほぼゼロ",
+              "育児情報発信で信頼構築",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">扶養範囲内の賢い働き方</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>扶養103万円：配偶者控除満額、所得税ゼロ</li>
+          <li>扶養130万円：社会保険扶養維持</li>
+          <li>扶養150万円：配偶者特別控除満額</li>
+          <li>年収200万円超：扶養外れ自分で社保加入、世帯収入UP</li>
+          <li>副業月5〜10万円なら扶養内、月15万円なら扶養外検討</li>
+          <li>確定申告：年20万円超で必須、青色申告65万円控除も活用可能</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="在宅副業の始まりはココナラで｜スキル出品＋案件獲得"
+        description="ココナラは15万人超のママ・パパが利用、スキル出品（ライティング・デザイン・育児相談等）500円〜で販売開始。スキマ時間で月5〜15万円の副業収入を得られる最強プラットフォーム、育児中の女性にも人気です。"
+        buttonText="ココナラに登録する"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+4A7B8A+2PEO+OK4PD"
+        icon="👨‍👩‍👧"
+        highlight="スキル売買No.1"
+      />
+    </>
+  ),
+  "annuity-insurance-compare-2026": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">年金保険比較2026</h2>
+        <p>
+          2026年の個人年金保険は、定額型（元本保証・利回り0.3〜0.5%）・変額型（運用リターン3〜7%）・外貨建て（米ドル3〜5%）の3タイプがあります。ソニー生命・明治安田・住友生命・JAライフプランナーの主要4社を比較、新NISA・iDeCoとの併用戦略、税制適格特約による所得控除活用で、老後資金形成の最適解を解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="主要4社の個人年金保険比較"
+        services={[
+          {
+            name: "ソニー生命（変額個人年金）",
+            rank: 1,
+            highlight: "運用実績年5〜7%",
+            features: [
+              "投資信託で運用",
+              "月1万円〜積立可能",
+              "特別勘定10種類以上",
+              "税制適格特約で所得控除",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+            badge: "成長重視",
+          },
+          {
+            name: "明治安田（米ドル建て個人年金）",
+            rank: 2,
+            highlight: "利回り年3〜5%（ドル）",
+            features: [
+              "予定利率高い",
+              "10年確定年金or終身年金",
+              "為替リスクあり",
+              "外貨資産形成併用",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+          },
+          {
+            name: "住友生命（定額個人年金）",
+            rank: 3,
+            highlight: "元本保証・安定型",
+            features: [
+              "予定利率0.3〜0.5%",
+              "元本割れリスクゼロ",
+              "保守派向け",
+              "税制適格特約対応",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">NISA・iDeCoとの組合せ戦略</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>新NISA：月5〜10万円（最大限運用、インデックス投資）</li>
+          <li>iDeCo：月1〜2.3万円（所得控除＋運用益非課税）</li>
+          <li>個人年金保険：月5,000円（年4万円控除枠のみフル活用）</li>
+          <li>年収600万なら、年60万円の投資＋年6万円の節税効果</li>
+          <li>30年運用で3,000〜5,000万円の老後資金構築可能</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="個人年金保険の選び方は保険マンモスで｜FP無料相談"
+        description="保険マンモスはソニー生命・明治安田・住友生命・JA等の個人年金保険を全社比較。定額・変額・外貨建ての違い、新NISA・iDeCoとの最適組合せ、税制適格特約の活用で、老後資金3,000万円構築プランを無料設計。"
+        buttonText="保険マンモスで無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM"
+        icon="👵"
+        highlight="無料FP相談"
+      />
+    </>
+  ),
 };
