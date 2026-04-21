@@ -29902,4 +29902,498 @@ const guideContents: Record<string, React.ReactNode> = {
       />
     </>
   ),
+  "nenkin-intensive-strategy": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">年金受給額最大化完全ガイド</h2>
+        <p>
+          公的年金の受給額は、受給開始時期・任意加入・付加年金・繰下げ受給の組合せで月3〜5万円の差を生みます。65歳標準月15万→75歳繰下げで月27万円（1.84倍）、任意加入＋付加年金で月+1〜2万円追加も。正しい知識で老後収入を最大化、生涯年金受給額を数百万〜数千万円UP させる戦略を徹底解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="年金最大化の4大戦略"
+        services={[
+          {
+            name: "繰下げ受給（最強）",
+            rank: 1,
+            highlight: "75歳で受給額1.84倍",
+            features: [
+              "65→70歳：1.42倍（+42%）",
+              "65→75歳：1.84倍（+84%）",
+              "長寿化時代の最適戦略",
+              "月15万→月27万円へ",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/ideco/lp/lpideco.html",
+            badge: "最強",
+          },
+          {
+            name: "付加年金（自営業）",
+            rank: 2,
+            highlight: "月200円で年2,400円",
+            features: [
+              "国民年金1号被保険者対象",
+              "月額400円の付加保険料",
+              "受給額年2,400円UP（2年で元取れ）",
+              "自営業・フリーランス必須",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+          },
+          {
+            name: "任意加入（60〜65歳）",
+            rank: 3,
+            highlight: "満額受給に近づける",
+            features: [
+              "加入期間40年未満で活用",
+              "60〜65歳の5年間拠出可能",
+              "月1.6万円×5年＝96万円追加",
+              "受給額月1〜3万円UP",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">年金受給額シミュレーション</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>平均年収500万円・加入40年：月16万円（65歳受給）、月22.7万円（70歳繰下げ）</li>
+          <li>年収800万円・加入40年：月22万円、月31.2万円（70歳繰下げ）</li>
+          <li>自営業（国民年金のみ）：月6.8万円、付加年金＋任意加入で月8万円</li>
+          <li>夫婦2人の世帯年金：月25〜40万円（会社員共働きならMAX）</li>
+          <li>75歳繰下げ×平均寿命85歳：約10年間で3000万円超の受給額差</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="年金＋iDeCoの老後戦略はSBI証券で｜三層構造の資産形成"
+        description="SBI証券のiDeCoは運営管理手数料0円、公的年金＋iDeCo＋NISAの三層構造で老後月35万円の理想的な収入確保。年金受給額最大化＋iDeCoの非課税運用＋NISA配当収入で、生涯数千万円の差を実現できる。"
+        buttonText="SBI証券iDeCoの詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/ideco/lp/lpideco.html"
+        icon="🏦"
+        highlight="手数料0円"
+      />
+    </>
+  ),
+  "tax-free-zone-investment": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">非課税枠フル活用完全ガイド</h2>
+        <p>
+          日本の税制にある非課税・税制優遇枠を全て活用すると、年収800万円の会社員でも年30万円超の節税が可能です。新NISA・iDeCo・企業型DC・小規模企業共済・ふるさと納税・生命保険料控除・医療費控除の組合せで、資産形成と節税を両立する総合戦略を徹底解説します。年収別の最適配分も網羅します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="主要非課税・税制優遇枠"
+        services={[
+          {
+            name: "新NISA（運用益非課税）",
+            rank: 1,
+            highlight: "年360万・生涯1800万",
+            features: [
+              "積立枠年120万＋成長枠年240万",
+              "生涯1800万円まで",
+              "売却益・配当非課税",
+              "全員必須の制度",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "最優先",
+          },
+          {
+            name: "iDeCo（所得控除＋非課税運用）",
+            rank: 2,
+            highlight: "年14〜81.6万円",
+            features: [
+              "会社員：年14.4〜27.6万円",
+              "公務員：年14.4万円",
+              "自営業：年81.6万円",
+              "全額所得控除＋運用益非課税",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/ideco/lp/lpideco.html",
+          },
+          {
+            name: "小規模企業共済（個人事業主）",
+            rank: 3,
+            highlight: "年最大84万円の所得控除",
+            features: [
+              "個人事業主・小規模経営者専用",
+              "月1,000〜70,000円拠出",
+              "全額所得控除",
+              "退職所得扱いで有利",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">年収別の最適配分</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>年収400万：新NISA月5万＋iDeCo月1万＋ふるさと納税4.2万＝年10万節税</li>
+          <li>年収600万：NISA月8万＋iDeCo月2万＋ふるさと納税7.7万＝年15万節税</li>
+          <li>年収800万：NISA月10万＋iDeCo月2.3万＋ふるさと納税13万＝年20万節税</li>
+          <li>年収1000万：NISA月10万＋iDeCo月2.3万＋ふるさと納税17.6万＋生保料控除＝年30万節税</li>
+          <li>自営業：NISA月10万＋iDeCo月6.8万＋小規模共済月7万＋ふるさと納税＝年40〜50万節税</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="非課税枠フル活用はSBI証券で｜NISA＋iDeCo総合"
+        description="SBI証券はNISA・iDeCo両方で業界最高水準。NISA年360万円＋iDeCo月最大6.8万円の非課税運用、年30万円超の節税効果を実現。個人事業主向けの小規模企業共済の案内もfreee会計経由で。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="🎯"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "cryptocurrency-analysis-tools": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">暗号資産分析ツール完全ガイド</h2>
+        <p>
+          暗号資産投資の成功には、適切な分析ツールの活用が不可欠です。価格・時価総額（CoinGecko・CoinMarketCap）、チャート分析（TradingView）、オンチェーン分析（Glassnode）、機関投資家データ（CryptoQuant）、ポートフォリオ管理（Delta）の使い分けで、勘に頼らない体系的な投資判断ができます。初級〜上級者向けのツール選定を詳解します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="暗号資産分析ツール4大カテゴリ"
+        services={[
+          {
+            name: "CoinGecko / CoinMarketCap",
+            rank: 1,
+            highlight: "価格・時価総額（必須）",
+            features: [
+              "1万以上の暗号資産カバー",
+              "日本円建て価格表示",
+              "時価総額ランキング",
+              "無料で十分な情報量",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+            badge: "必須",
+          },
+          {
+            name: "TradingView",
+            rank: 2,
+            highlight: "プロ級チャート分析",
+            features: [
+              "100以上のテクニカル指標",
+              "取引所直接連携",
+              "有料プラン月15ドル〜",
+              "FX・株式にも対応",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+          {
+            name: "Glassnode（上級者向け）",
+            rank: 3,
+            highlight: "オンチェーン分析",
+            features: [
+              "BTC・ETHの流通状況分析",
+              "大口アドレスの動向",
+              "有料プラン月29ドル〜",
+              "機関投資家レベル情報",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">分析ツールの組合せ戦略</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>初級者：CoinGecko＋取引所アプリ（bitFlyer・コインチェック）</li>
+          <li>中級者：TradingView無料プラン＋CoinMarketCapでスクリーニング</li>
+          <li>上級者：TradingView有料＋Glassnode＋ポートフォリオアプリ（Delta）</li>
+          <li>税務：Cryptact・Gtax（年1〜3万円）で自動損益計算</li>
+          <li>ニュース：CoinDesk Japan・CoinPost（日本語メディア）で情報収集</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="暗号資産取引はbitFlyerで｜分析ツールと連携可能"
+        description="bitFlyerはTradingView連携・リアルタイム情報提供の業界最大手。登録800万人超のユーザー実績、セキュリティ業界No.1、分析ツールと組合せた体系的な投資戦略の実装に最適なプラットフォーム。"
+        buttonText="bitFlyerの詳細"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5"
+        icon="📊"
+        highlight="業界最大手"
+      />
+    </>
+  ),
+  "japan-stock-dividend-kings": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">日本株高配当株投資完全ガイド</h2>
+        <p>
+          日本株の高配当戦略は、年配当利回り3〜5%で安定収入を得られる魅力的な投資手法。三菱商事（3.5%）・JT（5.5%）・ソフトバンク（5%）等の主要20銘柄を比較、新NISA成長枠での非課税運用活用、業種分散によるリスク管理で、2000万円投資で月10万円の配当収入を実現する実践戦略を徹底解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="主要日本高配当株TOP5"
+        services={[
+          {
+            name: "日本たばこ産業（JT）",
+            rank: 1,
+            highlight: "利回り5.5%・減配抵抗",
+            features: [
+              "配当利回り5.5%前後",
+              "1994年から連続配当",
+              "ディフェンシブ株",
+              "新NISA成長枠対応",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "高配当",
+          },
+          {
+            name: "ソフトバンク（SBKK）",
+            rank: 2,
+            highlight: "利回り5%・通信インフラ",
+            features: [
+              "配当利回り5%前後",
+              "親会社ソフトバンクGとは別",
+              "ディフェンシブ＋インフラ",
+              "安定的な配当方針",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "三菱商事",
+            rank: 3,
+            highlight: "バフェット投資・総合商社",
+            features: [
+              "配当利回り3.5%",
+              "連続増配10年以上",
+              "ウォーレン・バフェット保有",
+              "自社株買い積極的",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">高配当投資の業種分散戦略</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>金融：三菱UFJ・三井住友FG・みずほ（利回り3〜4%）</li>
+          <li>通信：NTT・KDDI・ソフトバンク（利回り3〜5%）</li>
+          <li>商社：三菱商事・伊藤忠・三井物産・住友商事（利回り3〜4%）</li>
+          <li>製造：JT・キヤノン・花王（利回り4〜5%）</li>
+          <li>インフラ：東京電力・JR東日本（利回り3〜4%）</li>
+          <li>業種・企業分散で減配リスク最小化、20銘柄均等配分が王道</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="日本高配当株はSBI証券で｜新NISA成長枠で非課税配当"
+        description="SBI証券は日本株の売買手数料NISA無料、主要高配当株20銘柄すべてカバー。新NISA成長枠で配当金非課税、2000万円投資で月10万円の配当収入も、FIRE・リタイア生活の基盤として活用できる。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="🇯🇵"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "cashback-maximize-strategy": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">キャッシュバック最大化完全ガイド</h2>
+        <p>
+          各種サービスの新規登録キャッシュバックを戦略的に活用すると、年間30万円以上の不労所得を獲得可能です。クレカ発行（1〜3万円×5枚）・FX口座開設＋取引（最大100万円）・証券口座・住宅ローン借換え等の組合せ、ポイントサイト（ハピタス・モッピー）経由での上乗せ、申込みタイミングの戦略まで完全網羅します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="高額キャッシュバック5大カテゴリ"
+        services={[
+          {
+            name: "FX口座開設＋取引",
+            rank: 1,
+            highlight: "最大100万円",
+            features: [
+              "GMOクリック：最大55万円",
+              "DMM FX：最大30万円",
+              "外為どっとコム：最大102万円",
+              "ポイントサイト経由で+4万円上乗せ",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+            badge: "最強",
+          },
+          {
+            name: "クレカ発行",
+            rank: 2,
+            highlight: "1〜3万円×複数枚",
+            features: [
+              "楽天カード：8千〜2万円",
+              "三井住友NL：1〜2万円",
+              "JCBカード：1〜3万円",
+              "年3〜5枚×2万円＝10万円",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+          {
+            name: "証券・銀行口座開設",
+            rank: 3,
+            highlight: "各5千〜3万円",
+            features: [
+              "SBI証券：5千円〜",
+              "楽天証券：5千円〜",
+              "住信SBI：5千円〜",
+              "ネット銀行：3千〜1万円",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl function-bold mb-3">年間30万円獲得の実例</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>FX口座4社開設＋取引：15〜20万円</li>
+          <li>クレカ5枚発行：8〜10万円</li>
+          <li>証券口座3社開設：1.5〜3万円</li>
+          <li>ネット銀行3社開設：1〜3万円</li>
+          <li>住宅ローン借換え：2〜5万円</li>
+          <li>保険相談：3千〜1万円×3社</li>
+          <li>年間合計：28〜42万円の不労所得</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="キャッシュバック獲得はハピタスから｜ポイントサイト経由で上乗せ"
+        description="ハピタスはクレカ・FX・証券口座開設で通常の1.5〜2倍のキャッシュバック獲得可能。登録無料・現金交換手数料無料、年30〜50万円の不労所得を実現するプラットフォーム、本格的なポイ活の入り口として最適。"
+        buttonText="ハピタスで無料登録"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5"
+        icon="💵"
+        highlight="新規登録400pt"
+      />
+    </>
+  ),
+  "small-business-loan-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">個人事業主・中小企業の融資完全ガイド</h2>
+        <p>
+          個人事業主・中小企業の融資は、日本政策金融公庫（金利1.5〜3%・最大7,200万円）、自治体の制度融資（金利1〜2%・利子補給）、プロパー融資（地銀・信金）、信用保証協会保証付きまで多様な選択肢があります。創業期・成長期・安定期それぞれの段階に応じた融資戦略、成功する事業計画書の作成方法まで解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="中小企業向け融資の4大選択肢"
+        services={[
+          {
+            name: "日本政策金融公庫",
+            rank: 1,
+            highlight: "政府系・金利1.5〜3%",
+            features: [
+              "新規開業資金最大7,200万円",
+              "創業1年以内でも可",
+              "女性・若者・シニア優遇",
+              "事業計画書の質が鍵",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+            badge: "王道",
+          },
+          {
+            name: "自治体の制度融資",
+            rank: 2,
+            highlight: "利子補給で実質1%以下",
+            features: [
+              "都道府県・市区町村の制度",
+              "信用保証協会保証付き",
+              "金利の一部自治体負担",
+              "地元企業向け有利条件",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+          {
+            name: "プロパー融資（地銀・信金）",
+            rank: 3,
+            highlight: "実績積上げで有利条件",
+            features: [
+              "金利1.5〜3.5%",
+              "取引実績2〜3年必要",
+              "メインバンク確保が鍵",
+              "将来の事業拡大に有利",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">融資成功の実践ポイント</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>事業計画書：売上予測・資金繰り表・市場分析を具体的に</li>
+          <li>自己資金：融資額の20〜30%を目安に準備</li>
+          <li>創業期：公庫＋制度融資の組合せが有利条件獲得</li>
+          <li>成長期：メインバンクでの実績積上げ、追加融資要請</li>
+          <li>税理士の支援：事業計画書作成・交渉サポートで成功率UP</li>
+          <li>断られても粘る：3行以上の銀行に同時申込み、比較検討</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="融資相談は税理士ドットコムで｜事業計画書作成サポート"
+        description="税理士ドットコムは融資・資金調達に強い税理士を無料マッチング。日本政策金融公庫・制度融資・プロパー融資の最適選択、事業計画書の作成支援、銀行との交渉サポートまで、融資成功率を劇的に向上させます。"
+        buttonText="税理士ドットコムで無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5"
+        icon="🏛️"
+        highlight="無料マッチング"
+      />
+    </>
+  ),
+  "silent-wealth-strategy": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">サイレントウェルス戦略完全ガイド</h2>
+        <p>
+          サイレントウェルス（静かな富裕層）は、派手な消費を避けて目立たず、実際は数千万〜1億円の資産を持つ人々。年収600〜800万円でも、中古住宅・中古車・ミニマル生活で年間200〜300万円貯蓄、新NISAで複利運用、30年でFIRE達成の実践戦略。SNS全盛時代の逆張り思考、見栄消費のワナを回避する富裕層思考を徹底解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="サイレントウェルスの3原則"
+        services={[
+          {
+            name: "消費ミニマル化",
+            rank: 1,
+            highlight: "年収の30%以内で生活",
+            features: [
+              "中古住宅（新築より2000万円安）",
+              "中古車（新車より200万円安）",
+              "外食・旅行控えめ",
+              "サブスク・消費を厳選",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "基本",
+          },
+          {
+            name: "高貯蓄率（30〜50%）",
+            rank: 2,
+            highlight: "月20〜30万円の貯蓄",
+            features: [
+              "手取りの30〜50%を貯蓄",
+              "年240〜360万円の蓄積",
+              "固定費削減で達成可能",
+              "先取り貯金で自動化",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "長期分散投資",
+            rank: 3,
+            highlight: "新NISA＋iDeCoで複利",
+            features: [
+              "年7%想定で30年運用",
+              "月30万円積立→9,000万円",
+              "全世界株インデックス中心",
+              "派手な銘柄選びは不要",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">見栄消費のワナを避ける</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>新車購入：200〜500万円、5年で半値、25年で2000万円の損失可能</li>
+          <li>新築マイホーム：中古より2000万円高、ローン金利含めて3000万円の差</li>
+          <li>ブランド品：20〜100万円、価値減少率90%超、投資に回せば大きく育つ</li>
+          <li>頻繁な外食・旅行：年100万円、10年で1000万円、NISA運用なら2倍以上に</li>
+          <li>SNS映え消費：他人軸の見栄、自分軸の満足に切替えるのが富裕層マインド</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="静かに資産を築く道はSBI証券で｜長期インデックス投資"
+        description="SBI証券のeMAXIS Slim全世界株式＋三井住友NL月5万円クレカ積立で、年7%運用×30年＝月5万円が2500万円に。派手な投資戦略より、地味でコツコツ続く長期インデックスが、サイレントウェルス実現の王道。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="🤫"
+        highlight="業界No.1"
+      />
+    </>
+  ),
 };
