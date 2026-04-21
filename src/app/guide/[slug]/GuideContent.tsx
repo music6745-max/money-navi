@@ -26925,4 +26925,497 @@ const guideContents: Record<string, React.ReactNode> = {
       />
     </>
   ),
+  "asset-management-fee-comparison": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">運用手数料最適化完全ガイド</h2>
+        <p>
+          投資信託・ETF・ロボアドの手数料差は、30年運用で数百万円の差を生みます。eMAXIS Slim全世界株式（信託報酬0.05%）vs ウェルスナビ（1.1%）で年1%超の差、1000万円×30年で複利効果により350万円の差額。低コスト運用の徹底が、資産形成の最重要戦略です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="手数料ランキング（全世界株インデックス）"
+        services={[
+          {
+            name: "eMAXIS Slim全世界株式",
+            rank: 1,
+            highlight: "信託報酬0.05775%",
+            features: [
+              "業界最安水準",
+              "純資産5兆円超の安定感",
+              "新NISA積立枠対応",
+              "SBI・楽天・マネックス全社取扱",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "最安",
+          },
+          {
+            name: "SBI・V・全世界株式（VT連動）",
+            rank: 2,
+            highlight: "信託報酬0.1238%",
+            features: [
+              "バンガードVT連動",
+              "実質コスト0.15%程度",
+              "SBI証券特化商品",
+              "米国比率55%で成長期待",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "ウェルスナビ（ロボアド）",
+            rank: 3,
+            highlight: "手数料1.1%",
+            features: [
+              "手間ゼロで自動運用",
+              "リバランス自動化",
+              "税金最適化機能",
+              "eMAXIS Slimの22倍コスト",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">30年運用の手数料差シミュレーション</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>月3万円積立・年利7%想定で30年運用</li>
+          <li>eMAXIS Slim（0.05%）：最終資産3,710万円</li>
+          <li>ウェルスナビ（1.1%）：最終資産3,090万円</li>
+          <li>差額：620万円（手数料の複利効果）</li>
+          <li>米国ETF買付手数料無料＋為替手数料無料で+0.3%改善も可</li>
+          <li>手数料0.5%以下を死守するのが鉄則、1%超は要見直し</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="低コスト運用はSBI証券で｜eMAXIS Slim＋米国ETF"
+        description="SBI証券はeMAXIS Slim全世界株式（信託報酬0.05%）・米国ETF買付手数料無料・為替手数料無料（住信SBI連携）の三拍子。ロボアド（1.1%）より年1%超コスト削減、30年で数百万円の差を実現。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="💸"
+        highlight="手数料0.05%"
+      />
+    </>
+  ),
+  "bitcoin-etf-japan-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">ビットコイン現物ETF完全ガイド</h2>
+        <p>
+          2024年1月に米SECが承認したビットコイン現物ETF（IBIT・FBTC・ARKB等）は、上場から1年で預かり資産500億ドル突破の大成功。日本未上陸のため現状は米国ETFへの直接投資が唯一の選択肢、2026年以降の日本版BTC-ETF上場も期待されています。仮想通貨取引所より手数料・税制面で有利な投資手段として注目されています。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="主要ビットコイン現物ETF"
+        services={[
+          {
+            name: "iShares Bitcoin Trust（IBIT）",
+            rank: 1,
+            highlight: "預かり資産トップクラス",
+            features: [
+              "ブラックロック運用",
+              "信託報酬0.25%（プロモ中）",
+              "預かり資産300億ドル超",
+              "流動性・信頼性No.1",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "王道",
+          },
+          {
+            name: "Fidelity Wise Origin Bitcoin（FBTC）",
+            rank: 2,
+            highlight: "フィデリティ運用",
+            features: [
+              "信託報酬0.25%",
+              "預かり資産150億ドル超",
+              "老舗フィデリティの信頼性",
+              "米国401(k)対応",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "ARK 21Shares Bitcoin（ARKB）",
+            rank: 3,
+            highlight: "キャシー・ウッド",
+            features: [
+              "信託報酬0.21%",
+              "ARK系列のBTC特化",
+              "預かり資産40億ドル",
+              "イノベーション投資志向",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">日本から購入する方法</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>SBI証券・楽天証券・マネックス証券の米国株口座で直接購入</li>
+          <li>為替手数料：SBI×住信SBI連携で無料、楽天は片道4銭</li>
+          <li>買付手数料：各社0.495%（上限22ドル）or 無料プラン</li>
+          <li>税金：申告分離課税20.315%、新NISA対象外（成長枠ETF限定）</li>
+          <li>仮想通貨取引所（年55%）より税制優遇、現物BTCより有利</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="ビットコインETFはSBI証券で｜為替手数料無料で有利"
+        description="SBI証券は米国ビットコイン現物ETF（IBIT・FBTC・ARKB等）を買付可能。住信SBIネット銀行連携で為替手数料無料、仮想通貨取引所（雑所得最大55%）より圧倒的に有利な税制で長期保有できる。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="₿"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "reverse-mortgage-detail-2026": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">リバースモーゲージ詳細比較</h2>
+        <p>
+          リバースモーゲージは、60歳以上の持家シニアが自宅を担保にお金を借り、死亡時に住宅売却で返済する仕組み。老後資金不足の解決策として東京スター銀行・JHF（住宅金融支援機構）・楽天銀行等が提供。金利2.5〜3.5%、担保掛目50〜70%で、月10〜30万円の追加年金を確保できます。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="主要リバースモーゲージ比較"
+        services={[
+          {
+            name: "JHF リ・バース60",
+            rank: 1,
+            highlight: "ノンリコース型・公的制度",
+            features: [
+              "住宅金融支援機構",
+              "50歳以上対象",
+              "ノンリコース型（死亡後売却で完済）",
+              "金利年2.8〜3.5%",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+3PD522+5OGA+5YZ75",
+            badge: "安心",
+          },
+          {
+            name: "東京スター銀行",
+            rank: 2,
+            highlight: "借入上限大・金利低",
+            features: [
+              "金利年2.5〜3.0%",
+              "担保掛目最大70%",
+              "首都圏・大都市圏物件対応",
+              "老舗リバースモーゲージ",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+3PD522+5OGA+5YZ75",
+          },
+          {
+            name: "楽天銀行 リタイアメント・ローン",
+            rank: 3,
+            highlight: "楽天経済圏連携",
+            features: [
+              "金利年3.0〜3.5%",
+              "担保掛目50〜60%",
+              "ネット完結で手続き楽",
+              "楽天ポイント還元",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+3PD522+5OGA+5YZ75",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">リバースモーゲージのメリット・デメリット</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>メリット①：自宅に住み続けながら現金化可能</li>
+          <li>メリット②：ノンリコース型なら残債も相続人に請求なし</li>
+          <li>メリット③：月10〜30万円の追加年金で生活の質向上</li>
+          <li>デメリット①：長寿で資産価値を下回る可能性</li>
+          <li>デメリット②：金利上昇で負債増</li>
+          <li>デメリット③：子が実家相続できない</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="リバースモーゲージの相談は家づくり相談所で｜不動産評価＋最適商品"
+        description="家づくり相談所は不動産評価・リバースモーゲージ商品の比較・相続対策まで総合相談。JHF・東京スター銀行・楽天銀行等の商品を中立的立場で比較、60歳以降の資産活用プランを無料で設計できる。"
+        buttonText="家づくり相談所で無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+3PD522+5OGA+5YZ75"
+        icon="🏠"
+        highlight="無料相談"
+      />
+    </>
+  ),
+  "carbon-credit-investment-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">カーボンクレジット投資完全ガイド</h2>
+        <p>
+          2026年から本格スタートのGX-ETS（排出量取引）とJ-クレジット制度により、カーボンクレジットは新たな投資対象に。森林由来クレジット・ブルーカーボン・CO2削減技術への投資で、脱炭素社会の成長恩恵を取込めます。ESG投資の一環として、年10〜20%の成長が期待される新ジャンルです。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="カーボンクレジット投資の主な手段"
+        services={[
+          {
+            name: "GX-ETF（排出量取引ETF）",
+            rank: 1,
+            highlight: "野村・ダイワで2026年上場予定",
+            features: [
+              "J-クレジット価格連動",
+              "信託報酬0.3〜0.5%",
+              "新NISA成長枠対応",
+              "個人投資家が参加しやすい",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "新規",
+          },
+          {
+            name: "ICLN（米国クリーンエネルギーETF）",
+            rank: 2,
+            highlight: "クリーンエネルギー総合",
+            features: [
+              "信託報酬0.4%",
+              "太陽光・風力・水素の総合投資",
+              "預かり資産50億ドル",
+              "米国・欧州企業中心",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "個別脱炭素企業株",
+            rank: 3,
+            highlight: "高成長高リスク",
+            features: [
+              "レノバ（9519）",
+              "イーレックス（9517）",
+              "SBGネットゼロ",
+              "ボラティリティ高い",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">カーボンクレジット投資のリスク</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>政策変更リスク（脱炭素政策の後退）</li>
+          <li>市場規模がまだ小さい（流動性リスク）</li>
+          <li>クレジット価格ボラティリティ高い</li>
+          <li>ESG投資バブル崩壊のリスク</li>
+          <li>ポートフォリオ5〜10%のサテライト配分推奨</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="GX-ETF・クリーンエネルギー投資はSBI証券で"
+        description="SBI証券は2026年上場のGX-ETF、米国ICLN・FAN（風力ETF）・TAN（太陽光ETF）等の脱炭素テーマETFを全てカバー。為替手数料無料、新NISA成長枠で非課税運用、脱炭素社会の恩恵を取込める。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="🌿"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "robo-advisor-hybrid-detail": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">AIロボアド詳細比較2026</h2>
+        <p>
+          ロボアドバイザーは2026年時点で預かり資産1兆円超（ウェルスナビ）、AIの進化で運用精度も向上しています。THEO＋docomo・SUSTEN・FOLIO ROBO PRO等、手数料0.66〜1.1%で手間ゼロ運用が可能。新NISA対応は各社異なり、忙しい会社員・投資初心者・時間を買いたい人向けの選択肢として確固たる地位を築いています。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="主要ロボアド比較"
+        services={[
+          {
+            name: "ウェルスナビ",
+            rank: 1,
+            highlight: "預かり資産1兆円・業界最大手",
+            features: [
+              "手数料1.1%（年）",
+              "自動リバランス・税金最適化",
+              "新NISA対応",
+              "最低投資額1万円",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "業界最大",
+          },
+          {
+            name: "SUSTEN",
+            rank: 2,
+            highlight: "儲かった分のみ手数料",
+            features: [
+              "成功報酬型手数料",
+              "手数料0.66〜0.99%",
+              "新NISA対応",
+              "最低投資額1万円",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "FOLIO ROBO PRO",
+            rank: 3,
+            highlight: "AI判断で高リターン狙い",
+            features: [
+              "手数料1.1%",
+              "AI予測による動的配分",
+              "新NISA対応",
+              "市場予測型の攻めの運用",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">ロボアドを使うべき人・使わない方が良い人</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>使うべき：投資初心者・時間を買いたい会社員・自動化したい人</li>
+          <li>使うべき：リバランス面倒・税金最適化の知識ない人</li>
+          <li>使わない：手数料を気にする長期投資家（eMAXIS Slim 0.05%）</li>
+          <li>使わない：自分で運用したい経験者</li>
+          <li>使わない：新NISA満額活用したい人（枠がロボアドで埋まる）</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="低コスト運用派はSBI証券で｜eMAXIS Slim＋自動積立で実質ロボアド"
+        description="SBI証券はeMAXIS Slim全世界株式の自動積立設定で、実質ロボアドと同じ楽さ＋コスト1/22（0.05% vs 1.1%）。新NISA成長枠でクレカ積立1%還元、手動リバランスも年1回で十分、上級者向けの選択肢。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="🤖"
+        highlight="コスト22倍差"
+      />
+    </>
+  ),
+  "bousai-financial-preparation": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">災害・緊急事態への金融備え完全ガイド</h2>
+        <p>
+          地震・台風・感染症等の緊急事態時、金融面での準備が家族を守ります。生活防衛資金（生活費6ヶ月分）、災害保険（地震保険）、複数金融機関分散、現金保有、避難時の電子マネー活用等、総合的な金融防災対策を体系的に解説します。コロナ禍・能登地震の教訓を踏まえた、現代の金融BCP（事業継続計画）です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="金融防災の必須要素"
+        services={[
+          {
+            name: "生活防衛資金",
+            rank: 1,
+            highlight: "6ヶ月分・90〜180万円",
+            features: [
+              "普通預金で即座に引出し可",
+              "メガバンク＋ネット銀行分散",
+              "失業・病気・災害時の生活費",
+              "投資前の最優先項目",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "必須",
+          },
+          {
+            name: "災害保険（地震保険）",
+            rank: 2,
+            highlight: "火災保険の特約",
+            features: [
+              "火災保険の30〜50%補償",
+              "月1,000〜3,000円の保険料",
+              "地震・津波・噴火対応",
+              "所得控除5万円の税制優遇",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+          },
+          {
+            name: "現金・ゴールド保有",
+            rank: 3,
+            highlight: "物理的な保全資産",
+            features: [
+              "現金5〜10万円を家に保管",
+              "金の延べ棒・金貨（10〜30万円）",
+              "停電・ATM停止時の備え",
+              "避難時の電子マネー併用",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">災害時の金融対応チェックリスト</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>通帳・キャッシュカード・印鑑・マイナンバーカードの避難バッグ準備</li>
+          <li>ネットバンキング・スマホアプリのログイン情報の紙メモ保管</li>
+          <li>現金5〜10万円の家庭内分散保管</li>
+          <li>複数金融機関（メガバンク＋ネット銀行）に資産分散</li>
+          <li>地震保険＋火災保険の最新化（世帯主死亡時の生命保険も）</li>
+          <li>災害時は銀行預金特別措置（通帳・印鑑なしでも10〜20万円引出し可）</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="災害保険の見直しは保険マンモスで｜地震保険・火災保険比較"
+        description="保険マンモスは地震保険・火災保険を全社比較。耐震等級割引・長期契約割引・保険料控除の最大活用、住宅ローンとの連動まで、無料FP相談で災害リスクに備える最適プランを設計できる。"
+        buttonText="保険マンモスで無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM"
+        icon="⛑️"
+        highlight="無料FP相談"
+      />
+    </>
+  ),
+  "couple-joint-investment-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">夫婦共同投資完全ガイド</h2>
+        <p>
+          共働き夫婦は「夫婦合計の新NISA年720万円」フル活用で、1人世帯の2倍の資産形成速度を実現できます。世帯単位での資産配分、リスク許容度の調整、共同口座vs個別口座、離婚時のリスクまで、2人で1億円を目指す夫婦の王道戦略を解説。30代からの夫婦投資で、60代FIRE達成も夢ではありません。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="夫婦投資の3大戦略"
+        services={[
+          {
+            name: "両者NISA満額（年720万円）",
+            rank: 1,
+            highlight: "年720万円・10年で7200万円",
+            features: [
+              "夫360万＋妻360万＝年720万円",
+              "10年で生涯枠3600万円フル活用",
+              "運用益で合計1億円到達可能",
+              "夫婦最強の資産形成術",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "王道",
+          },
+          {
+            name: "iDeCo＋NISA併用",
+            rank: 2,
+            highlight: "年合計800万円の非課税運用",
+            features: [
+              "夫iDeCo 27.6万＋妻iDeCo 27.6万",
+              "2人合計年55.2万円の所得控除",
+              "夫婦で年5〜10万円節税",
+              "最強の節税＋非課税運用",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/ideco/lp/lpideco.html",
+          },
+          {
+            name: "家計管理の2口座方式",
+            rank: 3,
+            highlight: "共通口座＋個別口座",
+            features: [
+              "共通：生活費・住宅ローン・子供費",
+              "個別：各自の小遣い・自由資金",
+              "世帯管理の透明性",
+              "離婚時のリスク管理",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">リスク分担の重要性</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>NISA口座は本人名義のみ、夫婦合算できない</li>
+          <li>収入多い方が多く積立、iDeCoの所得控除効果最大化</li>
+          <li>配偶者の生命保険も考慮（死亡時の遺族年金＋保険金）</li>
+          <li>離婚時：婚姻期間中の資産は共有財産として分割対象</li>
+          <li>夫婦間の贈与は年110万円非課税、それ超で贈与税</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="夫婦NISAはSBI証券で｜家族口座開設＋クレカ積立1%還元"
+        description="SBI証券は夫婦それぞれの口座開設＋三井住友カードNLで年1%クレカ積立還元、夫婦合計で年120万円×1%＝12,000pt獲得。新NISA年720万円・夫婦最強の資産形成プラットフォーム。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="💑"
+        highlight="夫婦投資"
+      />
+    </>
+  ),
 };
