@@ -27418,4 +27418,504 @@ const guideContents: Record<string, React.ReactNode> = {
       />
     </>
   ),
+  "shinsotsu-first-bank-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">新社会人の銀行・クレカ・証券完全ガイド</h2>
+        <p>
+          新社会人の最初の1〜3ヶ月で、給与振込用銀行・メインクレジットカード・証券口座を整えることが、今後40年の資産形成の土台になります。メガバンク（三菱UFJ・みずほ・三井住友）vsネット銀行（住信SBI・楽天・あおぞら）の選択、クレカキャンペーン活用、新NISA即スタートで、就職祝いキャンペーンを含め5〜10万円お得にスタートできます。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="新社会人におすすめの金融プラットフォーム"
+        services={[
+          {
+            name: "給与振込・生活口座",
+            rank: 1,
+            highlight: "ネット銀行が圧倒的に有利",
+            features: [
+              "住信SBIネット銀行（SBIハイブリッド）",
+              "楽天銀行（楽天ポイント連携）",
+              "あおぞら銀行 BANK支店（金利0.2%）",
+              "メガバンクは金利0.001%で不利",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "給与振込",
+          },
+          {
+            name: "メインクレジットカード",
+            rank: 2,
+            highlight: "三井住友NL or 楽天カード",
+            features: [
+              "三井住友NL：コンビニ7%還元",
+              "楽天カード：楽天市場SPU+1倍",
+              "年会費永年無料",
+              "新規入会5000〜10,000pt",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+            badge: "クレカ",
+          },
+          {
+            name: "証券口座",
+            rank: 3,
+            highlight: "新NISA即スタート",
+            features: [
+              "SBI証券（業界No.1）",
+              "楽天証券（楽天経済圏）",
+              "月1万円からのクレカ積立",
+              "新NISA年360万円枠フル活用",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">新社会人が避けるべき失敗</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>メガバンクだけ使う（ネット銀行の金利200倍を知らない）</li>
+          <li>クレカを持たない（ポイント還元で年3〜5万円損）</li>
+          <li>貯金ばかり・投資しない（複利で将来1000万円以上の機会損失）</li>
+          <li>親のすすめのみで判断（情報古い場合が多い）</li>
+          <li>リボ払い・消費者ローン（手数料年15〜18%の罠）</li>
+          <li>投資詐欺・怪しい副業勧誘に引っかかる</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="新社会人の資産形成はSBI証券で｜20代から始める40年プラン"
+        description="SBI証券は新NISA＋クレカ積立＋米国ETFの総合プラットフォーム。住信SBIネット銀行と連携で給与振込から投資まで1画面完結、月3万円×40年で5,900万円の資産形成が可能な最強の20代スタートセット。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="🎓"
+        highlight="20代におすすめ"
+      />
+    </>
+  ),
+  "housewife-assets-invest-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">専業主婦の資産形成完全ガイド</h2>
+        <p>
+          専業主婦でも新NISA・iDeCoの活用で、世帯資産形成に大きく貢献できます。配偶者控除（年収103〜150万円）の範囲内でパート収入＋運用益を生み出し、離婚・死別のリスク対策としての「自分名義の資産」確保も重要。夫のNISAサポートと並行して、主婦特有の金融戦略を解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="専業主婦の資産形成3大戦略"
+        services={[
+          {
+            name: "専業主婦の新NISA",
+            rank: 1,
+            highlight: "自分名義で年360万円",
+            features: [
+              "所得なくてもNISA口座開設可",
+              "配偶者の資金で積立OK（贈与扱い注意）",
+              "運用益非課税",
+              "離婚・死別時の自分の資産",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "王道",
+          },
+          {
+            name: "パート＋iDeCo",
+            rank: 2,
+            highlight: "年27.6万円の所得控除",
+            features: [
+              "パート年収103〜150万でiDeCo加入",
+              "月2.3万円×所得控除",
+              "年7.2万円の節税効果",
+              "60歳まで非課税運用",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/ideco/lp/lpideco.html",
+          },
+          {
+            name: "夫のNISA・iDeCoサポート",
+            rank: 3,
+            highlight: "世帯最大化",
+            features: [
+              "夫のNISA年360万円＋自分のNISA",
+              "夫婦合計で年720万円の非課税枠",
+              "iDeCo夫婦で年50万円超節税",
+              "配偶者控除＋両取り",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">専業主婦が知るべきポイント</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>配偶者控除（年収103万円以下）・配偶者特別控除（201万円以下）</li>
+          <li>第3号被保険者（専業主婦の国民年金、夫厚生年金加入時は無料）</li>
+          <li>年収130万円の壁（社会保険扶養の境界線）</li>
+          <li>新NISAは所得関係なく加入可、自分の資産として重要</li>
+          <li>離婚時の共有財産分割、婚姻期間中の夫婦資産は半分が分与対象</li>
+          <li>遺族年金受給のため、夫の死亡時は重要な生活資金源</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="専業主婦の資産形成はSBI証券で｜自分名義のNISA口座"
+        description="SBI証券は所得関係なく口座開設可、新NISA年360万円で自分の資産を非課税運用。夫婦合計年720万円の非課税枠で世帯資産最大化、離婚・死別リスクへの備えとしても重要な「自分名義の資産」構築。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="👩"
+        highlight="主婦でもOK"
+      />
+    </>
+  ),
+  "koumuin-ideco-special-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">公務員のiDeCo完全ガイド</h2>
+        <p>
+          公務員（国家公務員・地方公務員・私立学校教職員）のiDeCoは、民間企業より拠出上限が低い月1.2万円（年14.4万円）に設定されています。それでも共済年金（退職給付）との組合せで老後資金を強化できる重要な制度、退職金節税・運用コストの違い・金融機関選びを徹底解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="公務員向けiDeCo金融機関比較"
+        services={[
+          {
+            name: "SBI証券",
+            rank: 1,
+            highlight: "運営管理手数料0円",
+            features: [
+              "運営管理手数料永年無料",
+              "投資信託40本以上",
+              "セレクトプランで低コスト商品",
+              "事務手続き楽（Web完結）",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/ideco/lp/lpideco.html",
+            badge: "王道",
+          },
+          {
+            name: "楽天証券",
+            rank: 2,
+            highlight: "楽天ポイント連携",
+            features: [
+              "運営管理手数料無料",
+              "楽天・オールカントリー等人気商品",
+              "楽天経済圏ユーザー向け",
+              "初心者向けUI",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/ideco/lp/lpideco.html",
+          },
+          {
+            name: "マネックス証券",
+            rank: 3,
+            highlight: "iFreeシリーズ豊富",
+            features: [
+              "運営管理手数料無料",
+              "iFree NEXT FANG＋等ユニーク",
+              "投資信託27本",
+              "米国株志向のラインナップ",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/ideco/lp/lpideco.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">公務員のiDeCo節税効果</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>月1.2万円×12ヶ月＝年14.4万円全額所得控除</li>
+          <li>年収600万円公務員：所得税＋住民税で年4〜5万円節税</li>
+          <li>30年積立：元本432万円＋運用益で800万円超（年5%想定）</li>
+          <li>60歳以降一括受取：退職所得控除で税負担大幅軽減</li>
+          <li>共済年金（退職給付）＋iDeCoで老後資金の三層化</li>
+          <li>民間企業（月2.3万円）より少ないが、確実に活用したい制度</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="公務員iDeCoはSBI証券で｜手数料0円＋低コスト商品"
+        description="SBI証券のiDeCoは運営管理手数料0円、eMAXIS Slim全世界・米国S&P500等の低コスト商品完備。公務員の月1.2万円を年14.4万円で非課税運用、所得控除で年4〜5万円節税、30年で800万円超の資産形成。"
+        buttonText="SBI証券iDeCoの詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/ideco/lp/lpideco.html"
+        icon="🏛️"
+        highlight="公務員必須"
+      />
+    </>
+  ),
+  "early-retirement-ideco-exit": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">早期退職時のiDeCo戦略</h2>
+        <p>
+          早期退職（40〜55歳）時のiDeCoは、60歳まで引き出し不可の原則が壁になります。ただし運用指図者としての継続、60〜75歳の受取タイミング最適化、退職所得控除との組合せで、FIRE達成者・早期退職者でも最大の税務メリットを得られる戦略があります。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="早期退職後のiDeCo対応"
+        services={[
+          {
+            name: "運用指図者として継続",
+            rank: 1,
+            highlight: "拠出停止＋運用継続",
+            features: [
+              "月66円の手数料のみ",
+              "60歳まで運用継続",
+              "積立停止しても運用益非課税",
+              "最も現実的な選択肢",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/ideco/lp/lpideco.html",
+            badge: "王道",
+          },
+          {
+            name: "iDeCo継続拠出（条件あり）",
+            rank: 2,
+            highlight: "フリーランスで月6.8万円",
+            features: [
+              "退職後フリーランスで拠出継続",
+              "月6.8万円（年81.6万円）",
+              "全額所得控除",
+              "所得ある限り有効活用",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/ideco/lp/lpideco.html",
+          },
+          {
+            name: "脱退一時金（例外的）",
+            rank: 3,
+            highlight: "厳格な要件あり",
+            features: [
+              "加入期間5年以下",
+              "資産額25万円以下",
+              "障害給付金受給資格なし",
+              "適用は極めて稀",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/ideco/lp/lpideco.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">受取タイミングの税務最適化</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>60〜75歳の間で受取開始（一括or年金）</li>
+          <li>一括受取：退職所得控除（勤続年数×40万円・20年超は70万円）</li>
+          <li>年金受取：公的年金等控除（65歳超は年110万円非課税）</li>
+          <li>退職金とiDeCoの受取タイミング分散で控除枠最大化</li>
+          <li>退職金を60歳で受取→iDeCoを70歳で受取で控除枠分離活用</li>
+          <li>税理士との事前相談で数百万円の税金節約も可能</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="早期退職後のiDeCo戦略は税理士ドットコムで｜税務最適化"
+        description="税理士ドットコムは早期退職・FIRE達成者の税務戦略に強い税理士を無料マッチング。iDeCo受取タイミング・退職金との組合せ・運用指図者としての継続まで総合アドバイス、生涯数百万円の税金節約を実現。"
+        buttonText="税理士ドットコムで無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5"
+        icon="🏃"
+        highlight="無料マッチング"
+      />
+    </>
+  ),
+  "pet-investment-cost-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">ペットの経済学完全ガイド</h2>
+        <p>
+          犬猫を飼う生涯コストは、平均200万円（犬）・160万円（猫）と家計への影響大。購入・エサ・ワクチン・医療費・ペットホテル・葬儀まで、15〜20年のトータルコストを理解し、飼い始め前の経済計画、ペット保険加入の判断、家計への組込み方を体系的に解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="犬猫の生涯コスト内訳"
+        services={[
+          {
+            name: "犬（トイプードル・15年）",
+            rank: 1,
+            highlight: "生涯200万円",
+            features: [
+              "購入費30〜50万円",
+              "エサ・トリミング月1.5万円",
+              "医療費年5〜20万円",
+              "葬儀5〜10万円",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+            badge: "人気",
+          },
+          {
+            name: "猫（スコティッシュ・16年）",
+            rank: 2,
+            highlight: "生涯160万円",
+            features: [
+              "購入費15〜30万円",
+              "エサ・トイレ砂月8000円",
+              "医療費年3〜15万円",
+              "葬儀3〜8万円",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+          },
+          {
+            name: "ペット保険（推奨）",
+            rank: 3,
+            highlight: "月1500〜5000円",
+            features: [
+              "アニコム・アイペット・SBI",
+              "入院・手術50〜90%補償",
+              "高齢期の医療費対策",
+              "生涯30〜80万円の支払"
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">ペット飼育前の経済チェック</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>月1.5〜2万円の固定費増加を許容できるか</li>
+          <li>医療費（特にシニア期）の貯蓄50〜100万円の備え</li>
+          <li>賃貸住宅のペット可物件は家賃+5000〜10000円</li>
+          <li>旅行・出張時のペットホテル・シッター費用</li>
+          <li>万一の引越し時のペット可物件確保</li>
+          <li>家族全員の合意（15〜20年の長期コミットメント）</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="ペット保険の比較は保険マンモスで｜10社以上から無料提案"
+        description="保険マンモスはアニコム・アイペット・SBIいきいき少短等のペット保険10社以上から無料比較。犬種・年齢・持病で保険料は大きく変わる、最適プランで生涯20〜50万円の医療費節約が可能。"
+        buttonText="保険マンモスで無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM"
+        icon="🐕"
+        highlight="無料FP相談"
+      />
+    </>
+  ),
+  "moving-cost-detail-saving": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">引越し費用完全ガイド</h2>
+        <p>
+          引越しは一度に10〜30万円の大きな出費、時期と業者選びで費用は2〜3倍変わります。単身2〜7万円・家族8〜25万円が目安、3〜4月の繁忙期は2倍、一括見積りサービスで30〜50%節約可能。住信SBI・楽天等の住宅ローン借換えと組合せた引越し戦略も有効です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="引越し料金の時期別比較"
+        services={[
+          {
+            name: "通常期（5〜2月）",
+            rank: 1,
+            highlight: "最安の時期",
+            features: [
+              "単身2〜5万円",
+              "家族6〜15万円",
+              "業者選びやすい",
+              "平日午後指定で更に割引",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+            badge: "お得",
+          },
+          {
+            name: "繁忙期（3〜4月）",
+            rank: 2,
+            highlight: "2倍の料金",
+            features: [
+              "単身5〜10万円",
+              "家族15〜30万円",
+              "業者確保困難",
+              "3月下旬〜4月上旬がピーク",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+          {
+            name: "一括見積り（推奨）",
+            rank: 3,
+            highlight: "30〜50%節約",
+            features: [
+              "ズバット・LIFULL引越し",
+              "10社以上から比較",
+              "相見積もりで価格交渉",
+              "見積り無料・オンライン完結",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">引越し費用節約の具体テクニック</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>一括見積りで相見積もり→最安値提示業者と価格交渉</li>
+          <li>繁忙期（3〜4月）を避ける、5〜2月の通常期利用で半額に</li>
+          <li>平日・午後便指定で10〜20%割引</li>
+          <li>不用品処分（メルカリ・ジモティー）で荷物減＋売上獲得</li>
+          <li>自分でダンボール・梱包資材を調達（業者依頼は割高）</li>
+          <li>単身者はレンタカー＋自力引越しで1〜3万円可能</li>
+          <li>住宅ローン借換えとセットで引越し費用貸付特典もあり</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="引越し一括見積りで最安値｜10社比較で30〜50%節約"
+        description="引越し一括見積りサービスで10社以上を一度に比較、相見積もりで最安値を引き出せる。繁忙期でも業者確保可能、平均30〜50%の料金削減実績多数、申込3分の手軽さで数万円の節約を実現できる。"
+        buttonText="一括見積りを見る"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5"
+        icon="📦"
+        highlight="無料見積り"
+      />
+    </>
+  ),
+  "pregnancy-money-care-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">妊娠・出産の経済ガイド</h2>
+        <p>
+          妊娠・出産にかかる費用は公的支援込みで実質負担10〜30万円。出産育児一時金50万円・出産手当金・育児休業給付金等の制度フル活用で、家計への負担を最小化できます。妊娠確認から育休復帰まで、1年間の家計プラン・手続きタイムライン・会社員と自営業の違いを徹底解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="妊娠・出産の主要公的支援"
+        services={[
+          {
+            name: "出産育児一時金",
+            rank: 1,
+            highlight: "50万円/子",
+            features: [
+              "健康保険から全員支給",
+              "直接支払制度で病院に直接",
+              "双子なら100万円",
+              "出産費用（40〜60万円）をほぼカバー",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+            badge: "必須",
+          },
+          {
+            name: "出産手当金",
+            rank: 2,
+            highlight: "月給の2/3×98日",
+            features: [
+              "産前42日＋産後56日分",
+              "会社員・共済組合員対象",
+              "月給30万円なら約66万円",
+              "自営業は非対象",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+          },
+          {
+            name: "育児休業給付金",
+            rank: 3,
+            highlight: "月給の67%×6ヶ月",
+            features: [
+              "雇用保険から支給",
+              "6ヶ月経過後は50%",
+              "最大2年間延長可",
+              "両親育休で延長ボーナスあり",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">家計への影響シミュレーション</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>妊娠中：妊婦健診14回分（自治体券でほぼ無料）</li>
+          <li>出産費用：40〜60万円→出産育児一時金50万円でカバー</li>
+          <li>産前産後休業：出産手当金月20万円×3.2ヶ月＝64万円</li>
+          <li>育児休業：育児休業給付金月20万円×18ヶ月＝360万円</li>
+          <li>ベビー用品：初期費用10〜30万円（メルカリ・お下がり活用で半額に）</li>
+          <li>マタニティ・ベビー衣類：10万円</li>
+          <li>実質負担：10〜30万円（公的支援制度フル活用時）</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="妊娠・出産の保険は保険マンモスで｜医療保険見直し"
+        description="保険マンモスは妊娠・出産前の医療保険見直しに最適。帝王切開（20%の妊婦が経験）は手術・入院扱いで保険給付対象、加入のタイミング重要。FPが無料で妊娠前・妊娠中の最適な保険プランを提案します。"
+        buttonText="保険マンモスで無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM"
+        icon="👶"
+        highlight="無料FP相談"
+      />
+    </>
+  ),
 };
