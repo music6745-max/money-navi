@@ -26432,4 +26432,497 @@ const guideContents: Record<string, React.ReactNode> = {
       />
     </>
   ),
+  "green-home-subsidy-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">ZEH・省エネ住宅補助金完全ガイド</h2>
+        <p>
+          ZEH（ゼロ・エネルギー・ハウス）は、高断熱＋省エネ＋太陽光発電で年間エネルギー収支ゼロを目指す住宅。国土交通省・環境省・経済産業省が連携した「こどもエコすまい支援事業」「ZEH補助金」で最大100万円＋住宅ローン控除上乗せ＋固定資産税優遇の三重メリット、新築戸建て建築時は必ず活用すべき制度です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="主要な住宅補助金制度"
+        services={[
+          {
+            name: "こどもエコすまい支援事業",
+            rank: 1,
+            highlight: "子育て世帯最大100万円",
+            features: [
+              "新築（長期優良）：100万円",
+              "新築（ZEH）：80万円",
+              "リフォーム：5〜60万円",
+              "2026年まで延長",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+3PD522+5OGA+5YZ75",
+            badge: "子育て世帯",
+          },
+          {
+            name: "ZEH補助金",
+            rank: 2,
+            highlight: "55〜100万円",
+            features: [
+              "ZEH：55万円",
+              "ZEH＋：100万円",
+              "次世代ZEH＋：112万円",
+              "戸建て向け",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+3PD522+5OGA+5YZ75",
+          },
+          {
+            name: "住宅ローン控除優遇",
+            rank: 3,
+            highlight: "最大455万円控除",
+            features: [
+              "ZEH水準：借入5000万円対象",
+              "認定長期優良：5000万円対象",
+              "一般：3000万円対象",
+              "13年間の税額控除",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+3PD522+5OGA+5YZ75",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">補助金の合計効果</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>こどもエコすまい100万円＋ZEH補助金100万円＝合計200万円</li>
+          <li>住宅ローン控除（ZEH・年収600万円・3500万円借入）：年24.5万円×13年＝318万円</li>
+          <li>固定資産税優遇：3年間1/2減額で50〜100万円相当</li>
+          <li>光熱費削減：ZEH住宅で年15〜20万円節約、20年で300〜400万円</li>
+          <li>トータル効果：新築ZEH住宅で1000万円超の実質削減効果</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="ZEH住宅の相談は家づくり相談所で｜全国の工務店無料紹介"
+        description="家づくり相談所はZEH・長期優良住宅の設計実績豊富な工務店を無料紹介。補助金申請サポート、住宅ローン比較、土地探しまで一括対応。新築戸建ての計画段階から相談するのが成功の鉄則。"
+        buttonText="家づくり相談所で無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+3PD522+5OGA+5YZ75"
+        icon="🏡"
+        highlight="無料紹介"
+      />
+    </>
+  ),
+  "eco-car-subsidy-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">EV・エコカー補助金完全ガイド</h2>
+        <p>
+          2026年のEV購入時は、CEV補助金（国）最大65万円＋自治体上乗せ（東京都最大35万円）＋エコカー減税（自動車税・重量税・環境性能割）で、新車購入時に100〜150万円の実質値引き効果。ガソリン車との価格差を縮め、EV普及を後押しする政策、購入予定者は必ず活用すべき制度です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="EV・エコカー補助金の主要制度"
+        services={[
+          {
+            name: "CEV補助金（国）",
+            rank: 1,
+            highlight: "EV最大65万円",
+            features: [
+              "EV：最大65万円",
+              "PHEV：最大55万円",
+              "FCV：最大255万円",
+              "軽EV：最大55万円",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+            badge: "国補助",
+          },
+          {
+            name: "東京都EV補助金",
+            rank: 2,
+            highlight: "上乗せ最大35万円",
+            features: [
+              "国補助との併用OK",
+              "再エネ充電で追加15万円",
+              "V2H機器設置で最大50万円",
+              "都内登録必須",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+          {
+            name: "エコカー減税",
+            rank: 3,
+            highlight: "税金実質ゼロ",
+            features: [
+              "自動車税：75%〜100%減",
+              "重量税：全額免税（EV）",
+              "環境性能割：非課税（EV）",
+              "新車購入時の一時節税",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">EV購入の総合的メリット</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>補助金合計（国＋自治体）：最大100〜130万円の値引き効果</li>
+          <li>エコカー減税：購入時＋毎年の税金で10〜30万円削減</li>
+          <li>燃料費削減：年1.5万km走行なら年10〜15万円節約（20年で200〜300万円）</li>
+          <li>メンテナンス費：オイル交換不要で年3〜5万円節約</li>
+          <li>トータル：EV所有20年で通常車比較500万円以上のメリット</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="自動車保険の見直しは保険マンモスで｜EV対応プラン提案"
+        description="保険マンモスはEV・PHEV対応の自動車保険を無料比較。バッテリー保証・充電ケーブル補償・EV特有の事故対応プランまで、20社以上から最適なプランを提案、年3〜8万円の保険料削減も期待できる。"
+        buttonText="保険マンモスで無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM"
+        icon="🔌"
+        highlight="無料FP相談"
+      />
+    </>
+  ),
+  "ibousha-pension-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">遺族年金完全ガイド</h2>
+        <p>
+          配偶者や家族を亡くした時に受け取れる遺族年金は、残された家族の生活を支える最重要公的制度。遺族基礎年金（子がいる配偶者対象、月8万円）＋遺族厚生年金（厚生年金加入者の遺族対象、月10〜20万円）の組合せで、配偶者死亡後も月15〜30万円の継続収入が確保できます。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="遺族年金の2タイプ比較"
+        services={[
+          {
+            name: "遺族基礎年金",
+            rank: 1,
+            highlight: "子ありの配偶者に月8万円",
+            features: [
+              "18歳未満の子がいる配偶者・子が対象",
+              "年額816,000円（配偶者）",
+              "子加算：234,800円（1人目・2人目）",
+              "第3子以降78,300円",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+            badge: "子育て世帯",
+          },
+          {
+            name: "遺族厚生年金",
+            rank: 2,
+            highlight: "厚生年金加入者の遺族",
+            features: [
+              "死亡者の老齢厚生年金×3/4",
+              "妻・子・孫が優先",
+              "夫は55歳以降受給",
+              "中高齢寡婦加算あり",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+          {
+            name: "寡婦年金・死亡一時金",
+            rank: 3,
+            highlight: "国民年金加入者の遺族",
+            features: [
+              "寡婦年金：60〜65歳の妻",
+              "死亡一時金：12〜32万円",
+              "遺族基礎年金受給なしの場合",
+              "選択制",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">受給額シミュレーション</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>年収500万円サラリーマン死亡・配偶者＋子2人：月20〜22万円（年250万円）</li>
+          <li>年収800万円サラリーマン死亡・配偶者＋子1人：月25〜28万円（年320万円）</li>
+          <li>自営業死亡・配偶者＋子2人：月13万円（年155万円、遺族基礎のみ）</li>
+          <li>配偶者のみ・厚生年金死亡：月10〜15万円</li>
+          <li>子が18歳超えたら遺族基礎年金停止、遺族厚生年金のみ継続</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="遺族年金+生命保険の総合設計は保険マンモスで｜無料FP相談"
+        description="保険マンモスは遺族年金を踏まえた生命保険の必要保障額を無料シミュレーション。公的年金の不足分をどれだけ保険でカバーすべきか、家族構成・収入に応じて最適な保険プランを提案。"
+        buttonText="保険マンモスで無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM"
+        icon="🕊️"
+        highlight="無料FP相談"
+      />
+    </>
+  ),
+  "kaigo-hoken-detail-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">介護保険制度完全ガイド</h2>
+        <p>
+          介護保険制度は40歳以上が加入義務の公的保険制度。65歳以上（第1号被保険者）は要介護認定で介護サービス利用可、40〜64歳（第2号被保険者）は特定疾病（16種類）で利用可。自己負担1〜3割で月限度額内のサービスを受けられ、年30〜100万円の介護費負担を軽減できる重要制度です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="要介護認定別のサービス上限"
+        services={[
+          {
+            name: "要支援1・2（軽度）",
+            rank: 1,
+            highlight: "月上限5〜10万円",
+            features: [
+              "要支援1：月限度額50,320円",
+              "要支援2：月限度額105,310円",
+              "介護予防サービスが中心",
+              "自己負担1〜3割",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+          {
+            name: "要介護1〜3（中度）",
+            rank: 2,
+            highlight: "月上限17〜27万円",
+            features: [
+              "要介護1：月167,650円",
+              "要介護2：月197,050円",
+              "要介護3：月270,480円",
+              "訪問介護・デイサービス中心",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+            badge: "中核",
+          },
+          {
+            name: "要介護4・5（重度）",
+            rank: 3,
+            highlight: "月上限31〜36万円",
+            features: [
+              "要介護4：月309,380円",
+              "要介護5：月362,170円",
+              "特養入所対象",
+              "24時間介護体制",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">介護保険申請の流れ</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>①市区町村の介護保険窓口で要介護認定申請（無料）</li>
+          <li>②認定調査員による訪問調査（心身状態・生活状況確認）</li>
+          <li>③主治医意見書作成（医療機関から自治体へ提出）</li>
+          <li>④認定審査会で要支援・要介護度決定（約30日）</li>
+          <li>⑤ケアマネジャー（無料）とケアプラン作成</li>
+          <li>⑥サービス利用開始、月1回のケアプラン見直し</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="介護費用の資金計画は保険マンモスで｜介護保険付き生命保険相談"
+        description="保険マンモスは介護保険・認知症保険・介護特約付き生命保険の無料比較。親の介護費用の備え、自分の将来介護への対策まで、FPが家族構成・資産状況を踏まえて最適プランを提案。"
+        buttonText="保険マンモスで無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM"
+        icon="♿"
+        highlight="無料FP相談"
+      />
+    </>
+  ),
+  "active-etf-japan-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">アクティブETF日本上陸完全ガイド</h2>
+        <p>
+          2023年9月から日本でもアクティブETFの上場が可能になり、野村・三菱UFJ・日興アセット等の大手が順次上場。米国ARKK（キャシー・ウッド）に代表されるテーマ型アクティブETFの日本版で、インデックスを上回るリターンを狙う低コスト（信託報酬0.5〜1%）＋流動性の高い新しい投資手段として注目されています。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="主要なアクティブETF比較"
+        services={[
+          {
+            name: "NEXT FUNDS 日本成長株（2077）",
+            rank: 1,
+            highlight: "野村AM・グロース重視",
+            features: [
+              "日本の中小型成長株",
+              "信託報酬0.49%",
+              "新NISA成長枠対応",
+              "月間売買代金10億円超",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "王道",
+          },
+          {
+            name: "MAXIS 日本株アクティブ（2842）",
+            rank: 2,
+            highlight: "三菱UFJ・バリュー重視",
+            features: [
+              "日本株から厳選投資",
+              "信託報酬0.66%",
+              "配当金分配型",
+              "低コスト＋目利き",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "ARKK（米国アクティブETF）",
+            rank: 3,
+            highlight: "キャシー・ウッド運用",
+            features: [
+              "イノベーション株特化",
+              "信託報酬0.75%",
+              "Tesla・Zoom等を組入れ",
+              "高ボラティリティ",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">アクティブETFのメリット・デメリット</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>メリット①：インデックス超過リターンの可能性</li>
+          <li>メリット②：ETF形式なのでリアルタイム売買可能</li>
+          <li>メリット③：信託報酬がアクティブ投信より安い（0.5〜1% vs 1.5〜2%）</li>
+          <li>デメリット①：運用者の腕次第でインデックスを下回るリスク</li>
+          <li>デメリット②：長期運用では多くがインデックスに負ける統計あり</li>
+          <li>配分：ポートフォリオ5〜10%以内のサテライト配分が現実的</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="アクティブETFはSBI証券で｜日米のアクティブETF豊富"
+        description="SBI証券は日本のアクティブETF（2077・2842等）＋米国ARKK・ARKQ・ARKG等、幅広くカバー。新NISA成長枠で非課税運用、信託報酬0.5〜1%の低コスト、イノベーション投資の入門にも最適。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="⚡"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "japan-treasury-30year-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">日本30年国債投資完全ガイド</h2>
+        <p>
+          2024年のアベノミクス・黒田日銀時代から一変し、植田日銀の正常化で日本30年国債の利回りは2%超に上昇。1000万円投資なら年20万円の利金、30年で600万円の確定金利が得られる計算。預金金利0.001%の1000倍超、インフレ対策＋安全資産＋分散投資の3拍子揃った、個人投資家にとっての新たな選択肢となっています。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="日本国債の購入手段"
+        services={[
+          {
+            name: "個人向け国債（変動10年）",
+            rank: 1,
+            highlight: "元本保証＋金利連動",
+            features: [
+              "年2回金利見直し",
+              "最低保証金利0.05%",
+              "1万円から購入可",
+              "1年経過後いつでも解約可",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "初心者向け",
+          },
+          {
+            name: "利付国債（30年）",
+            rank: 2,
+            highlight: "利回り2%超",
+            features: [
+              "半年ごと利払い",
+              "満期まで保有で元本保証",
+              "途中売却は価格変動リスクあり",
+              "5万円から購入可",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "米国長期債ETF（TLT・EDV）",
+            rank: 3,
+            highlight: "ドル建て利回り4〜5%",
+            features: [
+              "TLT：20年超米国債",
+              "EDV：ゼロクーポン米国債",
+              "為替リスクあり",
+              "分配金利回り3〜4%",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">日本国債投資のシミュレーション</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>1000万円を30年国債（2.0%）投資：年20万円利金、30年で600万円</li>
+          <li>ポートフォリオの20%（600万円）を日本国債＋80%株式で分散効果</li>
+          <li>インフレ率2%のシナリオでは実質利回りほぼゼロ（注意）</li>
+          <li>金利上昇局面の途中売却は元本割れリスク、満期保有が基本</li>
+          <li>相続時は時価評価、相続人への移管可能</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="日本国債購入はSBI証券で｜個人向け国債キャンペーン"
+        description="SBI証券は個人向け国債（変動10年・固定5年）の取扱い豊富、新規購入キャッシュバック（投資額×0.05〜0.10%）キャンペーン常時実施。30年利付国債も購入可能、安定資産のコア部分として活用できる。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="🏛️"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "sumitate-inherit-ideco-nisa-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">相続時のiDeCo・NISA完全ガイド</h2>
+        <p>
+          iDeCo・NISA加入者が亡くなった場合の手続きは、制度により大きく異なります。iDeCoは「遺族一時金」として相続税対象（500万円×法定相続人の非課税枠適用）、NISAは相続人の特定口座に課税移管。どちらも適切な手続きを踏まないと資産が凍結されるため、家族への情報共有と早期対応が重要です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="iDeCo・NISAの相続時対応"
+        services={[
+          {
+            name: "iDeCo（確定拠出年金）",
+            rank: 1,
+            highlight: "遺族一時金・相続税対象",
+            features: [
+              "遺族一時金として受給",
+              "500万円×法定相続人非課税",
+              "運用者（配偶者・子）が受取人",
+              "5年以内に手続き必須",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/ideco/lp/lpideco.html",
+            badge: "重要",
+          },
+          {
+            name: "NISA（新NISA・つみたてNISA）",
+            rank: 2,
+            highlight: "課税口座へ移管",
+            features: [
+              "相続人の特定口座に移管",
+              "相続時の時価で取得価格リセット",
+              "以降の運用益は課税対象",
+              "相続税も別途課税",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "特定口座・一般口座",
+            rank: 3,
+            highlight: "相続税＋譲渡所得",
+            features: [
+              "時価で相続税評価",
+              "相続人の特定口座に移管",
+              "被相続人の取得価格継続",
+              "売却時譲渡所得税",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">相続手続きの流れ</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>①死亡届提出（7日以内・市区町村）</li>
+          <li>②金融機関に連絡（口座凍結）、iDeCoは運営管理機関に連絡</li>
+          <li>③相続人確定、遺産分割協議書作成（必要な場合）</li>
+          <li>④iDeCo：死亡一時金請求書・戸籍謄本・住民票等の提出（5年以内）</li>
+          <li>⑤NISA：相続人の特定口座開設→被相続人口座から移管手続き</li>
+          <li>⑥相続税申告（10ヶ月以内）、税理士相談推奨</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="相続税対策は税理士ドットコムで｜iDeCo・NISA含む総合相談"
+        description="税理士ドットコムはiDeCo・NISA・不動産・生命保険を含む相続税対策全般に強い税理士を無料マッチング。非課税枠フル活用、生前贈与、遺言書作成まで総合的にサポート、資産形成世帯の備えに。"
+        buttonText="税理士ドットコムで無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5"
+        icon="📜"
+        highlight="無料マッチング"
+      />
+    </>
+  ),
 };
