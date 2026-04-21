@@ -25940,4 +25940,496 @@ const guideContents: Record<string, React.ReactNode> = {
       />
     </>
   ),
+  "young-adult-finance-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">20代の金融入門｜資産形成のスタートダッシュ</h2>
+        <p>
+          20代の金融教育は、50代までの生涯で最大の資産形成効果を生み出します。月3万円を年利7%で40年運用すれば7500万円超、20代の1年の差が晩年10万円の差になる複利の世界。固定費削減・副業・新NISA・クレカ選びの4本柱で、賢い資産形成のスタートを切る方法を解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="20代の資産形成ロードマップ"
+        services={[
+          {
+            name: "生活防衛資金（最優先）",
+            rank: 1,
+            highlight: "生活費3〜6ヶ月分を預金",
+            features: [
+              "90〜180万円を普通預金に",
+              "失業・病気時の生活費",
+              "ネット銀行（あおぞら・住信SBI）で金利UP",
+              "投資前の必須項目",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "必須",
+          },
+          {
+            name: "新NISA月3〜5万円積立",
+            rank: 2,
+            highlight: "全世界株インデックス",
+            features: [
+              "eMAXIS Slim全世界株式",
+              "月3万円×40年で5,900万円（年7%）",
+              "SBI証券×三井住友カードで1%還元",
+              "積立NISA枠優先活用",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "王道",
+          },
+          {
+            name: "副業・スキルアップ",
+            rank: 3,
+            highlight: "収入源の多様化",
+            features: [
+              "月5〜10万円の副業収入",
+              "ライティング・動画編集",
+              "プログラミング学習",
+              "資格取得（簿記・FP等）",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+4A7B8A+2PEO+OK4PD",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">固定費削減で月3万円浮かす</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>スマホ：大手キャリア8000円 → 格安SIM1000円（月7000円節約）</li>
+          <li>光回線：7000円 → NURO・楽天ひかり5000円（月2000円節約）</li>
+          <li>生命保険：月1万円 → 県民共済2000円（月8000円節約）</li>
+          <li>サブスク整理：月5000円の見直しで月3000円節約</li>
+          <li>電力会社：月1万円 → Looopでんき8500円（月1500円節約）</li>
+          <li>合計：月2〜3万円の固定費削減、年30〜36万円の原資確保</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="20代の資産形成はSBI証券で｜新NISA＋クレカ積立1%還元"
+        description="SBI証券は20代の資産形成に最適。新NISA＋三井住友カードNLクレカ積立で1%還元、投資信託2500本から選択可能。月3万円×40年で5,900万円の資産形成、20代のスタートダッシュに最適なプラットフォーム。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="🎓"
+        highlight="20代におすすめ"
+      />
+    </>
+  ),
+  "fire-movement-complete-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">FIRE（早期退職）完全ガイド</h2>
+        <p>
+          FIRE（Financial Independence, Retire Early）は、経済的自立＆早期退職を目指すライフスタイル運動。米国発祥で日本でも急速に広がりつつあります。4%ルール（年間生活費の25倍の資産で永遠に取崩し可能）、Lean FIRE・Fat FIRE・Coast FIREの各タイプ、達成までのロードマップを徹底解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="FIREの3タイプ比較"
+        services={[
+          {
+            name: "Lean FIRE（ミニマル）",
+            rank: 1,
+            highlight: "年生活費200万×25＝5000万円",
+            features: [
+              "質素倹約な暮らし",
+              "目標資産3000〜5000万円",
+              "達成10〜15年で可能",
+              "若年層が実現しやすい",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "Fat FIRE（ゆとり）",
+            rank: 2,
+            highlight: "年生活費400万×25＝1億円",
+            features: [
+              "中〜上級のライフスタイル",
+              "目標資産8000万〜1.5億円",
+              "達成15〜25年必要",
+              "高所得者向け",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "ゆとり",
+          },
+          {
+            name: "Coast FIRE（半引退）",
+            rank: 3,
+            highlight: "複利で自動的に達成",
+            features: [
+              "30代までに3000万円",
+              "その後は元本維持のみ",
+              "60歳時に1億円到達",
+              "セミリタイアOK",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "現実的",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">4%ルールの意味</h2>
+        <p className="text-sm">
+          トリニティスタディ（1926〜1995年の米国市場データ）に基づく：年間生活費の25倍の資産があれば、4%ずつ取崩しても30年以上資産枯渇しない確率95%超。年250万円の生活費なら6250万円で永遠のFIRE可能。新NISA＋iDeCoでの低コスト運用＋S&P500連動インデックスが最適解です。
+        </p>
+      </section>
+      <AffiliateCTA
+        title="FIRE達成はSBI証券で｜新NISA＋iDeCoで最速資産形成"
+        description="SBI証券は新NISA年360万円・iDeCo年27.6万円の非課税枠をフル活用可能。月30万円の積立で15〜20年でFIRE達成、S&P500連動インデックス＋クレカ積立1%還元で最速ルート。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="🔥"
+        highlight="FIRE達成"
+      />
+    </>
+  ),
+  "single-mother-finance-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">シングルマザーの家計完全ガイド</h2>
+        <p>
+          シングルマザー（ひとり親）世帯の平均年収は約270万円と、二親世帯の半分以下。ただし児童扶養手当・医療費助成・ひとり親控除等、活用できる公的支援を最大化することで、実質可処分所得を年50〜100万円増やすことが可能です。手当申請から節税・節約まで、生活安定化のための制度を網羅解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="シングルマザー向け主要支援制度"
+        services={[
+          {
+            name: "児童扶養手当",
+            rank: 1,
+            highlight: "月1〜4万円＋子2人で+1万円",
+            features: [
+              "全部支給：月44,140円（子1人）",
+              "所得制限あり（年収230万円等）",
+              "8月・12月・4月に4ヶ月分振込",
+              "年約52万円の基本支援",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+            badge: "必須",
+          },
+          {
+            name: "ひとり親控除",
+            rank: 2,
+            highlight: "所得税35万円・住民税30万円",
+            features: [
+              "所得500万円以下対象",
+              "年収500万円なら年7万円節税",
+              "確定申告or年末調整で申請",
+              "寡婦控除と選択適用",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+          {
+            name: "医療費助成（自治体）",
+            rank: 3,
+            highlight: "母子・児童の医療費ゼロ",
+            features: [
+              "ひとり親医療費助成",
+              "子ども医療費ゼロ（0〜18歳）",
+              "所得制限なしの自治体も",
+              "月数千〜数万円の節約",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">収入アップの道筋</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>自立支援教育訓練給付金（資格取得費用の60〜70%補助）</li>
+          <li>高等職業訓練促進給付金（月10万円×2〜3年で資格取得）</li>
+          <li>クラウドワークス・ランサーズで在宅副業月5〜10万円</li>
+          <li>看護師・保育士・介護福祉士等の国家資格で年収450万円も</li>
+          <li>新NISA月3万円積立で将来の子ども学費2000万円準備</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="シングルマザーの資産形成はSBI証券で｜少額から始められる"
+        description="SBI証券は新NISA積立100円から可能、シングルマザーの限られた余裕資金でも子どもの教育費・自分の老後資金を少しずつ育てられる。クレカ積立1%還元でさらに効率化、月5000円からでも将来の安心を。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="👩‍👧"
+        highlight="少額OK"
+      />
+    </>
+  ),
+  "post-divorce-finance-rebuild-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">離婚後の家計再建完全ガイド</h2>
+        <p>
+          離婚は精神的打撃に加え、家計にも大きな影響を与えます。養育費の取決め、住宅ローン・車ローンの名義変更、保険の受取人変更、氏（姓）の変更手続き、新たな資産形成プランまで、離婚後半年〜1年で必ず対応すべき金融手続きを体系的に解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="離婚後の優先対応項目"
+        services={[
+          {
+            name: "養育費の取り決め",
+            rank: 1,
+            highlight: "月3〜15万円・公正証書化",
+            features: [
+              "算定表で適正額確認",
+              "公正証書＋強制執行認諾付",
+              "年金分割も同時検討",
+              "未払い時の差押えも可能",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+            badge: "必須",
+          },
+          {
+            name: "名義変更・保険見直し",
+            rank: 2,
+            highlight: "住宅・車・保険の名義整理",
+            features: [
+              "住宅ローン借換or売却",
+              "自動車保険の名義変更",
+              "生命保険受取人変更",
+              "クレカ・銀行口座整理",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+          },
+          {
+            name: "新たな資産形成",
+            rank: 3,
+            highlight: "新NISA＋iDeCoで再スタート",
+            features: [
+              "月5万円〜積立開始",
+              "30〜40代なら20年で3000万円",
+              "ひとり親控除活用で節税",
+              "子の教育資金併走",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">養育費の算定相場</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>支払側年収500万・受取側年収200万・子1人：月6〜8万円</li>
+          <li>支払側年収800万・受取側年収300万・子1人：月10〜12万円</li>
+          <li>支払側年収1000万・受取側年収400万・子2人：月14〜16万円</li>
+          <li>支払は原則子20歳までだが、大学進学すれば22歳まで継続も可</li>
+          <li>未払い率30%超の現実、公正証書＋強制執行認諾で回避</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="離婚後の保険見直しは保険マンモスで｜受取人変更・プラン再設計"
+        description="保険マンモスは離婚後の保険見直しに強いFPが無料相談対応。受取人変更だけでなく、ひとり親世帯に最適な保険設計（死亡保障・医療保障・個人年金）を一括提案、新NISAとの併用戦略も含めて最適化。"
+        buttonText="保険マンモスで無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM"
+        icon="💔"
+        highlight="無料FP相談"
+      />
+    </>
+  ),
+  "caregiver-financial-planning-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">介護者（ケアギバー）の家計プランニング</h2>
+        <p>
+          親の介護は、介護者自身のキャリア・家計に大きな影響を与えます。介護離職の経済損失は年収600万円×10年＝6000万円以上、並行して親の介護費用（月10〜30万円）もかかる二重負担。介護休業制度・介護保険サービス・所得控除を最大活用し、介護離職を避けながら経済基盤を守る方法を解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="介護者が使える主要制度"
+        services={[
+          {
+            name: "介護休業制度",
+            rank: 1,
+            highlight: "通算93日・給付金67%",
+            features: [
+              "通算93日の休業可能",
+              "介護休業給付金月給の67%",
+              "対象家族1人につき3回まで分割",
+              "会社員・パート（要件あり）対象",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+            badge: "活用必須",
+          },
+          {
+            name: "介護保険サービス",
+            rank: 2,
+            highlight: "自己負担1〜3割",
+            features: [
+              "要支援・要介護認定で利用開始",
+              "訪問介護・デイサービス・ショートステイ",
+              "自己負担1〜3割（月上限あり）",
+              "ケアマネ選定が重要",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+          {
+            name: "扶養控除・介護控除",
+            rank: 3,
+            highlight: "所得税控除38〜58万円",
+            features: [
+              "同居老親扶養控除：58万円",
+              "別居の親扶養控除：48万円",
+              "医療費控除（介護サービス含）",
+              "障害者控除（要介護4〜5で適用可）",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">介護離職を避けるための対策</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>リモートワーク・時短勤務の活用（両立支援制度）</li>
+          <li>要介護認定申請（市町村窓口で無料）</li>
+          <li>ケアマネ経由で介護サービス導入（自己負担月3〜5万円）</li>
+          <li>親の収入・資産活用（年金・預金・生命保険）</li>
+          <li>きょうだい間の費用分担（公正証書で明確化）</li>
+          <li>施設入居検討（特養5〜15万円/月、有料老人ホーム15〜30万円/月）</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="介護費用の節税は税理士ドットコムで｜専門税理士無料相談"
+        description="税理士ドットコムは介護関連の税務に強い税理士を無料マッチング。扶養控除・医療費控除・障害者控除の最大化、親の相続対策・生前贈与、介護費用の経費化（自営業者）まで総合アドバイス。"
+        buttonText="税理士ドットコムで無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5"
+        icon="🤝"
+        highlight="無料マッチング"
+      />
+    </>
+  ),
+  "disability-financial-support-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">障がい者・難病患者の金融支援完全ガイド</h2>
+        <p>
+          障がい者手帳や難病認定を受けた方は、様々な公的支援を受けられます。障害年金（月6〜10万円の継続収入）、税金控除（年7万円以上の節税）、NHK受信料・公共交通機関の割引、就労支援事業所の活用等、知っているかどうかで生涯収支が数百万円以上変わる制度を網羅的に解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="主要支援制度の比較"
+        services={[
+          {
+            name: "障害年金",
+            rank: 1,
+            highlight: "月6〜10万円の継続収入",
+            features: [
+              "障害基礎年金：月6.8万円（2級）",
+              "障害厚生年金：上乗せ",
+              "精神疾患・難病も対象",
+              "20歳以上で申請可",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+            badge: "重要",
+          },
+          {
+            name: "税金控除",
+            rank: 2,
+            highlight: "所得税27〜40万円控除",
+            features: [
+              "障害者控除：27万円",
+              "特別障害者控除：40万円",
+              "同居特別障害者：75万円",
+              "住民税も26〜30万円控除",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+          {
+            name: "就労支援（A型・B型）",
+            rank: 3,
+            highlight: "月5〜12万円の賃金",
+            features: [
+              "A型：雇用契約＋最低賃金",
+              "B型：作業工賃月1〜3万円",
+              "就労移行支援で一般就職",
+              "自治体の就労継続支援",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">その他の各種割引・助成</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>NHK受信料：半額・全額免除（要件により）</li>
+          <li>JR・私鉄：介護者含め50%割引</li>
+          <li>有料道路：通行料50%割引</li>
+          <li>公共施設入場料：本人・介護者無料</li>
+          <li>携帯電話：月最大1,200円割引（各キャリア）</li>
+          <li>住宅改修費補助：最大20万円（介護保険）</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="障害年金申請は社労士無料相談で｜税理士ドットコム経由"
+        description="障害年金申請は複雑な審査（不支給率30%超）、社労士の専門サポートで採用率大幅UP。税理士ドットコムでは障害年金専門の社労士・税理士を無料マッチング、税金控除の最大化も同時サポート。"
+        buttonText="税理士ドットコムで無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5"
+        icon="♿"
+        highlight="無料マッチング"
+      />
+    </>
+  ),
+  "kodomo-education-cost-complete": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">子どもの教育費完全ガイド</h2>
+        <p>
+          子ども1人あたりの教育費は幼稚園〜大学まで約2000万円（全て公立）、私立中心なら3000万円超が目安。教育費負担のピークは大学期（年100〜200万円）、学資保険よりも新NISA積立が効率的な資産形成手段。奨学金・教育ローンとの組合せ、ジュニアNISA代替の方法まで体系的に解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="教育費準備の3大手段"
+        services={[
+          {
+            name: "新NISA積立（推奨）",
+            rank: 1,
+            highlight: "18年で1000万円以上",
+            features: [
+              "月3万円×18年で1260万円（年7%）",
+              "売却益・配当非課税",
+              "柔軟な引出し可能",
+              "親名義で管理・教育費以外にも活用可",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "最優先",
+          },
+          {
+            name: "学資保険",
+            rank: 2,
+            highlight: "返戻率105〜110%",
+            features: [
+              "強制貯蓄効果",
+              "契約者死亡時に保険料免除",
+              "返戻率低め（5〜10%）",
+              "途中解約で元本割れ",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+          },
+          {
+            name: "奨学金・教育ローン",
+            rank: 3,
+            highlight: "不足分を補う手段",
+            features: [
+              "日本学生支援機構（無利子・有利子）",
+              "第一種：無利子（成績・所得要件）",
+              "第二種：有利子（年3%以下）",
+              "貸与型・給付型あり",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">ライフステージ別の教育費</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>幼稚園（3〜5歳）：公立22万円/年、私立47万円/年</li>
+          <li>小学校（6〜11歳）：公立35万円/年、私立167万円/年</li>
+          <li>中学校（12〜14歳）：公立54万円/年、私立144万円/年</li>
+          <li>高校（15〜17歳）：公立51万円/年、私立105万円/年</li>
+          <li>大学（18〜21歳）：国公立82万円/年、私立文系116万円/年、私立理系153万円/年</li>
+          <li>合計：オール公立1000万円、オール私立3000万円以上</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="教育費準備はSBI証券の新NISAで｜学資保険より有利"
+        description="SBI証券の新NISAは月3万円×18年で1260万円（年7%）の教育資金を非課税で準備可能。学資保険（返戻率105〜110%）より圧倒的に有利、途中解約も自由で柔軟性抜群。子育て世代の王道戦略。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="🎒"
+        highlight="教育資金"
+      />
+    </>
+  ),
 };
