@@ -29411,4 +29411,495 @@ const guideContents: Record<string, React.ReactNode> = {
       />
     </>
   ),
+  "credit-score-repair-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">信用情報・クレジットスコア改善完全ガイド</h2>
+        <p>
+          信用情報（CIC・JICC・KSC）は、住宅ローン・クレカ・カーローン審査の判断材料。延滞5年・自己破産10年の消去期間を知り、信用情報開示請求（1,000円）で自分の履歴を確認、正しい信用構築で有利な条件で借入できるようになります。20〜30代から信用履歴を育てることが、生涯の金融コストに大きく影響します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="信用情報機関3社の役割"
+        services={[
+          {
+            name: "CIC（株式会社シー・アイ・シー）",
+            rank: 1,
+            highlight: "クレカ系情報",
+            features: [
+              "クレジット会社の加盟団体",
+              "クレカ・分割払い情報管理",
+              "開示手数料500円（WEB）",
+              "延滞情報5年保有",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+            badge: "重要",
+          },
+          {
+            name: "JICC（日本信用情報機構）",
+            rank: 2,
+            highlight: "消費者金融系情報",
+            features: [
+              "消費者金融・信販会社",
+              "キャッシング・カードローン情報",
+              "開示手数料1,000円",
+              "延滞情報5年保有",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+          {
+            name: "KSC（全国銀行個人信用情報センター）",
+            rank: 3,
+            highlight: "銀行系情報・最重要",
+            features: [
+              "銀行・信用金庫・信用組合",
+              "住宅ローン・マイカーローン情報",
+              "開示手数料1,000円",
+              "自己破産情報10年保有",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">信用情報改善の実践方法</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>クレカ・ローン返済を一度も延滞しない（自動引落設定）</li>
+          <li>クレカ利用率30%以内（限度額100万なら30万まで）</li>
+          <li>延滞情報は5年後に自動消去、その間は新規借入困難</li>
+          <li>自己破産情報は10年後に消去、クレカ発行可能に</li>
+          <li>クレカ・ローンの短期間での多数申込みは「申込ブラック」注意</li>
+          <li>定期的な信用情報開示（年1回）で異常値チェック</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="クレカ・ローン相談は税理士ドットコムで｜信用情報と税務の専門家"
+        description="税理士ドットコムは税務＋融資・信用情報の総合相談に対応。住宅ローン審査通過戦略、事業者の融資枠拡大、信用情報改善に向けた計画立案まで、金融機関との交渉力強化のサポートを無料マッチング。"
+        buttonText="税理士ドットコムで無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5"
+        icon="📊"
+        highlight="無料マッチング"
+      />
+    </>
+  ),
+  "cashless-advanced-compare": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">キャッシュレス決済詳細比較2026</h2>
+        <p>
+          2026年の日本のキャッシュレス決済比率は41%、国際的には低水準だが急速に普及中。PayPay（国内最大6000万人）・楽天Pay・d払い・au PAY・LINE Payの主要5大QR決済を徹底比較し、各自の経済圏に応じた最適な使い分け、ダブル還元・トリプル還元のコツ、キャンペーン活用術を解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="主要QR決済5社比較"
+        services={[
+          {
+            name: "PayPay",
+            rank: 1,
+            highlight: "ユーザー6000万人・加盟店最大",
+            features: [
+              "通常還元0.5%、PayPayカード連携1%",
+              "PayPayステップ最大1.5%還元",
+              "加盟店400万店超",
+              "ソフトバンクユーザー特典",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+            badge: "王道",
+          },
+          {
+            name: "楽天Pay",
+            rank: 2,
+            highlight: "楽天ポイント連動",
+            features: [
+              "楽天カードチャージで1.5%還元",
+              "楽天ポイントでも支払可能",
+              "楽天経済圏SPU+α",
+              "ポイント二重取り可",
+            ],
+            href: "https://hb.afl.rakuten.co.jp/hgc/g00n15i1.3cb8aef3.g00n15i2.3cb8af52/?pc=https%3A%2F%2Fwww.rakuten-card.co.jp%2F",
+          },
+          {
+            name: "d払い",
+            rank: 3,
+            highlight: "dポイント還元",
+            features: [
+              "dポイント0.5〜1%還元",
+              "dカードGOLD連携最大4.5%",
+              "docomoユーザー特典",
+              "dポイントカード連携で+1倍",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">還元率最大化の使い分け</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>楽天経済圏ユーザー：楽天Pay＋楽天カードで計1.5〜2.5%</li>
+          <li>docomoユーザー：d払い＋dカードGOLD＋dポイントカードで計3〜4.5%</li>
+          <li>PayPay派：PayPayカード＋PayPayで計1〜2.5%、キャンペーン時5%超</li>
+          <li>au PAY派：au PAYカード＋au PAYで計1.5%、Pontaダブル取り</li>
+          <li>複数QR決済併用で年間数万円のポイント獲得、メイン経済圏統一推奨</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="キャッシュレス決済の基盤は楽天カードで｜楽天Pay連携1.5%還元"
+        description="楽天カードは楽天Payチャージで1.5%還元、年会費永年無料で楽天経済圏の入り口。SPU+1倍・お買い物マラソン＋5のつく日でポイント爆増、キャッシュレス決済と併用で年5〜10万円のポイント獲得可能。"
+        buttonText="楽天カードの詳細"
+        href="https://hb.afl.rakuten.co.jp/hgc/g00n15i1.3cb8aef3.g00n15i2.3cb8af52/?pc=https%3A%2F%2Fwww.rakuten-card.co.jp%2F"
+        icon="📱"
+        highlight="年会費無料"
+      />
+    </>
+  ),
+  "side-hustle-scale-up-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">副業スケールアップ完全ガイド</h2>
+        <p>
+          副業収入を月3万円→月100万円にスケールアップする現実的ロードマップを徹底解説。初級（クラウドワークス・ランサーズ）→中級（専門特化・実績積上げ）→上級（法人化・仕組化）の段階戦略、税金対策、法人化タイミング、副業から本業への移行まで、副業で本業超えを目指す実践戦略を網羅します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="副業ステージ別の戦略"
+        services={[
+          {
+            name: "初級（月3〜10万円）",
+            rank: 1,
+            highlight: "クラウドワークスで実績作り",
+            features: [
+              "文字単価0.5〜1円でスタート",
+              "半年で月3〜10万円達成",
+              "雑所得扱い、確定申告対応",
+              "副業OK企業が推奨対象",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+4A7B8A+2PEO+OK4PD",
+            badge: "スタート",
+          },
+          {
+            name: "中級（月20〜50万円）",
+            rank: 2,
+            highlight: "専門特化＋直接契約",
+            features: [
+              "文字単価3〜5円・指名受注",
+              "事業所得＋青色申告65万円控除",
+              "ブログ・YouTubeの複収入源",
+              "月20〜50万円が現実圏内",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+4A7B8A+2PEO+OK4PD",
+          },
+          {
+            name: "上級（月50〜100万円以上）",
+            rank: 3,
+            highlight: "法人化＋仕組化",
+            features: [
+              "マイクロ法人設立（節税効果大）",
+              "外注活用でスケール拡大",
+              "オンラインサロン・コンサル",
+              "本業超えの収入達成",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">スケールアップの節税戦略</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>月20万円超：雑所得→事業所得へ移行、青色申告65万円控除活用</li>
+          <li>月50万円超：法人化（マイクロ法人）検討、税率55%→23%に軽減</li>
+          <li>月100万円超：役員報酬＋配当の最適配分で税率最小化</li>
+          <li>経費計上範囲拡大：PC・書籍・セミナー・接待交際費</li>
+          <li>税理士顧問契約（月3〜5万円）で節税効果数百万円</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="副業スケールアップはココナラで｜初級から上級まで全対応"
+        description="ココナラは月3万円の初心者から月100万円の上級者まで活用可能な万能プラットフォーム。スキル出品でリピート顧客獲得、実績積上げで単価UP、個人ブランディング構築までサポート、副業で本業超えを目指す全ての人に最適。"
+        buttonText="ココナラに登録する"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+4A7B8A+2PEO+OK4PD"
+        icon="📈"
+        highlight="スキル売買No.1"
+      />
+    </>
+  ),
+  "kid-financial-education-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">子どもの金融教育完全ガイド</h2>
+        <p>
+          2022年4月から高校家庭科で「資産形成」教育必修化、金融リテラシーの時代的必要性が高まっています。お小遣い制度の設計、投資体験の機会、金融リテラシー書籍・ゲーム・家庭での実践方法、ジュニアNISA廃止後の代替策まで、子どもを金融リテラシー豊かな大人に育てる教育戦略を体系的に解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="年齢別の金融教育ポイント"
+        services={[
+          {
+            name: "小学生（お小遣い3〜5千円）",
+            rank: 1,
+            highlight: "お金の基本学習",
+            features: [
+              "お小遣い帳で収支管理",
+              "欲しいもの・必要なものの区別",
+              "貯金の習慣化（お年玉活用）",
+              "金融絵本・アプリ活用",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+            badge: "基礎",
+          },
+          {
+            name: "中学生（お小遣い5千〜1万円）",
+            rank: 2,
+            highlight: "投資・経済の基礎",
+            features: [
+              "株式投資のシミュレーションゲーム",
+              "新聞・ニュースで経済理解",
+              "銀行口座を自分で管理",
+              "ふるさと納税・消費税の仕組み",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+          {
+            name: "高校生（アルバイト収入）",
+            rank: 3,
+            highlight: "NISA体験・税務知識",
+            features: [
+              "18歳からNISA口座開設可",
+              "月5千円からの少額投資体験",
+              "確定申告・年末調整の仕組み",
+              "クレカ・ローンの信用概念",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">親名義NISAでの教育資金活用</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>ジュニアNISA廃止（2023年末）→親名義の新NISAが代替策</li>
+          <li>親の新NISA枠で月3万円×18年＝1260万円の教育資金準備</li>
+          <li>子ども名義の投資信託購入は贈与税注意（年110万円非課税枠内）</li>
+          <li>大学進学費用（500〜1000万円）の一部を運用益でカバー</li>
+          <li>18歳到達時に子どもの新NISA口座開設、教育資金の自立運用へ</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="子どもの投資体験はSBI証券で｜親のNISA＋18歳で本人口座"
+        description="SBI証券は親の新NISAで子どもの教育資金を運用、18歳到達時に子ども自身のNISA口座開設も可能。親子で投資信託選び・ポートフォリオ構築を体験、金融リテラシー教育の実践プラットフォームとして最適。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="🧒"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "insurance-underwriting-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">保険の告知義務・加入審査完全ガイド</h2>
+        <p>
+          生命保険・医療保険・がん保険の加入時に求められる告知義務は、病歴・手術歴・通院歴・健康状態を正直に申告する義務です。通常加入（健康体）・引受基準緩和型（持病あり）・無選択型（告知不要）の3タイプの違い、告知義務違反のリスク（契約解除・保険金不払い）、持病があっても加入できる保険の選び方を徹底解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="保険加入タイプ別の比較"
+        services={[
+          {
+            name: "通常加入（健康体）",
+            rank: 1,
+            highlight: "保険料最安",
+            features: [
+              "詳細な告知書＋健康診断",
+              "保険料が最も割安",
+              "保障内容も最充実",
+              "健康な30〜50代が対象",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+            badge: "王道",
+          },
+          {
+            name: "引受基準緩和型",
+            rank: 2,
+            highlight: "持病ありでも加入可",
+            features: [
+              "告知項目3〜5項目のみ",
+              "保険料1.5〜2倍高い",
+              "保障内容縮小あり",
+              "持病あり60代以上向け",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+          },
+          {
+            name: "無選択型（告知不要）",
+            rank: 3,
+            highlight: "審査なし・誰でも加入可",
+            features: [
+              "告知・健康診断一切不要",
+              "保険料2〜3倍高い",
+              "保障額小さめ",
+              "重度の持病あり・高齢者向け",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">告知時の注意点</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>告知義務違反：契約解除＋保険金不払いのリスク、絶対に正直申告</li>
+          <li>過去5年以内の入院・手術歴は必ず告知</li>
+          <li>定期健診で異常値あり→精密検査受診→正常値なら加入可能</li>
+          <li>軽度の高血圧・高脂血症は通常加入可、薬服用状況も告知</li>
+          <li>迷った場合は保険マンモスの無料FP相談で最適プラン選択</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="持病ありの保険加入は保険マンモスで｜FP無料相談"
+        description="保険マンモスは持病・病歴のある方の保険加入を総合サポート。通常・引受緩和・無選択型の3タイプから最適プラン選択、告知義務の範囲・具体的な書き方アドバイス、複数社比較で最も加入しやすい保険を提案。"
+        buttonText="保険マンモスで無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM"
+        icon="📋"
+        highlight="無料FP相談"
+      />
+    </>
+  ),
+  "high-income-asset-protection": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">高所得者の資産防衛完全ガイド</h2>
+        <p>
+          年収2000万円超の富裕層は、所得税最大55%の税負担＋相続税最大55%の二重リスクに直面。資産管理会社設立・不動産投資の減価償却・生命保険の非課税枠・海外分散・相続対策まで、税負担を半減させながら資産を確実に次世代へ承継する上級戦略を体系的に解説します。富裕層の資産防衛の定石を網羅します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="富裕層の4大防衛戦略"
+        services={[
+          {
+            name: "資産管理会社設立",
+            rank: 1,
+            highlight: "法人税23%・節税効果大",
+            features: [
+              "個人税率55%→法人税率23%へ",
+              "経費計上範囲大幅拡大",
+              "役員報酬分散で累進税率下げ",
+              "家族への所得分散可能",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+            badge: "必須",
+          },
+          {
+            name: "不動産投資の減価償却",
+            rank: 2,
+            highlight: "築古・米国不動産で最大化",
+            features: [
+              "築22年超木造：4年償却",
+              "米国不動産：建物割合80%",
+              "年収2000万円なら年200〜500万円節税",
+              "所得圧縮＋減価償却ダブル効果",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+          {
+            name: "生命保険非課税枠",
+            rank: 3,
+            highlight: "500万円×法定相続人",
+            features: [
+              "相続税対策の王道",
+              "配偶者＋子2人＝1500万円非課税",
+              "終身保険でフル活用",
+              "現金→保険金で相続税大幅削減",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">年収別の税負担と節税効果</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>年収2000万円：税負担620万円（31%）→節税策で400万円（20%）に</li>
+          <li>年収5000万円：税負担2100万円（42%）→1300万円（26%）に</li>
+          <li>年収1億円：税負担4900万円（49%）→3000万円（30%）に</li>
+          <li>資産管理会社＋不動産＋保険の複合戦略で年500〜3000万円の節税</li>
+          <li>相続税対策含め生涯で数千万〜数億円の節税効果</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="富裕層の資産防衛は税理士ドットコムで｜専門家無料マッチング"
+        description="税理士ドットコムは富裕層の税務・資産管理に強い税理士を無料マッチング。資産管理会社設立・不動産節税・生命保険・海外分散・相続対策の総合コンサルティング、年500〜3000万円の節税実績多数の専門家紹介。"
+        buttonText="税理士ドットコムで無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5"
+        icon="💎"
+        highlight="無料マッチング"
+      />
+    </>
+  ),
+  "inheritance-advance-strategy": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">生前贈与・相続対策完全ガイド</h2>
+        <p>
+          2024年1月の相続税改正で、生前贈与の7年加算ルール・相続時精算課税制度の基礎控除新設等、大幅変更がありました。暦年贈与（年110万円非課税）・相続時精算課税（2500万円控除）の使い分け、教育資金・結婚子育て資金の贈与特例、生命保険活用まで、2026年最新の相続対策を徹底解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="生前贈与の3大制度"
+        services={[
+          {
+            name: "暦年贈与（基本）",
+            rank: 1,
+            highlight: "年110万円非課税",
+            features: [
+              "年110万円まで贈与税なし",
+              "受贈者ごとに110万円",
+              "相続前7年以内は相続財産加算",
+              "長期計画で数千万円の節税可能",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+            badge: "王道",
+          },
+          {
+            name: "相続時精算課税制度",
+            rank: 2,
+            highlight: "2500万円＋年110万円",
+            features: [
+              "2024年改正で年110万円基礎控除追加",
+              "2500万円まで無税贈与（相続時精算）",
+              "贈与後は暦年課税に戻れない",
+              "65歳以上親→20歳以上子対象",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+          {
+            name: "教育・結婚子育て資金贈与特例",
+            rank: 3,
+            highlight: "教育1500万円・結婚1000万円",
+            features: [
+              "教育資金一括贈与：1500万円非課税",
+              "結婚子育て資金：1000万円非課税",
+              "金融機関経由の専用口座",
+              "2026年まで延長",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">2024年改正の重要ポイント</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>暦年贈与の加算期間：3年→7年に延長（2024年1月以降）</li>
+          <li>相続時精算課税に年110万円の基礎控除新設</li>
+          <li>相続開始3年前の贈与は全額加算（対象拡大）</li>
+          <li>高額資産家は相続時精算課税の活用価値UP</li>
+          <li>早期からの計画的贈与が重要、7年加算リスク回避</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="相続対策は税理士ドットコムで｜2024年改正対応の専門家"
+        description="税理士ドットコムは2024年相続税改正に精通した税理士を無料マッチング。暦年贈与・相続時精算課税・各種特例の最適活用、資産家向けの生涯計画策定、数千万円の相続税軽減実績多数の専門家紹介を提供。"
+        buttonText="税理士ドットコムで無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5"
+        icon="🎁"
+        highlight="無料マッチング"
+      />
+    </>
+  ),
 };
