@@ -1,4 +1,6 @@
+"use client";
 import Link from "next/link";
+import { onAffiliateClick } from "@/lib/tracking";
 
 interface AffiliateCTAProps {
   title: string;
@@ -8,6 +10,8 @@ interface AffiliateCTAProps {
   external?: boolean;
   icon?: string;
   highlight?: string;
+  /** The guide slug or page identifier, used for GA4 event grouping. */
+  page?: string;
 }
 
 export function AffiliateCTA({
@@ -18,12 +22,14 @@ export function AffiliateCTA({
   external = true,
   icon = "💡",
   highlight,
+  page,
 }: AffiliateCTAProps) {
   const link = external ? (
     <a
       href={href}
       target="_blank"
       rel="nofollow sponsored noopener noreferrer"
+      onClick={onAffiliateClick({ page, position: "affiliate_cta", service: title, href })}
       className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-primary hover:bg-primary-hover text-white font-medium transition-colors"
     >
       {buttonText} →

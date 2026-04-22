@@ -1,3 +1,6 @@
+"use client";
+import { onAffiliateClick } from "@/lib/tracking";
+
 interface Service {
   name: string;
   highlight: string;
@@ -10,9 +13,11 @@ interface Service {
 interface ComparisonTableCTAProps {
   title: string;
   services: Service[];
+  /** The guide slug or page identifier, used for GA4 event grouping. */
+  page?: string;
 }
 
-export function ComparisonTableCTA({ title, services }: ComparisonTableCTAProps) {
+export function ComparisonTableCTA({ title, services, page }: ComparisonTableCTAProps) {
   return (
     <div className="my-8">
       <h3 className="text-xl font-bold mb-4">{title}</h3>
@@ -62,6 +67,12 @@ export function ComparisonTableCTA({ title, services }: ComparisonTableCTAProps)
               href={service.href}
               target="_blank"
               rel="nofollow sponsored noopener noreferrer"
+              onClick={onAffiliateClick({
+                page,
+                position: `comparison_rank_${service.rank ?? i + 1}`,
+                service: service.name,
+                href: service.href,
+              })}
               className="inline-block px-5 py-2.5 rounded-full bg-primary hover:bg-primary-hover text-white font-medium text-sm transition-colors"
             >
               公式サイトで詳細を見る →
