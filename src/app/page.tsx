@@ -31,7 +31,20 @@ export default function Home() {
     tools: tools.filter((t) => t.category === cat.slug),
   }));
 
-  const popularGuides = guides.slice(0, 6);
+  // 人気ガイドは単なる guides.slice(0, 6) ではなく、
+  // 「コンテンツが厚く・インデックスされやすい」rich guide を意図的に表示する。
+  // ↓これで homepage から rich guide への発リンクが手動で保証される（crawl 優先度UP）
+  const popularGuideSlugs = [
+    "business-card-comparison-2026",
+    "dual-income-household-guide",
+    "high-income-tax-strategy",
+    "freelance-retirement-guide",
+    "real-estate-crowdfunding-comparison-2026",
+    "fp-consultation-guide",
+  ];
+  const popularGuides = popularGuideSlugs
+    .map((s) => guides.find((g) => g.slug === s))
+    .filter((g): g is NonNullable<typeof g> => Boolean(g));
 
   return (
     <div className="max-w-5xl mx-auto px-4 py-10">

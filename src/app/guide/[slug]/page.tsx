@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
 import { guides, getGuideBySlug } from "@/lib/guides";
-import { siteConfig } from "@/lib/tools";
+import { siteConfig, tools } from "@/lib/tools";
 import { getCategoryBySlug } from "@/lib/categories";
 import { BreadcrumbJsonLd, ArticleJsonLd, FAQJsonLd } from "@/components/JsonLd";
 import { GuideRelatedLinks } from "@/components/GuideRelatedLinks";
@@ -48,6 +48,8 @@ export default async function GuidePage(
   if (!guide) notFound();
   const cat = getCategoryBySlug(guide.category);
   const faqs = getFaqsForGuide(guide.slug);
+  // このガイドのカテゴリに属するツールから最大3件を関連ツールとして出す
+  const relatedTools = tools.filter((t) => t.category === guide.category).slice(0, 3);
 
   return (
     <article className="max-w-3xl mx-auto px-4 py-10">
@@ -87,7 +89,75 @@ export default async function GuidePage(
         <p className="text-muted">{guide.description}</p>
       </header>
 
+      {/* 🎯 ランキング/比較ガイドに「選定基準」メタブロック差し込み（thin content 補強）。
+            slug が ranking/comparison を含むガイドは内容が表中心になりがちなので、
+            判定基準と更新ポリシーをユニーク prose で追加する。 */}
+      {(guide.slug.includes("ranking") || guide.slug.includes("comparison")) && (
+        <section className="mb-6 border-l-4 border-primary bg-primary/5 pl-4 py-3 rounded-r">
+          <h2 className="text-sm font-bold mb-2">このランキングの選定基準</h2>
+          <ul className="text-xs text-muted leading-relaxed space-y-1 list-disc list-inside">
+            <li>
+              <strong>手数料・運用コスト</strong>：長期運用で最も影響する項目を最優先で評価
+            </li>
+            <li>
+              <strong>取扱商品・銘柄数</strong>：選択肢の豊富さが将来の運用方針変更に対応できるか
+            </li>
+            <li>
+              <strong>アプリ・UIの使いやすさ</strong>：実際に長く使えるかはここで決まる
+            </li>
+            <li>
+              <strong>ポイント還元・キャンペーン</strong>：クレカ積立など差がつく仕様を加点評価
+            </li>
+            <li>
+              <strong>サポート体制・信頼性</strong>：金融庁登録、運営年数、問い合わせ対応の実績
+            </li>
+          </ul>
+          <p className="text-xs text-muted mt-2">
+            本記事は <time dateTime={guide.publishedAt}>{guide.publishedAt}</time> 時点の公開情報をもとに編集しています。各社の手数料・仕様は随時変更されるため、最新情報は必ず公式サイトでご確認ください。
+          </p>
+        </section>
+      )}
+
+      {/* 🎯 カテゴリ文脈ブロック — 全ガイドに category-specific な E-E-A-T 文を差し込む。
+            同じ category の guide で同文になるが、category が8通りあるので global な
+            near-duplicate にはならず、代わりに「薄いガイド」のコンテンツ量を底上げできる。 */}
+      {cat && (
+        <section className="mb-8 bg-gradient-to-br from-primary/5 to-primary/0 border border-primary/20 rounded-xl p-5">
+          <div className="flex items-center gap-2 mb-2">
+            <span className="text-xl">{cat.icon}</span>
+            <h2 className="text-sm font-bold">この記事は「{cat.name}」カテゴリの一部です</h2>
+          </div>
+          <p className="text-xs text-muted leading-relaxed mb-3">{cat.intro}</p>
+          <Link
+            href={`/category/${cat.slug}`}
+            className="inline-block text-xs text-primary hover:underline"
+          >
+            {cat.name}カテゴリのすべての記事を見る →
+          </Link>
+        </section>
+      )}
+
       <GuideContent slug={guide.slug} />
+
+      {/* 🎯 このガイドと一緒に使えるツール（ガイド内部から tools/ への内部リンク） */}
+      {relatedTools.length > 0 && (
+        <section className="mt-10 bg-card-bg border border-card-border rounded-xl p-5">
+          <h2 className="text-base font-bold mb-3">🔧 あわせて使いたいシミュレーター</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+            {relatedTools.map((t) => (
+              <Link
+                key={t.slug}
+                href={`/tools/${t.slug}`}
+                className="block p-3 rounded-lg bg-background border border-card-border hover:border-primary/50 hover:shadow-sm transition-all"
+              >
+                <div className="text-xl mb-1">{t.icon}</div>
+                <div className="text-xs font-semibold line-clamp-1">{t.name}</div>
+                <div className="text-[11px] text-muted line-clamp-2 mt-1">{t.description}</div>
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
 
       {faqs.length > 0 && (
         <section className="mt-12 bg-card-bg border border-card-border rounded-xl p-6 sm:p-8">

@@ -4,40 +4,44 @@ import { guides } from "@/lib/guides";
 import { categories } from "@/lib/categories";
 
 /**
- * 🎯 Tier-A（0.95）: 収益化の柱となるランキング／比較ガイド
- * これらをサイトマップで最上位に置くことで、Google のクロール予算を
- * 「金になるページ」に集中させる。
- *
- * new-domain の crawl budget は限定的なので、全ページ同priorityの
- * フラットな sitemap だとどれが重要か伝わらない → インデックス率が伸びない。
+ * 🎯 Tier-A（0.95）: 収益化の柱となるランキング／比較ガイド。
+ * Search Console が 387検出/9登録 の new-domain状態では、
+ * Googleのクロール予算を「金になるページ」に集中させる必要がある。
  */
 const TIER_A_SLUGS = new Set<string>([
-  // 投資・証券（高単価）
   "nisa-broker-ranking-2026",
   "ideco-broker-comparison",
   "roboadvisor-comparison",
   "fx-broker-ranking",
   "crypto-exchange-comparison",
-  // クレカ・カード系
   "high-reward-credit-cards",
   "business-card-comparison-2026",
-  // 税理・FP（高単価、toolbox からの導線あり）
   "invoice-system-complete-guide",
   "denshi-chobo-preservation-guide",
   "company-expense-rules-guide",
   "medical-expense-practical-guide",
   "fp-consultation-guide",
   "high-income-tax-strategy",
-  // 不動産・副業
   "real-estate-crowdfunding-comparison-2026",
   "dual-income-household-guide",
   "freelance-retirement-guide",
 ]);
 
 /**
- * Tier-B（0.7）: 収益サポート（ranking/comparison/guide を含むslug）
- * 比較・ランキング系キーワードは検索意図が強いのでミドル優先度。
+ * Tier-A tools (0.9): tax-calculator 的に、外部からの流入が来ている実績ベースの
+ * high-utility ツール。シミュレーターの中でも「税金計算」「手取り計算」「節税」系は
+ * 他サイトからの送客も効いて評価されやすい。
  */
+const TIER_A_TOOL_SLUGS = new Set<string>([
+  "ideco-tax-saving",
+  "nisa-simulator",
+  "side-income-tax",
+  "take-home-calculator",
+  "furusato-limit",
+  "medical-deduction",
+  "nisa-vs-ideco",
+]);
+
 function isTierB(slug: string): boolean {
   return (
     slug.includes("ranking") ||
@@ -50,7 +54,12 @@ function isTierB(slug: string): boolean {
 function guidePriority(slug: string): number {
   if (TIER_A_SLUGS.has(slug)) return 0.95;
   if (isTierB(slug)) return 0.7;
-  return 0.5; // 残りは Tier-C（詳細解説・補助コンテンツ）
+  return 0.5;
+}
+
+function toolPriority(slug: string): number {
+  if (TIER_A_TOOL_SLUGS.has(slug)) return 0.9;
+  return 0.6;
 }
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -65,17 +74,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/terms`, lastModified: now, changeFrequency: "yearly", priority: 0.3 },
     { url: `${base}/contact`, lastModified: now, changeFrequency: "yearly", priority: 0.3 },
   ];
+  // category を 0.85 に昇格（rich化したのでインデックスされる可能性が高まった）
   const categoryRoutes: MetadataRoute.Sitemap = categories.map((c) => ({
     url: `${base}/category/${c.slug}`,
     lastModified: now,
     changeFrequency: "weekly",
-    priority: 0.8,
+    priority: 0.85,
   }));
   const toolRoutes: MetadataRoute.Sitemap = tools.map((t) => ({
     url: `${base}/tools/${t.slug}`,
     lastModified: now,
     changeFrequency: "monthly",
-    priority: 0.7,
+    priority: toolPriority(t.slug),
   }));
   const guideRoutes: MetadataRoute.Sitemap = guides.map((g) => ({
     url: `${base}/guide/${g.slug}`,

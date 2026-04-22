@@ -1,8 +1,9 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
-import { tools, siteConfig, getToolBySlug } from "@/lib/tools";
+import { tools, siteConfig, getToolBySlug, getToolMeta } from "@/lib/tools";
 import { getCategoryBySlug } from "@/lib/categories";
+import { guides } from "@/lib/guides";
 import { BreadcrumbJsonLd } from "@/components/JsonLd";
 import { RelatedTools } from "@/components/RelatedTools";
 import { AdSenseUnit } from "@/components/AdSenseUnit";
@@ -41,6 +42,10 @@ export default async function ToolPage(
   const tool = getToolBySlug(slug);
   if (!tool) notFound();
   const cat = getCategoryBySlug(tool.category);
+  const meta = getToolMeta(tool.slug, tool);
+  const relatedGuideObjects = meta.relatedGuides
+    .map((s) => guides.find((g) => g.slug === s))
+    .filter((g): g is NonNullable<typeof g> => Boolean(g));
 
   return (
     <div className="max-w-3xl mx-auto px-4 py-10">
@@ -68,7 +73,49 @@ export default async function ToolPage(
         <p className="text-muted">{tool.description}</p>
       </header>
 
+      {/* 🎯 ツール目的 — thin content 脱出のため 80-120字のユニーク説明 */}
+      <section className="mb-6 bg-card-bg border border-card-border rounded-xl p-5">
+        <h2 className="text-base font-bold mb-2">このツールでできること</h2>
+        <p className="text-sm leading-relaxed">{meta.purpose}</p>
+      </section>
+
       <ToolSimulator slug={tool.slug} />
+
+      {/* 🎯 入力前提・結果の読み方 — simulator 周辺にユニーク prose を配置 */}
+      <section className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div className="bg-card-bg border border-card-border rounded-xl p-5">
+          <h2 className="text-base font-bold mb-2">入力する数字のコツ</h2>
+          <p className="text-sm leading-relaxed text-muted">{meta.inputNote}</p>
+        </div>
+        <div className="bg-card-bg border border-card-border rounded-xl p-5">
+          <h2 className="text-base font-bold mb-2">結果の読み方・次のアクション</h2>
+          <p className="text-sm leading-relaxed text-muted">{meta.resultGuide}</p>
+        </div>
+      </section>
+
+      {/* 🎯 関連ガイドへの内部リンク — crawl depth を下げる */}
+      {relatedGuideObjects.length > 0 && (
+        <section className="mt-8">
+          <h2 className="text-base font-bold mb-3">📚 このツールとあわせて読みたいガイド</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+            {relatedGuideObjects.map((g) => (
+              <Link
+                key={g.slug}
+                href={`/guide/${g.slug}`}
+                className="block bg-gradient-to-br from-primary/5 to-primary/0 border border-primary/20 rounded-lg p-4 hover:border-primary/50 hover:shadow-sm transition-all"
+              >
+                <div className="flex items-start gap-2">
+                  <span className="text-2xl flex-shrink-0">{g.icon}</span>
+                  <div>
+                    <div className="text-sm font-semibold line-clamp-2">{g.title}</div>
+                    <div className="text-xs text-muted mt-1 line-clamp-2">{g.description}</div>
+                  </div>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
 
       <AdSenseUnit format="horizontal" className="my-8" />
 
