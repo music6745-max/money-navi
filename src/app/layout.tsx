@@ -96,7 +96,19 @@ export default function RootLayout({
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6483317297217533"
           crossOrigin="anonymous"
         />
-        {/* GA4: Vercel の環境変数 NEXT_PUBLIC_GA_ID で測定IDを設定する */}
+        {/* 🎯 UTM capture: GA4有効/無効に関わらず必ず動かす。
+              流入元（net-toolbox・ai-tools-navi・organic 等）を sessionStorage に保存し、
+              tracking.ts の trackEvent() が自動で全イベントに付与する。
+              GA4測定ID未設定の期間中も、dataLayer にイベントは蓄積されるため、
+              GA4有効化後すぐに過去カーソル分が確認できるわけではないが、
+              少なくともUTMのセッション紐付けは遡及的に機能する。 */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `try{var u=new URL(location.href);var keys=['utm_source','utm_medium','utm_campaign','utm_content','utm_term'];var c={};keys.forEach(function(k){var v=u.searchParams.get(k);if(v)c[k]=v;});if(Object.keys(c).length>0)sessionStorage.setItem('tn_utm',JSON.stringify(c));}catch(e){}`,
+          }}
+        />
+        {/* GA4: Vercel の環境変数 NEXT_PUBLIC_GA_ID で測定IDを設定する。
+              設定手順は docs/ga4_runbook.md を参照。 */}
         {process.env.NEXT_PUBLIC_GA_ID && (
           <>
             <script
@@ -106,11 +118,6 @@ export default function RootLayout({
             <script
               dangerouslySetInnerHTML={{
                 __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${process.env.NEXT_PUBLIC_GA_ID}',{'send_page_view':true});`,
-              }}
-            />
-            <script
-              dangerouslySetInnerHTML={{
-                __html: `try{var u=new URL(location.href);var keys=['utm_source','utm_medium','utm_campaign','utm_content','utm_term'];var c={};keys.forEach(function(k){var v=u.searchParams.get(k);if(v)c[k]=v;});if(Object.keys(c).length>0)sessionStorage.setItem('tn_utm',JSON.stringify(c));}catch(e){}`,
               }}
             />
           </>
