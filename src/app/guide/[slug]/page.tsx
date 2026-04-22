@@ -10,6 +10,12 @@ import { AdSenseUnit } from "@/components/AdSenseUnit";
 import { GuideContent } from "./GuideContent";
 import { getFaqsForGuide } from "@/lib/guideFaqs";
 
+// Force static generation: guides are fully known at build time, no per-request fetching.
+// これにより動的レンダリングに fallback する余地を消し、
+// Googlebot から見て全ページが確実に pre-rendered HTML として届く。
+export const dynamic = "force-static";
+export const dynamicParams = false; // 未知の slug は 404（soft 404 回避）
+
 export function generateStaticParams() {
   return guides.map((g) => ({ slug: g.slug }));
 }

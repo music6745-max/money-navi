@@ -6,6 +6,9 @@ import { tools, siteConfig } from "@/lib/tools";
 import { guides } from "@/lib/guides";
 import { BreadcrumbJsonLd } from "@/components/JsonLd";
 
+export const dynamic = "force-static";
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   return categories.map((c) => ({ slug: c.slug }));
 }

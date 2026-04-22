@@ -9,6 +9,9 @@ import { AdSenseUnit } from "@/components/AdSenseUnit";
 import { AffiliateCTA } from "@/components/AffiliateCTA";
 import { ToolSimulator } from "./ToolSimulator";
 
+export const dynamic = "force-static";
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   return tools.map((t) => ({ slug: t.slug }));
 }

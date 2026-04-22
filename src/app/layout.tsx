@@ -85,6 +85,7 @@ export default function RootLayout({
     <html lang="ja" className={`h-full antialiased ${inter.variable}`}>
       <head>
         <link rel="preconnect" href="https://pagead2.googlesyndication.com" />
+        <link rel="preconnect" href="https://www.googletagmanager.com" />
         <script
           dangerouslySetInnerHTML={{
             __html: `(function(){var t=localStorage.getItem('theme');if(t==='dark'||t==='light')document.documentElement.setAttribute('data-theme',t)})()`,
@@ -95,6 +96,25 @@ export default function RootLayout({
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6483317297217533"
           crossOrigin="anonymous"
         />
+        {/* GA4: Vercel の環境変数 NEXT_PUBLIC_GA_ID で測定IDを設定する */}
+        {process.env.NEXT_PUBLIC_GA_ID && (
+          <>
+            <script
+              async
+              src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_ID}`}
+            />
+            <script
+              dangerouslySetInnerHTML={{
+                __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${process.env.NEXT_PUBLIC_GA_ID}',{'send_page_view':true});`,
+              }}
+            />
+            <script
+              dangerouslySetInnerHTML={{
+                __html: `try{var u=new URL(location.href);var keys=['utm_source','utm_medium','utm_campaign','utm_content','utm_term'];var c={};keys.forEach(function(k){var v=u.searchParams.get(k);if(v)c[k]=v;});if(Object.keys(c).length>0)sessionStorage.setItem('tn_utm',JSON.stringify(c));}catch(e){}`,
+              }}
+            />
+          </>
+        )}
       </head>
       <body className="min-h-full flex flex-col">
         <WebSiteJsonLd

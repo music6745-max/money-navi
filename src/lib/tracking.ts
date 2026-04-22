@@ -18,9 +18,9 @@ export function trackEvent(name: string, params: EventParams = {}): void {
   if (typeof window === "undefined") return;
   try {
     if (window.gtag) {
-      window.gtag("event", name, params);
+      window.gtag("event", name, { ...getInboundUtm(), ...params });
     } else if (window.dataLayer) {
-      window.dataLayer.push({ event: name, ...params });
+      window.dataLayer.push({ event: name, ...getInboundUtm(), ...params });
     }
   } catch {
     // Swallow - tracking must never break UX.
@@ -41,6 +41,47 @@ export function providerFromUrl(url: string): string {
   if (u.includes("rakuten-sec.co.jp")) return "rakuten-sec-direct";
   if (u.includes("monex.co.jp")) return "monex-direct";
   return "other";
+}
+
+/**
+ * クロスドメイン流入検知: 到達時点のURLに含まれる utm_* を sessionStorage に保存し、
+ * 以降の affiliate_click 等に自動付与する。
+ *
+ * 使用例:
+ *   - /guide/invoice-system-complete-guide?utm_source=net-toolbox&utm_medium=referral
+ *     → sessionStorage に { utm_source: "net-toolbox", utm_medium: "referral" } を保存
+ *   - 同セッション内の /guide/... で affiliate_click 発火時、
+ *     utm_source を付けて送信するので「toolbox からの誘導→税理士CTA」が追える。
+ */
+const UTM_KEY = "tn_utm";
+const UTM_FIELDS = ["utm_source", "utm_medium", "utm_campaign", "utm_content", "utm_term"] as const;
+
+export function captureInboundUtm(): void {
+  if (typeof window === "undefined") return;
+  try {
+    const url = new URL(window.location.href);
+    const captured: Record<string, string> = {};
+    UTM_FIELDS.forEach((k) => {
+      const v = url.searchParams.get(k);
+      if (v) captured[k] = v;
+    });
+    if (Object.keys(captured).length > 0) {
+      sessionStorage.setItem(UTM_KEY, JSON.stringify(captured));
+    }
+  } catch {
+    // ignore
+  }
+}
+
+export function getInboundUtm(): Record<string, string> {
+  if (typeof window === "undefined") return {};
+  try {
+    const raw = sessionStorage.getItem(UTM_KEY);
+    if (!raw) return {};
+    return JSON.parse(raw) as Record<string, string>;
+  } catch {
+    return {};
+  }
 }
 
 /**
