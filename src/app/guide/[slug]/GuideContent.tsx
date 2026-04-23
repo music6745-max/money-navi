@@ -3759,9 +3759,10 @@ const guideContents: Record<string, React.ReactNode> = {
         title="モゲチェックで一括仮審査【完全無料】"
         description="年収・借入希望額を入力するだけで、最大5社の住宅ローン金利・諸費用を一括比較。AIが最安プランを診断、借り換えシミュレーションも無料。"
         buttonText="モゲチェックで無料診断"
-        href="https://px.a8.net/svt/ejp?a8mat=3HBJZZ+9OD3ZM+3Y0C+5YZ75"
+        href="/go/mogecheck-new-loan"
         icon="🏠"
         highlight="完全無料"
+        page="mortgage-comparison-2026"
       />
       <section>
         <h2 className="text-xl font-bold mb-3">住宅ローン控除で13年間の節税</h2>
@@ -12302,9 +12303,10 @@ const guideContents: Record<string, React.ReactNode> = {
         title="複数銀行で一括比較｜モゲチェック"
         description="フリーランスでも通る住宅ローンを無料で一括比較。モゲチェックなら複数銀行の審査通過見込みを事前確認、最適な金融機関選びで審査通過率UP。"
         buttonText="モゲチェックで無料診断"
-        href="https://www.mogecheck.jp/"
+        href="/go/mogecheck-new-loan"
         icon="🏠"
         highlight="無料診断"
+        page="freelance-housing-loan-guide"
       />
       <section>
         <h2 className="text-xl font-bold mb-3">フリーランスの住宅ローン注意点</h2>
@@ -13396,7 +13398,7 @@ const guideContents: Record<string, React.ReactNode> = {
               "借換プロのコンサル付き",
               "業界最大級のユーザー数",
             ],
-            href: "https://www.mogecheck.jp/",
+            href: "/go/mogecheck-refinance",
             badge: "業界最大手",
           },
           {
@@ -13451,9 +13453,10 @@ const guideContents: Record<string, React.ReactNode> = {
         title="住宅ローン借換は一括比較｜モゲチェック"
         description="モゲチェックなら複数銀行の借換条件を無料一括比較。金利差0.5%以上で総返済額100〜500万円の削減を狙える最強の無料ツール。事前審査も代行してくれる。"
         buttonText="モゲチェックの詳細"
-        href="https://www.mogecheck.jp/"
+        href="/go/mogecheck-refinance"
         icon="🔄"
         highlight="無料診断"
+        page="home-loan-refinancing-strategy"
       />
     </>
   ),

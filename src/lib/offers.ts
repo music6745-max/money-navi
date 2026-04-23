@@ -198,6 +198,30 @@ export const offers: Offer[] = [
     note: "もしもアフィリエイトで提携できる可能性あり、要確認。",
     category: "household",
   },
+
+  // ============ 住宅ローン一括比較（MFS モゲチェック） ============
+  {
+    id: "mogecheck-refinance",
+    service: "モゲチェック（借り換え）",
+    provider: "a8net",
+    payout_yen: 2564,
+    official_url: "https://www.mogecheck.jp/",
+    affiliate_url: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+4BZM1M+3SUE+5YJRM",
+    status: "active",
+    note: "MFS 2026-04-23 承認済 (A8プログラム 17-0614)。成果条件: 新規比較サービス申込。EPC 70.18。",
+    category: "household",
+  },
+  {
+    id: "mogecheck-new-loan",
+    service: "モゲチェック（新規借り入れ）",
+    provider: "a8net",
+    payout_yen: 2564,
+    official_url: "https://www.mogecheck.jp/",
+    affiliate_url: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+4ASQU2+3SUE+15QHIA",
+    status: "active",
+    note: "MFS 2026-04-23 承認済 (A8プログラム 22-0325)。成果条件: 新規比較サービス申込。EPC 80.03。",
+    category: "household",
+  },
 ];
 
 const offerById = new Map<string, Offer>(offers.map((o) => [o.id, o]));
