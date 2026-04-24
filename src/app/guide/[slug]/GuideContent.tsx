@@ -6523,9 +6523,10 @@ const guideContents: Record<string, React.ReactNode> = {
         title="複数社一括で最安値を発見｜自動車保険の無料見積もり"
         description="ソニー損保・SBI損保・チューリッヒ・アクサダイレクト等を最大20社一括比較。車種・年齢・等級を入力するだけで、年間2〜5万円の節約につながる最適プランが見つかる。"
         buttonText="自動車保険を一括見積り"
-        href="https://www.inzweb.com/"
+        href="/go/sbi-insweb-auto"
         icon="🚗"
         highlight="無料・5分で完了"
+        page="auto-insurance-comparison-2026"
       />
       <section>
         <h2 className="text-xl font-bold mb-3">自動車保険選びのチェックリスト</h2>

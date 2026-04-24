@@ -199,6 +199,19 @@ export const offers: Offer[] = [
     category: "household",
   },
 
+  // ============ 自動車保険一括見積（SBIホールディングス インズウェブ） ============
+  {
+    id: "sbi-insweb-auto",
+    service: "インズウェブ自動車保険一括見積",
+    provider: "a8net",
+    payout_yen: 1000,
+    official_url: "https://www.inzweb.com/",
+    affiliate_url: "https://www.inzweb.com/",
+    status: "review",
+    note: "SBIホールディングス 2026-04-24承認 (A8プログラム 03-0603)。A8.net → 参加中プログラム → 広告リンク から本番URLをコピーして affiliate_url を差替、status を active に更新。単価は実際の報酬確認後に調整。",
+    category: "household",
+  },
+
   // ============ 住宅ローン一括比較（MFS モゲチェック） ============
   {
     id: "mogecheck-refinance",
