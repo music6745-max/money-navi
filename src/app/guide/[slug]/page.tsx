@@ -152,6 +152,18 @@ export default async function GuidePage(
         />
       )}
 
+      {guide.slug === "auto-loan-comparison-2026" && (
+        <AffiliateCTA
+          page={guide.slug}
+          title="車購入後の保険見直しはインズウェブ｜複数社一括見積もり"
+          description="自動車ローンを低金利で組めたら、次は自動車保険のコスト見直しを。インズウェブなら複数の保険会社の見積もりを一度に比較でき、ネット型保険への切り替えで年間3〜5万円の保険料節約事例も。車の総コストを最適化したい方に。"
+          buttonText="自動車保険一括見積を見る"
+          href="/go/sbi-insweb-auto"
+          icon="🚗"
+          highlight="保険料節約"
+        />
+      )}
+
       {/* 🎯 このガイドと一緒に使えるツール（ガイド内部から tools/ への内部リンク） */}
       {relatedTools.length > 0 && (
         <section className="mt-10 bg-card-bg border border-card-border rounded-xl p-5">
