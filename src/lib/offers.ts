@@ -156,11 +156,11 @@ export const offers: Offer[] = [
     id: "hoken-mammoth",
     service: "保険マンモス",
     provider: "a8net",
-    payout_yen: 10000,
+    payout_yen: 11278,
     official_url: "https://hoken-mammoth.com/",
     affiliate_url: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
     status: "active",
-    note: "FP無料相談。高単価 A8.net 案件。",
+    note: "FP無料相談。高単価 A8.net 案件。2026-04-27 A8管理画面で実機確認: 新規面談11278円, EPC 32.11, 確定率 33.59% (A8プログラム 25-0901)。",
     category: "tax",
   },
 
@@ -221,7 +221,7 @@ export const offers: Offer[] = [
     official_url: "https://www.mogecheck.jp/",
     affiliate_url: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+4BZM1M+3SUE+5YJRM",
     status: "active",
-    note: "MFS 2026-04-23 承認済 (A8プログラム 17-0614)。成果条件: 新規比較サービス申込。EPC 70.18。",
+    note: "MFS 2026-04-23 承認済 (A8プログラム 17-0614)。成果条件: 新規比較サービス申込。EPC 70.18 (2026-04-27 再確認 EPC 76.46)。",
     category: "household",
   },
   {
@@ -232,8 +232,100 @@ export const offers: Offer[] = [
     official_url: "https://www.mogecheck.jp/",
     affiliate_url: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+4ASQU2+3SUE+15QHIA",
     status: "active",
-    note: "MFS 2026-04-23 承認済 (A8プログラム 22-0325)。成果条件: 新規比較サービス申込。EPC 80.03。",
+    note: "MFS 2026-04-23 承認済 (A8プログラム 22-0325)。成果条件: 新規比較サービス申込。EPC 80.03 (2026-04-27 再確認 EPC 85.82)。",
     category: "household",
+  },
+
+  // ============ レオス・キャピタルワークス（ひふみ投信） — Phase B status:review ============
+  // 2026-04-27 A8.net 承認確認。mylink取得待ちのため status: review。
+  // 取得後 affiliate_url を差替え → status: active へ昇格すること。
+  {
+    id: "rheos-hifumi-nisa",
+    service: "ひふみ（NISA口座開設＋買付完了）",
+    provider: "a8net",
+    payout_yen: 15000,
+    official_url: "https://www.rheos.jp/toushin/hifumi-plus/",
+    affiliate_url: "https://www.rheos.jp/toushin/hifumi-plus/",
+    status: "review",
+    note: "🔴超高単価15000円。A8プログラム 23-1226。新規NISA口座開設＋ひふみ買付完了で成果。category=nisa の比較表に「アクティブ運用枠」として追加候補。mylink取得後にactive化。",
+    category: "nisa",
+  },
+  {
+    id: "rheos-hifumi-toushin",
+    service: "ひふみ投信（新規口座開設）",
+    provider: "a8net",
+    payout_yen: 1500,
+    official_url: "https://www.rheos.jp/toushin/",
+    affiliate_url: "https://www.rheos.jp/toushin/",
+    status: "review",
+    note: "A8プログラム 19-0731。EPC 1.67、確定率100%。NISA関連の説明枠やひふみ単独訴求で活用。mylink取得後にactive化。",
+    category: "nisa",
+  },
+
+  // ============ Ｚ企画 マネマッチ（FP相談） — Phase B status:review ============
+  {
+    id: "z-kikaku-manematch",
+    service: "マネマッチ（FP紹介・新規面談完了）",
+    provider: "a8net",
+    payout_yen: 9000,
+    official_url: "https://manematch.jp/",
+    affiliate_url: "https://manematch.jp/",
+    status: "review",
+    note: "🔴高単価9000円。A8プログラム 25-1209。EPC 538.31 (極めて高い)、確定率22.51%。hoken-mammoth と並列で「もう1つのFP相談」枠。category=tax/household。mylink取得後にactive化。終了日 2026-04-30 注意。",
+    category: "tax",
+  },
+
+  // ============ パワープランニング アットセミナー — Phase B status:review ============
+  {
+    id: "power-planning-attseminar",
+    service: "アットセミナー（女性向けマネーセミナー参加）",
+    provider: "a8net",
+    payout_yen: 7000,
+    official_url: "https://at-seminar.jp/",
+    affiliate_url: "https://at-seminar.jp/",
+    status: "review",
+    note: "高単価7000円。A8プログラム 21-1007。EPC 48.34、確定率40.74%。category=nisa/ideco/sidejob のガイド末尾に「無料セミナーで学ぶ」CTA候補。mylink取得後にactive化。",
+    category: "nisa",
+  },
+
+  // ============ JFX FX取引 — Phase B status:review ============
+  {
+    id: "jfx-fx",
+    service: "JFX（FX取引）",
+    provider: "a8net",
+    payout_yen: 15000,
+    official_url: "https://www.jfx.co.jp/",
+    affiliate_url: "https://www.jfx.co.jp/",
+    status: "review",
+    note: "🔴超高単価15000円。A8プログラム 10-0514。EPC 25.96、確定率9.52% (取引完了が条件のため低め)。matsui-fx の代替/補完。category=fx-crypto。mylink取得後にactive化。",
+    category: "fx-crypto",
+  },
+
+  // ============ シーラ 利回りくん（不動産クラウドファンディング） — Phase B status:review ============
+  {
+    id: "shiira-riririkun",
+    service: "利回りくん（不動産クラウドファンディング）",
+    provider: "a8net",
+    payout_yen: 5000,
+    official_url: "https://www.rimawarikun.com/",
+    affiliate_url: "https://www.rimawarikun.com/",
+    status: "review",
+    note: "高単価5000-10000円 (出資額により変動)。A8プログラム 24-0531。EPC 120.96、確定率88.37%。会員数国内No.1の不動産クラファン。creal/cozuchi と並列。category=fx-crypto (実態は real-estate-investment)。mylink取得後にactive化。",
+    category: "fx-crypto",
+  },
+
+  // ============ 松井証券（iDeCo + 株/投信NISA） — Phase B/Phase A 紐付け済 ============
+  // 注: matsui-nisa (line 97) も A8 承認済みだが、別 offer として残してある。次回 mylink 取得時に matsui-nisa 側の provider/status を更新予定。
+  {
+    id: "matsui-ideco",
+    service: "松井証券iDeCo",
+    provider: "a8net",
+    payout_yen: 500,
+    official_url: "https://www.matsui.co.jp/ideco/",
+    affiliate_url: "https://www.matsui.co.jp/ideco/",
+    status: "review",
+    note: "低単価500円だが既存ガイドあり。A8プログラム 19-0711。確定率87.5%。category=ideco の比較表で活用。mylink取得後にactive化。",
+    category: "ideco",
   },
 ];
 
