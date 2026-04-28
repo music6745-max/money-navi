@@ -313,17 +313,17 @@ export const offers: Offer[] = [
     category: "fx-crypto",
   },
 
-  // ============ 松井証券（iDeCo + 株/投信NISA） — Phase B/Phase A 紐付け済 ============
-  // 注: matsui-nisa はA8 mylink取得済み。matsui-ideco は低単価のため review のまま保留。
+  // ============ 松井証券（iDeCo + 株/投信NISA） — Phase B/Phase A active ============
+  // 注: matsui-nisa / matsui-ideco ともにA8 mylink取得済み。
   {
     id: "matsui-ideco",
     service: "松井証券iDeCo",
     provider: "a8net",
     payout_yen: 500,
     official_url: "https://www.matsui.co.jp/ideco/",
-    affiliate_url: "https://www.matsui.co.jp/ideco/",
-    status: "review",
-    note: "低単価500円だが既存ガイドあり。A8プログラム 19-0711。確定率87.5%。category=ideco の比較表で活用。mylink取得後にactive化。",
+    affiliate_url: "https://px.a8.net/svt/ejp?a8mat=4B1O1O+EKIXI2+3XCC+BXIYQ",
+    status: "active",
+    note: "低単価500円だが既存ガイドあり。A8プログラム 19-0711 (insId=s00000018318002)。2026-04-28 mylink取得・active化。確定率87.5%。category=ideco の比較表で活用。",
     category: "ideco",
   },
 ];
