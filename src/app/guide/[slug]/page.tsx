@@ -7,6 +7,7 @@ import { getCategoryBySlug } from "@/lib/categories";
 import { BreadcrumbJsonLd, ArticleJsonLd, FAQJsonLd } from "@/components/JsonLd";
 import { GuideRelatedLinks } from "@/components/GuideRelatedLinks";
 import { AdSenseUnit } from "@/components/AdSenseUnit";
+import { AffiliateCTA } from "@/components/AffiliateCTA";
 import { GuideContent } from "./GuideContent";
 import { getFaqsForGuide } from "@/lib/guideFaqs";
 
@@ -138,6 +139,18 @@ export default async function GuidePage(
       )}
 
       <GuideContent slug={guide.slug} />
+
+      {guide.slug === "japanese-stock-ranking-2026" && (
+        <AffiliateCTA
+          page={guide.slug}
+          title="アクティブ運用の代表格｜ひふみ NISAで成長企業に投資"
+          description="独自リサーチで成長企業を発掘するアクティブファンド「ひふみ」。日本株を中心とした厳選ポートフォリオで、新NISA成長枠での口座開設＋買付完了で成果が発生します。指数連動のインデックス投資だけでなくアクティブ運用にも関心がある方に。"
+          buttonText="ひふみ NISAの詳細"
+          href="/go/rheos-hifumi-nisa"
+          icon="📊"
+          highlight="アクティブ運用"
+        />
+      )}
 
       {/* 🎯 このガイドと一緒に使えるツール（ガイド内部から tools/ への内部リンク） */}
       {relatedTools.length > 0 && (
