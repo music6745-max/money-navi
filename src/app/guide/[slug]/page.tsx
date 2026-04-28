@@ -1,12 +1,10 @@
 import BaseGuidePage from "./BasePage";
 import { AffiliateCTA } from "@/components/AffiliateCTA";
 
-export {
-  dynamic,
-  dynamicParams,
-  generateMetadata,
-  generateStaticParams,
-} from "./BasePage";
+export const dynamic = "force-static";
+export const dynamicParams = false;
+
+export { generateMetadata, generateStaticParams } from "./BasePage";
 
 type GuidePageProps = {
   params: Promise<{ slug: string }>;
