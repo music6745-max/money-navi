@@ -45,6 +45,32 @@ export default function Home() {
   const popularGuides = popularGuideSlugs
     .map((s) => guides.find((g) => g.slug === s))
     .filter((g): g is NonNullable<typeof g> => Boolean(g));
+  const featuredOffers = [
+    {
+      href: "/go/rheos-hifumi-nisa",
+      icon: "📈",
+      label: "新NISAで成長企業に投資",
+      title: "ひふみ NISA",
+      desc: "日本株を中心に成長企業を探すアクティブ運用枠。インデックス投資に加えて選択肢を広げたい方向け。",
+      badge: "資産形成",
+    },
+    {
+      href: "/go/zeirishi-dotcom",
+      icon: "🧾",
+      label: "税務・確定申告の相談",
+      title: "税理士ドットコム",
+      desc: "副業、投資、個人事業の税務で迷ったときに相談先を探せるサービス。節税や申告前の確認に。",
+      badge: "税務相談",
+    },
+    {
+      href: "/go/hoken-mammoth",
+      icon: "🛡️",
+      label: "家計と保険の見直し",
+      title: "保険マンモス",
+      desc: "ライフプランや保険料の見直しをFPに相談。投資に回せる家計余力を作りたい方向け。",
+      badge: "FP相談",
+    },
+  ];
 
   return (
     <div className="max-w-5xl mx-auto px-4 py-10">
@@ -63,6 +89,36 @@ export default function Home() {
       </section>
 
       <ToolSearch />
+
+      <section className="mb-10 mt-8 rounded-xl border border-primary/20 bg-gradient-to-br from-primary/5 to-accent/5 p-5 sm:p-6">
+        <div className="mb-4 flex flex-col gap-1 sm:flex-row sm:items-end sm:justify-between">
+          <div>
+            <p className="text-xs font-bold text-primary">今週の注目サービス</p>
+            <h2 className="text-xl font-bold">資産形成・税務・保険をまとめて見直す</h2>
+          </div>
+          <span className="text-xs text-muted">無料相談・口座開設の比較先</span>
+        </div>
+        <div className="grid grid-cols-1 gap-3 md:grid-cols-3">
+          {featuredOffers.map((offer) => (
+            <a
+              key={offer.href}
+              href={offer.href}
+              className="block rounded-lg border border-card-border bg-background p-4 transition-all hover:border-primary/40 hover:shadow-sm"
+            >
+              <div className="mb-3 flex items-center justify-between gap-3">
+                <span className="text-2xl">{offer.icon}</span>
+                <span className="rounded-full bg-primary/10 px-2 py-0.5 text-[11px] font-bold text-primary">
+                  {offer.badge}
+                </span>
+              </div>
+              <p className="text-xs font-semibold text-muted">{offer.label}</p>
+              <h3 className="mt-1 text-base font-bold">{offer.title}</h3>
+              <p className="mt-2 text-xs leading-relaxed text-muted">{offer.desc}</p>
+              <span className="mt-3 inline-block text-xs font-bold text-primary">詳細を見る →</span>
+            </a>
+          ))}
+        </div>
+      </section>
 
       {/* 🆕 新着高単価ガイド */}
       <section className="mb-10">
