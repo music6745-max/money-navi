@@ -164,6 +164,54 @@ export default async function GuidePage(
         />
       )}
 
+      {guide.slug === "fx-broker-ranking" && (
+        <AffiliateCTA
+          page={guide.slug}
+          title="取引コストを重視するFX口座｜JFX"
+          description="JFXはドル円スプレッド0.2銭（原則固定・例外あり）など、短期売買で気になる取引コストを確認しやすいFX口座です。取引ツールや注文機能も比較しながら、自分の投資スタイルに合うかを無料口座開設前に確認できます。"
+          buttonText="JFX口座開設を確認する"
+          href="/go/jfx-fx"
+          icon="💱"
+          highlight="スプレッド重視"
+        />
+      )}
+
+      {guide.slug === "real-estate-crowdfunding" && (
+        <AffiliateCTA
+          page={guide.slug}
+          title="少額から不動産クラファンを比較｜利回りくん"
+          description="不動産クラウドファンディングを検討するなら、1万円から参加できる利回りくんも比較候補です。案件ごとの予定利回り、運用期間、リスク情報を確認しながら、CREAL・COZUCHIなど他サービスとあわせて分散先を検討できます。"
+          buttonText="利回りくんの詳細を見る"
+          href="/go/shiira-riririkun"
+          icon="🏢"
+          highlight="1万円から"
+        />
+      )}
+
+      {guide.slug === "new-nisa-basics" && (
+        <AffiliateCTA
+          page={guide.slug}
+          title="NISAの始め方を無料セミナーで学ぶ｜アットセミナー"
+          description="資産運用をゼロから学びたい方に、女性向けマネーセミナーのアットセミナー。NISAの基礎や証券口座の選び方を、FPに相談しながら無料で学べます。独学だけでは不安な方の情報整理に役立ちます。"
+          buttonText="アットセミナーの無料セミナーを探す"
+          href="/go/power-planning-attseminar"
+          icon="🎓"
+          highlight="無料・全国開催"
+        />
+      )}
+
+      {guide.slug === "real-estate-loan-advanced-guide" && (
+        <AffiliateCTA
+          page={guide.slug}
+          title="住宅ローン候補をまとめて比較｜モゲチェック"
+          description="住宅ローンの新規借り入れ・借り換えを検討中なら、モゲチェックで複数銀行の候補をまとめて比較できます。金利タイプや返済額の違いを確認しながら、必要に応じてアドバイザーへの無料相談も利用できます。"
+          buttonText="モゲチェックで無料比較する"
+          href="/go/mogecheck-new-loan"
+          icon="🏠"
+          highlight="無料・30秒比較"
+        />
+      )}
+
       {/* 🎯 このガイドと一緒に使えるツール（ガイド内部から tools/ への内部リンク） */}
       {relatedTools.length > 0 && (
         <section className="mt-10 bg-card-bg border border-card-border rounded-xl p-5">
