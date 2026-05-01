@@ -110,7 +110,7 @@ export const offers: Offer[] = [
     provider: "direct",
     payout_yen: 4000,
     official_url: "https://kabu.com/nisa/",
-    affiliate_url: "https://kabu.com/nisa/",
+    offiliate_url: "https://kabu.com/nisa/",
     status: "direct",
     category: "broker",
   },
@@ -269,8 +269,21 @@ export const offers: Offer[] = [
     payout_yen: 9000,
     official_url: "https://manematch.jp/",
     affiliate_url: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+1U35P6+5U5A+5YZ75",
+    status: "paused",
+    note: "🔴高単価9000円。A8プログラム 25-1209 (insId=s00000027235001)。2026-04-28 mylink取得・active化。EPC 538.31 (極めて高い)、確定率22.51%。hoken-mammoth と並列で「もう1つのFP相談」枠。category=tax/household。終了日 2026-04-30 注意。終了確認 2026-04-30 (A8.net 終了プログラム一覧に掲載、loop #19 確認)。",
+    category: "tax",
+  },
+
+  // ============ ツリーファイナンシャル マネードットコム（生命保険無料相談） — Phase B+ active ============
+  {
+    id: "tree-financial-money-com",
+    service: "マネードットコム（生命保険無料相談）",
+    provider: "a8net",
+    payout_yen: 5000,
+    official_url: "https://moneycom.jp/",
+    affiliate_url: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+4EDCGQ+5MIK+60OXD",
     status: "active",
-    note: "🔴高単価9000円。A8プログラム 25-1209 (insId=s00000027235001)。2026-04-28 mylink取得・active化。EPC 538.31 (極めて高い)、確定率22.51%。hoken-mammoth と並列で「もう1つのFP相談」枠。category=tax/household。終了日 2026-04-30 注意。",
+    note: "A8プログラム 24-1106 (insId=s00000026246001)。2026-05-01 mylink取得・active化 (loop #19)。EPC 73.15、確定率85.18%。ツリーファイナンシャル株式会社 / 生命保険の無料相談 (新規面談完了 5000円)。category=tax/household のFP相談枠 (hoken-mammoth と並列で「もう1つのFP相談」枠)。CTA配置はCodex判断後 (route layout方式)。",
     category: "tax",
   },
 
