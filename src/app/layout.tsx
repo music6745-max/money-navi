@@ -168,6 +168,9 @@ export default function RootLayout({
             </nav>
           </div>
         </header>
+        <div className="bg-card-bg border-b border-card-border text-center py-1 text-xs text-muted">
+          ※ PR・広告・アフィリエイトを含みます
+        </div>
         <main className="flex-1">{children}</main>
         <footer className="bg-card-bg border-t border-card-border mt-12">
           <div className="max-w-5xl mx-auto px-4 py-8 text-sm text-muted">
@@ -202,6 +205,9 @@ export default function RootLayout({
             </div>
             <p className="text-center text-xs">
               当サイトは情報提供を目的としており、特定の金融商品の勧誘を目的としたものではありません。投資判断は自己責任でお願いします。
+            </p>
+            <p className="text-center text-xs mt-1">
+              ※ 当サイトはA8.net等のアフィリエイトプログラムに参加しています。リンク経由で商品・サービスをお申し込みいただいた場合、当サイトに紹介料が支払われることがあります。
             </p>
             <p className="text-center mt-2">&copy; 2026 {siteConfig.name}. All rights reserved.</p>
           </div>
