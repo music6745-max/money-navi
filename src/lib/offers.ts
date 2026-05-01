@@ -3,6 +3,30 @@ import { offers as baseOffers } from "./offersBase";
 import type { Offer } from "./offersBase";
 
 const phaseBOffers: Offer[] = [
+  // 2026-05-01 A8終了確認。baseOffers側の古いactive定義を上書きする。
+  {
+    id: "z-kikaku-manematch",
+    service: "マネマッチ（FP紹介・新規面談完了）",
+    provider: "a8net",
+    payout_yen: 9000,
+    official_url: "https://manematch.jp/",
+    affiliate_url: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+1U35P6+5U5A+5YZ75",
+    status: "paused",
+    note: "A8プログラム 25-1209 (insId=s00000027235001)。2026-05-01 loop #19-2でA8終了プログラム一覧掲載を確認。終了日2026-04-30のため送客停止。",
+    category: "tax",
+  },
+  // 2026-05-01 A8 mylink取得 (insId=s00000026246001)。
+  {
+    id: "tree-financial-money-com",
+    service: "マネードットコム（生命保険無料相談）",
+    provider: "a8net",
+    payout_yen: 5000,
+    official_url: "https://moneycom.jp/",
+    affiliate_url: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+4EDCGQ+5MIK+60OXD",
+    status: "active",
+    note: "A8プログラム 24-1106。EPC 73.15、確定率85.18%。生命保険無料相談の新規面談完了案件。FP/保険/家計系CTA候補。",
+    category: "tax",
+  },
   // 2026-04-28 A8 mylink取得 (insId=s00000009416006)。EPC 50以上の高CVR案件。
   {
     id: "power-planning-toucier",
@@ -17,7 +41,12 @@ const phaseBOffers: Offer[] = [
   },
 ];
 
-export const offers: Offer[] = [...baseOffers, ...phaseBOffers];
+const phaseBOfferIds = new Set(phaseBOffers.map((o) => o.id));
+
+export const offers: Offer[] = [
+  ...baseOffers.filter((o) => !phaseBOfferIds.has(o.id)),
+  ...phaseBOffers,
+];
 
 const offerById = new Map<string, Offer>(offers.map((o) => [o.id, o]));
 

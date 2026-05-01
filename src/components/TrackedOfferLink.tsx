@@ -30,8 +30,8 @@ export function TrackedOfferLink({
   children: ReactNode;
 }) {
   const offer = getOffer(offerId);
-  if (!offer) {
-    // 開発中に id typo をすぐ気付けるよう、リンク自体を出さずテキストだけ返す
+  if (!offer || offer.status !== "active") {
+    // id typo や停止案件に気付けるよう、リンク自体を出さずテキストだけ返す
     return <span className={className}>{children}</span>;
   }
   const onClick = () => {
