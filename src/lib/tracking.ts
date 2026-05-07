@@ -1,6 +1,9 @@
 // Unified affiliate/CTA click tracking for GA4.
 // Works as a no-op if gtag isn't loaded, so it's safe to use in any component.
 
+import { getOffer, offers } from "@/lib/offers";
+import type { Offer } from "@/lib/offers";
+
 declare global {
   interface Window {
     gtag?: (...args: unknown[]) => void;
@@ -84,6 +87,22 @@ export function getInboundUtm(): Record<string, string> {
   }
 }
 
+function offerIdFromGoHref(href: string): string | undefined {
+  try {
+    const path = href.startsWith("http") ? new URL(href).pathname : href;
+    const match = path.match(/^\/go\/([^/?#]+)/);
+    return match ? decodeURIComponent(match[1]) : undefined;
+  } catch {
+    return undefined;
+  }
+}
+
+function resolveOfferFromHref(href: string, offerId?: string): Offer | undefined {
+  const id = offerId ?? offerIdFromGoHref(href);
+  if (id) return getOffer(id);
+  return offers.find((offer) => offer.affiliate_url === href);
+}
+
 /**
  * Common handler for affiliate click events.
  * Attach to <a onClick={onAffiliateClick(...)}>.
@@ -92,15 +111,25 @@ export function onAffiliateClick(params: {
   page?: string;
   position?: string;
   service?: string;
+  offerId?: string;
   href: string;
 }) {
   return () => {
+    const offer = resolveOfferFromHref(params.href, params.offerId);
+    const url = offer?.affiliate_url ?? params.href;
+    const provider = offer
+      ? offer.provider === "direct"
+        ? "direct"
+        : providerFromUrl(offer.affiliate_url)
+      : providerFromUrl(params.href);
     trackEvent("affiliate_click", {
       page: params.page,
       position: params.position,
-      service: params.service,
-      provider: providerFromUrl(params.href),
-      url: params.href.slice(0, 200),
+      service: offer?.service ?? params.service,
+      offer_id: offer?.id,
+      provider,
+      status: offer?.status,
+      url: url.slice(0, 200),
     });
   };
 }
