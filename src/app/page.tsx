@@ -5,6 +5,7 @@ import { guides } from "@/lib/guides";
 import { FAQJsonLd } from "@/components/JsonLd";
 import { ToolSearch } from "@/components/ToolSearch";
 import { AdSenseUnit } from "@/components/AdSenseUnit";
+import { TrackedOfferLink } from "@/components/TrackedOfferLink";
 
 const faqItems = [
   {
@@ -47,7 +48,7 @@ export default function Home() {
     .filter((g): g is NonNullable<typeof g> => Boolean(g));
   const featuredOffers = [
     {
-      href: "/go/rheos-hifumi-nisa",
+      offerId: "rheos-hifumi-nisa",
       icon: "📈",
       label: "新NISAで成長企業に投資",
       title: "ひふみ NISA",
@@ -55,7 +56,7 @@ export default function Home() {
       badge: "資産形成",
     },
     {
-      href: "/go/zeirishi-dotcom",
+      offerId: "zeirishi-dotcom",
       icon: "🧾",
       label: "税務・確定申告の相談",
       title: "税理士ドットコム",
@@ -63,7 +64,7 @@ export default function Home() {
       badge: "税務相談",
     },
     {
-      href: "/go/hoken-mammoth",
+      offerId: "hoken-mammoth",
       icon: "🛡️",
       label: "家計と保険の見直し",
       title: "保険マンモス",
@@ -100,9 +101,11 @@ export default function Home() {
         </div>
         <div className="grid grid-cols-1 gap-3 md:grid-cols-3">
           {featuredOffers.map((offer) => (
-            <a
-              key={offer.href}
-              href={offer.href}
+            <TrackedOfferLink
+              key={offer.offerId}
+              offerId={offer.offerId}
+              page="home"
+              position="featured_offer"
               className="block rounded-lg border border-card-border bg-background p-4 transition-all hover:border-primary/40 hover:shadow-sm"
             >
               <div className="mb-3 flex items-center justify-between gap-3">
@@ -115,7 +118,7 @@ export default function Home() {
               <h3 className="mt-1 text-base font-bold">{offer.title}</h3>
               <p className="mt-2 text-xs leading-relaxed text-muted">{offer.desc}</p>
               <span className="mt-3 inline-block text-xs font-bold text-primary">詳細を見る →</span>
-            </a>
+            </TrackedOfferLink>
           ))}
         </div>
       </section>
