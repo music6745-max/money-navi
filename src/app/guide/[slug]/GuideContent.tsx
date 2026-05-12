@@ -687,10 +687,29 @@ const guideContents: Record<string, React.ReactNode> = {
         <h2 className="text-xl font-bold mb-3">初心者におすすめの始め方</h2>
         <ol className="list-decimal list-inside space-y-2 text-sm">
           <li>SBI証券 or 楽天証券でNISA口座を開設（最短5分）</li>
-          <li>つみたて投資枠で eMAXIS Slim 全世界株式（オール・カントリー）などのインデックスファンドを月3〜5万円積立</li>
+          <li>つみたて投資枠で低コストの全世界株式・米国株式などのインデックスファンドを少額から積立</li>
           <li>成長投資枠は慣れてから活用（個別株やETFで分散）</li>
           <li>15年以上の長期保有を前提に、短期の値動きは気にしない</li>
         </ol>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">始める前に整える3つの前提</h2>
+        <p className="text-sm">
+          NISAは税制面で有利な制度ですが、投資元本が保証される制度ではありません。生活防衛資金、近い将来に使う予定のお金、借入返済の優先順位を確認してから、余裕資金で始めるのが基本です。
+        </p>
+        <ul className="list-disc list-inside space-y-1 text-sm mt-3">
+          <li>生活費の3〜6か月分を普通預金などで確保しているか</li>
+          <li>住宅購入・教育費など5年以内に使うお金を投資に回していないか</li>
+          <li>値下がり時にも積立を続けられる金額に抑えているか</li>
+        </ul>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">NISAで避けたい失敗</h2>
+        <div className="rounded-xl border border-card-border bg-card-bg p-5 text-sm space-y-2">
+          <p><strong>短期売買を前提にする:</strong> 非課税枠を活かすには、長期・分散・積立の設計が向いています。</p>
+          <p><strong>人気銘柄だけで選ぶ:</strong> 手数料、投資対象、純資産残高、運用方針を確認してから選びます。</p>
+          <p><strong>一括投資に偏りすぎる:</strong> 価格変動が不安な場合は、毎月積立で購入時期を分散します。</p>
+        </div>
       </section>
     </>
   ),
@@ -1475,13 +1494,13 @@ const guideContents: Record<string, React.ReactNode> = {
       <section>
         <h2 className="text-xl font-bold mb-3">bitFlyer の実力</h2>
         <p>
-          bitFlyerはビットコイン取引量国内No.1の老舗仮想通貨取引所。2014年創業以来、ハッキング被害ゼロという高いセキュリティ水準を維持しています。機関投資家も利用する信頼性の高い取引所です。
+          bitFlyerは国内大手の仮想通貨取引所の一つです。2014年創業の老舗で、ビットコインを少額から購入できるため、初めて暗号資産を触る人にも候補になります。一方で、暗号資産は価格変動が大きく、余裕資金で扱う前提が欠かせません。
         </p>
       </section>
       <section>
         <h2 className="text-xl font-bold mb-3">bitFlyerの強み</h2>
         <ul className="list-disc list-inside space-y-1 text-sm">
-          <li>ビットコイン取引量 6年連続国内No.1</li>
+          <li>国内大手として知名度が高く、初心者向けの情報も見つけやすい</li>
           <li>ビットコインは1円から買える（最小発注単位が業界最小）</li>
           <li>bitFlyerクレカで決済するだけでビットコインが貯まる</li>
           <li>取扱銘柄 34種類（国内最多クラス）</li>
@@ -1494,9 +1513,21 @@ const guideContents: Record<string, React.ReactNode> = {
           販売所のスプレッドは他社と同程度。取引所形式ならスプレッドはほぼゼロ、別途取引手数料0.01〜0.15%が発生。初心者は販売所、慣れたら取引所を使い分けるのが基本戦略です。
         </p>
       </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">暗号資産口座を使う前の確認リスト</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>生活費や税金の支払いに使う予定のお金を入金しない</li>
+          <li>販売所と取引所の違い、スプレッド、入出金手数料を確認する</li>
+          <li>二段階認証、出金先アドレス管理、フィッシング対策を設定する</li>
+          <li>短期の値上がり期待だけでなく、最大損失を事前に決める</li>
+        </ul>
+        <p className="text-sm text-muted mt-3">
+          暗号資産は株式や投資信託より値動きが急になりやすい資産です。初心者は資産全体の一部に抑え、取引履歴や税務上の扱いも記録しておくと管理しやすくなります。
+        </p>
+      </section>
       <AffiliateCTA
         title="bitFlyerで仮想通貨投資を始める"
-        description="国内取引量No.1、セキュリティ国内最高水準。口座開設・維持費は無料。"
+        description="国内大手の暗号資産取引所。少額から始められ、口座開設・維持費は無料。"
         buttonText="bitFlyerの詳細を見る"
         href="/guide/crypto-exchange-comparison"
         external={false}
@@ -2735,7 +2766,7 @@ const guideContents: Record<string, React.ReactNode> = {
       <section>
         <h2 className="text-xl font-bold mb-3">米国株投資が選ばれる理由</h2>
         <p>
-          米国株は<strong>年平均リターン9〜10%</strong>と世界最高水準の成長力を誇り、日本人投資家にも人気。GAFAM（Google、Apple、Facebook=Meta、Amazon、Microsoft）をはじめとする世界的企業に直接投資できる点が魅力です。円安進行時には為替差益も狙えます。
+          米国株は世界的な企業や幅広い指数へ投資できる点が魅力です。GAFAM（Google、Apple、Meta、Amazon、Microsoft）をはじめとする大型企業に直接投資できる一方、株価変動と為替変動の両方を受けるため、資産全体の中で配分を決めることが重要です。
         </p>
       </section>
       <section>
@@ -2752,13 +2783,30 @@ const guideContents: Record<string, React.ReactNode> = {
           米国株の配当は米国で10%源泉徴収後、日本でも20.315%課税。外国税額控除で取り戻せます。NISA口座なら日本側20.315%分は非課税（米国10%は発生）。為替はドル建てなので、円高局面では日本円換算の評価額が下がります。
         </p>
       </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">初心者向けの組み立て方</h2>
+        <div className="grid gap-3 text-sm md:grid-cols-3">
+          <div className="rounded-xl border border-card-border bg-card-bg p-4">
+            <p className="font-bold mb-1">まずは指数</p>
+            <p className="text-muted">S&P500や全米株式など、分散された投資信託・ETFを中心にすると個別企業リスクを抑えやすくなります。</p>
+          </div>
+          <div className="rounded-xl border border-card-border bg-card-bg p-4">
+            <p className="font-bold mb-1">個別株は少額</p>
+            <p className="text-muted">決算、為替、金利、規制ニュースで大きく動きます。慣れるまではサテライト枠に留めます。</p>
+          </div>
+          <div className="rounded-xl border border-card-border bg-card-bg p-4">
+            <p className="font-bold mb-1">円建てで確認</p>
+            <p className="text-muted">ドル建てでは上がっていても、円高で評価額が下がることがあります。円換算の損益も見ます。</p>
+          </div>
+        </div>
+      </section>
       <AffiliateCTA
-        title="【DMM 株】で米国株投資を始める"
-        description="米国株の手数料は約定代金の0.45%（業界最安級）。NISA対応で非課税運用可能。"
-        buttonText="DMM 株で米国株を始める"
+        title="【DMM 株】で米国株投資を検討する"
+        description="米国株・NISA対応の詳細を公式情報で確認できます。手数料、取扱銘柄、為替コストは申込前に確認しましょう。"
+        buttonText="DMM 株の詳細を確認する"
         href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+1YUMJE+1WP2+15QHIA"
         icon="🇺🇸"
-        highlight="手数料最安級"
+        highlight="米国株・NISA対応"
       />
     </>
   ),
@@ -2996,13 +3044,25 @@ const guideContents: Record<string, React.ReactNode> = {
           <li><strong>月額料金</strong>: 1,800円〜3,000円程度が相場</li>
         </ul>
       </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">導入前に確認したいリスク</h2>
+        <p className="text-sm">
+          VPSはEAを安定稼働させるための環境であり、取引利益を保証するものではありません。EAのロジック、証拠金維持率、最大ドローダウン、停止条件を先に決めてから契約する必要があります。
+        </p>
+        <ul className="list-disc list-inside space-y-1 text-sm mt-3">
+          <li>月額費用を上回る期待値を、過去検証だけでなくフォワード実績でも確認する</li>
+          <li>ロットを上げすぎず、想定外の連敗時に停止できるルールを作る</li>
+          <li>Windows Update、再起動、MT4/MT5の自動起動設定を事前にテストする</li>
+          <li>RDPパスワードや二段階認証など、サーバーのセキュリティを設定する</li>
+        </ul>
+      </section>
       <AffiliateCTA
-        title="【お名前.com FX専用VPS】業界最安級・24時間サポート"
-        description="FX自動売買向けに最適化。初期費用無料、月額1,848円〜。国内データセンター運用。"
-        buttonText="お名前.com FX VPSの詳細"
+        title="【お名前.com FX専用VPS】仕様と料金を確認"
+        description="FX自動売買向けのVPS環境。料金、メモリ、稼働環境、サポート条件を公式ページで確認できます。"
+        buttonText="お名前.com FX VPSを確認"
         href="https://px.a8.net/svt/ejp?a8mat=4B1O1O+G829ZU+50+3NONKX"
         icon="🖥️"
-        highlight="業界最安級"
+        highlight="VPS環境確認"
       />
       <AffiliateCTA
         title="【MT4自動売買】お名前.com監修のEA運用"
@@ -3032,13 +3092,22 @@ const guideContents: Record<string, React.ReactNode> = {
           </ul>
         </div>
       </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">申込前に見るべきポイント</h2>
+        <div className="rounded-xl border border-card-border bg-card-bg p-5 text-sm space-y-2">
+          <p><strong>目的との一致:</strong> NISAの基礎、個別株分析、FX、不動産など、学びたい領域が講座内容と合っているか確認します。</p>
+          <p><strong>費用の回収を急がない:</strong> 受講料を投資で短期間に取り戻す前提は危険です。教育費として無理のない金額かを見ます。</p>
+          <p><strong>勧誘と返金条件:</strong> 無料セミナー後の有料講座案内、契約期間、解約・返金条件を申込前に確認します。</p>
+          <p><strong>利益保証ではない:</strong> 投資判断は本人の責任で行う必要があり、講座受講だけで収益が保証されるわけではありません。</p>
+        </div>
+      </section>
       <AffiliateCTA
         title="【ファイナンシャルアカデミー】無料体験セミナー"
-        description="株式投資・FX・NISAスクール。2002年創業、受講生22万人の老舗。まずは無料体験から。"
-        buttonText="無料体験セミナー申込"
+        description="株式投資・FX・NISAなどを学べる投資スクール。講座内容、費用、勧誘方針を確認してから検討しましょう。"
+        buttonText="無料体験セミナーを確認"
         href="https://px.a8.net/svt/ejp?a8mat=4B1O1O+G8NPLM+1IRY+25I7J5"
         icon="🎓"
-        highlight="老舗・無料体験OK"
+        highlight="内容確認"
       />
     </>
   ),

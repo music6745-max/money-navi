@@ -83,11 +83,11 @@ export const guides: Guide[] = [
   },
   {
     slug: "new-nisa-basics",
-    title: "新NISA完全ガイド｜始め方・おすすめ銘柄・注意点",
-    description: "2024年から始まった新NISAの制度を初心者向けに徹底解説。つみたて投資枠・成長投資枠の使い分けとおすすめ銘柄を紹介。",
+    title: "新NISA完全ガイド｜始め方・商品選び・注意点",
+    description: "2024年から始まった新NISAの制度を初心者向けに解説。つみたて投資枠・成長投資枠の使い分けと商品選びの注意点を紹介。",
     icon: "📖",
     category: "nisa",
-    readTime: "15分",
+    readTime: "17分",
     publishedAt: "2026-04-18",
   },
   {
@@ -218,11 +218,11 @@ export const guides: Guide[] = [
   },
   {
     slug: "bitflyer-review",
-    title: "bitFlyer徹底レビュー｜国内最大手仮想通貨取引所の全貌",
-    description: "ビットコイン取引量国内No.1のbitFlyerを徹底解説。手数料・セキュリティ・使いやすさを検証。",
+    title: "bitFlyer徹底レビュー｜国内大手仮想通貨取引所の特徴",
+    description: "国内大手のbitFlyerを解説。手数料・セキュリティ・使いやすさ・暗号資産取引の注意点を検証。",
     icon: "₿",
     category: "fx-crypto",
-    readTime: "11分",
+    readTime: "13分",
     publishedAt: "2026-04-18",
   },
   {
@@ -474,7 +474,7 @@ export const guides: Guide[] = [
     description: "米国株投資の始め方、S&P500インデックス・高配当ETF（VYM/SPYD）・個別株（GAFAM）の使い分けを初心者向けに解説。",
     icon: "🇺🇸",
     category: "nisa",
-    readTime: "12分",
+    readTime: "14分",
     publishedAt: "2026-04-18",
   },
   {
@@ -519,7 +519,7 @@ export const guides: Guide[] = [
     description: "24時間MT4/MT5を稼働させるためのFX専用VPS比較。お名前.com・ABLEネット・お名前デスクトップクラウドの違いを徹底解説。",
     icon: "🖥️",
     category: "fx-crypto",
-    readTime: "10分",
+    readTime: "12分",
     publishedAt: "2026-04-18",
   },
   {
@@ -528,7 +528,7 @@ export const guides: Guide[] = [
     description: "投資を本格的に学ぶ投資スクールを比較。受講料・カリキュラム・実績・無料体験の有無を初心者向けに解説。",
     icon: "🎓",
     category: "nisa",
-    readTime: "11分",
+    readTime: "13分",
     publishedAt: "2026-04-18",
   },
   {
