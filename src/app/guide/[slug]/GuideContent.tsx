@@ -2780,6 +2780,41 @@ const guideContents: Record<string, React.ReactNode> = {
           </ul>
         </div>
       </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">金投資が向く人・向かない人</h2>
+        <p className="text-sm">
+          金は利息や配当を生まないため、資産を大きく増やす主役というより、株式や外貨資産が大きく下がったときの値動きを和らげる補助資産として考えるのが現実的です。生活防衛資金やNISAの長期積立を優先したうえで、余剰資金の一部に組み入れる順番が無理の少ない使い方です。
+        </p>
+        <ul className="list-disc list-inside space-y-1 text-sm mt-3">
+          <li><strong>向く人</strong>: 株式中心の資産配分に不安があり、値動きの分散先を持ちたい人</li>
+          <li><strong>慎重にしたい人</strong>: 毎月の家計に余裕が少なく、短期で利益を出したい人</li>
+          <li><strong>確認したい点</strong>: 購入手数料、売却時スプレッド、保管コスト、税金の扱い</li>
+        </ul>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">始める前の注意点</h2>
+        <div className="rounded-xl border border-card-border bg-card-bg p-5">
+          <ul className="text-sm space-y-2">
+            <li>金価格は為替と国際価格の影響を受けるため、円建てでは米ドル円の変動も損益に影響します。</li>
+            <li>純金積立は少額で始めやすい一方、買付手数料や年会費が長期リターンを押し下げる場合があります。</li>
+            <li>金ETFは売買しやすい反面、信託報酬と市場価格の変動を確認する必要があります。</li>
+            <li>実物の金地金は保管・盗難・売却時の本人確認など、運用以外の管理負担もあります。</li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">よくある質問</h2>
+        <div className="space-y-3 text-sm">
+          <div>
+            <p className="font-bold">Q. 金だけに集中投資してもよいですか？</p>
+            <p className="text-muted">A. 金は分散先として有効な場面がありますが、配当や利息を生まないため集中投資は避け、株式・現金・債券などと組み合わせる考え方が基本です。</p>
+          </div>
+          <div>
+            <p className="font-bold">Q. NISAで金に投資できますか？</p>
+            <p className="text-muted">A. 対象商品に採用されている金関連ETFや投資信託であれば可能な場合があります。利用する証券会社のNISA対象商品リストで確認してください。</p>
+          </div>
+        </div>
+      </section>
       <AffiliateCTA
         title="【DMM CFD】で金・原油などのコモディティ取引"
         description="CFDなら少額から金・原油・株価指数に投資可能。DMM.com証券の信頼性。"
@@ -2802,9 +2837,45 @@ const guideContents: Record<string, React.ReactNode> = {
         <ul className="list-disc list-inside space-y-1 text-sm">
           <li><strong>個人向け国債</strong>: 変動10年・固定5年・固定3年。1万円から、最低金利0.05%保証</li>
           <li><strong>社債</strong>: 大企業の債券、金利1〜3%程度。個別リスクあり</li>
-          <li><strong>米国債</strong>: 米国政府発行、金利4〜5%（2026年時点）。為替リスクあり</li>
+          <li><strong>米国債</strong>: 米国政府発行。利回りは購入時期で変動し、為替リスクあり</li>
           <li><strong>債券投資信託</strong>: 分散された債券に手軽に投資、NISA対応あり</li>
         </ul>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">債券を組み入れる判断軸</h2>
+        <p className="text-sm">
+          債券は「低リスク」とひとまとめにされがちですが、満期までの期間、発行体の信用力、通貨、途中売却のしやすさでリスクが変わります。元本を守りたい資金と、値動きを受け入れられる資金を分けて考えることが重要です。
+        </p>
+        <div className="rounded-xl border border-card-border bg-card-bg p-5 mt-3">
+          <ul className="text-sm space-y-2">
+            <li><strong>満期までの期間</strong>: 長期債ほど金利変動の影響を受けやすい</li>
+            <li><strong>信用リスク</strong>: 国債、社債、ハイイールド債では元本毀損リスクが異なる</li>
+            <li><strong>為替リスク</strong>: 外債は利回りが高く見えても円高で損失になる場合がある</li>
+            <li><strong>流動性</strong>: 満期前に売却すると市場価格次第で損失が出ることがある</li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">注意すべきリスク</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>金利が上がると、既に発行されている債券価格は下がりやすくなります。</li>
+          <li>社債は発行企業の財務悪化や倒産により、利息や元本が予定通り支払われない可能性があります。</li>
+          <li>外貨建て債券は為替差損が利息収入を上回ることがあります。</li>
+          <li>債券投資信託は満期保有の概念が弱く、基準価額が日々変動します。</li>
+        </ul>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">よくある質問</h2>
+        <div className="space-y-3 text-sm">
+          <div>
+            <p className="font-bold">Q. 個人向け国債と社債はどちらが初心者向きですか？</p>
+            <p className="text-muted">A. 元本の安定性を重視するなら個人向け国債が比較しやすい選択肢です。社債は利回りが高い分、発行企業の信用リスクを確認する必要があります。</p>
+          </div>
+          <div>
+            <p className="font-bold">Q. 債券はNISAで買うべきですか？</p>
+            <p className="text-muted">A. NISAで買えるのは主に債券型投資信託やETFです。個別債券は対象外の場合があるため、商品ごとのNISA対応状況を確認してください。</p>
+          </div>
+        </div>
       </section>
       <AffiliateCTA
         title="【DMM 株】で個人向け国債・債券ファンドを購入"
@@ -2832,6 +2903,42 @@ const guideContents: Record<string, React.ReactNode> = {
           <li>NISA成長投資枠で非課税運用可</li>
           <li>金利上昇・不動産市況悪化が主なリスク</li>
         </ul>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">J-REITを選ぶときの確認項目</h2>
+        <p className="text-sm">
+          J-REITは分配金利回りだけで選ぶと、物件の質や財務の弱さを見落とすことがあります。用途、地域、借入比率、スポンサー、分配金の安定性を合わせて確認しましょう。
+        </p>
+        <div className="rounded-xl border border-card-border bg-card-bg p-5 mt-3">
+          <ul className="text-sm space-y-2">
+            <li><strong>用途</strong>: オフィス、住宅、物流、ホテル、商業施設で景気感応度が異なる</li>
+            <li><strong>地域分散</strong>: 都心集中型か全国分散型かで災害・空室リスクが変わる</li>
+            <li><strong>LTV</strong>: 借入比率が高すぎる銘柄は金利上昇時の負担が大きい</li>
+            <li><strong>スポンサー</strong>: 運営会社やスポンサー企業の信用力も安定性に影響する</li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">投資前の注意点</h2>
+        <ul className="list-disc list-inside space-y-1 text-sm">
+          <li>分配金は保証ではなく、賃料収入や物件売却益の変動で下がる可能性があります。</li>
+          <li>金利上昇局面では借入コスト増加と相対的な利回り低下により価格が下がる場合があります。</li>
+          <li>ホテル型や商業施設型などは景気や人流の影響を受けやすく、用途ごとの差が大きいです。</li>
+          <li>不動産クラウドファンディングとは流動性、価格変動、情報開示、投資単位が異なります。</li>
+        </ul>
+      </section>
+      <section>
+        <h2 className="text-xl font-bold mb-3">よくある質問</h2>
+        <div className="space-y-3 text-sm">
+          <div>
+            <p className="font-bold">Q. J-REITは株式より安全ですか？</p>
+            <p className="text-muted">A. 実物不動産を裏付けにしていますが、上場商品なので価格は日々変動します。株式と同じく元本保証ではありません。</p>
+          </div>
+          <div>
+            <p className="font-bold">Q. 高利回りの銘柄を選べばよいですか？</p>
+            <p className="text-muted">A. 高利回りは価格下落や将来の分配金減少を織り込んでいる場合があります。用途、財務、空室率、分配金推移を合わせて確認してください。</p>
+          </div>
+        </div>
       </section>
       <AffiliateCTA
         title="不動産クラウドファンディングも検討"

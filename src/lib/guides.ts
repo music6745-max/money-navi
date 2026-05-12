@@ -483,7 +483,7 @@ export const guides: Guide[] = [
     description: "インフレ対策として注目される金投資。純金積立、金ETF、金地金購入のメリット・デメリットと最適な配分を解説。",
     icon: "🪙",
     category: "nisa",
-    readTime: "10分",
+    readTime: "13分",
     publishedAt: "2026-04-18",
   },
   {
@@ -492,7 +492,7 @@ export const guides: Guide[] = [
     description: "低リスク・安定収益の債券投資の基礎。個人向け国債、社債、米国債の選び方と株式との最適な組合せ。",
     icon: "📜",
     category: "nisa",
-    readTime: "11分",
+    readTime: "14分",
     publishedAt: "2026-04-18",
   },
   {
@@ -501,7 +501,7 @@ export const guides: Guide[] = [
     description: "J-REITの仕組み、主要銘柄の比較、NISA活用での非課税運用、不動産クラウドファンディングとの違いを解説。",
     icon: "🏢",
     category: "nisa",
-    readTime: "12分",
+    readTime: "15分",
     publishedAt: "2026-04-18",
   },
   {
