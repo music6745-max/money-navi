@@ -97,10 +97,48 @@ function offerIdFromGoHref(href: string): string | undefined {
   }
 }
 
+function normalizedUrlKey(href: string): string | undefined {
+  try {
+    const url = new URL(href, "https://toshi-navi.jp");
+    url.hash = "";
+    url.search = "";
+    const pathname = url.pathname.replace(/\/$/, "") || "/";
+    return `${url.origin.toLowerCase()}${pathname.toLowerCase()}`;
+  } catch {
+    return undefined;
+  }
+}
+
+function findOfferByHref(href: string): Offer | undefined {
+  const hrefKey = normalizedUrlKey(href);
+  return offers.find((offer) => {
+    if (offer.affiliate_url === href || offer.official_url === href) return true;
+    if (!hrefKey) return false;
+    return [offer.affiliate_url, offer.official_url].some((url) => normalizedUrlKey(url) === hrefKey);
+  });
+}
+
 function resolveOfferFromHref(href: string, offerId?: string): Offer | undefined {
   const id = offerId ?? offerIdFromGoHref(href);
   if (id) return getOffer(id);
-  return offers.find((offer) => offer.affiliate_url === href);
+  return findOfferByHref(href);
+}
+
+function fallbackOfferIdFromUrl(href: string): string | undefined {
+  try {
+    const url = new URL(href, "https://toshi-navi.jp");
+    const provider = providerFromUrl(url.href);
+    if (provider === "a8net") {
+      const a8mat = url.searchParams.get("a8mat");
+      return a8mat ? `a8mat_${a8mat.replace(/[^a-z0-9]+/gi, "_").toLowerCase()}` : "unmapped_a8net";
+    }
+    if (provider === "moshimo") return "unmapped_moshimo";
+    if (provider === "valuecommerce") return "unmapped_valuecommerce";
+    if (provider === "rakuten") return "unmapped_rakuten";
+    return undefined;
+  } catch {
+    return undefined;
+  }
 }
 
 /**
@@ -126,7 +164,7 @@ export function onAffiliateClick(params: {
       page: params.page,
       position: params.position,
       service: offer?.service ?? params.service,
-      offer_id: offer?.id,
+      offer_id: offer?.id ?? fallbackOfferIdFromUrl(params.href),
       provider,
       status: offer?.status,
       url: url.slice(0, 200),
