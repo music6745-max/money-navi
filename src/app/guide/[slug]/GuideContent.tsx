@@ -20,6 +20,28 @@ type PageAwareProps = {
   children?: ReactNode;
 };
 
+function DecisionBox({
+  title,
+  points,
+  note,
+}: {
+  title: string;
+  points: string[];
+  note?: string;
+}) {
+  return (
+    <section className="rounded-xl border border-primary/30 bg-primary/5 p-5">
+      <h2 className="text-lg font-bold mb-3">{title}</h2>
+      <ul className="list-disc list-inside space-y-2 text-sm text-muted">
+        {points.map((point) => (
+          <li key={point}>{point}</li>
+        ))}
+      </ul>
+      {note && <p className="text-xs text-muted mt-3">{note}</p>}
+    </section>
+  );
+}
+
 function withDefaultPage(node: ReactNode, page: string): ReactNode {
   return Children.map(node, (child) => {
     if (!isValidElement<PageAwareProps>(child)) return child;
@@ -6637,11 +6659,11 @@ const guideContents: Record<string, ReactNode> = {
       <section>
         <h2 className="text-xl font-bold mb-3">ネット型 vs 代理店型：保険料に年3万円差</h2>
         <p>
-          自動車保険は、ネット型（ダイレクト型）と代理店型で年間保険料に2〜5万円の差が出るのが通常。代理店型の人件費・店舗維持費が保険料に上乗せされているため、ネットで完結する型のほうが断然お得です。例えば30代・6S等級・軽自動車なら、代理店型 年8万円 vs ネット型 年5万円と、年3万円の差に。
+          自動車保険は、ネット型（ダイレクト型）と代理店型で年間保険料に差が出ることがあります。代理店型は対面相談の安心感があり、ネット型は申込みや更新を自分で進める代わりに保険料を抑えやすいのが特徴です。例えば30代・6S等級・軽自動車なら、条件によって年数万円の差が出るケースもあります。
         </p>
         <ul className="list-disc list-inside space-y-1 text-sm">
           <li>ネット型の保険料：代理店型の60〜75%</li>
-          <li>事故対応品質は両者大差なし（損保ジャパン・東京海上の再保険会社と連携）</li>
+          <li>事故対応は会社ごとに差があるため、受付時間・初期対応・ロードサービス範囲を確認</li>
           <li>ネット型の弱点：対面相談がないため、複雑な事故対応で不便さを感じる場合あり</li>
           <li>代理店型の強み：複雑な車両改造・業務用利用などの特殊ケース</li>
           <li>乗換タイミングは満期日の1〜2ヶ月前から検討</li>
@@ -6714,6 +6736,15 @@ const guideContents: Record<string, ReactNode> = {
             href: "https://www.ins-saison.co.jp/otona/",
           },
         ]}
+      />
+      <DecisionBox
+        title="結論：満期前に3社以上を同条件で比べる"
+        points={[
+          "保険料だけでなく、対人・対物無制限、人身傷害、弁護士費用特約の有無を同じ条件で比較する。",
+          "車両保険は車の時価と貯蓄額で判断し、古い車では外す候補にする。",
+          "一括見積もりは乗換先を決める前の候補出しに向き、個別見積もりは最終確認に向く。",
+        ]}
+        note="代理店型からネット型へ変える場合も、事故時の連絡方法・ロードサービス範囲・家族の運転条件は必ず確認します。"
       />
       <section>
         <h2 className="text-xl font-bold mb-3">一括見積もりサービスで最安値を見つける</h2>
@@ -8602,6 +8633,15 @@ const guideContents: Record<string, ReactNode> = {
             href: "https://www.ja-group.jp/",
           },
         ]}
+      />
+      <DecisionBox
+        title="結論：車の支払いはローン金利と保険料をセットで見る"
+        points={[
+          "銀行ローンの仮審査を先に取り、ディーラー提示金利との差額を総返済額で比較する。",
+          "購入後は自動車保険・税金・燃料費も固定費になるため、ローンだけで月額を判断しない。",
+          "ローン候補が決まったら、納車前に自動車保険の一括見積もりも取り、初年度の総コストを確定させる。",
+        ]}
+        note="車両価格が同じでも、金利と保険料の組み合わせで年間負担は大きく変わります。"
       />
       <section>
         <h2 className="text-xl font-bold mb-3">ディーラーローン vs 銀行ローンの総返済額比較</h2>
@@ -11796,6 +11836,15 @@ const guideContents: Record<string, ReactNode> = {
             href: "https://www.aig.co.jp/",
           },
         ]}
+      />
+      <DecisionBox
+        title="結論：バイク保険は対物無制限とロードサービスを先に見る"
+        points={[
+          "任意保険は対人・対物無制限を基本にし、弁護士費用特約と人身傷害の有無を確認する。",
+          "通勤や長距離ツーリングに使う人は、レッカー無料距離と夜間対応を重視する。",
+          "車も所有している場合は、自動車保険も満期前に見直すと固定費削減の余地が広がる。",
+        ]}
+        note="バイク保険と自動車保険は別契約でも、家計上は同じ交通費・保険料としてまとめて管理します。"
       />
       <section>
         <h2 className="text-xl font-bold mb-3">バイク保険選びの5つのポイント</h2>
@@ -20858,6 +20907,15 @@ const guideContents: Record<string, ReactNode> = {
           },
         ]}
       />
+      <DecisionBox
+        title="結論：保険会社名で選ぶ前に条件をそろえる"
+        points={[
+          "現在の等級、年齢条件、運転者範囲、年間走行距離をそろえると、保険料差の理由が見えやすい。",
+          "最初に一括見積もりで候補を広げ、上位2〜3社だけ補償内容を細かく確認する。",
+          "満期直前では選択肢が狭くなるため、更新日の1〜2か月前に見積もりを取る。",
+        ]}
+        note="事故対応やロードサービスの違いは、保険料の安さだけでは比較できないため、補償条件と一緒に確認します。"
+      />
       <section>
         <h2 className="text-xl font-bold mb-3">保険料節約の5つのポイント</h2>
         <ul className="list-disc list-inside space-y-2 text-sm">
@@ -21268,7 +21326,7 @@ const guideContents: Record<string, ReactNode> = {
       <section>
         <h2 className="text-xl font-bold mb-3">スイングトレード完全ガイド</h2>
         <p>
-          スイングトレードは、数日〜数週間保有する中期トレード戦略。デイトレより時間的余裕があり、会社員・個人投資家にも実践可能。移動平均線・MACD・RSI等のテクニカル指標、銘柄選定（出来高・時価総額・ボラティリティ）、ストップロス設定、月利3〜5%のリターン目標。年率40%超の実績も可能な、コスパ良い投資スタイルです。
+          スイングトレードは、数日〜数週間保有する中期トレード戦略です。デイトレより時間的余裕がありますが、短期売買である以上、損失管理が欠かせません。移動平均線・MACD・RSI等のテクニカル指標、出来高、時価総額、ボラティリティを確認し、損切り幅と利確条件を先に決めてから取引することが重要です。
         </p>
       </section>
       <section>
@@ -21324,7 +21382,7 @@ const guideContents: Record<string, ReactNode> = {
       </section>
       <AffiliateCTA
         title="スイングトレードはSBI証券で｜国内＋米国株"
-        description="SBI証券で国内株＋米国株のスイングトレード、両市場の手数料無料＋テクニカル分析ツール充実。業界No.1の情報量で、初心者〜上級者まで月利3〜5%を目指せる環境。"
+        description="SBI証券なら国内株と米国株の取引環境、テクニカル分析ツール、マーケット情報をまとめて確認できます。短期売買では損失管理が重要なため、取引前に手数料・注文方法・リスクを確認しましょう。"
         buttonText="SBI証券の詳細"
         href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
         icon="🌊"
@@ -26766,6 +26824,15 @@ const guideContents: Record<string, ReactNode> = {
             href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
           },
         ]}
+      />
+      <DecisionBox
+        title="結論：補助金で購入費を下げた後は維持費を確認する"
+        points={[
+          "EV・PHEVは車両価格や修理費が保険料に反映されるため、補助金額だけで判断しない。",
+          "自治体補助金は予算枠や受付期限があるため、購入前に公式情報で申請条件を確認する。",
+          "納車時期が見えたら自動車保険の見積もりも取り、ローン・電気代・保険料の月額を合算する。",
+        ]}
+        note="購入補助と維持費の両方を見れば、ガソリン車との実質差額を判断しやすくなります。"
       />
       <section>
         <h2 className="text-xl font-bold mb-3">EV購入の総合的メリット</h2>
