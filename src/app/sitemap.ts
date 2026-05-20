@@ -25,6 +25,15 @@ const TIER_A_SLUGS = new Set<string>([
   "real-estate-crowdfunding-comparison-2026",
   "dual-income-household-guide",
   "freelance-retirement-guide",
+  "japanese-stock-ranking-2026",
+  "japan-stock-dividend-kings",
+  "foreign-tax-credit-guide",
+  "semiconductor-etf-detailed-guide",
+  "swing-trading-strategy-guide",
+  "auto-loan-comparison-2026",
+  "pet-insurance-detailed-comparison",
+  "internet-banking-rate-compare",
+  "bitcoin-etf-japan-guide",
 ]);
 
 /**
