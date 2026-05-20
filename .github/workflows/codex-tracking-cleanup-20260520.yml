@@ -1,0 +1,82 @@
+name: Codex tracking cleanup 20260520
+
+"on":
+  push:
+    branches:
+      - master
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: master
+      - name: Apply patch
+        shell: bash
+        run: |
+          cat > /tmp/codex.patch <<'PATCH'
+          diff --git a/src/app/guide/[slug]/GuideContent.tsx b/src/app/guide/[slug]/GuideContent.tsx
+          index 7bf3113..dc80e72 100644
+          --- a/src/app/guide/[slug]/GuideContent.tsx
+          +++ b/src/app/guide/[slug]/GuideContent.tsx
+          @@ -1,3 +1,5 @@
+          +import { Children, cloneElement, isValidElement } from "react";
+          +import type { ReactElement, ReactNode } from "react";
+           import { ComparisonTableCTA } from "@/components/ComparisonTableCTA";
+           import { AffiliateCTA } from "@/components/AffiliateCTA";
+           
+          @@ -10,10 +12,37 @@ export function GuideContent({ slug }: { slug: string }) {
+                 </div>
+               );
+             }
+          -  return <div className="space-y-6 leading-relaxed">{content}</div>;
+          +  return <div className="space-y-6 leading-relaxed">{withDefaultPage(content, slug)}</div>;
+           }
+           
+          -const guideContents: Record<string, React.ReactNode> = {
+          +type PageAwareProps = {
+          +  page?: string;
+          +  children?: ReactNode;
+          +};
+          +
+          +function withDefaultPage(node: ReactNode, page: string): ReactNode {
+          +  return Children.map(node, (child) => {
+          +    if (!isValidElement<PageAwareProps>(child)) return child;
+          +
+          +    const originalChildren = child.props.children;
+          +    const nextChildren = originalChildren ? withDefaultPage(originalChildren, page) : originalChildren;
+          +    const shouldSetPage = child.type === AffiliateCTA || child.type === ComparisonTableCTA;
+          +    const nextProps: Partial<PageAwareProps> = {};
+          +
+          +    if (shouldSetPage && !child.props.page) {
+          +      nextProps.page = page;
+          +    }
+          +    if (nextChildren !== originalChildren) {
+          +      nextProps.children = nextChildren;
+          +    }
+          +
+          +    return Object.keys(nextProps).length > 0
+          +      ? cloneElement(child as ReactElement<PageAwareProps>, nextProps)
+          +      : child;
+          +  });
+          +}
+          +
+          +const guideContents: Record<string, ReactNode> = {
+             "nisa-broker-ranking-2026": (
+               <>
+                 <section>
+          PATCH
+          git apply /tmp/codex.patch
+          rm -f .github/workflows/codex-tracking-cleanup-20260520.yml
+          npm ci
+          npx tsc --noEmit --pretty false
+          npm run build
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/app/guide/[slug]/GuideContent.tsx .github/workflows/codex-tracking-cleanup-20260520.yml
+          git commit -m "fix: default guide cta page tracking"
+          git push origin master
