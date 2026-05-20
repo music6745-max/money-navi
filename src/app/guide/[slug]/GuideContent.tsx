@@ -1,3 +1,5 @@
+import { Children, cloneElement, isValidElement } from "react";
+import type { ReactElement, ReactNode } from "react";
 import { ComparisonTableCTA } from "@/components/ComparisonTableCTA";
 import { AffiliateCTA } from "@/components/AffiliateCTA";
 
@@ -10,10 +12,37 @@ export function GuideContent({ slug }: { slug: string }) {
       </div>
     );
   }
-  return <div className="space-y-6 leading-relaxed">{content}</div>;
+  return <div className="space-y-6 leading-relaxed">{withDefaultPage(content, slug)}</div>;
 }
 
-const guideContents: Record<string, React.ReactNode> = {
+type PageAwareProps = {
+  page?: string;
+  children?: ReactNode;
+};
+
+function withDefaultPage(node: ReactNode, page: string): ReactNode {
+  return Children.map(node, (child) => {
+    if (!isValidElement<PageAwareProps>(child)) return child;
+
+    const originalChildren = child.props.children;
+    const nextChildren = originalChildren ? withDefaultPage(originalChildren, page) : originalChildren;
+    const shouldSetPage = child.type === AffiliateCTA || child.type === ComparisonTableCTA;
+    const nextProps: Partial<PageAwareProps> = {};
+
+    if (shouldSetPage && !child.props.page) {
+      nextProps.page = page;
+    }
+    if (nextChildren !== originalChildren) {
+      nextProps.children = nextChildren;
+    }
+
+    return Object.keys(nextProps).length > 0
+      ? cloneElement(child as ReactElement<PageAwareProps>, nextProps)
+      : child;
+  });
+}
+
+const guideContents: Record<string, ReactNode> = {
   "nisa-broker-ranking-2026": (
     <>
       <section>
