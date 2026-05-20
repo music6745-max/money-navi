@@ -1,0 +1,222 @@
+name: Codex revenue push 20260520
+
+on:
+  push:
+    branches:
+      - master
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: master
+      - name: Apply Insweb CTA patch
+        run: |
+          node <<'NODE'
+          const fs = require('fs');
+          const path = 'src/app/guide/[slug]/GuideContent.tsx';
+          let s = fs.readFileSync(path, 'utf8');
+
+          function replaceOnce(from, to) {
+            if (!s.includes(from)) {
+              throw new Error(`Expected block not found:\n${from.slice(0, 300)}`);
+            }
+            s = s.replace(from, to);
+          }
+
+          replaceOnce(
+`      <ComparisonTableCTA
+        title="2026年 おすすめ自動車保険ランキング（ネット型）"
+        services={[`,
+`      <ComparisonTableCTA
+        title="2026年 おすすめ自動車保険ランキング（ネット型）"
+        page="auto-insurance-comparison-2026"
+        services={[`
+          );
+
+          replaceOnce(
+`      <ComparisonTableCTA
+        title="2026年 バイク任意保険おすすめ比較"
+        services={[`,
+`      <ComparisonTableCTA
+        title="2026年 バイク任意保険おすすめ比較"
+        page="bike-insurance-comparison"
+        services={[`
+          );
+
+          replaceOnce(
+`      <AffiliateCTA
+        title="自動車保険と合わせて見直し｜保険見直しラボ"
+        description="バイクと自動車の両方持ちなら、合わせて見直すことで年5〜10万円の削減も可能。FP無料相談で家計全体の保険を最適化。"
+        buttonText="保険見直しラボに無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=3Z6F6O+1YZZGQ+38BE+5YRHE"
+        icon="🛡️"
+        highlight="相談料完全無料"
+      />`,
+`      <AffiliateCTA
+        title="車も持っているなら自動車保険を一括比較"
+        description="バイク保険とは別に、自動車保険は満期前の見直しで保険料差が出やすい固定費です。車も所有している場合は、インズウェブで複数社の見積もりをまとめて確認できます。"
+        buttonText="自動車保険を無料で一括見積もり"
+        href="/go/sbi-insweb-auto"
+        icon="🛡️"
+        highlight="車所有者向け"
+        page="bike-insurance-comparison"
+      />`
+          );
+
+          replaceOnce(
+`      <ComparisonTableCTA
+        title="自動車保険主要3社"
+        services={[
+          {
+            name: "ソニー損保（ダイレクト系No.1）",
+            rank: 1,
+            highlight: "16年連続売上No.1｜走行距離制",
+            features: [
+              "保険料3〜5万円/年",
+              "走行距離による保険料調整",
+              "ロードサービス充実",
+              "事故対応評価高い",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+            badge: "売上No.1",
+          },
+          {
+            name: "SBI損保（ネット専業最安級）",
+            rank: 2,
+            highlight: "保険料業界最安級",
+            features: [
+              "保険料2〜4万円/年",
+              "ネット完結で安い",
+              "対人無制限基本",
+              "SBIグループの安心感",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+          },
+          {
+            name: "三井ダイレクト損保",
+            rank: 3,
+            highlight: "三井住友海上グループ",
+            features: [
+              "保険料3〜5万円/年",
+              "代理店系のサポート",
+              "ロードサービス24h",
+              "事故対応スピード",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+          },
+        ]}
+      />`,
+`      <ComparisonTableCTA
+        title="一括見積もりと主要ネット型の比較"
+        page="car-insurance-compare-guide"
+        services={[
+          {
+            name: "インズウェブ自動車保険一括見積",
+            rank: 1,
+            highlight: "最大20社をまとめて比較｜乗換候補の洗い出し向き",
+            features: [
+              "複数社の見積もりを一度に比較",
+              "満期1〜2か月前の乗換検討に使いやすい",
+              "年齢・等級・車種条件ごとの差額を確認しやすい",
+              "無料で比較候補を絞り込める",
+            ],
+            href: "/go/sbi-insweb-auto",
+            badge: "一括比較",
+          },
+          {
+            name: "ソニー損保（ダイレクト系No.1）",
+            rank: 2,
+            highlight: "走行距離制｜ネット型の代表格",
+            features: [
+              "走行距離による保険料調整",
+              "ロードサービスが充実",
+              "ネット型の比較候補として知名度が高い",
+              "インズウェブで他社と並べて確認しやすい",
+            ],
+            href: "https://www.sonysonpo.co.jp/",
+          },
+          {
+            name: "SBI損保（ネット専業最安級）",
+            rank: 3,
+            highlight: "SBIグループ｜ネット完結型",
+            features: [
+              "ネット完結で見積もりしやすい",
+              "対人・対物無制限を基本に検討",
+              "SBIグループの安心感",
+              "他社見積もりと保険料差を比較したい人向き",
+            ],
+            href: "https://www.sbisonpo.co.jp/",
+          },
+        ]}
+      />`
+          );
+
+          replaceOnce(
+`      <AffiliateCTA
+        title="自動車保険も保険マンモスで無料一括見積"
+        description="自動車保険の最安プランを保険マンモスで無料一括見積。ソニー損保・SBI損保・三井ダイレクト等のダイレクト系＋代理店系まで、あなたの条件に最適な保険を比較提案。"
+        buttonText="保険マンモスで無料見積"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM"
+        icon="🚗"
+        highlight="無料相談"
+      />`,
+`      <AffiliateCTA
+        title="自動車保険はインズウェブで一括見積もり"
+        description="ソニー損保・SBI損保などのネット型を含め、複数社の見積もりをまとめて比較。年齢・等級・車種を入力して、いまの保険料との差額を確認できます。"
+        buttonText="インズウェブで無料見積もり"
+        href="/go/sbi-insweb-auto"
+        icon="🚗"
+        highlight="無料一括見積"
+        page="car-insurance-compare-guide"
+      />`
+          );
+
+          replaceOnce(
+`      <ComparisonTableCTA
+        title="EV・エコカー補助金の主要制度"
+        services={[`,
+`      <ComparisonTableCTA
+        title="EV・エコカー補助金の主要制度"
+        page="eco-car-subsidy-guide"
+        services={[`
+          );
+
+          replaceOnce(
+`      <AffiliateCTA
+        title="自動車保険の見直しは保険マンモスで｜EV対応プラン提案"
+        description="保険マンモスはEV・PHEV対応の自動車保険を無料比較。バッテリー保証・充電ケーブル補償・EV特有の事故対応プランまで、20社以上から最適なプランを提案、年3〜8万円の保険料削減も期待できる。"
+        buttonText="保険マンモスで無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM"
+        icon="🔌"
+        highlight="無料FP相談"
+      />`,
+`      <AffiliateCTA
+        title="EV購入後の保険料も一括比較｜インズウェブ"
+        description="EV・PHEVは車両価格や補償条件で保険料が変わります。補助金で購入費を抑えた後は、インズウェブで複数社の自動車保険見積もりを比較し、維持費まで確認します。"
+        buttonText="自動車保険を無料で一括見積もり"
+        href="/go/sbi-insweb-auto"
+        icon="🔌"
+        highlight="維持費の見直し"
+        page="eco-car-subsidy-guide"
+      />`
+          );
+
+          fs.writeFileSync(path, s);
+          NODE
+
+          rm -f .github/workflows/codex-revenue-push-20260520.yml
+          npm ci
+          npx tsc --noEmit --pretty false
+          npm run build
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/app/guide/[slug]/GuideContent.tsx .github/workflows/codex-revenue-push-20260520.yml
+          git commit -m "feat: expand insweb auto insurance ctas"
+          git push origin master
