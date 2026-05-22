@@ -37,7 +37,7 @@ jobs:
           data = data.replace(b"\r\n", b"\n")
           Path("/tmp/adsense_initial_approval.patch").write_bytes(data)
           PY
-          git apply --whitespace=nowarn /tmp/adsense_initial_approval.patch
+          git apply --ignore-space-change --ignore-whitespace --whitespace=nowarn /tmp/adsense_initial_approval.patch
           rm .github/workflows/codex-adsense-initial-approval.yml
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
