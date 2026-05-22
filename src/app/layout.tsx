@@ -193,6 +193,8 @@ export default function RootLayout({
               <Link href="/terms" className="hover:text-primary">利用規約</Link>
               <Link href="/contact" className="hover:text-primary">お問い合わせ</Link>
               <Link href="/about" className="hover:text-primary">運営者情報</Link>
+              <Link href="/editorial-policy" className="hover:text-primary">編集方針</Link>
+              <a href="/sitemap.xml" className="hover:text-primary">サイトマップ</a>
             </div>
             <div className="text-center mb-4 flex flex-wrap justify-center gap-x-4 gap-y-1">
               <span className="text-xs">姉妹サイト:</span>

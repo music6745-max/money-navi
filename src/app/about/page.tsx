@@ -34,6 +34,21 @@ export default function About() {
             <li>投資判断は必ずユーザーご自身の責任でお願いしており、特定商品の勧誘は行いません。</li>
             <li>情報の正確性には最大限注意していますが、最新の公式情報のご確認をお願いします。</li>
           </ul>
+          <p className="text-sm mt-3">
+            詳細な確認手順、広告掲載方針、金融記事の免責事項は
+            <Link href="/editorial-policy" className="text-primary hover:underline">編集方針・広告掲載方針</Link>
+            にまとめています。
+          </p>
+        </section>
+        <section>
+          <h2 className="text-xl font-bold mb-2">情報確認と更新</h2>
+          <p className="text-sm leading-relaxed">
+            金融・保険・税金に関する情報は変更が早いため、記事本文では確認日、比較基準、注意点をできるだけ明記します。
+            金利、手数料、キャンペーン、保険料、税制は読者の状況や時期によって変わるため、当サイトの情報だけで判断せず、必ず公式サイトや専門家への相談で最終確認してください。
+          </p>
+          <p className="text-sm leading-relaxed mt-2">
+            誤りや古い情報を見つけた場合は、お問い合わせからご連絡ください。確認後、必要に応じて修正します。
+          </p>
         </section>
         <section>
           <h2 className="text-xl font-bold mb-2">運営情報</h2>
@@ -41,6 +56,7 @@ export default function About() {
             <div className="flex gap-3"><dt className="w-28 text-muted">サイト名</dt><dd>{siteConfig.name}</dd></div>
             <div className="flex gap-3"><dt className="w-28 text-muted">URL</dt><dd>{siteConfig.url}</dd></div>
             <div className="flex gap-3"><dt className="w-28 text-muted">運営開始</dt><dd>2026年4月</dd></div>
+            <div className="flex gap-3"><dt className="w-28 text-muted">最終確認</dt><dd>2026年5月22日</dd></div>
             <div className="flex gap-3"><dt className="w-28 text-muted">お問い合わせ</dt><dd><Link href="/contact" className="text-primary hover:underline">/contact</Link></dd></div>
           </dl>
         </section>

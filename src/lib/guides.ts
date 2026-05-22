@@ -6,6 +6,7 @@ export interface Guide {
   category: string;
   readTime: string;
   publishedAt: string;
+  updatedAt?: string;
 }
 
 export const guides: Guide[] = [

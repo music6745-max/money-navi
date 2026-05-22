@@ -8577,7 +8577,7 @@ const guideContents: Record<string, ReactNode> = {
       <section>
         <h2 className="text-xl font-bold mb-3">自動車ローンの金利差で総返済額100万円の差</h2>
         <p>
-          ディーラーのローン金利は年3〜5%が相場、一方、銀行自動車ローンは年1.5〜3%と圧倒的に低金利。300万円を5年ローンで借りる場合、金利差2%で総返済額15万円以上の差に。賢く選べば新車購入時の総コストを大幅圧縮できます。
+          自動車ローンは、同じ車両価格でも金利・保証料・繰上返済手数料によって総返済額が変わります。ディーラーローン、銀行マイカーローン、残価設定型ローンを比較する際は、月額だけでなく、最終回支払い、所有権、借換え可否、自動車保険料まで含めて確認することが重要です。
         </p>
       </section>
       <ComparisonTableCTA
@@ -8653,7 +8653,7 @@ const guideContents: Record<string, ReactNode> = {
       </section>
       <AffiliateCTA
         title="自動車ローン借り換えでお得に｜住信SBIネット銀行"
-        description="現在のディーラーローンを銀行ローンに借り換えるだけで総返済額20〜50万円節約の可能性。住信SBIネット銀行なら保証料・繰上返済手数料無料で、Web完結。"
+        description="現在のディーラーローンを銀行ローンに借り換える場合、金利差、残期間、手数料、保証料を確認すると総返済額を比較できます。申込前に現在の契約条件と借換え後の総額を確認しましょう。"
         buttonText="住信SBIネット銀行を見る"
         href="https://www.netbk.co.jp/"
         icon="🚗"
@@ -8662,9 +8662,9 @@ const guideContents: Record<string, ReactNode> = {
       <section>
         <h2 className="text-xl font-bold mb-3">自動車購入の総コスト最適化</h2>
         <ol className="list-decimal list-inside space-y-2 text-sm">
-          <li>銀行の低金利ローンで借入（保証料・繰上返済手数料無料）</li>
-          <li>自動車保険はネット型（ソニー損保・SBI損保）で年3万円節約</li>
-          <li>購入後の車検・メンテナンスは指定工場より民間工場で30%節約</li>
+          <li>銀行ローン、ディーラーローン、残価設定型を総返済額で比較する</li>
+          <li>自動車保険は補償内容、免責、運転者範囲、車両保険の有無で比較する</li>
+          <li>購入後の車検・メンテナンスは費用だけでなく保証条件も確認する</li>
           <li>車両保険は車齢10年超なら見直し（貯蓄でカバー）</li>
           <li>エコカー減税・自動車重量税の減免を活用</li>
         </ol>
@@ -14823,9 +14823,18 @@ const guideContents: Record<string, ReactNode> = {
       <section>
         <h2 className="text-xl font-bold mb-3">米国株配当の二重課税を取り戻す</h2>
         <p>
-          米国株・米国ETFの配当金は、米国で10%源泉徴収＋日本で20.315%課税の二重課税を受けます。確定申告で「外国税額控除」を申請すれば、米国源泉税10%分を日本の税金から控除可能。配当金100万円なら約7〜8万円の還付を受けられる重要な税制です。
+          米国株・米国ETFの配当金は、米国で源泉徴収された後、日本でも課税対象になります。外国税額控除は、この二重課税を一定範囲で調整する制度です。ただし、控除できる金額は所得、国内外の所得割合、NISA口座か課税口座かによって変わるため、申告前に国税庁や証券会社の資料を確認する必要があります。
         </p>
       </section>
+      <DecisionBox
+        title="結論：外国税額控除は「課税口座の米国配当」が主な確認対象"
+        points={[
+          "新NISA口座の配当は国内で非課税扱いのため、外国税額控除の扱いが課税口座と異なる。",
+          "特定口座年間取引報告書、配当金支払通知書、証券会社の外国税額の記載を確認する。",
+          "還付額は一律ではないため、e-Tax入力前に国税庁の説明と証券会社資料を照合する。",
+        ]}
+        note="本記事は一般的な確認手順の整理であり、個別の税務判断は税務署または税理士へ確認してください。"
+      />
       <ComparisonTableCTA
         title="外国税額控除の計算例"
         services={[
@@ -14862,7 +14871,7 @@ const guideContents: Record<string, ReactNode> = {
               "米国配当500万円",
               "米国源泉税500,000円",
               "外国税額控除で約350,000〜400,000円還付",
-              "富裕層には効果絶大",
+              "所得状況によって控除上限が変わる",
             ],
             href: "https://www.zeiri4.com/",
           },
@@ -15428,9 +15437,18 @@ const guideContents: Record<string, ReactNode> = {
       <section>
         <h2 className="text-xl font-bold mb-3">2026年 注目の日本株10選</h2>
         <p>
-          日本株市場は2024年から好調で、日経平均は4万円台を維持。新NISA成長枠（年240万円）を活用して、厳選10銘柄でポートフォリオを組むのが王道です。時価総額・成長性・配当利回りの3要素で、2026年に注目すべき日本株を厳選しました。
+          日本株は新NISA成長投資枠で検討されやすい一方、個別株は業績、為替、金利、業界サイクルの影響を強く受けます。本記事では、時価総額、事業分散、配当方針、業績テーマ、値動きの大きさを分けて確認し、初心者が銘柄選びで見落としやすいリスクも整理します。
         </p>
       </section>
+      <DecisionBox
+        title="結論：日本株は銘柄名よりも分散ルールを先に決める"
+        points={[
+          "1銘柄への集中を避け、業種、時価総額、配当方針が異なる銘柄を組み合わせる。",
+          "新NISA成長投資枠で買う場合も、決算、減配リスク、株価下落時の対応を事前に決める。",
+          "個別株が難しい場合は、TOPIX連動投信や高配当ETFとの比較も行う。",
+        ]}
+        note="ランキングは購入推奨ではなく、比較軸を示すための整理です。"
+      />
       <ComparisonTableCTA
         title="2026年 日本株ランキングTOP10"
         services={[
@@ -15501,16 +15519,16 @@ const guideContents: Record<string, ReactNode> = {
       <section>
         <h2 className="text-xl font-bold mb-3">ポートフォリオ構築の基本</h2>
         <ul className="list-disc list-inside space-y-2 text-sm">
-          <li>コア銘柄（時価総額上位）5銘柄に資産の60%</li>
-          <li>成長株（ソニー・任天堂等）3銘柄に20%</li>
-          <li>高配当株（武田・三菱UFJ等）2銘柄に20%</li>
-          <li>業種分散で特定業種への偏重避ける</li>
-          <li>年1回のリバランスで比率維持</li>
+          <li>コア銘柄、成長株、高配当株の役割を分けて考える</li>
+          <li>特定業種や特定企業への集中を避け、投資額の上限を決める</li>
+          <li>決算、配当方針、株価下落時の対応を購入前に確認する</li>
+          <li>年1回程度、業種バランスと含み損益を見直す</li>
+          <li>個別株が難しい場合は、投資信託やETFも比較候補にする</li>
         </ul>
       </section>
       <AffiliateCTA
         title="日本株売買手数料無料｜SBI証券 新NISA"
-        description="SBI証券なら新NISA口座で日本株売買手数料完全無料。配当金も非課税で受け取れ、長期複利効果を最大化できます。"
+        description="日本株を新NISAで検討する場合は、売買手数料、取扱商品、配当金の受取方法、アプリの使いやすさを確認しましょう。個別株は値動きが大きいため、分散方針もあわせて決めておくと安心です。"
         buttonText="SBI証券の詳細"
         href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
         icon="📈"
@@ -17158,9 +17176,18 @@ const guideContents: Record<string, ReactNode> = {
       <section>
         <h2 className="text-xl font-bold mb-3">ペット保険詳細比較｜10社ランキング</h2>
         <p>
-          ペット保険は、犬・猫の医療費を50〜70%カバーする保険商品。アニコム・アイペットの2大手のほか、ipet・FPC・楽天等、10社以上の選択肢。月額1000〜5000円で手術・入院・通院までカバー。加入年齢制限（新規7歳まで等）、待機期間、継続可能年齢、更新拒否リスクなど、選び方で大きく差が出ます。
+          ペット保険は、犬・猫の通院・入院・手術費に備える保険です。補償割合だけでなく、通院の有無、免責金額、年間限度額、加入年齢、更新条件、待機期間、既往症の扱いで使い勝手が変わります。月額保険料の安さだけで決めず、実際に請求しやすい条件かを確認することが大切です。
         </p>
       </section>
+      <DecisionBox
+        title="結論：ペット保険は「通院・年齢・更新条件」を先に確認"
+        points={[
+          "若いうちは保険料が安くても、更新時の上昇や高齢時の継続条件を確認する。",
+          "通院補償が必要か、手術・入院中心でよいかを飼育状況に合わせて分ける。",
+          "約款、重要事項説明、待機期間、免責金額を申込前に確認する。",
+        ]}
+        note="補償内容は商品改定で変わるため、最終判断は保険会社の公式資料で確認してください。"
+      />
       <ComparisonTableCTA
         title="ペット保険主要3社比較"
         services={[
@@ -17215,7 +17242,7 @@ const guideContents: Record<string, ReactNode> = {
       </section>
       <AffiliateCTA
         title="ペット保険選びは保険マンモスで｜無料相談"
-        description="ペット保険10社の中から愛犬・愛猫に最適な商品を保険マンモスで無料相談。補償範囲・月額・加入年齢・継続性まで、FPが客観的に比較。オンライン相談対応。"
+        description="ペット保険を検討する際は、補償範囲・月額・加入年齢・継続条件を比較しましょう。無料相談を使う場合も、約款と重要事項説明を確認してから判断してください。"
         buttonText="保険マンモスで無料相談"
         href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM"
         icon="🐕"
@@ -18328,9 +18355,18 @@ const guideContents: Record<string, ReactNode> = {
       <section>
         <h2 className="text-xl font-bold mb-3">半導体ETF詳細ガイド｜AI時代の恩恵</h2>
         <p>
-          半導体ETFは2020〜2024年で+300〜500%の驚異的リターンを実現、AI時代最大の恩恵銘柄。SOXX（iShares）・SMH（VanEck）・SOXL（3倍レバレッジ）の3つが主要選択肢。NVIDIA・TSMC・ASML・Broadcom等を保有、AIチップ需要拡大で今後も高成長期待。高ボラのため、ポートフォリオの5〜15%配分が適正です。
+          半導体ETFは、AI、データセンター、自動車、産業機器など幅広い需要に関係する一方、景気循環や在庫調整の影響を受けやすいテーマ型ETFです。SOXX、SMH、SOXLは保有銘柄、集中度、レバレッジ、信託報酬が異なるため、過去リターンだけでなく下落幅と保有目的を確認してから検討します。
         </p>
       </section>
+      <DecisionBox
+        title="結論：半導体ETFは成長テーマだが、集中投資リスクを確認"
+        points={[
+          "SOXXとSMHは保有上位銘柄の集中度が高く、NVIDIAやTSMCの影響を受けやすい。",
+          "SOXLは日次3倍レバレッジ型で、長期保有では減価や急落リスクを必ず確認する。",
+          "新NISAで使う場合も、全資産の一部にとどめるなど配分ルールを先に決める。",
+        ]}
+        note="テーマ型ETFは値動きが大きくなりやすいため、短期の実績だけで判断しないでください。"
+      />
       <ComparisonTableCTA
         title="半導体ETF主要3銘柄比較"
         services={[
@@ -18376,7 +18412,7 @@ const guideContents: Record<string, ReactNode> = {
       <section>
         <h2 className="text-xl font-bold mb-3">半導体投資の注意点</h2>
         <ul className="list-disc list-inside space-y-2 text-sm">
-          <li>AI需要拡大で今後も高成長期待（年率20〜30%）</li>
+          <li>AI需要拡大の追い風はあるが、業績・在庫・金利環境で大きく下落する可能性がある</li>
           <li>シクリカル（景気変動）性質：好不調波大きい</li>
           <li>2022年に50%下落、2023〜2024年に300%回復の値動き</li>
           <li>SOXLはレバレッジ減価リスクで長期保有NG</li>
@@ -18385,7 +18421,7 @@ const guideContents: Record<string, ReactNode> = {
       </section>
       <AffiliateCTA
         title="半導体ETF投資はSBI証券で｜SOXX・SMH為替手数料無料"
-        description="SBI証券は半導体ETF（SOXX・SMH・SOXL）を為替手数料無料で取扱。NVIDIA・TSMC・ASML等の個別株もカバー、新NISA成長枠で非課税運用可能。"
+        description="半導体ETFを検討する場合は、保有銘柄、信託報酬、為替コスト、レバレッジの有無を確認しましょう。新NISAで使う場合も、テーマ集中リスクと下落時の対応を先に決めておくことが大切です。"
         buttonText="SBI証券の詳細"
         href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
         icon="🔌"
@@ -20584,9 +20620,17 @@ const guideContents: Record<string, ReactNode> = {
       <section>
         <h2 className="text-xl font-bold mb-3">ネット銀行金利・手数料完全比較</h2>
         <p>
-          ネット銀行の普通預金金利は、メガバンク（0.001%）の100〜400倍。住信SBIネット銀行（優遇時0.2%）、楽天銀行（マネーブリッジ0.1%）、auじぶん銀行（au連携0.4%）、SBI新生銀行（ステップアッププラン0.15%）など、優遇ステージ活用で年5〜10万円の利息差が発生。ATM無料回数・他行振込無料枠も重要な比較ポイントです。
+          ネット銀行は、普通預金金利、ATM無料回数、他行振込無料回数、証券口座連携、給与振込特典などで差が出ます。優遇金利は条件付きのことが多いため、表示金利だけでなく、対象残高、上限額、優遇ステージ、手数料無料回数をセットで確認しましょう。
         </p>
       </section>
+      <DecisionBox
+        title="結論：メイン口座は金利よりも手数料と使い方で選ぶ"
+        points={[
+          "給与振込、クレカ引落、投資用口座、生活費口座のどれに使うかを先に決める。",
+          "高金利キャンペーンは上限額や期間があるため、恒常的な条件と分けて見る。",
+          "ATMと振込の無料回数が不足すると、利息より手数料の損失が大きくなることがある。",
+        ]}
+      />
       <ComparisonTableCTA
         title="ネット銀行主要4行比較"
         services={[
@@ -20640,7 +20684,7 @@ const guideContents: Record<string, ReactNode> = {
       </section>
       <AffiliateCTA
         title="住信SBIネット銀行＋SBI証券で経済圏構築"
-        description="住信SBIネット銀行＋SBI証券の連携で、外貨手数料無料・優遇金利0.2%・ATM20回無料。新NISA＋iDeCo＋高金利預金を1つの経済圏で管理、年10万円超のメリット獲得。"
+        description="住信SBIネット銀行とSBI証券を連携する場合は、優遇金利、ATM無料回数、為替手数料、投資口座との使い分けを確認しましょう。特典条件は変更されることがあるため、申込前に公式情報を確認してください。"
         buttonText="SBI証券の詳細"
         href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
         icon="🏦"
@@ -21329,6 +21373,15 @@ const guideContents: Record<string, ReactNode> = {
           スイングトレードは、数日〜数週間保有する中期トレード戦略です。デイトレより時間的余裕がありますが、短期売買である以上、損失管理が欠かせません。移動平均線・MACD・RSI等のテクニカル指標、出来高、時価総額、ボラティリティを確認し、損切り幅と利確条件を先に決めてから取引することが重要です。
         </p>
       </section>
+      <DecisionBox
+        title="結論：スイングトレードは利益目標より損失上限を先に決める"
+        points={[
+          "エントリー前に損切り位置、保有期間、利確条件、1回あたりの許容損失を決める。",
+          "信用取引やレバレッジを使う場合は、追証や急落時の対応を必ず確認する。",
+          "初心者は検証用の少額取引から始め、成績を記録してから金額を増やす。",
+        ]}
+        note="短期売買は税金、手数料、心理的負担も大きいため、長期分散投資とは別枠で管理してください。"
+      />
       <section>
         <h2 className="text-xl font-bold mb-3">スイングトレードの基本指標</h2>
         <ul className="list-disc list-inside space-y-2 text-sm">
@@ -21375,7 +21428,7 @@ const guideContents: Record<string, ReactNode> = {
         <ul className="list-disc list-inside space-y-2 text-sm">
           <li>①銘柄選定：出来高100万株以上・時価総額500億円以上</li>
           <li>②エントリー：移動平均線上抜け＋RSI 30-70内</li>
-          <li>③ストップロス：建値-3〜5%で必ず設定</li>
+          <li>③ストップロス：建値からの許容損失幅を事前に決める</li>
           <li>④利確：+10〜20%or 移動平均線下抜けで売却</li>
           <li>⑤週1回の振り返り：勝率・リスクリワード確認</li>
         </ul>
@@ -27284,9 +27337,18 @@ const guideContents: Record<string, ReactNode> = {
       <section>
         <h2 className="text-xl font-bold mb-3">ビットコイン現物ETF完全ガイド</h2>
         <p>
-          2024年1月に米SECが承認したビットコイン現物ETF（IBIT・FBTC・ARKB等）は、上場から1年で預かり資産500億ドル突破の大成功。日本未上陸のため現状は米国ETFへの直接投資が唯一の選択肢、2026年以降の日本版BTC-ETF上場も期待されています。仮想通貨取引所より手数料・税制面で有利な投資手段として注目されています。
+          米国ではビットコイン現物ETFが上場していますが、日本居住者が利用できる商品、証券会社の取扱い、税制、為替コストは時期によって変わります。暗号資産取引所で現物を保有する場合と、米国ETFを証券口座で保有する場合では、税金、管理方法、価格変動リスク、手数料の確認ポイントが異なります。
         </p>
       </section>
+      <DecisionBox
+        title="結論：ビットコインETFは購入可否・税金・価格変動を分けて確認"
+        points={[
+          "日本の証券会社で取扱いがあるか、NISA対象か、特定口座で管理できるかを確認する。",
+          "暗号資産現物とETFでは税務上の扱いが異なるため、利益確定前に申告区分を確認する。",
+          "ビットコインは価格変動が大きく、短期間で大幅下落する可能性がある。",
+        ]}
+        note="本記事は一般的な比較情報であり、暗号資産やETFの購入を推奨するものではありません。"
+      />
       <ComparisonTableCTA
         title="主要ビットコイン現物ETF"
         services={[
@@ -27335,13 +27397,13 @@ const guideContents: Record<string, ReactNode> = {
           <li>SBI証券・楽天証券・マネックス証券の米国株口座で直接購入</li>
           <li>為替手数料：SBI×住信SBI連携で無料、楽天は片道4銭</li>
           <li>買付手数料：各社0.495%（上限22ドル）or 無料プラン</li>
-          <li>税金：申告分離課税20.315%、新NISA対象外（成長枠ETF限定）</li>
-          <li>仮想通貨取引所（年55%）より税制優遇、現物BTCより有利</li>
+          <li>税金：商品・口座区分・国内取扱状況によって扱いが変わるため、証券会社と税務情報を確認</li>
+          <li>暗号資産取引所の現物保有とは、管理方法・税務・手数料・リスクが異なる</li>
         </ul>
       </section>
       <AffiliateCTA
         title="ビットコインETFはSBI証券で｜為替手数料無料で有利"
-        description="SBI証券は米国ビットコイン現物ETF（IBIT・FBTC・ARKB等）を買付可能。住信SBIネット銀行連携で為替手数料無料、仮想通貨取引所（雑所得最大55%）より圧倒的に有利な税制で長期保有できる。"
+        description="ビットコイン関連商品を検討する場合は、取扱商品、為替手数料、税務上の扱い、価格変動リスクを確認しましょう。暗号資産現物とETFは管理方法が異なるため、申込前に公式情報を確認してください。"
         buttonText="SBI証券の詳細"
         href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
         icon="₿"
@@ -30400,9 +30462,18 @@ const guideContents: Record<string, ReactNode> = {
       <section>
         <h2 className="text-xl font-bold mb-3">日本株高配当株投資完全ガイド</h2>
         <p>
-          日本株の高配当戦略は、年配当利回り3〜5%で安定収入を得られる魅力的な投資手法。三菱商事（3.5%）・JT（5.5%）・ソフトバンク（5%）等の主要20銘柄を比較、新NISA成長枠での非課税運用活用、業種分散によるリスク管理で、2000万円投資で月10万円の配当収入を実現する実践戦略を徹底解説します。
+          日本株の高配当戦略は、配当収入を重視する投資手法ですが、配当利回りが高いほど安全という意味ではありません。減配、業績悪化、株価下落、業種集中のリスクがあるため、利回り、配当性向、キャッシュフロー、過去の減配実績、NISAでの使い方を分けて確認します。
         </p>
       </section>
+      <DecisionBox
+        title="結論：高配当株は利回りよりも減配リスクを先に見る"
+        points={[
+          "配当利回りが高い銘柄ほど、業績悪化や一時的な株価下落で高く見えている可能性がある。",
+          "通信、商社、金融、製造など業種を分け、1銘柄に配当収入を依存しない。",
+          "新NISAで買う場合も、売却時の損益通算ができない点を理解しておく。",
+        ]}
+        note="配当金額は企業方針や業績で変わるため、将来の配当を保証するものではありません。"
+      />
       <ComparisonTableCTA
         title="主要日本高配当株TOP5"
         services={[
@@ -30453,12 +30524,12 @@ const guideContents: Record<string, ReactNode> = {
           <li>商社：三菱商事・伊藤忠・三井物産・住友商事（利回り3〜4%）</li>
           <li>製造：JT・キヤノン・花王（利回り4〜5%）</li>
           <li>インフラ：東京電力・JR東日本（利回り3〜4%）</li>
-          <li>業種・企業分散で減配リスク最小化、20銘柄均等配分が王道</li>
+          <li>業種・企業分散で減配リスクを抑える。均等配分か時価総額配分かは目的に合わせて選ぶ</li>
         </ul>
       </section>
       <AffiliateCTA
         title="日本高配当株はSBI証券で｜新NISA成長枠で非課税配当"
-        description="SBI証券は日本株の売買手数料NISA無料、主要高配当株20銘柄すべてカバー。新NISA成長枠で配当金非課税、2000万円投資で月10万円の配当収入も、FIRE・リタイア生活の基盤として活用できる。"
+        description="日本株の高配当銘柄を検討する場合は、売買手数料、NISA対応、銘柄検索、配当情報の見やすさを確認しましょう。配当は保証されないため、減配リスクと分散方針もあわせて確認してください。"
         buttonText="SBI証券の詳細"
         href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
         icon="🇯🇵"

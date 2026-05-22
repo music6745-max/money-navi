@@ -11,6 +11,8 @@ import { AffiliateCTA } from "@/components/AffiliateCTA";
 import { GuideContent } from "./GuideContent";
 import { getFaqsForGuide } from "@/lib/guideFaqs";
 
+const ADSENSE_REVIEWED_AT = "2026-05-22";
+
 // Force static generation: guides are fully known at build time, no per-request fetching.
 // これにより動的レンダリングに fallback する余地を消し、
 // Googlebot から見て全ページが確実に pre-rendered HTML として届く。
@@ -37,8 +39,65 @@ export async function generateMetadata(
       url: `${siteConfig.url}/guide/${guide.slug}`,
       type: "article",
       publishedTime: guide.publishedAt,
+      modifiedTime: guide.updatedAt || ADSENSE_REVIEWED_AT,
     },
   };
+}
+
+function getReviewPolicy(category: string) {
+  const common = {
+    sourceLabel: "金融庁・国税庁・各社公式情報",
+    points: [
+      "公式情報、手数料表、制度説明を優先して確認",
+      "広告リンクの有無よりも比較基準、注意点、リスク説明を優先",
+      "最終判断は読者自身で公式情報を確認する前提で記載",
+    ],
+  };
+
+  const policies: Record<string, typeof common> = {
+    nisa: {
+      sourceLabel: "金融庁・証券会社・運用会社の公式情報",
+      points: [
+        "新NISAの制度枠、対象商品、手数料、税制上の注意点を確認",
+        "利回りや将来リターンを保証せず、価格変動と元本割れリスクを明記",
+        "初心者が公式ページで再確認すべき項目を本文中に整理",
+      ],
+    },
+    broker: {
+      sourceLabel: "証券会社公式ページ・手数料表・取引ルール",
+      points: [
+        "売買手数料、取扱商品、アプリ、サポート、キャンペーン条件を分けて確認",
+        "短期売買や信用取引は損切り、余力管理、税金の注意点を併記",
+        "ランキングは一律の正解ではなく、利用目的別の使い分けとして説明",
+      ],
+    },
+    household: {
+      sourceLabel: "金融機関・保険会社・公的機関の公式情報",
+      points: [
+        "保険料、金利、手数料、補償範囲、年齢制限を分けて確認",
+        "家計への影響を総額、月額、更新条件の観点で整理",
+        "申込前に約款、重要事項説明、公式シミュレーションを確認する前提で記載",
+      ],
+    },
+    "fx-crypto": {
+      sourceLabel: "取引所・金融庁・税務関連の公式情報",
+      points: [
+        "レバレッジ、価格変動、スプレッド、税金、セキュリティの注意点を確認",
+        "短期的な利益を保証せず、損失や追加入金リスクを明記",
+        "暗号資産やFXは初心者向けのリスク確認を優先して説明",
+      ],
+    },
+    roboadvisor: {
+      sourceLabel: "運用会社・サービス公式ページ・手数料表",
+      points: [
+        "手数料、最低投資額、運用方針、NISA対応、解約条件を確認",
+        "おまかせ運用でも元本保証ではないことを明記",
+        "自分でETFを買う場合との費用差も比較材料として扱う",
+      ],
+    },
+  };
+
+  return policies[category] || common;
 }
 
 export default async function GuidePage(
@@ -49,6 +108,8 @@ export default async function GuidePage(
   if (!guide) notFound();
   const cat = getCategoryBySlug(guide.category);
   const faqs = getFaqsForGuide(guide.slug);
+  const reviewedAt = guide.updatedAt || ADSENSE_REVIEWED_AT;
+  const reviewPolicy = getReviewPolicy(guide.category);
   // このガイドのカテゴリに属するツールから最大3件を関連ツールとして出す
   const relatedTools = tools.filter((t) => t.category === guide.category).slice(0, 3);
 
@@ -59,6 +120,7 @@ export default async function GuidePage(
         description={guide.description}
         url={`${siteConfig.url}/guide/${guide.slug}`}
         datePublished={guide.publishedAt}
+        dateModified={reviewedAt}
       />
       <BreadcrumbJsonLd
         items={[
@@ -82,6 +144,7 @@ export default async function GuidePage(
           </span>
           <span className="text-xs text-muted">{guide.readTime}</span>
           <span className="text-xs text-muted">公開: {guide.publishedAt}</span>
+          <span className="text-xs text-muted">確認: {reviewedAt}</span>
         </div>
         <h1 className="text-2xl sm:text-3xl font-bold mb-3 leading-tight">
           <span className="mr-2">{guide.icon}</span>
@@ -89,6 +152,22 @@ export default async function GuidePage(
         </h1>
         <p className="text-muted">{guide.description}</p>
       </header>
+
+      <section className="mb-6 rounded-xl border border-card-border bg-card-bg p-5">
+        <div className="flex flex-wrap items-center gap-2 mb-3">
+          <h2 className="text-sm font-bold">この記事の確認方針</h2>
+          <span className="text-xs text-muted">最終確認: {reviewedAt}</span>
+        </div>
+        <p className="text-xs text-muted leading-relaxed mb-3">
+          {reviewPolicy.sourceLabel}を優先し、読者が申込前に再確認すべき費用・条件・リスクを整理しています。
+          詳細は<Link href="/editorial-policy" className="text-primary hover:underline">編集方針</Link>をご確認ください。
+        </p>
+        <ul className="list-disc list-inside text-xs text-muted leading-relaxed space-y-1">
+          {reviewPolicy.points.map((point) => (
+            <li key={point}>{point}</li>
+          ))}
+        </ul>
+      </section>
 
       {/* 🎯 ランキング/比較ガイドに「選定基準」メタブロック差し込み（thin content 補強）。
             slug が ranking/comparison を含むガイドは内容が表中心になりがちなので、
