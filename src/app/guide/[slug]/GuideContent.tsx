@@ -64,7 +64,293 @@ function withDefaultPage(node: ReactNode, page: string): ReactNode {
   });
 }
 
+function KaigoActionBox({
+  toolHref,
+  toolLabel,
+  boothHref,
+  boothLabel,
+  children,
+}: {
+  toolHref: string;
+  toolLabel: string;
+  boothHref: string;
+  boothLabel: string;
+  children: ReactNode;
+}) {
+  return (
+    <section className="rounded-xl border border-primary/25 bg-primary/5 p-5">
+      <h2 className="text-lg font-bold mb-3">整理した内容をそのまま使う</h2>
+      <div className="text-sm text-muted leading-relaxed mb-4">{children}</div>
+      <div className="flex flex-col sm:flex-row gap-3">
+        <a
+          href="/kaigo"
+          className="inline-flex items-center justify-center rounded-full bg-primary px-5 py-2.5 text-sm font-bold text-white transition-colors hover:bg-primary-hover"
+        >
+          親のこと整理ナビで診断する
+        </a>
+        <a
+          href={toolHref}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center justify-center rounded-full border border-primary/30 px-5 py-2.5 text-sm font-bold text-primary transition-colors hover:bg-primary/10"
+        >
+          {toolLabel}
+        </a>
+        <a
+          href={boothHref}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center justify-center rounded-full border border-card-border px-5 py-2.5 text-sm font-bold transition-colors hover:bg-muted/10"
+        >
+          {boothLabel}
+        </a>
+      </div>
+    </section>
+  );
+}
+
 const guideContents: Record<string, ReactNode> = {
+  "care-certification-application-prep": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">介護認定は、申請前のメモで相談が進めやすくなる</h2>
+        <p>
+          親の転倒、もの忘れ、服薬の不安、買い物や通院の負担が増えてきたとき、介護認定の申請を考える家族は多くなります。
+          ただ、窓口へ相談する時点で日常の困りごとが整理できていないと、「何を伝えればよいか分からない」状態になりがちです。
+        </p>
+        <p>
+          申請前に必要なのは、特別な書類を完璧に作ることではありません。本人が普段できること、できない日があること、家族が手伝っていることを、
+          日付と場面で残しておくことです。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">相談前に確認する基本項目</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm text-muted">
+          <li>介護保険証、健康保険証、お薬手帳、かかりつけ医の情報</li>
+          <li>地域包括支援センターや自治体の介護保険窓口へ連絡する担当者</li>
+          <li>食事、入浴、排せつ、移動、服薬、買い物、金銭管理で困っていること</li>
+          <li>家族がすでに手伝っていること、付き添い頻度、電話や見守りの頻度</li>
+          <li>認定調査に同席できる人、結果通知後に相談する人</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">困りごとは「印象」ではなく「具体例」で残す</h2>
+        <p>
+          「最近大変そう」だけでは、相談時に状況が伝わりにくくなります。たとえば「5月10日、薬を飲んだか分からず家族が確認した」
+          「買い物帰りにふらつきがあり、翌週から付き添いを始めた」のように、日付、場面、家族の対応をセットにします。
+        </p>
+        <p>
+          本人を責めるための記録ではなく、必要な支援につなげるための記録として扱うことが大切です。きょうだいで見ている場面が違う場合は、
+          それぞれが気づいたことを同じ形式で残すと共有しやすくなります。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">家族で分ける役割</h2>
+        <p>
+          申請前後は、連絡、同席、書類確認、通院付き添い、費用記録が同時に発生します。誰か一人に集中させず、
+          連絡係、記録係、同席できる人、費用を立て替えた時に記録する人を分けておくと、負担感が偏りにくくなります。
+        </p>
+      </section>
+
+      <KaigoActionBox
+        toolHref="https://net-toolbox.jp/tools/kaigo-care-certification-memo?utm_source=toshi-navi&utm_medium=guide&utm_campaign=care-certification-application-prep"
+        toolLabel="申請前メモを作る"
+        boothHref="https://kaigo-okane.booth.pm/items/8407555"
+        boothLabel="申請前テンプレートを見る"
+      >
+        <p>
+          まず無料ツールで相談前の確認項目を作り、記録を残す段階ではBOOTHの要介護認定テンプレートを使うと、
+          家族会議や窓口相談に持っていきやすい形に整えられます。
+        </p>
+      </KaigoActionBox>
+    </>
+  ),
+  "kaigo-cost-family-share": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">介護費用の話し合いは、金額より先に範囲を分ける</h2>
+        <p>
+          親の介護費用できょうだい間の負担感がずれやすい理由は、支払いだけでなく、通院付き添い、役所手続き、
+          施設見学、連絡係といった作業負担まで混ざって話されるためです。まずは誰がいくら出すかを決める前に、
+          費用と作業を分けて見える化します。
+        </p>
+        <p>
+          最初に分けたいのは、親本人の年金や預貯金から払うもの、家族が立て替えたもの、交通費や通信費など家族側に出るもの、
+          そして時間や手間の負担です。この4つを同じ表に入れると、現金を出した人だけでなく、動いた人の負担も説明しやすくなります。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">分担表に入れる項目</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm text-muted">
+          <li>介護サービス費、医療費、薬代、入院時の差額ベッド代などの直接費</li>
+          <li>おむつ、介護用品、食事、日用品、家電買い替えなどの生活費</li>
+          <li>通院付き添い、施設見学、面談、役所手続きにかかった交通費</li>
+          <li>親の口座から払った金額、家族が立て替えた金額、まだ精算していない金額</li>
+          <li>連絡係、支払い係、書類係、緊急対応係などの作業分担</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">もめにくい決め方</h2>
+        <p>
+          基本は「親本人のお金を先に使う」「立替は日付と用途を残す」「家族負担は毎月ではなく一定期間ごとに精算する」の3点です。
+          きょうだいで所得差や距離差がある場合は、完全な均等割りにこだわるより、現金負担と作業負担を合わせて調整したほうが現実的です。
+        </p>
+        <p>
+          たとえば近くに住む人が通院付き添いと役所手続きを担当し、遠方の人は定額の費用負担と資料整理を担当する、といった形です。
+          重要なのは、一度決めたルールを固定しすぎず、介護度や入院、施設入居などの節目で見直すことです。
+        </p>
+      </section>
+
+      <KaigoActionBox
+        toolHref="https://net-toolbox.jp/tools/kaigo-cost-share?utm_source=toshi-navi&utm_medium=guide&utm_campaign=kaigo-cost-family-share"
+        toolLabel="費用分担を試算する"
+        boothHref="https://kaigo-okane.booth.pm/items/8382816"
+        boothLabel="分担メモPDFを見る"
+      >
+        <p>
+          ざっくりした金額を入れて分担イメージを作りたい場合は無料ツールを使い、家族会議にそのまま持っていく資料が必要なら
+          BOOTHの分担メモPDFで項目を整えます。
+        </p>
+      </KaigoActionBox>
+    </>
+  ),
+  "parent-care-money-first-checklist": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">介護が始まる前に、お金の所在を軽く確認しておく</h2>
+        <p>
+          親の介護は、入院や転倒をきっかけに急に始まることがあります。その時点で年金額、支払い口座、保険、公共料金、
+          介護保険証の場所が分からないと、家族は支払いと手続きに追われます。元気なうちに細かい金額まで聞き出す必要はありませんが、
+          どこを見れば分かるかだけでも整理しておくと負担が大きく下がります。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">最初に確認する一覧</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm text-muted">
+          <li>年金の受取口座、主に使っている銀行口座、通帳やキャッシュカードの保管場所</li>
+          <li>医療保険、生命保険、火災保険、自動車保険などの証券や問い合わせ先</li>
+          <li>介護保険証、健康保険証、マイナンバーカード、お薬手帳の保管場所</li>
+          <li>家賃、住宅ローン、管理費、電気、ガス、水道、携帯電話、サブスクの支払い方法</li>
+          <li>親族、かかりつけ医、ケアマネ候補、地域包括支援センターの連絡先</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">聞き方は、管理ではなく緊急時の備えにする</h2>
+        <p>
+          親にいきなり資産額を聞くと警戒されることがあります。最初は「入院した時に家族が困らないように、保険証と連絡先だけ教えて」
+          という範囲に留めるのが現実的です。パスワードや暗証番号を集めるより、書類の場所、問い合わせ先、支払いの流れを確認します。
+        </p>
+        <p>
+          そのうえで、月1回の支払い、年1回の更新、緊急時だけ必要な情報に分けると、家族が見返しやすいメモになります。
+        </p>
+      </section>
+
+      <KaigoActionBox
+        toolHref="https://net-toolbox.jp/tools/kaigo-emergency-info?utm_source=toshi-navi&utm_medium=guide&utm_campaign=parent-care-money-first-checklist"
+        toolLabel="緊急メモを作る"
+        boothHref="https://kaigo-okane.booth.pm/items/8340473"
+        boothLabel="スターターセットを見る"
+      >
+        <p>
+          まず最低限の連絡先と服薬情報を無料ツールで整え、家族会議や親との確認を進める段階でスターターセットに転記すると、
+          抜け漏れを減らせます。
+        </p>
+      </KaigoActionBox>
+    </>
+  ),
+  "nursing-home-cost-compare": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">施設費用は月額だけで比べない</h2>
+        <p>
+          介護施設を比較するときに月額費だけを見ると、入居後の負担を見誤ります。入居一時金、家賃、管理費、食費、介護サービス費、
+          医療対応費、日用品費、退去時の精算など、支払うタイミングが違う費用を同じ表で見ます。
+        </p>
+        <p>
+          特に家族の判断に影響するのは、毎月の最低額ではなく、医療対応が増えた場合、介護度が変わった場合、入院が長引いた場合に
+          どこまで費用が増えるかです。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">比較表に入れる費用項目</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm text-muted">
+          <li>入居一時金、敷金、保証金、償却ルール、退去時の返金条件</li>
+          <li>月額利用料、家賃相当額、管理費、食費、水道光熱費</li>
+          <li>介護保険自己負担、上乗せ介護費、夜間対応、看取り対応の有無</li>
+          <li>通院付き添い、服薬管理、訪問診療、医療処置が必要になった時の追加費用</li>
+          <li>面会のしやすさ、家族の移動時間、緊急時の連絡体制</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">家族で見るべき判断軸</h2>
+        <p>
+          最安の施設が最適とは限りません。親の状態、家族が通える距離、医療対応、退去条件を合わせて考える必要があります。
+          見学時はパンフレットの月額だけでなく、追加費用が発生する場面を具体的に聞き、同じ質問を複数施設に投げると比較しやすくなります。
+        </p>
+      </section>
+
+      <KaigoActionBox
+        toolHref="https://net-toolbox.jp/tools/kaigo-facility-compare?utm_source=toshi-navi&utm_medium=guide&utm_campaign=nursing-home-cost-compare"
+        toolLabel="施設比較表を作る"
+        boothHref="https://kaigo-okane.booth.pm/items/8340642"
+        boothLabel="施設比較PDFを見る"
+      >
+        <p>
+          候補施設を2から3件に絞ったら、無料ツールで費用と条件を並べます。印刷して家族で共有する場合は、見学メモ付きのPDFが使いやすいです。
+        </p>
+      </KaigoActionBox>
+    </>
+  ),
+  "parent-hospital-discharge-money": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">入退院時は、お金と連絡先を同時に整理する</h2>
+        <p>
+          親が入院すると、治療内容だけでなく、支払い、保険証、限度額適用認定証、退院後の生活、介護認定、服薬情報の確認が一気に必要になります。
+          家族が慌てないためには、入院中に確認することと、退院前に確認することを分けておくのが有効です。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">入院中に確認すること</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm text-muted">
+          <li>入院費の支払い方法、概算費用、差額ベッド代、保証人や連絡先の扱い</li>
+          <li>健康保険証、介護保険証、お薬手帳、診察券、医療保険の請求先</li>
+          <li>退院支援窓口、医療ソーシャルワーカー、地域包括支援センターへの相談</li>
+          <li>退院後に必要な介護サービス、福祉用具、住宅改修、通院付き添い</li>
+          <li>きょうだい間の連絡係、支払い係、書類係、親族への共有範囲</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">退院前に家族で決めること</h2>
+        <p>
+          退院日は家族の都合だけで決まるものではありません。自宅に戻るのか、ショートステイや施設を挟むのか、通院付き添いを誰が担当するのかを
+          早めに確認します。費用面では、入院費の精算、保険請求、介護用品の購入、退院後の交通費を別々に記録します。
+        </p>
+      </section>
+
+      <KaigoActionBox
+        toolHref="https://net-toolbox.jp/tools/kaigo-hospital-checklist?utm_source=toshi-navi&utm_medium=guide&utm_campaign=parent-hospital-discharge-money"
+        toolLabel="入退院チェックリストを作る"
+        boothHref="https://kaigo-okane.booth.pm/items/8382202"
+        boothLabel="入退院準備PDFを見る"
+      >
+        <p>
+          入院直後は無料チェックリストで確認漏れを防ぎ、家族で共有する書き込み用の資料が必要になったら入退院準備PDFにまとめます。
+        </p>
+      </KaigoActionBox>
+    </>
+  ),
   "nisa-broker-ranking-2026": (
     <>
       <section>

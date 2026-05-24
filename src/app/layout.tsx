@@ -148,6 +148,9 @@ export default function RootLayout({
             </Link>
             <nav className="flex items-center gap-4 text-sm text-muted">
               <div className="hidden sm:flex items-center gap-4">
+                <Link href="/kaigo" className="hover:text-primary transition-colors font-medium">
+                  介護整理
+                </Link>
                 <Link href="/guide" className="hover:text-primary transition-colors font-medium">
                   ガイド
                 </Link>

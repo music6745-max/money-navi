@@ -1079,7 +1079,7 @@ function DebtRepayment() {
   const [balance, setBalance] = useState(1000000);
   const [rate, setRate] = useState(15);
   const [monthlyPayment, setMonthlyPayment] = useState(30000);
-  const result = useMemo(() => {
+  const result = (() => {
     const r = rate / 100 / 12;
     let remaining = balance;
     let months = 0;
@@ -1095,7 +1095,7 @@ function DebtRepayment() {
       months++;
     }
     return { months, totalPay: monthlyPayment * months, totalInterest };
-  }, [balance, rate, monthlyPayment]);
+  })();
   return (
     <Card>
       <NumberInput label="借入残高" value={balance} onChange={setBalance} suffix="円" step={10000} />

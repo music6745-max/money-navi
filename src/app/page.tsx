@@ -91,6 +91,24 @@ export default function Home() {
 
       <ToolSearch />
 
+      <section className="mb-10 mt-8 rounded-xl border border-primary/20 bg-card-bg p-5 sm:p-6">
+        <div className="grid grid-cols-1 gap-4 md:grid-cols-[1fr_220px] md:items-center">
+          <div>
+            <p className="text-xs font-bold text-primary">新規公開</p>
+            <h2 className="mt-1 text-xl font-bold">親のこと整理ナビ</h2>
+            <p className="mt-2 text-sm leading-relaxed text-muted">
+              親の介護、お金、入院、施設選び、きょうだい分担で迷ったときに、状況別のチェックリストと介護テンプレートを選べる無料診断ページです。
+            </p>
+          </div>
+          <Link
+            href="/kaigo"
+            className="inline-flex items-center justify-center rounded-lg bg-primary px-4 py-3 text-sm font-bold text-white hover:bg-primary-hover"
+          >
+            診断を開く
+          </Link>
+        </div>
+      </section>
+
       <section className="mb-10 mt-8 rounded-xl border border-primary/20 bg-gradient-to-br from-primary/5 to-accent/5 p-5 sm:p-6">
         <div className="mb-4 flex flex-col gap-1 sm:flex-row sm:items-end sm:justify-between">
           <div>
