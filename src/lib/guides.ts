@@ -11,6 +11,15 @@ export interface Guide {
 
 export const guides: Guide[] = [
   {
+    slug: "care-facility-visit-question-list",
+    title: "介護施設見学で聞く質問リスト",
+    description: "介護施設の見学前に、費用、医療対応、夜間対応、面会、退去条件、家族の連絡体制で確認したい質問を整理。",
+    icon: "🏢",
+    category: "household",
+    readTime: "9分",
+    publishedAt: "2026-05-25",
+  },
+  {
     slug: "long-distance-care-travel-cost-role-share",
     title: "遠距離介護の交通費と役割分担を家族で整理する方法",
     description: "遠距離介護で発生する交通費、宿泊費、現地対応、電話連絡、書類整理を分けて記録し、家族で話し合いやすくする方法を解説。",

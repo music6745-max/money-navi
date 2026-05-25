@@ -115,6 +115,7 @@ export default function KaigoPage() {
             ["kaigo-emergency-info", "緊急メモ", "連絡先・服薬・支払い確認項目を作成"],
             ["kaigo-care-certification-memo", "介護認定申請", "相談前の生活状況と調査前メモを整理"],
             ["kaigo-distance-care-travel-memo", "遠距離介護", "交通費と遠方でも担える役割を整理"],
+            ["kaigo-facility-visit-question-list", "施設見学質問", "費用・医療対応・面会・退去条件の質問を整理"],
           ].map(([slug, title, desc]) => (
             <TrackedExternalLink
               key={slug}

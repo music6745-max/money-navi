@@ -110,6 +110,79 @@ function KaigoActionBox({
 }
 
 const guideContents: Record<string, ReactNode> = {
+  "care-facility-visit-question-list": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">施設見学は「見た印象」だけで終わらせない</h2>
+        <p>
+          介護施設の見学では、建物のきれいさやスタッフの雰囲気に目が向きやすくなります。
+          もちろん印象も大切ですが、家族で比較するときに必要なのは、同じ質問を複数施設に投げて、費用、医療対応、夜間対応、
+          面会、退去条件を同じ形式で残すことです。
+        </p>
+        <p>
+          見学後に記憶だけで話し合うと、「よさそうだった」「高そうだった」という感想に寄りやすくなります。
+          事前に質問リストを作り、聞いたことと未確認のことを分けて記録しておくと、家族へ説明しやすくなります。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">費用で聞くこと</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm text-muted">
+          <li>入居一時金、敷金、保証金、償却、退去時の返金条件</li>
+          <li>月額利用料の内訳、家賃、管理費、食費、水道光熱費</li>
+          <li>介護保険自己負担、上乗せ介護費、夜間対応費、通院付き添い費</li>
+          <li>おむつ、日用品、理美容、レクリエーション、医療連携で追加費用が出る場面</li>
+          <li>入院が長引いた場合や退去する場合に発生する費用</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">生活と医療対応で聞くこと</h2>
+        <p>
+          本人の状態によって、確認すべき質問は変わります。服薬管理、通院付き添い、転倒リスク、認知面の不安、夜間の見守り、
+          食事形態、看取り対応など、家族が気になっていることを見学前に並べておきます。
+        </p>
+        <p>
+          施設側に「できますか」とだけ聞くより、「どの状態まで対応できますか」「追加費用はありますか」「状態が変わった時はどう相談しますか」
+          と聞くほうが、入居後の認識違いを減らしやすくなります。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">家族の通いやすさと連絡体制も比較する</h2>
+        <p>
+          施設選びは本人だけでなく、家族の通いやすさにも影響します。面会時間、オンライン面会、緊急時の連絡方法、
+          家族への報告頻度、通院付き添いを施設が行うか家族が行うかを確認します。
+        </p>
+        <p>
+          遠方の家族がいる場合は、見学に行った人が写真やパンフレットを共有するだけでなく、質問への回答、費用見積もり、
+          未確認事項を同じメモにまとめると判断が進めやすくなります。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">見学後に家族で確認すること</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm text-muted">
+          <li>本人の状態に合いそうか、家族が通える距離か、予算内に収まるか</li>
+          <li>追加費用、医療対応、退去条件で未確認の項目が残っていないか</li>
+          <li>次に見学する施設、再確認する質問、相談する窓口を決めたか</li>
+          <li>正式な見積もり、重要事項説明書、契約書を誰が確認するか</li>
+        </ul>
+      </section>
+
+      <KaigoActionBox
+        toolHref="https://net-toolbox.jp/tools/kaigo-facility-visit-question-list?utm_source=toshi-navi&utm_medium=guide&utm_campaign=care_facility_visit_question_list"
+        toolLabel="見学質問リストを作る"
+        boothHref="https://kaigo-okane.booth.pm/items/8340642"
+        boothLabel="施設選び重点パックを見る"
+      >
+        <p>
+          見学前は無料ツールで質問リストを作り、候補施設の比較や家族共有まで残す段階ではBOOTHの施設選び重点パックにまとめると、
+          費用と条件を同じ形式で見返せます。
+        </p>
+      </KaigoActionBox>
+    </>
+  ),
   "long-distance-care-travel-cost-role-share": (
     <>
       <section>
