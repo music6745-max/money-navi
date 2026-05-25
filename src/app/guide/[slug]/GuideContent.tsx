@@ -748,12 +748,12 @@ const guideContents: Record<string, ReactNode> = {
       <KaigoActionBox
         toolHref="https://net-toolbox.jp/tools/kaigo-cost-share?utm_source=toshi-navi&utm_medium=guide&utm_campaign=kaigo-cost-family-share"
         toolLabel="費用分担を試算する"
-        boothHref="https://kaigo-okane.booth.pm/items/8382816"
-        boothLabel="分担メモPDFを見る"
+        boothHref="https://kaigo-okane.booth.pm/items/8340354"
+        boothLabel="介護費用立替・分担記録テンプレートを見る"
       >
         <p>
           ざっくりした金額を入れて分担イメージを作りたい場合は無料ツールを使い、家族会議にそのまま持っていく資料が必要なら
-          BOOTHの分担メモPDFで項目を整えます。
+          BOOTHの介護費用立替・分担記録テンプレートで項目を整えます。
         </p>
       </KaigoActionBox>
     </>
