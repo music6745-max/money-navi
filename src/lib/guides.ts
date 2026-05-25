@@ -11,6 +11,15 @@ export interface Guide {
 
 export const guides: Guide[] = [
   {
+    slug: "long-distance-care-family-meeting-agenda",
+    title: "遠距離介護で家族会議を開く前に決めること",
+    description: "遠距離介護の家族会議で、連絡係、現地対応、費用記録、緊急時対応を揉めにくく整理する議題と進め方を解説。",
+    icon: "👥",
+    category: "household",
+    readTime: "9分",
+    publishedAt: "2026-05-25",
+  },
+  {
     slug: "parent-hospital-expense-advance-reimbursement",
     title: "親の入院費を立て替えたときの記録と精算の進め方",
     description: "親の入院費、差額ベッド代、日用品、交通費を家族が立て替えたときに、あとで揉めにくい記録と精算メモの作り方を解説。",

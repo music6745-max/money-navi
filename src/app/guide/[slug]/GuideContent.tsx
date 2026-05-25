@@ -110,6 +110,67 @@ function KaigoActionBox({
 }
 
 const guideContents: Record<string, ReactNode> = {
+  "long-distance-care-family-meeting-agenda": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">遠距離介護の家族会議は「不満の共有」ではなく「次の動きの整理」にする</h2>
+        <p>
+          遠距離介護では、近くに住む家族が現地対応を抱え込み、遠方の家族は状況が見えず、あとから費用や役割の不公平感が出やすくなります。
+          家族会議を開く目的は、誰かを責めることではなく、情報、役割、費用、緊急時の動きを同じ表に置くことです。
+        </p>
+        <p>
+          初回の会議では結論を出し切ろうとせず、決めること、未決のこと、次回までに集める情報を分けます。
+          特に遠方の家族が担える作業を明確にすると、現地に行けない人も介護に参加しやすくなります。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">最初の議題は5つに絞る</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm text-muted">
+          <li>親の現在の状況: 体調、通院、服薬、買い物、支払い、困っていること</li>
+          <li>連絡体制: 親への連絡頻度、家族間の共有方法、返事がない時の順番</li>
+          <li>現地対応: 通院付き添い、役所手続き、施設見学、急な訪問を誰が担うか</li>
+          <li>費用記録: 交通費、立替、親本人の支払い、領収書保管の担当</li>
+          <li>未決事項: 次回までに確認する窓口、書類、費用、相談先</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">遠方の家族に回しやすい役割</h2>
+        <p>
+          現地に行けない家族でも、定期連絡、会議メモ、費用記録、病院や施設へ聞く質問の整理、保険や書類の確認、
+          次回の議題作成は担当できます。移動できる人だけを「介護している人」にすると、負担が一人へ寄りやすくなります。
+        </p>
+        <p>
+          近くの家族は現地判断や急な対応を担うことが多いため、遠方の家族は事務作業や記録を引き受ける形にすると分担しやすくなります。
+          作業負担と金銭負担を別々に見える化することが、揉めにくい話し合いの土台です。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">会議後に残すメモ</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm text-muted">
+          <li>決まったこと、まだ決めないこと、次回までに確認すること</li>
+          <li>親本人へ誰が何を確認するか</li>
+          <li>病院、ケアマネ、施設、地域包括支援センターへ聞くこと</li>
+          <li>立替費用、交通費、領収書、親本人の支払い範囲</li>
+          <li>次回の家族共有日と、会議メモを保管する場所</li>
+        </ul>
+      </section>
+
+      <KaigoActionBox
+        toolHref="https://net-toolbox.jp/tools/kaigo-distance-care-family-meeting-agenda?utm_source=toshi-navi&utm_medium=guide&utm_campaign=distance_care_family_meeting_agenda"
+        toolLabel="家族会議アジェンダを作る"
+        boothHref="https://kaigo-okane.booth.pm/items/8382202"
+        boothLabel="介護連携シート集を見る"
+      >
+        <p>
+          まず無料ツールで議題、担当案、次回確認リストを作り、継続的に残す段階ではBOOTHの介護連携シート集へ転記すると、
+          病院、ケアマネ、施設との共有にも使いやすくなります。
+        </p>
+      </KaigoActionBox>
+    </>
+  ),
   "parent-hospital-expense-advance-reimbursement": (
     <>
       <section>
