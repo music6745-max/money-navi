@@ -110,6 +110,78 @@ function KaigoActionBox({
 }
 
 const guideContents: Record<string, ReactNode> = {
+  "care-manager-first-consultation-family-memo": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">初回相談は「何を頼むか」より「何に困っているか」を持っていく</h2>
+        <p>
+          ケアマネや地域包括支援センターへ初めて相談するとき、家族は介護サービス名や制度名を正しく知っていなくても大丈夫です。
+          先に必要なのは、親の日常で何が変わったか、家族がどこで困っているか、本人が何を嫌がっているかを短く説明できるメモです。
+        </p>
+        <p>
+          相談の場で全部を決めようとすると、本人の希望、家族の都合、費用不安、通院や服薬の話が混ざります。
+          生活状況、困りごと、家族の支援、費用と連絡体制を分けて持っていくと、次に確認する窓口や準備物が見えやすくなります。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">家族が持っていくメモの4分類</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm text-muted">
+          <li>生活状況: 食事、入浴、着替え、買い物、掃除、服薬、通院、外出の様子</li>
+          <li>困りごと: 転倒、もの忘れ、支払い忘れ、電話に出ない、病院説明が伝わらないなど</li>
+          <li>家族の支援: 近くで動ける人、遠方から連絡できる人、費用記録を残す人</li>
+          <li>費用と連絡体制: 親本人の支払い範囲、家族の立替、緊急時の連絡順</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">できる日とできない日の差を残す</h2>
+        <p>
+          相談時に伝わりにくいのは、普段はできるけれど疲れている日はできない、電話では元気そうだが家に行くと片付いていない、というような差です。
+          「いつもできない」と大きく言うより、日付、場面、家族が見た事実を1行で残すほうが、本人を責める印象も弱くなります。
+        </p>
+        <p>
+          たとえば、薬が余っていた、買い物に行けず同じ物ばかり食べていた、支払い用紙が未開封だった、通院予定を忘れていた、などです。
+          記憶違いで揉めないよう、家族間で見たことと聞いたことを分けてメモします。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">相談前に家族で仮決めすること</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm text-muted">
+          <li>相談窓口へ連絡する人、相談結果を家族へ共有する人</li>
+          <li>親本人に事前にどう説明するか、同席するかどうか</li>
+          <li>通院、買い物、書類、支払い確認のうち家族が担える範囲</li>
+          <li>費用の立替が出た場合の記録方法と領収書の保管担当</li>
+          <li>相談後に、次回まで確認することと決めないこと</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">個人情報はメモに詰め込みすぎない</h2>
+        <p>
+          相談前メモには、住所、保険証番号、口座番号、暗証番号、詳しい病名などをまとめて書き込まないほうが安全です。
+          まずは「何を確認したいか」「どの書類がありそうか」「誰が持参するか」までにとどめ、必要な情報は窓口の案内に沿って扱います。
+        </p>
+        <p>
+          医療、介護制度、契約、税務、相続の判断は、この記事だけで決めるものではありません。
+          家族内の状況整理と相談前準備として使い、最終判断は自治体、地域包括支援センター、医療機関、専門窓口へ確認してください。
+        </p>
+      </section>
+
+      <KaigoActionBox
+        toolHref="https://net-toolbox.jp/tools/kaigo-care-manager-first-consult-memo?utm_source=toshi-navi&utm_medium=guide&utm_campaign=care_manager_first_consult"
+        toolLabel="初回相談メモを作る"
+        boothHref="https://kaigo-okane.booth.pm/items/8407555"
+        boothLabel="介護認定申請前テンプレートを見る"
+      >
+        <p>
+          まず無料ツールで相談前に伝えること、家族の役割、費用不安を整理し、継続的に残す段階ではBOOTHの
+          介護認定申請前整理テンプレートへ転記すると、認定調査前や家族共有でも見返しやすくなります。
+        </p>
+      </KaigoActionBox>
+    </>
+  ),
   "long-distance-care-family-meeting-agenda": (
     <>
       <section>
@@ -300,12 +372,12 @@ const guideContents: Record<string, ReactNode> = {
       <KaigoActionBox
         toolHref="https://net-toolbox.jp/tools/kaigo-parent-monitoring-cost-check?utm_source=toshi-navi&utm_medium=guide&utm_campaign=living_alone_parent_monitoring"
         toolLabel="見守り費用をチェックする"
-        boothHref="https://kaigo-okane.booth.pm/items/8382816"
-        boothLabel="もしも準備ノートを見る"
+        boothHref="https://kaigo-okane.booth.pm/items/8409959"
+        boothLabel="見守り連絡表テンプレートを見る"
       >
         <p>
-          まず無料ツールで見守りにかかる費用、連絡頻度、緊急時の連絡順を整理し、急な入院や連絡不能時に備える段階では
-          BOOTHの「親のもしも準備ノート」に転記すると家族で共有しやすくなります。
+          まず無料ツールで見守りにかかる費用、連絡頻度、緊急時の連絡順を整理し、連絡表として家族で継続管理する段階では
+          BOOTHの「一人暮らし親の見守り連絡表テンプレート集」に転記すると共有しやすくなります。
         </p>
       </KaigoActionBox>
     </>

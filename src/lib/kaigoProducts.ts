@@ -56,6 +56,16 @@ export const kaigoProducts: KaigoProduct[] = [
     tags: ["もしも", "入院", "緊急時"],
   },
   {
+    id: "p103",
+    type: "single",
+    title: "一人暮らし親の見守り連絡表テンプレート集",
+    description:
+      "電話がつながらない時の連絡順、定期連絡ログ、見守り費用、連絡不能時の対応を家族で共有するPDF/Excelセット。",
+    priceLabel: "単品 1,480円",
+    boothUrl: "https://kaigo-okane.booth.pm/items/8409959",
+    tags: ["見守り", "連絡表", "一人暮らし"],
+  },
+  {
     id: "p05",
     type: "single",
     title: "介護費用立替・分担記録テンプレート",
@@ -157,7 +167,7 @@ export const kaigoSituations: KaigoSituation[] = [
     label: "一人暮らしの親の見守り、連絡頻度、緊急時対応に不安がある",
     shortLabel: "見守り体制",
     description: "見守りはサービス契約の前に、連絡頻度、費用、緊急時の動き、家族の担当を分けて整理します。",
-    productIds: ["p03", "p02", "p01", "starter-set", "s3", "note-compare"],
+    productIds: ["p103", "p03", "p02", "starter-set", "s3", "note-compare"],
     nextActions: [
       "普段の連絡頻度、電話がつながらない時の順番、訪問できる人を決める",
       "通信費、訪問交通費、配食や見守りサービス費、緊急時の立替を分けて記録する",

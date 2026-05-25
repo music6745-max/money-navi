@@ -11,6 +11,15 @@ export interface Guide {
 
 export const guides: Guide[] = [
   {
+    slug: "care-manager-first-consultation-family-memo",
+    title: "ケアマネに初回相談するとき家族が持っていくメモ",
+    description: "ケアマネや地域包括支援センターへ初めて相談するときに、生活状況、困りごと、家族の役割、費用不安を整理して伝える準備を解説。",
+    icon: "🗒️",
+    category: "household",
+    readTime: "9分",
+    publishedAt: "2026-05-25",
+  },
+  {
     slug: "long-distance-care-family-meeting-agenda",
     title: "遠距離介護で家族会議を開く前に決めること",
     description: "遠距離介護の家族会議で、連絡係、現地対応、費用記録、緊急時対応を揉めにくく整理する議題と進め方を解説。",
