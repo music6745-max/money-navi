@@ -153,6 +153,19 @@ export const kaigoSituations: KaigoSituation[] = [
     affiliateOfferIds: ["hoken-mammoth"],
   },
   {
+    id: "living-alone",
+    label: "一人暮らしの親の見守り、連絡頻度、緊急時対応に不安がある",
+    shortLabel: "見守り体制",
+    description: "見守りはサービス契約の前に、連絡頻度、費用、緊急時の動き、家族の担当を分けて整理します。",
+    productIds: ["p03", "p02", "p01", "starter-set", "s3", "note-compare"],
+    nextActions: [
+      "普段の連絡頻度、電話がつながらない時の順番、訪問できる人を決める",
+      "通信費、訪問交通費、配食や見守りサービス費、緊急時の立替を分けて記録する",
+      "保険証、お薬手帳、鍵、近所の連絡先など、もしもの時に必要な情報を1か所にまとめる",
+    ],
+    affiliateOfferIds: ["hoken-mammoth"],
+  },
+  {
     id: "money",
     label: "介護費用、保険、年金、立替精算など、お金まわりが不安",
     shortLabel: "お金を整理",

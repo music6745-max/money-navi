@@ -110,6 +110,84 @@ function KaigoActionBox({
 }
 
 const guideContents: Record<string, ReactNode> = {
+  "living-alone-parent-monitoring-cost-contact-system": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">一人暮らしの親の見守りは「サービス選び」より先に連絡体制を決める</h2>
+        <p>
+          親が一人暮らしをしていると、電話に出ない、薬を飲み忘れる、郵便物がたまる、支払いが遅れる、転倒しても気づきにくいなど、
+          家族が遠くから見えにくい不安が増えます。そこで最初にやることは、いきなり高額な見守りサービスを契約することではありません。
+        </p>
+        <p>
+          まずは家族がどの頻度で連絡するか、誰が訪問するか、緊急時に誰へ連絡するか、親本人がどこまで共有してよいと感じているかをそろえます。
+          そのうえで足りない部分だけを、自治体窓口、地域包括支援センター、民間サービス、家族の訪問で補うほうが、費用と心理的負担を抑えやすくなります。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">見守り費用は4つに分ける</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm text-muted">
+          <li>連絡費: 電話、スマホ、見守りアプリ、オンライン面談に使う通信費</li>
+          <li>訪問費: 家族の交通費、宿泊費、食事代、現地での移動費</li>
+          <li>外部サービス費: 安否確認、緊急通報、配食、買い物支援、家事支援などの利用料</li>
+          <li>予備費: 鍵の対応、急な受診、入院時の立替、日用品購入などの臨時支出</li>
+        </ul>
+        <p className="mt-3">
+          費用をまとめて「見守り代」と呼ぶと、何にいくらかかっているのかが見えにくくなります。
+          家族の訪問費、親本人の生活費、外部サービスの固定費、緊急時の立替を分けておくと、きょうだい間の説明もしやすくなります。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">連絡体制は「毎日」よりも「途切れた時の動き」を決める</h2>
+        <p>
+          毎日連絡すると決めても、家族側が続かなかったり、親が負担に感じたりすることがあります。大切なのは、
+          何日連絡が取れなかったら誰が電話するか、誰が訪問するか、近所や管理会社へ相談してよい条件を先に決めておくことです。
+        </p>
+        <p>
+          たとえば、平日は長男が電話、週末は長女が訪問、2日続けて連絡が取れない場合は近くの親族へ連絡、
+          緊急性がある場合は自治体や専門窓口に相談する、というように段階を分けます。親本人にも「監視」ではなく、
+          連絡が途切れた時に家族が迷わないためのルールだと説明します。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">家族で共有しておきたい項目</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm text-muted">
+          <li>通常の連絡頻度、電話がつながりやすい時間帯、連絡が取れない時の順番</li>
+          <li>近所の連絡先、管理会社、民生委員、地域包括支援センターなどの相談先</li>
+          <li>鍵の保管方法、救急搬送時に必要な保険証やお薬手帳の場所</li>
+          <li>服薬、通院、買い物、郵便物、公共料金の支払いで見守りが必要な項目</li>
+          <li>毎月かかる費用、家族が立て替えた費用、次回見直す日</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">サービスを契約する前に確認すること</h2>
+        <p>
+          民間の見守りサービスや機器を検討する場合は、初期費用、月額費、解約条件、緊急時の駆けつけ範囲、
+          家族への通知方法、親本人が操作できるかを確認します。自治体によって相談できる制度や窓口が異なるため、
+          まず地域包括支援センターや自治体の高齢者支援窓口に確認するのが現実的です。
+        </p>
+        <p>
+          カメラやセンサーは便利な場合もありますが、本人が強い抵抗を感じることがあります。最初は電話、訪問、配食、郵便物確認など、
+          生活の延長で受け入れやすい方法から始め、必要性が高まった段階で追加を検討します。
+        </p>
+      </section>
+
+      <KaigoActionBox
+        toolHref="https://net-toolbox.jp/tools/kaigo-parent-monitoring-cost-check?utm_source=toshi-navi&utm_medium=guide&utm_campaign=living_alone_parent_monitoring"
+        toolLabel="見守り費用をチェックする"
+        boothHref="https://kaigo-okane.booth.pm/items/8382816"
+        boothLabel="もしも準備ノートを見る"
+      >
+        <p>
+          まず無料ツールで見守りにかかる費用、連絡頻度、緊急時の連絡順を整理し、急な入院や連絡不能時に備える段階では
+          BOOTHの「親のもしも準備ノート」に転記すると家族で共有しやすくなります。
+        </p>
+      </KaigoActionBox>
+    </>
+  ),
   "parent-bankbook-insurance-asking-guide": (
     <>
       <section>

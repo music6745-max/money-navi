@@ -11,6 +11,15 @@ export interface Guide {
 
 export const guides: Guide[] = [
   {
+    slug: "living-alone-parent-monitoring-cost-contact-system",
+    title: "一人暮らしの親の見守り費用と連絡体制の作り方",
+    description: "一人暮らしの親を見守るときに、家族連絡、訪問、見守りサービス、緊急時対応の費用と役割を整理する方法を解説。",
+    icon: "📞",
+    category: "household",
+    readTime: "9分",
+    publishedAt: "2026-05-25",
+  },
+  {
     slug: "parent-bankbook-insurance-asking-guide",
     title: "親の通帳・保険証券を確認するときの聞き方",
     description: "親の通帳、保険証券、年金、公共料金、カード支払いを確認したいときに、警戒されにくい聞き方と家族共有メモの作り方を解説。",
