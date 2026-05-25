@@ -66,6 +66,16 @@ export const kaigoProducts: KaigoProduct[] = [
     tags: ["見守り", "連絡表", "一人暮らし"],
   },
   {
+    id: "p104",
+    type: "single",
+    title: "親の通帳・保険・支払い確認メモテンプレート集",
+    description:
+      "通帳、保険証券、年金、公共料金、毎月支払いの確認範囲と家族共有ルールを整理するPDF/Excelセット。",
+    priceLabel: "単品 1,480円",
+    boothUrl: "https://kaigo-okane.booth.pm/items/8410669",
+    tags: ["通帳", "保険", "支払い確認"],
+  },
+  {
     id: "p05",
     type: "single",
     title: "介護費用立替・分担記録テンプレート",
@@ -154,7 +164,7 @@ export const kaigoSituations: KaigoSituation[] = [
     label: "親の介護が気になり始めたが、何から整理すればよいか分からない",
     shortLabel: "まず全体を整理",
     description: "最初は連絡先、医療情報、お金、緊急時の4領域を薄く広くそろえるのが現実的です。",
-    productIds: ["note-compare", "starter-set", "p01", "p03", "s3", "full-pack"],
+    productIds: ["note-compare", "starter-set", "p01", "p104", "p03", "s3", "full-pack"],
     nextActions: [
       "親の基本情報、かかりつけ、服薬、緊急連絡先を1枚にまとめる",
       "口座、保険、年金、介護費用の見込みを家族で確認できる形にする",
@@ -180,7 +190,7 @@ export const kaigoSituations: KaigoSituation[] = [
     label: "介護費用、保険、年金、立替精算など、お金まわりが不安",
     shortLabel: "お金を整理",
     description: "支出と立替の記録を先に作ると、家族の話し合いと外部相談の両方が進めやすくなります。",
-    productIds: ["p05", "p01", "s3", "facility-pack", "full-pack", "note-faq"],
+    productIds: ["p104", "p05", "p01", "s3", "facility-pack", "full-pack", "note-faq"],
     nextActions: [
       "誰が、いつ、何に、いくら払ったかを月次で残す",
       "親の収入、年金、保険、預金、毎月の介護関連支出を一覧化する",
@@ -193,7 +203,7 @@ export const kaigoSituations: KaigoSituation[] = [
     label: "きょうだい・親族で分担や連絡の温度差がある",
     shortLabel: "家族で共有",
     description: "感情的な話し合いの前に、事実、役割、費用、連絡ルールを分けて見える化します。",
-    productIds: ["p05", "p02", "p01", "s3", "all-87", "note-compare"],
+    productIds: ["p05", "p104", "p02", "p01", "s3", "all-87", "note-compare"],
     nextActions: [
       "費用分担と作業分担を別々の表で管理する",
       "病院、ケアマネ、施設との連絡窓口を決める",

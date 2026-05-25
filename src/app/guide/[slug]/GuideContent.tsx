@@ -505,12 +505,12 @@ const guideContents: Record<string, ReactNode> = {
       <KaigoActionBox
         toolHref="https://net-toolbox.jp/tools/kaigo-parent-money-document-memo?utm_source=toshi-navi&utm_medium=guide&utm_campaign=parent_bankbook_insurance_asking_guide"
         toolLabel="確認メモを作る"
-        boothHref="https://kaigo-okane.booth.pm/items/8340072"
-        boothLabel="初期整理テンプレートを見る"
+        boothHref="https://kaigo-okane.booth.pm/items/8410669"
+        boothLabel="通帳・保険・支払い確認テンプレートを見る"
       >
         <p>
           まず無料ツールで聞く順番と確認項目を整理し、通帳、保険、支払い、連絡先を継続的に管理する段階では
-          BOOTHの初期整理テンプレートに転記すると家族で見返しやすくなります。
+          BOOTHの通帳・保険・支払い確認テンプレートに転記すると家族で見返しやすくなります。
         </p>
       </KaigoActionBox>
     </>
