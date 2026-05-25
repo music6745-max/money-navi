@@ -11,6 +11,15 @@ export interface Guide {
 
 export const guides: Guide[] = [
   {
+    slug: "care-facility-monthly-cost-estimate-check",
+    title: "介護施設の月額費用を見積もる前に確認すること",
+    description: "介護施設の見積もり前に、月額利用料、食費、介護保険自己負担、医療対応費、日用品、家族の交通費を分けて確認する方法を解説。",
+    icon: "🏠",
+    category: "household",
+    readTime: "9分",
+    publishedAt: "2026-05-25",
+  },
+  {
     slug: "care-manager-first-consultation-family-memo",
     title: "ケアマネに初回相談するとき家族が持っていくメモ",
     description: "ケアマネや地域包括支援センターへ初めて相談するときに、生活状況、困りごと、家族の役割、費用不安を整理して伝える準備を解説。",

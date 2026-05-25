@@ -110,6 +110,67 @@ function KaigoActionBox({
 }
 
 const guideContents: Record<string, ReactNode> = {
+  "care-facility-monthly-cost-estimate-check": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">施設費用は「パンフレットの月額」と「家族の実負担」を分ける</h2>
+        <p>
+          介護施設を検討するとき、パンフレットや見積書にある月額だけで家族会議を始めると、入居後の支払いで認識がずれやすくなります。
+          家賃、管理費、食費、介護保険自己負担に加えて、医療対応、日用品、通院付き添い、家族の交通費など、別に発生しやすい費用があります。
+        </p>
+        <p>
+          見積もり前にやることは、正確な金額を一度で当てることではありません。どの費用が施設請求に含まれ、どの費用が家族側で別管理になりそうかを
+          分けておくことです。この分け方ができていると、きょうだい間の説明や親本人のお金から払う範囲の確認が進めやすくなります。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">見積もり前に分ける費用項目</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm text-muted">
+          <li>施設へ毎月払う費用: 家賃相当額、管理費、食費、水道光熱費、基本サービス費</li>
+          <li>介護関連費: 介護保険自己負担、上乗せ介護費、夜間対応、個別支援の追加費</li>
+          <li>医療関連費: 訪問診療、薬、通院付き添い、医療処置、入院時の連絡や立替</li>
+          <li>生活費: 日用品、理美容、洗濯、衣類、嗜好品、通信費</li>
+          <li>家族側の費用: 面会交通費、宿泊費、書類取得、実家整理、緊急時の移動</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">見学時に聞くべき追加費用</h2>
+        <p>
+          施設見学では「月額はいくらですか」だけでなく、「この月額に含まれない費用は何ですか」と聞きます。
+          通院付き添い、医療処置、入院時の対応、外出同行、洗濯、理美容、消耗品、退去時の精算は、施設によって扱いが分かれます。
+        </p>
+        <p>
+          本人の状態が変わった時の費用も重要です。介護度が変わった場合、認知症状が強くなった場合、医療処置が必要になった場合、
+          退去や転居の条件がある場合は、家族の判断に直結します。金額だけでなく、追加費用が発生する条件をメモしておきます。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">家族会議では月額、年額、立替の3つで見る</h2>
+        <p>
+          月額が見えたら、年額と初期費用を合わせて見ます。家族の交通費や入院時の立替を含めると、施設へ払う金額よりも実負担が大きくなることがあります。
+          親本人の年金や預貯金から払う範囲、家族が一時的に立て替える範囲、きょうだいで相談する範囲を分けます。
+        </p>
+        <p>
+          ここで大事なのは、最初から分担割合を決め切ることではありません。候補施設ごとに費用の内訳を同じ形式で残し、未確認の項目を次回の見学や電話確認に回すことです。
+        </p>
+      </section>
+
+      <KaigoActionBox
+        toolHref="https://net-toolbox.jp/tools/kaigo-facility-monthly-cost-memo?utm_source=toshi-navi&utm_medium=guide&utm_campaign=facility_monthly_cost_estimate"
+        toolLabel="月額費用見積もりメモを作る"
+        boothHref="https://kaigo-okane.booth.pm/items/8340642"
+        boothLabel="施設選び重点パックを見る"
+      >
+        <p>
+          まず無料ツールで施設請求、医療・生活費、家族側の交通費を分けて概算し、見学後に比較表として残す段階では
+          BOOTHの施設選び・移行準備 重点パックへ転記すると、家族共有と次回確認がしやすくなります。
+        </p>
+      </KaigoActionBox>
+    </>
+  ),
   "care-manager-first-consultation-family-memo": (
     <>
       <section>
