@@ -110,6 +110,67 @@ function KaigoActionBox({
 }
 
 const guideContents: Record<string, ReactNode> = {
+  "parent-hospital-expense-advance-reimbursement": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">入院費の立替は「払った人の記憶」に残すだけだと揉めやすい</h2>
+        <p>
+          親が入院すると、入院保証金、入院費、差額ベッド代、日用品、洗濯、交通費、駐車場代など、細かい支払いが短期間に増えます。
+          近くに住む家族が先に払うことも多く、あとで「どこまで親本人のお金から精算するのか」「きょうだいで分けるのか」が曖昧になりがちです。
+        </p>
+        <p>
+          大切なのは、支払いをした直後に、支払った人、費目、金額、領収書の有無、精算予定を同じ形式で残すことです。
+          金額の大小よりも、あとで説明できる状態を作ることが家族内の不信感を減らします。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">最初に分ける費用</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm text-muted">
+          <li>病院へ支払う費用: 入院費、保証金、差額ベッド代、食事代、診断書代</li>
+          <li>入院生活の費用: パジャマ、タオル、日用品、テレビカード、洗濯代</li>
+          <li>家族の移動費: 交通費、駐車場代、宿泊費、付き添い時の食事代</li>
+          <li>手続き費用: 保険請求、役所手続き、郵送、コピー、書類取得</li>
+          <li>退院後の費用: 介護用品、福祉用具、住宅内の小さな準備</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">精算ルールは後からではなく仮で先に置く</h2>
+        <p>
+          入院直後は細かいルールを決める余裕がないため、まず仮ルールで十分です。病院への支払いは親本人の資金から精算する、
+          家族の交通費は月末にまとめて相談する、領収書がない少額支出はメモだけ残す、というように扱いを分けます。
+        </p>
+        <p>
+          きょうだいがいる場合は、支払い係と連絡係を分けると一人に負担が集中しにくくなります。近くの家族が動いている場合は、
+          現金負担だけでなく、付き添い、洗濯、書類提出、病院との連絡も作業負担として見える化します。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">記録に残す項目</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm text-muted">
+          <li>支払日、支払った人、支払先、費目、金額</li>
+          <li>領収書の有無、写真を撮ったか、原本の保管場所</li>
+          <li>親本人負担、家族分担、未定のどれにするか</li>
+          <li>精算予定日、精算済み日、振込や現金のメモ</li>
+          <li>病院や保険会社へ確認すること、次回の家族共有日</li>
+        </ul>
+      </section>
+
+      <KaigoActionBox
+        toolHref="https://net-toolbox.jp/tools/kaigo-hospital-expense-reimbursement-memo?utm_source=toshi-navi&utm_medium=guide&utm_campaign=parent_hospital_expense_reimbursement"
+        toolLabel="立替精算メモを作る"
+        boothHref="https://kaigo-okane.booth.pm/items/8340354"
+        boothLabel="介護費用立替・分担記録テンプレートを見る"
+      >
+        <p>
+          まず無料ツールで入院費、日用品、交通費、精算予定を整理し、継続的に管理する段階ではBOOTHの
+          介護費用立替・分担記録テンプレートへ転記すると、きょうだい間で見返しやすくなります。
+        </p>
+      </KaigoActionBox>
+    </>
+  ),
   "living-alone-parent-monitoring-cost-contact-system": (
     <>
       <section>

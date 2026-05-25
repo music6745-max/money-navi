@@ -114,6 +114,7 @@ export default function KaigoPage() {
             ["kaigo-family-role-share", "役割分担", "きょうだい間の担当案を整理"],
             ["kaigo-emergency-info", "緊急メモ", "連絡先・服薬・支払い確認項目を作成"],
             ["kaigo-care-certification-memo", "介護認定申請", "相談前の生活状況と調査前メモを整理"],
+            ["kaigo-hospital-expense-reimbursement-memo", "入院費精算", "入院費・日用品・交通費の立替精算を整理"],
             ["kaigo-parent-monitoring-cost-check", "見守り費用", "一人暮らしの親の見守り費用と連絡順を整理"],
             ["kaigo-distance-care-travel-memo", "遠距離介護", "交通費と遠方でも担える役割を整理"],
             ["kaigo-facility-visit-question-list", "施設見学質問", "費用・医療対応・面会・退去条件の質問を整理"],

@@ -11,6 +11,15 @@ export interface Guide {
 
 export const guides: Guide[] = [
   {
+    slug: "parent-hospital-expense-advance-reimbursement",
+    title: "親の入院費を立て替えたときの記録と精算の進め方",
+    description: "親の入院費、差額ベッド代、日用品、交通費を家族が立て替えたときに、あとで揉めにくい記録と精算メモの作り方を解説。",
+    icon: "🏥",
+    category: "household",
+    readTime: "9分",
+    publishedAt: "2026-05-25",
+  },
+  {
     slug: "living-alone-parent-monitoring-cost-contact-system",
     title: "一人暮らしの親の見守り費用と連絡体制の作り方",
     description: "一人暮らしの親を見守るときに、家族連絡、訪問、見守りサービス、緊急時対応の費用と役割を整理する方法を解説。",

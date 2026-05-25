@@ -1,6 +1,20 @@
 export type FAQ = { question: string; answer: string };
 
 export const guideFaqs: Record<string, FAQ[]> = {
+  "parent-hospital-expense-advance-reimbursement": [
+    {
+      question: "親の入院費を家族が立て替えたら何を記録すればよいですか？",
+      answer: "支払日、支払った人、病院名、費目、金額、領収書の有無、親本人のお金から精算するのか家族で分担するのかを分けて記録します。交通費や日用品も混ぜずに別項目にしておくと説明しやすくなります。",
+    },
+    {
+      question: "入院費は親本人の口座から払ってもよいですか？",
+      answer: "本人の意思確認と記録共有が前提です。家族が勝手に管理範囲を広げるとトラブルになりやすいため、支払い方法、立替、精算予定、確認した人を残し、必要に応じて病院窓口や専門家へ確認してください。",
+    },
+    {
+      question: "きょうだいで入院費を分けるときの注意点は？",
+      answer: "病院への支払い、家族の交通費、付き添いの作業負担、親本人の負担を別々に扱います。均等割りだけで決めず、近くの家族が担っている実務も見える化して話すと、負担の偏りを説明しやすくなります。",
+    },
+  ],
   "living-alone-parent-monitoring-cost-contact-system": [
     {
       question: "一人暮らしの親の見守りは何から始めればよいですか？",
