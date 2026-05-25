@@ -110,6 +110,67 @@ function KaigoActionBox({
 }
 
 const guideContents: Record<string, ReactNode> = {
+  "long-distance-care-travel-cost-role-share": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">遠距離介護は、交通費と作業負担を分けて見える化する</h2>
+        <p>
+          親が離れた場所で暮らしていると、通院付き添い、施設見学、役所手続き、緊急時の移動が急に発生します。
+          遠方から通う家族は交通費や宿泊費を負担し、近くに住む家族は日常の連絡や現地対応を担うことが多く、
+          どちらも「自分ばかり負担している」と感じやすくなります。
+        </p>
+        <p>
+          最初から負担割合を決め切るより、交通費、宿泊費、現地対応、電話連絡、書類整理を別々に記録します。
+          金額と作業を同じ話し合いに混ぜないことが、家族間の説明をしやすくする第一歩です。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">交通費メモに残す項目</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm text-muted">
+          <li>訪問日、訪問目的、通院・施設見学・役所手続き・緊急対応などの区分</li>
+          <li>往復交通費、現地移動費、駐車場代、宿泊費、食費などの実費</li>
+          <li>誰が立て替えたか、領収書や明細があるか、親本人のお金から精算するか</li>
+          <li>同じ日に発生した作業、面談内容、次回までに確認すること</li>
+          <li>家族で分担する対象にする費用と、各自負担にする費用の仮ルール</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">遠方でも担当できる役割を先に決める</h2>
+        <p>
+          遠方の家族が現地に行ける回数は限られますが、費用記録、病院や施設に聞く質問の整理、親への定期連絡、
+          きょうだい間の議事メモ作成は離れていても担当できます。近くの家族だけが現地対応と連絡係を兼ねると、
+          連絡漏れや感情的な負担が大きくなります。
+        </p>
+        <p>
+          たとえば、近くの家族は緊急時の現地対応、遠方の家族は月1回の費用集計と資料共有、全員で次回確認日を決める、
+          というように分けます。介護度、入退院、施設検討などの節目では、役割と交通費の扱いを見直します。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">決める前に避けたいこと</h2>
+        <p>
+          交通費を誰が持つかだけを急いで決めると、現地対応の時間や緊急時の負担が置き去りになります。
+          また、親本人の口座から支払う費用、家族が立て替える費用、親族間で分担する費用は扱いが違います。
+          税務、相続、契約に関わる判断は、整理したメモをもとに専門窓口へ確認してください。
+        </p>
+      </section>
+
+      <KaigoActionBox
+        toolHref="https://net-toolbox.jp/tools/kaigo-distance-care-travel-memo?utm_source=toshi-navi&utm_medium=guide&utm_campaign=long_distance_care_travel_cost_role_share"
+        toolLabel="交通費メモを作る"
+        boothHref="https://kaigo-okane.booth.pm/items/8382202"
+        boothLabel="介護連携シート集を見る"
+      >
+        <p>
+          まず無料ツールで月あたりの交通費と役割案を作り、決まった連絡ルールや面談メモは介護連携シートに残すと、
+          遠方の家族にも共有しやすくなります。
+        </p>
+      </KaigoActionBox>
+    </>
+  ),
   "care-certification-application-prep": (
     <>
       <section>

@@ -106,7 +106,7 @@ export default function KaigoPage() {
             ネットツールボックスを見る
           </a>
         </div>
-        <div className="mt-4 grid grid-cols-1 gap-3 md:grid-cols-3 lg:grid-cols-6">
+        <div className="mt-4 grid grid-cols-1 gap-3 md:grid-cols-3 lg:grid-cols-4">
           {[
             ["kaigo-cost-share", "介護費用分担", "毎月の介護費用を家族でどう分けるか試算"],
             ["kaigo-hospital-checklist", "入退院準備", "入院・退院・介護認定の確認リストを生成"],
@@ -114,6 +114,7 @@ export default function KaigoPage() {
             ["kaigo-family-role-share", "役割分担", "きょうだい間の担当案を整理"],
             ["kaigo-emergency-info", "緊急メモ", "連絡先・服薬・支払い確認項目を作成"],
             ["kaigo-care-certification-memo", "介護認定申請", "相談前の生活状況と調査前メモを整理"],
+            ["kaigo-distance-care-travel-memo", "遠距離介護", "交通費と遠方でも担える役割を整理"],
           ].map(([slug, title, desc]) => (
             <TrackedExternalLink
               key={slug}

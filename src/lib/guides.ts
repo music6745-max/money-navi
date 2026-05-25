@@ -11,6 +11,15 @@ export interface Guide {
 
 export const guides: Guide[] = [
   {
+    slug: "long-distance-care-travel-cost-role-share",
+    title: "遠距離介護の交通費と役割分担を家族で整理する方法",
+    description: "遠距離介護で発生する交通費、宿泊費、現地対応、電話連絡、書類整理を分けて記録し、家族で話し合いやすくする方法を解説。",
+    icon: "🚄",
+    category: "household",
+    readTime: "9分",
+    publishedAt: "2026-05-25",
+  },
+  {
     slug: "care-certification-application-prep",
     title: "介護認定の申請前に家族で準備すること",
     description: "親の介護認定を申請する前に、生活状況、困りごと、かかりつけ医、家族の役割分担を整理する方法を解説。",
