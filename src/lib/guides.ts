@@ -11,6 +11,15 @@ export interface Guide {
 
 export const guides: Guide[] = [
   {
+    slug: "parent-bankbook-insurance-asking-guide",
+    title: "親の通帳・保険証券を確認するときの聞き方",
+    description: "親の通帳、保険証券、年金、公共料金、カード支払いを確認したいときに、警戒されにくい聞き方と家族共有メモの作り方を解説。",
+    icon: "📒",
+    category: "household",
+    readTime: "9分",
+    publishedAt: "2026-05-25",
+  },
+  {
     slug: "care-facility-visit-question-list",
     title: "介護施設見学で聞く質問リスト",
     description: "介護施設の見学前に、費用、医療対応、夜間対応、面会、退去条件、家族の連絡体制で確認したい質問を整理。",

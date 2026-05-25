@@ -110,6 +110,78 @@ function KaigoActionBox({
 }
 
 const guideContents: Record<string, ReactNode> = {
+  "parent-bankbook-insurance-asking-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">親のお金の確認は、資産額ではなく「困った時の場所」から聞く</h2>
+        <p>
+          親の介護や入院が近づくと、通帳、保険証券、年金、公共料金、カード支払いの確認が必要になります。
+          ただ、いきなり「通帳を見せて」「資産はいくらあるの」と聞くと、親が警戒したり、家族間で不信感が出たりしやすくなります。
+        </p>
+        <p>
+          最初に聞くべきなのは金額ではなく、入院時や支払い確認で家族が困らないための保管場所と問い合わせ先です。
+          「管理したい」ではなく、「急な入院の時に連絡先や書類の場所が分からないと困るから、最低限だけ確認したい」と伝えるほうが進めやすくなります。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">最初に聞く範囲</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm text-muted">
+          <li>主に使っている銀行名、支店名、通帳やキャッシュカードの保管場所</li>
+          <li>年金の受取口座、年金通知書や関連書類の保管場所</li>
+          <li>医療保険、生命保険、火災保険、自動車保険の証券や問い合わせ先</li>
+          <li>家賃、管理費、電気、ガス、水道、電話、携帯、サブスクの支払い方法</li>
+          <li>健康保険証、介護保険証、お薬手帳、診察券、緊急連絡先</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">聞き方の例</h2>
+        <p>
+          聞き方は、親の財産を把握する話ではなく、手続きで困らないための話にします。たとえば「入院した時に保険の請求先が分からないと困るから、
+          保険証券の場所だけ教えて」「公共料金が止まると困るから、どの口座から引き落とされているかだけメモしておきたい」といった聞き方です。
+        </p>
+        <p>
+          きょうだいがいる場合は、聞いた人だけが情報を抱え込まないよう、確認した項目、未確認の項目、親が話したくない項目を分けて共有します。
+          情報の扱いに不安がある場合は、見られる人を限定し、暗証番号やパスワードはメモに入れないルールにしておきます。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">確認してはいけないものを先に決める</h2>
+        <p>
+          家族内整理では、暗証番号、ネットバンキングのパスワード、クレジットカードのセキュリティコードを集める必要はありません。
+          代理手続きや支払い補助が必要な場合は、金融機関、保険会社、専門家、公的窓口へ確認する前提で進めます。
+        </p>
+        <p>
+          まずは「どこに何があるか」「どこに問い合わせるか」「緊急時に誰へ連絡するか」だけで十分です。本人の意思確認を置き去りにせず、
+          家族が勝手に管理範囲を広げないことが、後のトラブルを防ぎます。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">家族共有メモに残す項目</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm text-muted">
+          <li>確認日、確認した人、親本人が同意した範囲</li>
+          <li>書類の種類、保管場所、問い合わせ先、次に確認すること</li>
+          <li>支払いが止まると困るもの、年1回更新があるもの、緊急時だけ必要なもの</li>
+          <li>きょうだいに共有する範囲、共有しない情報、専門窓口へ確認する事項</li>
+        </ul>
+      </section>
+
+      <KaigoActionBox
+        toolHref="https://net-toolbox.jp/tools/kaigo-parent-money-document-memo?utm_source=toshi-navi&utm_medium=guide&utm_campaign=parent_bankbook_insurance_asking_guide"
+        toolLabel="確認メモを作る"
+        boothHref="https://kaigo-okane.booth.pm/items/8340072"
+        boothLabel="初期整理テンプレートを見る"
+      >
+        <p>
+          まず無料ツールで聞く順番と確認項目を整理し、通帳、保険、支払い、連絡先を継続的に管理する段階では
+          BOOTHの初期整理テンプレートに転記すると家族で見返しやすくなります。
+        </p>
+      </KaigoActionBox>
+    </>
+  ),
   "care-facility-visit-question-list": (
     <>
       <section>
