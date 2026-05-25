@@ -294,12 +294,12 @@ const guideContents: Record<string, ReactNode> = {
       <KaigoActionBox
         toolHref="https://net-toolbox.jp/tools/kaigo-distance-care-family-meeting-agenda?utm_source=toshi-navi&utm_medium=guide&utm_campaign=distance_care_family_meeting_agenda"
         toolLabel="家族会議アジェンダを作る"
-        boothHref="https://kaigo-okane.booth.pm/items/8382202"
-        boothLabel="介護連携シート集を見る"
+        boothHref="https://kaigo-okane.booth.pm/items/8411252"
+        boothLabel="遠距離介護テンプレートを見る"
       >
         <p>
-          まず無料ツールで議題、担当案、次回確認リストを作り、継続的に残す段階ではBOOTHの介護連携シート集へ転記すると、
-          病院、ケアマネ、施設との共有にも使いやすくなります。
+          まず無料ツールで議題、担当案、次回確認リストを作り、継続的に残す段階ではBOOTHの遠距離介護テンプレートへ転記すると、
+          役割分担、連絡順、交通費、次回確認事項まで家族で見返しやすくなります。
         </p>
       </KaigoActionBox>
     </>
@@ -639,11 +639,11 @@ const guideContents: Record<string, ReactNode> = {
       <KaigoActionBox
         toolHref="https://net-toolbox.jp/tools/kaigo-distance-care-travel-memo?utm_source=toshi-navi&utm_medium=guide&utm_campaign=long_distance_care_travel_cost_role_share"
         toolLabel="交通費メモを作る"
-        boothHref="https://kaigo-okane.booth.pm/items/8382202"
-        boothLabel="介護連携シート集を見る"
+        boothHref="https://kaigo-okane.booth.pm/items/8411252"
+        boothLabel="遠距離介護テンプレートを見る"
       >
         <p>
-          まず無料ツールで月あたりの交通費と役割案を作り、決まった連絡ルールや面談メモは介護連携シートに残すと、
+          まず無料ツールで月あたりの交通費と役割案を作り、決まった連絡ルール、訪問計画、次回確認事項は遠距離介護テンプレートに残すと、
           遠方の家族にも共有しやすくなります。
         </p>
       </KaigoActionBox>

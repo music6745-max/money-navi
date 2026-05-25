@@ -76,6 +76,17 @@ export const kaigoProducts: KaigoProduct[] = [
     tags: ["通帳", "保険", "支払い確認"],
   },
   {
+    id: "p105",
+    type: "single",
+    title: "遠距離介護の役割分担・交通費・家族会議テンプレート集",
+    description:
+      "遠距離介護の家族会議、役割分担、連絡順、交通費・宿泊費、次回確認事項を整理するPDF/Excelセット。",
+    priceLabel: "単品 1,480円",
+    boothUrl: "https://kaigo-okane.booth.pm/items/8411252",
+    noteUrl: "https://note.com/mild_quail6092/n/nc529caabc54b",
+    tags: ["遠距離介護", "家族会議", "交通費"],
+  },
+  {
     id: "p05",
     type: "single",
     title: "介護費用立替・分担記録テンプレート",
@@ -203,7 +214,7 @@ export const kaigoSituations: KaigoSituation[] = [
     label: "きょうだい・親族で分担や連絡の温度差がある",
     shortLabel: "家族で共有",
     description: "感情的な話し合いの前に、事実、役割、費用、連絡ルールを分けて見える化します。",
-    productIds: ["p05", "p104", "p02", "p01", "s3", "all-87", "note-compare"],
+    productIds: ["p105", "p05", "p104", "p02", "p01", "s3", "all-87", "note-compare"],
     nextActions: [
       "費用分担と作業分担を別々の表で管理する",
       "病院、ケアマネ、施設との連絡窓口を決める",
@@ -242,7 +253,7 @@ export const kaigoSituations: KaigoSituation[] = [
     label: "遠距離介護で、情報共有や緊急時対応に不安がある",
     shortLabel: "遠距離介護",
     description: "遠方では情報の散在が最大のリスクです。連絡先、役割、緊急時の判断材料を先に共有します。",
-    productIds: ["p02", "p03", "p01", "s3", "full-pack", "note-faq"],
+    productIds: ["p105", "p02", "p03", "p01", "s3", "full-pack", "note-faq"],
     nextActions: [
       "現地対応者、家族連絡係、費用管理係を分けて決める",
       "親の医療、服薬、介護サービス、鍵、近所の連絡先を共有する",
