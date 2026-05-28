@@ -11,6 +11,15 @@ export interface Guide {
 
 export const guides: Guide[] = [
   {
+    slug: "care-certification-renewal-before-check",
+    title: "要介護認定の更新前に家族が整理しておくこと",
+    description: "要介護認定の更新が近づいたとき、前回からの生活変化、困りごと、通院・服薬、家族共有、相談先への確認事項を整理する方法を解説。",
+    icon: "📝",
+    category: "household",
+    readTime: "9分",
+    publishedAt: "2026-05-29",
+  },
+  {
     slug: "parent-memory-concern-consultation-memo",
     title: "親のもの忘れが気になったとき相談前に家族で整理すること",
     description: "親のもの忘れや生活の変化が気になり始めたとき、出来事、困りごと、家族共有、相談先への伝え方を整理する方法を解説。",

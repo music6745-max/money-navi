@@ -131,6 +131,17 @@ export const kaigoProducts: KaigoProduct[] = [
     tags: ["もの忘れ", "相談前整理", "家族共有"],
   },
   {
+    id: "p20",
+    type: "single",
+    title: "要介護認定 更新前整理テンプレート集",
+    description:
+      "要介護認定の更新前に、前回からの生活変化、困りごと、調査前メモ、通院・医療情報を整理するPDF/Excelセット。",
+    priceLabel: "単品 1,480円",
+    boothUrl: "https://kaigo-okane.booth.pm/items/8426543",
+    noteUrl: "https://note.com/mild_quail6092/n/n9bdd6fb99477",
+    tags: ["要介護認定", "認定更新", "生活状況記録"],
+  },
+  {
     id: "p13",
     type: "single",
     title: "会社員のための介護と仕事 両立整理メモ",
@@ -302,6 +313,19 @@ export const kaigoSituations: KaigoSituation[] = [
     affiliateOfferIds: ["hoken-mammoth"],
   },
   {
+    id: "certification-renewal",
+    label: "要介護認定の更新が近く、前回からの生活変化を整理したい",
+    shortLabel: "認定更新前",
+    description: "認定区分の予測ではなく、前回から変わった生活動作、困りごと、家族対応、相談先への確認事項を事実ベースで整理します。",
+    productIds: ["p20", "p107", "p10", "p103", "p02", "p03", "full-pack", "note-faq"],
+    nextActions: [
+      "前回認定のころと最近の状態を、移動・食事・入浴・排泄・睡眠・認知面に分けて書く",
+      "本人ができる日と難しい日、家族が実際に対応していることを分ける",
+      "更新手続きの時期、必要書類、相談先は市区町村窓口または担当ケアマネへ確認する",
+    ],
+    affiliateOfferIds: ["hoken-mammoth"],
+  },
+  {
     id: "work",
     label: "親の介護と仕事の両立で、職場への相談や休み方に迷っている",
     shortLabel: "仕事と介護",
@@ -319,7 +343,7 @@ export const kaigoSituations: KaigoSituation[] = [
     label: "入院、退院、介護認定、ケアマネ連携が発生している",
     shortLabel: "入退院と連携",
     description: "短期間で確認事項が増える段階です。連絡メモともしも情報を先に整えます。",
-    productIds: ["hospital-consult-pack", "p09", "p13", "p107", "p02", "p03", "p01", "s3", "full-pack", "note-faq"],
+    productIds: ["hospital-consult-pack", "p09", "p20", "p13", "p107", "p02", "p03", "p01", "s3", "full-pack", "note-faq"],
     nextActions: [
       "入院先、退院予定、服薬、既往歴、相談窓口を1か所に集める",
       "ケアマネや病院に聞くことを事前にリスト化する",
