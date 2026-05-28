@@ -88,6 +88,16 @@ export default function KaigoPage() {
               PDF・ExcelテンプレートFAQ
             </TrackedExternalLink>
             <TrackedExternalLink
+              href="https://kaigo-okane.booth.pm/items/8340434"
+              eventName="booth_click"
+              page="kaigo"
+              position="intro_new_template"
+              itemId="p09"
+              className="block rounded-md border border-primary/30 bg-primary/5 px-3 py-2 text-sm font-bold text-primary hover:border-primary/60"
+            >
+              新着: 入院・退院・在宅復帰テンプレート
+            </TrackedExternalLink>
+            <TrackedExternalLink
               href="https://kaigo-okane.booth.pm/items/8425543"
               eventName="booth_click"
               page="kaigo"
@@ -180,6 +190,7 @@ export default function KaigoPage() {
           {[
             ["kaigo-cost-share", "介護費用分担", "毎月の介護費用を家族でどう分けるか試算"],
             ["kaigo-hospital-checklist", "入退院準備", "入院・退院・介護認定の確認リストを生成"],
+            ["kaigo-discharge-home-return-plan", "在宅復帰準備", "退院後の通院・服薬・サービス・家族分担を整理"],
             ["kaigo-facility-compare", "施設費用比較", "候補施設の月額と総額を比較"],
             ["kaigo-facility-monthly-cost-memo", "施設月額見積もり", "施設請求・医療費・生活費・家族交通費を整理"],
             ["kaigo-family-role-share", "役割分担", "きょうだい間の担当案を整理"],

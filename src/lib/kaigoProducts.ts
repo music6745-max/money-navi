@@ -109,6 +109,17 @@ export const kaigoProducts: KaigoProduct[] = [
     tags: ["ケアマネ", "初回相談", "困りごと"],
   },
   {
+    id: "p09",
+    type: "single",
+    title: "親の入院・退院・在宅復帰 準備テンプレート集",
+    description:
+      "入院準備、退院前確認、入退院費用と手続き、在宅復帰後の通院・服薬・サービス予定を整理するPDF/Excelセット。",
+    priceLabel: "単品 1,480円",
+    boothUrl: "https://kaigo-okane.booth.pm/items/8340434",
+    noteUrl: "https://note.com/mild_quail6092/n/nba6ba32d2aa1",
+    tags: ["入院", "退院", "在宅復帰"],
+  },
+  {
     id: "p13",
     type: "single",
     title: "会社員のための介護と仕事 両立整理メモ",
@@ -284,7 +295,7 @@ export const kaigoSituations: KaigoSituation[] = [
     label: "入院、退院、介護認定、ケアマネ連携が発生している",
     shortLabel: "入退院と連携",
     description: "短期間で確認事項が増える段階です。連絡メモともしも情報を先に整えます。",
-    productIds: ["hospital-consult-pack", "p13", "p107", "p02", "p03", "p01", "s3", "full-pack", "note-faq"],
+    productIds: ["hospital-consult-pack", "p09", "p13", "p107", "p02", "p03", "p01", "s3", "full-pack", "note-faq"],
     nextActions: [
       "入院先、退院予定、服薬、既往歴、相談窓口を1か所に集める",
       "ケアマネや病院に聞くことを事前にリスト化する",

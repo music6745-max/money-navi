@@ -11,6 +11,15 @@ export interface Guide {
 
 export const guides: Guide[] = [
   {
+    slug: "hospital-discharge-home-return-family-checklist",
+    title: "親の退院後に自宅へ戻る前に家族で確認すること",
+    description: "親の退院後に自宅へ戻る前に、通院、服薬、介護サービス、自宅環境、家族分担、費用と手続きを分けて確認する方法を解説。",
+    icon: "🏥",
+    category: "household",
+    readTime: "9分",
+    publishedAt: "2026-05-29",
+  },
+  {
     slug: "care-work-balance-office-consultation-memo",
     title: "親の介護を職場に相談する前に整理すること",
     description: "親の介護が仕事に影響し始めたとき、職場へ相談する前に現状、休み方の希望、家族分担、確認先を分けて整理する方法を解説。",
