@@ -11,6 +11,15 @@ export interface Guide {
 
 export const guides: Guide[] = [
   {
+    slug: "care-work-balance-office-consultation-memo",
+    title: "親の介護を職場に相談する前に整理すること",
+    description: "親の介護が仕事に影響し始めたとき、職場へ相談する前に現状、休み方の希望、家族分担、確認先を分けて整理する方法を解説。",
+    icon: "💼",
+    category: "household",
+    readTime: "9分",
+    publishedAt: "2026-05-28",
+  },
+  {
     slug: "care-facility-monthly-cost-estimate-check",
     title: "介護施設の月額費用を見積もる前に確認すること",
     description: "介護施設の見積もり前に、月額利用料、食費、介護保険自己負担、医療対応費、日用品、家族の交通費を分けて確認する方法を解説。",

@@ -109,6 +109,17 @@ export const kaigoProducts: KaigoProduct[] = [
     tags: ["ケアマネ", "初回相談", "困りごと"],
   },
   {
+    id: "p13",
+    type: "single",
+    title: "会社員のための介護と仕事 両立整理メモ",
+    description:
+      "親の介護が始まった会社員が、職場への相談前に現状、休み方の希望、家族分担、相談先を整理するPDF/Excelセット。",
+    priceLabel: "単品 1,480円",
+    boothUrl: "https://kaigo-okane.booth.pm/items/8425543",
+    noteUrl: "https://note.com/mild_quail6092/n/n96d6f7647667",
+    tags: ["仕事と介護", "会社員", "両立"],
+  },
+  {
     id: "p05",
     type: "single",
     title: "介護費用立替・分担記録テンプレート",
@@ -247,7 +258,7 @@ export const kaigoSituations: KaigoSituation[] = [
     label: "きょうだい・親族で分担や連絡の温度差がある",
     shortLabel: "家族で共有",
     description: "感情的な話し合いの前に、事実、役割、費用、連絡ルールを分けて見える化します。",
-    productIds: ["p105", "p05", "p104", "p02", "p01", "s3", "all-87", "note-compare"],
+    productIds: ["p105", "p13", "p05", "p104", "p02", "p01", "s3", "all-87", "note-compare"],
     nextActions: [
       "費用分担と作業分担を別々の表で管理する",
       "病院、ケアマネ、施設との連絡窓口を決める",
@@ -256,11 +267,24 @@ export const kaigoSituations: KaigoSituation[] = [
     affiliateOfferIds: ["hoken-mammoth"],
   },
   {
+    id: "work",
+    label: "親の介護と仕事の両立で、職場への相談や休み方に迷っている",
+    shortLabel: "仕事と介護",
+    description: "勤務先へ相談する前に、介護の現状、仕事への影響、休み方の希望、家族分担を分けて整理します。",
+    productIds: ["p13", "hospital-consult-pack", "p107", "p105", "p02", "note-faq"],
+    nextActions: [
+      "職場へ伝える前に、介護の予定変更と仕事への影響を日付や頻度で書き出す",
+      "介護休業や休暇の結論を急がず、希望する働き方と確認したい制度を分ける",
+      "家族内で自分が担えること、担えないこと、職場相談後に再確認することを残す",
+    ],
+    affiliateOfferIds: ["hoken-mammoth"],
+  },
+  {
     id: "hospital",
     label: "入院、退院、介護認定、ケアマネ連携が発生している",
     shortLabel: "入退院と連携",
     description: "短期間で確認事項が増える段階です。連絡メモともしも情報を先に整えます。",
-    productIds: ["hospital-consult-pack", "p107", "p02", "p03", "p01", "s3", "full-pack", "note-faq"],
+    productIds: ["hospital-consult-pack", "p13", "p107", "p02", "p03", "p01", "s3", "full-pack", "note-faq"],
     nextActions: [
       "入院先、退院予定、服薬、既往歴、相談窓口を1か所に集める",
       "ケアマネや病院に聞くことを事前にリスト化する",
