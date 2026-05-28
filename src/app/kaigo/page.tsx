@@ -88,6 +88,16 @@ export default function KaigoPage() {
               PDF・ExcelテンプレートFAQ
             </TrackedExternalLink>
             <TrackedExternalLink
+              href="https://kaigo-okane.booth.pm/items/8382918"
+              eventName="booth_click"
+              page="kaigo"
+              position="intro_new_template"
+              itemId="p10"
+              className="block rounded-md border border-primary/30 bg-primary/5 px-3 py-2 text-sm font-bold text-primary hover:border-primary/60"
+            >
+              新着: もの忘れ相談前整理テンプレート
+            </TrackedExternalLink>
+            <TrackedExternalLink
               href="https://kaigo-okane.booth.pm/items/8340434"
               eventName="booth_click"
               page="kaigo"
@@ -197,6 +207,7 @@ export default function KaigoPage() {
             ["kaigo-emergency-info", "緊急メモ", "連絡先・服薬・支払い確認項目を作成"],
             ["kaigo-care-certification-memo", "介護認定申請", "相談前の生活状況と調査前メモを整理"],
             ["kaigo-care-manager-first-consult-memo", "ケアマネ相談", "初回相談で伝える生活状況・家族の役割を整理"],
+            ["kaigo-memory-consult-memo", "もの忘れ相談", "気になった出来事・困りごと・相談前メモを整理"],
             ["kaigo-work-care-balance-memo", "仕事と介護", "職場相談前の現状・休み方・家族分担を整理"],
             ["kaigo-hospital-expense-reimbursement-memo", "入院費精算", "入院費・日用品・交通費の立替精算を整理"],
             ["kaigo-parent-monitoring-cost-check", "見守り費用", "一人暮らしの親の見守り費用と連絡順を整理"],

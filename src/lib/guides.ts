@@ -11,6 +11,15 @@ export interface Guide {
 
 export const guides: Guide[] = [
   {
+    slug: "parent-memory-concern-consultation-memo",
+    title: "親のもの忘れが気になったとき相談前に家族で整理すること",
+    description: "親のもの忘れや生活の変化が気になり始めたとき、出来事、困りごと、家族共有、相談先への伝え方を整理する方法を解説。",
+    icon: "🧠",
+    category: "household",
+    readTime: "9分",
+    publishedAt: "2026-05-29",
+  },
+  {
     slug: "hospital-discharge-home-return-family-checklist",
     title: "親の退院後に自宅へ戻る前に家族で確認すること",
     description: "親の退院後に自宅へ戻る前に、通院、服薬、介護サービス、自宅環境、家族分担、費用と手続きを分けて確認する方法を解説。",

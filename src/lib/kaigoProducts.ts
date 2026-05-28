@@ -120,6 +120,17 @@ export const kaigoProducts: KaigoProduct[] = [
     tags: ["入院", "退院", "在宅復帰"],
   },
   {
+    id: "p10",
+    type: "single",
+    title: "親のもの忘れ 相談前整理テンプレート集",
+    description:
+      "親のもの忘れが気になり始めたとき、出来事、困りごと、生活の変化、家族共有メモを相談前に整理するPDF/Excelセット。",
+    priceLabel: "単品 1,480円",
+    boothUrl: "https://kaigo-okane.booth.pm/items/8382918",
+    noteUrl: "https://note.com/mild_quail6092/n/n2cc8c572ad41",
+    tags: ["もの忘れ", "相談前整理", "家族共有"],
+  },
+  {
     id: "p13",
     type: "single",
     title: "会社員のための介護と仕事 両立整理メモ",
@@ -274,6 +285,19 @@ export const kaigoSituations: KaigoSituation[] = [
       "費用分担と作業分担を別々の表で管理する",
       "病院、ケアマネ、施設との連絡窓口を決める",
       "決まったことだけでなく、未決事項も次回確認リストとして残す",
+    ],
+    affiliateOfferIds: ["hoken-mammoth"],
+  },
+  {
+    id: "memory",
+    label: "親のもの忘れや生活の変化が気になり、相談前に記録を残したい",
+    shortLabel: "もの忘れ相談",
+    description: "診断や受診判断ではなく、気になった出来事、生活の変化、家族が困っていることを事実ベースで整理します。",
+    productIds: ["p10", "p103", "p107", "p03", "p02", "s3", "full-pack", "note-faq"],
+    nextActions: [
+      "いつ、どこで、何が起きたかを判断抜きで1行ずつ残す",
+      "本人の様子と、家族が実際に困っていることを分ける",
+      "地域包括支援センター、かかりつけ医、もの忘れ外来へ相談したい内容を整理する",
     ],
     affiliateOfferIds: ["hoken-mammoth"],
   },

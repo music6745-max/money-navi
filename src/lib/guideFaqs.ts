@@ -1,6 +1,20 @@
 export type FAQ = { question: string; answer: string };
 
 export const guideFaqs: Record<string, FAQ[]> = {
+  "parent-memory-concern-consultation-memo": [
+    {
+      question: "親のもの忘れが気になったら、まず何を記録すればよいですか？",
+      answer: "いつ、どこで、何が起きたか、本人の様子、家族が困ったことを分けて書きます。診断名を決めるためではなく、地域包括支援センターやかかりつけ医へ相談するときに、事実を伝えやすくするための記録です。",
+    },
+    {
+      question: "この記録で認知症かどうか判断できますか？",
+      answer: "判断できません。認知症かどうか、受診が必要か、薬や治療の判断は医師や専門窓口へ確認してください。このページは家族内の記録整理と相談前準備を目的としています。",
+    },
+    {
+      question: "本人がもの忘れを認めない場合もメモしてよいですか？",
+      answer: "本人を責めるためではなく、家族が見た出来事や困りごとを落ち着いて相談するために記録します。感情的な表現より、日付、場面、起きたこと、家族が対応したことを短く残すのが現実的です。",
+    },
+  ],
   "hospital-discharge-home-return-family-checklist": [
     {
       question: "退院後に自宅へ戻る前、家族は何を確認すればよいですか？",
