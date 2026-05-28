@@ -153,6 +153,17 @@ export const kaigoProducts: KaigoProduct[] = [
     tags: ["ショートステイ", "持ち物", "申し送り"],
   },
   {
+    id: "p22",
+    type: "single",
+    title: "デイサービス利用前整理テンプレート集",
+    description:
+      "デイサービス利用前に、持ち物、事業所への申し送り、本人の様子、緊急連絡先、利用記録を整理するPDF/Excelセット。",
+    priceLabel: "単品 1,480円",
+    boothUrl: "https://kaigo-okane.booth.pm/items/8426705",
+    noteUrl: "https://note.com/mild_quail6092/n/n9dcdd731eebd",
+    tags: ["デイサービス", "通所介護", "申し送り"],
+  },
+  {
     id: "p13",
     type: "single",
     title: "会社員のための介護と仕事 両立整理メモ",
@@ -276,7 +287,7 @@ export const kaigoSituations: KaigoSituation[] = [
     label: "一人暮らしの親の見守り、連絡頻度、緊急時対応に不安がある",
     shortLabel: "見守り体制",
     description: "見守りはサービス契約の前に、連絡頻度、費用、緊急時の動き、家族の担当を分けて整理します。",
-    productIds: ["p103", "p03", "p02", "starter-set", "s3", "note-compare"],
+    productIds: ["p103", "p22", "p03", "p02", "starter-set", "s3", "note-compare"],
     nextActions: [
       "普段の連絡頻度、電話がつながらない時の順番、訪問できる人を決める",
       "通信費、訪問交通費、配食や見守りサービス費、緊急時の立替を分けて記録する",
@@ -350,6 +361,19 @@ export const kaigoSituations: KaigoSituation[] = [
     affiliateOfferIds: ["hoken-mammoth"],
   },
   {
+    id: "day-service",
+    label: "デイサービス利用前に、持ち物や事業所への申し送りを整理したい",
+    shortLabel: "デイサービス",
+    description: "利用可否や医療判断ではなく、持ち物、送迎、入浴・食事の注意点、緊急連絡先、事業所へ確認したいことを家族内で整理します。",
+    productIds: ["p22", "p21", "p107", "p20", "p10", "p103", "p02", "p03", "full-pack", "note-faq"],
+    nextActions: [
+      "事業所の持ち込みルール、送迎時間、薬の扱い、欠席連絡の方法を事前確認する",
+      "食事、水分、入浴、排泄、疲れやすい時間、声かけの仕方を短くまとめる",
+      "利用後の様子を残し、定期利用で毎回迷う確認事項を減らす",
+    ],
+    affiliateOfferIds: ["hoken-mammoth"],
+  },
+  {
     id: "work",
     label: "親の介護と仕事の両立で、職場への相談や休み方に迷っている",
     shortLabel: "仕事と介護",
@@ -367,7 +391,7 @@ export const kaigoSituations: KaigoSituation[] = [
     label: "入院、退院、介護認定、ケアマネ連携が発生している",
     shortLabel: "入退院と連携",
     description: "短期間で確認事項が増える段階です。連絡メモともしも情報を先に整えます。",
-    productIds: ["hospital-consult-pack", "p09", "p21", "p20", "p13", "p107", "p02", "p03", "p01", "s3", "full-pack", "note-faq"],
+    productIds: ["hospital-consult-pack", "p09", "p22", "p21", "p20", "p13", "p107", "p02", "p03", "p01", "s3", "full-pack", "note-faq"],
     nextActions: [
       "入院先、退院予定、服薬、既往歴、相談窓口を1か所に集める",
       "ケアマネや病院に聞くことを事前にリスト化する",

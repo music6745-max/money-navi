@@ -11,6 +11,15 @@ export interface Guide {
 
 export const guides: Guide[] = [
   {
+    slug: "day-service-before-use-family-checklist",
+    title: "デイサービス利用前に家族が確認すること",
+    description: "デイサービスを利用する前に、持ち物、送迎、薬、入浴、事業所への申し送り、利用後の振り返りを整理する方法を解説。",
+    icon: "🚐",
+    category: "household",
+    readTime: "9分",
+    publishedAt: "2026-05-29",
+  },
+  {
     slug: "short-stay-before-use-family-checklist",
     title: "ショートステイ利用前に家族が確認すること",
     description: "ショートステイを利用する前に、持ち物、薬、生活ルーティン、施設への申し送り、家族の確認事項を整理する方法を解説。",
