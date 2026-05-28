@@ -150,6 +150,17 @@ export const kaigoProducts: KaigoProduct[] = [
     tags: ["初期整理", "3点セット", "低価格"],
   },
   {
+    id: "hospital-consult-pack",
+    type: "set",
+    title: "親のこと整理ナビ 入院・退院・ケアマネ相談パック",
+    description:
+      "入院直後、退院前、家族共有、ケアマネ初回相談までを一式で整理する買い切りパック。P02、P03、P107にパック案内PDF/Excelを同梱。",
+    priceLabel: "パック 2,980円",
+    boothUrl: "https://kaigo-okane.booth.pm/items/8424970",
+    noteUrl: "https://note.com/mild_quail6092/n/n9d37a02a7c2d",
+    tags: ["入院", "退院", "ケアマネ"],
+  },
+  {
     id: "all-87",
     type: "pack",
     title: "介護はじめの87商品まとめセット",
@@ -249,7 +260,7 @@ export const kaigoSituations: KaigoSituation[] = [
     label: "入院、退院、介護認定、ケアマネ連携が発生している",
     shortLabel: "入退院と連携",
     description: "短期間で確認事項が増える段階です。連絡メモともしも情報を先に整えます。",
-    productIds: ["p107", "p02", "p03", "p01", "s3", "full-pack", "note-faq"],
+    productIds: ["hospital-consult-pack", "p107", "p02", "p03", "p01", "s3", "full-pack", "note-faq"],
     nextActions: [
       "入院先、退院予定、服薬、既往歴、相談窓口を1か所に集める",
       "ケアマネや病院に聞くことを事前にリスト化する",

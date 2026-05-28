@@ -88,6 +88,16 @@ export default function KaigoPage() {
               PDF・ExcelテンプレートFAQ
             </TrackedExternalLink>
             <TrackedExternalLink
+              href="https://kaigo-okane.booth.pm/items/8424970"
+              eventName="booth_click"
+              page="kaigo"
+              position="intro_new_pack"
+              itemId="hospital-consult-pack"
+              className="block rounded-md border border-primary/30 bg-primary/5 px-3 py-2 text-sm font-bold text-primary hover:border-primary/60"
+            >
+              新着: 入院・退院・ケアマネ相談パック
+            </TrackedExternalLink>
+            <TrackedExternalLink
               href="https://kaigo-okane.booth.pm/items/8424688"
               eventName="booth_click"
               page="kaigo"
