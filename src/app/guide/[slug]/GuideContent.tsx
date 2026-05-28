@@ -233,12 +233,12 @@ const guideContents: Record<string, ReactNode> = {
       <KaigoActionBox
         toolHref="https://net-toolbox.jp/tools/kaigo-care-manager-first-consult-memo?utm_source=toshi-navi&utm_medium=guide&utm_campaign=care_manager_first_consult"
         toolLabel="初回相談メモを作る"
-        boothHref="https://kaigo-okane.booth.pm/items/8407555"
-        boothLabel="介護認定申請前テンプレートを見る"
+        boothHref="https://kaigo-okane.booth.pm/items/8424688"
+        boothLabel="ケアマネ初回相談テンプレートを見る"
       >
         <p>
           まず無料ツールで相談前に伝えること、家族の役割、費用不安を整理し、継続的に残す段階ではBOOTHの
-          介護認定申請前整理テンプレートへ転記すると、認定調査前や家族共有でも見返しやすくなります。
+          ケアマネ初回相談テンプレートへ転記すると、生活状況、困りごと、家族の役割、質問メモを同じ形で見返しやすくなります。
         </p>
       </KaigoActionBox>
     </>

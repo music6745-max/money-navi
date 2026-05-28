@@ -98,6 +98,17 @@ export const kaigoProducts: KaigoProduct[] = [
     tags: ["介護施設", "月額費用", "初期費用"],
   },
   {
+    id: "p107",
+    type: "single",
+    title: "ケアマネ初回相談前の生活状況・困りごと整理テンプレート集",
+    description:
+      "ケアマネや地域包括支援センターへの初回相談前に、生活状況、困りごと、家族の役割、質問メモを整理するPDF/Excelセット。",
+    priceLabel: "単品 1,480円",
+    boothUrl: "https://kaigo-okane.booth.pm/items/8424688",
+    noteUrl: "https://note.com/mild_quail6092/n/n76d7cb54138e",
+    tags: ["ケアマネ", "初回相談", "困りごと"],
+  },
+  {
     id: "p05",
     type: "single",
     title: "介護費用立替・分担記録テンプレート",
@@ -238,7 +249,7 @@ export const kaigoSituations: KaigoSituation[] = [
     label: "入院、退院、介護認定、ケアマネ連携が発生している",
     shortLabel: "入退院と連携",
     description: "短期間で確認事項が増える段階です。連絡メモともしも情報を先に整えます。",
-    productIds: ["p02", "p03", "p01", "s3", "full-pack", "note-faq"],
+    productIds: ["p107", "p02", "p03", "p01", "s3", "full-pack", "note-faq"],
     nextActions: [
       "入院先、退院予定、服薬、既往歴、相談窓口を1か所に集める",
       "ケアマネや病院に聞くことを事前にリスト化する",
