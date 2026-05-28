@@ -161,12 +161,12 @@ const guideContents: Record<string, ReactNode> = {
       <KaigoActionBox
         toolHref="https://net-toolbox.jp/tools/kaigo-facility-monthly-cost-memo?utm_source=toshi-navi&utm_medium=guide&utm_campaign=facility_monthly_cost_estimate"
         toolLabel="月額費用見積もりメモを作る"
-        boothHref="https://kaigo-okane.booth.pm/items/8340642"
-        boothLabel="施設選び重点パックを見る"
+        boothHref="https://kaigo-okane.booth.pm/items/8424477"
+        boothLabel="施設費用テンプレートを見る"
       >
         <p>
           まず無料ツールで施設請求、医療・生活費、家族側の交通費を分けて概算し、見学後に比較表として残す段階では
-          BOOTHの施設選び・移行準備 重点パックへ転記すると、家族共有と次回確認がしやすくなります。
+          BOOTHの施設費用テンプレートへ転記すると、月額費用、初期費用、家族負担、候補施設比較を同じ形式で見返せます。
         </p>
       </KaigoActionBox>
     </>

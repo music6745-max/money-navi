@@ -87,6 +87,17 @@ export const kaigoProducts: KaigoProduct[] = [
     tags: ["遠距離介護", "家族会議", "交通費"],
   },
   {
+    id: "p106",
+    type: "single",
+    title: "施設入居前の月額費用・初期費用見積もりテンプレート集",
+    description:
+      "施設入居前の月額費用、初期費用、家族負担、候補施設比較を整理するPDF/Excelセット。",
+    priceLabel: "単品 1,480円",
+    boothUrl: "https://kaigo-okane.booth.pm/items/8424477",
+    noteUrl: "https://note.com/mild_quail6092/n/n6abb4d488839",
+    tags: ["介護施設", "月額費用", "初期費用"],
+  },
+  {
     id: "p05",
     type: "single",
     title: "介護費用立替・分担記録テンプレート",
@@ -240,7 +251,7 @@ export const kaigoSituations: KaigoSituation[] = [
     label: "施設選び、実家整理、入所前後の準備を進めたい",
     shortLabel: "施設選び",
     description: "比較軸をそろえることで、見学後の判断と家族への説明がしやすくなります。",
-    productIds: ["facility-pack", "p01", "p05", "all-87", "full-pack", "note-compare"],
+    productIds: ["p106", "facility-pack", "p01", "p05", "all-87", "full-pack", "note-compare"],
     nextActions: [
       "月額費用、初期費用、医療対応、面会、立地を同じ表で比較する",
       "見学時に聞くことと、見学後に確認することを分けて残す",
