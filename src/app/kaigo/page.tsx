@@ -98,6 +98,16 @@ export default function KaigoPage() {
               新着: もの忘れ相談前整理テンプレート
             </TrackedExternalLink>
             <TrackedExternalLink
+              href="https://kaigo-okane.booth.pm/items/8426647"
+              eventName="booth_click"
+              page="kaigo"
+              position="intro_new_template"
+              itemId="p21"
+              className="block rounded-md border border-primary/30 bg-primary/5 px-3 py-2 text-sm font-bold text-primary hover:border-primary/60"
+            >
+              新着: ショートステイ利用前テンプレート
+            </TrackedExternalLink>
+            <TrackedExternalLink
               href="https://kaigo-okane.booth.pm/items/8426543"
               eventName="booth_click"
               page="kaigo"
@@ -217,6 +227,7 @@ export default function KaigoPage() {
             ["kaigo-emergency-info", "緊急メモ", "連絡先・服薬・支払い確認項目を作成"],
             ["kaigo-care-certification-memo", "介護認定申請", "相談前の生活状況と調査前メモを整理"],
             ["kaigo-care-certification-renewal-memo", "認定更新前", "前回からの生活変化・困りごと・相談前メモを整理"],
+            ["kaigo-short-stay-prep-memo", "ショートステイ準備", "持ち物・申し送り・施設確認事項を整理"],
             ["kaigo-care-manager-first-consult-memo", "ケアマネ相談", "初回相談で伝える生活状況・家族の役割を整理"],
             ["kaigo-memory-consult-memo", "もの忘れ相談", "気になった出来事・困りごと・相談前メモを整理"],
             ["kaigo-work-care-balance-memo", "仕事と介護", "職場相談前の現状・休み方・家族分担を整理"],

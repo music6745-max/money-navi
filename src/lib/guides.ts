@@ -11,6 +11,15 @@ export interface Guide {
 
 export const guides: Guide[] = [
   {
+    slug: "short-stay-before-use-family-checklist",
+    title: "ショートステイ利用前に家族が確認すること",
+    description: "ショートステイを利用する前に、持ち物、薬、生活ルーティン、施設への申し送り、家族の確認事項を整理する方法を解説。",
+    icon: "🧳",
+    category: "household",
+    readTime: "9分",
+    publishedAt: "2026-05-29",
+  },
+  {
     slug: "care-certification-renewal-before-check",
     title: "要介護認定の更新前に家族が整理しておくこと",
     description: "要介護認定の更新が近づいたとき、前回からの生活変化、困りごと、通院・服薬、家族共有、相談先への確認事項を整理する方法を解説。",

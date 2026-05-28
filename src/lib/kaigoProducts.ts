@@ -142,6 +142,17 @@ export const kaigoProducts: KaigoProduct[] = [
     tags: ["要介護認定", "認定更新", "生活状況記録"],
   },
   {
+    id: "p21",
+    type: "single",
+    title: "ショートステイ利用前整理テンプレート集",
+    description:
+      "ショートステイ利用前に、持ち物、施設への申し送り、本人の様子、緊急連絡先、施設情報を整理するPDF/Excelセット。",
+    priceLabel: "単品 1,480円",
+    boothUrl: "https://kaigo-okane.booth.pm/items/8426647",
+    noteUrl: "https://note.com/mild_quail6092/n/n81e66989b43f",
+    tags: ["ショートステイ", "持ち物", "申し送り"],
+  },
+  {
     id: "p13",
     type: "single",
     title: "会社員のための介護と仕事 両立整理メモ",
@@ -326,6 +337,19 @@ export const kaigoSituations: KaigoSituation[] = [
     affiliateOfferIds: ["hoken-mammoth"],
   },
   {
+    id: "short-stay",
+    label: "ショートステイ利用前に、持ち物や施設への申し送りを整理したい",
+    shortLabel: "ショートステイ",
+    description: "利用可否や医療判断ではなく、持ち物、生活ルーティン、緊急連絡先、施設へ確認したいことを家族内で整理します。",
+    productIds: ["p21", "p107", "p20", "p10", "p103", "p02", "p03", "full-pack", "note-faq"],
+    nextActions: [
+      "施設の持ち込みルール、送迎時間、薬の扱い、緊急連絡先を事前確認する",
+      "日常ルーティン、食事、排泄、睡眠、コミュニケーションの特徴を短くまとめる",
+      "利用後の振り返りを残し、次回の準備漏れを減らす",
+    ],
+    affiliateOfferIds: ["hoken-mammoth"],
+  },
+  {
     id: "work",
     label: "親の介護と仕事の両立で、職場への相談や休み方に迷っている",
     shortLabel: "仕事と介護",
@@ -343,7 +367,7 @@ export const kaigoSituations: KaigoSituation[] = [
     label: "入院、退院、介護認定、ケアマネ連携が発生している",
     shortLabel: "入退院と連携",
     description: "短期間で確認事項が増える段階です。連絡メモともしも情報を先に整えます。",
-    productIds: ["hospital-consult-pack", "p09", "p20", "p13", "p107", "p02", "p03", "p01", "s3", "full-pack", "note-faq"],
+    productIds: ["hospital-consult-pack", "p09", "p21", "p20", "p13", "p107", "p02", "p03", "p01", "s3", "full-pack", "note-faq"],
     nextActions: [
       "入院先、退院予定、服薬、既往歴、相談窓口を1か所に集める",
       "ケアマネや病院に聞くことを事前にリスト化する",
@@ -356,7 +380,7 @@ export const kaigoSituations: KaigoSituation[] = [
     label: "施設選び、実家整理、入所前後の準備を進めたい",
     shortLabel: "施設選び",
     description: "比較軸をそろえることで、見学後の判断と家族への説明がしやすくなります。",
-    productIds: ["p106", "facility-pack", "p01", "p05", "all-87", "full-pack", "note-compare"],
+    productIds: ["p21", "p106", "facility-pack", "p01", "p05", "all-87", "full-pack", "note-compare"],
     nextActions: [
       "月額費用、初期費用、医療対応、面会、立地を同じ表で比較する",
       "見学時に聞くことと、見学後に確認することを分けて残す",
