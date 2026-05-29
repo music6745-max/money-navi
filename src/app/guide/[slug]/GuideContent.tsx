@@ -110,6 +110,67 @@ function KaigoActionBox({
 }
 
 const guideContents: Record<string, ReactNode> = {
+  "care-manager-meeting-after-todo-family-share": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">面談後は「聞いたこと」と「やること」が混ざりやすい</h2>
+        <p>
+          ケアマネジャーとの面談では、生活状況、サービス予定、家族の対応、次回までの確認事項など、短時間で多くの話が出ます。
+          その場では分かったつもりでも、帰宅後に家族へ共有しようとすると、何が決定で何が未確認か分かりにくくなりがちです。
+        </p>
+        <p>
+          面談後のToDo表は、ケアプランや契約書の代替ではありません。
+          家族が面談内容を見返し、誰が何をするか、次に何を確認するかを整理するための手元メモです。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">面談直後に分けておく項目</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm text-muted">
+          <li>決まったこと: サービス予定、次回面談、家族側の対応など</li>
+          <li>家族ToDo: 連絡、書類確認、持ち物準備、本人への確認</li>
+          <li>担当者: 家族の誰が、いつまでに、何を確認するか</li>
+          <li>未確認事項: ケアマネ、事業所、病院、自治体へ聞くこと</li>
+          <li>共有メモ: 面談に同席していない家族へ伝える要点</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">「決定」と「確認中」を分ける</h2>
+        <p>
+          面談後に家族内で混乱しやすいのは、正式に決まったことと、これから確認することが同じメモに混ざることです。
+          ToDo表では、決定済み、担当者未定、確認中、次回までに聞くことを分けて残します。
+        </p>
+        <p>
+          担当者が決まっていないタスクは、未定のまま残しておく方が後から話し合いやすくなります。
+          「誰かがやるだろう」を減らし、次の家族連絡で決めることを具体化できます。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">サービス判断は家族だけで決め切らない</h2>
+        <p>
+          家族のToDo表は、サービス内容や契約の判断を代替するものではありません。
+          ケアプラン、サービス変更、利用可否、自己負担額、介護保険上の扱いは、担当ケアマネジャー、各事業所、自治体へ確認してください。
+        </p>
+        <p>
+          家族ができるのは、面談で聞いたことを落ち着いて整理し、次に確認することを漏らさないようにすることです。
+        </p>
+      </section>
+
+      <KaigoActionBox
+        toolHref="https://net-toolbox.jp/tools/kaigo-care-manager-meeting-todo-memo?utm_source=toshi-navi&utm_medium=guide&utm_campaign=care_manager_meeting_todo"
+        toolLabel="面談後ToDoメモを作る"
+        boothHref="https://kaigo-okane.booth.pm/items/8382960"
+        boothLabel="面談後ToDoテンプレートを見る"
+      >
+        <p>
+          まず無料ツールで面談日、決まったこと、家族ToDo、担当者、確認事項を整理し、継続して使う段階ではBOOTHの
+          ケアマネ面談後の家族ToDoまとめテンプレートへ転記すると、面談後の共有を同じ形式で続けられます。
+        </p>
+      </KaigoActionBox>
+    </>
+  ),
   "home-care-monthly-family-role-calendar": (
     <>
       <section>

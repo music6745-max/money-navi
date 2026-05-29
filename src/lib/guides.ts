@@ -11,6 +11,16 @@ export interface Guide {
 
 export const guides: Guide[] = [
   {
+    slug: "care-manager-meeting-after-todo-family-share",
+    title: "ケアマネ面談後に家族でやることを整理する方法",
+    description:
+      "ケアマネジャーとの面談後に、決まったこと、家族がやること、次回までに確認することを分けて共有する方法を解説。",
+    icon: "🗒️",
+    category: "household",
+    readTime: "8分",
+    publishedAt: "2026-05-29",
+  },
+  {
     slug: "home-care-monthly-family-role-calendar",
     title: "在宅介護の月間予定と家族分担を共有する方法",
     description:

@@ -1,6 +1,23 @@
 export type FAQ = { question: string; answer: string };
 
 export const guideFaqs: Record<string, FAQ[]> = {
+  "care-manager-meeting-after-todo-family-share": [
+    {
+      question: "ケアマネ面談後には何を整理すればよいですか？",
+      answer:
+        "面談で決まったこと、家族が次回までにやること、誰が担当するか、ケアマネや事業所へ確認すること、必要な書類や連絡先を分けて残します。記憶が新しいうちに整理すると家族共有しやすくなります。",
+    },
+    {
+      question: "このToDo表でケアプランやサービス内容を決められますか？",
+      answer:
+        "決められません。ケアプラン、サービス変更、利用可否、契約、介護保険上の判断は担当ケアマネジャー、事業所、自治体などへ確認してください。このページは面談後の家族内整理を目的としています。",
+    },
+    {
+      question: "面談に同席していない家族への共有にも使えますか？",
+      answer:
+        "使えます。面談で聞いたことと家族のToDoを分けると、同席していない家族にも何が決まり、何が未確認かを伝えやすくなります。個人情報は共有範囲を決め、必要最小限にしてください。",
+    },
+  ],
   "home-care-monthly-family-role-calendar": [
     {
       question: "在宅介護の月間予定カレンダーには何を書けばよいですか？",
