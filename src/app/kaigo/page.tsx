@@ -98,6 +98,16 @@ export default function KaigoPage() {
               新着: もの忘れ相談前整理テンプレート
             </TrackedExternalLink>
             <TrackedExternalLink
+              href="https://kaigo-okane.booth.pm/items/8382968"
+              eventName="booth_click"
+              page="kaigo"
+              position="intro_new_template"
+              itemId="p30"
+              className="block rounded-md border border-primary/30 bg-primary/5 px-3 py-2 text-sm font-bold text-primary hover:border-primary/60"
+            >
+              新着: 施設入所後の面会・連絡メモ
+            </TrackedExternalLink>
+            <TrackedExternalLink
               href="https://kaigo-okane.booth.pm/items/8382965"
               eventName="booth_click"
               page="kaigo"
@@ -302,6 +312,7 @@ export default function KaigoPage() {
             ["kaigo-discharge-home-return-plan", "在宅復帰準備", "退院後の通院・服薬・サービス・家族分担を整理"],
             ["kaigo-facility-compare", "施設費用比較", "候補施設の月額と総額を比較"],
             ["kaigo-facility-monthly-cost-memo", "施設月額見積もり", "施設請求・医療費・生活費・家族交通費を整理"],
+            ["kaigo-facility-after-admission-visit-contact-memo", "入所後の面会・連絡", "面会記録・差し入れ・施設連絡を整理"],
             ["kaigo-family-role-share", "役割分担", "きょうだい間の担当案を整理"],
             ["kaigo-emergency-info", "緊急メモ", "連絡先・服薬・支払い確認項目を作成"],
             ["kaigo-care-certification-memo", "介護認定申請", "相談前の生活状況と調査前メモを整理"],

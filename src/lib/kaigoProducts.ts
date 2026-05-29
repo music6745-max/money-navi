@@ -98,6 +98,17 @@ export const kaigoProducts: KaigoProduct[] = [
     tags: ["介護施設", "月額費用", "初期費用"],
   },
   {
+    id: "p30",
+    type: "single",
+    title: "施設入所後の面会・差し入れ・連絡整理メモテンプレート集",
+    description:
+      "施設入所後の面会記録、差し入れ・持ち物確認、施設からの連絡、家族共有を整理するPDF/Excelセット。",
+    priceLabel: "単品 1,480円",
+    boothUrl: "https://kaigo-okane.booth.pm/items/8382968",
+    noteUrl: "https://note.com/mild_quail6092/n/nbb856cb5100d",
+    tags: ["施設入所後", "面会記録", "差し入れ"],
+  },
+  {
     id: "p107",
     type: "single",
     title: "ケアマネ初回相談前の生活状況・困りごと整理テンプレート集",
@@ -390,7 +401,7 @@ export const kaigoSituations: KaigoSituation[] = [
     label: "きょうだい・親族で分担や連絡の温度差がある",
     shortLabel: "家族で共有",
     description: "感情的な話し合いの前に、事実、役割、費用、連絡ルールを分けて見える化します。",
-    productIds: ["p105", "p29", "p28", "p27", "p26", "p13", "p05", "p104", "p02", "p01", "s3", "all-87", "note-compare"],
+    productIds: ["p105", "p30", "p29", "p28", "p27", "p26", "p13", "p05", "p104", "p02", "p01", "s3", "all-87", "note-compare"],
     nextActions: [
       "費用分担と作業分担を別々の表で管理する",
       "病院、ケアマネ、施設との連絡窓口を決める",
@@ -429,7 +440,7 @@ export const kaigoSituations: KaigoSituation[] = [
     label: "ショートステイ利用前に、持ち物や施設への申し送りを整理したい",
     shortLabel: "ショートステイ",
     description: "利用可否や医療判断ではなく、持ち物、生活ルーティン、緊急連絡先、施設へ確認したいことを家族内で整理します。",
-    productIds: ["p21", "p107", "p20", "p10", "p103", "p02", "p03", "full-pack", "note-faq"],
+    productIds: ["p21", "p30", "p107", "p20", "p10", "p103", "p02", "p03", "full-pack", "note-faq"],
     nextActions: [
       "施設の持ち込みルール、送迎時間、薬の扱い、緊急連絡先を事前確認する",
       "日常ルーティン、食事、排泄、睡眠、コミュニケーションの特徴を短くまとめる",
@@ -470,7 +481,7 @@ export const kaigoSituations: KaigoSituation[] = [
     shortLabel: "月間予定",
     description:
       "ケアプランや勤務表の代替ではなく、通院、訪問サービス、買い物、見守り連絡、帰省などを家族内で共有し、未定の担当を見える化します。",
-    productIds: ["p27", "p29", "p26", "p25", "p24", "p22", "p105", "p13", "p02", "full-pack", "note-faq"],
+    productIds: ["p27", "p30", "p29", "p26", "p25", "p24", "p22", "p105", "p13", "p02", "full-pack", "note-faq"],
     nextActions: [
       "月内の通院、訪問サービス、デイサービス、家族対応日をカレンダーに置く",
       "誰が連絡、付き添い、買い物、見守りを担うかを決定済みと未定で分ける",
@@ -563,7 +574,7 @@ export const kaigoSituations: KaigoSituation[] = [
     label: "入院、退院、介護認定、ケアマネ連携が発生している",
     shortLabel: "入退院と連携",
     description: "短期間で確認事項が増える段階です。連絡メモともしも情報を先に整えます。",
-    productIds: ["hospital-consult-pack", "p28", "p29", "p25", "p27", "p26", "p24", "p09", "p22", "p21", "p20", "p13", "p107", "p02", "p03", "p01", "s3", "full-pack", "note-faq"],
+    productIds: ["hospital-consult-pack", "p28", "p29", "p25", "p27", "p26", "p24", "p09", "p22", "p21", "p20", "p13", "p107", "p30", "p02", "p03", "p01", "s3", "full-pack", "note-faq"],
     nextActions: [
       "入院先、退院予定、服薬、既往歴、相談窓口を1か所に集める",
       "ケアマネや病院に聞くことを事前にリスト化する",
@@ -576,7 +587,7 @@ export const kaigoSituations: KaigoSituation[] = [
     label: "施設選び、実家整理、入所前後の準備を進めたい",
     shortLabel: "施設選び",
     description: "比較軸をそろえることで、見学後の判断と家族への説明がしやすくなります。",
-    productIds: ["p21", "p106", "facility-pack", "p01", "p05", "all-87", "full-pack", "note-compare"],
+    productIds: ["p30", "p21", "p106", "facility-pack", "p01", "p05", "all-87", "full-pack", "note-compare"],
     nextActions: [
       "月額費用、初期費用、医療対応、面会、立地を同じ表で比較する",
       "見学時に聞くことと、見学後に確認することを分けて残す",
@@ -585,11 +596,25 @@ export const kaigoSituations: KaigoSituation[] = [
     affiliateOfferIds: ["hoken-mammoth", "sbi-insweb-auto"],
   },
   {
+    id: "facility-after-admission",
+    label: "施設入所後に、面会・差し入れ・施設連絡を家族で共有したい",
+    shortLabel: "入所後の連絡",
+    description:
+      "施設の公式記録や評価ではなく、面会時の様子、差し入れ・持ち物確認、施設からの連絡、家族共有事項を整理します。",
+    productIds: ["p30", "facility-pack", "p106", "p21", "p105", "p02", "p03", "full-pack", "note-faq"],
+    nextActions: [
+      "面会日、本人の様子、施設から聞いたこと、次回確認したいことを分けて残す",
+      "差し入れや持ち物は、施設へ確認した可否や条件も一緒に書く",
+      "契約、費用、入退所、医療判断に関わることは施設や担当窓口へ確認する",
+    ],
+    affiliateOfferIds: ["hoken-mammoth"],
+  },
+  {
     id: "distance",
     label: "遠距離介護で、情報共有や緊急時対応に不安がある",
     shortLabel: "遠距離介護",
     description: "遠方では情報の散在が最大のリスクです。連絡先、役割、緊急時の判断材料を先に共有します。",
-    productIds: ["p105", "p29", "p28", "p27", "p26", "p02", "p03", "p01", "s3", "full-pack", "note-faq"],
+    productIds: ["p105", "p30", "p29", "p28", "p27", "p26", "p02", "p03", "p01", "s3", "full-pack", "note-faq"],
     nextActions: [
       "現地対応者、家族連絡係、費用管理係を分けて決める",
       "親の医療、服薬、介護サービス、鍵、近所の連絡先を共有する",

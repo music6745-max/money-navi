@@ -11,6 +11,16 @@ export interface Guide {
 
 export const guides: Guide[] = [
   {
+    slug: "facility-after-admission-family-visit-contact-memo",
+    title: "施設入所後の面会・差し入れ・連絡を家族で整理する方法",
+    description:
+      "親が施設へ入所した後に、面会記録、差し入れ、施設からの連絡、家族共有メモを分けて整理する方法を解説。",
+    icon: "🏢",
+    category: "household",
+    readTime: "8分",
+    publishedAt: "2026-05-30",
+  },
+  {
     slug: "home-visit-care-family-share-memo",
     title: "訪問介護利用時に家族で共有するメモの作り方",
     description:

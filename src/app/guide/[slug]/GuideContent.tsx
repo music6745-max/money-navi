@@ -110,6 +110,66 @@ function KaigoActionBox({
 }
 
 const guideContents: Record<string, ReactNode> = {
+  "facility-after-admission-family-visit-contact-memo": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">施設入所後も家族の確認事項は続く</h2>
+        <p>
+          親が老人ホームやグループホームなどへ入所すると、施設探しや契約の大きな山は越えます。
+          ただしその後も、面会で見た本人の様子、施設からの連絡、次回持っていく物、家族へ共有することは少しずつ増えていきます。
+        </p>
+        <p>
+          施設入所後の家族メモは、施設の公式記録や介護記録ではありません。
+          家族が面会後の気づき、差し入れ・持ち物確認、施設連絡を見返し、離れて暮らす家族へ共有するための手元メモです。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">面会・差し入れ・施設連絡を分ける</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm text-muted">
+          <li>面会記録: 面会日、本人の様子、家族が見たこと、次回話したいこと</li>
+          <li>差し入れ・持ち物: 持っていく物、施設へ確認した可否、次回必要な物</li>
+          <li>施設からの連絡: 担当者名、連絡内容、家族内で共有すること</li>
+          <li>次回確認事項: 施設スタッフ、ケアマネ、家族内で聞くこと</li>
+          <li>家族共有: 同席していない家族へ伝える短い要点</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">差し入れは「可否を確認した内容」として残す</h2>
+        <p>
+          食べ物、衣類、日用品、貴重品などの持ち込みルールは施設によって異なります。
+          家族のメモでは、何を持っていきたいかだけでなく、誰に確認したか、可否や条件をどう聞いたかを残しておくと見返しやすくなります。
+        </p>
+        <p>
+          持ち込み可否、保管、食事制限、医療上の注意点は家族だけで判断せず、施設スタッフや医療職へ確認してください。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">評価ではなく共有メモとして使う</h2>
+        <p>
+          面会後に気になったことを残す目的は、施設を評価・採点することではありません。
+          本人の様子、施設から聞いたこと、次に確認したいことを分けて、家族内の認識をそろえるためです。
+        </p>
+        <p>
+          契約、費用、入退所、サービス内容、苦情申し立て、医療判断に関わることは、施設や担当窓口へ直接確認してください。
+        </p>
+      </section>
+
+      <KaigoActionBox
+        toolHref="https://net-toolbox.jp/tools/kaigo-facility-after-admission-visit-contact-memo?utm_source=toshi-navi&utm_medium=guide&utm_campaign=facility_after_admission_contact"
+        toolLabel="施設入所後の面会・連絡メモを作る"
+        boothHref="https://kaigo-okane.booth.pm/items/8382968"
+        boothLabel="施設入所後メモテンプレートを見る"
+      >
+        <p>
+          まず無料ツールで面会記録、差し入れ、施設連絡、家族共有メモを整理し、継続して使う段階ではBOOTHの
+          施設入所後の面会・差し入れ・連絡整理メモテンプレートへ転記すると、家族内共有を同じ形式で続けられます。
+        </p>
+      </KaigoActionBox>
+    </>
+  ),
   "home-visit-care-family-share-memo": (
     <>
       <section>
