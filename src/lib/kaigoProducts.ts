@@ -76,6 +76,16 @@ export const kaigoProducts: KaigoProduct[] = [
     tags: ["介護者", "休息", "負担見える化"],
   },
   {
+    id: "p33",
+    type: "single",
+    title: "福祉用具レンタル・購入前に家族でまとめておく確認メモ集",
+    description:
+      "ケアマネジャーや福祉用具事業者への相談前に、生活場面ごとの困りごと、候補、質問、家族の意見を整理するPDF/Excelセット。",
+    priceLabel: "単品 1,480円",
+    boothUrl: "https://kaigo-okane.booth.pm/items/8382980",
+    tags: ["福祉用具", "レンタル", "購入前確認"],
+  },
+  {
     id: "p103",
     type: "single",
     title: "一人暮らし親の見守り連絡表テンプレート集",
@@ -458,6 +468,20 @@ export const kaigoSituations: KaigoSituation[] = [
     affiliateOfferIds: ["hoken-mammoth"],
   },
   {
+    id: "welfare-equipment",
+    label: "福祉用具のレンタル・購入を相談する前に、家族で困りごとを整理したい",
+    shortLabel: "福祉用具相談",
+    description:
+      "貸与・購入の判断ではなく、生活場面ごとの困りごと、気になる候補、確認したい質問、家族の意見を相談前に整理します。",
+    productIds: ["p33", "p28", "p107", "p20", "p23", "p24", "p22", "p21", "p02", "full-pack", "note-faq"],
+    nextActions: [
+      "移動、立ち上がり、入浴、排泄、寝具まわりなど、困っている生活場面を分ける",
+      "気になる道具名、パンフレットや見積で見た情報、家族の心配ごとをメモする",
+      "給付可否、対象品目、自己負担額、本人への適合は、ケアマネ、福祉用具事業者、市区町村窓口へ確認する",
+    ],
+    affiliateOfferIds: ["hoken-mammoth"],
+  },
+  {
     id: "memory",
     label: "親のもの忘れや生活の変化が気になり、相談前に記録を残したい",
     shortLabel: "もの忘れ相談",
@@ -515,7 +539,7 @@ export const kaigoSituations: KaigoSituation[] = [
     shortLabel: "週間予定",
     description:
       "ケアプランの代替ではなく、今週入っている訪問サービス、変更・休止、担当事業所への確認事項を家族内で見える化します。",
-    productIds: ["p26", "p32", "p29", "p27", "p28", "p22", "p25", "p24", "p107", "p105", "p02", "p03", "full-pack", "note-faq"],
+    productIds: ["p26", "p33", "p32", "p29", "p27", "p28", "p22", "p25", "p24", "p107", "p105", "p02", "p03", "full-pack", "note-faq"],
     nextActions: [
       "サービス名、曜日、時間帯、担当事業所、連絡先を週単位で一覧にする",
       "変更・休止があった日は、対象日、連絡元、確認したことを残す",
@@ -543,7 +567,7 @@ export const kaigoSituations: KaigoSituation[] = [
     shortLabel: "面談後ToDo",
     description:
       "ケアプランや契約判断の代替ではなく、面談で聞いたこと、家族がやること、次回までに確認することを整理します。",
-    productIds: ["p28", "p32", "p29", "p107", "hospital-consult-pack", "p105", "p27", "p26", "p02", "p03", "full-pack", "note-faq"],
+    productIds: ["p28", "p33", "p32", "p29", "p107", "hospital-consult-pack", "p105", "p27", "p26", "p02", "p03", "full-pack", "note-faq"],
     nextActions: [
       "面談で決まったこと、確認中のこと、家族ToDoを分けて書き出す",
       "誰がいつまでに連絡、書類確認、本人確認をするか担当を決める",
@@ -570,7 +594,7 @@ export const kaigoSituations: KaigoSituation[] = [
     label: "親が転んだ・転びそうになった場面を、相談前に記録したい",
     shortLabel: "転倒記録",
     description: "転倒原因や受診要否を判断するのではなく、日時、場所、状況、本人の様子、家族の対応、相談先への確認事項を事実ベースで整理します。",
-    productIds: ["p23", "p24", "p20", "p10", "p22", "p21", "p107", "p103", "p02", "p03", "full-pack", "note-faq"],
+    productIds: ["p23", "p33", "p24", "p20", "p10", "p22", "p21", "p107", "p103", "p02", "p03", "full-pack", "note-faq"],
     nextActions: [
       "いつ、どこで、何をしようとしていたか、転倒かヒヤリハットかを短く記録する",
       "痛み、けが、急な変化が気になる場合は、家族内で判断せず医療機関や救急相談窓口へ確認する",
@@ -596,7 +620,7 @@ export const kaigoSituations: KaigoSituation[] = [
     label: "退院後1か月の在宅生活で、毎日の様子を記録したい",
     shortLabel: "退院後1か月",
     description: "在宅療養の可否や緊急性を判断するのではなく、食事、水分、睡眠、活動、担当者へ伝えることを家族内で記録します。",
-    productIds: ["p25", "p32", "p29", "p28", "p27", "p26", "p09", "p24", "p23", "p22", "p21", "p107", "p02", "p03", "p01", "hospital-consult-pack", "full-pack", "note-faq"],
+    productIds: ["p25", "p33", "p32", "p29", "p28", "p27", "p26", "p09", "p24", "p23", "p22", "p21", "p107", "p02", "p03", "p01", "hospital-consult-pack", "full-pack", "note-faq"],
     nextActions: [
       "退院後の食事、水分、睡眠、活動の様子を、毎日同じ形式で短く残す",
       "ケアマネ、訪問看護師、ヘルパーから伝えられたことを家族内で共有する",
@@ -622,7 +646,7 @@ export const kaigoSituations: KaigoSituation[] = [
     label: "入院、退院、介護認定、ケアマネ連携が発生している",
     shortLabel: "入退院と連携",
     description: "短期間で確認事項が増える段階です。連絡メモともしも情報を先に整えます。",
-    productIds: ["hospital-consult-pack", "p31", "p28", "p29", "p25", "p27", "p26", "p24", "p09", "p22", "p21", "p20", "p13", "p107", "p30", "p02", "p03", "p01", "s3", "full-pack", "note-faq"],
+    productIds: ["hospital-consult-pack", "p33", "p31", "p28", "p29", "p25", "p27", "p26", "p24", "p09", "p22", "p21", "p20", "p13", "p107", "p30", "p02", "p03", "p01", "s3", "full-pack", "note-faq"],
     nextActions: [
       "入院先、退院予定、服薬、既往歴、相談窓口を1か所に集める",
       "ケアマネや病院に聞くことを事前にリスト化する",

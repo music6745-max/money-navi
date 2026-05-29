@@ -11,6 +11,16 @@ export interface Guide {
 
 export const guides: Guide[] = [
   {
+    slug: "welfare-equipment-rental-purchase-family-check",
+    title: "福祉用具レンタル・購入前に家族で整理すること",
+    description:
+      "ケアマネジャーや福祉用具事業者へ相談する前に、生活場面ごとの困りごと、候補、質問、家族の意見を整理する方法を解説。",
+    icon: "🧰",
+    category: "household",
+    readTime: "8分",
+    publishedAt: "2026-05-30",
+  },
+  {
     slug: "caregiver-rest-schedule-burden-visualization",
     title: "介護する家族の休息予定と負担を見える化する方法",
     description:

@@ -1,6 +1,23 @@
 export type FAQ = { question: string; answer: string };
 
 export const guideFaqs: Record<string, FAQ[]> = {
+  "welfare-equipment-rental-purchase-family-check": [
+    {
+      question: "福祉用具の相談前には何を整理すればよいですか？",
+      answer:
+        "移動、立ち上がり、入浴、排泄、寝具まわりなど、生活場面ごとの困りごと、気になっている道具名、家族が確認したいこと、パンフレットや見積で見た情報を分けて書きます。",
+    },
+    {
+      question: "このメモでレンタルか購入かを判断できますか？",
+      answer:
+        "判断できません。福祉用具の貸与・購入の対象、給付可否、本人への適合、自己負担額は、担当ケアマネジャー、福祉用具事業者、市区町村窓口などへ確認してください。",
+    },
+    {
+      question: "家族で意見が分かれている時にも使えますか？",
+      answer:
+        "使えます。誰が何に困っているか、本人の希望、家族が心配している点、専門職へ確認したい質問を分けておくと、相談時に話が散らばりにくくなります。",
+    },
+  ],
   "caregiver-rest-schedule-burden-visualization": [
     {
       question: "介護者自身の負担メモには何を書けばよいですか？",

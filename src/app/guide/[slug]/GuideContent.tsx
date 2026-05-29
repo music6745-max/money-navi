@@ -110,6 +110,66 @@ function KaigoActionBox({
 }
 
 const guideContents: Record<string, ReactNode> = {
+  "welfare-equipment-rental-purchase-family-check": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">福祉用具の話は家族の困りごとから始める</h2>
+        <p>
+          ケアマネジャーや福祉用具事業者から、介護ベッド、手すり、歩行器、車いす、入浴用品などの話が出ると、
+          家族は「何を選べばよいか」「レンタルと購入のどちらなのか」に意識が向きがちです。
+        </p>
+        <p>
+          ただし家族が先に決めるべきなのは商品名ではなく、本人がどの生活場面で困っているか、家族が何を心配しているかを整理することです。
+          そのメモがあると、専門職へ相談する時に確認したい点を伝えやすくなります。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">生活場面ごとに困りごとを分ける</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm text-muted">
+          <li>移動・歩行: 家の中、玄関、外出時、段差で困っていること</li>
+          <li>起き上がり・立ち上がり: ベッド、椅子、トイレ、浴室で不安なこと</li>
+          <li>入浴・排泄: 介助が必要な場面、本人が不安がる場面</li>
+          <li>寝具まわり: 夜間、寝返り、起床時、転落や移動の不安</li>
+          <li>家族の確認事項: 置き場所、費用、試用、返却、メンテナンス、連絡先</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">候補名と質問は分けて書く</h2>
+        <p>
+          パンフレットや知人の話で気になった道具名があっても、それをそのまま選ぶ前提にしない方が相談しやすくなります。
+          「気になる候補」と「専門職へ確認したい質問」を分けて書いておくと、本人の状態や住環境に合うかを確認しやすくなります。
+        </p>
+        <p>
+          家族内で意見が違う場合も、賛成・反対を結論にせず、心配している点として残しておくと、相談時の材料になります。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">制度や適合判断は専門窓口へ確認する</h2>
+        <p>
+          福祉用具の貸与・購入の対象、介護保険の給付可否、自己負担額、本人への適合、安全面の判断は、家族メモだけでは決められません。
+          担当ケアマネジャー、福祉用具事業者、市区町村窓口、医療・リハビリ職などへ確認してください。
+        </p>
+        <p>
+          このページでは、相談前に家族の困りごとと質問をそろえるための整理方法に絞っています。
+        </p>
+      </section>
+
+      <KaigoActionBox
+        toolHref="https://net-toolbox.jp/tools/kaigo-welfare-equipment-rental-purchase-memo?utm_source=toshi-navi&utm_medium=guide&utm_campaign=welfare_equipment_memo"
+        toolLabel="福祉用具相談前メモを作る"
+        boothHref="https://kaigo-okane.booth.pm/items/8382980"
+        boothLabel="福祉用具確認テンプレートを見る"
+      >
+        <p>
+          まず無料ツールで生活場面ごとの困りごと、気になる候補、ケアマネや事業者へ確認したいことを整理し、家族で継続して見返す段階ではBOOTHの
+          福祉用具レンタル・購入前確認メモ集へ転記すると、相談前の材料を同じ形式で残せます。
+        </p>
+      </KaigoActionBox>
+    </>
+  ),
   "caregiver-rest-schedule-burden-visualization": (
     <>
       <section>
