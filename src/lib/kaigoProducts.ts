@@ -164,6 +164,17 @@ export const kaigoProducts: KaigoProduct[] = [
     tags: ["デイサービス", "通所介護", "申し送り"],
   },
   {
+    id: "p24",
+    type: "single",
+    title: "通院付き添い・受診前後記録テンプレート集",
+    description:
+      "親の通院付き添い前後に、医師へ伝えたいこと、受診後の説明、薬局メモ、次回予定を整理するPDF/Excelセット。",
+    priceLabel: "単品 1,480円",
+    boothUrl: "https://kaigo-okane.booth.pm/items/8427038",
+    noteUrl: "https://note.com/mild_quail6092/n/naf357b052f55",
+    tags: ["通院記録", "受診メモ", "家族共有"],
+  },
+  {
     id: "p23",
     type: "single",
     title: "親の転倒・ヒヤリハット記録テンプレート集",
@@ -337,7 +348,7 @@ export const kaigoSituations: KaigoSituation[] = [
     label: "親のもの忘れや生活の変化が気になり、相談前に記録を残したい",
     shortLabel: "もの忘れ相談",
     description: "診断や受診判断ではなく、気になった出来事、生活の変化、家族が困っていることを事実ベースで整理します。",
-    productIds: ["p10", "p23", "p103", "p107", "p03", "p02", "s3", "full-pack", "note-faq"],
+    productIds: ["p10", "p24", "p23", "p103", "p107", "p03", "p02", "s3", "full-pack", "note-faq"],
     nextActions: [
       "いつ、どこで、何が起きたかを判断抜きで1行ずつ残す",
       "本人の様子と、家族が実際に困っていることを分ける",
@@ -350,7 +361,7 @@ export const kaigoSituations: KaigoSituation[] = [
     label: "要介護認定の更新が近く、前回からの生活変化を整理したい",
     shortLabel: "認定更新前",
     description: "認定区分の予測ではなく、前回から変わった生活動作、困りごと、家族対応、相談先への確認事項を事実ベースで整理します。",
-    productIds: ["p20", "p23", "p107", "p10", "p103", "p02", "p03", "full-pack", "note-faq"],
+    productIds: ["p20", "p24", "p23", "p107", "p10", "p103", "p02", "p03", "full-pack", "note-faq"],
     nextActions: [
       "前回認定のころと最近の状態を、移動・食事・入浴・排泄・睡眠・認知面に分けて書く",
       "本人ができる日と難しい日、家族が実際に対応していることを分ける",
@@ -389,11 +400,24 @@ export const kaigoSituations: KaigoSituation[] = [
     label: "親が転んだ・転びそうになった場面を、相談前に記録したい",
     shortLabel: "転倒記録",
     description: "転倒原因や受診要否を判断するのではなく、日時、場所、状況、本人の様子、家族の対応、相談先への確認事項を事実ベースで整理します。",
-    productIds: ["p23", "p20", "p10", "p22", "p21", "p107", "p103", "p02", "p03", "full-pack", "note-faq"],
+    productIds: ["p23", "p24", "p20", "p10", "p22", "p21", "p107", "p103", "p02", "p03", "full-pack", "note-faq"],
     nextActions: [
       "いつ、どこで、何をしようとしていたか、転倒かヒヤリハットかを短く記録する",
       "痛み、けが、急な変化が気になる場合は、家族内で判断せず医療機関や救急相談窓口へ確認する",
       "段差、照明、手すり、トイレまでの動線などを事実として書き出し、ケアマネや専門職へ相談する",
+    ],
+    affiliateOfferIds: ["hoken-mammoth"],
+  },
+  {
+    id: "clinic-visit",
+    label: "親の通院付き添い前後に、聞くことと説明内容を整理したい",
+    shortLabel: "通院付き添い",
+    description: "受診要否や薬の判断ではなく、受診前に伝えること、受診後に聞いたこと、薬局で説明されたこと、次回までの確認事項を家族内で整理します。",
+    productIds: ["p24", "p23", "p10", "p20", "p107", "p103", "p02", "p03", "full-pack", "note-faq"],
+    nextActions: [
+      "前回受診からの変化、本人の困りごと、家族が気づいたことを短く書き出す",
+      "医師や薬剤師へ確認したいことを、受診前に質問メモとしてまとめる",
+      "受診後は説明内容、次回予定、家族に共有することをその日のうちに残す",
     ],
     affiliateOfferIds: ["hoken-mammoth"],
   },
@@ -415,7 +439,7 @@ export const kaigoSituations: KaigoSituation[] = [
     label: "入院、退院、介護認定、ケアマネ連携が発生している",
     shortLabel: "入退院と連携",
     description: "短期間で確認事項が増える段階です。連絡メモともしも情報を先に整えます。",
-    productIds: ["hospital-consult-pack", "p09", "p22", "p21", "p20", "p13", "p107", "p02", "p03", "p01", "s3", "full-pack", "note-faq"],
+    productIds: ["hospital-consult-pack", "p24", "p09", "p22", "p21", "p20", "p13", "p107", "p02", "p03", "p01", "s3", "full-pack", "note-faq"],
     nextActions: [
       "入院先、退院予定、服薬、既往歴、相談窓口を1か所に集める",
       "ケアマネや病院に聞くことを事前にリスト化する",

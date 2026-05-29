@@ -110,6 +110,67 @@ function KaigoActionBox({
 }
 
 const guideContents: Record<string, ReactNode> = {
+  "clinic-visit-before-after-family-record": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">通院付き添いは「前」と「後」を分けて残す</h2>
+        <p>
+          親の定期通院に付き添うと、診察室で聞きたいことを忘れたり、帰宅後に医師の説明を家族へ伝えようとして内容が曖昧になったりします。
+          受診前と受診後を同じメモで混ぜると、次に確認したいことも埋もれやすくなります。
+        </p>
+        <p>
+          家族ができるのは、受診要否や診断を判断することではなく、見たこと、聞いたこと、確認したいことを整理して伝えやすくすることです。
+          記録の目的を「判断」ではなく「共有」と「確認」に置くと、続けやすくなります。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">受診前に書く項目</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm text-muted">
+          <li>前回受診からの変化: 食事、睡眠、活動量、痛み、不安、転倒やヒヤリハットなど</li>
+          <li>本人が話していること: 困っていること、気にしていること、希望していること</li>
+          <li>家族が気づいたこと: 生活上の変化、付き添い時に確認したいこと</li>
+          <li>質問メモ: 医師、薬剤師、ケアマネジャーへ聞きたいこと</li>
+          <li>持参物: 診察券、保険証、お薬手帳、紹介状、前回メモなど</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">受診後は「聞いたこと」と「次回」を残す</h2>
+        <p>
+          受診後は、医師から説明された要点、次回予約、薬局で説明されたこと、次回までに確認することを短く残します。
+          ここでも「どう解釈するか」より、「何を聞いたか」「次に何を確認するか」を分けます。
+        </p>
+        <p>
+          薬について気になることがある場合も、効能や副作用を家族だけで評価するのではなく、医師や薬剤師へ確認する前提でメモします。
+          お薬手帳の変更点を見て、家族共有用に「変更あり」「次回確認」などの形で残すと扱いやすくなります。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">急な変化は記録だけで判断しない</h2>
+        <p>
+          急な体調変化、強い痛み、意識の変化、転倒後の不安、薬に関する気がかりがある場合は、家族内のメモだけで様子見を決めないことが大切です。
+          医療機関、救急相談窓口、担当医師、薬剤師などへ確認してください。
+        </p>
+        <p>
+          このページは、通院前後の記録整理と家族共有のためのものです。受診要否、診断内容、治療方針、薬の副作用や飲み合わせの判断を行うものではありません。
+        </p>
+      </section>
+
+      <KaigoActionBox
+        toolHref="https://net-toolbox.jp/tools/kaigo-clinic-visit-record-memo?utm_source=toshi-navi&utm_medium=guide&utm_campaign=clinic_visit"
+        toolLabel="通院付き添い記録メモを作る"
+        boothHref="https://kaigo-okane.booth.pm/items/8427038"
+        boothLabel="通院付き添いテンプレートを見る"
+      >
+        <p>
+          まず無料ツールで受診前の質問、受診後の説明、薬局で聞いたこと、次回予定を整理し、継続的に残す段階ではBOOTHの
+          通院付き添い・受診前後記録テンプレートへ転記すると、複数科の通院記録を同じ形式で見返せます。
+        </p>
+      </KaigoActionBox>
+    </>
+  ),
   "parent-fall-near-miss-record-family-memo": (
     <>
       <section>

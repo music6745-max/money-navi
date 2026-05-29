@@ -11,6 +11,15 @@ export interface Guide {
 
 export const guides: Guide[] = [
   {
+    slug: "clinic-visit-before-after-family-record",
+    title: "親の通院付き添い前後に家族が記録すること",
+    description: "親の定期通院に付き添う家族向けに、受診前の質問整理、受診後の説明メモ、薬局で聞いたこと、次回までの確認事項を分けて残す方法を解説。",
+    icon: "🏥",
+    category: "household",
+    readTime: "9分",
+    publishedAt: "2026-05-29",
+  },
+  {
     slug: "parent-fall-near-miss-record-family-memo",
     title: "親の転倒・ヒヤリハットを相談前に記録する方法",
     description: "親が転んだ、転びそうになった場面を、家族が日時・場所・状況・本人の様子に分けて記録し、医師やケアマネへ相談しやすくする方法を解説。",
