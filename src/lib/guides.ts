@@ -11,6 +11,16 @@ export interface Guide {
 
 export const guides: Guide[] = [
   {
+    slug: "home-care-monthly-family-role-calendar",
+    title: "在宅介護の月間予定と家族分担を共有する方法",
+    description:
+      "通院、訪問サービス、デイサービス、家族対応を月単位で見渡し、誰がいつ何を担当するかを家族内で共有する方法を解説。",
+    icon: "📅",
+    category: "household",
+    readTime: "9分",
+    publishedAt: "2026-05-29",
+  },
+  {
     slug: "home-care-weekly-service-schedule-family-share",
     title: "在宅介護の週間予定を家族で共有する方法",
     description:

@@ -110,6 +110,68 @@ function KaigoActionBox({
 }
 
 const guideContents: Record<string, ReactNode> = {
+  "home-care-monthly-family-role-calendar": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">月単位になると家族分担は見えにくくなる</h2>
+        <p>
+          在宅介護が続くと、通院、訪問介護、デイサービス、訪問看護、買い物、見守り電話、帰省などの予定が月の中に散らばります。
+          週ごとの予定は把握できていても、「今月全体で誰が何を担うか」は別の問題です。
+        </p>
+        <p>
+          月間カレンダーは、ケアプランや事業所への指示書ではありません。
+          家族が月内の予定と担当を見返し、未定の予定を確認し、ケアマネジャーや各事業所へ相談する前に状況をそろえるための手元メモです。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">月間カレンダーで分けておく項目</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm text-muted">
+          <li>介護サービス予定: 訪問介護、デイサービス、訪問看護、訪問リハビリなど</li>
+          <li>通院・薬局予定: 受診日、付き添い、薬の受け取り、次回予約</li>
+          <li>家族対応: 買い物、見守り電話、実家訪問、手続き、連絡係</li>
+          <li>担当状況: 決定済み、未定、要相談、変更確認中</li>
+          <li>次に確認すること: ケアマネ、事業所、病院、家族会議で聞くこと</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">「決定済み」と「未定」を同じ表に置く</h2>
+        <p>
+          家族分担で揉めやすいのは、誰かが何となく引き受けている予定と、まだ誰も決めていない予定が混ざることです。
+          月間カレンダーでは、担当者が決まっている予定だけでなく、未定の予定も残しておきます。
+        </p>
+        <p>
+          未定のまま残っている予定が見えると、次の家族連絡で決めることが具体化します。
+          負担が一人に偏っている月も、感情論ではなく予定表を見ながら話しやすくなります。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">変更や追加は担当者へ確認する前提で残す</h2>
+        <p>
+          サービス予定の変更、休止、追加がありそうなときは、家族内で決め切るのではなく、
+          「いつ」「何を」「誰に確認するか」をカレンダーとメモに分けて残します。
+          介護保険サービスの利用可否、給付、自己負担、サービス構成は、担当ケアマネジャーや各事業所へ確認してください。
+        </p>
+        <p>
+          月単位で見渡す目的は、判断を代替することではなく、相談前の情報をそろえることです。
+        </p>
+      </section>
+
+      <KaigoActionBox
+        toolHref="https://net-toolbox.jp/tools/kaigo-home-care-monthly-family-calendar-memo?utm_source=toshi-navi&utm_medium=guide&utm_campaign=home_care_monthly_calendar"
+        toolLabel="月間予定・家族分担メモを作る"
+        boothHref="https://kaigo-okane.booth.pm/items/8382957"
+        boothLabel="月間予定カレンダーテンプレートを見る"
+      >
+        <p>
+          まず無料ツールで今月の介護予定、通院、家族分担、未定事項を整理し、継続して使う段階ではBOOTHの
+          在宅介護の月間予定・家族分担カレンダーテンプレートへ転記すると、月ごとの共有を同じ形式で続けられます。
+        </p>
+      </KaigoActionBox>
+    </>
+  ),
   "home-care-weekly-service-schedule-family-share": (
     <>
       <section>

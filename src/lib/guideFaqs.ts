@@ -1,6 +1,23 @@
 export type FAQ = { question: string; answer: string };
 
 export const guideFaqs: Record<string, FAQ[]> = {
+  "home-care-monthly-family-role-calendar": [
+    {
+      question: "在宅介護の月間予定カレンダーには何を書けばよいですか？",
+      answer:
+        "通院、訪問介護、デイサービス、訪問看護、家族の付き添い、買い物、見守り連絡など、月内に予定されていることを日付ごとに書きます。家族が見返すための手元整理として使います。",
+    },
+    {
+      question: "家族分担カレンダーでサービス変更や利用可否を決められますか？",
+      answer:
+        "決められません。サービスの追加、休止、振替、利用可否、介護保険上の扱いは担当ケアマネジャーや各事業所へ確認してください。このページは家族内の予定共有を目的としています。",
+    },
+    {
+      question: "離れて暮らす家族との分担確認にも使えますか？",
+      answer:
+        "使えます。月内の通院、サービス予定、帰省、電話確認、買い物などを同じ表に置くと、誰が何を担当するか、未定のまま残っている予定はどれかを共有しやすくなります。",
+    },
+  ],
   "home-care-weekly-service-schedule-family-share": [
     {
       question: "在宅介護の週間予定表には何を書けばよいですか？",
