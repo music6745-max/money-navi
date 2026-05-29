@@ -1,6 +1,23 @@
 export type FAQ = { question: string; answer: string };
 
 export const guideFaqs: Record<string, FAQ[]> = {
+  "parent-doctor-pharmacy-prescription-info-list": [
+    {
+      question: "かかりつけ医・薬局・処方薬情報には何を書けばよいですか？",
+      answer:
+        "医療機関名、診療科、担当医名、電話番号、薬局名、処方薬・市販薬・サプリの名前、薬袋やお薬手帳に書かれている用法メモ、最終確認日、家族へ共有したいことを分けて書きます。",
+    },
+    {
+      question: "このメモはお薬手帳の代わりになりますか？",
+      answer:
+        "代わりにはなりません。お薬手帳は医療機関や薬局で引き続き利用し、このメモは家族が連絡先や薬の名前を把握するための控えとして併用します。",
+    },
+    {
+      question: "薬の飲み合わせや副作用を判断できますか？",
+      answer:
+        "判断できません。飲み合わせ、副作用、用法、服薬変更、受診要否などは、かかりつけ医、薬剤師、看護師などの専門職へ確認してください。",
+    },
+  ],
   "parent-meal-water-weight-daily-record": [
     {
       question: "食事・水分・体重の記録には何を書けばよいですか？",

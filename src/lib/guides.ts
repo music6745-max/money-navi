@@ -11,6 +11,16 @@ export interface Guide {
 
 export const guides: Guide[] = [
   {
+    slug: "parent-doctor-pharmacy-prescription-info-list",
+    title: "親のかかりつけ医・薬局・処方薬情報を家族で共有する方法",
+    description:
+      "高齢の親の医療機関、薬局、処方薬、市販薬、サプリ情報を、お薬手帳と併用する家族用メモとして整理する方法を解説。",
+    icon: "💊",
+    category: "household",
+    readTime: "8分",
+    publishedAt: "2026-05-30",
+  },
+  {
     slug: "parent-meal-water-weight-daily-record",
     title: "高齢の親の食事・水分・体重を毎日記録する方法",
     description:

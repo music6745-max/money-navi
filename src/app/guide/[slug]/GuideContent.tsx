@@ -110,6 +110,65 @@ function KaigoActionBox({
 }
 
 const guideContents: Record<string, ReactNode> = {
+  "parent-doctor-pharmacy-prescription-info-list": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">医療機関・薬局情報は急な時ほど探しにくい</h2>
+        <p>
+          高齢の親が複数の医療機関や薬局を利用していると、家族の間で「どの病院に連絡すればよいか」「いつからどの薬を飲んでいるか」が散らばりやすくなります。
+          通院付き添い、急な体調変化、ショートステイや入退院の準備では、連絡先と薬の名前をすぐ確認できることが重要です。
+        </p>
+        <p>
+          ただし、家族メモは医療判断のためのものではありません。お薬手帳や薬袋に書かれている情報を控え、家族が同じ情報を見られるようにするための整理です。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">お薬手帳の代わりではなく家族用の控えにする</h2>
+        <p>
+          お薬手帳は、医療機関や薬局で確認してもらう公式な記録として引き続き使います。
+          家族用メモでは、手帳や薬袋から転記した薬の名前、用法メモ、処方元、確認日を一覧にして、別居家族や介護者が見返しやすい形に整えます。
+        </p>
+        <p>
+          写真だけで共有すると、情報が古くなった時に気づきにくいことがあります。最後に確認した日、変更があった日、次に確認する相手を残しておくと、情報の更新漏れを減らせます。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">書く項目を分けておく</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm text-muted">
+          <li>医療機関: 病院名、診療科、担当医、電話番号、受診メモ</li>
+          <li>薬局: 薬局名、電話番号、担当者、利用時に伝えること</li>
+          <li>薬の情報: 処方薬、市販薬、サプリの名前、薬袋やお薬手帳に書かれている用法メモ</li>
+          <li>更新履歴: いつ誰が確認したか、変更があった薬や連絡先</li>
+          <li>相談メモ: 医師や薬剤師へ確認したいこと、家族へ共有したいこと</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">飲み合わせ・副作用・用法は専門職へ確認する</h2>
+        <p>
+          家族メモを作っても、薬の飲み合わせ、副作用、用法、服薬変更、受診要否を家族だけで判断することはできません。
+          気になることがある場合は、かかりつけ医、薬剤師、看護師などへ確認してください。
+        </p>
+        <p>
+          急な体調変化、飲み間違いの疑い、強い副作用が疑われる症状がある場合は、家族内で様子見を決めず、医療機関や薬局、救急相談窓口へ連絡します。
+        </p>
+      </section>
+
+      <KaigoActionBox
+        toolHref="https://net-toolbox.jp/tools/kaigo-parent-doctor-pharmacy-medicine-memo?utm_source=toshi-navi&utm_medium=guide&utm_campaign=doctor_pharmacy_medicine_info"
+        toolLabel="医療機関・薬局・薬メモを作る"
+        boothHref="https://kaigo-okane.booth.pm/items/8382989"
+        boothLabel="かかりつけ医・薬局情報テンプレートを見る"
+      >
+        <p>
+          まず無料ツールで医療機関、薬局、薬の名前、家族共有メモを整理し、継続して更新する段階ではBOOTHの
+          親のかかりつけ医・薬局・処方薬情報まとめテンプレートへ転記すると、通院付き添い・入退院準備・家族申し送りで見返しやすくなります。
+        </p>
+      </KaigoActionBox>
+    </>
+  ),
   "parent-meal-water-weight-daily-record": (
     <>
       <section>
