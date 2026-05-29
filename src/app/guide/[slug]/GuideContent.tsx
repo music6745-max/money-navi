@@ -110,6 +110,66 @@ function KaigoActionBox({
 }
 
 const guideContents: Record<string, ReactNode> = {
+  "caregiver-rest-schedule-burden-visualization": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">介護者の負担は見えにくいまま積み上がる</h2>
+        <p>
+          親の介護では、通院付き添い、買い物、服薬確認、事業所との連絡、家族への共有など、小さな対応が日々積み重なります。
+          ひとつひとつは短時間でも、週単位で見ると休息できる時間がほとんどないことがあります。
+        </p>
+        <p>
+          介護者自身の休息予定と負担を見える化する目的は、がんばりを採点することではありません。
+          家族や相談先に「どこが詰まっているか」を伝え、分担や外部支援を考えやすくするための手元メモです。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">予定・負担・休息を分けて書く</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm text-muted">
+          <li>介護予定: 通院、見守り、買い物、サービス連絡、書類確認</li>
+          <li>負担が重い時間帯: 朝、夜、通院日、仕事後、休日など</li>
+          <li>休息予定: 何もしない時間、睡眠、外出、家族に任せる時間</li>
+          <li>頼みたいこと: 交代、送迎、電話、買い物、書類確認、見守り</li>
+          <li>次回見直し: 週末、月末、ケアマネ面談前、家族会議前</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">「つらい」だけでなく具体的な時間にする</h2>
+        <p>
+          家族に負担を伝える時、「大変」「疲れている」だけでは、何を代わればよいか伝わりにくいことがあります。
+          何曜日の何時ごろ、どの対応が重なっているかを書き出すと、交代しやすい作業や外部サービスに相談したい範囲が見えやすくなります。
+        </p>
+        <p>
+          休息予定も、空いた時間ができたら休むのではなく、先に予定として置いておく方が家族内で共有しやすくなります。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">医療や制度判断は専門窓口へ確認する</h2>
+        <p>
+          強い疲労、不眠、気持ちの落ち込み、安全面の不安がある場合、家族メモだけで抱え込まないことが重要です。
+          医療機関、自治体、地域包括支援センター、担当ケアマネジャー、勤務先の相談窓口などへ確認してください。
+        </p>
+        <p>
+          このメモは、介護サービス利用、休業制度、医療やメンタルヘルスの判断を代替するものではありません。
+        </p>
+      </section>
+
+      <KaigoActionBox
+        toolHref="https://net-toolbox.jp/tools/kaigo-caregiver-rest-burden-memo?utm_source=toshi-navi&utm_medium=guide&utm_campaign=caregiver_rest_burden"
+        toolLabel="介護者の休息・負担メモを作る"
+        boothHref="https://kaigo-okane.booth.pm/items/8382978"
+        boothLabel="介護者休息テンプレートを見る"
+      >
+        <p>
+          まず無料ツールで今週の予定、負担が重い時間、休息予定、家族へ頼みたいことを整理し、継続して見直す段階ではBOOTHの
+          介護者自身の休息・予定・負担見える化テンプレートへ転記すると、家族会議や相談前の材料を残しやすくなります。
+        </p>
+      </KaigoActionBox>
+    </>
+  ),
   "elderly-parent-disaster-go-bag-contact-list": (
     <>
       <section>

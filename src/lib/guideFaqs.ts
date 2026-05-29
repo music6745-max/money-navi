@@ -1,6 +1,23 @@
 export type FAQ = { question: string; answer: string };
 
 export const guideFaqs: Record<string, FAQ[]> = {
+  "caregiver-rest-schedule-burden-visualization": [
+    {
+      question: "介護者自身の負担メモには何を書けばよいですか？",
+      answer:
+        "介護予定、仕事や家事への影響、休息できる時間、負担が重い時間帯、家族へ頼みたいこと、次回見直すことを分けて書きます。自分を責めるためではなく、支援を頼みやすくするための整理です。",
+    },
+    {
+      question: "このメモで体調やメンタルの判断はできますか？",
+      answer:
+        "できません。医療、メンタルヘルス、介護サービス利用、労務・法律上の判断の代替ではありません。強い疲労、不眠、つらさ、安全面の不安がある場合は、医療機関、自治体、地域包括支援センター、勤務先窓口などへ相談してください。",
+    },
+    {
+      question: "家族に負担を伝える時にも使えますか？",
+      answer:
+        "使えます。負担を感情だけで伝える前に、曜日、時間帯、対応内容、休息が取れていない日を事実として整理すると、分担や外部サービスの相談につなげやすくなります。",
+    },
+  ],
   "elderly-parent-disaster-go-bag-contact-list": [
     {
       question: "高齢の親の災害時メモには何を書けばよいですか？",

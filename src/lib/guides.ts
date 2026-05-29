@@ -11,6 +11,16 @@ export interface Guide {
 
 export const guides: Guide[] = [
   {
+    slug: "caregiver-rest-schedule-burden-visualization",
+    title: "介護する家族の休息予定と負担を見える化する方法",
+    description:
+      "介護者自身の予定、休息時間、負担が重い時間帯、家族へ頼みたいことを分けて整理する方法を解説。",
+    icon: "🛌",
+    category: "household",
+    readTime: "8分",
+    publishedAt: "2026-05-30",
+  },
+  {
     slug: "elderly-parent-disaster-go-bag-contact-list",
     title: "高齢親の災害時持ち出し品・連絡先を家族で整理する方法",
     description:
