@@ -11,6 +11,15 @@ export interface Guide {
 
 export const guides: Guide[] = [
   {
+    slug: "post-discharge-one-month-home-monitoring-record",
+    title: "退院後1か月に家族が記録しておくこと",
+    description: "親が退院して自宅に戻った後の1か月に、食事、水分、睡眠、活動、担当者へ伝えることを家族が事実ベースで記録する方法を解説。",
+    icon: "🏠",
+    category: "household",
+    readTime: "9分",
+    publishedAt: "2026-05-29",
+  },
+  {
     slug: "clinic-visit-before-after-family-record",
     title: "親の通院付き添い前後に家族が記録すること",
     description: "親の定期通院に付き添う家族向けに、受診前の質問整理、受診後の説明メモ、薬局で聞いたこと、次回までの確認事項を分けて残す方法を解説。",

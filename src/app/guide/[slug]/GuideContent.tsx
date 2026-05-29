@@ -110,6 +110,69 @@ function KaigoActionBox({
 }
 
 const guideContents: Record<string, ReactNode> = {
+  "post-discharge-one-month-home-monitoring-record": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">退院後1か月は「毎日の様子」を残す時期</h2>
+        <p>
+          親が退院して自宅へ戻ると、退院日までの手続きは終わっても、在宅生活の見守りはそこから始まります。
+          食事、水分、睡眠、活動、訪問サービスで伝えられたことが、日ごとに少しずつ増えていきます。
+        </p>
+        <p>
+          退院後1か月の記録は、体調を判断するためではなく、家族が日々の様子を見返し、ケアマネジャーや訪問看護師へ状況を伝えやすくするための材料です。
+          事実を短く残すだけでも、次の面談や家族共有で役立ちます。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">毎日見る項目を固定する</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm text-muted">
+          <li>食事: 食べた量、食欲、家族が気になったこと</li>
+          <li>水分: 飲む量の様子、声かけの有無、担当者へ聞きたいこと</li>
+          <li>睡眠: 就寝、起床、夜間の様子、昼寝の多さ</li>
+          <li>活動: 室内移動、外出、疲れやすさ、転倒やヒヤリハット</li>
+          <li>担当者からの連絡: ヘルパー、訪問看護師、ケアマネから聞いたこと</li>
+          <li>次に確認すること: 訪問時や面談時に聞きたいこと</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">記録は「報告書」ではなく手元メモ</h2>
+        <p>
+          家族の記録は、正式な医療書類や介護記録の代替ではありません。
+          「最近どうですか？」と聞かれたときに、見たことを思い出して説明するための手元メモです。
+        </p>
+        <p>
+          たとえば「今週は食事量が少ない日が2日あった」「夜中に起きる日が続いた」「訪問看護師に次回確認したいことがある」のように、期間と出来事を分けて残します。
+          遠方の家族へ電話やLINEで伝えるときも、記録を見ながら話すと共有しやすくなります。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">急な変化は記録だけで判断しない</h2>
+        <p>
+          体調の急な変化、強い痛み、意識の変化、食事や水分が大きく変わった場合などは、家族内の記録だけで様子見を決めないことが大切です。
+          かかりつけ医、訪問看護師、救急相談窓口、ケアマネジャーなどへ確認してください。
+        </p>
+        <p>
+          このページは、受診要否、在宅療養の継続可否、緊急性、診断、治療方針を判断するものではありません。
+          家族が日々の様子を整理し、担当者へ伝え漏れを減らすための準備です。
+        </p>
+      </section>
+
+      <KaigoActionBox
+        toolHref="https://net-toolbox.jp/tools/kaigo-post-discharge-month-record-memo?utm_source=toshi-navi&utm_medium=guide&utm_campaign=post_discharge_month"
+        toolLabel="退院後1か月の生活記録メモを作る"
+        boothHref="https://kaigo-okane.booth.pm/items/8427230"
+        boothLabel="退院後1か月テンプレートを見る"
+      >
+        <p>
+          まず無料ツールで食事、水分、睡眠、活動、担当者へ伝えることを整理し、継続して残す段階ではBOOTHの
+          退院後1か月の生活見守り記録テンプレートへ転記すると、家族内共有と面談前の振り返りを同じ形式で続けられます。
+        </p>
+      </KaigoActionBox>
+    </>
+  ),
   "clinic-visit-before-after-family-record": (
     <>
       <section>

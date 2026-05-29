@@ -164,6 +164,17 @@ export const kaigoProducts: KaigoProduct[] = [
     tags: ["デイサービス", "通所介護", "申し送り"],
   },
   {
+    id: "p25",
+    type: "single",
+    title: "退院後1か月の生活見守り記録テンプレート集",
+    description:
+      "退院後の在宅生活で、食事、水分、睡眠、活動、担当者へ伝えることを1か月分整理するPDF/Excelセット。",
+    priceLabel: "単品 1,480円",
+    boothUrl: "https://kaigo-okane.booth.pm/items/8427230",
+    noteUrl: "https://note.com/mild_quail6092/n/n8f24340e724e",
+    tags: ["退院後", "在宅介護", "見守り記録"],
+  },
+  {
     id: "p24",
     type: "single",
     title: "通院付き添い・受診前後記録テンプレート集",
@@ -422,6 +433,19 @@ export const kaigoSituations: KaigoSituation[] = [
     affiliateOfferIds: ["hoken-mammoth"],
   },
   {
+    id: "post-discharge-month",
+    label: "退院後1か月の在宅生活で、毎日の様子を記録したい",
+    shortLabel: "退院後1か月",
+    description: "在宅療養の可否や緊急性を判断するのではなく、食事、水分、睡眠、活動、担当者へ伝えることを家族内で記録します。",
+    productIds: ["p25", "p09", "p24", "p23", "p22", "p21", "p107", "p02", "p03", "p01", "hospital-consult-pack", "full-pack", "note-faq"],
+    nextActions: [
+      "退院後の食事、水分、睡眠、活動の様子を、毎日同じ形式で短く残す",
+      "ケアマネ、訪問看護師、ヘルパーから伝えられたことを家族内で共有する",
+      "急な変化や受診の迷いは家族内で判断せず、医療職や救急相談窓口へ確認する",
+    ],
+    affiliateOfferIds: ["hoken-mammoth"],
+  },
+  {
     id: "work",
     label: "親の介護と仕事の両立で、職場への相談や休み方に迷っている",
     shortLabel: "仕事と介護",
@@ -439,7 +463,7 @@ export const kaigoSituations: KaigoSituation[] = [
     label: "入院、退院、介護認定、ケアマネ連携が発生している",
     shortLabel: "入退院と連携",
     description: "短期間で確認事項が増える段階です。連絡メモともしも情報を先に整えます。",
-    productIds: ["hospital-consult-pack", "p24", "p09", "p22", "p21", "p20", "p13", "p107", "p02", "p03", "p01", "s3", "full-pack", "note-faq"],
+    productIds: ["hospital-consult-pack", "p25", "p24", "p09", "p22", "p21", "p20", "p13", "p107", "p02", "p03", "p01", "s3", "full-pack", "note-faq"],
     nextActions: [
       "入院先、退院予定、服薬、既往歴、相談窓口を1か所に集める",
       "ケアマネや病院に聞くことを事前にリスト化する",

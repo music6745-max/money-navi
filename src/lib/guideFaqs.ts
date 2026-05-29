@@ -1,6 +1,20 @@
 export type FAQ = { question: string; answer: string };
 
 export const guideFaqs: Record<string, FAQ[]> = {
+  "post-discharge-one-month-home-monitoring-record": [
+    {
+      question: "退院後1か月は何を記録すればよいですか？",
+      answer: "食事、水分、睡眠、日中の活動、担当者から伝えられたこと、家族が気になったこと、次の訪問や面談で確認したいことを分けて記録します。判断ではなく、日々の様子を担当者へ伝える材料として残します。",
+    },
+    {
+      question: "この記録で受診要否や在宅療養の可否を判断できますか？",
+      answer: "判断できません。体調の急な変化、受診要否、在宅療養の継続可否、緊急性は、かかりつけ医、訪問看護師、救急相談窓口などへ確認してください。このページは家族内の記録整理を目的としています。",
+    },
+    {
+      question: "ケアマネや訪問看護師へ提出する書類として使えますか？",
+      answer: "正式な提出書類ではありません。面談や訪問時に状況を口頭で説明するときの手元参考として使う想定です。正式な書類や報告様式が必要な場合は担当者へ確認してください。",
+    },
+  ],
   "clinic-visit-before-after-family-record": [
     {
       question: "親の通院付き添い前には何をメモすればよいですか？",
