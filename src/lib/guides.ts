@@ -11,6 +11,16 @@ export interface Guide {
 
 export const guides: Guide[] = [
   {
+    slug: "home-visit-care-family-share-memo",
+    title: "訪問介護利用時に家族で共有するメモの作り方",
+    description:
+      "ヘルパー訪問前後に、家族が伝えたいこと、訪問後の気づき、次回確認したいことを分けて整理する方法を解説。",
+    icon: "📝",
+    category: "household",
+    readTime: "8分",
+    publishedAt: "2026-05-29",
+  },
+  {
     slug: "care-manager-meeting-after-todo-family-share",
     title: "ケアマネ面談後に家族でやることを整理する方法",
     description:

@@ -98,6 +98,16 @@ export default function KaigoPage() {
               新着: もの忘れ相談前整理テンプレート
             </TrackedExternalLink>
             <TrackedExternalLink
+              href="https://kaigo-okane.booth.pm/items/8382965"
+              eventName="booth_click"
+              page="kaigo"
+              position="intro_new_template"
+              itemId="p29"
+              className="block rounded-md border border-primary/30 bg-primary/5 px-3 py-2 text-sm font-bold text-primary hover:border-primary/60"
+            >
+              新着: 訪問介護の家族共有メモ
+            </TrackedExternalLink>
+            <TrackedExternalLink
               href="https://kaigo-okane.booth.pm/items/8382960"
               eventName="booth_click"
               page="kaigo"
@@ -297,6 +307,7 @@ export default function KaigoPage() {
             ["kaigo-care-certification-memo", "介護認定申請", "相談前の生活状況と調査前メモを整理"],
             ["kaigo-care-certification-renewal-memo", "認定更新前", "前回からの生活変化・困りごと・相談前メモを整理"],
             ["kaigo-home-care-weekly-service-schedule-memo", "週間サービス予定", "訪問介護・デイ・訪問看護の予定と変更を整理"],
+            ["kaigo-home-visit-care-family-share-memo", "訪問介護メモ", "訪問前後の気づき・家族共有・次回確認事項を整理"],
             ["kaigo-home-care-monthly-family-calendar-memo", "月間予定・家族分担", "通院・サービス予定・家族対応を月単位で整理"],
             ["kaigo-post-discharge-month-record-memo", "退院後1か月", "食事・水分・睡眠・活動・担当者確認を整理"],
             ["kaigo-clinic-visit-record-memo", "通院付き添い", "受診前の質問・受診後の説明・次回予定を整理"],

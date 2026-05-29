@@ -120,6 +120,17 @@ export const kaigoProducts: KaigoProduct[] = [
     tags: ["ケアマネ", "面談後ToDo", "家族共有"],
   },
   {
+    id: "p29",
+    type: "single",
+    title: "訪問介護利用時の家族共有メモテンプレート集",
+    description:
+      "訪問介護の訪問前後に、家族が伝えたいこと、訪問後の気づき、次回確認事項を整理するPDF/Excelセット。",
+    priceLabel: "単品 1,480円",
+    boothUrl: "https://kaigo-okane.booth.pm/items/8382965",
+    noteUrl: "https://note.com/mild_quail6092/n/n81ea59444520",
+    tags: ["訪問介護", "家族共有", "確認メモ"],
+  },
+  {
     id: "p09",
     type: "single",
     title: "親の入院・退院・在宅復帰 準備テンプレート集",
@@ -379,7 +390,7 @@ export const kaigoSituations: KaigoSituation[] = [
     label: "きょうだい・親族で分担や連絡の温度差がある",
     shortLabel: "家族で共有",
     description: "感情的な話し合いの前に、事実、役割、費用、連絡ルールを分けて見える化します。",
-    productIds: ["p105", "p28", "p27", "p26", "p13", "p05", "p104", "p02", "p01", "s3", "all-87", "note-compare"],
+    productIds: ["p105", "p29", "p28", "p27", "p26", "p13", "p05", "p104", "p02", "p01", "s3", "all-87", "note-compare"],
     nextActions: [
       "費用分担と作業分担を別々の表で管理する",
       "病院、ケアマネ、施設との連絡窓口を決める",
@@ -431,7 +442,7 @@ export const kaigoSituations: KaigoSituation[] = [
     label: "デイサービス利用前に、持ち物や事業所への申し送りを整理したい",
     shortLabel: "デイサービス",
     description: "利用可否や医療判断ではなく、持ち物、送迎、入浴・食事の注意点、緊急連絡先、事業所へ確認したいことを家族内で整理します。",
-    productIds: ["p22", "p26", "p27", "p28", "p21", "p107", "p20", "p10", "p103", "p02", "p03", "full-pack", "note-faq"],
+    productIds: ["p22", "p26", "p29", "p27", "p28", "p21", "p107", "p20", "p10", "p103", "p02", "p03", "full-pack", "note-faq"],
     nextActions: [
       "事業所の持ち込みルール、送迎時間、薬の扱い、欠席連絡の方法を事前確認する",
       "食事、水分、入浴、排泄、疲れやすい時間、声かけの仕方を短くまとめる",
@@ -445,7 +456,7 @@ export const kaigoSituations: KaigoSituation[] = [
     shortLabel: "週間予定",
     description:
       "ケアプランの代替ではなく、今週入っている訪問サービス、変更・休止、担当事業所への確認事項を家族内で見える化します。",
-    productIds: ["p26", "p27", "p28", "p22", "p25", "p24", "p107", "p105", "p02", "p03", "full-pack", "note-faq"],
+    productIds: ["p26", "p29", "p27", "p28", "p22", "p25", "p24", "p107", "p105", "p02", "p03", "full-pack", "note-faq"],
     nextActions: [
       "サービス名、曜日、時間帯、担当事業所、連絡先を週単位で一覧にする",
       "変更・休止があった日は、対象日、連絡元、確認したことを残す",
@@ -459,7 +470,7 @@ export const kaigoSituations: KaigoSituation[] = [
     shortLabel: "月間予定",
     description:
       "ケアプランや勤務表の代替ではなく、通院、訪問サービス、買い物、見守り連絡、帰省などを家族内で共有し、未定の担当を見える化します。",
-    productIds: ["p27", "p26", "p25", "p24", "p22", "p105", "p13", "p02", "full-pack", "note-faq"],
+    productIds: ["p27", "p29", "p26", "p25", "p24", "p22", "p105", "p13", "p02", "full-pack", "note-faq"],
     nextActions: [
       "月内の通院、訪問サービス、デイサービス、家族対応日をカレンダーに置く",
       "誰が連絡、付き添い、買い物、見守りを担うかを決定済みと未定で分ける",
@@ -473,11 +484,25 @@ export const kaigoSituations: KaigoSituation[] = [
     shortLabel: "面談後ToDo",
     description:
       "ケアプランや契約判断の代替ではなく、面談で聞いたこと、家族がやること、次回までに確認することを整理します。",
-    productIds: ["p28", "p107", "hospital-consult-pack", "p105", "p27", "p26", "p02", "p03", "full-pack", "note-faq"],
+    productIds: ["p28", "p29", "p107", "hospital-consult-pack", "p105", "p27", "p26", "p02", "p03", "full-pack", "note-faq"],
     nextActions: [
       "面談で決まったこと、確認中のこと、家族ToDoを分けて書き出す",
       "誰がいつまでに連絡、書類確認、本人確認をするか担当を決める",
       "サービス変更や契約、介護保険上の扱いは担当ケアマネや各事業所へ確認する",
+    ],
+    affiliateOfferIds: ["hoken-mammoth"],
+  },
+  {
+    id: "home-visit-care",
+    label: "訪問介護の利用後に、家族で気づきや確認事項を共有したい",
+    shortLabel: "訪問介護メモ",
+    description:
+      "訪問介護の業務記録や指示書の代替ではなく、訪問前後の気づき、家族が伝えたいこと、次回確認事項を整理します。",
+    productIds: ["p29", "p26", "p28", "p27", "p107", "p105", "p02", "p03", "full-pack", "note-faq"],
+    nextActions: [
+      "訪問前に伝えたいこと、訪問後に家族が気づいたこと、次回確認事項を分ける",
+      "ヘルパーへの指示ではなく、ケアマネや事業所へ確認する事項として残す",
+      "同じ気づきが続く場合は週まとめにして、次回面談や事業所連絡で確認する",
     ],
     affiliateOfferIds: ["hoken-mammoth"],
   },
@@ -512,7 +537,7 @@ export const kaigoSituations: KaigoSituation[] = [
     label: "退院後1か月の在宅生活で、毎日の様子を記録したい",
     shortLabel: "退院後1か月",
     description: "在宅療養の可否や緊急性を判断するのではなく、食事、水分、睡眠、活動、担当者へ伝えることを家族内で記録します。",
-    productIds: ["p25", "p28", "p27", "p26", "p09", "p24", "p23", "p22", "p21", "p107", "p02", "p03", "p01", "hospital-consult-pack", "full-pack", "note-faq"],
+    productIds: ["p25", "p29", "p28", "p27", "p26", "p09", "p24", "p23", "p22", "p21", "p107", "p02", "p03", "p01", "hospital-consult-pack", "full-pack", "note-faq"],
     nextActions: [
       "退院後の食事、水分、睡眠、活動の様子を、毎日同じ形式で短く残す",
       "ケアマネ、訪問看護師、ヘルパーから伝えられたことを家族内で共有する",
@@ -538,7 +563,7 @@ export const kaigoSituations: KaigoSituation[] = [
     label: "入院、退院、介護認定、ケアマネ連携が発生している",
     shortLabel: "入退院と連携",
     description: "短期間で確認事項が増える段階です。連絡メモともしも情報を先に整えます。",
-    productIds: ["hospital-consult-pack", "p28", "p25", "p27", "p26", "p24", "p09", "p22", "p21", "p20", "p13", "p107", "p02", "p03", "p01", "s3", "full-pack", "note-faq"],
+    productIds: ["hospital-consult-pack", "p28", "p29", "p25", "p27", "p26", "p24", "p09", "p22", "p21", "p20", "p13", "p107", "p02", "p03", "p01", "s3", "full-pack", "note-faq"],
     nextActions: [
       "入院先、退院予定、服薬、既往歴、相談窓口を1か所に集める",
       "ケアマネや病院に聞くことを事前にリスト化する",
@@ -564,7 +589,7 @@ export const kaigoSituations: KaigoSituation[] = [
     label: "遠距離介護で、情報共有や緊急時対応に不安がある",
     shortLabel: "遠距離介護",
     description: "遠方では情報の散在が最大のリスクです。連絡先、役割、緊急時の判断材料を先に共有します。",
-    productIds: ["p105", "p28", "p27", "p26", "p02", "p03", "p01", "s3", "full-pack", "note-faq"],
+    productIds: ["p105", "p29", "p28", "p27", "p26", "p02", "p03", "p01", "s3", "full-pack", "note-faq"],
     nextActions: [
       "現地対応者、家族連絡係、費用管理係を分けて決める",
       "親の医療、服薬、介護サービス、鍵、近所の連絡先を共有する",

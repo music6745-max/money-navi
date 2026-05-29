@@ -110,6 +110,66 @@ function KaigoActionBox({
 }
 
 const guideContents: Record<string, ReactNode> = {
+  "home-visit-care-family-share-memo": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">訪問介護の気づきは家族内で散らばりやすい</h2>
+        <p>
+          訪問介護を利用していると、ヘルパー訪問前に伝えたいこと、訪問後に家族が気づいたこと、次回確認したいことが少しずつ増えていきます。
+          電話、LINE、口頭のやり取りだけで残していると、後から「何を誰に確認する予定だったか」が分かりにくくなります。
+        </p>
+        <p>
+          家族共有メモは、訪問介護の業務記録や指示書ではありません。
+          家族が訪問前後の気づきを見返し、担当ケアマネジャーや訪問介護事業所へ確認する前に情報をそろえるための手元メモです。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">訪問前後で分けて残す</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm text-muted">
+          <li>訪問前に伝えたいこと: 体調、生活上の変化、家族が気になっていること</li>
+          <li>訪問後に気づいたこと: 本人の様子、家の中の変化、家族が見た事実</li>
+          <li>次回確認すること: ケアマネ、事業所、家族内で聞くこと</li>
+          <li>家族共有: 離れて暮らす家族へ伝える要点、未確認事項</li>
+          <li>週まとめ: 同じ気づきが続いているか、次の面談で聞くこと</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">「指示」ではなく「確認事項」として残す</h2>
+        <p>
+          家族が気づいたことを残すときは、ヘルパーへの指示として書くのではなく、次に確認したいこととして整理します。
+          たとえば、食事量、室内の様子、服薬の気がかり、買い物や掃除の範囲などは、事業所のルールや契約内容に関わる場合があります。
+        </p>
+        <p>
+          サービス内容の変更、追加、休止、業務範囲、介護保険上の扱いは、家族だけで判断せず、担当ケアマネジャーや訪問介護事業所へ確認してください。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">週まとめで面談前の確認漏れを減らす</h2>
+        <p>
+          訪問ごとのメモを週単位で見返すと、同じ困りごとが続いているのか、一度だけの出来事なのかを整理しやすくなります。
+          次回のケアマネ面談や事業所への連絡前に、聞くことを短くまとめられます。
+        </p>
+        <p>
+          事実、家族の気づき、確認事項を分けておくと、家族内でも担当者にも伝えやすくなります。
+        </p>
+      </section>
+
+      <KaigoActionBox
+        toolHref="https://net-toolbox.jp/tools/kaigo-home-visit-care-family-share-memo?utm_source=toshi-navi&utm_medium=guide&utm_campaign=home_visit_care_family_share"
+        toolLabel="訪問介護の家族共有メモを作る"
+        boothHref="https://kaigo-okane.booth.pm/items/8382965"
+        boothLabel="訪問介護メモテンプレートを見る"
+      >
+        <p>
+          まず無料ツールで訪問前に伝えたいこと、訪問後の気づき、次回確認事項を整理し、継続して使う段階ではBOOTHの
+          訪問介護利用時の家族共有メモテンプレートへ転記すると、訪問ごとの共有を同じ形式で続けられます。
+        </p>
+      </KaigoActionBox>
+    </>
+  ),
   "care-manager-meeting-after-todo-family-share": (
     <>
       <section>
