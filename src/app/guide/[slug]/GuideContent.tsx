@@ -110,6 +110,66 @@ function KaigoActionBox({
 }
 
 const guideContents: Record<string, ReactNode> = {
+  "parent-meal-water-weight-daily-record": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">食事・水分・体重は記憶だけでは説明しにくい</h2>
+        <p>
+          高齢の親の在宅介護では、食事をどのくらい食べたか、水分をどのようにとれたか、体重がどう変わったかを聞かれる場面があります。
+          ただ、数日たつと「いつから変わったのか」「どの日に食べにくそうだったのか」を思い出しにくくなります。
+        </p>
+        <p>
+          この記録は、食事量や水分量を家族だけで評価するためのものではありません。
+          家族が見た事実を短く残し、受診時やケアマネジャーへの相談時に日常の様子を説明しやすくするための整理です。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">毎日書く項目は少なくする</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm text-muted">
+          <li>食事: 朝昼夕で食べた様子、残したもの、むせや食べにくさの有無</li>
+          <li>水分: 水分をとれた時間帯、飲みにくそうだった場面、家族が促したこと</li>
+          <li>体重: 測れた日の体重、測れなかった理由、前回から気づいた変化</li>
+          <li>本人の様子: 眠気、疲れ、気分、活動量、いつもと違う言動</li>
+          <li>相談メモ: 受診時やケアマネへ聞きたいこと、家族へ共有したいこと</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">数字だけでなく家族が見た様子も残す</h2>
+        <p>
+          体重や飲んだ量の数字だけでは、日常の変化が伝わりにくいことがあります。
+          「昼食は半分ほど」「水分は声かけすると少し飲めた」「夕方に疲れが強そうだった」のように、家族が見た様子を短く添えると、相談時の材料になります。
+        </p>
+        <p>
+          記録は細かく書きすぎると続きません。毎日同じ欄に、空欄があってもよい前提で残すと、家族間の申し送りや週ごとの振り返りに使いやすくなります。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">医療・栄養の判断は専門職へ相談する</h2>
+        <p>
+          食事量、水分量、体重変化、栄養状態、脱水、病気、服薬、受診要否の判断は、家族メモだけでは決められません。
+          気になる変化がある場合は、かかりつけ医、管理栄養士、看護師、薬剤師、担当ケアマネジャーなどへ相談してください。
+        </p>
+        <p>
+          急な体調変化、強いぐったり感、飲食が難しい状態、意識や呼吸の異変がある場合は、家族内で判断を先延ばしにせず、医療機関や救急相談窓口へ確認します。
+        </p>
+      </section>
+
+      <KaigoActionBox
+        toolHref="https://net-toolbox.jp/tools/kaigo-parent-meal-water-weight-record-memo?utm_source=toshi-navi&utm_medium=guide&utm_campaign=parent_meal_water_weight"
+        toolLabel="食事・水分・体重メモを作る"
+        boothHref="https://kaigo-okane.booth.pm/items/8382987"
+        boothLabel="食事水分体重記録テンプレートを見る"
+      >
+        <p>
+          まず無料ツールで今日の食事、水分、体重、気になる変化を整理し、継続して記録する段階ではBOOTHの
+          高齢親の食事・水分・体重の毎日記録テンプレートへ転記すると、受診前や家族申し送りの材料を残しやすくなります。
+        </p>
+      </KaigoActionBox>
+    </>
+  ),
   "welfare-equipment-rental-purchase-family-check": (
     <>
       <section>

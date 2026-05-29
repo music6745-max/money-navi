@@ -11,6 +11,16 @@ export interface Guide {
 
 export const guides: Guide[] = [
   {
+    slug: "parent-meal-water-weight-daily-record",
+    title: "高齢の親の食事・水分・体重を毎日記録する方法",
+    description:
+      "在宅介護で親の食事の様子、水分のとり方、体重、受診前に伝えたいことを家族が事実ベースで整理する方法を解説。",
+    icon: "🍽️",
+    category: "household",
+    readTime: "8分",
+    publishedAt: "2026-05-30",
+  },
+  {
     slug: "welfare-equipment-rental-purchase-family-check",
     title: "福祉用具レンタル・購入前に家族で整理すること",
     description:

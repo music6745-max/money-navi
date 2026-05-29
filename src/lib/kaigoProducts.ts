@@ -86,6 +86,16 @@ export const kaigoProducts: KaigoProduct[] = [
     tags: ["福祉用具", "レンタル", "購入前確認"],
   },
   {
+    id: "p34",
+    type: "single",
+    title: "高齢親の食事・水分・体重の毎日記録テンプレート集",
+    description:
+      "在宅介護中の食事の様子、水分のとり方、体重、週まとめ、受診前に伝えたいことを整理するPDF/Excelセット。",
+    priceLabel: "単品 1,480円",
+    boothUrl: "https://kaigo-okane.booth.pm/items/8382987",
+    tags: ["食事記録", "水分記録", "体重記録"],
+  },
+  {
     id: "p103",
     type: "single",
     title: "一人暮らし親の見守り連絡表テンプレート集",
@@ -468,6 +478,20 @@ export const kaigoSituations: KaigoSituation[] = [
     affiliateOfferIds: ["hoken-mammoth"],
   },
   {
+    id: "meal-water-weight",
+    label: "親の食事・水分・体重を日々記録し、受診前に説明しやすくしたい",
+    shortLabel: "食事水分記録",
+    description:
+      "食事量や水分量の評価ではなく、家族が見た食事、水分、体重、気になった変化、相談時に伝えることを事実ベースで整理します。",
+    productIds: ["p34", "p25", "p24", "p23", "p20", "p107", "p02", "p03", "full-pack", "note-faq"],
+    nextActions: [
+      "朝昼夕の食事の様子、水分のとり方、測れた日の体重を短く残す",
+      "週ごとに気になった変化と、受診時やケアマネへ伝えたいことをまとめる",
+      "食事量、水分量、体重変化、栄養状態、病気の判断は医療職や専門窓口へ相談する",
+    ],
+    affiliateOfferIds: ["hoken-mammoth"],
+  },
+  {
     id: "welfare-equipment",
     label: "福祉用具のレンタル・購入を相談する前に、家族で困りごとを整理したい",
     shortLabel: "福祉用具相談",
@@ -499,7 +523,7 @@ export const kaigoSituations: KaigoSituation[] = [
     label: "要介護認定の更新が近く、前回からの生活変化を整理したい",
     shortLabel: "認定更新前",
     description: "認定区分の予測ではなく、前回から変わった生活動作、困りごと、家族対応、相談先への確認事項を事実ベースで整理します。",
-    productIds: ["p20", "p28", "p24", "p23", "p107", "p10", "p103", "p02", "p03", "full-pack", "note-faq"],
+    productIds: ["p20", "p34", "p28", "p24", "p23", "p107", "p10", "p103", "p02", "p03", "full-pack", "note-faq"],
     nextActions: [
       "前回認定のころと最近の状態を、移動・食事・入浴・排泄・睡眠・認知面に分けて書く",
       "本人ができる日と難しい日、家族が実際に対応していることを分ける",
@@ -512,7 +536,7 @@ export const kaigoSituations: KaigoSituation[] = [
     label: "ショートステイ利用前に、持ち物や施設への申し送りを整理したい",
     shortLabel: "ショートステイ",
     description: "利用可否や医療判断ではなく、持ち物、生活ルーティン、緊急連絡先、施設へ確認したいことを家族内で整理します。",
-    productIds: ["p21", "p30", "p107", "p20", "p10", "p103", "p02", "p03", "full-pack", "note-faq"],
+    productIds: ["p21", "p34", "p30", "p107", "p20", "p10", "p103", "p02", "p03", "full-pack", "note-faq"],
     nextActions: [
       "施設の持ち込みルール、送迎時間、薬の扱い、緊急連絡先を事前確認する",
       "日常ルーティン、食事、排泄、睡眠、コミュニケーションの特徴を短くまとめる",
@@ -525,7 +549,7 @@ export const kaigoSituations: KaigoSituation[] = [
     label: "デイサービス利用前に、持ち物や事業所への申し送りを整理したい",
     shortLabel: "デイサービス",
     description: "利用可否や医療判断ではなく、持ち物、送迎、入浴・食事の注意点、緊急連絡先、事業所へ確認したいことを家族内で整理します。",
-    productIds: ["p22", "p26", "p29", "p27", "p28", "p21", "p107", "p20", "p10", "p103", "p02", "p03", "full-pack", "note-faq"],
+    productIds: ["p22", "p34", "p26", "p29", "p27", "p28", "p21", "p107", "p20", "p10", "p103", "p02", "p03", "full-pack", "note-faq"],
     nextActions: [
       "事業所の持ち込みルール、送迎時間、薬の扱い、欠席連絡の方法を事前確認する",
       "食事、水分、入浴、排泄、疲れやすい時間、声かけの仕方を短くまとめる",
@@ -539,7 +563,7 @@ export const kaigoSituations: KaigoSituation[] = [
     shortLabel: "週間予定",
     description:
       "ケアプランの代替ではなく、今週入っている訪問サービス、変更・休止、担当事業所への確認事項を家族内で見える化します。",
-    productIds: ["p26", "p33", "p32", "p29", "p27", "p28", "p22", "p25", "p24", "p107", "p105", "p02", "p03", "full-pack", "note-faq"],
+    productIds: ["p26", "p34", "p33", "p32", "p29", "p27", "p28", "p22", "p25", "p24", "p107", "p105", "p02", "p03", "full-pack", "note-faq"],
     nextActions: [
       "サービス名、曜日、時間帯、担当事業所、連絡先を週単位で一覧にする",
       "変更・休止があった日は、対象日、連絡元、確認したことを残す",
@@ -607,7 +631,7 @@ export const kaigoSituations: KaigoSituation[] = [
     label: "親の通院付き添い前後に、聞くことと説明内容を整理したい",
     shortLabel: "通院付き添い",
     description: "受診要否や薬の判断ではなく、受診前に伝えること、受診後に聞いたこと、薬局で説明されたこと、次回までの確認事項を家族内で整理します。",
-    productIds: ["p24", "p23", "p10", "p20", "p107", "p103", "p02", "p03", "full-pack", "note-faq"],
+    productIds: ["p24", "p34", "p23", "p10", "p20", "p107", "p103", "p02", "p03", "full-pack", "note-faq"],
     nextActions: [
       "前回受診からの変化、本人の困りごと、家族が気づいたことを短く書き出す",
       "医師や薬剤師へ確認したいことを、受診前に質問メモとしてまとめる",
@@ -620,7 +644,7 @@ export const kaigoSituations: KaigoSituation[] = [
     label: "退院後1か月の在宅生活で、毎日の様子を記録したい",
     shortLabel: "退院後1か月",
     description: "在宅療養の可否や緊急性を判断するのではなく、食事、水分、睡眠、活動、担当者へ伝えることを家族内で記録します。",
-    productIds: ["p25", "p33", "p32", "p29", "p28", "p27", "p26", "p09", "p24", "p23", "p22", "p21", "p107", "p02", "p03", "p01", "hospital-consult-pack", "full-pack", "note-faq"],
+    productIds: ["p25", "p34", "p33", "p32", "p29", "p28", "p27", "p26", "p09", "p24", "p23", "p22", "p21", "p107", "p02", "p03", "p01", "hospital-consult-pack", "full-pack", "note-faq"],
     nextActions: [
       "退院後の食事、水分、睡眠、活動の様子を、毎日同じ形式で短く残す",
       "ケアマネ、訪問看護師、ヘルパーから伝えられたことを家族内で共有する",
@@ -646,7 +670,7 @@ export const kaigoSituations: KaigoSituation[] = [
     label: "入院、退院、介護認定、ケアマネ連携が発生している",
     shortLabel: "入退院と連携",
     description: "短期間で確認事項が増える段階です。連絡メモともしも情報を先に整えます。",
-    productIds: ["hospital-consult-pack", "p33", "p31", "p28", "p29", "p25", "p27", "p26", "p24", "p09", "p22", "p21", "p20", "p13", "p107", "p30", "p02", "p03", "p01", "s3", "full-pack", "note-faq"],
+    productIds: ["hospital-consult-pack", "p34", "p33", "p31", "p28", "p29", "p25", "p27", "p26", "p24", "p09", "p22", "p21", "p20", "p13", "p107", "p30", "p02", "p03", "p01", "s3", "full-pack", "note-faq"],
     nextActions: [
       "入院先、退院予定、服薬、既往歴、相談窓口を1か所に集める",
       "ケアマネや病院に聞くことを事前にリスト化する",

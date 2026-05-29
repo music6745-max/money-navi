@@ -118,6 +118,16 @@ export default function KaigoPage() {
               新着: 福祉用具レンタル・購入前確認
             </TrackedExternalLink>
             <TrackedExternalLink
+              href="https://kaigo-okane.booth.pm/items/8382987"
+              eventName="booth_click"
+              page="kaigo"
+              position="intro_new_template"
+              itemId="p34"
+              className="block rounded-md border border-primary/30 bg-primary/5 px-3 py-2 text-sm font-bold text-primary hover:border-primary/60"
+            >
+              新着: 食事・水分・体重の毎日記録
+            </TrackedExternalLink>
+            <TrackedExternalLink
               href="https://kaigo-okane.booth.pm/items/8382972"
               eventName="booth_click"
               page="kaigo"
@@ -348,6 +358,7 @@ export default function KaigoPage() {
             ["kaigo-parent-disaster-go-bag-contact-memo", "災害時持ち出し・連絡先", "持ち出し品・避難先・緊急連絡先を整理"],
             ["kaigo-caregiver-rest-burden-memo", "介護者の休息・負担", "休息予定・重い時間帯・頼みたいことを整理"],
             ["kaigo-welfare-equipment-rental-purchase-memo", "福祉用具相談前", "生活場面の困りごと・候補・質問を整理"],
+            ["kaigo-parent-meal-water-weight-record-memo", "食事・水分・体重", "毎日の様子・週まとめ・受診前メモを整理"],
             ["kaigo-care-certification-memo", "介護認定申請", "相談前の生活状況と調査前メモを整理"],
             ["kaigo-care-certification-renewal-memo", "認定更新前", "前回からの生活変化・困りごと・相談前メモを整理"],
             ["kaigo-home-care-weekly-service-schedule-memo", "週間サービス予定", "訪問介護・デイ・訪問看護の予定と変更を整理"],

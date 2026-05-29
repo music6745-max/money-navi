@@ -1,6 +1,23 @@
 export type FAQ = { question: string; answer: string };
 
 export const guideFaqs: Record<string, FAQ[]> = {
+  "parent-meal-water-weight-daily-record": [
+    {
+      question: "食事・水分・体重の記録には何を書けばよいですか？",
+      answer:
+        "朝昼夕の食事の様子、水分のとり方、測れた日の体重、気になった変化、家族への申し送り、次回受診や相談時に伝えたいことを分けて書きます。評価ではなく事実の記録として残します。",
+    },
+    {
+      question: "この記録で食事量や水分量が十分か判断できますか？",
+      answer:
+        "判断できません。食事量、水分量、体重変化、栄養状態、脱水、病気、服薬の判断は、かかりつけ医、管理栄養士、看護師、担当ケアマネジャーなどへ相談してください。",
+    },
+    {
+      question: "受診時に持っていくメモとして使えますか？",
+      answer:
+        "使えます。医療機関の指定書式ではありませんが、日付、食事や水分の様子、体重、気になった変化を短くまとめておくと、受診時に日常の様子を説明しやすくなります。",
+    },
+  ],
   "welfare-equipment-rental-purchase-family-check": [
     {
       question: "福祉用具の相談前には何を整理すればよいですか？",
