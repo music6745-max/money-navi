@@ -1,6 +1,23 @@
 export type FAQ = { question: string; answer: string };
 
 export const guideFaqs: Record<string, FAQ[]> = {
+  "home-care-weekly-service-schedule-family-share": [
+    {
+      question: "在宅介護の週間予定表には何を書けばよいですか？",
+      answer:
+        "訪問介護、デイサービス、訪問看護などのサービス名、曜日、時間帯、担当事業所、変更・休止の有無、次に確認したいことを分けて書きます。家族が見返すための手元整理として使います。",
+    },
+    {
+      question: "週間予定表はケアプランの代わりになりますか？",
+      answer:
+        "代わりにはなりません。ケアプラン作成、サービス変更、利用可否、給付や自己負担の判断は担当ケアマネジャーや各事業所へ確認してください。このページは家族内の予定共有を目的としています。",
+    },
+    {
+      question: "離れて暮らす家族への共有にも使えますか？",
+      answer:
+        "使えます。今週のサービス予定、変更・休止、担当者へ確認することをまとめると、電話やLINEで状況を伝えやすくなります。個人情報は共有範囲を決め、必要最小限にしてください。",
+    },
+  ],
   "post-discharge-one-month-home-monitoring-record": [
     {
       question: "退院後1か月は何を記録すればよいですか？",

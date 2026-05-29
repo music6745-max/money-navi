@@ -110,6 +110,69 @@ function KaigoActionBox({
 }
 
 const guideContents: Record<string, ReactNode> = {
+  "home-care-weekly-service-schedule-family-share": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">在宅介護は週の予定が見えにくくなりやすい</h2>
+        <p>
+          訪問介護、デイサービス、訪問看護、訪問リハビリなどが組み合わさると、
+          「今週どのサービスがいつ来るか」を家族だけで覚えておくのが難しくなります。
+          振替、休止、担当者変更が入ると、電話や書類の内容も散らばりやすくなります。
+        </p>
+        <p>
+          週間予定表は、ケアプランの代替ではありません。
+          家族がサービス予定を見返し、離れて暮らす家族へ共有し、次に確認することを整理するための手元メモです。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">週単位で固定しておく項目</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm text-muted">
+          <li>サービス名: 訪問介護、デイサービス、訪問看護、訪問リハビリなど</li>
+          <li>曜日と時間帯: 開始、終了、送迎や訪問の目安</li>
+          <li>担当事業所と担当者: 連絡先や変更時の窓口</li>
+          <li>今週の変更: 休止、振替、担当者変更、時間変更</li>
+          <li>家族共有: 遠方の家族へ伝える要点、次に確認すること</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">変更・休止は「いつ・何が・誰から」を残す</h2>
+        <p>
+          サービスの変更連絡を受けたときは、対象日、変更内容、連絡してきた事業所や担当者、
+          家族側で確認したことを分けて残します。
+          後からケアマネジャーへ相談するときも、出来事が時系列で残っていると説明しやすくなります。
+        </p>
+        <p>
+          ただし、予定表は事業所への指示書ではありません。
+          サービスの追加、休止、振替、利用可否、自己負担額、介護保険上の扱いは、担当ケアマネジャーや各事業所へ確認してください。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">家族共有は「判断」ではなく「状況の一致」</h2>
+        <p>
+          離れて暮らす家族へ共有する目的は、今のサービス状況を同じ認識にすることです。
+          「このサービス構成でよいか」を家族だけで判断するのではなく、現状を整理したうえで担当者へ確認しやすくする使い方が現実的です。
+        </p>
+        <p>
+          週の予定が見えると、帰省時の引き継ぎ、通院付き添いの調整、急な変更時の連絡も進めやすくなります。
+        </p>
+      </section>
+
+      <KaigoActionBox
+        toolHref="https://net-toolbox.jp/tools/kaigo-home-care-weekly-service-schedule-memo?utm_source=toshi-navi&utm_medium=guide&utm_campaign=home_care_weekly_schedule"
+        toolLabel="週間サービス予定メモを作る"
+        boothHref="https://kaigo-okane.booth.pm/items/8382953"
+        boothLabel="週間予定テンプレートを見る"
+      >
+        <p>
+          まず無料ツールで今週の訪問サービス予定、変更・休止、家族共有メモを整理し、継続して使う段階ではBOOTHの
+          在宅介護の週間予定・訪問サービス予定表テンプレートへ転記すると、週ごとの共有を同じ形式で続けられます。
+        </p>
+      </KaigoActionBox>
+    </>
+  ),
   "post-discharge-one-month-home-monitoring-record": (
     <>
       <section>

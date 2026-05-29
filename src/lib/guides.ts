@@ -11,6 +11,16 @@ export interface Guide {
 
 export const guides: Guide[] = [
   {
+    slug: "home-care-weekly-service-schedule-family-share",
+    title: "在宅介護の週間予定を家族で共有する方法",
+    description:
+      "訪問介護、デイサービス、訪問看護など複数の在宅サービス予定を、家族が週単位で見返し、変更・休止も整理して共有する方法を解説。",
+    icon: "📅",
+    category: "household",
+    readTime: "9分",
+    publishedAt: "2026-05-29",
+  },
+  {
     slug: "post-discharge-one-month-home-monitoring-record",
     title: "退院後1か月に家族が記録しておくこと",
     description: "親が退院して自宅に戻った後の1か月に、食事、水分、睡眠、活動、担当者へ伝えることを家族が事実ベースで記録する方法を解説。",

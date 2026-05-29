@@ -98,10 +98,21 @@ export default function KaigoPage() {
               新着: もの忘れ相談前整理テンプレート
             </TrackedExternalLink>
             <TrackedExternalLink
+              href="https://kaigo-okane.booth.pm/items/8382953"
+              eventName="booth_click"
+              page="kaigo"
+              position="intro_new_template"
+              itemId="p26"
+              className="block rounded-md border border-primary/30 bg-primary/5 px-3 py-2 text-sm font-bold text-primary hover:border-primary/60"
+            >
+              新着: 在宅介護の週間予定テンプレート
+            </TrackedExternalLink>
+            <TrackedExternalLink
               href="https://kaigo-okane.booth.pm/items/8427230"
               eventName="booth_click"
               page="kaigo"
               position="intro_new_template"
+              itemId="p25"
               className="block rounded-md border border-primary/30 bg-primary/5 px-3 py-2 text-sm font-bold text-primary hover:border-primary/60"
             >
               新着: 退院後1か月見守り記録テンプレート
@@ -265,6 +276,7 @@ export default function KaigoPage() {
             ["kaigo-emergency-info", "緊急メモ", "連絡先・服薬・支払い確認項目を作成"],
             ["kaigo-care-certification-memo", "介護認定申請", "相談前の生活状況と調査前メモを整理"],
             ["kaigo-care-certification-renewal-memo", "認定更新前", "前回からの生活変化・困りごと・相談前メモを整理"],
+            ["kaigo-home-care-weekly-service-schedule-memo", "週間サービス予定", "訪問介護・デイ・訪問看護の予定と変更を整理"],
             ["kaigo-post-discharge-month-record-memo", "退院後1か月", "食事・水分・睡眠・活動・担当者確認を整理"],
             ["kaigo-clinic-visit-record-memo", "通院付き添い", "受診前の質問・受診後の説明・次回予定を整理"],
             ["kaigo-fall-near-miss-record-memo", "転倒ヒヤリハット", "転んだ・転びそうになった場面を相談前に記録"],
