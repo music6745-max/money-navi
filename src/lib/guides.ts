@@ -11,6 +11,15 @@ export interface Guide {
 
 export const guides: Guide[] = [
   {
+    slug: "parent-fall-near-miss-record-family-memo",
+    title: "親の転倒・ヒヤリハットを相談前に記録する方法",
+    description: "親が転んだ、転びそうになった場面を、家族が日時・場所・状況・本人の様子に分けて記録し、医師やケアマネへ相談しやすくする方法を解説。",
+    icon: "⚠️",
+    category: "household",
+    readTime: "9分",
+    publishedAt: "2026-05-29",
+  },
+  {
     slug: "day-service-before-use-family-checklist",
     title: "デイサービス利用前に家族が確認すること",
     description: "デイサービスを利用する前に、持ち物、送迎、薬、入浴、事業所への申し送り、利用後の振り返りを整理する方法を解説。",
