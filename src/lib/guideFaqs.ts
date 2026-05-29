@@ -1,6 +1,23 @@
 export type FAQ = { question: string; answer: string };
 
 export const guideFaqs: Record<string, FAQ[]> = {
+  "elderly-parent-disaster-go-bag-contact-list": [
+    {
+      question: "高齢の親の災害時メモには何を書けばよいですか？",
+      answer:
+        "持ち出し品、薬やお薬手帳、緊急連絡先、避難先候補、医療情報、介護サービス連絡先、家族の役割、次回確認することを分けて書きます。家族が見返すための手元整理として使います。",
+    },
+    {
+      question: "このメモで避難判断や防災対策を決められますか？",
+      answer:
+        "決められません。避難判断、災害時の行動、備蓄量、医療・介護対応は、自治体、消防、防災情報、医療機関、担当ケアマネジャーなどの公式情報を確認してください。",
+    },
+    {
+      question: "どのくらいの頻度で見直せばよいですか？",
+      answer:
+        "薬、連絡先、介護サービス、避難先、親の体調が変わった時に見直すのが現実的です。定期的には季節の変わり目や帰省時に、古い薬や期限切れの物を確認すると続けやすくなります。",
+    },
+  ],
   "facility-after-admission-family-visit-contact-memo": [
     {
       question: "施設入所後の家族メモには何を書けばよいですか？",

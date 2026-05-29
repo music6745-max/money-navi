@@ -56,6 +56,16 @@ export const kaigoProducts: KaigoProduct[] = [
     tags: ["もしも", "入院", "緊急時"],
   },
   {
+    id: "p31",
+    type: "single",
+    title: "高齢親の災害時持ち出し・連絡先整理テンプレート集",
+    description:
+      "高齢の親の災害時に備えて、持ち出し品、緊急連絡先、避難先、医療情報、家族の役割を整理するPDF/Excelセット。",
+    priceLabel: "単品 1,480円",
+    boothUrl: "https://kaigo-okane.booth.pm/items/8382972",
+    tags: ["災害時", "持ち出し品", "緊急連絡先"],
+  },
+  {
     id: "p103",
     type: "single",
     title: "一人暮らし親の見守り連絡表テンプレート集",
@@ -362,7 +372,7 @@ export const kaigoSituations: KaigoSituation[] = [
     label: "親の介護が気になり始めたが、何から整理すればよいか分からない",
     shortLabel: "まず全体を整理",
     description: "最初は連絡先、医療情報、お金、緊急時の4領域を薄く広くそろえるのが現実的です。",
-    productIds: ["note-compare", "starter-set", "p01", "p104", "p03", "s3", "full-pack"],
+    productIds: ["note-compare", "starter-set", "p01", "p104", "p03", "p31", "s3", "full-pack"],
     nextActions: [
       "親の基本情報、かかりつけ、服薬、緊急連絡先を1枚にまとめる",
       "口座、保険、年金、介護費用の見込みを家族で確認できる形にする",
@@ -375,11 +385,25 @@ export const kaigoSituations: KaigoSituation[] = [
     label: "一人暮らしの親の見守り、連絡頻度、緊急時対応に不安がある",
     shortLabel: "見守り体制",
     description: "見守りはサービス契約の前に、連絡頻度、費用、緊急時の動き、家族の担当を分けて整理します。",
-    productIds: ["p103", "p22", "p03", "p02", "starter-set", "s3", "note-compare"],
+    productIds: ["p103", "p31", "p22", "p03", "p02", "starter-set", "s3", "note-compare"],
     nextActions: [
       "普段の連絡頻度、電話がつながらない時の順番、訪問できる人を決める",
       "通信費、訪問交通費、配食や見守りサービス費、緊急時の立替を分けて記録する",
       "保険証、お薬手帳、鍵、近所の連絡先など、もしもの時に必要な情報を1か所にまとめる",
+    ],
+    affiliateOfferIds: ["hoken-mammoth"],
+  },
+  {
+    id: "disaster-prep",
+    label: "高齢親の災害時持ち出し品・避難先・連絡先を家族で整理したい",
+    shortLabel: "災害時の備え",
+    description:
+      "避難判断や防災計画の代替ではなく、持ち出し品、薬、緊急連絡先、避難先候補、家族の役割を手元で見返せるようにします。",
+    productIds: ["p31", "p03", "p103", "p02", "p01", "starter-set", "s3", "full-pack", "note-faq"],
+    nextActions: [
+      "薬、お薬手帳、保険証、充電器、眼鏡、補聴器など、親に必要な持ち出し品を確認する",
+      "家族、近所、かかりつけ医、薬局、ケアマネ、介護事業所の連絡先を1か所にまとめる",
+      "避難先や福祉避難所の利用可否、災害時の行動は自治体や公式情報で確認する",
     ],
     affiliateOfferIds: ["hoken-mammoth"],
   },
@@ -401,7 +425,7 @@ export const kaigoSituations: KaigoSituation[] = [
     label: "きょうだい・親族で分担や連絡の温度差がある",
     shortLabel: "家族で共有",
     description: "感情的な話し合いの前に、事実、役割、費用、連絡ルールを分けて見える化します。",
-    productIds: ["p105", "p30", "p29", "p28", "p27", "p26", "p13", "p05", "p104", "p02", "p01", "s3", "all-87", "note-compare"],
+    productIds: ["p105", "p31", "p30", "p29", "p28", "p27", "p26", "p13", "p05", "p104", "p02", "p01", "s3", "all-87", "note-compare"],
     nextActions: [
       "費用分担と作業分担を別々の表で管理する",
       "病院、ケアマネ、施設との連絡窓口を決める",
@@ -574,7 +598,7 @@ export const kaigoSituations: KaigoSituation[] = [
     label: "入院、退院、介護認定、ケアマネ連携が発生している",
     shortLabel: "入退院と連携",
     description: "短期間で確認事項が増える段階です。連絡メモともしも情報を先に整えます。",
-    productIds: ["hospital-consult-pack", "p28", "p29", "p25", "p27", "p26", "p24", "p09", "p22", "p21", "p20", "p13", "p107", "p30", "p02", "p03", "p01", "s3", "full-pack", "note-faq"],
+    productIds: ["hospital-consult-pack", "p31", "p28", "p29", "p25", "p27", "p26", "p24", "p09", "p22", "p21", "p20", "p13", "p107", "p30", "p02", "p03", "p01", "s3", "full-pack", "note-faq"],
     nextActions: [
       "入院先、退院予定、服薬、既往歴、相談窓口を1か所に集める",
       "ケアマネや病院に聞くことを事前にリスト化する",
@@ -614,7 +638,7 @@ export const kaigoSituations: KaigoSituation[] = [
     label: "遠距離介護で、情報共有や緊急時対応に不安がある",
     shortLabel: "遠距離介護",
     description: "遠方では情報の散在が最大のリスクです。連絡先、役割、緊急時の判断材料を先に共有します。",
-    productIds: ["p105", "p30", "p29", "p28", "p27", "p26", "p02", "p03", "p01", "s3", "full-pack", "note-faq"],
+    productIds: ["p105", "p31", "p30", "p29", "p28", "p27", "p26", "p02", "p03", "p01", "s3", "full-pack", "note-faq"],
     nextActions: [
       "現地対応者、家族連絡係、費用管理係を分けて決める",
       "親の医療、服薬、介護サービス、鍵、近所の連絡先を共有する",

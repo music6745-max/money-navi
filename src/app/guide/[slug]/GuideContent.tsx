@@ -110,6 +110,66 @@ function KaigoActionBox({
 }
 
 const guideContents: Record<string, ReactNode> = {
+  "elderly-parent-disaster-go-bag-contact-list": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">災害時の備えは家族内で散らばりやすい</h2>
+        <p>
+          高齢の親の災害時準備では、持ち出し品、薬、避難先、緊急連絡先、家族の役割が別々の場所に散らばりがちです。
+          「薬はどこにあるか」「誰に連絡するか」「避難先候補を誰が確認したか」が曖昧なままだと、いざという時に家族が同じ情報を見られません。
+        </p>
+        <p>
+          災害時メモは、避難判断や防災計画を家族だけで決めるものではありません。
+          公式情報を確認する前に、家族が親の基本情報と確認先を見返せるようにするための手元整理です。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">持ち出し品・連絡先・避難先を分ける</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm text-muted">
+          <li>持ち出し品: 薬、お薬手帳、保険証、眼鏡、補聴器、充電器、衛生用品</li>
+          <li>連絡先: 家族、近所、かかりつけ医、薬局、ケアマネ、介護事業所</li>
+          <li>避難先候補: 自宅近く、親族宅、福祉避難所など確認が必要な場所</li>
+          <li>医療・介護情報: 服薬、既往歴、歩行や移動の注意点、必要な支援</li>
+          <li>家族の役割: 誰が連絡、確認、迎え、補充を担当するか</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">親の状況が変わるたびに軽く更新する</h2>
+        <p>
+          災害時の持ち出し品は、一度作って終わりではありません。
+          薬が変わる、通院先が変わる、介護サービスが増える、歩行状態が変わると、必要な物や連絡先も変わります。
+        </p>
+        <p>
+          帰省時や季節の変わり目に、期限切れの物、古い連絡先、今は使っていない薬を見直すだけでも、家族内の確認漏れを減らせます。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">判断ではなく確認先を残す</h2>
+        <p>
+          避難のタイミング、備蓄量、福祉避難所の利用可否、災害時の医療対応は、家族メモだけで判断できません。
+          自治体、消防、地域包括支援センター、医療機関、担当ケアマネジャーなど、確認先を分けて残しておくことが重要です。
+        </p>
+        <p>
+          パスワード、口座番号、マイナンバーなどの機密情報は書かず、共有範囲も家族内で決めておきます。
+        </p>
+      </section>
+
+      <KaigoActionBox
+        toolHref="https://net-toolbox.jp/tools/kaigo-parent-disaster-go-bag-contact-memo?utm_source=toshi-navi&utm_medium=guide&utm_campaign=parent_disaster_go_bag"
+        toolLabel="災害時持ち出し・連絡先メモを作る"
+        boothHref="https://kaigo-okane.booth.pm/items/8382972"
+        boothLabel="災害時持ち出しテンプレートを見る"
+      >
+        <p>
+          まず無料ツールで持ち出し品、避難先、緊急連絡先を整理し、家族で定期的に見直す段階ではBOOTHの
+          高齢親の災害時持ち出し・連絡先整理テンプレートへ転記すると、確認漏れを同じ形式で減らせます。
+        </p>
+      </KaigoActionBox>
+    </>
+  ),
   "facility-after-admission-family-visit-contact-memo": (
     <>
       <section>

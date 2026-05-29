@@ -11,6 +11,16 @@ export interface Guide {
 
 export const guides: Guide[] = [
   {
+    slug: "elderly-parent-disaster-go-bag-contact-list",
+    title: "高齢親の災害時持ち出し品・連絡先を家族で整理する方法",
+    description:
+      "高齢の親の災害時に備えて、持ち出し品、避難先、緊急連絡先、医療情報、家族の役割を分けて整理する方法を解説。",
+    icon: "🎒",
+    category: "household",
+    readTime: "8分",
+    publishedAt: "2026-05-30",
+  },
+  {
     slug: "facility-after-admission-family-visit-contact-memo",
     title: "施設入所後の面会・差し入れ・連絡を家族で整理する方法",
     description:
