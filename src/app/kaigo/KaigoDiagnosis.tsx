@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { kaigoProducts, kaigoSituations } from "@/lib/kaigoProducts";
+import { kaigoProducts, kaigoSituations, type KaigoProduct } from "@/lib/kaigoProducts";
 import { TrackedExternalLink } from "@/components/TrackedExternalLink";
 import { TrackedOfferLink } from "@/components/TrackedOfferLink";
 
@@ -27,8 +27,16 @@ export function KaigoDiagnosis() {
   const [selectedId, setSelectedId] = useState(kaigoSituations[0]?.id ?? "");
   const selected = kaigoSituations.find((item) => item.id === selectedId) ?? kaigoSituations[0];
   const recommendedProducts = useMemo(() => {
-    const ids = new Set(selected.productIds);
-    return kaigoProducts.filter((product) => ids.has(product.id));
+    const productById = new Map<string, KaigoProduct>(kaigoProducts.map((product) => [product.id, product]));
+    const products: KaigoProduct[] = [];
+
+    for (const productId of selected.productIds) {
+      const product = productById.get(productId);
+      if (!product) continue;
+      products.push(product);
+    }
+
+    return products;
   }, [selected.productIds]);
 
   return (
