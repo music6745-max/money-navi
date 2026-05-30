@@ -110,6 +110,79 @@ function KaigoActionBox({
 }
 
 const guideContents: Record<string, ReactNode> = {
+  "parent-home-clothes-bedding-season-size-memo": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">衣類と寝具は「サイズ」と「保管場所」が分からないと準備が止まる</h2>
+        <p>
+          帰省や入院・退院の前後、施設の見学や短期利用などで、親の衣類や寝具の準備が必要になることがあります。
+        </p>
+        <p>
+          そのときに「どこにあるか」「どのサイズか」「季節物の入れ替えは済んでいるか」が分からないと、探す時間が増え、家族の負担になりやすいです。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">カテゴリ別に「探す手がかり」をそろえる</h2>
+        <p>
+          正確さよりも、家族が探せる手がかりをそろえることを優先します。普段使うものから、短い言葉で書き留めるのがコツです。
+        </p>
+        <ul className="list-disc list-inside space-y-2 text-sm text-muted">
+          <li>普段着・外出着: 上着、ズボン、部屋着など</li>
+          <li>下着・靴下: サイズ、予備の有無、入っている引き出し</li>
+          <li>季節物: 冬物コート、夏物寝具などの保管場所</li>
+          <li>寝具: 布団、毛布、シーツなどの置き場所と替え</li>
+          <li>家族共有メモ: 次に確認したいこと、更新ルール</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">更新ルールを決めて「次の人が困らない」状態にする</h2>
+        <p>
+          衣類や寝具は入れ替えが起きやすい領域です。メモを作ったら、次に見直すタイミングを決めておくと放置されにくくなります。
+        </p>
+        <ul className="list-disc list-inside space-y-2 text-sm text-muted">
+          <li>季節替えの後に更新する</li>
+          <li>買い替え・処分・収納場所変更があったら更新する</li>
+          <li>次回帰省日など、見直し日をメモに残す</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">秘密情報と外部ルールの判断は書かない</h2>
+        <p>
+          このメモには、パスワード、暗証番号、ログイン情報、カード番号、口座番号、マイナンバーなどの秘密情報を書かないようにします。
+        </p>
+        <p>
+          また、施設やサービスの持ち物ルール、衣類の管理方法、洗濯や預け方の判断は利用先ごとに異なります。必要な場合は、利用先の案内や担当窓口に確認してください。
+        </p>
+      </section>
+
+      <KaigoActionBox
+        toolHref="https://net-toolbox.jp/tools/kaigo-parent-clothes-bedding-season-size-memo?utm_source=toshi-navi&utm_medium=guide&utm_campaign=clothes_bedding_size_memo"
+        toolLabel="衣類・寝具・サイズメモを作る"
+        boothHref="https://kaigo-okane.booth.pm/items/8383004"
+        boothLabel="衣類・寝具・季節替え・サイズ管理テンプレートを見る"
+      >
+        <p>
+          まず無料ツールで、衣類・寝具のカテゴリ、サイズ、保管場所、季節替えメモを作ります。繰り返し見返す段階では、BOOTHの
+          テンプレートへ転記しておくと、家族間で共有しやすくなります。
+        </p>
+        <p className="mt-2">
+          実家まわりの整理をまとめて進めたい場合は、
+          <a
+            href="https://kaigo-okane.booth.pm/items/8383305"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-bold text-primary underline underline-offset-2"
+          >
+            親の介護はじめの37商品まとめセット
+          </a>
+          も比較候補になります。
+        </p>
+      </KaigoActionBox>
+    </>
+  ),
   "parent-home-storage-location-map": (
     <>
       <section>

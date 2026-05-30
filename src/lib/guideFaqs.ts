@@ -1,6 +1,23 @@
 export type FAQ = { question: string; answer: string };
 
 export const guideFaqs: Record<string, FAQ[]> = {
+  "parent-home-clothes-bedding-season-size-memo": [
+    {
+      question: "衣類・寝具・季節替え・サイズ管理メモには何を書けばよいですか？",
+      answer:
+        "普段着、外出着、下着・靴下、季節物、寝具などに分けて、サイズ、保管場所、予備の有無、次に確認したいことを短く書きます。正確さよりも「家族が探せる手がかり」をそろえることを優先します。",
+    },
+    {
+      question: "パスワードや口座番号などの秘密情報も一緒に書けますか？",
+      answer:
+        "書きません。パスワード、暗証番号、ログイン情報、カード番号、口座番号、マイナンバーなどの秘密情報は記録しない前提で使ってください。",
+    },
+    {
+      question: "施設やサービスの持ち物ルールもこのメモで判断できますか？",
+      answer:
+        "判断できません。持ち物のルールや洗濯・管理の方法は利用先ごとに異なるため、必要な場合は利用先の案内や担当窓口へ確認してください。",
+    },
+  ],
   "parent-home-storage-location-map": [
     {
       question: "実家の収納場所・置き場所マップには何を書けばよいですか？",

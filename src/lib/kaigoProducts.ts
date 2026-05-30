@@ -116,6 +116,17 @@ export const kaigoProducts: KaigoProduct[] = [
     tags: ["実家整理", "収納", "置き場所", "家族共有"],
   },
   {
+    id: "p39",
+    type: "single",
+    title: "高齢親の衣類・寝具・季節替え・サイズ管理メモ テンプレート集",
+    description:
+      "高齢の親の衣類と寝具について、サイズ、季節替え、保管場所、予備を家族で共有するPDF/Excelセット。",
+    priceLabel: "単品 1,480円",
+    boothUrl: "https://kaigo-okane.booth.pm/items/8383004",
+    noteUrl: "https://note.com/mild_quail6092/n/ncc89275f229f",
+    tags: ["衣類", "寝具", "季節替え", "サイズ管理", "家族共有"],
+  },
+  {
     id: "p35",
     type: "single",
     title: "親のかかりつけ医・薬局・処方薬情報まとめテンプレート集",
@@ -547,11 +558,25 @@ export const kaigoSituations: KaigoSituation[] = [
     shortLabel: "置き場所マップ",
     description:
       "片付けや廃棄判断の代替ではなく、実家の部屋別・棚段別の置き場所を家族内メモとしてそろえ、帰省時の探し物を減らします。",
-    productIds: ["p38", "p37", "p105", "p02", "p03", "care-start-37", "full-pack", "note-faq"],
+    productIds: ["p38", "p39", "p37", "p105", "p02", "p03", "care-start-37", "full-pack", "note-faq"],
     nextActions: [
       "台所、リビング、寝室、洗面所、押し入れなど部屋ごとに、よく探す日用品の置き場所を短く書く",
       "棚・引き出しの段など「探す手がかり」だけを残し、秘密情報や設備操作のメモは作らない",
       "変更があったら更新するルールと、次の帰省日など見直しタイミングを決める",
+    ],
+    affiliateOfferIds: ["hoken-mammoth"],
+  },
+  {
+    id: "clothes-bedding-season-size",
+    label: "親の衣類・寝具・季節替え・サイズ情報を家族で共有したい",
+    shortLabel: "衣類・寝具",
+    description:
+      "処分や買い足しの判断ではなく、衣類・寝具のサイズ、季節、保管場所、予備の有無を家族内メモとしてそろえ、急な準備でも探しやすくします。",
+    productIds: ["p39", "p38", "p37", "p22", "p21", "p02", "care-start-37", "full-pack", "note-faq"],
+    nextActions: [
+      "普段着、外出着、下着・靴下、寝具などに分けて、よく使うものと保管場所を短く書く",
+      "サイズ、季節替えのタイミング、予備の有無をメモし、次の確認日を決める",
+      "施設やサービスの持ち物ルール、洗濯・管理の判断は、利用先の案内や担当窓口へ確認する",
     ],
     affiliateOfferIds: ["hoken-mammoth"],
   },

@@ -11,6 +11,16 @@ export interface Guide {
 
 export const guides: Guide[] = [
   {
+    slug: "parent-home-clothes-bedding-season-size-memo",
+    title: "高齢の親の衣類・寝具・季節替え・サイズ情報を家族で共有する方法",
+    description:
+      "衣類と寝具について、サイズ、季節替え、保管場所、予備を家族で共有するための整理方法を解説。",
+    icon: "👕",
+    category: "household",
+    readTime: "8分",
+    publishedAt: "2026-05-30",
+  },
+  {
     slug: "parent-home-storage-location-map",
     title: "実家の日用品の収納場所・置き場所を家族で共有する方法",
     description:
