@@ -158,6 +158,16 @@ export default function KaigoPage() {
               新着: 掃除・洗濯・家事ルーティン共有メモ
             </TrackedExternalLink>
             <TrackedExternalLink
+              href="https://kaigo-okane.booth.pm/items/8383018"
+              eventName="booth_click"
+              page="kaigo"
+              position="intro_new_template"
+              itemId="p42"
+              className="block rounded-md border border-primary/30 bg-primary/5 px-3 py-2 text-sm font-bold text-primary hover:border-primary/60"
+            >
+              新着: 介護家族の申し送り・引き継ぎメモ
+            </TrackedExternalLink>
+            <TrackedExternalLink
               href="https://kaigo-okane.booth.pm/items/8383305"
               eventName="booth_click"
               page="kaigo"
@@ -424,6 +434,7 @@ export default function KaigoPage() {
             ["kaigo-facility-monthly-cost-memo", "施設月額見積もり", "施設請求・医療費・生活費・家族交通費を整理"],
             ["kaigo-facility-after-admission-visit-contact-memo", "入所後の面会・連絡", "面会記録・差し入れ・施設連絡を整理"],
             ["kaigo-family-role-share", "役割分担", "きょうだい間の担当案を整理"],
+            ["kaigo-family-handover-memo", "申し送り・引き継ぎ", "当番交代の申し送りと次回確認事項を整理"],
             ["kaigo-emergency-info", "緊急メモ", "連絡先・服薬・支払い確認項目を作成"],
             ["kaigo-parent-disaster-go-bag-contact-memo", "災害時持ち出し・連絡先", "持ち出し品・避難先・緊急連絡先を整理"],
             ["kaigo-caregiver-rest-burden-memo", "介護者の休息・負担", "休息予定・重い時間帯・頼みたいことを整理"],

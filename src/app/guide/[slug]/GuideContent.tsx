@@ -110,6 +110,78 @@ function KaigoActionBox({
 }
 
 const guideContents: Record<string, ReactNode> = {
+  "kaigo-family-handover-memo": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">申し送りが散らばると、当番交代で抜け漏れが起きやすい</h2>
+        <p>
+          介護は、帰省のたび、きょうだいの当番交代、通院付き添い、ショートステイやデイサービスの前後などで、担当者が入れ替わりやすいです。
+        </p>
+        <p>
+          そのたびにLINEや電話で伝えたことが流れてしまうと、「何が決まったか」「次に誰が何を確認するか」が曖昧になり、抜け漏れや二度手間が増えます。
+        </p>
+        <p>大事なのは正解を作ることではなく、家族が引き継げる形式で「決まったこと」と「未決のこと」をそろえることです。</p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">「事実」「決まったこと」「次に確認」「連絡が必要」を分ける</h2>
+        <p>
+          申し送りは長くしすぎると見返されません。評価や推測を増やすよりも、次の担当者が迷わない手がかりだけを短く残します。
+        </p>
+        <ul className="list-disc list-inside space-y-2 text-sm text-muted">
+          <li>事実: 今日見たこと、聞いたこと（例: 食事の様子、会話、服薬の確認など）</li>
+          <li>決まったこと: 次回の予定、家族内で合意したこと</li>
+          <li>次に確認: 担当窓口へ聞くこと、次回帰省で見たいこと</li>
+          <li>連絡が必要: 誰に、いつまでに、何を連絡するか</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">日次・帰省後まとめ・定期共有の3レイヤーにする</h2>
+        <p>
+          1回の帰省だけで完結しないことが多いため、日々の短い申し送りと、帰省後のまとめ、家族への定期共有を分けると、見返しやすくなります。
+        </p>
+        <ul className="list-disc list-inside space-y-2 text-sm text-muted">
+          <li>日次: その日気づいたこと・変更点だけを短く残す</li>
+          <li>帰省後まとめ: 決まったこと・未決のこと・次の担当を一度まとめる</li>
+          <li>定期共有: 月1などで、家族に共有する要点だけを整理する</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">秘密情報と判断は書かない</h2>
+        <p>
+          このメモには、パスワード、暗証番号、ログイン情報、カード番号、口座番号、マイナンバーなどの秘密情報を書かないようにします。
+        </p>
+        <p>
+          また、受診や治療、介護サービスの利用可否、契約の最終判断は扱いません。必要な場合は、担当窓口や専門職に確認してください。
+        </p>
+      </section>
+
+      <KaigoActionBox
+        toolHref="https://net-toolbox.jp/tools/kaigo-family-handover-memo?utm_source=toshi-navi&utm_medium=guide&utm_campaign=family_handover_memo"
+        toolLabel="申し送り・引き継ぎメモを作る"
+        boothHref="https://kaigo-okane.booth.pm/items/8383018"
+        boothLabel="申し送り・引き継ぎメモ テンプレートを見る"
+      >
+        <p>
+          まず無料ツールで、日次・帰省後まとめ・定期共有の3つに分けて書き出します。繰り返し見返す段階では、BOOTHのテンプレートへ転記しておくと、家族間で共有しやすくなります。
+        </p>
+        <p className="mt-2">
+          実家まわりの整理をまとめて進めたい場合は、
+          <a
+            href="https://kaigo-okane.booth.pm/items/8383305"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-bold text-primary underline underline-offset-2"
+          >
+            親の介護はじめの37商品まとめセット
+          </a>
+          も比較候補になります。
+        </p>
+      </KaigoActionBox>
+    </>
+  ),
   "parent-home-cleaning-laundry-housework-routine": (
     <>
       <section>

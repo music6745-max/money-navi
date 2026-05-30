@@ -138,6 +138,17 @@ export const kaigoProducts: KaigoProduct[] = [
     tags: ["家事", "掃除", "洗濯", "ルーティン", "家族共有"],
   },
   {
+    id: "p42",
+    type: "single",
+    title: "介護家族の申し送り・引き継ぎメモ テンプレート集",
+    description:
+      "日次の申し送り、帰省後のまとめ、家族への定期共有を、家族内で見返しやすく残すPDF/Excelセット。",
+    priceLabel: "単品 1,480円",
+    boothUrl: "https://kaigo-okane.booth.pm/items/8383018",
+    noteUrl: "https://note.com/mild_quail6092/n/nf63effda53fb",
+    tags: ["申し送り", "引き継ぎ", "家族共有"],
+  },
+  {
     id: "p35",
     type: "single",
     title: "親のかかりつけ医・薬局・処方薬情報まとめテンプレート集",
@@ -527,11 +538,25 @@ export const kaigoSituations: KaigoSituation[] = [
     label: "きょうだい・親族で分担や連絡の温度差がある",
     shortLabel: "家族で共有",
     description: "感情的な話し合いの前に、事実、役割、費用、連絡ルールを分けて見える化します。",
-    productIds: ["p105", "p40", "p38", "p37", "p36", "p32", "p31", "p30", "p29", "p28", "p27", "p26", "p13", "p05", "p104", "p02", "p01", "care-start-37", "s3", "all-87", "note-compare"],
+    productIds: ["p105", "p42", "p40", "p38", "p37", "p36", "p32", "p31", "p30", "p29", "p28", "p27", "p26", "p13", "p05", "p104", "p02", "p01", "care-start-37", "s3", "all-87", "note-compare"],
     nextActions: [
       "費用分担と作業分担を別々の表で管理する",
       "病院、ケアマネ、施設との連絡窓口を決める",
       "決まったことだけでなく、未決事項も次回確認リストとして残す",
+    ],
+    affiliateOfferIds: ["hoken-mammoth"],
+  },
+  {
+    id: "family-handover",
+    label: "介護の申し送り・引き継ぎメモを家族でそろえたい",
+    shortLabel: "申し送り",
+    description:
+      "医療やサービスの判断ではなく、日々の様子、決まったこと、次に確認したいことを、家族内で同じ形式で残します。",
+    productIds: ["p42", "p40", "p37", "p36", "p105", "p02", "p03", "care-start-37", "full-pack", "note-faq"],
+    nextActions: [
+      "申し送りは「事実」「次に確認すること」「連絡が必要なこと」に分けて短く残す",
+      "帰省や当番交代の後に、決まったこと・未決のこと・次の担当をまとめる",
+      "医療や介護サービスの判断は家族内で決め切らず、担当窓口や専門職へ確認する",
     ],
     affiliateOfferIds: ["hoken-mammoth"],
   },

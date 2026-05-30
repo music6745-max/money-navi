@@ -11,6 +11,16 @@ export interface Guide {
 
 export const guides: Guide[] = [
   {
+    slug: "kaigo-family-handover-memo",
+    title: "介護の申し送り・引き継ぎメモを家族で運用する方法",
+    description:
+      "帰省や当番交代で抜けやすい情報を、日次の申し送りと定期共有で残し、家族で見返しやすくする方法を解説。",
+    icon: "📝",
+    category: "household",
+    readTime: "8分",
+    publishedAt: "2026-05-30",
+  },
+  {
     slug: "parent-home-cleaning-laundry-housework-routine",
     title: "高齢の親の掃除・洗濯・家事ルーティンを家族で共有する方法",
     description:
