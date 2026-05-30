@@ -11,6 +11,16 @@ export interface Guide {
 
 export const guides: Guide[] = [
   {
+    slug: "home-care-consumables-stock-replenishment",
+    title: "在宅介護の消耗品の在庫と補充タイミングを家族で共有する方法",
+    description:
+      "大人用紙おむつ、尿とりパッド、ウェットティッシュ、使い捨て手袋など、在宅介護で使う消耗品の在庫と買い物メモを整理する方法を解説。",
+    icon: "🧻",
+    category: "household",
+    readTime: "8分",
+    publishedAt: "2026-05-30",
+  },
+  {
     slug: "parent-doctor-pharmacy-prescription-info-list",
     title: "親のかかりつけ医・薬局・処方薬情報を家族で共有する方法",
     description:

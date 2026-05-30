@@ -118,6 +118,16 @@ export default function KaigoPage() {
               新着: 福祉用具レンタル・購入前確認
             </TrackedExternalLink>
             <TrackedExternalLink
+              href="https://kaigo-okane.booth.pm/items/8382994"
+              eventName="booth_click"
+              page="kaigo"
+              position="intro_new_template"
+              itemId="p36"
+              className="block rounded-md border border-primary/30 bg-primary/5 px-3 py-2 text-sm font-bold text-primary hover:border-primary/60"
+            >
+              新着: 在宅介護の消耗品 在庫・補充
+            </TrackedExternalLink>
+            <TrackedExternalLink
               href="https://kaigo-okane.booth.pm/items/8382989"
               eventName="booth_click"
               page="kaigo"
@@ -368,6 +378,7 @@ export default function KaigoPage() {
             ["kaigo-parent-disaster-go-bag-contact-memo", "災害時持ち出し・連絡先", "持ち出し品・避難先・緊急連絡先を整理"],
             ["kaigo-caregiver-rest-burden-memo", "介護者の休息・負担", "休息予定・重い時間帯・頼みたいことを整理"],
             ["kaigo-welfare-equipment-rental-purchase-memo", "福祉用具相談前", "生活場面の困りごと・候補・質問を整理"],
+            ["kaigo-home-care-consumables-stock-memo", "消耗品 在庫・補充", "介護消耗品の残量・買い物・家族共有を整理"],
             ["kaigo-parent-doctor-pharmacy-medicine-memo", "医療機関・薬局・薬", "かかりつけ医・薬局・薬の名前を共有"],
             ["kaigo-parent-meal-water-weight-record-memo", "食事・水分・体重", "毎日の様子・週まとめ・受診前メモを整理"],
             ["kaigo-care-certification-memo", "介護認定申請", "相談前の生活状況と調査前メモを整理"],

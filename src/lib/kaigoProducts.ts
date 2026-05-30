@@ -86,6 +86,16 @@ export const kaigoProducts: KaigoProduct[] = [
     tags: ["福祉用具", "レンタル", "購入前確認"],
   },
   {
+    id: "p36",
+    type: "single",
+    title: "在宅介護の消耗品 在庫・補充メモ テンプレート集",
+    description:
+      "大人用紙おむつ、尿とりパッド、ウェットティッシュ、使い捨て手袋など、介護消耗品の残量と補充予定を家族で共有するPDF/Excelセット。",
+    priceLabel: "単品 1,480円",
+    boothUrl: "https://kaigo-okane.booth.pm/items/8382994",
+    tags: ["消耗品", "在庫管理", "買い物メモ"],
+  },
+  {
     id: "p35",
     type: "single",
     title: "親のかかりつけ医・薬局・処方薬情報まとめテンプレート集",
@@ -425,7 +435,7 @@ export const kaigoSituations: KaigoSituation[] = [
     label: "一人暮らしの親の見守り、連絡頻度、緊急時対応に不安がある",
     shortLabel: "見守り体制",
     description: "見守りはサービス契約の前に、連絡頻度、費用、緊急時の動き、家族の担当を分けて整理します。",
-    productIds: ["p103", "p32", "p31", "p22", "p03", "p02", "starter-set", "s3", "note-compare"],
+    productIds: ["p103", "p36", "p32", "p31", "p22", "p03", "p02", "starter-set", "s3", "note-compare"],
     nextActions: [
       "普段の連絡頻度、電話がつながらない時の順番、訪問できる人を決める",
       "通信費、訪問交通費、配食や見守りサービス費、緊急時の立替を分けて記録する",
@@ -465,7 +475,7 @@ export const kaigoSituations: KaigoSituation[] = [
     label: "きょうだい・親族で分担や連絡の温度差がある",
     shortLabel: "家族で共有",
     description: "感情的な話し合いの前に、事実、役割、費用、連絡ルールを分けて見える化します。",
-    productIds: ["p105", "p32", "p31", "p30", "p29", "p28", "p27", "p26", "p13", "p05", "p104", "p02", "p01", "s3", "all-87", "note-compare"],
+    productIds: ["p105", "p36", "p32", "p31", "p30", "p29", "p28", "p27", "p26", "p13", "p05", "p104", "p02", "p01", "s3", "all-87", "note-compare"],
     nextActions: [
       "費用分担と作業分担を別々の表で管理する",
       "病院、ケアマネ、施設との連絡窓口を決める",
@@ -484,6 +494,20 @@ export const kaigoSituations: KaigoSituation[] = [
       "今週の介護予定と、休息として確保したい時間を同じ表に書く",
       "負担が重い曜日・時間帯・作業を分け、家族へ頼みたいことを具体化する",
       "強い疲労、不眠、つらさ、安全面の不安がある場合は、医療機関、自治体、地域包括支援センター、勤務先窓口へ相談する",
+    ],
+    affiliateOfferIds: ["hoken-mammoth"],
+  },
+  {
+    id: "consumables-stock",
+    label: "在宅介護の消耗品の在庫と補充タイミングを家族で共有したい",
+    shortLabel: "消耗品在庫",
+    description:
+      "専門的な用品選定ではなく、家庭で使う介護消耗品の種類、残量の目安、補充したい数量、購入先、家族への申し送りを整理します。",
+    productIds: ["p36", "p22", "p21", "p25", "p27", "p29", "p02", "p03", "full-pack", "note-faq"],
+    nextActions: [
+      "排泄ケア、清潔衛生、口腔ケア、皮膚保湿、介護者用品に分けて今使っているものを書く",
+      "残り少ないもの、次回買うもの、購入先、担当する家族をメモする",
+      "医薬品、治療用品、専門用品の判断は医師、薬剤師、訪問看護師、ケアマネなどへ確認する",
     ],
     affiliateOfferIds: ["hoken-mammoth"],
   },
@@ -560,7 +584,7 @@ export const kaigoSituations: KaigoSituation[] = [
     label: "ショートステイ利用前に、持ち物や施設への申し送りを整理したい",
     shortLabel: "ショートステイ",
     description: "利用可否や医療判断ではなく、持ち物、生活ルーティン、緊急連絡先、施設へ確認したいことを家族内で整理します。",
-    productIds: ["p21", "p35", "p34", "p30", "p107", "p20", "p10", "p103", "p02", "p03", "full-pack", "note-faq"],
+    productIds: ["p21", "p36", "p35", "p34", "p30", "p107", "p20", "p10", "p103", "p02", "p03", "full-pack", "note-faq"],
     nextActions: [
       "施設の持ち込みルール、送迎時間、薬の扱い、緊急連絡先を事前確認する",
       "日常ルーティン、食事、排泄、睡眠、コミュニケーションの特徴を短くまとめる",
@@ -573,7 +597,7 @@ export const kaigoSituations: KaigoSituation[] = [
     label: "デイサービス利用前に、持ち物や事業所への申し送りを整理したい",
     shortLabel: "デイサービス",
     description: "利用可否や医療判断ではなく、持ち物、送迎、入浴・食事の注意点、緊急連絡先、事業所へ確認したいことを家族内で整理します。",
-    productIds: ["p22", "p35", "p34", "p26", "p29", "p27", "p28", "p21", "p107", "p20", "p10", "p103", "p02", "p03", "full-pack", "note-faq"],
+    productIds: ["p22", "p36", "p35", "p34", "p26", "p29", "p27", "p28", "p21", "p107", "p20", "p10", "p103", "p02", "p03", "full-pack", "note-faq"],
     nextActions: [
       "事業所の持ち込みルール、送迎時間、薬の扱い、欠席連絡の方法を事前確認する",
       "食事、水分、入浴、排泄、疲れやすい時間、声かけの仕方を短くまとめる",
@@ -587,7 +611,7 @@ export const kaigoSituations: KaigoSituation[] = [
     shortLabel: "週間予定",
     description:
       "ケアプランの代替ではなく、今週入っている訪問サービス、変更・休止、担当事業所への確認事項を家族内で見える化します。",
-    productIds: ["p26", "p34", "p33", "p32", "p29", "p27", "p28", "p22", "p25", "p24", "p107", "p105", "p02", "p03", "full-pack", "note-faq"],
+    productIds: ["p26", "p36", "p34", "p33", "p32", "p29", "p27", "p28", "p22", "p25", "p24", "p107", "p105", "p02", "p03", "full-pack", "note-faq"],
     nextActions: [
       "サービス名、曜日、時間帯、担当事業所、連絡先を週単位で一覧にする",
       "変更・休止があった日は、対象日、連絡元、確認したことを残す",
@@ -601,7 +625,7 @@ export const kaigoSituations: KaigoSituation[] = [
     shortLabel: "月間予定",
     description:
       "ケアプランや勤務表の代替ではなく、通院、訪問サービス、買い物、見守り連絡、帰省などを家族内で共有し、未定の担当を見える化します。",
-    productIds: ["p27", "p32", "p30", "p29", "p26", "p25", "p24", "p22", "p105", "p13", "p02", "full-pack", "note-faq"],
+    productIds: ["p27", "p36", "p32", "p30", "p29", "p26", "p25", "p24", "p22", "p105", "p13", "p02", "full-pack", "note-faq"],
     nextActions: [
       "月内の通院、訪問サービス、デイサービス、家族対応日をカレンダーに置く",
       "誰が連絡、付き添い、買い物、見守りを担うかを決定済みと未定で分ける",
@@ -668,7 +692,7 @@ export const kaigoSituations: KaigoSituation[] = [
     label: "退院後1か月の在宅生活で、毎日の様子を記録したい",
     shortLabel: "退院後1か月",
     description: "在宅療養の可否や緊急性を判断するのではなく、食事、水分、睡眠、活動、担当者へ伝えることを家族内で記録します。",
-    productIds: ["p25", "p35", "p34", "p33", "p32", "p29", "p28", "p27", "p26", "p09", "p24", "p23", "p22", "p21", "p107", "p02", "p03", "p01", "hospital-consult-pack", "full-pack", "note-faq"],
+    productIds: ["p25", "p36", "p35", "p34", "p33", "p32", "p29", "p28", "p27", "p26", "p09", "p24", "p23", "p22", "p21", "p107", "p02", "p03", "p01", "hospital-consult-pack", "full-pack", "note-faq"],
     nextActions: [
       "退院後の食事、水分、睡眠、活動の様子を、毎日同じ形式で短く残す",
       "ケアマネ、訪問看護師、ヘルパーから伝えられたことを家族内で共有する",
@@ -694,7 +718,7 @@ export const kaigoSituations: KaigoSituation[] = [
     label: "入院、退院、介護認定、ケアマネ連携が発生している",
     shortLabel: "入退院と連携",
     description: "短期間で確認事項が増える段階です。連絡メモともしも情報を先に整えます。",
-    productIds: ["hospital-consult-pack", "p35", "p34", "p33", "p31", "p28", "p29", "p25", "p27", "p26", "p24", "p09", "p22", "p21", "p20", "p13", "p107", "p30", "p02", "p03", "p01", "s3", "full-pack", "note-faq"],
+    productIds: ["hospital-consult-pack", "p36", "p35", "p34", "p33", "p31", "p28", "p29", "p25", "p27", "p26", "p24", "p09", "p22", "p21", "p20", "p13", "p107", "p30", "p02", "p03", "p01", "s3", "full-pack", "note-faq"],
     nextActions: [
       "入院先、退院予定、服薬、既往歴、相談窓口を1か所に集める",
       "ケアマネや病院に聞くことを事前にリスト化する",

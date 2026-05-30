@@ -110,6 +110,66 @@ function KaigoActionBox({
 }
 
 const guideContents: Record<string, ReactNode> = {
+  "home-care-consumables-stock-replenishment": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">在宅介護の消耗品は種類が増えやすい</h2>
+        <p>
+          在宅介護では、大人用紙おむつ、尿とりパッド、防水シーツ、ウェットティッシュ、使い捨て手袋、口腔ケア用品、保湿用品、消臭袋など、
+          日常的に使うものが少しずつ増えていきます。
+        </p>
+        <p>
+          足りなくなってから買いに行くと、本人の状態や家族の予定と重なり、慌ただしくなります。
+          家族で残量と補充予定を見える化しておくと、買い忘れや二重購入を減らしやすくなります。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">カテゴリ別に分けると見返しやすい</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm text-muted">
+          <li>排泄ケア用品: 大人用紙おむつ、尿とりパッド、防水シーツ、消臭袋</li>
+          <li>清潔・衛生用品: ウェットティッシュ、清拭クロス、使い捨て手袋、マスク</li>
+          <li>口腔・皮膚ケア用品: 歯ブラシ、スポンジブラシ、保湿クリーム、ガーゼ</li>
+          <li>介護者・環境用品: 使い捨てエプロン、ゴミ袋、消臭剤、掃除用品</li>
+          <li>買い物メモ: 補充したい数量、購入先、次に確認する人</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">残量は正確な数より目安でよい</h2>
+        <p>
+          消耗品の在庫管理は、正確な棚卸しを目指すより、「残り少ない」「次回買う」「まだ余裕がある」といった目安を共有するほうが続きやすいです。
+          特に別居家族が買い物を担当する場合は、商品名、サイズ、購入先、普段買う個数を残しておくと迷いにくくなります。
+        </p>
+        <p>
+          定期的に使うものは、週末や通院日、家族訪問日など、見直すタイミングを決めておくと更新漏れを減らせます。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">医薬品や専門用品の判断には使わない</h2>
+        <p>
+          この整理は、家庭内で使う介護消耗品の買い物メモです。
+          医薬品、処方薬、市販薬、サプリ、治療用品、医療機器、栄養補助食品の管理や判断には使いません。
+        </p>
+        <p>
+          用品の選定、使用量、交換頻度、皮膚トラブル、介護保険給付の扱いに迷う場合は、担当ケアマネジャー、訪問看護師、福祉用具事業者、医師、薬剤師などへ確認してください。
+        </p>
+      </section>
+
+      <KaigoActionBox
+        toolHref="https://net-toolbox.jp/tools/kaigo-home-care-consumables-stock-memo?utm_source=toshi-navi&utm_medium=guide&utm_campaign=consumables_stock_memo"
+        toolLabel="消耗品の在庫・補充メモを作る"
+        boothHref="https://kaigo-okane.booth.pm/items/8382994"
+        boothLabel="消耗品在庫・補充テンプレートを見る"
+      >
+        <p>
+          まず無料ツールで今足りないもの、次に買うもの、家族へ伝えることを整理し、継続して見返す段階ではBOOTHの
+          在宅介護の消耗品 在庫・補充メモテンプレートへ転記すると、日々の補充漏れを減らしやすくなります。
+        </p>
+      </KaigoActionBox>
+    </>
+  ),
   "parent-doctor-pharmacy-prescription-info-list": (
     <>
       <section>
