@@ -11,6 +11,16 @@ export interface Guide {
 
 export const guides: Guide[] = [
   {
+    slug: "parent-home-appliance-remote-manual-record",
+    title: "高齢の親の家電リモコンと取扱説明書を家族で共有する方法",
+    description:
+      "実家のエアコン、テレビ、電話、洗濯機などの日常家電について、よく使う操作、取扱説明書、保証書、メーカー窓口を家族内で整理する方法を解説。",
+    icon: "📺",
+    category: "household",
+    readTime: "8分",
+    publishedAt: "2026-05-30",
+  },
+  {
     slug: "home-care-consumables-stock-replenishment",
     title: "在宅介護の消耗品の在庫と補充タイミングを家族で共有する方法",
     description:

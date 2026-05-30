@@ -96,6 +96,16 @@ export const kaigoProducts: KaigoProduct[] = [
     tags: ["消耗品", "在庫管理", "買い物メモ"],
   },
   {
+    id: "p37",
+    type: "single",
+    title: "高齢親の家電・リモコン・取扱説明書メモ テンプレート集",
+    description:
+      "実家の日常家電について、よく使うリモコン操作、取扱説明書・保証書の保管場所、型番、メーカー窓口を家族で共有するPDF/Excelセット。",
+    priceLabel: "単品 1,480円",
+    boothUrl: "https://kaigo-okane.booth.pm/items/8382997",
+    tags: ["家電", "リモコン", "取扱説明書"],
+  },
+  {
     id: "p35",
     type: "single",
     title: "親のかかりつけ医・薬局・処方薬情報まとめテンプレート集",
@@ -385,6 +395,16 @@ export const kaigoProducts: KaigoProduct[] = [
     tags: ["全体整理", "高単価", "まとめ"],
   },
   {
+    id: "care-start-37",
+    type: "pack",
+    title: "親の介護はじめの37商品まとめセット",
+    description:
+      "在宅介護、家族共有、実家まわりの整理をまとめて進めたい方向けの高単価セット。単品を複数買う前の比較候補として案内します。",
+    priceLabel: "まとめ 19,800円",
+    boothUrl: "https://kaigo-okane.booth.pm/items/8383305",
+    tags: ["37商品", "高単価", "まとめ"],
+  },
+  {
     id: "full-pack",
     type: "pack",
     title: "介護まるごと総合パック v9.4",
@@ -435,7 +455,7 @@ export const kaigoSituations: KaigoSituation[] = [
     label: "一人暮らしの親の見守り、連絡頻度、緊急時対応に不安がある",
     shortLabel: "見守り体制",
     description: "見守りはサービス契約の前に、連絡頻度、費用、緊急時の動き、家族の担当を分けて整理します。",
-    productIds: ["p103", "p36", "p32", "p31", "p22", "p03", "p02", "starter-set", "s3", "note-compare"],
+    productIds: ["p103", "p37", "p36", "p32", "p31", "p22", "p03", "p02", "starter-set", "care-start-37", "s3", "note-compare"],
     nextActions: [
       "普段の連絡頻度、電話がつながらない時の順番、訪問できる人を決める",
       "通信費、訪問交通費、配食や見守りサービス費、緊急時の立替を分けて記録する",
@@ -475,7 +495,7 @@ export const kaigoSituations: KaigoSituation[] = [
     label: "きょうだい・親族で分担や連絡の温度差がある",
     shortLabel: "家族で共有",
     description: "感情的な話し合いの前に、事実、役割、費用、連絡ルールを分けて見える化します。",
-    productIds: ["p105", "p36", "p32", "p31", "p30", "p29", "p28", "p27", "p26", "p13", "p05", "p104", "p02", "p01", "s3", "all-87", "note-compare"],
+    productIds: ["p105", "p37", "p36", "p32", "p31", "p30", "p29", "p28", "p27", "p26", "p13", "p05", "p104", "p02", "p01", "care-start-37", "s3", "all-87", "note-compare"],
     nextActions: [
       "費用分担と作業分担を別々の表で管理する",
       "病院、ケアマネ、施設との連絡窓口を決める",
@@ -498,12 +518,26 @@ export const kaigoSituations: KaigoSituation[] = [
     affiliateOfferIds: ["hoken-mammoth"],
   },
   {
+    id: "home-appliance-manuals",
+    label: "実家の家電リモコン・取扱説明書・保証書の場所を家族で共有したい",
+    shortLabel: "家電リモコン",
+    description:
+      "修理や設備操作の判断ではなく、日常家電のよく使う操作、取扱説明書や保証書の保管場所、型番、メーカー窓口の控えを家族内で見える化します。",
+    productIds: ["p37", "p36", "p31", "p32", "p105", "p103", "p02", "p03", "care-start-37", "full-pack", "note-faq"],
+    nextActions: [
+      "エアコン、テレビ、録画機、電話、洗濯機、電子レンジ、照明など、家族が迷いやすい家電を一覧にする",
+      "よく使うリモコン操作、取扱説明書や保証書の保管場所、型番、購入店を短く書き留める",
+      "設備操作、修理、配線、工事、点検、秘密情報の記録は避け、必要時はメーカー窓口や専門業者の案内を確認する",
+    ],
+    affiliateOfferIds: ["hoken-mammoth"],
+  },
+  {
     id: "consumables-stock",
     label: "在宅介護の消耗品の在庫と補充タイミングを家族で共有したい",
     shortLabel: "消耗品在庫",
     description:
       "専門的な用品選定ではなく、家庭で使う介護消耗品の種類、残量の目安、補充したい数量、購入先、家族への申し送りを整理します。",
-    productIds: ["p36", "p22", "p21", "p25", "p27", "p29", "p02", "p03", "full-pack", "note-faq"],
+    productIds: ["p36", "p37", "p22", "p21", "p25", "p27", "p29", "p02", "p03", "care-start-37", "full-pack", "note-faq"],
     nextActions: [
       "排泄ケア、清潔衛生、口腔ケア、皮膚保湿、介護者用品に分けて今使っているものを書く",
       "残り少ないもの、次回買うもの、購入先、担当する家族をメモする",
@@ -584,7 +618,7 @@ export const kaigoSituations: KaigoSituation[] = [
     label: "ショートステイ利用前に、持ち物や施設への申し送りを整理したい",
     shortLabel: "ショートステイ",
     description: "利用可否や医療判断ではなく、持ち物、生活ルーティン、緊急連絡先、施設へ確認したいことを家族内で整理します。",
-    productIds: ["p21", "p36", "p35", "p34", "p30", "p107", "p20", "p10", "p103", "p02", "p03", "full-pack", "note-faq"],
+    productIds: ["p21", "p37", "p36", "p35", "p34", "p30", "p107", "p20", "p10", "p103", "p02", "p03", "full-pack", "note-faq"],
     nextActions: [
       "施設の持ち込みルール、送迎時間、薬の扱い、緊急連絡先を事前確認する",
       "日常ルーティン、食事、排泄、睡眠、コミュニケーションの特徴を短くまとめる",
@@ -597,7 +631,7 @@ export const kaigoSituations: KaigoSituation[] = [
     label: "デイサービス利用前に、持ち物や事業所への申し送りを整理したい",
     shortLabel: "デイサービス",
     description: "利用可否や医療判断ではなく、持ち物、送迎、入浴・食事の注意点、緊急連絡先、事業所へ確認したいことを家族内で整理します。",
-    productIds: ["p22", "p36", "p35", "p34", "p26", "p29", "p27", "p28", "p21", "p107", "p20", "p10", "p103", "p02", "p03", "full-pack", "note-faq"],
+    productIds: ["p22", "p37", "p36", "p35", "p34", "p26", "p29", "p27", "p28", "p21", "p107", "p20", "p10", "p103", "p02", "p03", "full-pack", "note-faq"],
     nextActions: [
       "事業所の持ち込みルール、送迎時間、薬の扱い、欠席連絡の方法を事前確認する",
       "食事、水分、入浴、排泄、疲れやすい時間、声かけの仕方を短くまとめる",
@@ -625,7 +659,7 @@ export const kaigoSituations: KaigoSituation[] = [
     shortLabel: "月間予定",
     description:
       "ケアプランや勤務表の代替ではなく、通院、訪問サービス、買い物、見守り連絡、帰省などを家族内で共有し、未定の担当を見える化します。",
-    productIds: ["p27", "p36", "p32", "p30", "p29", "p26", "p25", "p24", "p22", "p105", "p13", "p02", "full-pack", "note-faq"],
+    productIds: ["p27", "p37", "p36", "p32", "p30", "p29", "p26", "p25", "p24", "p22", "p105", "p13", "p02", "care-start-37", "full-pack", "note-faq"],
     nextActions: [
       "月内の通院、訪問サービス、デイサービス、家族対応日をカレンダーに置く",
       "誰が連絡、付き添い、買い物、見守りを担うかを決定済みと未定で分ける",

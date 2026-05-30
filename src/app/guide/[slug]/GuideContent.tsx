@@ -110,6 +110,79 @@ function KaigoActionBox({
 }
 
 const guideContents: Record<string, ReactNode> = {
+  "parent-home-appliance-remote-manual-record": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">実家の家電は家族が代わりに使う場面がある</h2>
+        <p>
+          高齢の親の家では、エアコン、テレビ、録画機、固定電話、洗濯機、電子レンジ、インターホン、照明など、
+          日常的に使う家電が複数あります。
+        </p>
+        <p>
+          親本人はいつもの操作として使えていても、帰省した家族が代わりに操作すると、リモコンのボタン、取扱説明書の場所、
+          保証書や型番の控えが分からず、対応に時間がかかることがあります。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">操作メモと書類の場所を分けて残す</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm text-muted">
+          <li>家電名: エアコン、テレビ、録画機、電話、洗濯機、電子レンジ、照明など</li>
+          <li>よく使う操作: 電源、温度変更、入力切替、録画再生、音量、タイマーなど</li>
+          <li>取扱説明書: 保管場所、ファイル名、棚や引き出しの位置</li>
+          <li>保証書・購入情報: 型番、購入日、購入店、保証期限の控え</li>
+          <li>家族共有メモ: 次に確認すること、家族へ伝えたいこと</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">秘密情報と専門作業は書かない</h2>
+        <p>
+          家電まわりのメモには、パスワード、暗証番号、ログイン情報、カード番号、口座番号、マイナンバーなどの秘密情報を書かないようにします。
+          家族で見返すメモほど、紛失や共有範囲に注意が必要です。
+        </p>
+        <p>
+          また、給湯器、IH、ブレーカー、ガス栓、水道元栓などの設備操作、修理、交換、配線、工事、点検の判断は家庭内メモで扱いません。
+          必要な場合は、取扱説明書、メーカー窓口、専門業者の案内を確認してください。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">帰省時に少しずつ作ると続けやすい</h2>
+        <p>
+          すべての家電を一度に整理しようとすると負担が大きくなります。
+          まずはエアコン、テレビ、電話など、家族が代わりに使う可能性が高いものから始めると続けやすくなります。
+        </p>
+        <p>
+          写真で済ませる情報と、文字で残す情報を分け、家族の誰が見ても分かる短い言葉で書くことが大切です。
+        </p>
+      </section>
+
+      <KaigoActionBox
+        toolHref="https://net-toolbox.jp/tools/kaigo-parent-home-appliance-remote-manual-memo?utm_source=toshi-navi&utm_medium=guide&utm_campaign=home_appliance_manual_memo"
+        toolLabel="家電リモコン・説明書メモを作る"
+        boothHref="https://kaigo-okane.booth.pm/items/8382997"
+        boothLabel="家電リモコン・取扱説明書テンプレートを見る"
+      >
+        <p>
+          まず無料ツールで、よく使う家電、リモコン操作、取扱説明書や保証書の保管場所を整理し、継続して見返す段階ではBOOTHの
+          高齢親の家電・リモコン・取扱説明書メモテンプレートへ転記すると、家族間で共有しやすくなります。
+        </p>
+        <p className="mt-2">
+          複数テーマをまとめて整えたい場合は、
+          <a
+            href="https://kaigo-okane.booth.pm/items/8383305"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-bold text-primary underline underline-offset-2"
+          >
+            親の介護はじめの37商品まとめセット
+          </a>
+          も比較候補になります。
+        </p>
+      </KaigoActionBox>
+    </>
+  ),
   "home-care-consumables-stock-replenishment": (
     <>
       <section>

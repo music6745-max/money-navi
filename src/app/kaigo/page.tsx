@@ -118,6 +118,26 @@ export default function KaigoPage() {
               新着: 福祉用具レンタル・購入前確認
             </TrackedExternalLink>
             <TrackedExternalLink
+              href="https://kaigo-okane.booth.pm/items/8382997"
+              eventName="booth_click"
+              page="kaigo"
+              position="intro_new_template"
+              itemId="p37"
+              className="block rounded-md border border-primary/30 bg-primary/5 px-3 py-2 text-sm font-bold text-primary hover:border-primary/60"
+            >
+              新着: 家電・リモコン・取扱説明書メモ
+            </TrackedExternalLink>
+            <TrackedExternalLink
+              href="https://kaigo-okane.booth.pm/items/8383305"
+              eventName="booth_click"
+              page="kaigo"
+              position="intro_pack"
+              itemId="care-start-37"
+              className="block rounded-md border border-amber-300 bg-amber-50 px-3 py-2 text-sm font-bold text-amber-900 hover:border-amber-500"
+            >
+              まとめ: 親の介護はじめの37商品セット
+            </TrackedExternalLink>
+            <TrackedExternalLink
               href="https://kaigo-okane.booth.pm/items/8382994"
               eventName="booth_click"
               page="kaigo"
@@ -378,6 +398,7 @@ export default function KaigoPage() {
             ["kaigo-parent-disaster-go-bag-contact-memo", "災害時持ち出し・連絡先", "持ち出し品・避難先・緊急連絡先を整理"],
             ["kaigo-caregiver-rest-burden-memo", "介護者の休息・負担", "休息予定・重い時間帯・頼みたいことを整理"],
             ["kaigo-welfare-equipment-rental-purchase-memo", "福祉用具相談前", "生活場面の困りごと・候補・質問を整理"],
+            ["kaigo-parent-home-appliance-remote-manual-memo", "家電・リモコン・説明書", "日常家電の操作メモ・取扱説明書・保証書を整理"],
             ["kaigo-home-care-consumables-stock-memo", "消耗品 在庫・補充", "介護消耗品の残量・買い物・家族共有を整理"],
             ["kaigo-parent-doctor-pharmacy-medicine-memo", "医療機関・薬局・薬", "かかりつけ医・薬局・薬の名前を共有"],
             ["kaigo-parent-meal-water-weight-record-memo", "食事・水分・体重", "毎日の様子・週まとめ・受診前メモを整理"],

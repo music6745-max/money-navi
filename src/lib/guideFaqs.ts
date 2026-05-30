@@ -1,6 +1,23 @@
 export type FAQ = { question: string; answer: string };
 
 export const guideFaqs: Record<string, FAQ[]> = {
+  "parent-home-appliance-remote-manual-record": [
+    {
+      question: "家電・リモコン・取扱説明書メモには何を書けばよいですか？",
+      answer:
+        "エアコン、テレビ、録画機、固定電話、洗濯機、電子レンジ、照明などの日常家電について、よく使う操作、取扱説明書や保証書の保管場所、型番、購入日、メーカー窓口の控え、家族への申し送りを書きます。",
+    },
+    {
+      question: "給湯器やブレーカーなどの設備操作も整理できますか？",
+      answer:
+        "扱いません。このメモは日常家電の操作メモと書類保管場所の整理用です。給湯器、IH、ブレーカー、ガス栓、水道元栓などの設備操作や専門作業は、メーカー窓口や専門業者の案内を確認してください。",
+    },
+    {
+      question: "パスワードや暗証番号も書いてよいですか？",
+      answer:
+        "書きません。パスワード、暗証番号、ログイン情報、カード番号、口座番号、マイナンバーなどの秘密情報は記録しない前提で使ってください。",
+    },
+  ],
   "home-care-consumables-stock-replenishment": [
     {
       question: "在宅介護の消耗品メモには何を書けばよいですか？",
