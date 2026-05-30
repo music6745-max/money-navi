@@ -159,6 +159,16 @@ export const kaigoProducts: KaigoProduct[] = [
     tags: ["当番", "役割分担", "家族共有", "記録"],
   },
   {
+    id: "p45",
+    type: "single",
+    title: "高齢親の安否確認・定期連絡 記録メモ テンプレート集",
+    description:
+      "離れて暮らす親への定期連絡を、日時、担当者、連絡方法、対応可否、短い様子メモとして時系列で記録し、家族で見返せるPDF/Excelセット。",
+    priceLabel: "単品 1,480円",
+    boothUrl: "https://kaigo-okane.booth.pm/items/8434675",
+    tags: ["安否確認", "定期連絡", "連絡記録", "家族共有"],
+  },
+  {
     id: "p35",
     type: "single",
     title: "親のかかりつけ医・薬局・処方薬情報まとめテンプレート集",
@@ -508,7 +518,7 @@ export const kaigoSituations: KaigoSituation[] = [
     label: "一人暮らしの親の見守り、連絡頻度、緊急時対応に不安がある",
     shortLabel: "見守り体制",
     description: "見守りはサービス契約の前に、連絡頻度、費用、緊急時の動き、家族の担当を分けて整理します。",
-    productIds: ["p103", "p40", "p37", "p36", "p32", "p31", "p22", "p03", "p02", "starter-set", "care-start-37", "s3", "note-compare"],
+    productIds: ["p103", "p45", "p40", "p37", "p36", "p32", "p31", "p22", "p03", "p02", "starter-set", "care-start-37", "s3", "note-compare"],
     nextActions: [
       "普段の連絡頻度、電話がつながらない時の順番、訪問できる人を決める",
       "通信費、訪問交通費、配食や見守りサービス費、緊急時の立替を分けて記録する",

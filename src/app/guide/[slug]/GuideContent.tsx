@@ -110,6 +110,64 @@ function KaigoActionBox({
 }
 
 const guideContents: Record<string, ReactNode> = {
+  "parent-checkin-contact-log": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">定期連絡の記録がないと、担当が入れ替わったときに不安が増えやすい</h2>
+        <p>
+          離れて暮らす親へ電話や訪問をしていると、連絡した内容はチャットや口頭で流れてしまいがちです。
+        </p>
+        <p>
+          その結果、「いつ誰が連絡したか」「つながらなかった日はあったか」「次に確認することは何か」が見えなくなり、きょうだい間で重複や抜け漏れが起きやすくなります。
+        </p>
+        <p>正解を決めるよりも、家族が見返せる形で“事実”をそろえるのが目的です。</p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">「いつ・誰が・どの方法で・どうだったか」を短くそろえる</h2>
+        <p>最初は細かい文章よりも、あとで見返せる手がかりをそろえます。</p>
+        <ul className="list-disc list-inside space-y-2 text-sm text-muted">
+          <li>日時: 連絡した日付と時間帯</li>
+          <li>担当者: 連絡した家族（呼び名でOK）</li>
+          <li>方法: 電話、メッセージ、訪問など</li>
+          <li>対応可否: つながった / つながらなかった</li>
+          <li>短い様子メモ: いつも通り、少し元気がない、次回聞きたいこと など</li>
+        </ul>
+        <p className="mt-3">月末などに、回数だけでも振り返れる形にしておくと、話し合いの材料になります。</p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">つながらなかった日の「対応経緯」だけ残しておく</h2>
+        <p>
+          連絡が取れない日は、焦って判断を書くのではなく、試したことと結果だけを短く残します。次の担当者が同じことを繰り返さずに済みます。
+        </p>
+        <p>
+          急ぎの判断や連絡先の確認が必要な場合は、家族内だけで抱えず、自治体や地域包括支援センターなどの関係窓口へ確認してください。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">秘密情報と最終判断は書かない</h2>
+        <p>
+          パスワード、暗証番号、ログイン情報、カード番号、口座番号、マイナンバーなどの秘密情報は記録しない前提にします。
+        </p>
+        <p>
+          また、医療・介護サービスの評価判断、契約判断、行政・法律・税務・金融・保険の判断は扱いません。必要な場合は担当窓口や専門職に確認してください。
+        </p>
+      </section>
+
+      <KaigoActionBox
+        toolHref="https://net-toolbox.jp/tools/kaigo-parent-checkin-contact-log-memo?utm_source=toshi-navi&utm_medium=guide&utm_campaign=parent_checkin_contact_log"
+        toolLabel="定期連絡記録メモを作る"
+        boothHref="https://kaigo-okane.booth.pm/items/8434675"
+        boothLabel="安否確認・定期連絡 記録メモテンプレートを見る"
+      >
+        <p>
+          まず無料ツールで、家族内で共有したい連絡記録の形式をそろえます。継続して運用する段階では、BOOTHのテンプレートへ転記しておくと、月次まとめや見返しがしやすくなります。
+        </p>
+      </KaigoActionBox>
+    </>
+  ),
   "kaigo-family-duty-role-share-memo": (
     <>
       <section>

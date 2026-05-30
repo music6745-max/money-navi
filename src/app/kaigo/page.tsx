@@ -178,6 +178,16 @@ export default function KaigoPage() {
               新着: 当番・役割分担 記録メモ
             </TrackedExternalLink>
             <TrackedExternalLink
+              href="https://kaigo-okane.booth.pm/items/8434675"
+              eventName="booth_click"
+              page="kaigo"
+              position="intro_new_template"
+              itemId="p45"
+              className="block rounded-md border border-primary/30 bg-primary/5 px-3 py-2 text-sm font-bold text-primary hover:border-primary/60"
+            >
+              新着: 安否確認・定期連絡 記録メモ
+            </TrackedExternalLink>
+            <TrackedExternalLink
               href="https://kaigo-okane.booth.pm/items/8383305"
               eventName="booth_click"
               page="kaigo"

@@ -11,6 +11,16 @@ export interface Guide {
 
 export const guides: Guide[] = [
   {
+    slug: "parent-checkin-contact-log",
+    title: "高齢の親の安否確認・定期連絡を家族で記録する方法",
+    description:
+      "電話や訪問などの定期連絡を、担当者と時系列メモとして残し、きょうだいで見返しやすくするコツを解説。",
+    icon: "📞",
+    category: "household",
+    readTime: "8分",
+    publishedAt: "2026-05-31",
+  },
+  {
     slug: "kaigo-family-duty-role-share-memo",
     title: "介護の当番・役割分担を家族で決めて記録する方法",
     description:
