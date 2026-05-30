@@ -11,6 +11,16 @@ export interface Guide {
 
 export const guides: Guide[] = [
   {
+    slug: "kaigo-family-duty-role-share-memo",
+    title: "介護の当番・役割分担を家族で決めて記録する方法",
+    description:
+      "きょうだい・家族で介護を分担するときに、担当エリア、当番スケジュール、活動実績、役割変更を同じ形式で残す方法を解説。",
+    icon: "🔁",
+    category: "household",
+    readTime: "8分",
+    publishedAt: "2026-05-30",
+  },
+  {
     slug: "kaigo-family-handover-memo",
     title: "介護の申し送り・引き継ぎメモを家族で運用する方法",
     description:

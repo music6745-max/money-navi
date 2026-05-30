@@ -110,6 +110,82 @@ function KaigoActionBox({
 }
 
 const guideContents: Record<string, ReactNode> = {
+  "kaigo-family-duty-role-share-memo": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">当番と役割が曖昧だと、負担の偏りと認識ズレが起きやすい</h2>
+        <p>
+          きょうだい・家族で介護を分担していると、「誰が何を担当しているか」「今月の当番は誰か」が口頭だけになりやすいです。
+        </p>
+        <p>
+          その状態が続くと、負担が偏っているように感じたり、後から「言った言わない」になったりして、話し合いが難しくなります。
+        </p>
+        <p>
+          大事なのは正解を決めることではなく、家族が見返せる形で「担当」と「当番」と「実績」をそろえることです。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">「担当エリア」と「月次当番」を分けて整理する</h2>
+        <p>
+          まず、役割をざっくり項目に分けます。細かさよりも「家族が迷わない単位」を優先します。
+        </p>
+        <ul className="list-disc list-inside space-y-2 text-sm text-muted">
+          <li>連絡窓口: ケアマネ・病院・施設との連絡、問い合わせ担当</li>
+          <li>訪問・買い物: 帰省、訪問、日用品の補充、必要な確認</li>
+          <li>費用記録: 立替、領収書確認、分担の見える化</li>
+          <li>実家整理: 置き場所、家事ルーティン、申し送りの更新</li>
+          <li>家族共有: 月1などで全体を共有するまとめ役</li>
+        </ul>
+        <p className="mt-3">
+          次に、月ごとの当番（誰がいつ担当するか）を決めます。最初は「訪問・連絡の予定」だけでもOKで、実績は後から追記します。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">実績と変更を短く残し、見直しタイミングを作る</h2>
+        <p>
+          当番や役割は、状況によって変わります。変更が起きたときに「変更日」と「変更内容」だけでも残しておくと、次の見直しがスムーズです。
+        </p>
+        <p>
+          半年ごと、入退院の前後、施設入所の前後など、見直すタイミングを決めておくと、更新されないまま形骸化しにくくなります。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">秘密情報と判断は書かない</h2>
+        <p>
+          このメモには、パスワード、暗証番号、ログイン情報、カード番号、口座番号、マイナンバーなどの秘密情報を書かないようにします。
+        </p>
+        <p>
+          また、家族間の意見調整・仲裁、医療や介護サービスの評価判断、契約判断は扱いません。必要な場合は担当窓口や専門職に確認してください。
+        </p>
+      </section>
+
+      <KaigoActionBox
+        toolHref="https://net-toolbox.jp/tools/kaigo-family-duty-role-share-memo?utm_source=toshi-navi&utm_medium=guide&utm_campaign=family_duty_role_share_memo"
+        toolLabel="当番・役割分担メモを作る"
+        boothHref="https://kaigo-okane.booth.pm/items/8383027"
+        boothLabel="当番・役割分担 記録メモテンプレートを見る"
+      >
+        <p>
+          まず無料ツールで、担当エリアと当番スケジュールを整理し、実績と変更を追記できる形にします。繰り返し見返す段階では、BOOTHのテンプレートへ転記しておくと、家族間で共有しやすくなります。
+        </p>
+        <p className="mt-2">
+          単品をまとめて整えたい場合は、
+          <a
+            href="https://kaigo-okane.booth.pm/items/8383440"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-bold text-primary underline underline-offset-2"
+          >
+            介護はじめの87商品まとめセット
+          </a>
+          も比較候補になります。
+        </p>
+      </KaigoActionBox>
+    </>
+  ),
   "kaigo-family-handover-memo": (
     <>
       <section>

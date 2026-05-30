@@ -149,6 +149,16 @@ export const kaigoProducts: KaigoProduct[] = [
     tags: ["申し送り", "引き継ぎ", "家族共有"],
   },
   {
+    id: "p44",
+    type: "single",
+    title: "介護家族の当番・役割分担 記録メモ テンプレート集",
+    description:
+      "家族メンバーごとの担当エリア、月次の当番スケジュール、活動実績、役割変更を、家族内で見返しやすく記録するPDF/Excelセット。",
+    priceLabel: "単品 1,480円",
+    boothUrl: "https://kaigo-okane.booth.pm/items/8383027",
+    tags: ["当番", "役割分担", "家族共有", "記録"],
+  },
+  {
     id: "p35",
     type: "single",
     title: "親のかかりつけ医・薬局・処方薬情報まとめテンプレート集",
@@ -538,7 +548,7 @@ export const kaigoSituations: KaigoSituation[] = [
     label: "きょうだい・親族で分担や連絡の温度差がある",
     shortLabel: "家族で共有",
     description: "感情的な話し合いの前に、事実、役割、費用、連絡ルールを分けて見える化します。",
-    productIds: ["p105", "p42", "p40", "p38", "p37", "p36", "p32", "p31", "p30", "p29", "p28", "p27", "p26", "p13", "p05", "p104", "p02", "p01", "care-start-37", "s3", "all-87", "note-compare"],
+    productIds: ["p105", "p44", "p42", "p40", "p38", "p37", "p36", "p32", "p31", "p30", "p29", "p28", "p27", "p26", "p13", "p05", "p104", "p02", "p01", "care-start-37", "s3", "all-87", "note-compare"],
     nextActions: [
       "費用分担と作業分担を別々の表で管理する",
       "病院、ケアマネ、施設との連絡窓口を決める",
@@ -552,11 +562,25 @@ export const kaigoSituations: KaigoSituation[] = [
     shortLabel: "申し送り",
     description:
       "医療やサービスの判断ではなく、日々の様子、決まったこと、次に確認したいことを、家族内で同じ形式で残します。",
-    productIds: ["p42", "p40", "p37", "p36", "p105", "p02", "p03", "care-start-37", "full-pack", "note-faq"],
+    productIds: ["p42", "p44", "p40", "p37", "p36", "p105", "p02", "p03", "care-start-37", "full-pack", "note-faq"],
     nextActions: [
       "申し送りは「事実」「次に確認すること」「連絡が必要なこと」に分けて短く残す",
       "帰省や当番交代の後に、決まったこと・未決のこと・次の担当をまとめる",
       "医療や介護サービスの判断は家族内で決め切らず、担当窓口や専門職へ確認する",
+    ],
+    affiliateOfferIds: ["hoken-mammoth"],
+  },
+  {
+    id: "family-duty-role-share",
+    label: "介護の当番・役割分担を家族で決めて記録したい",
+    shortLabel: "当番・役割",
+    description:
+      "意見調整や判断ではなく、担当エリア、当番スケジュール、活動実績、役割変更を、家族内で見返しやすい形にそろえます。",
+    productIds: ["p44", "p42", "p105", "p40", "p38", "p37", "p36", "p32", "p02", "care-start-37", "all-87", "note-compare"],
+    nextActions: [
+      "連絡窓口、訪問、買い物、費用記録、実家整理など、役割を項目に分けて書き出す",
+      "月ごとの当番（誰がいつ担当するか）と、訪問・連絡の予定だけ先に決める",
+      "実績と変更を短く残し、半年ごとなどの見直しタイミングで更新する",
     ],
     affiliateOfferIds: ["hoken-mammoth"],
   },
