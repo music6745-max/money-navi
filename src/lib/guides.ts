@@ -11,6 +11,16 @@ export interface Guide {
 
 export const guides: Guide[] = [
   {
+    slug: "parent-mail-notification-management",
+    title: "高齢の親の郵便物・通知を家族で整理する方法",
+    description:
+      "役所やサービスから届く郵便物・通知を、受け取り日、保管場所、期限、次に確認することの形でそろえて、担当交代でも迷わない形にするコツを解説。",
+    icon: "📬",
+    category: "household",
+    readTime: "8分",
+    publishedAt: "2026-05-31",
+  },
+  {
     slug: "parent-shopping-supplies-replenishment",
     title: "高齢の親の買い物・日用品補充を家族で共有する方法",
     description:

@@ -4,6 +4,53 @@ import { AffiliateCTA } from "@/components/AffiliateCTA";
 import { KaigoActionBox } from "./helpers";
 
 export const guideContentsPart01: Record<string, ReactNode> = {
+  "parent-mail-notification-management": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">郵便物・通知が「なんとなく保管」だと、期限や確認が抜けやすい</h2>
+        <p>
+          親の暮らしでは、役所や事業者からの通知、案内、手続き書類、確認が必要な郵便物が定期的に届きます。家族で関わるほど、誰が何を見たかが曖昧になりやすいです。
+        </p>
+        <p>
+          ここで作るのは「判断の代替」ではなく、家族内で見返せる郵便物メモです。受け取った日、保管場所、期限、次に確認することをそろえると、担当が変わっても迷いにくくなります。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">まずは「区分」「期限」「保管場所」を短くそろえる</h2>
+        <p>最初は完璧さより、あとで見返せる手がかりを優先します。</p>
+        <ul className="list-disc list-inside space-y-2 text-sm text-muted">
+          <li>受け取った日: いつ届いたか（目安でOK）</li>
+          <li>差出人: 役所、サービス、事業者など（必要な範囲だけ）</li>
+          <li>区分: お知らせ / 手続き / 更新 / 連絡 / 保管 など</li>
+          <li>期限: 期限がある場合のみ（不明なら「要確認」）</li>
+          <li>保管場所: ファイル名、棚、引き出しなど「探す手がかり」</li>
+          <li>次に確認すること: 問い合わせ先、家族内で確認したいこと、未決事項</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">共有範囲と更新ルールを決めて、秘密情報は書かない</h2>
+        <p>
+          郵便物のメモには生活情報が含まれやすいので、共有範囲（誰まで見られるか）と保管場所を決めます。外部転送や公開を前提にしない運用が安全です。
+        </p>
+        <p>
+          パスワード、暗証番号、ログイン情報、カード番号、口座番号、マイナンバーなどの秘密情報は記録しないようにします。手続きや契約、制度、支払いの最終判断は、公式の案内や関係窓口へ確認してください。
+        </p>
+      </section>
+
+      <KaigoActionBox
+        toolHref="https://net-toolbox.jp/tools/kaigo-parent-mail-notification-management-memo?utm_source=toshi-navi&utm_medium=guide&utm_campaign=parent_mail_notification_management"
+        toolLabel="郵便物・通知管理メモを作る"
+        boothHref="https://kaigo-okane.booth.pm/items/8383038"
+        boothLabel="郵便物・通知まとめ管理テンプレートを見る"
+      >
+        <p>
+          まず無料ツールで、家族内で共有したい「郵便物メモの項目」をそろえます。継続して運用する段階では、BOOTHのテンプレートへ転記しておくと、更新履歴や保管場所の見直しを整理しやすくなります。
+        </p>
+      </KaigoActionBox>
+    </>
+  ),
   "parent-shopping-supplies-replenishment": (
     <>
       <section>
