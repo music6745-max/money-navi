@@ -106,6 +106,16 @@ export const kaigoProducts: KaigoProduct[] = [
     tags: ["家電", "リモコン", "取扱説明書"],
   },
   {
+    id: "p38",
+    type: "single",
+    title: "実家の収納場所・置き場所マップ テンプレート集",
+    description:
+      "台所、リビング、寝室、洗面所、押し入れなど、実家の日用品の置き場所を部屋別・棚段別に書き留めて家族で共有するPDF/Excelセット。",
+    priceLabel: "単品 1,480円",
+    boothUrl: "https://kaigo-okane.booth.pm/items/8383002",
+    tags: ["実家整理", "収納", "置き場所", "家族共有"],
+  },
+  {
     id: "p35",
     type: "single",
     title: "親のかかりつけ医・薬局・処方薬情報まとめテンプレート集",
@@ -495,7 +505,7 @@ export const kaigoSituations: KaigoSituation[] = [
     label: "きょうだい・親族で分担や連絡の温度差がある",
     shortLabel: "家族で共有",
     description: "感情的な話し合いの前に、事実、役割、費用、連絡ルールを分けて見える化します。",
-    productIds: ["p105", "p37", "p36", "p32", "p31", "p30", "p29", "p28", "p27", "p26", "p13", "p05", "p104", "p02", "p01", "care-start-37", "s3", "all-87", "note-compare"],
+    productIds: ["p105", "p38", "p37", "p36", "p32", "p31", "p30", "p29", "p28", "p27", "p26", "p13", "p05", "p104", "p02", "p01", "care-start-37", "s3", "all-87", "note-compare"],
     nextActions: [
       "費用分担と作業分担を別々の表で管理する",
       "病院、ケアマネ、施設との連絡窓口を決める",
@@ -528,6 +538,20 @@ export const kaigoSituations: KaigoSituation[] = [
       "エアコン、テレビ、録画機、電話、洗濯機、電子レンジ、照明など、家族が迷いやすい家電を一覧にする",
       "よく使うリモコン操作、取扱説明書や保証書の保管場所、型番、購入店を短く書き留める",
       "設備操作、修理、配線、工事、点検、秘密情報の記録は避け、必要時はメーカー窓口や専門業者の案内を確認する",
+    ],
+    affiliateOfferIds: ["hoken-mammoth"],
+  },
+  {
+    id: "home-storage-map",
+    label: "実家の日用品の収納場所・置き場所を家族で共有したい",
+    shortLabel: "置き場所マップ",
+    description:
+      "片付けや廃棄判断の代替ではなく、実家の部屋別・棚段別の置き場所を家族内メモとしてそろえ、帰省時の探し物を減らします。",
+    productIds: ["p38", "p37", "p105", "p02", "p03", "care-start-37", "full-pack", "note-faq"],
+    nextActions: [
+      "台所、リビング、寝室、洗面所、押し入れなど部屋ごとに、よく探す日用品の置き場所を短く書く",
+      "棚・引き出しの段など「探す手がかり」だけを残し、秘密情報や設備操作のメモは作らない",
+      "変更があったら更新するルールと、次の帰省日など見直しタイミングを決める",
     ],
     affiliateOfferIds: ["hoken-mammoth"],
   },
@@ -765,7 +789,7 @@ export const kaigoSituations: KaigoSituation[] = [
     label: "施設選び、実家整理、入所前後の準備を進めたい",
     shortLabel: "施設選び",
     description: "比較軸をそろえることで、見学後の判断と家族への説明がしやすくなります。",
-    productIds: ["p30", "p21", "p106", "facility-pack", "p01", "p05", "all-87", "full-pack", "note-compare"],
+    productIds: ["p30", "p21", "p106", "facility-pack", "p38", "p01", "p05", "all-87", "full-pack", "note-compare"],
     nextActions: [
       "月額費用、初期費用、医療対応、面会、立地を同じ表で比較する",
       "見学時に聞くことと、見学後に確認することを分けて残す",

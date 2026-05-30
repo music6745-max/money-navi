@@ -11,6 +11,16 @@ export interface Guide {
 
 export const guides: Guide[] = [
   {
+    slug: "parent-home-storage-location-map",
+    title: "実家の日用品の収納場所・置き場所を家族で共有する方法",
+    description:
+      "台所、リビング、寝室、洗面所、押し入れなど、実家の日用品の置き場所を部屋別・棚段別に整理して家族で共有する方法を解説。",
+    icon: "🗺️",
+    category: "household",
+    readTime: "8分",
+    publishedAt: "2026-05-30",
+  },
+  {
     slug: "parent-home-appliance-remote-manual-record",
     title: "高齢の親の家電リモコンと取扱説明書を家族で共有する方法",
     description:

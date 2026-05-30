@@ -110,6 +110,72 @@ function KaigoActionBox({
 }
 
 const guideContents: Record<string, ReactNode> = {
+  "parent-home-storage-location-map": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">実家の日用品は「どこにあるか」が分からないと詰まる</h2>
+        <p>
+          帰省したときに「洗剤はどこ？」「タオルの替えはどこ？」「掃除機はどこにしまった？」と、親に聞かないと分からない場面があります。
+        </p>
+        <p>
+          親が入院して実家にひとりで行く状況では、日用品の置き場所が分からないだけで、家の中の用事が止まりやすくなります。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">部屋別 → 収納場所別で「探す手がかり」をそろえる</h2>
+        <p>
+          正確さよりも、家族が探せる手がかりをそろえることが大切です。部屋名と、棚・引き出し・戸棚などの場所を先に決めると、書き方がぶれにくくなります。
+        </p>
+        <ul className="list-disc list-inside space-y-2 text-sm text-muted">
+          <li>部屋: 台所、リビング、寝室、洗面所、押し入れ、玄関など</li>
+          <li>収納場所: 棚、引き出し、戸棚、ケース、ファイルなど</li>
+          <li>品目: 洗剤、タオル、寝具、掃除用具、洗濯用品、電球の予備など</li>
+          <li>メモ: 棚の段、引き出しの位置、ラベル名など</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">秘密情報と設備操作は書かない</h2>
+        <p>
+          通帳、印鑑、カード、鍵、パスワード、暗証番号、ログイン情報、口座番号、マイナンバーなどの秘密情報は記録しないようにします。
+        </p>
+        <p>
+          また、医薬品・医療用品の保管場所、ブレーカー、ガス元栓、水道元栓、給湯器などの設備場所・操作は対象外とし、必要な場合は公式案内や専門業者へ確認してください。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">更新ルールを決めると続く</h2>
+        <p>
+          置き場所は少しずつ変わります。変更があったら誰が更新するか、次に見直すタイミング（次回帰省時など）を決めておくと、情報が古くなりにくくなります。
+        </p>
+      </section>
+
+      <KaigoActionBox
+        toolHref="https://net-toolbox.jp/tools/kaigo-parent-home-storage-location-map-memo?utm_source=toshi-navi&utm_medium=guide&utm_campaign=storage_location_map"
+        toolLabel="収納場所・置き場所マップを作る"
+        boothHref="https://kaigo-okane.booth.pm/items/8383002"
+        boothLabel="収納場所・置き場所マップテンプレートを見る"
+      >
+        <p>
+          まず無料ツールで、部屋別・棚段別の置き場所をざっくり整理し、継続して見返す段階ではBOOTHのテンプレートへ転記すると、家族間で共有しやすくなります。
+        </p>
+        <p className="mt-2">
+          複数テーマをまとめて整えたい場合は、
+          <a
+            href="https://kaigo-okane.booth.pm/items/8383305"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-bold text-primary underline underline-offset-2"
+          >
+            親の介護はじめの37商品まとめセット
+          </a>
+          も比較候補になります。
+        </p>
+      </KaigoActionBox>
+    </>
+  ),
   "parent-home-appliance-remote-manual-record": (
     <>
       <section>
