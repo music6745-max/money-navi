@@ -198,6 +198,16 @@ export default function KaigoPage() {
               新着: 近所付き合い・地域連絡先 整理メモ
             </TrackedExternalLink>
             <TrackedExternalLink
+              href="https://kaigo-okane.booth.pm/items/8434977"
+              eventName="booth_click"
+              page="kaigo"
+              position="intro_new_template"
+              itemId="p47"
+              className="block rounded-md border border-primary/30 bg-primary/5 px-3 py-2 text-sm font-bold text-primary hover:border-primary/60"
+            >
+              新着: 買い物・日用品補充メモ
+            </TrackedExternalLink>
+            <TrackedExternalLink
               href="https://kaigo-okane.booth.pm/items/8383305"
               eventName="booth_click"
               page="kaigo"

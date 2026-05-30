@@ -11,6 +11,16 @@ export interface Guide {
 
 export const guides: Guide[] = [
   {
+    slug: "parent-shopping-supplies-replenishment",
+    title: "高齢の親の買い物・日用品補充を家族で共有する方法",
+    description:
+      "よく買う定番品、買わなくてよいもの、補充タイミングの目安をそろえて、帰省や当番交代でも迷わない形にするコツを解説。",
+    icon: "🛒",
+    category: "household",
+    readTime: "8分",
+    publishedAt: "2026-05-31",
+  },
+  {
     slug: "parent-neighborhood-contact-list",
     title: "高齢の親の近所付き合い・地域連絡先を家族で整理する方法",
     description:

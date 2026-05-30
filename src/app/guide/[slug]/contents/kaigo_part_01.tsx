@@ -4,6 +4,53 @@ import { AffiliateCTA } from "@/components/AffiliateCTA";
 import { KaigoActionBox } from "./helpers";
 
 export const guideContentsPart01: Record<string, ReactNode> = {
+  "parent-shopping-supplies-replenishment": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">買い物と日用品補充が「口頭だけ」だと、担当が変わったときに抜け漏れが起きやすい</h2>
+        <p>
+          親の暮らしを家族で支える中で、買い物や日用品の補充は「行ける人がついでにやる」になりがちです。ところが担当が入れ替わると、
+          何を買ってよいか、何を買わなくてよいか、どれくらい残っているかが分からず、重複や不足が起きやすくなります。
+        </p>
+        <p>
+          ここで作るのは「買うべきかどうかの判断」ではなく、家族内で見返せる買い物メモです。定番品と補充の目安をそろえると、迷いが減ります。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">まずは「定番」「買わない」「補充目安」「季節行事」を分けて短くそろえる</h2>
+        <p>最初は完璧に書くよりも、あとで見返せる形を優先します。</p>
+        <ul className="list-disc list-inside space-y-2 text-sm text-muted">
+          <li>よく買う定番品: 商品名 / 目安の数量 / 購入先（分かる範囲）</li>
+          <li>買わなくてよいもの: すでに十分ある、親が使わない、重複しやすいもの</li>
+          <li>補充の目安: 例）残り2つになったら補充、月末にまとめ買い、帰省時に確認</li>
+          <li>季節行事の準備: 例）夏の虫よけ、冬の防寒、年末年始の備え（必要な範囲だけ）</li>
+          <li>代替案: 欠品時に別の物で代用してよいか（家族内メモ）</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">共有範囲を決めて、秘密情報は書かない</h2>
+        <p>
+          買い物メモは家族の生活情報が含まれやすいので、共有範囲（誰まで見られるか）と保管場所を決めます。外部転送や公開を前提にしない運用が安全です。
+        </p>
+        <p>
+          パスワード、暗証番号、ログイン情報、カード番号、口座番号、マイナンバーなどの秘密情報は記録しないようにします。契約や制度、医療・介護の最終判断が必要な場合は、公式の案内や関係窓口へ確認してください。
+        </p>
+      </section>
+
+      <KaigoActionBox
+        toolHref="https://net-toolbox.jp/tools/kaigo-parent-shopping-supplies-replenishment-memo?utm_source=toshi-navi&utm_medium=guide&utm_campaign=parent_shopping_supplies_replenishment"
+        toolLabel="買い物・日用品補充メモを作る"
+        boothHref="https://kaigo-okane.booth.pm/items/8434977"
+        boothLabel="買い物・日用品補充メモテンプレートを見る"
+      >
+        <p>
+          まず無料ツールで、家族内で共有したい買い物メモの項目をそろえます。継続して運用する段階では、BOOTHのテンプレートへ転記しておくと、定番品や季節行事の更新履歴を整理しやすくなります。
+        </p>
+      </KaigoActionBox>
+    </>
+  ),
   "parent-neighborhood-contact-list": (
     <>
       <section>

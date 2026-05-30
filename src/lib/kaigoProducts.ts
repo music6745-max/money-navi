@@ -180,6 +180,16 @@ export const kaigoProducts: KaigoProduct[] = [
     tags: ["近所付き合い", "地域連絡先", "連絡メモ", "家族共有"],
   },
   {
+    id: "p47",
+    type: "single",
+    title: "高齢親の買い物・日用品補充メモ テンプレート集",
+    description:
+      "よく買う定番品、買わなくてよいもの、季節行事の準備メモを、家族内で見返しやすい形にそろえるPDF/Excelセット。",
+    priceLabel: "単品 1,480円",
+    boothUrl: "https://kaigo-okane.booth.pm/items/8434977",
+    tags: ["買い物メモ", "日用品", "補充", "家族共有"],
+  },
+  {
     id: "p35",
     type: "single",
     title: "親のかかりつけ医・薬局・処方薬情報まとめテンプレート集",
@@ -667,7 +677,7 @@ export const kaigoSituations: KaigoSituation[] = [
     shortLabel: "家事ルーティン",
     description:
       "家事のやり方の判断ではなく、掃除・洗濯・ゴミ出し・片付けなどの日常タスクを、頻度・担当・申し送りメモとしてそろえます。",
-    productIds: ["p40", "p38", "p39", "p37", "p105", "p02", "p03", "care-start-37", "full-pack", "note-faq"],
+    productIds: ["p40", "p47", "p38", "p39", "p37", "p105", "p02", "p03", "care-start-37", "full-pack", "note-faq"],
     nextActions: [
       "掃除、洗濯、ゴミ出し、片付けなどを「毎日/週1/不定期」に分けて書き出す",
       "家族が入れ替わっても困らないよう、担当者、場所、気をつける点を短くメモする",
