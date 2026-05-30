@@ -211,6 +211,16 @@ export const kaigoProducts: KaigoProduct[] = [
     tags: ["外出予定", "移動手段", "送迎", "家族共有"],
   },
   {
+    id: "p50",
+    type: "single",
+    title: "実家のごみ出し曜日・分別メモ テンプレート集",
+    description:
+      "実家のごみ出し曜日、分別、集積所（置き場所）、粗大ごみ・一時保管を、家族内で共有しやすい形にそろえるPDF/Excelセット。",
+    priceLabel: "単品 1,480円",
+    boothUrl: "https://kaigo-okane.booth.pm/items/8435173",
+    tags: ["ごみ出し", "分別", "曜日管理", "実家管理", "家族共有"],
+  },
+  {
     id: "p35",
     type: "single",
     title: "親のかかりつけ医・薬局・処方薬情報まとめテンプレート集",
@@ -698,7 +708,7 @@ export const kaigoSituations: KaigoSituation[] = [
     shortLabel: "家事ルーティン",
     description:
       "家事のやり方の判断ではなく、掃除・洗濯・ゴミ出し・片付けなどの日常タスクを、頻度・担当・申し送りメモとしてそろえます。",
-    productIds: ["p40", "p47", "p38", "p39", "p37", "p105", "p02", "p03", "care-start-37", "full-pack", "note-faq"],
+    productIds: ["p40", "p50", "p47", "p38", "p39", "p37", "p105", "p02", "p03", "care-start-37", "full-pack", "note-faq"],
     nextActions: [
       "掃除、洗濯、ゴミ出し、片付けなどを「毎日/週1/不定期」に分けて書き出す",
       "家族が入れ替わっても困らないよう、担当者、場所、気をつける点を短くメモする",

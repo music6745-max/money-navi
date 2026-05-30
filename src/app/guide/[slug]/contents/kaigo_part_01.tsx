@@ -262,6 +262,61 @@ export const guideContentsPart01: Record<string, ReactNode> = {
       </KaigoActionBox>
     </>
   ),
+  "parent-home-garbage-schedule-separation": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">実家のごみ出しルールが曖昧だと、帰省のたびに確認が増えやすい</h2>
+        <p>
+          実家のごみ出しは、曜日や分別だけでなく、集積所（置き場所）、袋の種類、出す時間帯、粗大ごみの扱いなど、細かい前提が重なりがちです。
+          家族が交代で帰省する場合、情報が口頭やチャットに散らばると、「何を、いつ、どこに出すか」の確認が毎回発生しやすくなります。
+        </p>
+        <p>
+          ここで作るのは「判断の代替」ではなく、家族内で見返せるごみ出しメモです。確認済みの内容を短い項目でそろえると、担当が入れ替わっても迷いにくくなります。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">まずは「曜日」「分別」「置き場所」を短くそろえる</h2>
+        <p>最初は細かい説明よりも、あとで見返せる手がかりを優先します。</p>
+        <ul className="list-disc list-inside space-y-2 text-sm text-muted">
+          <li>ごみの区分: 燃える/燃えない/資源/びん/缶/ペットボトル など（実際の区分名）</li>
+          <li>曜日（収集日）: 週何回か、祝日の扱いなど分かる範囲</li>
+          <li>出す時間帯の目安: 朝◯時まで、前日夜は不可 など</li>
+          <li>袋・まとめ方: 指定袋の種類、結び方、まとめ方のメモ（分かる範囲）</li>
+          <li>集積所（置き場所）: どこへ出すか、目印、注意点</li>
+          <li>家族共有メモ: 共有範囲、更新ルール、次回見直しの目安</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">粗大ごみや一時保管は「確認したいこと」を分けて残す</h2>
+        <p>
+          粗大ごみは、品目や地域によって扱いが変わることがあります。ここでは結論を出すのではなく、「問い合わせ先」「確認したいこと」「メモ」を分けて残し、次回の確認をスムーズにします。
+        </p>
+        <p>
+          自治体ごとのルールの確認や外部手続きの代行は含みません。必要な確認は、自治体等の公式情報をご参照ください。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">秘密情報は書かず、外部の判断は公式情報で確認する</h2>
+        <p>
+          パスワード、暗証番号、ログイン情報、カード番号、口座番号、マイナンバーなどの秘密情報は記録しない前提にします。個人情報（氏名、住所、電話番号など）も必要最小限に絞り、家族内で管理してください。
+        </p>
+      </section>
+
+      <KaigoActionBox
+        toolHref="https://net-toolbox.jp/tools/kaigo-parent-home-garbage-schedule-separation-memo?utm_source=toshi-navi&utm_medium=guide&utm_campaign=parent_home_garbage_schedule_separation"
+        toolLabel="ごみ出し曜日・分別メモを作る"
+        boothHref="https://kaigo-okane.booth.pm/items/8435173"
+        boothLabel="ごみ出し曜日・分別メモテンプレートを見る"
+      >
+        <p>
+          まず無料ツールで、実家のごみ出しルールを「短い項目」でそろえます。継続して運用する段階では、BOOTHのテンプレートへ転記しておくと、印刷用PDFとExcelで家族共有しやすくなります。
+        </p>
+      </KaigoActionBox>
+    </>
+  ),
   "kaigo-family-duty-role-share-memo": (
     <>
       <section>

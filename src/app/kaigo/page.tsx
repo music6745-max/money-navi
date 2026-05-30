@@ -228,6 +228,16 @@ export default function KaigoPage() {
               新着: 外出予定・移動手段整理
             </TrackedExternalLink>
             <TrackedExternalLink
+              href="https://kaigo-okane.booth.pm/items/8435173"
+              eventName="booth_click"
+              page="kaigo"
+              position="intro_new_template"
+              itemId="p50"
+              className="block rounded-md border border-primary/30 bg-primary/5 px-3 py-2 text-sm font-bold text-primary hover:border-primary/60"
+            >
+              新着: ごみ出し曜日・分別メモ
+            </TrackedExternalLink>
+            <TrackedExternalLink
               href="https://kaigo-okane.booth.pm/items/8383305"
               eventName="booth_click"
               page="kaigo"
@@ -503,6 +513,7 @@ export default function KaigoPage() {
             ["kaigo-welfare-equipment-rental-purchase-memo", "福祉用具相談前", "生活場面の困りごと・候補・質問を整理"],
             ["kaigo-parent-home-appliance-remote-manual-memo", "家電・リモコン・説明書", "日常家電の操作メモ・取扱説明書・保証書を整理"],
             ["kaigo-parent-home-storage-location-map-memo", "置き場所マップ", "実家の日用品の置き場所を部屋別・棚段別に整理"],
+            ["kaigo-parent-home-garbage-schedule-separation-memo", "ごみ出し曜日・分別", "曜日・分別・集積所・粗大ごみを短い項目で整理して家族で共有"],
             ["kaigo-parent-mail-notification-management-memo", "郵便物・通知管理", "郵便物・通知を受取日・期限・保管場所で整理して家族で共有"],
             ["kaigo-parent-clothes-bedding-season-size-memo", "衣類・寝具・サイズ", "衣類・寝具のサイズ・季節・保管場所を家族で共有"],
             ["kaigo-home-care-consumables-stock-memo", "消耗品 在庫・補充", "介護消耗品の残量・買い物・家族共有を整理"],

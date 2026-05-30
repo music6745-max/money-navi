@@ -41,6 +41,16 @@ export const guides: Guide[] = [
     publishedAt: "2026-05-31",
   },
   {
+    slug: "parent-home-garbage-schedule-separation",
+    title: "実家のごみ出し曜日・分別を家族で共有する方法",
+    description:
+      "実家のごみ出し曜日、分別、集積所（置き場所）、粗大ごみ・一時保管を、家族内で見返しやすい形にそろえるコツを解説。",
+    icon: "🗑️",
+    category: "household",
+    readTime: "8分",
+    publishedAt: "2026-05-31",
+  },
+  {
     slug: "parent-neighborhood-contact-list",
     title: "高齢の親の近所付き合い・地域連絡先を家族で整理する方法",
     description:
