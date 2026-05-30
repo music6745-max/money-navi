@@ -110,6 +110,57 @@ function KaigoActionBox({
 }
 
 const guideContents: Record<string, ReactNode> = {
+  "parent-neighborhood-contact-list": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">近所や地域の連絡先が曖昧だと、急な確認が必要なときに家族が迷いやすい</h2>
+        <p>
+          離れて暮らす親の暮らしでは、家族だけで状況を確認できない場面があります。回覧や自治会連絡、管理会社とのやりとりなど、地域側の窓口が分からないと行き違いが起きやすいです。
+        </p>
+        <p>
+          ここで作るのは「判断のマニュアル」ではなく、家族内で見返せる連絡先メモです。連絡先と補足をそろえておくと、担当が入れ替わっても迷いにくくなります。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">連絡先は「関係性」と「連絡してよい条件」をセットで残す</h2>
+        <p>
+          電話番号だけを並べると、後から「何の用件で連絡してよいか」が分からなくなります。最初は次の項目を短くそろえます。
+        </p>
+        <ul className="list-disc list-inside space-y-2 text-sm text-muted">
+          <li>呼び名: 近所の人・町内会・管理会社など（実名は必要な範囲だけ）</li>
+          <li>関係性: 何の窓口か（回覧、建物管理、見守りの連絡先など）</li>
+          <li>連絡してよい用件: どんな時に連絡してよいか（家族内の目安）</li>
+          <li>連絡手段: 電話、メール、掲示板、LINEなど分かる範囲</li>
+          <li>注意点: 伝えるときの一言メモ（短く）</li>
+        </ul>
+        <p className="mt-3">
+          「連絡してよい用件」を書いておくと、家族の誰が見ても迷いにくくなります。判断が必要な場面では、関係窓口や公式の案内に従って確認してください。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">共有範囲を決めて、秘密情報は書かない</h2>
+        <p>
+          連絡先メモには個人情報が含まれやすいので、家族内での共有範囲（誰まで見られるか）と保管場所を決めます。外部転送や公開を前提にしない運用が安全です。
+        </p>
+        <p>
+          また、パスワード、暗証番号、ログイン情報、カード番号、口座番号、マイナンバーなどの秘密情報は記録しないようにします。
+        </p>
+      </section>
+
+      <KaigoActionBox
+        toolHref="https://net-toolbox.jp/tools/kaigo-parent-neighborhood-contact-list-memo?utm_source=toshi-navi&utm_medium=guide&utm_campaign=parent_neighborhood_contact_list"
+        toolLabel="近所・地域連絡先メモを作る"
+        boothHref="https://kaigo-okane.booth.pm/items/8383033"
+        boothLabel="近所付き合い・地域連絡先 整理メモテンプレートを見る"
+      >
+        <p>
+          まず無料ツールで、家族内で共有したい連絡先の「項目」をそろえます。継続して見返す段階では、BOOTHのテンプレートへ転記しておくと、更新履歴や補足メモを整理しやすくなります。
+        </p>
+      </KaigoActionBox>
+    </>
+  ),
   "parent-checkin-contact-log": (
     <>
       <section>

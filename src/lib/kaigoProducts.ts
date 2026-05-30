@@ -169,6 +169,17 @@ export const kaigoProducts: KaigoProduct[] = [
     tags: ["安否確認", "定期連絡", "連絡記録", "家族共有"],
   },
   {
+    id: "p46",
+    type: "single",
+    title: "高齢親の近所付き合い・地域連絡先 整理メモ テンプレート集",
+    description:
+      "近所の人、町内会・自治会、管理会社などの連絡先と関係性を、家族内メモとして整理して共有するPDF/Excelセット。",
+    priceLabel: "単品 1,480円",
+    boothUrl: "https://kaigo-okane.booth.pm/items/8383033",
+    noteUrl: "https://note.com/mild_quail6092/n/n353bf9cb1320",
+    tags: ["近所付き合い", "地域連絡先", "連絡メモ", "家族共有"],
+  },
+  {
     id: "p35",
     type: "single",
     title: "親のかかりつけ医・薬局・処方薬情報まとめテンプレート集",
@@ -518,7 +529,7 @@ export const kaigoSituations: KaigoSituation[] = [
     label: "一人暮らしの親の見守り、連絡頻度、緊急時対応に不安がある",
     shortLabel: "見守り体制",
     description: "見守りはサービス契約の前に、連絡頻度、費用、緊急時の動き、家族の担当を分けて整理します。",
-    productIds: ["p103", "p45", "p40", "p37", "p36", "p32", "p31", "p22", "p03", "p02", "starter-set", "care-start-37", "s3", "note-compare"],
+    productIds: ["p103", "p45", "p46", "p40", "p37", "p36", "p32", "p31", "p22", "p03", "p02", "starter-set", "care-start-37", "s3", "note-compare"],
     nextActions: [
       "普段の連絡頻度、電話がつながらない時の順番、訪問できる人を決める",
       "通信費、訪問交通費、配食や見守りサービス費、緊急時の立替を分けて記録する",
@@ -532,7 +543,7 @@ export const kaigoSituations: KaigoSituation[] = [
     shortLabel: "災害時の備え",
     description:
       "避難判断や防災計画の代替ではなく、持ち出し品、薬、緊急連絡先、避難先候補、家族の役割を手元で見返せるようにします。",
-    productIds: ["p31", "p03", "p103", "p02", "p01", "starter-set", "s3", "full-pack", "note-faq"],
+    productIds: ["p31", "p46", "p03", "p103", "p02", "p01", "starter-set", "s3", "full-pack", "note-faq"],
     nextActions: [
       "薬、お薬手帳、保険証、充電器、眼鏡、補聴器など、親に必要な持ち出し品を確認する",
       "家族、近所、かかりつけ医、薬局、ケアマネ、介護事業所の連絡先を1か所にまとめる",

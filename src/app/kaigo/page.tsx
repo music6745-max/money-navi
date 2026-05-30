@@ -188,6 +188,16 @@ export default function KaigoPage() {
               新着: 安否確認・定期連絡 記録メモ
             </TrackedExternalLink>
             <TrackedExternalLink
+              href="https://kaigo-okane.booth.pm/items/8383033"
+              eventName="booth_click"
+              page="kaigo"
+              position="intro_new_template"
+              itemId="p46"
+              className="block rounded-md border border-primary/30 bg-primary/5 px-3 py-2 text-sm font-bold text-primary hover:border-primary/60"
+            >
+              新着: 近所付き合い・地域連絡先 整理メモ
+            </TrackedExternalLink>
+            <TrackedExternalLink
               href="https://kaigo-okane.booth.pm/items/8383305"
               eventName="booth_click"
               page="kaigo"
@@ -458,6 +468,7 @@ export default function KaigoPage() {
             ["kaigo-family-duty-role-share-memo", "当番・役割分担の記録", "当番スケジュールと担当・実績を家族で共有"],
             ["kaigo-emergency-info", "緊急メモ", "連絡先・服薬・支払い確認項目を作成"],
             ["kaigo-parent-disaster-go-bag-contact-memo", "災害時持ち出し・連絡先", "持ち出し品・避難先・緊急連絡先を整理"],
+            ["kaigo-parent-neighborhood-contact-list-memo", "近所・地域連絡先", "近所の人・町内会・管理会社などの連絡先と補足を整理"],
             ["kaigo-caregiver-rest-burden-memo", "介護者の休息・負担", "休息予定・重い時間帯・頼みたいことを整理"],
             ["kaigo-welfare-equipment-rental-purchase-memo", "福祉用具相談前", "生活場面の困りごと・候補・質問を整理"],
             ["kaigo-parent-home-appliance-remote-manual-memo", "家電・リモコン・説明書", "日常家電の操作メモ・取扱説明書・保証書を整理"],

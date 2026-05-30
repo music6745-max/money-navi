@@ -11,6 +11,16 @@ export interface Guide {
 
 export const guides: Guide[] = [
   {
+    slug: "parent-neighborhood-contact-list",
+    title: "高齢の親の近所付き合い・地域連絡先を家族で整理する方法",
+    description:
+      "近所の人、町内会・自治会、管理会社などの連絡先と「連絡してよい条件」をそろえて、家族で迷わない形にするコツを解説。",
+    icon: "🏘️",
+    category: "household",
+    readTime: "8分",
+    publishedAt: "2026-05-31",
+  },
+  {
     slug: "parent-checkin-contact-log",
     title: "高齢の親の安否確認・定期連絡を家族で記録する方法",
     description:
