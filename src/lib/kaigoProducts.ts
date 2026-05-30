@@ -127,6 +127,17 @@ export const kaigoProducts: KaigoProduct[] = [
     tags: ["衣類", "寝具", "季節替え", "サイズ管理", "家族共有"],
   },
   {
+    id: "p40",
+    type: "single",
+    title: "高齢親の掃除・洗濯・家事ルーティン共有メモ テンプレート集",
+    description:
+      "掃除、洗濯、ゴミ出しなどの日常家事について、頻度、担当、家族内メモを整理して共有するPDF/Excelセット。",
+    priceLabel: "単品 1,480円",
+    boothUrl: "https://kaigo-okane.booth.pm/items/8383008",
+    noteUrl: "https://note.com/mild_quail6092/n/n58a3d851852b",
+    tags: ["家事", "掃除", "洗濯", "ルーティン", "家族共有"],
+  },
+  {
     id: "p35",
     type: "single",
     title: "親のかかりつけ医・薬局・処方薬情報まとめテンプレート集",
@@ -476,7 +487,7 @@ export const kaigoSituations: KaigoSituation[] = [
     label: "一人暮らしの親の見守り、連絡頻度、緊急時対応に不安がある",
     shortLabel: "見守り体制",
     description: "見守りはサービス契約の前に、連絡頻度、費用、緊急時の動き、家族の担当を分けて整理します。",
-    productIds: ["p103", "p37", "p36", "p32", "p31", "p22", "p03", "p02", "starter-set", "care-start-37", "s3", "note-compare"],
+    productIds: ["p103", "p40", "p37", "p36", "p32", "p31", "p22", "p03", "p02", "starter-set", "care-start-37", "s3", "note-compare"],
     nextActions: [
       "普段の連絡頻度、電話がつながらない時の順番、訪問できる人を決める",
       "通信費、訪問交通費、配食や見守りサービス費、緊急時の立替を分けて記録する",
@@ -516,7 +527,7 @@ export const kaigoSituations: KaigoSituation[] = [
     label: "きょうだい・親族で分担や連絡の温度差がある",
     shortLabel: "家族で共有",
     description: "感情的な話し合いの前に、事実、役割、費用、連絡ルールを分けて見える化します。",
-    productIds: ["p105", "p38", "p37", "p36", "p32", "p31", "p30", "p29", "p28", "p27", "p26", "p13", "p05", "p104", "p02", "p01", "care-start-37", "s3", "all-87", "note-compare"],
+    productIds: ["p105", "p40", "p38", "p37", "p36", "p32", "p31", "p30", "p29", "p28", "p27", "p26", "p13", "p05", "p104", "p02", "p01", "care-start-37", "s3", "all-87", "note-compare"],
     nextActions: [
       "費用分担と作業分担を別々の表で管理する",
       "病院、ケアマネ、施設との連絡窓口を決める",
@@ -558,7 +569,7 @@ export const kaigoSituations: KaigoSituation[] = [
     shortLabel: "置き場所マップ",
     description:
       "片付けや廃棄判断の代替ではなく、実家の部屋別・棚段別の置き場所を家族内メモとしてそろえ、帰省時の探し物を減らします。",
-    productIds: ["p38", "p39", "p37", "p105", "p02", "p03", "care-start-37", "full-pack", "note-faq"],
+    productIds: ["p40", "p38", "p39", "p37", "p105", "p02", "p03", "care-start-37", "full-pack", "note-faq"],
     nextActions: [
       "台所、リビング、寝室、洗面所、押し入れなど部屋ごとに、よく探す日用品の置き場所を短く書く",
       "棚・引き出しの段など「探す手がかり」だけを残し、秘密情報や設備操作のメモは作らない",
@@ -577,6 +588,20 @@ export const kaigoSituations: KaigoSituation[] = [
       "普段着、外出着、下着・靴下、寝具などに分けて、よく使うものと保管場所を短く書く",
       "サイズ、季節替えのタイミング、予備の有無をメモし、次の確認日を決める",
       "施設やサービスの持ち物ルール、洗濯・管理の判断は、利用先の案内や担当窓口へ確認する",
+    ],
+    affiliateOfferIds: ["hoken-mammoth"],
+  },
+  {
+    id: "housework-routine",
+    label: "実家の掃除・洗濯・家事ルーティンを家族で共有したい",
+    shortLabel: "家事ルーティン",
+    description:
+      "家事のやり方の判断ではなく、掃除・洗濯・ゴミ出し・片付けなどの日常タスクを、頻度・担当・申し送りメモとしてそろえます。",
+    productIds: ["p40", "p38", "p39", "p37", "p105", "p02", "p03", "care-start-37", "full-pack", "note-faq"],
+    nextActions: [
+      "掃除、洗濯、ゴミ出し、片付けなどを「毎日/週1/不定期」に分けて書き出す",
+      "家族が入れ替わっても困らないよう、担当者、場所、気をつける点を短くメモする",
+      "設備操作、安全判断、秘密情報の記録は避け、必要な場合は公式案内や専門業者へ確認する",
     ],
     affiliateOfferIds: ["hoken-mammoth"],
   },

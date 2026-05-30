@@ -1,6 +1,23 @@
 export type FAQ = { question: string; answer: string };
 
 export const guideFaqs: Record<string, FAQ[]> = {
+  "parent-home-cleaning-laundry-housework-routine": [
+    {
+      question: "掃除・洗濯・家事ルーティン共有メモには何を書けばよいですか？",
+      answer:
+        "掃除、洗濯、ゴミ出し、片付けなどを「毎日/週1/不定期」に分けて、担当者、場所、家族への申し送り（例: いつも置いている場所、注意点）を短く書きます。正確さよりも、次に実家へ行った家族が迷わない手がかりをそろえることを優先します。",
+    },
+    {
+      question: "家事のやり方や安全判断もこのメモで決められますか？",
+      answer:
+        "判断はしません。このメモは家族内の申し送り用です。設備操作や安全判断、専門作業が必要な内容は、メーカーや自治体、専門業者などの案内を確認してください。",
+    },
+    {
+      question: "パスワードや口座番号などの秘密情報も一緒に書けますか？",
+      answer:
+        "書きません。パスワード、暗証番号、ログイン情報、カード番号、口座番号、マイナンバーなどの秘密情報は記録しない前提で使ってください。",
+    },
+  ],
   "parent-home-clothes-bedding-season-size-memo": [
     {
       question: "衣類・寝具・季節替え・サイズ管理メモには何を書けばよいですか？",

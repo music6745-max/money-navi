@@ -110,6 +110,73 @@ function KaigoActionBox({
 }
 
 const guideContents: Record<string, ReactNode> = {
+  "parent-home-cleaning-laundry-housework-routine": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">実家の家事は「いつ・誰が・どこまで」が曖昧だと負担が増える</h2>
+        <p>
+          掃除や洗濯、ゴミ出し、片付けのような日常家事は、親が元気なうちは「いつものやり方」で回っていても、
+          帰省や通院付き添い、短期利用の前後などで家族が入れ替わると、抜け漏れや重複が起きやすくなります。
+        </p>
+        <p>
+          大事なのは正解を作ることではなく、家族が引き継げる形で「頻度」と「担当」と「申し送り」をそろえることです。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">「毎日/週1/不定期」に分けて書き出す</h2>
+        <p>
+          最初に、家事を頻度で分けます。細かさよりも、家族が迷わない単位を優先します。
+        </p>
+        <ul className="list-disc list-inside space-y-2 text-sm text-muted">
+          <li>毎日: ゴミの仮置き、キッチンの片付け、洗濯物の取り込みなど</li>
+          <li>週1: 掃除機、浴室、トイレ、シーツ交換など</li>
+          <li>不定期: 季節の大掃除、換気扇、カーテン洗い、粗大ゴミなど</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">「場所」と「申し送り」を短く残す</h2>
+        <p>
+          家族が変わる場面で困りやすいのは、掃除道具や洗剤の場所、ゴミ出しの出し方、洗濯物の干し方などの小さな差分です。
+        </p>
+        <p>次の人が迷わない手がかりだけを短い言葉で残します。</p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">秘密情報と安全判断は書かない</h2>
+        <p>
+          このメモには、パスワード、暗証番号、ログイン情報、カード番号、口座番号、マイナンバーなどの秘密情報を書かないようにします。
+        </p>
+        <p>
+          また、設備操作、安全判断、専門作業が必要な内容は扱いません。必要な場合は、メーカーや自治体、専門業者の案内を確認してください。
+        </p>
+      </section>
+
+      <KaigoActionBox
+        toolHref="https://net-toolbox.jp/tools/kaigo-parent-home-cleaning-laundry-housework-routine-memo?utm_source=toshi-navi&utm_medium=guide&utm_campaign=housework_routine_memo"
+        toolLabel="家事ルーティン共有メモを作る"
+        boothHref="https://kaigo-okane.booth.pm/items/8383008"
+        boothLabel="掃除・洗濯・家事ルーティン共有テンプレートを見る"
+      >
+        <p>
+          まず無料ツールで、家事タスクを頻度別に書き出し、担当と申し送りを整理します。繰り返し見返す段階では、BOOTHのテンプレートへ転記しておくと、家族間で共有しやすくなります。
+        </p>
+        <p className="mt-2">
+          実家まわりの整理をまとめて進めたい場合は、
+          <a
+            href="https://kaigo-okane.booth.pm/items/8383305"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-bold text-primary underline underline-offset-2"
+          >
+            親の介護はじめの37商品まとめセット
+          </a>
+          も比較候補になります。
+        </p>
+      </KaigoActionBox>
+    </>
+  ),
   "parent-home-clothes-bedding-season-size-memo": (
     <>
       <section>

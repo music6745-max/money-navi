@@ -11,6 +11,16 @@ export interface Guide {
 
 export const guides: Guide[] = [
   {
+    slug: "parent-home-cleaning-laundry-housework-routine",
+    title: "高齢の親の掃除・洗濯・家事ルーティンを家族で共有する方法",
+    description:
+      "掃除、洗濯、ゴミ出しなど、実家の家事ルーティンを頻度と担当で整理して家族で共有する方法を解説。",
+    icon: "🧹",
+    category: "household",
+    readTime: "8分",
+    publishedAt: "2026-05-30",
+  },
+  {
     slug: "parent-home-clothes-bedding-season-size-memo",
     title: "高齢の親の衣類・寝具・季節替え・サイズ情報を家族で共有する方法",
     description:
