@@ -207,6 +207,61 @@ export const guideContentsPart01: Record<string, ReactNode> = {
       </KaigoActionBox>
     </>
   ),
+  "parent-outing-transport-plan": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">外出予定と移動手段が分散すると、送迎の段取りが抜けやすい</h2>
+        <p>
+          親の通院、買い物、役所の用事などの外出は、家族の予定調整と移動手段の確保がセットになりやすいです。ところが、情報がそれぞれのチャットや口頭に散らばると、
+          「いつ、どこへ、誰が、どうやって行くか」が見えなくなり、引き継ぎのたびに確認が増えます。
+        </p>
+        <p>
+          ここで作るのは「判断の代替」ではなく、家族内で見返せる外出・移動のメモです。移動手段と段取りを短い項目に分けてそろえると、担当が入れ替わっても迷いにくくなります。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">「移動手段の一覧」と「外出先別の段取り」を分けてメモする</h2>
+        <p>最初は細かい文章よりも、あとで見返せる手がかりをそろえます。</p>
+        <ul className="list-disc list-inside space-y-2 text-sm text-muted">
+          <li>移動手段の一覧: 家族送迎、タクシー、公共交通、地域サービスなど（連絡先/予約方法は必要な範囲）</li>
+          <li>外出先別の段取り: 行き先、日時、集合場所、持ち物、注意点</li>
+          <li>月別の予定（分かる範囲）: 通院、用事、家族対応日をざっくり置く</li>
+        </ul>
+        <p className="mt-3">
+          「連絡先・予約方法」は、次に見た家族が迷わない程度に絞ります。秘密情報やログイン情報は書かない前提にします。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">送迎・同行の引き継ぎは「日時・集合場所・持ち物・注意点」だけに絞る</h2>
+        <p>
+          担当が変わる場面では、判断や説明を長く残すよりも、「次に動く人が迷わない」情報だけを残します。特に、集合場所の目印、入口、駐車場、待ち合わせの流れなどは短く書いておくと便利です。
+        </p>
+        <p>
+          受診の判断、医療・介護サービスの利用可否、契約判断などはこのメモで結論を出さず、担当窓口や専門職へ確認してください。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">秘密情報は書かず、判断が必要なことは窓口で確認する</h2>
+        <p>
+          パスワード、暗証番号、ログイン情報、カード番号、口座番号、マイナンバーなどの秘密情報は記録しない前提にします。個人情報（氏名、住所、電話番号など）も必要最小限に絞り、家族内で管理してください。
+        </p>
+      </section>
+
+      <KaigoActionBox
+        toolHref="https://net-toolbox.jp/tools/kaigo-parent-outing-transport-memo?utm_source=toshi-navi&utm_medium=guide&utm_campaign=parent_outing_transport_plan"
+        toolLabel="外出予定・移動手段メモを作る"
+        boothHref="https://kaigo-okane.booth.pm/items/8435122"
+        boothLabel="外出予定・移動手段整理テンプレートを見る"
+      >
+        <p>
+          まず無料ツールで、外出予定と移動手段の「項目」をそろえます。継続して見返す段階では、BOOTHのテンプレートへ転記しておくと、月別の予定や引き継ぎメモをまとめやすくなります。
+        </p>
+      </KaigoActionBox>
+    </>
+  ),
   "kaigo-family-duty-role-share-memo": (
     <>
       <section>

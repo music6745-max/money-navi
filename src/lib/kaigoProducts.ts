@@ -201,6 +201,16 @@ export const kaigoProducts: KaigoProduct[] = [
     tags: ["郵便物管理", "通知", "期限", "家族共有"],
   },
   {
+    id: "p49",
+    type: "single",
+    title: "高齢親の外出予定・移動手段整理テンプレート集",
+    description:
+      "通院や買い物などの外出予定と、使っている移動手段、送迎・同行の引き継ぎメモを家族で共有するPDF/Excelセット。",
+    priceLabel: "単品 1,480円",
+    boothUrl: "https://kaigo-okane.booth.pm/items/8435122",
+    tags: ["外出予定", "移動手段", "送迎", "家族共有"],
+  },
+  {
     id: "p35",
     type: "single",
     title: "親のかかりつけ医・薬局・処方薬情報まとめテンプレート集",
@@ -878,7 +888,7 @@ export const kaigoSituations: KaigoSituation[] = [
     label: "親の通院付き添い前後に、聞くことと説明内容を整理したい",
     shortLabel: "通院付き添い",
     description: "受診要否や薬の判断ではなく、受診前に伝えること、受診後に聞いたこと、薬局で説明されたこと、次回までの確認事項を家族内で整理します。",
-    productIds: ["p24", "p35", "p34", "p23", "p10", "p20", "p107", "p103", "p02", "p03", "full-pack", "note-faq"],
+    productIds: ["p24", "p49", "p35", "p34", "p23", "p10", "p20", "p107", "p103", "p02", "p03", "full-pack", "note-faq"],
     nextActions: [
       "前回受診からの変化、本人の困りごと、家族が気づいたことを短く書き出す",
       "医師や薬剤師へ確認したいことを、受診前に質問メモとしてまとめる",
