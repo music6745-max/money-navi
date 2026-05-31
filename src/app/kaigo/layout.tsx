@@ -4,6 +4,17 @@ import { TrackedExternalLink } from "@/components/TrackedExternalLink";
 
 const supplementalTemplates = [
   {
+    id: "p69",
+    title: "高齢親に聞いた家の暮らしの小さなコツ・段取りメモ",
+    description:
+      "親が話してくれた家のなかの場所、道具、小物、季節の変わり目、いつもの置き方や戻し方を、家族内の軽い控えとして整理します。",
+    boothUrl:
+      "https://kaigo-okane.booth.pm/items/8383365?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p69",
+    guidePath: "/guide/parent-home-living-tips-routine-record",
+    toolUrl:
+      "https://net-toolbox.jp/tools/kaigo-parent-home-living-tips-routine-memo?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p69_tool",
+  },
+  {
     id: "p68",
     title: "高齢親の家庭料理・味つけ・作り方メモ",
     description:
