@@ -4,6 +4,17 @@ import { TrackedExternalLink } from "@/components/TrackedExternalLink";
 
 const supplementalTemplates = [
   {
+    id: "p68",
+    title: "高齢親の家庭料理・味つけ・作り方メモ",
+    description:
+      "親が話してくれた家庭料理の名前、材料、目分量、火加減、味つけの加減を、健康判断や公開用レシピにせず家族内の思い出メモとして整理します。",
+    boothUrl:
+      "https://kaigo-okane.booth.pm/items/8383190?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p68",
+    guidePath: "/guide/parent-home-cooking-seasoning-recipe-record",
+    toolUrl:
+      "https://net-toolbox.jp/tools/kaigo-parent-home-cooking-seasoning-recipe-memo?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p68_tool",
+  },
+  {
     id: "p67",
     title: "高齢親宅への帰省 持参・持ち帰りメモ",
     description:
