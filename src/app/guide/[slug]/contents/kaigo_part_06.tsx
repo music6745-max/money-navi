@@ -2,6 +2,64 @@ import type { ReactNode } from "react";
 import { KaigoActionBox } from "./helpers";
 
 export const guideContentsPart06: Record<string, ReactNode> = {
+  "parent-hair-salon-barber-visit-record": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">散髪の予定は、担当が変わると前回の情報が抜けやすい</h2>
+        <p>
+          高齢の親の美容院・理容院は、予約した人、同行した人、前回の仕上がりを覚えている人が分かれやすい予定です。
+          口頭だけで済ませると、次に予約する家族が「いつ行ったか」「どんな希望だったか」「次はいつ頃か」をもう一度確認することになります。
+        </p>
+        <p>
+          ここで作るのは、髪型や施術を決めるための記録ではなく、家族内で予定と来店後メモを見返すための控えです。
+          本人の希望、店舗の案内、予約した内容、次に確認することを同じ形式で残します。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">まず「予約」「来店」「仕上がり」「次回目安」を分ける</h2>
+        <p>詳しい美容記録よりも、次に連絡・同行する家族が迷わない手がかりを優先します。</p>
+        <ul className="list-disc list-inside space-y-2 text-sm text-muted">
+          <li>予約メモ: 予約日、予約した人、店舗名、時間帯、変更時の確認先</li>
+          <li>来店記録: 来店日、同行者、移動手段、待ち合わせ場所</li>
+          <li>本人の希望: 短め、前回と同じ、避けたいことなど本人が話した範囲</li>
+          <li>仕上がりメモ: 家族が見た印象、本人の感想、次回に伝えたいこと</li>
+          <li>次回目安: 何週間後くらい、次に予約を確認する日、担当する家族</li>
+          <li>家族共有: 誰へ共有済みか、次に確認すること</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">髪型・施術・料金の判断はメモで決めない</h2>
+        <p>
+          髪型、施術内容、料金、予約変更、店舗との調整は、本人の希望と店舗の案内を確認して進めます。
+          このページやメモは、家族内で事実をそろえるためのもので、健康面や施術可否を判断するものではありません。
+        </p>
+        <p>
+          メモには「本人が言っていたこと」「店へ確認すること」「家族内で共有したこと」を分けて残し、結論が必要な内容を家族だけで決め切らない形にします。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">個人情報と支払い情報は必要最小限にする</h2>
+        <p>
+          店舗名や予約時間、本人の希望を書く場合も、共有先は家族内に絞ります。
+          パスワード、暗証番号、ログイン情報、口座番号、カード番号、マイナンバーなどの秘密情報や支払い情報は記録しないでください。
+        </p>
+      </section>
+
+      <KaigoActionBox
+        toolHref="https://net-toolbox.jp/tools/kaigo-parent-hair-salon-barber-visit-record-memo?utm_source=toshi-navi&utm_medium=guide&utm_campaign=parent_hair_salon_barber_visit_record"
+        toolLabel="美容院・理容院の予約と来店記録メモを作る"
+        boothHref="https://kaigo-okane.booth.pm/items/8383065"
+        boothLabel="美容院・理容院 予約と来店記録メモテンプレートを見る"
+      >
+        <p>
+          まず無料ツールで、予約日、来店日、本人の希望、仕上がりメモ、次回目安を短くそろえます。継続して見返す段階では、BOOTHのテンプレートへ転記しておくと、家族で予約や同行を引き継ぎやすくなります。
+        </p>
+      </KaigoActionBox>
+    </>
+  ),
   "parent-photo-album-organization-record": (
     <>
       <section>

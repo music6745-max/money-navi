@@ -21,6 +21,15 @@ const supplementalCtas: Record<
     highlight: string;
   }
 > = {
+  "parent-hair-salon-barber-visit-record": {
+    title: "介護のテンプレまとめ（フルパック）で生活メモもまとめて用意",
+    description:
+      "美容院・理容院の予約と来店記録に加えて、連絡先、外出予定、買い物、持ち物、家族共有で使いやすいテンプレートをまとめたセットです。必要なものから使えます。",
+    buttonText: "フルパックをBOOTHで見る",
+    href: "https://kaigo-okane.booth.pm/items/8383441?utm_source=toshi-navi&utm_medium=guide&utm_campaign=parent-hair-salon-barber-visit-record&utm_content=full_pack",
+    icon: "BOOTH",
+    highlight: "テンプレまとめ",
+  },
   "parent-photo-album-organization-record": {
     title: "介護のテンプレまとめ（フルパック）で家族共有メモもまとめて用意",
     description:

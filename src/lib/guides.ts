@@ -11,6 +11,16 @@ export interface Guide {
 
 export const guides: Guide[] = [
   {
+    slug: "parent-hair-salon-barber-visit-record",
+    title: "高齢の親の美容院・理容院の予約と来店記録を家族で共有する方法",
+    description:
+      "散髪の予約日、来店日、担当した家族、希望スタイル、前回の仕上がり、次回目安を家族内で残すコツを解説。",
+    icon: "✂️",
+    category: "household",
+    readTime: "8分",
+    publishedAt: "2026-05-31",
+  },
+  {
     slug: "parent-photo-album-organization-record",
     title: "高齢の親の写真・アルバム整理を家族で進める方法",
     description:
