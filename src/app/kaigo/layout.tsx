@@ -4,6 +4,17 @@ import { TrackedExternalLink } from "@/components/TrackedExternalLink";
 
 const supplementalTemplates = [
   {
+    id: "p67",
+    title: "高齢親宅への帰省 持参・持ち帰りメモ",
+    description:
+      "帰省で家族が手で運ぶ持って行くもの・持ち帰るものを、次に行く家族が見返せる家族内の控えとして整理します。",
+    boothUrl:
+      "https://kaigo-okane.booth.pm/items/8383187?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p67",
+    guidePath: "/guide/parent-home-visit-bring-carryback-record",
+    toolUrl:
+      "https://net-toolbox.jp/tools/kaigo-parent-home-visit-bring-carryback-memo?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p67_tool",
+  },
+  {
     id: "p66",
     title: "高齢親に次回聞きたいこと・話したいことメモ",
     description:
