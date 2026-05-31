@@ -4,6 +4,17 @@ import { TrackedExternalLink } from "@/components/TrackedExternalLink";
 
 const supplementalTemplates = [
   {
+    id: "p66",
+    title: "高齢親に次回聞きたいこと・話したいことメモ",
+    description:
+      "次に親と電話・帰省・対面で話すとき、家族内で聞きたいこと・話したいことをあらかじめ控え、話しそびれを減らすためのメモです。",
+    boothUrl:
+      "https://kaigo-okane.booth.pm/items/8383185?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p66",
+    guidePath: "/guide/parent-next-conversation-topics-record",
+    toolUrl:
+      "https://net-toolbox.jp/tools/kaigo-parent-next-conversation-topics-memo?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p66_tool",
+  },
+  {
     id: "p65",
     title: "高齢親が大切にしている品の背景メモ",
     description:
