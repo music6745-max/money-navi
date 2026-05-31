@@ -53,7 +53,7 @@ const supplementalCtas: Record<
     description:
       "定期連絡の記録だけでなく、連絡先や予定、家族共有で使えるテンプレをまとめたセットです。必要なものから使えます。",
     buttonText: "フルパックをBOOTHで見る",
-    href: "https://kaigo-okane.booth.pm/items/8383441?utm_source=toshi-navi&utm_medium=guide&utm_campaign=parent-checkin-contact-log",
+    href: "https://kaigo-okane.booth.pm/items/8383441?utm_source=toshi-navi&utm_medium=guide&utm_campaign=parent-checkin-contact-log&utm_content=full_pack",
     icon: "BOOTH",
     highlight: "テンプレまとめ",
   },
@@ -62,7 +62,7 @@ const supplementalCtas: Record<
     description:
       "近所・地域の連絡先整理だけでなく、日々の確認や家族共有で使えるテンプレをまとめたセットです。必要なものから使えます。",
     buttonText: "フルパックをBOOTHで見る",
-    href: "https://kaigo-okane.booth.pm/items/8383441?utm_source=toshi-navi&utm_medium=guide&utm_campaign=parent-neighborhood-contact-list",
+    href: "https://kaigo-okane.booth.pm/items/8383441?utm_source=toshi-navi&utm_medium=guide&utm_campaign=parent-neighborhood-contact-list&utm_content=full_pack",
     icon: "BOOTH",
     highlight: "テンプレまとめ",
   },
@@ -71,7 +71,7 @@ const supplementalCtas: Record<
     description:
       "外出予定や移動手段、連絡先、当日の持ち物など、家族で共有しやすいテンプレをまとめたセットです。必要なものから使えます。",
     buttonText: "フルパックをBOOTHで見る",
-    href: "https://kaigo-okane.booth.pm/items/8383441?utm_source=toshi-navi&utm_medium=guide&utm_campaign=parent-outing-transport-plan",
+    href: "https://kaigo-okane.booth.pm/items/8383441?utm_source=toshi-navi&utm_medium=guide&utm_campaign=parent-outing-transport-plan&utm_content=full_pack",
     icon: "BOOTH",
     highlight: "テンプレまとめ",
   },
@@ -80,7 +80,7 @@ const supplementalCtas: Record<
     description:
       "ごみ出し曜日・分別の共有や、日々の確認・連絡で使えるテンプレをまとめたセットです。必要なものから使えます。",
     buttonText: "フルパックをBOOTHで見る",
-    href: "https://kaigo-okane.booth.pm/items/8383441?utm_source=toshi-navi&utm_medium=guide&utm_campaign=parent-home-garbage-schedule-separation",
+    href: "https://kaigo-okane.booth.pm/items/8383441?utm_source=toshi-navi&utm_medium=guide&utm_campaign=parent-home-garbage-schedule-separation&utm_content=full_pack",
     icon: "BOOTH",
     highlight: "テンプレまとめ",
   },
@@ -89,7 +89,7 @@ const supplementalCtas: Record<
     description:
       "郵便物・通知の管理だけでなく、連絡先や支払いメモなど家族で共有しやすいテンプレをまとめたセットです。必要なものから使えます。",
     buttonText: "フルパックをBOOTHで見る",
-    href: "https://kaigo-okane.booth.pm/items/8383441?utm_source=toshi-navi&utm_medium=guide&utm_campaign=parent-mail-notification-management",
+    href: "https://kaigo-okane.booth.pm/items/8383441?utm_source=toshi-navi&utm_medium=guide&utm_campaign=parent-mail-notification-management&utm_content=full_pack",
     icon: "BOOTH",
     highlight: "テンプレまとめ",
   },
@@ -98,7 +98,7 @@ const supplementalCtas: Record<
     description:
       "買い物・補充メモに加えて、日々の確認や家族共有で使えるテンプレをまとめたセットです。必要なものから使えます。",
     buttonText: "フルパックをBOOTHで見る",
-    href: "https://kaigo-okane.booth.pm/items/8383441?utm_source=toshi-navi&utm_medium=guide&utm_campaign=parent-shopping-supplies-replenishment",
+    href: "https://kaigo-okane.booth.pm/items/8383441?utm_source=toshi-navi&utm_medium=guide&utm_campaign=parent-shopping-supplies-replenishment&utm_content=full_pack",
     icon: "BOOTH",
     highlight: "テンプレまとめ",
   },
