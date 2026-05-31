@@ -11,6 +11,16 @@ export interface Guide {
 
 export const guides: Guide[] = [
   {
+    slug: "parent-memory-family-history-record",
+    title: "高齢の親の思い出・家族の歴史を家族で書き留める方法",
+    description:
+      "親が話してくれた昔の話、生い立ち、家族の節目、次に聞きたいことを、家族内で見返せる形に少しずつ残すコツを解説。",
+    icon: "📖",
+    category: "household",
+    readTime: "8分",
+    publishedAt: "2026-05-31",
+  },
+  {
     slug: "parent-garden-plants-vegetable-care",
     title: "高齢の親の庭・植木・家庭菜園の手入れを家族で共有する方法",
     description:

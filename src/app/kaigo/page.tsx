@@ -486,6 +486,16 @@ export default function KaigoPage() {
             >
               新着: 庭・植木・家庭菜園メモ
             </TrackedExternalLink>
+            <TrackedExternalLink
+              href="https://kaigo-okane.booth.pm/items/8436039"
+              eventName="booth_click"
+              page="kaigo"
+              position="intro_new_template"
+              itemId="p52"
+              className="block rounded-md border border-primary/30 bg-primary/5 px-3 py-2 text-sm font-bold text-primary hover:border-primary/60"
+            >
+              新着: 思い出・家族の歴史メモ
+            </TrackedExternalLink>
           </div>
         </div>
       </section>
@@ -525,6 +535,7 @@ export default function KaigoPage() {
             ["kaigo-parent-home-storage-location-map-memo", "置き場所マップ", "実家の日用品の置き場所を部屋別・棚段別に整理"],
             ["kaigo-parent-home-garbage-schedule-separation-memo", "ごみ出し曜日・分別", "曜日・分別・集積所・粗大ごみを短い項目で整理して家族で共有"],
             ["kaigo-parent-garden-plants-vegetable-care-memo", "庭・植木・家庭菜園", "庭木・鉢植え・家庭菜園の手入れ予定と家族共有を整理"],
+            ["kaigo-parent-memory-family-history-record-memo", "思い出・家族の歴史", "親が話してくれたこと・生い立ち・家族の節目を整理"],
             ["kaigo-parent-mail-notification-management-memo", "郵便物・通知管理", "郵便物・通知を受取日・期限・保管場所で整理して家族で共有"],
             ["kaigo-parent-clothes-bedding-season-size-memo", "衣類・寝具・サイズ", "衣類・寝具のサイズ・季節・保管場所を家族で共有"],
             ["kaigo-home-care-consumables-stock-memo", "消耗品 在庫・補充", "介護消耗品の残量・買い物・家族共有を整理"],

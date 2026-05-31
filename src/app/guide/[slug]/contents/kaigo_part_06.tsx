@@ -2,6 +2,63 @@ import type { ReactNode } from "react";
 import { KaigoActionBox } from "./helpers";
 
 export const guideContentsPart06: Record<string, ReactNode> = {
+  "parent-memory-family-history-record": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">親が話してくれた昔の話は、後から思い出そうとすると抜けやすい</h2>
+        <p>
+          帰省や電話で聞いた子どもの頃の話、仕事や暮らしの話、家族の節目の話は、その場では覚えているつもりでも時間がたつと細部が曖昧になりがちです。
+          写真やアルバムと結びついている話ほど、家族の誰か一人の記憶だけに残っていることもあります。
+        </p>
+        <p>
+          ここで作るのは、正確な家系図や法的な記録ではなく、家族内で見返せる思い出メモです。聞いた話を短く残しておくと、次に会ったときに続きを聞きやすくなります。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">最初は「いつ」「どこで」「どんな話だったか」だけでよい</h2>
+        <p>完璧な年表を作ろうとすると続きにくいため、まずは会話の断片を残します。</p>
+        <ul className="list-disc list-inside space-y-2 text-sm text-muted">
+          <li>聞いた日: 帰省日、電話した日、写真を見た日</li>
+          <li>話の時期: 子どもの頃、学生時代、仕事、結婚、子育て、引っ越しなど</li>
+          <li>場所: 生まれた地域、学校、職場、住んでいた家、よく行った場所</li>
+          <li>話してくれたこと: 印象に残った一言、出来事、好きだったもの</li>
+          <li>一緒に見たもの: 写真、手紙、記念品、アルバムなど</li>
+          <li>次に聞きたいこと: 続き、登場人物、時期、写真の説明など</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">手続きや判断が必要な情報とは分けておく</h2>
+        <p>
+          思い出の記録と、財産、相続、契約、医療、介護サービスの判断が必要な情報は分けて管理します。
+          このページやメモは、家族の会話を整理するためのもので、手続きや専門判断の代わりにはなりません。
+        </p>
+        <p>
+          判断が必要な内容が出てきた場合は、会話メモに結論を書き込むのではなく、「公式書類で確認する」「専門窓口に聞く」など次の確認先だけを残します。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">公開範囲と秘密情報に注意する</h2>
+        <p>
+          家族の思い出には、本人や親族が外に出したくない話が含まれることがあります。共有先は家族内に絞り、必要がなければ外部サービスやSNSへ転記しない前提にします。
+          パスワード、暗証番号、ログイン情報、口座番号、カード番号、マイナンバーなどの秘密情報は記録しないでください。
+        </p>
+      </section>
+
+      <KaigoActionBox
+        toolHref="https://net-toolbox.jp/tools/kaigo-parent-memory-family-history-record-memo?utm_source=toshi-navi&utm_medium=guide&utm_campaign=parent_memory_family_history_record"
+        toolLabel="思い出・家族の歴史メモを作る"
+        boothHref="https://kaigo-okane.booth.pm/items/8436039"
+        boothLabel="思い出・家族の歴史 書き留めメモテンプレートを見る"
+      >
+        <p>
+          まず無料ツールで、親が話してくれたことや次に聞きたいことを短くそろえます。継続して残す段階では、BOOTHのテンプレートへ転記しておくと、生い立ち年表や家族の節目を見返しやすくなります。
+        </p>
+      </KaigoActionBox>
+    </>
+  ),
   "parent-garden-plants-vegetable-care": (
     <>
       <section>

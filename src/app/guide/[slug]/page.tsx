@@ -48,6 +48,15 @@ const supplementalCtas: Record<
     icon: "FP",
     highlight: "見直し相談",
   },
+  "parent-memory-family-history-record": {
+    title: "介護のテンプレまとめ（フルパック）で家族共有メモもまとめて用意",
+    description:
+      "思い出・家族の歴史メモに加えて、連絡先、買い物、郵便物、ごみ出し、庭の手入れなど、家族で共有しやすいテンプレートをまとめたセットです。必要なものから使えます。",
+    buttonText: "フルパックをBOOTHで見る",
+    href: "https://kaigo-okane.booth.pm/items/8383441?utm_source=toshi-navi&utm_medium=guide&utm_campaign=parent-memory-family-history-record&utm_content=full_pack",
+    icon: "BOOTH",
+    highlight: "テンプレまとめ",
+  },
   "parent-garden-plants-vegetable-care": {
     title: "介護のテンプレまとめ（フルパック）で生活メモをまとめて用意",
     description:
