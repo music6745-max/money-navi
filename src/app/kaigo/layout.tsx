@@ -4,10 +4,21 @@ import { TrackedExternalLink } from "@/components/TrackedExternalLink";
 
 const supplementalTemplates = [
   {
+    id: "p63",
+    title: "高齢親のよく行く店・生活圏メモ",
+    description:
+      "スーパー、薬局、理美容室、散歩先など、親がふだん立ち寄る場所と家族が次に確認することを、判断材料ではなく引き継ぎ用の控えとして整理できます。",
+    boothUrl:
+      "https://kaigo-okane.booth.pm/items/8383096?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p63",
+    guidePath: "/guide/parent-frequent-shops-living-area-record",
+    toolUrl:
+      "https://net-toolbox.jp/tools/kaigo-parent-frequent-shops-living-area-memo?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p63_tool",
+  },
+  {
     id: "p62",
     title: "実家の季節用品・年中行事用品 収納場所控えメモ",
     description:
-      "正月用品、季節飾り、冬支度、夏支度など、年に数回だけ使うものの収納場所を家族内の控えとして整理できます。",
+      "正月用品、季節飾り、防災用品など、年に数回だけ使うものの収納場所を家族内の控えとして整理できます。",
     boothUrl:
       "https://kaigo-okane.booth.pm/items/8383090?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p62",
     guidePath: "/guide/parent-seasonal-event-supplies-storage-record",
@@ -18,7 +29,7 @@ const supplementalTemplates = [
     id: "p61",
     title: "実家の部屋寸法・家具配置 控えメモ",
     description:
-      "帰省時に測った部屋寸法、家具の位置、通路、搬入経路を、購入や施工の判断に使わない家族内の控えとして整理できます。",
+      "帰省時に測った部屋寸法、家具の位置、通路、搬入経路を、購入や工事の判断に使わない家族内の控えとして整理できます。",
     boothUrl:
       "https://kaigo-okane.booth.pm/items/8383086?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p61",
     guidePath: "/guide/parent-room-dimensions-furniture-layout-record",
