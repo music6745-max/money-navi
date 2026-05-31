@@ -77,6 +77,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const staticRoutes: MetadataRoute.Sitemap = [
     { url: base, lastModified: now, changeFrequency: "weekly", priority: 1 },
     { url: `${base}/kaigo`, lastModified: now, changeFrequency: "weekly", priority: 0.95 },
+    { url: `${base}/guide/parent-window-curtain-screen-size-record`, lastModified: now, changeFrequency: "monthly", priority: 0.5 },
     { url: `${base}/guide`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
     { url: `${base}/tools`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
     { url: `${base}/about`, lastModified: now, changeFrequency: "monthly", priority: 0.4 },
