@@ -305,6 +305,16 @@ export const kaigoProducts: KaigoProduct[] = [
     tags: ["定期便", "宅配便", "受け取りメモ", "実家管理", "家族共有"],
   },
   {
+    id: "p65",
+    type: "single",
+    title: "高齢親が大切にしている品の背景メモ テンプレート集",
+    description:
+      "親の家に長くある品や大切にしている品について、親が話してくれた背景、きっかけ、短い思い出を家族内で見返す控えとして残すPDF/Excelセット。",
+    priceLabel: "単品 1,480円",
+    boothUrl: "https://kaigo-okane.booth.pm/items/8383181",
+    tags: ["大切な品", "思い出", "実家整理", "家族共有"],
+  },
+  {
     id: "p64",
     type: "single",
     title: "高齢親が話す口癖・言い回しメモ テンプレート集",
@@ -705,7 +715,7 @@ export const kaigoSituations: KaigoSituation[] = [
     label: "きょうだい・親族で分担や連絡の温度差がある",
     shortLabel: "家族で共有",
     description: "感情的な話し合いの前に、事実、役割、費用、連絡ルールを分けて見える化します。",
-    productIds: ["p64", "p58", "p57", "p56", "p55", "p54", "p52", "p105", "p44", "p42", "p40", "p48", "p38", "p37", "p36", "p32", "p31", "p30", "p29", "p28", "p27", "p26", "p13", "p05", "p104", "p02", "p01", "care-start-37", "s3", "all-87", "note-compare"],
+    productIds: ["p65", "p64", "p58", "p57", "p56", "p55", "p54", "p52", "p105", "p44", "p42", "p40", "p48", "p38", "p37", "p36", "p32", "p31", "p30", "p29", "p28", "p27", "p26", "p13", "p05", "p104", "p02", "p01", "care-start-37", "s3", "all-87", "note-compare"],
     nextActions: [
       "費用分担と作業分担を別々の表で管理する",
       "病院、ケアマネ、施設との連絡窓口を決める",

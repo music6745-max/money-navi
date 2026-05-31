@@ -11,6 +11,16 @@ export interface Guide {
 
 export const guides: Guide[] = [
   {
+    slug: "parent-cherished-item-background-record",
+    title: "高齢親が大切にしている品の背景メモを家族で残す方法",
+    description:
+      "親の家に長くある品や大切にしている品について、親が話してくれた背景、きっかけ、短い思い出を、処分・相続・金銭価値の判断に踏み込まず家族内の控えとして整理する方法を解説します。",
+    icon: "品",
+    category: "household",
+    readTime: "8分",
+    publishedAt: "2026-06-01",
+  },
+  {
   slug: "parent-regular-delivery-package-receipt-record",
   title: "実家に届く定期便・宅配便の受け取りメモを家族で共有する方法",
   description:

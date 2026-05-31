@@ -4,6 +4,17 @@ import { TrackedExternalLink } from "@/components/TrackedExternalLink";
 
 const supplementalTemplates = [
   {
+    id: "p65",
+    title: "高齢親が大切にしている品の背景メモ",
+    description:
+      "親の家に長くある品や大切にしている品について、親が話してくれた背景、きっかけ、短い思い出を、処分や相続の判断に踏み込まず家族内の控えとして整理します。",
+    boothUrl:
+      "https://kaigo-okane.booth.pm/items/8383181?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p65",
+    guidePath: "/guide/parent-cherished-item-background-record",
+    toolUrl:
+      "https://net-toolbox.jp/tools/kaigo-parent-cherished-item-background-memo?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p65_tool",
+  },
+  {
     id: "p64",
     title: "高齢親が話す口癖・言い回しメモ",
     description:
