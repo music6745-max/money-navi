@@ -1,0 +1,217 @@
+diff --git a/src/app/guide/[slug]/contents/kaigo_part_06.tsx b/src/app/guide/[slug]/contents/kaigo_part_06.tsx
+index 35bc16e..57cc0ea 100644
+--- a/src/app/guide/[slug]/contents/kaigo_part_06.tsx
++++ b/src/app/guide/[slug]/contents/kaigo_part_06.tsx
+@@ -2,6 +2,64 @@ import type { ReactNode } from "react";
+ import { KaigoActionBox } from "./helpers";
+ 
+ export const guideContentsPart06: Record<string, ReactNode> = {
++  "parent-hair-salon-barber-visit-record": (
++    <>
++      <section>
++        <h2 className="text-xl font-bold mb-3">散髪の予定は、担当が変わると前回の情報が抜けやすい</h2>
++        <p>
++          高齢の親の美容院・理容院は、予約した人、同行した人、前回の仕上がりを覚えている人が分かれやすい予定です。
++          口頭だけで済ませると、次に予約する家族が「いつ行ったか」「どんな希望だったか」「次はいつ頃か」をもう一度確認することになります。
++        </p>
++        <p>
++          ここで作るのは、髪型や施術を決めるための記録ではなく、家族内で予定と来店後メモを見返すための控えです。
++          本人の希望、店舗の案内、予約した内容、次に確認することを同じ形式で残します。
++        </p>
++      </section>
++
++      <section>
++        <h2 className="text-xl font-bold mb-3">まず「予約」「来店」「仕上がり」「次回目安」を分ける</h2>
++        <p>詳しい美容記録よりも、次に連絡・同行する家族が迷わない手がかりを優先します。</p>
++        <ul className="list-disc list-inside space-y-2 text-sm text-muted">
++          <li>予約メモ: 予約日、予約した人、店舗名、時間帯、変更時の確認先</li>
++          <li>来店記録: 来店日、同行者、移動手段、待ち合わせ場所</li>
++          <li>本人の希望: 短め、前回と同じ、避けたいことなど本人が話した範囲</li>
++          <li>仕上がりメモ: 家族が見た印象、本人の感想、次回に伝えたいこと</li>
++          <li>次回目安: 何週間後くらい、次に予約を確認する日、担当する家族</li>
++          <li>家族共有: 誰へ共有済みか、次に確認すること</li>
++        </ul>
++      </section>
++
++      <section>
++        <h2 className="text-xl font-bold mb-3">髪型・施術・料金の判断はメモで決めない</h2>
++        <p>
++          髪型、施術内容、料金、予約変更、店舗との調整は、本人の希望と店舗の案内を確認して進めます。
++          このページやメモは、家族内で事実をそろえるためのもので、健康面や施術可否を判断するものではありません。
++        </p>
++        <p>
++          メモには「本人が言っていたこと」「店へ確認すること」「家族内で共有したこと」を分けて残し、結論が必要な内容を家族だけで決め切らない形にします。
++        </p>
++      </section>
++
++      <section>
++        <h2 className="text-xl font-bold mb-3">個人情報と支払い情報は必要最小限にする</h2>
++        <p>
++          店舗名や予約時間、本人の希望を書く場合も、共有先は家族内に絞ります。
++          パスワード、暗証番号、ログイン情報、口座番号、カード番号、マイナンバーなどの秘密情報や支払い情報は記録しないでください。
++        </p>
++      </section>
++
++      <KaigoActionBox
++        toolHref="https://net-toolbox.jp/tools/kaigo-parent-hair-salon-barber-visit-record-memo?utm_source=toshi-navi&utm_medium=guide&utm_campaign=parent_hair_salon_barber_visit_record"
++        toolLabel="美容院・理容院の予約と来店記録メモを作る"
++        boothHref="https://kaigo-okane.booth.pm/items/8383065"
++        boothLabel="美容院・理容院 予約と来店記録メモテンプレートを見る"
++      >
++        <p>
++          まず無料ツールで、予約日、来店日、本人の希望、仕上がりメモ、次回目安を短くそろえます。継続して見返す段階では、BOOTHのテンプレートへ転記しておくと、家族で予約や同行を引き継ぎやすくなります。
++        </p>
++      </KaigoActionBox>
++    </>
++  ),
+   "parent-photo-album-organization-record": (
+     <>
+       <section>
+diff --git a/src/app/guide/[slug]/page.tsx b/src/app/guide/[slug]/page.tsx
+index 9087500..3a87f08 100644
+--- a/src/app/guide/[slug]/page.tsx
++++ b/src/app/guide/[slug]/page.tsx
+@@ -21,6 +21,15 @@ const supplementalCtas: Record<
+     highlight: string;
+   }
+ > = {
++  "parent-hair-salon-barber-visit-record": {
++    title: "介護のテンプレまとめ（フルパック）で生活メモもまとめて用意",
++    description:
++      "美容院・理容院の予約と来店記録に加えて、連絡先、外出予定、買い物、持ち物、家族共有で使いやすいテンプレートをまとめたセットです。必要なものから使えます。",
++    buttonText: "フルパックをBOOTHで見る",
++    href: "https://kaigo-okane.booth.pm/items/8383441?utm_source=toshi-navi&utm_medium=guide&utm_campaign=parent-hair-salon-barber-visit-record&utm_content=full_pack",
++    icon: "BOOTH",
++    highlight: "テンプレまとめ",
++  },
+   "parent-photo-album-organization-record": {
+     title: "介護のテンプレまとめ（フルパック）で家族共有メモもまとめて用意",
+     description:
+diff --git a/src/app/kaigo/page.tsx b/src/app/kaigo/page.tsx
+index aa6c6a3..1834de1 100644
+--- a/src/app/kaigo/page.tsx
++++ b/src/app/kaigo/page.tsx
+@@ -476,6 +476,16 @@ export default function KaigoPage() {
+             >
+               新着: 通帳・保険確認テンプレート
+             </TrackedExternalLink>
++            <TrackedExternalLink
++              href="https://kaigo-okane.booth.pm/items/8383065"
++              eventName="booth_click"
++              page="kaigo"
++              position="intro_new_template"
++              itemId="p55"
++              className="block rounded-md border border-primary/30 bg-primary/5 px-3 py-2 text-sm font-bold text-primary hover:border-primary/60"
++            >
++              新着: 美容院・理容院 来店記録メモ
++            </TrackedExternalLink>
+             <TrackedExternalLink
+               href="https://kaigo-okane.booth.pm/items/8383061"
+               eventName="booth_click"
+diff --git a/src/lib/guideFaqs.ts b/src/lib/guideFaqs.ts
+index d5aa078..5718594 100644
+--- a/src/lib/guideFaqs.ts
++++ b/src/lib/guideFaqs.ts
+@@ -1,6 +1,23 @@
+ export type FAQ = { question: string; answer: string };
+ 
+ export const guideFaqs: Record<string, FAQ[]> = {
++  "parent-hair-salon-barber-visit-record": [
++    {
++      question: "美容院・理容院の予約と来店記録メモには何を書けばよいですか？",
++      answer:
++        "予約日、来店日、店名、同行した家族、本人の希望、前回の仕上がりメモ、次回目安、家族へ共有したいことを短く残します。次に連絡や同行をする家族が、同じことを何度も確認しなくて済む手がかりを優先します。",
++    },
++    {
++      question: "髪型や施術内容、店との調整もこのメモで判断できますか？",
++      answer:
++        "判断できません。このメモは家族内の共有用です。髪型、施術内容、料金、予約変更、店との調整は、本人の希望と店舗の案内を確認してください。頭皮や体調など健康面の判断も扱いません。",
++    },
++    {
++      question: "個人情報や支払い情報も一緒に書けますか？",
++      answer:
++        "必要最小限にとどめ、家族内で管理してください。パスワード、暗証番号、ログイン情報、口座番号、カード番号、マイナンバーなどの秘密情報や支払い情報は記録しない前提で使います。",
++    },
++  ],
+   "parent-photo-album-organization-record": [
+     {
+       question: "写真・アルバム整理メモには何を書けばよいですか？",
+diff --git a/src/lib/guides.ts b/src/lib/guides.ts
+index c495c94..c0d5365 100644
+--- a/src/lib/guides.ts
++++ b/src/lib/guides.ts
+@@ -10,6 +10,16 @@ export interface Guide {
+ }
+ 
+ export const guides: Guide[] = [
++  {
++    slug: "parent-hair-salon-barber-visit-record",
++    title: "高齢の親の美容院・理容院の予約と来店記録を家族で共有する方法",
++    description:
++      "散髪の予約日、来店日、担当した家族、希望スタイル、前回の仕上がり、次回目安を家族内で残すコツを解説。",
++    icon: "✂️",
++    category: "household",
++    readTime: "8分",
++    publishedAt: "2026-05-31",
++  },
+   {
+     slug: "parent-photo-album-organization-record",
+     title: "高齢の親の写真・アルバム整理を家族で進める方法",
+diff --git a/src/lib/kaigoProducts.ts b/src/lib/kaigoProducts.ts
+index 960d40c..4a8bee9 100644
+--- a/src/lib/kaigoProducts.ts
++++ b/src/lib/kaigoProducts.ts
+@@ -261,6 +261,17 @@ export const kaigoProducts: KaigoProduct[] = [
+     noteUrl: "https://note.com/mild_quail6092/n/ne970bbc2f6d9",
+     tags: ["写真整理", "アルバム整理", "思い出整理", "家族共有"],
+   },
++  {
++    id: "p55",
++    type: "single",
++    title: "高齢親の美容院・理容院 予約と来店記録メモ テンプレート集",
++    description:
++      "高齢の親の散髪について、予約日、来店日、希望スタイル、仕上がりの様子、次回目安を家族内で見返しやすくするPDF/Excelセット。",
++    priceLabel: "単品 1,480円",
++    boothUrl: "https://kaigo-okane.booth.pm/items/8383065",
++    noteUrl: "https://note.com/mild_quail6092/n/n8503061c9284",
++    tags: ["美容院", "理容院", "来店記録", "予約メモ", "家族共有"],
++  },
+   {
+     id: "p35",
+     type: "single",
+@@ -651,7 +662,7 @@ export const kaigoSituations: KaigoSituation[] = [
+     label: "きょうだい・親族で分担や連絡の温度差がある",
+     shortLabel: "家族で共有",
+     description: "感情的な話し合いの前に、事実、役割、費用、連絡ルールを分けて見える化します。",
+-    productIds: ["p54", "p52", "p105", "p44", "p42", "p40", "p48", "p38", "p37", "p36", "p32", "p31", "p30", "p29", "p28", "p27", "p26", "p13", "p05", "p104", "p02", "p01", "care-start-37", "s3", "all-87", "note-compare"],
++    productIds: ["p55", "p54", "p52", "p105", "p44", "p42", "p40", "p48", "p38", "p37", "p36", "p32", "p31", "p30", "p29", "p28", "p27", "p26", "p13", "p05", "p104", "p02", "p01", "care-start-37", "s3", "all-87", "note-compare"],
+     nextActions: [
+       "費用分担と作業分担を別々の表で管理する",
+       "病院、ケアマネ、施設との連絡窓口を決める",
+@@ -665,7 +676,7 @@ export const kaigoSituations: KaigoSituation[] = [
+     shortLabel: "申し送り",
+     description:
+       "医療やサービスの判断ではなく、日々の様子、決まったこと、次に確認したいことを、家族内で同じ形式で残します。",
+-    productIds: ["p42", "p44", "p40", "p37", "p36", "p105", "p02", "p03", "care-start-37", "full-pack", "note-faq"],
++    productIds: ["p55", "p42", "p44", "p40", "p37", "p36", "p105", "p02", "p03", "care-start-37", "full-pack", "note-faq"],
+     nextActions: [
+       "申し送りは「事実」「次に確認すること」「連絡が必要なこと」に分けて短く残す",
+       "帰省や当番交代の後に、決まったこと・未決のこと・次の担当をまとめる",
+@@ -885,7 +896,7 @@ export const kaigoSituations: KaigoSituation[] = [
+     shortLabel: "月間予定",
+     description:
+       "ケアプランや勤務表の代替ではなく、通院、訪問サービス、買い物、見守り連絡、帰省などを家族内で共有し、未定の担当を見える化します。",
+-    productIds: ["p27", "p37", "p36", "p32", "p30", "p29", "p26", "p25", "p24", "p22", "p105", "p13", "p02", "care-start-37", "full-pack", "note-faq"],
++    productIds: ["p55", "p27", "p37", "p36", "p32", "p30", "p29", "p26", "p25", "p24", "p22", "p105", "p13", "p02", "care-start-37", "full-pack", "note-faq"],
+     nextActions: [
+       "月内の通院、訪問サービス、デイサービス、家族対応日をカレンダーに置く",
+       "誰が連絡、付き添い、買い物、見守りを担うかを決定済みと未定で分ける",
+@@ -1018,7 +1029,7 @@ export const kaigoSituations: KaigoSituation[] = [
+     label: "遠距離介護で、情報共有や緊急時対応に不安がある",
+     shortLabel: "遠距離介護",
+     description: "遠方では情報の散在が最大のリスクです。連絡先、役割、緊急時の判断材料を先に共有します。",
+-    productIds: ["p54", "p52", "p105", "p32", "p31", "p30", "p29", "p28", "p27", "p26", "p02", "p03", "p01", "s3", "full-pack", "note-faq"],
++    productIds: ["p55", "p54", "p52", "p105", "p32", "p31", "p30", "p29", "p28", "p27", "p26", "p02", "p03", "p01", "s3", "full-pack", "note-faq"],
+     nextActions: [
+       "現地対応者、家族連絡係、費用管理係を分けて決める",
+       "親の医療、服薬、介護サービス、鍵、近所の連絡先を共有する",
