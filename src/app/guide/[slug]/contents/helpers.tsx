@@ -37,14 +37,14 @@ export function KaigoActionBox({
 }) {
   return (
     <section className="rounded-xl border border-primary/25 bg-primary/5 p-5">
-      <h2 className="text-lg font-bold mb-3">?????????????</h2>
+      <h2 className="text-lg font-bold mb-3">無料ツールで試し、必要ならテンプレに残す</h2>
       <div className="text-sm text-muted leading-relaxed mb-4">{children}</div>
       <div className="flex flex-col sm:flex-row gap-3">
         <a
           href="/kaigo"
           className="inline-flex items-center justify-center rounded-full bg-primary px-5 py-2.5 text-sm font-bold text-white transition-colors hover:bg-primary-hover"
         >
-          ?????????????
+          関連テンプレを診断する
         </a>
         <a
           href={toolHref}
