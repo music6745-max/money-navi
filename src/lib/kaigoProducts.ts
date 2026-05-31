@@ -251,6 +251,17 @@ export const kaigoProducts: KaigoProduct[] = [
     tags: ["持ち物管理", "名前つけ", "持ち出し", "家族共有"],
   },
   {
+    id: "p54",
+    type: "single",
+    title: "高齢親の写真・アルバム整理メモ テンプレート集",
+    description:
+      "実家の写真やアルバムについて、写っている人、時期、場所、データ化状況、次に親へ聞きたいことを家族内で見返しやすくするPDF/Excelセット。",
+    priceLabel: "単品 1,480円",
+    boothUrl: "https://kaigo-okane.booth.pm/items/8383061",
+    noteUrl: "https://note.com/mild_quail6092/n/ne970bbc2f6d9",
+    tags: ["写真整理", "アルバム整理", "思い出整理", "家族共有"],
+  },
+  {
     id: "p35",
     type: "single",
     title: "親のかかりつけ医・薬局・処方薬情報まとめテンプレート集",
@@ -640,7 +651,7 @@ export const kaigoSituations: KaigoSituation[] = [
     label: "きょうだい・親族で分担や連絡の温度差がある",
     shortLabel: "家族で共有",
     description: "感情的な話し合いの前に、事実、役割、費用、連絡ルールを分けて見える化します。",
-    productIds: ["p52", "p105", "p44", "p42", "p40", "p48", "p38", "p37", "p36", "p32", "p31", "p30", "p29", "p28", "p27", "p26", "p13", "p05", "p104", "p02", "p01", "care-start-37", "s3", "all-87", "note-compare"],
+    productIds: ["p54", "p52", "p105", "p44", "p42", "p40", "p48", "p38", "p37", "p36", "p32", "p31", "p30", "p29", "p28", "p27", "p26", "p13", "p05", "p104", "p02", "p01", "care-start-37", "s3", "all-87", "note-compare"],
     nextActions: [
       "費用分担と作業分担を別々の表で管理する",
       "病院、ケアマネ、施設との連絡窓口を決める",
@@ -710,7 +721,7 @@ export const kaigoSituations: KaigoSituation[] = [
     shortLabel: "置き場所マップ",
     description:
       "片付けや廃棄判断の代替ではなく、実家の部屋別・棚段別の置き場所を家族内メモとしてそろえ、帰省時の探し物を減らします。",
-    productIds: ["p51", "p40", "p38", "p39", "p37", "p105", "p02", "p03", "care-start-37", "full-pack", "note-faq"],
+    productIds: ["p54", "p51", "p40", "p38", "p39", "p37", "p105", "p02", "p03", "care-start-37", "full-pack", "note-faq"],
     nextActions: [
       "台所、リビング、寝室、洗面所、押し入れなど部屋ごとに、よく探す日用品の置き場所を短く書く",
       "棚・引き出しの段など「探す手がかり」だけを残し、秘密情報や設備操作のメモは作らない",
@@ -1007,7 +1018,7 @@ export const kaigoSituations: KaigoSituation[] = [
     label: "遠距離介護で、情報共有や緊急時対応に不安がある",
     shortLabel: "遠距離介護",
     description: "遠方では情報の散在が最大のリスクです。連絡先、役割、緊急時の判断材料を先に共有します。",
-    productIds: ["p52", "p105", "p32", "p31", "p30", "p29", "p28", "p27", "p26", "p02", "p03", "p01", "s3", "full-pack", "note-faq"],
+    productIds: ["p54", "p52", "p105", "p32", "p31", "p30", "p29", "p28", "p27", "p26", "p02", "p03", "p01", "s3", "full-pack", "note-faq"],
     nextActions: [
       "現地対応者、家族連絡係、費用管理係を分けて決める",
       "親の医療、服薬、介護サービス、鍵、近所の連絡先を共有する",

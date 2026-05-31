@@ -21,6 +21,15 @@ const supplementalCtas: Record<
     highlight: string;
   }
 > = {
+  "parent-photo-album-organization-record": {
+    title: "介護のテンプレまとめ（フルパック）で家族共有メモもまとめて用意",
+    description:
+      "写真・アルバム整理メモに加えて、持ち物、連絡先、郵便物、買い物、ごみ出しなど、家族で共有しやすいテンプレートをまとめたセットです。必要なものから使えます。",
+    buttonText: "フルパックをBOOTHで見る",
+    href: "https://kaigo-okane.booth.pm/items/8383441?utm_source=toshi-navi&utm_medium=guide&utm_campaign=parent-photo-album-organization-record&utm_content=full_pack",
+    icon: "BOOTH",
+    highlight: "テンプレまとめ",
+  },
   "parent-belongings-name-label-carryout-management": {
     title: "介護のテンプレまとめ（フルパック）で持ち物メモもまとめて用意",
     description:

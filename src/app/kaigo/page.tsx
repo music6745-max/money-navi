@@ -477,6 +477,16 @@ export default function KaigoPage() {
               新着: 通帳・保険確認テンプレート
             </TrackedExternalLink>
             <TrackedExternalLink
+              href="https://kaigo-okane.booth.pm/items/8383061"
+              eventName="booth_click"
+              page="kaigo"
+              position="intro_new_template"
+              itemId="p54"
+              className="block rounded-md border border-primary/30 bg-primary/5 px-3 py-2 text-sm font-bold text-primary hover:border-primary/60"
+            >
+              新着: 写真・アルバム整理メモ
+            </TrackedExternalLink>
+            <TrackedExternalLink
               href="https://kaigo-okane.booth.pm/items/8435874"
               eventName="booth_click"
               page="kaigo"

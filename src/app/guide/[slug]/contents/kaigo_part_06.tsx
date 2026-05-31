@@ -2,6 +2,65 @@ import type { ReactNode } from "react";
 import { KaigoActionBox } from "./helpers";
 
 export const guideContentsPart06: Record<string, ReactNode> = {
+  "parent-photo-album-organization-record": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">写真は、誰が写っているかを後から確認しにくくなる</h2>
+        <p>
+          実家のアルバムや写真箱は、家族にとって大切な手がかりですが、時間がたつほど人物名、場所、時期が分かりにくくなります。
+          すべてを一度に整理する必要はなく、分かる写真から短いメモを残しておくことが現実的です。
+        </p>
+        <p>
+          ここで作るのは、処分や公開を決めるための記録ではなく、家族内で写真の背景を見返すためのメモです。
+          アルバム名、保管場所、写っている人、親へ聞きたいことを同じ形式にそろえます。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">まず「保管場所」「時期」「人」「次に聞くこと」を分ける</h2>
+        <p>完璧な整理番号を作るより、次に見た家族が同じ写真を探せる手がかりを優先します。</p>
+        <ul className="list-disc list-inside space-y-2 text-sm text-muted">
+          <li>保管場所: アルバム名、写真箱、押し入れ、棚など</li>
+          <li>時期: 分かる年、年代、季節、行事名など</li>
+          <li>写っている人: 確認済みの名前、呼び名、不明な人</li>
+          <li>場所: 実家前、旅行先、学校、職場、親族宅など</li>
+          <li>データ化状況: 未着手、撮影済み、家族へ共有済みなど</li>
+          <li>次に聞きたいこと: 親へ確認したい人物名、場所、出来事</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">公開・処分・権利の判断はメモで決めない</h2>
+        <p>
+          写真の処分、SNSや外部サービスへの公開、クラウド保存、著作権や肖像に関わる判断は、このメモだけで決めません。
+          家族で共有する範囲を確認し、必要な場合は公式案内や専門窓口で確認してください。
+        </p>
+        <p>
+          メモには「未確認のこと」と「次に確認する先」を残す程度にして、判断が必要な内容を結論として書き込まないようにします。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">個人情報と秘密情報は書きすぎない</h2>
+        <p>
+          写真には住所、学校名、職場名、親族名などの個人情報につながる手がかりが含まれることがあります。
+          共有先は家族内に絞り、住所や連絡先は必要最小限にします。
+          パスワード、暗証番号、ログイン情報、口座番号、カード番号、マイナンバーなどの秘密情報は記録しないでください。
+        </p>
+      </section>
+
+      <KaigoActionBox
+        toolHref="https://net-toolbox.jp/tools/kaigo-parent-photo-album-organization-memo?utm_source=toshi-navi&utm_medium=guide&utm_campaign=parent_photo_album_organization"
+        toolLabel="写真・アルバム整理メモを作る"
+        boothHref="https://kaigo-okane.booth.pm/items/8383061"
+        boothLabel="写真・アルバム整理メモテンプレートを見る"
+      >
+        <p>
+          まず無料ツールで、アルバム名、写っている人、時期、場所、データ化状況を短くそろえます。継続して残す段階では、BOOTHのテンプレートへ転記しておくと、写真ごとの確認状況や次に聞きたいことを整理しやすくなります。
+        </p>
+      </KaigoActionBox>
+    </>
+  ),
   "parent-belongings-name-label-carryout-management": (
     <>
       <section>

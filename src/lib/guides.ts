@@ -11,6 +11,16 @@ export interface Guide {
 
 export const guides: Guide[] = [
   {
+    slug: "parent-photo-album-organization-record",
+    title: "高齢の親の写真・アルバム整理を家族で進める方法",
+    description:
+      "実家の写真やアルバムについて、誰が写っているか、いつ・どこで撮ったか、データ化の進み具合、親へ聞きたいことを家族内で残すコツを解説。",
+    icon: "📷",
+    category: "household",
+    readTime: "8分",
+    publishedAt: "2026-05-31",
+  },
+  {
     slug: "parent-belongings-name-label-carryout-management",
     title: "高齢の親の持ち物・名前つけ・持ち出し管理を家族で整理する方法",
     description:
