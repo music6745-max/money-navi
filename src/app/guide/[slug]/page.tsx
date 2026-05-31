@@ -66,6 +66,24 @@ const supplementalCtas: Record<
     icon: "BOOTH",
     highlight: "テンプレまとめ",
   },
+  "parent-mail-notification-management": {
+    title: "介護のテンプレまとめ（フルパック）で書類・期限のメモもまとめて用意",
+    description:
+      "郵便物・通知の管理だけでなく、連絡先や支払いメモなど家族で共有しやすいテンプレをまとめたセットです。必要なものから使えます。",
+    buttonText: "フルパックをBOOTHで見る",
+    href: "https://kaigo-okane.booth.pm/items/8383441?utm_source=toshi-navi&utm_medium=guide&utm_campaign=parent-mail-notification-management",
+    icon: "BOOTH",
+    highlight: "テンプレまとめ",
+  },
+  "parent-shopping-supplies-replenishment": {
+    title: "介護のテンプレまとめ（フルパック）で買い物・生活メモもまとめて用意",
+    description:
+      "買い物・補充メモに加えて、日々の確認や家族共有で使えるテンプレをまとめたセットです。必要なものから使えます。",
+    buttonText: "フルパックをBOOTHで見る",
+    href: "https://kaigo-okane.booth.pm/items/8383441?utm_source=toshi-navi&utm_medium=guide&utm_campaign=parent-shopping-supplies-replenishment",
+    icon: "BOOTH",
+    highlight: "テンプレまとめ",
+  },
 };
 
 export default async function GuidePage({ params }: GuidePageProps) {
