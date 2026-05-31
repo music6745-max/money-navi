@@ -14,11 +14,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 3
-      - name: Replay previous P66 money apply script
+          fetch-depth: 0
+      - name: Replay original P66 money apply script
         shell: bash
         run: |
           set -euo pipefail
-          git show HEAD~2:.github/workflows/apply-p66-money.yml |
+          git rm -f .github/p66-money-trigger.txt || true
+          git show e0be1881f845dbaab0857c2015cc088937e895ba:.github/workflows/apply-p66-money.yml |
             awk 'found { sub(/^          /, ""); print } /        run: \|/ { found=1 }' > /tmp/apply-p66-money.sh
           bash /tmp/apply-p66-money.sh
