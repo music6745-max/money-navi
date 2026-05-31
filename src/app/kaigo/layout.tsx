@@ -4,6 +4,17 @@ import { TrackedExternalLink } from "@/components/TrackedExternalLink";
 
 const supplementalTemplates = [
   {
+    id: "p62",
+    title: "実家の季節用品・年中行事用品 収納場所控えメモ",
+    description:
+      "正月用品、季節飾り、冬支度、夏支度など、年に数回だけ使うものの収納場所を家族内の控えとして整理できます。",
+    boothUrl:
+      "https://kaigo-okane.booth.pm/items/8383090?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p62",
+    guidePath: "/guide/parent-seasonal-event-supplies-storage-record",
+    toolUrl:
+      "https://net-toolbox.jp/tools/kaigo-parent-seasonal-event-supplies-storage-memo?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p62_tool",
+  },
+  {
     id: "p61",
     title: "実家の部屋寸法・家具配置 控えメモ",
     description:
