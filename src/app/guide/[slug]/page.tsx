@@ -48,6 +48,24 @@ const supplementalCtas: Record<
     icon: "FP",
     highlight: "見直し相談",
   },
+  "parent-checkin-contact-log": {
+    title: "介護のテンプレまとめ（フルパック）で連絡・見守りメモもまとめて用意",
+    description:
+      "定期連絡の記録だけでなく、連絡先や予定、家族共有で使えるテンプレをまとめたセットです。必要なものから使えます。",
+    buttonText: "フルパックをBOOTHで見る",
+    href: "https://kaigo-okane.booth.pm/items/8383441?utm_source=toshi-navi&utm_medium=guide&utm_campaign=parent-checkin-contact-log",
+    icon: "BOOTH",
+    highlight: "テンプレまとめ",
+  },
+  "parent-neighborhood-contact-list": {
+    title: "介護のテンプレまとめ（フルパック）で連絡先メモもまとめて用意",
+    description:
+      "近所・地域の連絡先整理だけでなく、日々の確認や家族共有で使えるテンプレをまとめたセットです。必要なものから使えます。",
+    buttonText: "フルパックをBOOTHで見る",
+    href: "https://kaigo-okane.booth.pm/items/8383441?utm_source=toshi-navi&utm_medium=guide&utm_campaign=parent-neighborhood-contact-list",
+    icon: "BOOTH",
+    highlight: "テンプレまとめ",
+  },
   "parent-outing-transport-plan": {
     title: "介護のテンプレまとめ（フルパック）で外出・手続きのメモをまとめて用意",
     description:
