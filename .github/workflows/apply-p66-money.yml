@@ -3,8 +3,7 @@ name: Apply P66 money source
 on:
   push:
     branches: [master]
-    paths:
-      - ".github/workflows/apply-p66-money.yml"
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -15,11 +14,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 2
+          fetch-depth: 3
       - name: Replay previous P66 money apply script
         shell: bash
         run: |
           set -euo pipefail
-          git show HEAD^:.github/workflows/apply-p66-money.yml |
+          git show HEAD~2:.github/workflows/apply-p66-money.yml |
             awk 'found { sub(/^          /, ""); print } /        run: \|/ { found=1 }' > /tmp/apply-p66-money.sh
           bash /tmp/apply-p66-money.sh
