@@ -48,6 +48,24 @@ const supplementalCtas: Record<
     icon: "FP",
     highlight: "見直し相談",
   },
+  "parent-outing-transport-plan": {
+    title: "介護のテンプレまとめ（フルパック）で外出・手続きのメモをまとめて用意",
+    description:
+      "外出予定や移動手段、連絡先、当日の持ち物など、家族で共有しやすいテンプレをまとめたセットです。必要なものから使えます。",
+    buttonText: "フルパックをBOOTHで見る",
+    href: "https://kaigo-okane.booth.pm/items/8383441?utm_source=toshi-navi&utm_medium=guide&utm_campaign=parent-outing-transport-plan",
+    icon: "BOOTH",
+    highlight: "テンプレまとめ",
+  },
+  "parent-home-garbage-schedule-separation": {
+    title: "介護のテンプレまとめ（フルパック）で生活メモをまとめて用意",
+    description:
+      "ごみ出し曜日・分別の共有や、日々の確認・連絡で使えるテンプレをまとめたセットです。必要なものから使えます。",
+    buttonText: "フルパックをBOOTHで見る",
+    href: "https://kaigo-okane.booth.pm/items/8383441?utm_source=toshi-navi&utm_medium=guide&utm_campaign=parent-home-garbage-schedule-separation",
+    icon: "BOOTH",
+    highlight: "テンプレまとめ",
+  },
 };
 
 export default async function GuidePage({ params }: GuidePageProps) {
