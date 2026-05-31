@@ -1061,7 +1061,7 @@ export const kaigoSituations: KaigoSituation[] = [
     label: "遠距離介護で、情報共有や緊急時対応に不安がある",
     shortLabel: "遠距離介護",
     description: "遠方では情報の散在が最大のリスクです。連絡先、役割、緊急時の判断材料を先に共有します。",
-    productIds: ["p57", "p56", "p55", "p54", "p52", "p105", "p32", "p31", "p30", "p29", "p28", "p27", "p26", "p02", "p03", "p01", "s3", "full-pack", "note-faq"],
+    productIds: ["p58", "p57", "p56", "p55", "p54", "p52", "p105", "p32", "p31", "p30", "p29", "p28", "p27", "p26", "p02", "p03", "p01", "s3", "full-pack", "note-faq"],
     nextActions: [
       "現地対応者、家族連絡係、費用管理係を分けて決める",
       "親の医療、服薬、介護サービス、鍵、近所の連絡先を共有する",
