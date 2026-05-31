@@ -4,10 +4,21 @@ import { TrackedExternalLink } from "@/components/TrackedExternalLink";
 
 const supplementalTemplates = [
   {
+    id: "p61",
+    title: "実家の部屋寸法・家具配置 控えメモ",
+    description:
+      "帰省時に測った部屋寸法、家具の位置、通路、搬入経路を、購入や施工の判断に使わない家族内の控えとして整理できます。",
+    boothUrl:
+      "https://kaigo-okane.booth.pm/items/8383086?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p61",
+    guidePath: "/guide/parent-room-dimensions-furniture-layout-record",
+    toolUrl:
+      "https://net-toolbox.jp/tools/kaigo-parent-room-dimensions-furniture-layout-memo?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p61_tool",
+  },
+  {
     id: "p60",
     title: "高齢親と暮らすペットのお世話控えメモ",
     description:
-      "ごはん・水・散歩・トイレ・用品の置き場所を、家族内の引き継ぎメモとして整理できます。",
+      "ごはん、水、散歩、トイレ、用品の置き場所を、家族内の引き継ぎメモとして整理できます。",
     boothUrl:
       "https://kaigo-okane.booth.pm/items/8383160?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p60",
     guidePath: "/guide/parent-pet-care-routine-record",

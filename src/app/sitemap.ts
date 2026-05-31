@@ -3,11 +3,6 @@ import { tools, siteConfig } from "@/lib/tools";
 import { guides } from "@/lib/guides";
 import { categories } from "@/lib/categories";
 
-/**
- * 🎯 Tier-A（0.95）: 収益化の柱となるランキング／比較ガイド。
- * Search Console が 387検出/9登録 の new-domain状態では、
- * Googleのクロール予算を「金になるページ」に集中させる必要がある。
- */
 const TIER_A_SLUGS = new Set<string>([
   "nisa-broker-ranking-2026",
   "ideco-broker-comparison",
@@ -36,11 +31,6 @@ const TIER_A_SLUGS = new Set<string>([
   "bitcoin-etf-japan-guide",
 ]);
 
-/**
- * Tier-A tools (0.9): tax-calculator 的に、外部からの流入が来ている実績ベースの
- * high-utility ツール。シミュレーターの中でも「税金計算」「手取り計算」「節税」系は
- * 他サイトからの送客も効いて評価されやすい。
- */
 const TIER_A_TOOL_SLUGS = new Set<string>([
   "ideco-tax-saving",
   "nisa-simulator",
@@ -77,8 +67,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const staticRoutes: MetadataRoute.Sitemap = [
     { url: base, lastModified: now, changeFrequency: "weekly", priority: 1 },
     { url: `${base}/kaigo`, lastModified: now, changeFrequency: "weekly", priority: 0.95 },
-    { url: `${base}/guide/parent-pet-care-routine-record`, lastModified: now, changeFrequency: "monthly", priority: 0.5 },
-    { url: `${base}/guide/parent-window-curtain-screen-size-record`, lastModified: now, changeFrequency: "monthly", priority: 0.5 },
+    {
+      url: `${base}/guide/parent-room-dimensions-furniture-layout-record`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.5,
+    },
+    {
+      url: `${base}/guide/parent-pet-care-routine-record`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.5,
+    },
+    {
+      url: `${base}/guide/parent-window-curtain-screen-size-record`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.5,
+    },
     { url: `${base}/guide`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
     { url: `${base}/tools`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
     { url: `${base}/about`, lastModified: now, changeFrequency: "monthly", priority: 0.4 },
@@ -87,24 +93,27 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/terms`, lastModified: now, changeFrequency: "yearly", priority: 0.3 },
     { url: `${base}/contact`, lastModified: now, changeFrequency: "yearly", priority: 0.3 },
   ];
-  // category を 0.85 に昇格（rich化したのでインデックスされる可能性が高まった）
-  const categoryRoutes: MetadataRoute.Sitemap = categories.map((c) => ({
-    url: `${base}/category/${c.slug}`,
+
+  const categoryRoutes: MetadataRoute.Sitemap = categories.map((category) => ({
+    url: `${base}/category/${category.slug}`,
     lastModified: now,
     changeFrequency: "weekly",
     priority: 0.85,
   }));
-  const toolRoutes: MetadataRoute.Sitemap = tools.map((t) => ({
-    url: `${base}/tools/${t.slug}`,
+
+  const toolRoutes: MetadataRoute.Sitemap = tools.map((tool) => ({
+    url: `${base}/tools/${tool.slug}`,
     lastModified: now,
     changeFrequency: "monthly",
-    priority: toolPriority(t.slug),
+    priority: toolPriority(tool.slug),
   }));
-  const guideRoutes: MetadataRoute.Sitemap = guides.map((g) => ({
-    url: `${base}/guide/${g.slug}`,
-    lastModified: new Date(g.publishedAt),
+
+  const guideRoutes: MetadataRoute.Sitemap = guides.map((guide) => ({
+    url: `${base}/guide/${guide.slug}`,
+    lastModified: new Date(guide.publishedAt),
     changeFrequency: "monthly",
-    priority: guidePriority(g.slug),
+    priority: guidePriority(guide.slug),
   }));
+
   return [...staticRoutes, ...categoryRoutes, ...toolRoutes, ...guideRoutes];
 }
