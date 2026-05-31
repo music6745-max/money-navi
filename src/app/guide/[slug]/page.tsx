@@ -21,6 +21,15 @@ const supplementalCtas: Record<
     highlight: string;
   }
 > = {
+  "parent-phone-visitor-record": {
+    title: "介護のテンプレまとめ（フルパック）で電話・来客メモもまとめて用意",
+    description:
+      "電話・来客メモに加えて、連絡先、外出予定、郵便物、買い物、持ち物、家族共有で使いやすいテンプレートをまとめたセットです。必要なものから使えます。",
+    buttonText: "フルパックをBOOTHで見る",
+    href: "https://kaigo-okane.booth.pm/items/8383441?utm_source=toshi-navi&utm_medium=guide&utm_campaign=parent-phone-visitor-record&utm_content=full_pack",
+    icon: "BOOTH",
+    highlight: "テンプレまとめ",
+  },
   "parent-hair-salon-barber-visit-record": {
     title: "介護のテンプレまとめ（フルパック）で生活メモもまとめて用意",
     description:

@@ -2,6 +2,68 @@ import type { ReactNode } from "react";
 import { KaigoActionBox } from "./helpers";
 
 export const guideContentsPart06: Record<string, ReactNode> = {
+  "parent-phone-visitor-record": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">電話や来客の用件は、後で確認すると細部が抜けやすい</h2>
+        <p>
+          高齢の親の家に電話や来客があったとき、その場では覚えているつもりでも、後で家族に共有すると「誰からだったか」「何を頼まれたか」「折り返しが必要か」が曖昧になりがちです。
+          口頭だけで済ませると、同じ確認を何度もしたり、きょうだい間で認識がずれたりします。
+        </p>
+        <p>
+          ここで作るのは、相手を評価したり対応方針を決めたりする記録ではなく、家族内で事実を見返すための電話・来客メモです。
+          日時、相手の呼び名、用件の概要、対応した人、次に確認したいことを同じ形で残します。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">まず「いつ・誰から・どんな用件か」だけを分ける</h2>
+        <p>細かい会話を全文で残すより、次に見る家族が迷わない項目に絞ると続けやすくなります。</p>
+        <ul className="list-disc list-inside space-y-2 text-sm text-muted">
+          <li>日時: 電話や来客があった日、だいたいの時間帯</li>
+          <li>相手: 氏名を細かく書きすぎず、呼び名、関係、会社名や団体名など必要最小限</li>
+          <li>用件: 連絡、確認、案内、訪問予定、配達、集金の有無などの概要</li>
+          <li>対応した人: 親本人、同居家族、近所の人、別居家族など</li>
+          <li>未確認のこと: 折り返し、書類確認、家族内確認、関係先への問い合わせなど</li>
+          <li>家族共有メモ: すでに共有した相手、次に見る人への短い申し送り</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">返答、契約、支払い、手続きの判断はメモで決めない</h2>
+        <p>
+          電話や来客の中には、契約、支払い、行政手続き、介護サービス、医療、法律に関わる話が混ざることがあります。
+          それらはこのメモだけで判断せず、本人と家族で確認し、必要に応じて公式窓口や専門家に相談します。
+        </p>
+        <p>
+          メモには「相手が話した内容」「確認したいこと」「保留したこと」を分けて残し、結論や約束を家族の誰かが勝手に確定したように書かないことが大切です。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">個人情報は必要最小限にし、家族内で管理する</h2>
+        <p>
+          氏名、住所、電話番号、契約番号、本人確認情報、ログイン情報、支払い情報などは、書きすぎるほど管理リスクが上がります。
+          電話・来客メモは家族内で見る前提にし、外部へ転送したり共有リンクで広げたりしない形で扱います。
+        </p>
+        <p>
+          詳しい連絡先や重要書類の場所は、別の正式な保管場所に分け、メモには「確認先あり」「書類は家族で確認」程度にとどめると安全です。
+        </p>
+      </section>
+
+      <KaigoActionBox
+        toolHref="https://net-toolbox.jp/tools/kaigo-parent-phone-visitor-record-memo?utm_source=toshi-navi&utm_medium=guide&utm_campaign=parent_phone_visitor_record"
+        toolLabel="電話・来客メモを作る"
+        boothHref="https://kaigo-okane.booth.pm/items/8383070"
+        boothLabel="電話・来客メモテンプレートを見る"
+      >
+        <p>
+          まず無料ツールで、電話や来客の日時、相手、用件、未確認のことを短く整理できます。
+          継続して残す段階では、BOOTHのテンプレートへ転記しておくと、家族内で同じ形式の記録として見返しやすくなります。
+        </p>
+      </KaigoActionBox>
+    </>
+  ),
   "parent-hair-salon-barber-visit-record": (
     <>
       <section>

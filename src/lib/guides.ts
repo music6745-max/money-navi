@@ -11,6 +11,16 @@ export interface Guide {
 
 export const guides: Guide[] = [
   {
+    slug: "parent-phone-visitor-record",
+    title: "高齢親の電話・来客メモを家族で共有する方法",
+    description:
+      "親にあった電話や来客について、日時、相手の呼び名、用件の概要、対応した人、後で確認したいことを家族内で見返しやすく整理するコツを解説。",
+    icon: "☎️",
+    category: "household",
+    readTime: "8分",
+    publishedAt: "2026-05-31",
+  },
+  {
     slug: "parent-hair-salon-barber-visit-record",
     title: "高齢の親の美容院・理容院の予約と来店記録を家族で共有する方法",
     description:
