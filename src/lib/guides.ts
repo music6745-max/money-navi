@@ -11,6 +11,16 @@ export interface Guide {
 
 export const guides: Guide[] = [
   {
+    slug: "parent-memorial-service-anniversary-schedule-record",
+    title: "実家の法事・年忌予定を家族で書き留める方法",
+    description:
+      "確認済みの法事・年忌予定、命日、過去の法要記録、次に家族で確認したいことを、宗派や作法の判断に踏み込まず家族内メモとして整理するコツを解説。",
+    icon: "🕯️",
+    category: "household",
+    readTime: "8分",
+    publishedAt: "2026-05-31",
+  },
+  {
     slug: "parent-phone-visitor-record",
     title: "高齢親の電話・来客メモを家族で共有する方法",
     description:

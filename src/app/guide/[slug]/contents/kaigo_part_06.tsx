@@ -2,6 +2,68 @@ import type { ReactNode } from "react";
 import { KaigoActionBox } from "./helpers";
 
 export const guideContentsPart06: Record<string, ReactNode> = {
+  "parent-memorial-service-anniversary-schedule-record": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">法事や年忌予定は、家族の記憶だけに頼ると引き継ぎにくい</h2>
+        <p>
+          実家の法事や年忌予定は、親、きょうだい、親族のうち誰か一人が覚えているだけになりがちです。
+          その人が忙しい時期や、帰省・連絡の担当が変わった時に「次はいつか」「誰に確認するか」「前回どうしたか」が分からなくなることがあります。
+        </p>
+        <p>
+          ここで作るのは、宗派や作法を決めるための記録ではなく、家族内で確認済みの予定と過去の記録を見返すためのメモです。
+          命日、年忌予定年、法要を行った日、次に家族で確認することを同じ形で残します。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">まず「確認済み予定」と「未確認」を分ける</h2>
+        <p>予定を計算したり判断したりする前に、すでに家族や関係先で確認したことだけを分けて書くと、あとで見返しやすくなります。</p>
+        <ul className="list-disc list-inside space-y-2 text-sm text-muted">
+          <li>故人ごとの基本情報: 呼び名、命日、家族内での確認メモ</li>
+          <li>年忌予定: 一周忌、三回忌など、確認済みの予定年や確認日</li>
+          <li>過去の法要記録: 実施日、参列者、準備したもの、次回へのメモ</li>
+          <li>年中行事: お盆、お彼岸、命日、墓参りなど、家庭で見返したい予定</li>
+          <li>未確認のこと: 家族、親族、お寺、霊園などへ次に確認すること</li>
+          <li>家族共有メモ: 誰に共有済みか、次に担当する人が見る場所</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">年忌計算、宗派、費用、手続きの判断はメモで決めない</h2>
+        <p>
+          年忌の数え方、日程、宗派や地域の作法、お布施や費用、墓地やお寺の選定・変更、相続や法務に関わることは、このメモだけで決めません。
+          このページやテンプレートは、確認済みの情報を家族内で残すためのものです。
+        </p>
+        <p>
+          判断が必要な内容は「確認先」「確認した日」「まだ決めていないこと」として分けておき、家族や関係先の案内に沿って確認してください。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">個人情報と家族内の事情は必要最小限にする</h2>
+        <p>
+          戒名・法名、親族名、寺院や霊園の連絡先、住所、支払いに関わる情報などは、書きすぎるほど管理が難しくなります。
+          家族内で見る前提にし、外部へ共有リンクで広げたり、秘密情報をまとめたりしない形で扱います。
+        </p>
+        <p>
+          詳しい連絡先や重要書類は正式な保管場所に分け、メモには「家族で確認」「別保管」程度にとどめると安全です。
+        </p>
+      </section>
+
+      <KaigoActionBox
+        toolHref="https://net-toolbox.jp/tools/kaigo-parent-memorial-service-anniversary-schedule-memo?utm_source=toshi-navi&utm_medium=guide&utm_campaign=parent_memorial_service_anniversary_schedule"
+        toolLabel="法事・年忌予定メモを作る"
+        boothHref="https://kaigo-okane.booth.pm/items/8383072"
+        boothLabel="法事・年忌予定 書き留めメモテンプレートを見る"
+      >
+        <p>
+          まず無料ツールで、確認済みの年忌予定、過去の法要記録、家族で次に確認したいことを短く整理できます。
+          継続して残す段階では、BOOTHのテンプレートへ転記しておくと、家族で同じ形式の記録として見返しやすくなります。
+        </p>
+      </KaigoActionBox>
+    </>
+  ),
   "parent-phone-visitor-record": (
     <>
       <section>
