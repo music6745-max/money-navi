@@ -477,6 +477,16 @@ export default function KaigoPage() {
               新着: 通帳・保険確認テンプレート
             </TrackedExternalLink>
             <TrackedExternalLink
+    href="https://kaigo-okane.booth.pm/items/8383076"
+    eventName="booth_click"
+    page="kaigo"
+    position="intro_new_template"
+    itemId="p58"
+    className="block rounded-md border border-primary/30 bg-primary/5 px-3 py-2 text-sm font-bold text-primary hover:border-primary/60"
+  >
+    新着: 定期便・宅配便受け取りメモ
+  </TrackedExternalLink>
+              <TrackedExternalLink
               href="https://kaigo-okane.booth.pm/items/8383072"
               eventName="booth_click"
               page="kaigo"
@@ -587,7 +597,8 @@ export default function KaigoPage() {
             ["kaigo-parent-garden-plants-vegetable-care-memo", "庭・植木・家庭菜園", "庭木・鉢植え・家庭菜園の手入れ予定と家族共有を整理"],
             ["kaigo-parent-memory-family-history-record-memo", "思い出・家族の歴史", "親が話してくれたこと・生い立ち・家族の節目を整理"],
             ["kaigo-parent-mail-notification-management-memo", "郵便物・通知管理", "郵便物・通知を受取日・期限・保管場所で整理して家族で共有"],
-            ["kaigo-parent-clothes-bedding-season-size-memo", "衣類・寝具・サイズ", "衣類・寝具のサイズ・季節・保管場所を家族で共有"],
+            ["kaigo-parent-regular-delivery-package-receipt-memo", "定期便・宅配便", "実家に届くもの、頻度、受け取り方、次に確認することを整理"],
+              ["kaigo-parent-clothes-bedding-season-size-memo", "衣類・寝具・サイズ", "衣類・寝具のサイズ・季節・保管場所を家族で共有"],
             ["kaigo-home-care-consumables-stock-memo", "消耗品 在庫・補充", "介護消耗品の残量・買い物・家族共有を整理"],
             ["kaigo-parent-doctor-pharmacy-medicine-memo", "医療機関・薬局・薬", "かかりつけ医・薬局・薬の名前を共有"],
             ["kaigo-parent-meal-water-weight-record-memo", "食事・水分・体重", "毎日の様子・週まとめ・受診前メモを整理"],

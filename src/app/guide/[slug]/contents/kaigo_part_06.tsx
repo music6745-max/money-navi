@@ -2,6 +2,68 @@ import type { ReactNode } from "react";
 import { KaigoActionBox } from "./helpers";
 
 export const guideContentsPart06: Record<string, ReactNode> = {
+  "parent-regular-delivery-package-receipt-record": (
+  <>
+    <section>
+      <h2 className="text-xl font-bold mb-3">実家に何が届いているかは、口頭だけだと引き継ぎにくい</h2>
+      <p>
+        新聞、牛乳、食材宅配、通販の定期便など、実家に定期的に届くものは、親本人や同居家族だけが何となく覚えている状態になりがちです。
+        帰省や当番交代のタイミングで「これはいつ届くものか」「受け取った後どこに置くか」「次に何を確認するか」が分からなくなることがあります。
+      </p>
+      <p>
+        ここで作るのは、契約変更や解約を決めるための記録ではなく、家族内で確認済みの受け取り状況を見返すためのメモです。
+        品目、頻度、受け取り方、月別予定、次に確認したいことを同じ形で残します。
+      </p>
+    </section>
+
+    <section>
+      <h2 className="text-xl font-bold mb-3">まず「届くもの」と「次に確認すること」を分ける</h2>
+      <p>詳しい契約情報を集めすぎるより、次に見る家族が迷わない項目に絞ると続けやすくなります。</p>
+      <ul className="list-disc list-inside space-y-2 text-sm text-muted">
+        <li>届くもの: 新聞、牛乳、食材宅配、日用品、通販定期便などの呼び名</li>
+        <li>頻度: 毎日、週1回、月1回、不定期などの目安</li>
+        <li>受け取り方: 玄関、郵便受け、手渡し、置き場所など家族で確認済みの内容</li>
+        <li>月別予定: だいたい届く時期、帰省時に確認したい時期</li>
+        <li>保管・置き場所: 届いた後にどこへ置くか、見返す紙をどこに置くか</li>
+        <li>次に確認すること: 家族で確認したい内容、本人に聞くこと、関係先で確認すること</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2 className="text-xl font-bold mb-3">契約変更、解約、支払い、配送設定はメモで決めない</h2>
+      <p>
+        定期便や宅配便には、契約、解約、支払い、配送先、置き配設定、問い合わせ先などの判断が関わる場合があります。
+        このページやテンプレートは、家族内の受け取り状況を整理するためのもので、外部サービスの操作や判断を代行するものではありません。
+      </p>
+      <p>
+        変更が必要そうな内容は「次に確認すること」として分け、本人と家族で確認したうえで、各サービスの公式案内や窓口に沿って進めます。
+      </p>
+    </section>
+
+    <section>
+      <h2 className="text-xl font-bold mb-3">個人情報や支払い情報は必要最小限にする</h2>
+      <p>
+        住所、電話番号、会員番号、注文番号、支払い方法などは、書きすぎるほど管理が難しくなります。
+        家族内で見る前提にし、パスワード、暗証番号、ログイン情報、カード番号、口座番号、本人確認情報はこのメモにまとめない形で扱います。
+      </p>
+      <p>
+        詳しい契約情報や支払い情報は正式な保管場所に分け、メモには「公式案内を確認」「別保管」程度の手がかりだけを残すと安全です。
+      </p>
+    </section>
+
+    <KaigoActionBox
+      toolHref="https://net-toolbox.jp/tools/kaigo-parent-regular-delivery-package-receipt-memo?utm_source=toshi-navi&utm_medium=guide&utm_campaign=parent_regular_delivery_package_receipt"
+      toolLabel="定期便・宅配便受け取りメモを作る"
+      boothHref="https://kaigo-okane.booth.pm/items/8383076"
+      boothLabel="定期便・宅配便受け取りメモテンプレートを見る"
+    >
+      <p>
+        まず無料ツールで、実家に届くもの、頻度、受け取り方、次に確認することを短く整理できます。
+        継続して残す段階では、BOOTHのテンプレートへ転記しておくと、家族で同じ形式の記録として見返しやすくなります。
+      </p>
+    </KaigoActionBox>
+  </>
+),
   "parent-memorial-service-anniversary-schedule-record": (
     <>
       <section>

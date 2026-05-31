@@ -21,6 +21,15 @@ const supplementalCtas: Record<
     highlight: string;
   }
 > = {
+  "parent-regular-delivery-package-receipt-record": {
+  title: "介護のテンプレまとめ（フルパック）で実家管理メモもまとめて用意",
+  description:
+    "定期便・宅配便の受け取りメモに加えて、郵便物、買い物、外出予定、連絡先、持ち物など、家族で共有しやすいテンプレートをまとめたセットです。必要なものから使えます。",
+  buttonText: "フルパックをBOOTHで見る",
+  href: "https://kaigo-okane.booth.pm/items/8383441?utm_source=toshi-navi&utm_medium=guide&utm_campaign=parent-regular-delivery-package-receipt-record&utm_content=full_pack",
+  icon: "BOOTH",
+  highlight: "テンプレまとめ",
+},
   "parent-memorial-service-anniversary-schedule-record": {
     title: "介護のテンプレまとめ（フルパック）で実家管理メモもまとめて用意",
     description:

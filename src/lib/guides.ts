@@ -11,6 +11,16 @@ export interface Guide {
 
 export const guides: Guide[] = [
   {
+  slug: "parent-regular-delivery-package-receipt-record",
+  title: "実家に届く定期便・宅配便の受け取りメモを家族で共有する方法",
+  description:
+    "新聞・牛乳・食材宅配・通販定期便など、実家に定期的に届くものの品目、頻度、受け取り方、月別予定、次に確認したいことを家族内メモとして整理するコツを解説。",
+  icon: "📦",
+  category: "household",
+  readTime: "8分",
+  publishedAt: "2026-05-31",
+},
+  {
     slug: "parent-memorial-service-anniversary-schedule-record",
     title: "実家の法事・年忌予定を家族で書き留める方法",
     description:

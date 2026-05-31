@@ -294,6 +294,17 @@ export const kaigoProducts: KaigoProduct[] = [
     tags: ["法事", "年忌", "法要記録", "実家管理", "家族共有"],
   },
   {
+  id: "p58",
+  type: "single",
+  title: "実家に届く 定期便・宅配便 受け取りメモ テンプレート集",
+  description:
+    "新聞、牛乳、食材宅配、通販定期便など、実家に届くものの品目、頻度、受け取り方、月別予定を家族内で見返しやすくするPDF/Excelセット。",
+  priceLabel: "単品 1,480円",
+  boothUrl: "https://kaigo-okane.booth.pm/items/8383076",
+  noteUrl: "https://note.com/mild_quail6092/n/n0a829d66b754",
+  tags: ["定期便", "宅配便", "受け取りメモ", "実家管理", "家族共有"],
+},
+  {
     id: "p35",
     type: "single",
     title: "親のかかりつけ医・薬局・処方薬情報まとめテンプレート集",
@@ -643,7 +654,7 @@ export const kaigoSituations: KaigoSituation[] = [
     label: "一人暮らしの親の見守り、連絡頻度、緊急時対応に不安がある",
     shortLabel: "見守り体制",
     description: "見守りはサービス契約の前に、連絡頻度、費用、緊急時の動き、家族の担当を分けて整理します。",
-    productIds: ["p103", "p45", "p56", "p48", "p46", "p40", "p37", "p36", "p32", "p31", "p22", "p03", "p02", "starter-set", "care-start-37", "s3", "note-compare"],
+    productIds: ["p103", "p58", "p45", "p56", "p48", "p46", "p40", "p37", "p36", "p32", "p31", "p22", "p03", "p02", "starter-set", "care-start-37", "s3", "note-compare"],
     nextActions: [
       "普段の連絡頻度、電話がつながらない時の順番、訪問できる人を決める",
       "通信費、訪問交通費、配食や見守りサービス費、緊急時の立替を分けて記録する",
@@ -683,7 +694,7 @@ export const kaigoSituations: KaigoSituation[] = [
     label: "きょうだい・親族で分担や連絡の温度差がある",
     shortLabel: "家族で共有",
     description: "感情的な話し合いの前に、事実、役割、費用、連絡ルールを分けて見える化します。",
-    productIds: ["p57", "p56", "p55", "p54", "p52", "p105", "p44", "p42", "p40", "p48", "p38", "p37", "p36", "p32", "p31", "p30", "p29", "p28", "p27", "p26", "p13", "p05", "p104", "p02", "p01", "care-start-37", "s3", "all-87", "note-compare"],
+    productIds: ["p58", "p57", "p56", "p55", "p54", "p52", "p105", "p44", "p42", "p40", "p48", "p38", "p37", "p36", "p32", "p31", "p30", "p29", "p28", "p27", "p26", "p13", "p05", "p104", "p02", "p01", "care-start-37", "s3", "all-87", "note-compare"],
     nextActions: [
       "費用分担と作業分担を別々の表で管理する",
       "病院、ケアマネ、施設との連絡窓口を決める",
@@ -697,7 +708,7 @@ export const kaigoSituations: KaigoSituation[] = [
     shortLabel: "申し送り",
     description:
       "医療やサービスの判断ではなく、日々の様子、決まったこと、次に確認したいことを、家族内で同じ形式で残します。",
-    productIds: ["p56", "p55", "p42", "p44", "p40", "p37", "p36", "p105", "p02", "p03", "care-start-37", "full-pack", "note-faq"],
+    productIds: ["p58", "p56", "p55", "p42", "p44", "p40", "p37", "p36", "p105", "p02", "p03", "care-start-37", "full-pack", "note-faq"],
     nextActions: [
       "申し送りは「事実」「次に確認すること」「連絡が必要なこと」に分けて短く残す",
       "帰省や当番交代の後に、決まったこと・未決のこと・次の担当をまとめる",
@@ -917,7 +928,7 @@ export const kaigoSituations: KaigoSituation[] = [
     shortLabel: "月間予定",
     description:
       "ケアプランや勤務表の代替ではなく、通院、訪問サービス、買い物、見守り連絡、帰省などを家族内で共有し、未定の担当を見える化します。",
-    productIds: ["p57", "p55", "p27", "p37", "p36", "p32", "p30", "p29", "p26", "p25", "p24", "p22", "p105", "p13", "p02", "care-start-37", "full-pack", "note-faq"],
+    productIds: ["p58", "p57", "p55", "p27", "p37", "p36", "p32", "p30", "p29", "p26", "p25", "p24", "p22", "p105", "p13", "p02", "care-start-37", "full-pack", "note-faq"],
     nextActions: [
       "月内の通院、訪問サービス、デイサービス、家族対応日をカレンダーに置く",
       "誰が連絡、付き添い、買い物、見守りを担うかを決定済みと未定で分ける",
