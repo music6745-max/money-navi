@@ -221,6 +221,16 @@ export const kaigoProducts: KaigoProduct[] = [
     tags: ["ごみ出し", "分別", "曜日管理", "実家管理", "家族共有"],
   },
   {
+    id: "p51",
+    type: "single",
+    title: "高齢親の庭・植木・家庭菜園 手入れメモ テンプレート集",
+    description:
+      "実家の庭木、鉢植え、家庭菜園の確認日、手入れ予定、道具の置き場所、次に見ることを家族内で共有しやすい形にそろえるPDF/Excelセット。",
+    priceLabel: "単品 1,480円",
+    boothUrl: "https://kaigo-okane.booth.pm/items/8435874",
+    tags: ["庭", "植木", "家庭菜園", "実家管理", "家族共有"],
+  },
+  {
     id: "p35",
     type: "single",
     title: "親のかかりつけ医・薬局・処方薬情報まとめテンプレート集",
@@ -680,7 +690,7 @@ export const kaigoSituations: KaigoSituation[] = [
     shortLabel: "置き場所マップ",
     description:
       "片付けや廃棄判断の代替ではなく、実家の部屋別・棚段別の置き場所を家族内メモとしてそろえ、帰省時の探し物を減らします。",
-    productIds: ["p40", "p38", "p39", "p37", "p105", "p02", "p03", "care-start-37", "full-pack", "note-faq"],
+    productIds: ["p51", "p40", "p38", "p39", "p37", "p105", "p02", "p03", "care-start-37", "full-pack", "note-faq"],
     nextActions: [
       "台所、リビング、寝室、洗面所、押し入れなど部屋ごとに、よく探す日用品の置き場所を短く書く",
       "棚・引き出しの段など「探す手がかり」だけを残し、秘密情報や設備操作のメモは作らない",
@@ -708,7 +718,7 @@ export const kaigoSituations: KaigoSituation[] = [
     shortLabel: "家事ルーティン",
     description:
       "家事のやり方の判断ではなく、掃除・洗濯・ゴミ出し・片付けなどの日常タスクを、頻度・担当・申し送りメモとしてそろえます。",
-    productIds: ["p40", "p50", "p47", "p38", "p39", "p37", "p105", "p02", "p03", "care-start-37", "full-pack", "note-faq"],
+    productIds: ["p51", "p40", "p50", "p47", "p38", "p39", "p37", "p105", "p02", "p03", "care-start-37", "full-pack", "note-faq"],
     nextActions: [
       "掃除、洗濯、ゴミ出し、片付けなどを「毎日/週1/不定期」に分けて書き出す",
       "家族が入れ替わっても困らないよう、担当者、場所、気をつける点を短くメモする",

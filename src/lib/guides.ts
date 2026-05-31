@@ -11,6 +11,16 @@ export interface Guide {
 
 export const guides: Guide[] = [
   {
+    slug: "parent-garden-plants-vegetable-care",
+    title: "高齢の親の庭・植木・家庭菜園の手入れを家族で共有する方法",
+    description:
+      "庭木、鉢植え、家庭菜園の手入れ予定、確認日、置き場所、次に見ることを家族内でそろえ、帰省や当番交代でも迷わない形にするコツを解説。",
+    icon: "🌿",
+    category: "household",
+    readTime: "8分",
+    publishedAt: "2026-05-31",
+  },
+  {
     slug: "parent-mail-notification-management",
     title: "高齢の親の郵便物・通知を家族で整理する方法",
     description:

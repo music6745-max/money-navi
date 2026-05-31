@@ -48,6 +48,15 @@ const supplementalCtas: Record<
     icon: "FP",
     highlight: "見直し相談",
   },
+  "parent-garden-plants-vegetable-care": {
+    title: "介護のテンプレまとめ（フルパック）で生活メモをまとめて用意",
+    description:
+      "庭・植木・家庭菜園の手入れメモに加えて、連絡先、買い物、郵便物、ごみ出しなど、家族で共有しやすいテンプレをまとめたセットです。必要なものから使えます。",
+    buttonText: "フルパックをBOOTHで見る",
+    href: "https://kaigo-okane.booth.pm/items/8383441?utm_source=toshi-navi&utm_medium=guide&utm_campaign=parent-garden-plants-vegetable-care&utm_content=full_pack",
+    icon: "BOOTH",
+    highlight: "テンプレまとめ",
+  },
   "parent-checkin-contact-log": {
     title: "介護のテンプレまとめ（フルパック）で連絡・見守りメモもまとめて用意",
     description:
