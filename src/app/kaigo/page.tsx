@@ -496,6 +496,16 @@ export default function KaigoPage() {
             >
               新着: 思い出・家族の歴史メモ
             </TrackedExternalLink>
+            <TrackedExternalLink
+              href="https://kaigo-okane.booth.pm/items/8436265"
+              eventName="booth_click"
+              page="kaigo"
+              position="intro_new_template"
+              itemId="p53"
+              className="block rounded-md border border-primary/30 bg-primary/5 px-3 py-2 text-sm font-bold text-primary hover:border-primary/60"
+            >
+              新着: 持ち物・名前つけ管理メモ
+            </TrackedExternalLink>
           </div>
         </div>
       </section>

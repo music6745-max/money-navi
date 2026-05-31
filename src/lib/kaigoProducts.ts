@@ -241,6 +241,16 @@ export const kaigoProducts: KaigoProduct[] = [
     tags: ["思い出", "家族の歴史", "親の記録", "家族共有"],
   },
   {
+    id: "p53",
+    type: "single",
+    title: "高齢親の持ち物 名前つけ・持ち出し管理メモ テンプレート集",
+    description:
+      "親の持ち物への記名状況、場面ごとの持ち出し物、返却確認、似た物の識別メモを家族内で見返しやすくするPDF/Excelセット。",
+    priceLabel: "単品 1,480円",
+    boothUrl: "https://kaigo-okane.booth.pm/items/8436265",
+    tags: ["持ち物管理", "名前つけ", "持ち出し", "家族共有"],
+  },
+  {
     id: "p35",
     type: "single",
     title: "親のかかりつけ医・薬局・処方薬情報まとめテンプレート集",
@@ -714,7 +724,7 @@ export const kaigoSituations: KaigoSituation[] = [
     shortLabel: "衣類・寝具",
     description:
       "処分や買い足しの判断ではなく、衣類・寝具のサイズ、季節、保管場所、予備の有無を家族内メモとしてそろえ、急な準備でも探しやすくします。",
-    productIds: ["p39", "p38", "p37", "p22", "p21", "p02", "care-start-37", "full-pack", "note-faq"],
+    productIds: ["p53", "p39", "p38", "p37", "p22", "p21", "p02", "care-start-37", "full-pack", "note-faq"],
     nextActions: [
       "普段着、外出着、下着・靴下、寝具などに分けて、よく使うものと保管場所を短く書く",
       "サイズ、季節替えのタイミング、予備の有無をメモし、次の確認日を決める",
@@ -823,7 +833,7 @@ export const kaigoSituations: KaigoSituation[] = [
     label: "ショートステイ利用前に、持ち物や施設への申し送りを整理したい",
     shortLabel: "ショートステイ",
     description: "利用可否や医療判断ではなく、持ち物、生活ルーティン、緊急連絡先、施設へ確認したいことを家族内で整理します。",
-    productIds: ["p21", "p37", "p36", "p35", "p34", "p30", "p107", "p20", "p10", "p103", "p02", "p03", "full-pack", "note-faq"],
+    productIds: ["p53", "p21", "p37", "p36", "p35", "p34", "p30", "p107", "p20", "p10", "p103", "p02", "p03", "full-pack", "note-faq"],
     nextActions: [
       "施設の持ち込みルール、送迎時間、薬の扱い、緊急連絡先を事前確認する",
       "日常ルーティン、食事、排泄、睡眠、コミュニケーションの特徴を短くまとめる",
@@ -836,7 +846,7 @@ export const kaigoSituations: KaigoSituation[] = [
     label: "デイサービス利用前に、持ち物や事業所への申し送りを整理したい",
     shortLabel: "デイサービス",
     description: "利用可否や医療判断ではなく、持ち物、送迎、入浴・食事の注意点、緊急連絡先、事業所へ確認したいことを家族内で整理します。",
-    productIds: ["p22", "p37", "p36", "p35", "p34", "p26", "p29", "p27", "p28", "p21", "p107", "p20", "p10", "p103", "p02", "p03", "full-pack", "note-faq"],
+    productIds: ["p53", "p22", "p37", "p36", "p35", "p34", "p26", "p29", "p27", "p28", "p21", "p107", "p20", "p10", "p103", "p02", "p03", "full-pack", "note-faq"],
     nextActions: [
       "事業所の持ち込みルール、送迎時間、薬の扱い、欠席連絡の方法を事前確認する",
       "食事、水分、入浴、排泄、疲れやすい時間、声かけの仕方を短くまとめる",
@@ -970,7 +980,7 @@ export const kaigoSituations: KaigoSituation[] = [
     label: "施設選び、実家整理、入所前後の準備を進めたい",
     shortLabel: "施設選び",
     description: "比較軸をそろえることで、見学後の判断と家族への説明がしやすくなります。",
-    productIds: ["p30", "p21", "p106", "facility-pack", "p38", "p01", "p05", "all-87", "full-pack", "note-compare"],
+    productIds: ["p53", "p30", "p21", "p106", "facility-pack", "p38", "p01", "p05", "all-87", "full-pack", "note-compare"],
     nextActions: [
       "月額費用、初期費用、医療対応、面会、立地を同じ表で比較する",
       "見学時に聞くことと、見学後に確認することを分けて残す",
@@ -984,7 +994,7 @@ export const kaigoSituations: KaigoSituation[] = [
     shortLabel: "入所後の連絡",
     description:
       "施設の公式記録や評価ではなく、面会時の様子、差し入れ・持ち物確認、施設からの連絡、家族共有事項を整理します。",
-    productIds: ["p30", "facility-pack", "p106", "p21", "p105", "p02", "p03", "full-pack", "note-faq"],
+    productIds: ["p53", "p30", "facility-pack", "p106", "p21", "p105", "p02", "p03", "full-pack", "note-faq"],
     nextActions: [
       "面会日、本人の様子、施設から聞いたこと、次回確認したいことを分けて残す",
       "差し入れや持ち物は、施設へ確認した可否や条件も一緒に書く",

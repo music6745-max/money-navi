@@ -11,6 +11,16 @@ export interface Guide {
 
 export const guides: Guide[] = [
   {
+    slug: "parent-belongings-name-label-carryout-management",
+    title: "高齢の親の持ち物・名前つけ・持ち出し管理を家族で整理する方法",
+    description:
+      "施設や外出、一時帰宅で使う親の持ち物について、記名状況、持ち出し、返却確認、識別メモを家族内で見返せる形にそろえるコツを解説。",
+    icon: "🧳",
+    category: "household",
+    readTime: "8分",
+    publishedAt: "2026-05-31",
+  },
+  {
     slug: "parent-memory-family-history-record",
     title: "高齢の親の思い出・家族の歴史を家族で書き留める方法",
     description:

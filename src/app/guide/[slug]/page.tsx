@@ -21,6 +21,15 @@ const supplementalCtas: Record<
     highlight: string;
   }
 > = {
+  "parent-belongings-name-label-carryout-management": {
+    title: "介護のテンプレまとめ（フルパック）で持ち物メモもまとめて用意",
+    description:
+      "持ち物・名前つけ管理に加えて、連絡先、外出予定、郵便物、買い物、ごみ出しなど、家族で共有しやすいテンプレートをまとめたセットです。必要なものから使えます。",
+    buttonText: "フルパックをBOOTHで見る",
+    href: "https://kaigo-okane.booth.pm/items/8383441?utm_source=toshi-navi&utm_medium=guide&utm_campaign=parent-belongings-name-label-carryout-management&utm_content=full_pack",
+    icon: "BOOTH",
+    highlight: "テンプレまとめ",
+  },
   "real-estate-crowdfunding-comparison-2026": {
     title: "少額の不動産投資を相談しながら検討する",
     description:

@@ -2,6 +2,64 @@ import type { ReactNode } from "react";
 import { KaigoActionBox } from "./helpers";
 
 export const guideContentsPart06: Record<string, ReactNode> = {
+  "parent-belongings-name-label-carryout-management": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">親の持ち物は、記名・持ち出し・返却の情報が散らばりやすい</h2>
+        <p>
+          施設に持ち込む衣類や日用品、通院や外出で持っていくものは、家族の誰かがその場で対応して終わりになりがちです。
+          後から見ると、どこまで名前を書いたか、何を持ち出したか、施設や自宅へ戻したかが分かりにくくなります。
+        </p>
+        <p>
+          ここで作るのは、施設ルールや管理方法を決めるためのものではなく、家族内で見返せる持ち物メモです。
+          確認済みの事実を同じ形式で残すと、面会、外出、一時帰宅、入退院準備のときに探しやすくなります。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">まずは「品名」「特徴」「名前つけ状況」を短くそろえる</h2>
+        <p>完璧な台帳を目指すより、次に見た家族が迷わない手がかりを優先します。</p>
+        <ul className="list-disc list-inside space-y-2 text-sm text-muted">
+          <li>品名: 衣類、タオル、コップ、靴、かばんなど</li>
+          <li>特徴: 色、柄、サイズ、目印、似ている物との違い</li>
+          <li>名前つけ状況: 済み / 未確認 / 次回確認、書いた場所</li>
+          <li>置き場所: 自宅、施設、かばん、収納ケースなど分かる範囲</li>
+          <li>持ち出し・返却: いつ、誰が、どこへ持ち出したか、戻したか</li>
+          <li>次に確認すること: 施設へ確認したいこと、家族内で見ること</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">施設やサービスのルールは利用先へ確認する</h2>
+        <p>
+          持ち込み可否、記名方法、洗濯、保管、返却、紛失時の扱いは、施設やサービスごとに異なります。
+          家族メモには「確認した内容」と「未確認のこと」を分けて残し、判断が必要な点は利用先の案内や担当窓口へ確認してください。
+        </p>
+        <p>
+          医療、契約、費用負担、施設との交渉、紛失時の対応判断は、このページやメモでは扱いません。
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-xl font-bold mb-3">個人情報と秘密情報は書きすぎない</h2>
+        <p>
+          持ち物メモには氏名や施設名などが含まれることがあります。共有先は家族内に絞り、外部へ転送しない前提で扱います。
+          パスワード、暗証番号、ログイン情報、口座番号、カード番号、マイナンバーなどの秘密情報は記録しないでください。
+        </p>
+      </section>
+
+      <KaigoActionBox
+        toolHref="https://net-toolbox.jp/tools/kaigo-parent-belongings-name-label-carryout-memo?utm_source=toshi-navi&utm_medium=guide&utm_campaign=parent_belongings_name_label_carryout"
+        toolLabel="持ち物・名前つけ管理メモを作る"
+        boothHref="https://kaigo-okane.booth.pm/items/8436265"
+        boothLabel="持ち物 名前つけ・持ち出し管理メモテンプレートを見る"
+      >
+        <p>
+          まず無料ツールで、品名、特徴、記名状況、持ち出し・返却確認を短くそろえます。継続して見返す段階では、BOOTHのテンプレートへ転記しておくと、面会や一時帰宅のたびに確認しやすくなります。
+        </p>
+      </KaigoActionBox>
+    </>
+  ),
   "parent-memory-family-history-record": (
     <>
       <section>
