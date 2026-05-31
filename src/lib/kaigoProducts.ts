@@ -294,16 +294,27 @@ export const kaigoProducts: KaigoProduct[] = [
     tags: ["法事", "年忌", "法要記録", "実家管理", "家族共有"],
   },
   {
-  id: "p58",
-  type: "single",
-  title: "実家に届く 定期便・宅配便 受け取りメモ テンプレート集",
-  description:
-    "新聞、牛乳、食材宅配、通販定期便など、実家に届くものの品目、頻度、受け取り方、月別予定を家族内で見返しやすくするPDF/Excelセット。",
-  priceLabel: "単品 1,480円",
-  boothUrl: "https://kaigo-okane.booth.pm/items/8383076",
-  noteUrl: "https://note.com/mild_quail6092/n/n0a829d66b754",
-  tags: ["定期便", "宅配便", "受け取りメモ", "実家管理", "家族共有"],
-},
+    id: "p58",
+    type: "single",
+    title: "実家に届く 定期便・宅配便 受け取りメモ テンプレート集",
+    description:
+      "新聞、牛乳、食材宅配、通販定期便など、実家に届くものの品目、頻度、受け取り方、月別予定を家族内で見返しやすくするPDF/Excelセット。",
+    priceLabel: "単品 1,480円",
+    boothUrl: "https://kaigo-okane.booth.pm/items/8383076",
+    noteUrl: "https://note.com/mild_quail6092/n/n0a829d66b754",
+    tags: ["定期便", "宅配便", "受け取りメモ", "実家管理", "家族共有"],
+  },
+  {
+    id: "p64",
+    type: "single",
+    title: "高齢親が話す口癖・言い回しメモ テンプレート集",
+    description:
+      "親がよく使う言葉、地域の言い回し、物や行動の呼び方、あいさつ代わりの決まり文句を、家族内で見返す控えとして残すPDF/Excelセット。",
+    priceLabel: "単品 1,480円",
+    boothUrl: "https://kaigo-okane.booth.pm/items/8383178",
+    noteUrl: "https://note.com/mild_quail6092/n/n748d0dd9a6e9",
+    tags: ["口癖", "言い回し", "家族の記録", "家族共有"],
+  },
   {
     id: "p35",
     type: "single",
@@ -694,7 +705,7 @@ export const kaigoSituations: KaigoSituation[] = [
     label: "きょうだい・親族で分担や連絡の温度差がある",
     shortLabel: "家族で共有",
     description: "感情的な話し合いの前に、事実、役割、費用、連絡ルールを分けて見える化します。",
-    productIds: ["p58", "p57", "p56", "p55", "p54", "p52", "p105", "p44", "p42", "p40", "p48", "p38", "p37", "p36", "p32", "p31", "p30", "p29", "p28", "p27", "p26", "p13", "p05", "p104", "p02", "p01", "care-start-37", "s3", "all-87", "note-compare"],
+    productIds: ["p64", "p58", "p57", "p56", "p55", "p54", "p52", "p105", "p44", "p42", "p40", "p48", "p38", "p37", "p36", "p32", "p31", "p30", "p29", "p28", "p27", "p26", "p13", "p05", "p104", "p02", "p01", "care-start-37", "s3", "all-87", "note-compare"],
     nextActions: [
       "費用分担と作業分担を別々の表で管理する",
       "病院、ケアマネ、施設との連絡窓口を決める",

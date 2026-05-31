@@ -4,6 +4,17 @@ import { TrackedExternalLink } from "@/components/TrackedExternalLink";
 
 const supplementalTemplates = [
   {
+    id: "p64",
+    title: "高齢親が話す口癖・言い回しメモ",
+    description:
+      "親がよく使う言葉、地域の言い回し、物や行動の呼び方を、辞書や判断ではなく家族内で見返す控えとして残せます。",
+    boothUrl:
+      "https://kaigo-okane.booth.pm/items/8383178?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p64",
+    guidePath: "/guide/parent-speech-habit-phrases-record",
+    toolUrl:
+      "https://net-toolbox.jp/tools/kaigo-parent-speech-habit-phrases-memo?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p64_tool",
+  },
+  {
     id: "p63",
     title: "高齢親のよく行く店・生活圏メモ",
     description:
