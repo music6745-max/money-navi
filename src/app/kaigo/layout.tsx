@@ -4,6 +4,17 @@ import { TrackedExternalLink } from "@/components/TrackedExternalLink";
 
 const supplementalTemplates = [
   {
+    id: "p71",
+    title: "高齢親の家の飾りもの・置きもの・季節飾りメモ",
+    description:
+      "親が家のなかで日常や季節の節目に飾ってきた飾りもの、置きもの、季節飾りを、鑑定や処分の判断に使わず家族内の軽い控えとして整理します。",
+    boothUrl:
+      "https://kaigo-okane.booth.pm/items/8383373?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p71",
+    guidePath: "/guide/parent-home-decoration-seasonal-ornament-record",
+    toolUrl:
+      "https://net-toolbox.jp/tools/kaigo-parent-home-decoration-seasonal-ornament-memo?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p71_tool",
+  },
+  {
     id: "p70",
     title: "高齢親の家族向け書き置き・付箋・伝言メモ",
     description:
