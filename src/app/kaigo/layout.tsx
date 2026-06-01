@@ -13,6 +13,17 @@ type SupplementalTemplate = {
 
 const supplementalTemplates: SupplementalTemplate[] = [
   {
+    id: "p81",
+    title: "高齢親の家の鏡まわりメモ",
+    description:
+      "姿見、洗面鏡、鏡台の鏡、小さな壁掛け鏡など、親の家で家族が長年見てきた鏡の呼び方、場所、見てきた場面、親が話してくれた由来を、美容や健康観察、修理や処分の判断に使わず家族内の控えとして整理します。",
+    boothUrl:
+      "https://kaigo-okane.booth.pm/items/8383419?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p81",
+    guidePath: "/guide/parent-home-family-mirror-record",
+    toolUrl:
+      "https://net-toolbox.jp/tools/kaigo-parent-home-family-mirror-memo?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p81_tool",
+  },
+  {
     id: "p80",
     title: "高齢親の家の時計まわりメモ",
     description:
