@@ -1,0 +1,273 @@
+name: Codex P84 Money Patch
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - ".github/workflows/codex-p84-money.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Apply P84 money source changes
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+
+          guide_path = Path("src/app/guide/parent-home-family-lighting-lamp-record/page.tsx")
+          guide_path.parent.mkdir(parents=True, exist_ok=True)
+          guide_path.write_text(r'''import type { Metadata } from "next";
+          import Link from "next/link";
+          import { ArticleJsonLd, BreadcrumbJsonLd, FAQJsonLd } from "@/components/JsonLd";
+          import { TrackedExternalLink } from "@/components/TrackedExternalLink";
+          import { siteConfig } from "@/lib/tools";
+
+          const slug = "parent-home-family-lighting-lamp-record";
+          const title = "高齢親の家のあかり・照明器具まわりメモ";
+          const description =
+            "茶の間のあかり、台所や玄関の照明、枕元の電気スタンド、ランプシェードなど、親の家で家族が長年見てきたあかりまわりの呼び方、置かれていた部屋、親が話してくれたことを、電気作業や安全判断ではなく家族内の記録として整理するためのメモです。";
+          const url = siteConfig.url + "/guide/" + slug;
+          const boothUrl =
+            "https://kaigo-okane.booth.pm/items/8383429?utm_source=toshi-navi&utm_medium=guide&utm_campaign=parent-home-family-lighting-lamp-record&utm_content=single_template";
+          const noteUrl = "https://note.com/mild_quail6092/n/nab1359455387";
+          const toolUrl =
+            "https://net-toolbox.jp/tools/kaigo-parent-home-family-lighting-lamp-memo?utm_source=toshi-navi&utm_medium=guide&utm_campaign=parent_home_family_lighting_lamp";
+          const setUrl =
+            "https://kaigo-okane.booth.pm/items/8383430?utm_source=toshi-navi&utm_medium=guide&utm_campaign=parent-home-family-lighting-lamp-record&utm_content=starter_pack";
+          const fullPackUrl =
+            "https://kaigo-okane.booth.pm/items/8383441?utm_source=toshi-navi&utm_medium=guide&utm_campaign=parent-home-family-lighting-lamp-record&utm_content=full_pack";
+
+          const faqItems = [
+            {
+              question: "あかり・照明器具まわりメモには何を書きますか？",
+              answer:
+                "家族内で通じる呼び方、置かれていた部屋や場所、見た目、親が話してくれた由来、次に写真で残したいことを書きます。配線、型番、電球交換、修理、安全判断、個人情報は書かない前提です。",
+            },
+            {
+              question: "電気工事や修理の確認にも使えますか？",
+              answer:
+                "使いません。このメモは、あかりまわりを物として見返すための家族内記録です。電気工事、配線、コンセント、ブレーカー、修理、買い替え、安全判断は専門の確認や別の手順に分けてください。",
+            },
+            {
+              question: "写真整理の前に使えますか？",
+              answer:
+                "使えます。帰省時にどのあかりを撮るか、誰に呼び方を聞くか、写真とは別に残したい親の言葉をそろえるための下書きとして使えます。",
+            },
+          ];
+
+          export const metadata: Metadata = {
+            title: title + " | " + siteConfig.name,
+            description,
+            alternates: { canonical: url },
+            openGraph: {
+              title,
+              description,
+              url,
+              type: "article",
+              publishedTime: "2026-06-02",
+            },
+          };
+
+          export default function ParentHomeFamilyLightingLampRecordPage() {
+            return (
+              <main className="mx-auto max-w-3xl px-4 py-10">
+                <ArticleJsonLd
+                  headline={title}
+                  description={description}
+                  url={url}
+                  datePublished="2026-06-02"
+                  dateModified="2026-06-02"
+                />
+                <BreadcrumbJsonLd
+                  items={[
+                    { name: "ホーム", url: siteConfig.url },
+                    { name: "ガイド", url: siteConfig.url + "/guide" },
+                    { name: title, url },
+                  ]}
+                />
+                <FAQJsonLd items={faqItems} />
+
+                <nav className="mb-6 text-sm text-muted">
+                  <Link href="/" className="hover:text-primary">
+                    ホーム
+                  </Link>
+                  <span className="mx-2">/</span>
+                  <Link href="/guide" className="hover:text-primary">
+                    ガイド
+                  </Link>
+                  <span className="mx-2">/</span>
+                  <span>{title}</span>
+                </nav>
+
+                <header className="mb-8">
+                  <div className="mb-3 flex flex-wrap items-center gap-2 text-xs text-muted">
+                    <span className="rounded-full bg-primary/10 px-2 py-1 text-primary">家族内のあかりメモ</span>
+                    <span>公開 2026-06-02</span>
+                    <span>確認 2026-06-02</span>
+                  </div>
+                  <h1 className="mb-4 text-2xl font-bold leading-tight sm:text-3xl">{title}</h1>
+                  <p className="leading-7 text-muted">{description}</p>
+                </header>
+
+                <section className="mb-8 rounded-xl border border-primary/20 bg-primary/5 p-5">
+                  <h2 className="mb-3 text-lg font-bold">無料メモで、あかりの呼び方と置き場所をそろえる</h2>
+                  <p className="mb-4 text-sm leading-7 text-muted">
+                    あかりや照明器具は、家具や写真よりも記録から抜けやすいものです。
+                    無料メモでは、呼び方、置かれていた部屋、見た目、親が話してくれたこと、次に写真で残したいことだけを整理できます。
+                  </p>
+                  <div className="flex flex-wrap gap-3">
+                    <a
+                      href={toolUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="rounded-md bg-primary px-4 py-2 text-sm font-bold text-white hover:opacity-90"
+                    >
+                      無料メモを作る
+                    </a>
+                    <TrackedExternalLink
+                      href={boothUrl}
+                      eventName="booth_click"
+                      page={slug}
+                      position="hero_single_template"
+                      itemId="p84"
+                      className="rounded-md border border-primary/30 px-4 py-2 text-sm font-bold text-primary hover:border-primary"
+                    >
+                      BOOTHテンプレートを見る
+                    </TrackedExternalLink>
+                  </div>
+                </section>
+
+                <section className="mb-8 space-y-4">
+                  <h2 className="text-xl font-bold">電気作業ではなく、見てきた物の記録に絞る</h2>
+                  <p>
+                    P84で扱うのは、茶の間の丸いあかり、台所の白い笠、玄関の照明、枕元の電気スタンド、
+                    ランプシェードなど、親の家で家族が長年見てきたあかりまわりです。
+                    配線や器具の状態を点検したり、修理や買い替えを決めたりするページではありません。
+                  </p>
+                  <p>
+                    「茶の間の丸いあかり」「台所の白い笠」「父が読書に使っていた電気スタンド」のように、
+                    家族内で通じる呼び方と場面を残しておくと、写真整理や親族との会話で見返しやすくなります。
+                  </p>
+                </section>
+
+                <section className="mb-8 space-y-4">
+                  <h2 className="text-xl font-bold">安全判断、健康観察、処分判断は別に分ける</h2>
+                  <p>
+                    あかりまわりには、配線、コンセント、ブレーカー、電球交換、明るさ、修理、買い替えなど、
+                    家族内メモとは別に扱うべき確認が混ざりやすくなります。このメモでは、そうした判断は記入しません。
+                  </p>
+                  <p>
+                    睡眠、見守り、夜間転倒、健康状態、認知機能の観察にも使いません。
+                    認証情報、決済情報、住所、連絡先、医療情報、重要書類の内容も書かず、家族で見返せる思い出と呼び方だけに絞ります。
+                  </p>
+                </section>
+
+                <section className="mb-8 rounded-xl border border-card-border bg-card-bg p-5">
+                  <h2 className="mb-3 text-lg font-bold">テンプレートと関連導線</h2>
+                  <p className="mb-4 text-sm leading-7 text-muted">
+                    BOOTH版では、茶の間・居間、台所・廊下・玄関、寝室・枕元のあかりを、PDFとExcelで家族内の控えとして整理できます。
+                    noteには、実家のあかりを電気作業ではなく物の記憶として残すための案内を置いています。
+                  </p>
+                  <div className="flex flex-wrap gap-3">
+                    <TrackedExternalLink
+                      href={boothUrl}
+                      eventName="booth_click"
+                      page={slug}
+                      position="bottom_single_template"
+                      itemId="p84"
+                      className="rounded-md bg-primary px-4 py-2 text-sm font-bold text-white hover:opacity-90"
+                    >
+                      P84単品を見る
+                    </TrackedExternalLink>
+                    <TrackedExternalLink
+                      href={setUrl}
+                      eventName="booth_click"
+                      page={slug}
+                      position="bottom_starter_pack"
+                      itemId="s84"
+                      className="rounded-md border border-primary/30 px-4 py-2 text-sm font-bold text-primary hover:border-primary"
+                    >
+                      S84まとめセットを見る
+                    </TrackedExternalLink>
+                    <a
+                      href={noteUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="rounded-md border border-primary/30 px-4 py-2 text-sm font-bold text-primary hover:border-primary"
+                    >
+                      noteの案内を見る
+                    </a>
+                    <TrackedExternalLink
+                      href={fullPackUrl}
+                      eventName="booth_click"
+                      page={slug}
+                      position="bottom_full_pack"
+                      itemId="full_pack"
+                      className="rounded-md border border-primary/30 px-4 py-2 text-sm font-bold text-primary hover:border-primary"
+                    >
+                      フルパックを見る
+                    </TrackedExternalLink>
+                  </div>
+                </section>
+
+                <section className="rounded-xl border border-card-border bg-card-bg p-5">
+                  <h2 className="mb-4 text-lg font-bold">よくある質問</h2>
+                  <div className="space-y-4">
+                    {faqItems.map((faq) => (
+                      <div key={faq.question}>
+                        <h3 className="font-bold">Q. {faq.question}</h3>
+                        <p className="mt-1 text-sm leading-7 text-muted">A. {faq.answer}</p>
+                      </div>
+                    ))}
+                  </div>
+                </section>
+              </main>
+            );
+          }
+          ''', encoding="utf-8")
+
+          layout_path = Path("src/app/kaigo/layout.tsx")
+          layout = layout_path.read_text(encoding="utf-8")
+          layout_snippet = '''  {
+            id: "p84",
+            title: "高齢親の家のあかり・照明器具まわりメモ",
+            description:
+              "茶の間のあかり、台所や玄関の照明、枕元の電気スタンド、ランプシェードなど、親の家で家族が長年見てきたあかりまわりの呼び方、置かれていた部屋、親が話してくれたことを、電気作業や安全判断ではなく家族内の記録として整理します。",
+            boothUrl:
+              "https://kaigo-okane.booth.pm/items/8383429?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p84",
+            guidePath: "/guide/parent-home-family-lighting-lamp-record",
+            toolUrl:
+              "https://net-toolbox.jp/tools/kaigo-parent-home-family-lighting-lamp-memo?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p84_tool",
+          },
+          '''
+          if 'id: "p84"' not in layout:
+            layout = layout.replace("const supplementalTemplates: SupplementalTemplate[] = [\n", "const supplementalTemplates: SupplementalTemplate[] = [\n" + layout_snippet)
+            layout_path.write_text(layout, encoding="utf-8")
+
+          sitemap_path = Path("src/app/sitemap.ts")
+          sitemap = sitemap_path.read_text(encoding="utf-8")
+          sitemap_snippet = '''    {
+                url: `${base}/guide/parent-home-family-lighting-lamp-record`,
+                lastModified: now,
+                changeFrequency: "monthly",
+                priority: 0.5,
+              },
+          '''
+          if "parent-home-family-lighting-lamp-record" not in sitemap:
+            anchor = '    { url: `${base}/kaigo`, lastModified: now, changeFrequency: "weekly", priority: 0.95 },\n'
+            sitemap = sitemap.replace(anchor, anchor + sitemap_snippet)
+            sitemap_path.write_text(sitemap, encoding="utf-8")
+          PY
+          rm -f .github/workflows/codex-p84-money.yml
+          git config user.name "codex-automation"
+          git config user.email "codex-automation@example.com"
+          git add src/app/guide/parent-home-family-lighting-lamp-record/page.tsx src/app/kaigo/layout.tsx src/app/sitemap.ts .github/workflows/codex-p84-money.yml
+          git commit -m "feat: add P84 lighting guide links"
+          git push origin HEAD:master
