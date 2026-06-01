@@ -4,6 +4,17 @@ import { TrackedExternalLink } from "@/components/TrackedExternalLink";
 
 const supplementalTemplates = [
   {
+    id: "p76",
+    title: "高齢親の家の手ぬぐい・タオル・前掛け・布巾メモ",
+    description:
+      "手ぬぐい、タオル、前掛け、かっぽう着、布巾など、親の家で日々使ってきた洗える布ものを、処分や価値判断に使わず家族内の軽い控えとして整理します。",
+    boothUrl:
+      "https://kaigo-okane.booth.pm/items/8383392?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p76",
+    guidePath: "/guide/parent-home-daily-cloth-items-record",
+    toolUrl:
+      "https://net-toolbox.jp/tools/kaigo-parent-home-daily-cloth-items-memo?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p76_tool",
+  },
+  {
     id: "p75",
     title: "高齢親の家の台所道具・台所小物メモ",
     description:
