@@ -13,16 +13,16 @@ type SupplementalTemplate = {
 
 const supplementalTemplates: SupplementalTemplate[] = [
   {
-  id: "p84",
-  title: "高齢親の家のあかり・照明器具まわりメモ",
-  description:
-    "茶の間のあかり、台所や玄関の照明、枕元の電気スタンド、ランプシェードなど、親の家で家族が長年見てきたあかりまわりの呼び方、置かれていた部屋、親が話してくれたことを、電気作業や安全判断ではなく家族内の記録として整理します。",
-  boothUrl:
-    "https://kaigo-okane.booth.pm/items/8383429?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p84",
-  guidePath: "/guide/parent-home-family-lighting-lamp-record",
-  toolUrl:
-    "https://net-toolbox.jp/tools/kaigo-parent-home-family-lighting-lamp-memo?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p84_tool",
-},
+    id: "p84",
+    title: "高齢親の家のあかり・照明器具まわりメモ",
+    description:
+      "茶の間のあかり、台所や玄関の照明、枕元の電気スタンド、ランプシェードなど、親の家で家族が長年見てきたあかりまわりの呼び方、置かれていた部屋、親が話してくれたことを、電気作業や安全判断ではなく家族内の記録として整理します。",
+    boothUrl:
+      "https://kaigo-okane.booth.pm/items/8383429?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p84",
+    guidePath: "/guide/parent-home-family-lighting-lamp-record",
+    toolUrl:
+      "https://net-toolbox.jp/tools/kaigo-parent-home-family-lighting-lamp-memo?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p84_tool",
+  },
   {
     id: "p83",
     title: "高齢親の家の小箱・入れ物まわりメモ",
