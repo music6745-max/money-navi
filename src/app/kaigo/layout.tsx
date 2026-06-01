@@ -13,6 +13,17 @@ type SupplementalTemplate = {
 
 const supplementalTemplates: SupplementalTemplate[] = [
   {
+    id: "p86",
+    title: "高齢親の家の裁縫箱・糸・ボタン・針山まわりメモ",
+    description:
+      "茶の間や机、棚に長年置かれていた裁縫箱、糸箱、ボタン缶、針山、裁ちばさみ入れなどを、針の使い方、安全管理、裁縫手順、処分判断とは切り分け、家族内で見返す控えとして整理します。",
+    boothUrl:
+      "https://kaigo-okane.booth.pm/items/8383434?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p86",
+    guidePath: "/guide/parent-home-family-sewing-box-thread-buttons-record",
+    toolUrl:
+      "https://net-toolbox.jp/tools/kaigo-parent-home-family-sewing-box-thread-buttons-memo?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p86_tool",
+  },
+  {
     id: "p85",
     title: "高齢親の家の文房具・ペン立て・鉛筆削りまわりメモ",
     description:
