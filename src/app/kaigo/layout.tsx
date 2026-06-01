@@ -13,6 +13,17 @@ type SupplementalTemplate = {
 
 const supplementalTemplates: SupplementalTemplate[] = [
   {
+    id: "p79",
+    title: "高齢親の家の障子・襖・引き戸・畳まわりメモ",
+    description:
+      "障子、襖、板戸、引き戸、縁側、床の間、押し入れ、畳、板の間など、親の家で家族が長年触れてきた場所の呼び方・場面・由来を、修理や改修の判断に使わず家族内の控えとして整理します。",
+    boothUrl:
+      "https://kaigo-okane.booth.pm/items/8383411?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p79",
+    guidePath: "/guide/parent-home-family-doors-sliding-screens-record",
+    toolUrl:
+      "https://net-toolbox.jp/tools/kaigo-parent-home-family-doors-sliding-screens-memo?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p79_tool",
+  },
+  {
     id: "p78",
     title: "高齢親の家の大型家具メモ",
     description:
