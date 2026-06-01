@@ -4,6 +4,17 @@ import { TrackedExternalLink } from "@/components/TrackedExternalLink";
 
 const supplementalTemplates = [
   {
+    id: "p74",
+    title: "高齢親の家族別 茶碗・湯のみ・食卓の取り合わせメモ",
+    description:
+      "茶碗、湯のみ、お椀、取り皿、お盆など、家族が長年見てきた食卓の取り合わせを、鑑定や処分判断に使わず家族内の軽い覚え書きとして整理します。",
+    boothUrl:
+      "https://kaigo-okane.booth.pm/items/8383386?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p74",
+    guidePath: "/guide/parent-home-family-tableware-combination-record",
+    toolUrl:
+      "https://net-toolbox.jp/tools/kaigo-parent-home-family-tableware-combination-memo?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p74_tool",
+  },
+  {
     id: "p73",
     title: "高齢親の家の場所・部屋・家具の家族内呼び名メモ",
     description:
