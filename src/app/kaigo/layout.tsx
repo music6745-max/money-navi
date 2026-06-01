@@ -4,6 +4,17 @@ import { TrackedExternalLink } from "@/components/TrackedExternalLink";
 
 const supplementalTemplates = [
   {
+    id: "p77",
+    title: "高齢親の家の鉢植え・庭の花・盆栽メモ",
+    description:
+      "家のなか、縁側、庭先で家族が長年見てきた鉢植え、植木、庭の花、盆栽、観葉植物を、手入れや処分の判断に使わず家族内の軽い控えとして整理します。",
+    boothUrl:
+      "https://kaigo-okane.booth.pm/items/8383400?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p77",
+    guidePath: "/guide/parent-home-family-plants-garden-record",
+    toolUrl:
+      "https://net-toolbox.jp/tools/kaigo-parent-home-family-plants-garden-memo?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p77_tool",
+  },
+  {
     id: "p76",
     title: "高齢親の家の手ぬぐい・タオル・前掛け・布巾メモ",
     description:
