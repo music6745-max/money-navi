@@ -1,0 +1,43 @@
+name: Codex P75 money copy fix
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - ".github/workflows/codex-p75-money-copy-fix.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: master
+      - name: Repair P60 hub copy and remove temporary workflow
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          layout = Path("src/app/kaigo/layout.tsx")
+          data = layout.read_bytes()
+          old = "家族内の缕き継ぎメモ".encode("utf-8")
+          new = "家族内の引き継ぎメモ".encode("utf-8")
+          if old not in data and new not in data:
+              raise SystemExit("target P60 hub copy was not found")
+          layout.write_bytes(data.replace(old, new))
+          Path(".github/workflows/codex-p75-money-copy-fix.yml").unlink()
+          PY
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/app/kaigo/layout.tsx .github/workflows/codex-p75-money-copy-fix.yml
+          if git diff --cached --quiet; then
+            echo "No source change needed."
+            exit 0
+          fi
+          git commit -m "fix: repair P60 hub copy"
+          git push origin HEAD:master
