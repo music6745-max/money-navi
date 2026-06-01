@@ -1,0 +1,262 @@
+name: Codex P72 money patch
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - .github/workflows/codex-p72-money.yml
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Apply P72 money-navi changes
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import textwrap
+
+          layout_path = Path('src/app/kaigo/layout.tsx')
+          layout = layout_path.read_text(encoding='utf-8')
+          if 'id: "p72"' not in layout:
+              p72_block = '''const supplementalTemplates = [
+  {
+    id: "p72",
+    title: "高齢親の家のなかの家族のいつもの座る場所・ふだん過ごす場所メモ",
+    description:
+      "食卓、茶の間、縁側、窓際など、家族がいつも座っていた場所・ふだん過ごしていた場所を、席次や健康状態の判断に使わず家族内の軽い控えとして整理します。",
+    boothUrl:
+      "https://kaigo-okane.booth.pm/items/8383377?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p72",
+    guidePath: "/guide/parent-home-family-sitting-place-record",
+    toolUrl:
+      "https://net-toolbox.jp/tools/kaigo-parent-home-family-sitting-place-memo?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p72_tool",
+  },'''
+              layout = layout.replace('const supplementalTemplates = [', p72_block, 1)
+              layout_path.write_text(layout, encoding='utf-8', newline='\n')
+
+          sitemap_path = Path('src/app/sitemap.ts')
+          sitemap = sitemap_path.read_text(encoding='utf-8')
+          if 'parent-home-family-sitting-place-record' not in sitemap:
+              marker = '    { url: `${base}/kaigo`, lastModified: now, changeFrequency: "weekly", priority: 0.95 },\n'
+              route = '''    {
+      url: `${base}/guide/parent-home-family-sitting-place-record`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.5,
+    },
+'''
+              sitemap = sitemap.replace(marker, marker + route, 1)
+              sitemap_path.write_text(sitemap, encoding='utf-8', newline='\n')
+
+          guide_path = Path('src/app/guide/parent-home-family-sitting-place-record/page.tsx')
+          guide_path.parent.mkdir(parents=True, exist_ok=True)
+          guide_path.write_text(textwrap.dedent(r'''
+          import type { Metadata } from "next";
+          import Link from "next/link";
+          import { ArticleJsonLd, BreadcrumbJsonLd, FAQJsonLd } from "@/components/JsonLd";
+          import { TrackedExternalLink } from "@/components/TrackedExternalLink";
+          import { siteConfig } from "@/lib/tools";
+
+          const slug = "parent-home-family-sitting-place-record";
+          const title = "高齢親の家のなかの家族のいつもの座る場所を控える方法";
+          const description =
+            "高齢親の家のなかで家族がいつも座っていた場所・ふだん過ごしていた場所を、席次や健康状態の判断に使わず、家族内で見返す軽いメモとして整理する方法を解説します。";
+          const url = siteConfig.url + "/guide/" + slug;
+          const boothUrl =
+            "https://kaigo-okane.booth.pm/items/8383377?utm_source=toshi-navi&utm_medium=guide&utm_campaign=parent-home-family-sitting-place-record&utm_content=single_template";
+          const toolUrl =
+            "https://net-toolbox.jp/tools/kaigo-parent-home-family-sitting-place-memo?utm_source=toshi-navi&utm_medium=guide&utm_campaign=parent_home_family_sitting_place";
+          const fullPackUrl =
+            "https://kaigo-okane.booth.pm/items/8383441?utm_source=toshi-navi&utm_medium=guide&utm_campaign=parent-home-family-sitting-place-record&utm_content=full_pack";
+
+          const faqItems = [
+            {
+              question: "いつもの座る場所・過ごす場所メモには何を書けばよいですか？",
+              answer:
+                "食卓や茶の間でのいつもの席、縁側や窓際などふだん過ごしていた場所、見た日、場面、家族内で思い出すための短いメモを書きます。正確な席次より、家族内で意味が通じる控えを優先します。",
+            },
+            {
+              question: "席次マナーや上座下座の正解判定に使えますか？",
+              answer:
+                "使えません。このメモは家族内で見返す控えで、正しい席順、上座下座、しきたり、マナー、家具配置の良し悪しを判断する用途には使いません。",
+            },
+            {
+              question: "健康状態や認知機能の判断、秘密情報の管理に使えますか？",
+              answer:
+                "使えません。家のなかの場所の使い方から健康状態や認知機能を判断しません。住所、電話番号、口座、カード、契約番号、暗証番号、パスワード、鍵、防犯コードなども書かないでください。",
+            },
+          ];
+
+          export const metadata: Metadata = {
+            title: title + " | " + siteConfig.name,
+            description,
+            alternates: { canonical: url },
+            openGraph: {
+              title,
+              description,
+              url,
+              type: "article",
+              publishedTime: "2026-06-01",
+            },
+          };
+
+          export default function ParentHomeFamilySittingPlaceRecordPage() {
+            return (
+              <main className="mx-auto max-w-3xl px-4 py-10">
+                <ArticleJsonLd
+                  headline={title}
+                  description={description}
+                  url={url}
+                  datePublished="2026-06-01"
+                  dateModified="2026-06-01"
+                />
+                <BreadcrumbJsonLd
+                  items={[
+                    { name: "ホーム", url: siteConfig.url },
+                    { name: "ガイド", url: siteConfig.url + "/guide" },
+                    { name: title, url },
+                  ]}
+                />
+                <FAQJsonLd items={faqItems} />
+
+                <nav className="mb-6 text-sm text-muted">
+                  <Link href="/" className="hover:text-primary">
+                    ホーム
+                  </Link>
+                  <span className="mx-2">/</span>
+                  <Link href="/guide" className="hover:text-primary">
+                    ガイド
+                  </Link>
+                  <span className="mx-2">/</span>
+                  <span>{title}</span>
+                </nav>
+
+                <header className="mb-8">
+                  <div className="mb-3 flex flex-wrap items-center gap-2 text-xs text-muted">
+                    <span className="rounded-full bg-primary/10 px-2 py-1 text-primary">家族の場所メモ</span>
+                    <span>公開: 2026-06-01</span>
+                    <span>確認: 2026-06-01</span>
+                  </div>
+                  <h1 className="mb-4 text-2xl font-bold leading-tight sm:text-3xl">{title}</h1>
+                  <p className="leading-7 text-muted">{description}</p>
+                </header>
+
+                <section className="mb-8 rounded-xl border border-primary/20 bg-primary/5 p-5">
+                  <h2 className="mb-3 text-lg font-bold">まず無料メモで、家族のいつもの場所を思い出せる形にする</h2>
+                  <p className="mb-4 text-sm leading-7 text-muted">
+                    食卓の決まった席、茶の間の座布団、縁側、窓際、テレビの見える場所などは、家族の記憶の入口になります。
+                    きれいに分類するより、あとで家族が「あの場所のことだ」と思い出せる短い控えを残すことが目的です。
+                  </p>
+                  <div className="flex flex-wrap gap-3">
+                    <a
+                      href={toolUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="rounded-md bg-primary px-4 py-2 text-sm font-bold text-white hover:opacity-90"
+                    >
+                      無料メモを作る
+                    </a>
+                    <TrackedExternalLink
+                      href={boothUrl}
+                      eventName="booth_click"
+                      page={slug}
+                      position="hero_single_template"
+                      itemId="p72"
+                      className="rounded-md border border-primary/30 px-4 py-2 text-sm font-bold text-primary hover:border-primary"
+                    >
+                      BOOTHテンプレートを見る
+                    </TrackedExternalLink>
+                  </div>
+                </section>
+
+                <section className="mb-8 space-y-4">
+                  <h2 className="text-xl font-bold">席順の正解ではなく、家族の記憶の手がかりを残す</h2>
+                  <p>
+                    「父は食卓の窓側に座っていた」「母は夕方になると縁側にいた」「兄弟が集まると自然に座る位置が決まっていた」
+                    といった記憶は、写真や部屋の片づけだけでは残りにくい情報です。場所、場面、見た日、誰の記憶かを分けて書くと、
+                    あとで見返した家族が話をつなげやすくなります。
+                  </p>
+                  <p>
+                    このメモでは、上座下座やしきたりの正解を決めません。複数の家族で覚え方が違う場合も、どちらかを正解にせず、
+                    「そう覚えている人がいる」と分かる形で並べておくのが安全です。
+                  </p>
+                </section>
+
+                <section className="mb-8 space-y-4">
+                  <h2 className="text-xl font-bold">健康判断、処分判断、秘密情報の集約には使わない</h2>
+                  <p>
+                    家のなかでどこに座っていたか、どこで過ごしていたかを、健康状態や認知機能の判断材料にはしません。
+                    家具の処分、相続、所有、費用負担、部屋の使い方の最終判断にも使わず、必要な確認は本人や家族で話し合い、
+                    必要に応じて公的窓口や専門家に確認してください。
+                  </p>
+                  <p>
+                    住所、電話番号、口座、カード、契約番号、暗証番号、パスワード、鍵、防犯コードなどは書かないでください。
+                    このメモは、家族内で思い出や引き継ぎを軽く見返すための控えとして使います。
+                  </p>
+                </section>
+
+                <section className="mb-8 rounded-xl border border-card-border bg-card-bg p-5">
+                  <h2 className="mb-3 text-lg font-bold">テンプレートもまとめて用意</h2>
+                  <p className="mb-4 text-sm leading-7 text-muted">
+                    BOOTH版では、場所、場面、家族メンバー、いつもの席、思い出すきっかけ、家族内メモ、書かない情報、次に確認したいことを
+                    PDFとExcelで同じ粒度にそろえられます。ほかの実家まわりの控えメモと一緒に整理したい場合はフルパックも確認できます。
+                  </p>
+                  <div className="flex flex-wrap gap-3">
+                    <TrackedExternalLink
+                      href={boothUrl}
+                      eventName="booth_click"
+                      page={slug}
+                      position="bottom_single_template"
+                      itemId="p72"
+                      className="rounded-md bg-primary px-4 py-2 text-sm font-bold text-white hover:opacity-90"
+                    >
+                      P72単品を見る
+                    </TrackedExternalLink>
+                    <TrackedExternalLink
+                      href={fullPackUrl}
+                      eventName="booth_click"
+                      page={slug}
+                      position="bottom_full_pack"
+                      itemId="full_pack"
+                      className="rounded-md border border-primary/30 px-4 py-2 text-sm font-bold text-primary hover:border-primary"
+                    >
+                      フルパックを見る
+                    </TrackedExternalLink>
+                  </div>
+                </section>
+
+                <section className="rounded-xl border border-card-border bg-card-bg p-5">
+                  <h2 className="mb-4 text-lg font-bold">よくある質問</h2>
+                  <div className="space-y-4">
+                    {faqItems.map((faq) => (
+                      <div key={faq.question}>
+                        <h3 className="font-bold">Q. {faq.question}</h3>
+                        <p className="mt-1 text-sm leading-7 text-muted">A. {faq.answer}</p>
+                      </div>
+                    ))}
+                  </div>
+                </section>
+              </main>
+            );
+          }
+          ''').lstrip(), encoding='utf-8', newline='\n')
+
+          Path('.github/workflows/codex-p72-money.yml').unlink(missing_ok=True)
+          PY
+      - name: Commit P72 money-navi changes
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/app/kaigo/layout.tsx src/app/sitemap.ts src/app/guide/parent-home-family-sitting-place-record/page.tsx .github/workflows/codex-p72-money.yml
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "feat: connect P72 sitting place guide"
+          git push
