@@ -68,6 +68,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: base, lastModified: now, changeFrequency: "weekly", priority: 1 },
     { url: `${base}/kaigo`, lastModified: now, changeFrequency: "weekly", priority: 0.95 },
     {
+      url: `${base}/guide/parent-home-place-furniture-local-name-record`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.5,
+    },
+    {
       url: `${base}/guide/parent-home-family-sitting-place-record`,
       lastModified: now,
       changeFrequency: "monthly",

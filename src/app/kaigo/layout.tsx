@@ -4,6 +4,17 @@ import { TrackedExternalLink } from "@/components/TrackedExternalLink";
 
 const supplementalTemplates = [
   {
+    id: "p73",
+    title: "高齢親の家の場所・部屋・家具の家族内呼び名メモ",
+    description:
+      "「中の間」「茶箪笥のとこ」など、家族だけに通じてきた場所・部屋・家具・コーナーの呼び名を、正式名称や処分判断に使わず家族内の軽い控えとして整理します。",
+    boothUrl:
+      "https://kaigo-okane.booth.pm/items/8383382?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p73",
+    guidePath: "/guide/parent-home-place-furniture-local-name-record",
+    toolUrl:
+      "https://net-toolbox.jp/tools/kaigo-parent-home-place-furniture-local-name-memo?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p73_tool",
+  },
+  {
     id: "p72",
     title: "高齢親の家のなかの家族のいつもの座る場所・ふだん過ごす場所メモ",
     description:
