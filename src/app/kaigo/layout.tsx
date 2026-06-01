@@ -13,6 +13,17 @@ type SupplementalTemplate = {
 
 const supplementalTemplates: SupplementalTemplate[] = [
   {
+    id: "p83",
+    title: "高齢親の家の小箱・入れ物まわりメモ",
+    description:
+      "茶筒、菓子缶、小箱、小さな入れ物など、親の家で家族が長年見てきた小物入れの呼び方、置かれていた場所、親が話してくれたことを、処分や価値判断ではなく家族内の記録として整理します。",
+    boothUrl:
+      "https://kaigo-okane.booth.pm/items/8383425?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p83",
+    guidePath: "/guide/parent-home-family-small-box-container-record",
+    toolUrl:
+      "https://net-toolbox.jp/tools/kaigo-parent-home-family-small-box-container-memo?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p83_tool",
+  },
+  {
     id: "p82",
     title: "高齢親の家の玄関まわりメモ",
     description:
