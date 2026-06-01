@@ -1,0 +1,65 @@
+name: Codex P83 Money Patch
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: master
+      - name: Apply P83 money changes
+        shell: python
+        run: |
+          from pathlib import Path
+
+          layout = Path("src/app/kaigo/layout.tsx")
+          text = layout.read_text(encoding="utf-8")
+          if 'id: "p83"' not in text:
+              marker = "const supplementalTemplates: SupplementalTemplate[] = [\n"
+              block = '''  {
+    id: "p83",
+    title: "高齢親の家の小箱・入れ物まわりメモ",
+    description:
+      "茶筒、菓子缶、小箱、小さな入れ物など、親の家で家族が長年見てきた小物入れの呼び方、置かれていた場所、親が話してくれたことを、処分や価値判断ではなく家族内の記録として整理します。",
+    boothUrl:
+      "https://kaigo-okane.booth.pm/items/8383425?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p83",
+    guidePath: "/guide/parent-home-family-small-box-container-record",
+    toolUrl:
+      "https://net-toolbox.jp/tools/kaigo-parent-home-family-small-box-container-memo?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p83_tool",
+  },
+'''
+              if marker not in text:
+                  raise SystemExit("layout marker not found")
+              layout.write_text(text.replace(marker, marker + block), encoding="utf-8")
+
+          sitemap = Path("src/app/sitemap.ts")
+          text = sitemap.read_text(encoding="utf-8")
+          if "parent-home-family-small-box-container-record" not in text:
+              marker = '    { url: `${base}/kaigo`, lastModified: now, changeFrequency: "weekly", priority: 0.95 },\n'
+              block = '''    {
+      url: `${base}/guide/parent-home-family-small-box-container-record`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.5,
+    },
+'''
+              if marker not in text:
+                  raise SystemExit("sitemap marker not found")
+              sitemap.write_text(text.replace(marker, marker + block), encoding="utf-8")
+      - name: Commit P83 money changes
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "codex-automation"
+          git config user.email "actions@github.com"
+          git rm .github/workflows/codex-p83-money.yml
+          git add src/app/kaigo/layout.tsx src/app/sitemap.ts
+          git commit -m "feat: add P83 small box guide links"
+          git push
