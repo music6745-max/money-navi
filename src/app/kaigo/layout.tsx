@@ -2,12 +2,32 @@ import type { ReactNode } from "react";
 import Link from "next/link";
 import { TrackedExternalLink } from "@/components/TrackedExternalLink";
 
-const supplementalTemplates = [
+type SupplementalTemplate = {
+  id: string;
+  title: string;
+  description: string;
+  boothUrl: string;
+  guidePath: string;
+  toolUrl: string;
+};
+
+const supplementalTemplates: SupplementalTemplate[] = [
+  {
+    id: "p78",
+    title: "高齢親の家の大型家具メモ",
+    description:
+      "箪笥、茶箪笥、水屋、座卓、本棚、古い机や椅子など、親の家で長年使ってきた大型家具の呼び方・置き場所・由来を、処分や査定の判断に使わず家族内の控えとして整理します。",
+    boothUrl:
+      "https://kaigo-okane.booth.pm/items/8383403?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p78",
+    guidePath: "/guide/parent-home-family-furniture-record",
+    toolUrl:
+      "https://net-toolbox.jp/tools/kaigo-parent-home-family-furniture-memo?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p78_tool",
+  },
   {
     id: "p77",
     title: "高齢親の家の鉢植え・庭の花・盆栽メモ",
     description:
-      "家のなか、縁側、庭先で家族が長年見てきた鉢植え、植木、庭の花、盆栽、観葉植物を、手入れや処分の判断に使わず家族内の軽い控えとして整理します。",
+      "家の中、縁側、庭先で家族が長年見てきた鉢植え、植木、庭の花、盆栽、観葉植物を、手入れや処分の判断に使わず家族内の軽い控えとして整理します。",
     boothUrl:
       "https://kaigo-okane.booth.pm/items/8383400?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p77",
     guidePath: "/guide/parent-home-family-plants-garden-record",
@@ -29,7 +49,7 @@ const supplementalTemplates = [
     id: "p75",
     title: "高齢親の家の台所道具・台所小物メモ",
     description:
-      "鍋、フライパン、包丁、まな板、ザル、ボウルなど、親の家で長く使ってきた台所道具を、査定や処分判断に使わず家族内の軽い控えとして整理します。",
+      "鍋、フライパン、包丁、まな板、ざる、ボウルなど、親の家で長く使ってきた台所道具を、査定や処分判断に使わず家族内の軽い控えとして整理します。",
     boothUrl:
       "https://kaigo-okane.booth.pm/items/8383389?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p75",
     guidePath: "/guide/parent-home-kitchen-tools-record",
@@ -38,9 +58,9 @@ const supplementalTemplates = [
   },
   {
     id: "p74",
-    title: "高齢親の家族別 茶碗・湯のみ・食卓の取り合わせメモ",
+    title: "高齢親の家族の食器・取り合わせメモ",
     description:
-      "茶碗、湯のみ、お椀、取り皿、お盆など、家族が長年見てきた食卓の取り合わせを、鑑定や処分判断に使わず家族内の軽い覚え書きとして整理します。",
+      "茶碗、湯のみ、お椀、取り皿、小皿など、家族が長年見てきた食器の取り合わせを、査定や処分判断に使わず家族内の軽い覚え書きとして整理します。",
     boothUrl:
       "https://kaigo-okane.booth.pm/items/8383386?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p74",
     guidePath: "/guide/parent-home-family-tableware-combination-record",
@@ -49,9 +69,9 @@ const supplementalTemplates = [
   },
   {
     id: "p73",
-    title: "高齢親の家の場所・部屋・家具の家族内呼び名メモ",
+    title: "高齢親の家の場所・部屋・家具の呼び名メモ",
     description:
-      "「中の間」「茶箪笥のとこ」など、家族だけに通じてきた場所・部屋・家具・コーナーの呼び名を、正式名称や処分判断に使わず家族内の軽い控えとして整理します。",
+      "中の間、茶箪笥のところなど、家族だけに通じてきた場所、部屋、家具、コーナーの呼び名を、正式名称や処分判断に使わず家族内の軽い控えとして整理します。",
     boothUrl:
       "https://kaigo-okane.booth.pm/items/8383382?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p73",
     guidePath: "/guide/parent-home-place-furniture-local-name-record",
@@ -60,9 +80,9 @@ const supplementalTemplates = [
   },
   {
     id: "p72",
-    title: "高齢親の家のなかの家族のいつもの座る場所・ふだん過ごす場所メモ",
+    title: "高齢親の家の家族のいつもの座る場所メモ",
     description:
-      "食卓、茶の間、縁側、窓際など、家族がいつも座っていた場所・ふだん過ごしていた場所を、席次や健康状態の判断に使わず家族内の軽い控えとして整理します。",
+      "食卓、茶の間、縁側、窓際など、家族がいつも座っていた場所や過ごしていた場所を、席次や健康状態の判断に使わず家族内の軽い控えとして整理します。",
     boothUrl:
       "https://kaigo-okane.booth.pm/items/8383377?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p72",
     guidePath: "/guide/parent-home-family-sitting-place-record",
@@ -73,7 +93,7 @@ const supplementalTemplates = [
     id: "p71",
     title: "高齢親の家の飾りもの・置きもの・季節飾りメモ",
     description:
-      "親が家のなかで日常や季節の節目に飾ってきた飾りもの、置きもの、季節飾りを、鑑定や処分の判断に使わず家族内の軽い控えとして整理します。",
+      "親が家の中で日常や季節の節目に飾ってきた飾りもの、置きもの、季節飾りを、査定や処分判断に使わず家族内の軽い控えとして整理します。",
     boothUrl:
       "https://kaigo-okane.booth.pm/items/8383373?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p71",
     guidePath: "/guide/parent-home-decoration-seasonal-ornament-record",
@@ -84,7 +104,7 @@ const supplementalTemplates = [
     id: "p70",
     title: "高齢親の家族向け書き置き・付箋・伝言メモ",
     description:
-      "親が家のなかで家族向けに書いていた書き置き、付箋、伝言を、家族外への公開や判断に使わず家族内の軽い控えとして整理します。",
+      "親が家の中で家族向けに書いていた書き置き、付箋、伝言を、家族外への公開や判断に使わず家族内の軽い控えとして整理します。",
     boothUrl:
       "https://kaigo-okane.booth.pm/items/8383369?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p70",
     guidePath: "/guide/parent-home-written-note-sticky-message-record",
@@ -95,7 +115,7 @@ const supplementalTemplates = [
     id: "p69",
     title: "高齢親に聞いた家の暮らしの小さなコツ・段取りメモ",
     description:
-      "親が話してくれた家のなかの場所、道具、小物、季節の変わり目、いつもの置き方や戻し方を、家族内の軽い控えとして整理します。",
+      "親が話してくれた家の中の場所、道具、小物、季節の変わり目、いつもの置き方や戻し方を、家族内の軽い控えとして整理します。",
     boothUrl:
       "https://kaigo-okane.booth.pm/items/8383365?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p69",
     guidePath: "/guide/parent-home-living-tips-routine-record",
@@ -104,7 +124,7 @@ const supplementalTemplates = [
   },
   {
     id: "p68",
-    title: "高齢親の家庭料理・味つけ・作り方メモ",
+    title: "高齢親の家庭料理・味つけの作り方メモ",
     description:
       "親が話してくれた家庭料理の名前、材料、目分量、火加減、味つけの加減を、健康判断や公開用レシピにせず家族内の思い出メモとして整理します。",
     boothUrl:
@@ -117,7 +137,7 @@ const supplementalTemplates = [
     id: "p67",
     title: "高齢親宅への帰省 持参・持ち帰りメモ",
     description:
-      "帰省で家族が手で運ぶ持って行くもの・持ち帰るものを、次に行く家族が見返せる家族内の控えとして整理します。",
+      "帰省で家族が手で運ぶ持って行くもの、持ち帰るものを、次に行く家族が見返せる家族内の控えとして整理します。",
     boothUrl:
       "https://kaigo-okane.booth.pm/items/8383187?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p67",
     guidePath: "/guide/parent-home-visit-bring-carryback-record",
@@ -128,7 +148,7 @@ const supplementalTemplates = [
     id: "p66",
     title: "高齢親に次回聞きたいこと・話したいことメモ",
     description:
-      "次に親と電話・帰省・対面で話すとき、家族内で聞きたいこと・話したいことをあらかじめ控え、話しそびれを減らすためのメモです。",
+      "次に親と電話、帰省、対面で話すとき、家族内で聞きたいことや話したいことをあらかじめ控え、話しそびれを減らすためのメモです。",
     boothUrl:
       "https://kaigo-okane.booth.pm/items/8383185?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p66",
     guidePath: "/guide/parent-next-conversation-topics-record",
@@ -150,7 +170,7 @@ const supplementalTemplates = [
     id: "p64",
     title: "高齢親が話す口癖・言い回しメモ",
     description:
-      "親がよく使う言葉、地域の言い回し、物や行動の呼び方を、辞書や判断ではなく家族内で見返す控えとして残せます。",
+      "親がよく使う言葉、地域の言い回し、物や行動の呼び方を、辞書や判断材料ではなく家族内で見返す控えとして残せます。",
     boothUrl:
       "https://kaigo-okane.booth.pm/items/8383178?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p64",
     guidePath: "/guide/parent-speech-habit-phrases-record",
@@ -161,7 +181,7 @@ const supplementalTemplates = [
     id: "p63",
     title: "高齢親のよく行く店・生活圏メモ",
     description:
-      "スーパー、薬局、理美容室、散歩先など、親がふだん立ち寄る場所と家族が次に確認することを、判断材料ではなく引き継ぎ用の控えとして整理できます。",
+      "スーパー、薬局、理美容室、散歩先など、親がふだん立ち寄る場所と次に確認することを、判断材料ではなく引き継ぎ用の控えとして整理できます。",
     boothUrl:
       "https://kaigo-okane.booth.pm/items/8383096?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p63",
     guidePath: "/guide/parent-frequent-shops-living-area-record",
@@ -170,7 +190,7 @@ const supplementalTemplates = [
   },
   {
     id: "p62",
-    title: "実家の季節用品・年中行事用品 収納場所控えメモ",
+    title: "実家の季節用品・年中行事用品 収納場所メモ",
     description:
       "正月用品、季節飾り、防災用品など、年に数回だけ使うものの収納場所を家族内の控えとして整理できます。",
     boothUrl:
