@@ -1,0 +1,38 @@
+name: Codex P84 Money Explicit Format
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - ".github/workflows/codex-p84-money-format2.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Normalize P84 money formatting with explicit spaces
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          p = Path("src/app/kaigo/layout.tsx")
+          s = p.read_text(encoding="utf-8")
+          marker = 'id: "p84"'
+          correct = "  {\n    id: \"p84\",\n    title: \"高齢親の家のあかり・照明器具まわりメモ\",\n    description:\n      \"茶の間のあかり、台所や玄関の照明、枕元の電気スタンド、ランプシェードなど、親の家で家族が長年見てきたあかりまわりの呼び方、置かれていた部屋、親が話してくれたことを、電気作業や安全判断ではなく家族内の記録として整理します。\",\n    boothUrl:\n      \"https://kaigo-okane.booth.pm/items/8383429?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p84\",\n    guidePath: \"/guide/parent-home-family-lighting-lamp-record\",\n    toolUrl:\n      \"https://net-toolbox.jp/tools/kaigo-parent-home-family-lighting-lamp-memo?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p84_tool\",\n  },\n"
+          i = s.index(marker)
+          start = s.rfind("  {", 0, i)
+          end = s.index('  {\n    id: "p83"', i)
+          s = s[:start] + correct + s[end:]
+          p.write_text(s, encoding="utf-8")
+          PY
+          rm -f .github/workflows/codex-p84-money-format2.yml
+          git config user.name "codex-automation"
+          git config user.email "codex-automation@example.com"
+          git add src/app/kaigo/layout.tsx .github/workflows/codex-p84-money-format2.yml
+          git commit -m "style: format P84 money hub entry"
+          git push origin HEAD:master
