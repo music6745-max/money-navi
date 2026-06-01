@@ -4,6 +4,17 @@ import { TrackedExternalLink } from "@/components/TrackedExternalLink";
 
 const supplementalTemplates = [
   {
+    id: "p70",
+    title: "高齢親の家族向け書き置き・付箋・伝言メモ",
+    description:
+      "親が家のなかで家族向けに書いていた書き置き、付箋、伝言を、家族外への公開や判断に使わず家族内の軽い控えとして整理します。",
+    boothUrl:
+      "https://kaigo-okane.booth.pm/items/8383369?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p70",
+    guidePath: "/guide/parent-home-written-note-sticky-message-record",
+    toolUrl:
+      "https://net-toolbox.jp/tools/kaigo-parent-home-written-note-sticky-message-memo?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p70_tool",
+  },
+  {
     id: "p69",
     title: "高齢親に聞いた家の暮らしの小さなコツ・段取りメモ",
     description:
