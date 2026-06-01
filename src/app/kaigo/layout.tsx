@@ -13,6 +13,17 @@ type SupplementalTemplate = {
 
 const supplementalTemplates: SupplementalTemplate[] = [
   {
+    id: "p80",
+    title: "高齢親の家の時計まわりメモ",
+    description:
+      "掛け時計、柱時計、置き時計、目覚まし時計など、親の家で家族が長年見てきた時計の呼び方、場所、見てきた場面、親が話してくれた由来を、修理や処分の判断に使わず家族内の控えとして整理します。",
+    boothUrl:
+      "https://kaigo-okane.booth.pm/items/8383414?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p80",
+    guidePath: "/guide/parent-home-family-clock-record",
+    toolUrl:
+      "https://net-toolbox.jp/tools/kaigo-parent-home-family-clock-memo?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p80_tool",
+  },
+  {
     id: "p79",
     title: "高齢親の家の障子・襖・引き戸・畳まわりメモ",
     description:
