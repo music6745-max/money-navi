@@ -1,0 +1,50 @@
+name: Codex P84 Money Format
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - ".github/workflows/codex-p84-money-format.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Normalize P84 money formatting
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+
+          layout_path = Path("src/app/kaigo/layout.tsx")
+          layout = layout_path.read_text(encoding="utf-8")
+          correct = '''  {
+            id: "p84",
+            title: "高齢親の家のあかり・照明器具まわりメモ",
+            description:
+              "茶の間のあかり、台所や玄関の照明、枕元の電気スタンド、ランプシェードなど、親の家で家族が長年見てきたあかりまわりの呼び方、置かれていた部屋、親が話してくれたことを、電気作業や安全判断ではなく家族内の記録として整理します。",
+            boothUrl:
+              "https://kaigo-okane.booth.pm/items/8383429?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p84",
+            guidePath: "/guide/parent-home-family-lighting-lamp-record",
+            toolUrl:
+              "https://net-toolbox.jp/tools/kaigo-parent-home-family-lighting-lamp-memo?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p84_tool",
+          },
+          '''
+          marker = 'id: "p84"'
+          if marker in layout:
+            start = layout.rfind("  {", 0, layout.index(marker))
+            end = layout.index('  {\n    id: "p83"', layout.index(marker))
+            layout = layout[:start] + correct + layout[end:]
+            layout_path.write_text(layout, encoding="utf-8")
+          PY
+          rm -f .github/workflows/codex-p84-money-format.yml
+          git config user.name "codex-automation"
+          git config user.email "codex-automation@example.com"
+          git add src/app/kaigo/layout.tsx .github/workflows/codex-p84-money-format.yml
+          git commit -m "style: normalize P84 money guide link formatting"
+          git push origin HEAD:master
