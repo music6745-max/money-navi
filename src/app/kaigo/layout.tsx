@@ -13,6 +13,17 @@ type SupplementalTemplate = {
 
 const supplementalTemplates: SupplementalTemplate[] = [
   {
+    id: "p82",
+    title: "高齢親の家の玄関まわりメモ",
+    description:
+      "傘立て、靴べら、スリッパ立て、来客用履物入れなど、親の家で家族が長年見てきた玄関まわりの物を、修理や処分、防犯、防災、医療・介護シューズ選定に使わず、家族内の呼び方・置かれていた場所・親が話してくれたこととして整理します。",
+    boothUrl:
+      "https://kaigo-okane.booth.pm/items/8383422?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p82",
+    guidePath: "/guide/parent-home-family-entrance-footwear-record",
+    toolUrl:
+      "https://net-toolbox.jp/tools/kaigo-parent-home-family-entrance-footwear-memo?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p82_tool",
+  },
+  {
     id: "p81",
     title: "高齢親の家の鏡まわりメモ",
     description:
