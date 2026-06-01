@@ -4,6 +4,17 @@ import { TrackedExternalLink } from "@/components/TrackedExternalLink";
 
 const supplementalTemplates = [
   {
+    id: "p75",
+    title: "高齢親の家の台所道具・台所小物メモ",
+    description:
+      "鍋、フライパン、包丁、まな板、ザル、ボウルなど、親の家で長く使ってきた台所道具を、査定や処分判断に使わず家族内の軽い控えとして整理します。",
+    boothUrl:
+      "https://kaigo-okane.booth.pm/items/8383389?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p75",
+    guidePath: "/guide/parent-home-kitchen-tools-record",
+    toolUrl:
+      "https://net-toolbox.jp/tools/kaigo-parent-home-kitchen-tools-memo?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p75_tool",
+  },
+  {
     id: "p74",
     title: "高齢親の家族別 茶碗・湯のみ・食卓の取り合わせメモ",
     description:
@@ -161,7 +172,7 @@ const supplementalTemplates = [
     id: "p60",
     title: "高齢親と暮らすペットのお世話控えメモ",
     description:
-      "ごはん、水、散歩、トイレ、用品の置き場所を、家族内の引き継ぎメモとして整理できます。",
+      "ごはん、水、散歩、トイレ、用品の置き場所を、家族内の缕き継ぎメモとして整理できます。",
     boothUrl:
       "https://kaigo-okane.booth.pm/items/8383160?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p60",
     guidePath: "/guide/parent-pet-care-routine-record",
