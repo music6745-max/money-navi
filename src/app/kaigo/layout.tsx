@@ -4,6 +4,17 @@ import { TrackedExternalLink } from "@/components/TrackedExternalLink";
 
 const supplementalTemplates = [
   {
+    id: "p72",
+    title: "高齢親の家のなかの家族のいつもの座る場所・ふだん過ごす場所メモ",
+    description:
+      "食卓、茶の間、縁側、窓際など、家族がいつも座っていた場所・ふだん過ごしていた場所を、席次や健康状態の判断に使わず家族内の軽い控えとして整理します。",
+    boothUrl:
+      "https://kaigo-okane.booth.pm/items/8383377?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p72",
+    guidePath: "/guide/parent-home-family-sitting-place-record",
+    toolUrl:
+      "https://net-toolbox.jp/tools/kaigo-parent-home-family-sitting-place-memo?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p72_tool",
+  },
+  {
     id: "p71",
     title: "高齢親の家の飾りもの・置きもの・季節飾りメモ",
     description:
