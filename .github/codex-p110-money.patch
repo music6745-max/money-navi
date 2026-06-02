@@ -1,0 +1,232 @@
+diff --git a/src/app/guide/parent-tv-radio-favorite-programs-record/page.tsx b/src/app/guide/parent-tv-radio-favorite-programs-record/page.tsx
+new file mode 100644
+index 0000000..3550bd3
+--- /dev/null
++++ b/src/app/guide/parent-tv-radio-favorite-programs-record/page.tsx
+@@ -0,0 +1,187 @@
++import type { Metadata } from "next";
++import Link from "next/link";
++import { ArticleJsonLd, BreadcrumbJsonLd, FAQJsonLd } from "@/components/JsonLd";
++import { TrackedExternalLink } from "@/components/TrackedExternalLink";
++import { siteConfig } from "@/lib/tools";
++
++const slug = "parent-tv-radio-favorite-programs-record";
++const title = "高齢親のテレビ・ラジオ好きな番組を家族で控える方法";
++const description =
++  "親がよく見るテレビ番組やよく聴くラジオ番組を、視聴契約や健康判断ではなく家族内の会話の手がかりとして整理する方法をまとめます。";
++const url = siteConfig.url + "/guide/" + slug;
++const boothUrl =
++  "https://kaigo-okane.booth.pm/items/8383151?utm_source=toshi-navi&utm_medium=guide&utm_campaign=parent-tv-radio-favorite-programs-record&utm_content=single_template";
++const toolUrl =
++  "https://net-toolbox.jp/tools/kaigo-parent-tv-radio-favorite-programs-memo?utm_source=toshi-navi&utm_medium=guide&utm_campaign=parent_tv_radio_favorite_programs";
++const fullPackUrl =
++  "https://kaigo-okane.booth.pm/items/8383441?utm_source=toshi-navi&utm_medium=guide&utm_campaign=parent-tv-radio-favorite-programs-record&utm_content=full_pack";
++
++const faqItems = [
++  {
++    question: "テレビ・ラジオ好きな番組メモには何を書けばよいですか？",
++    answer:
++      "親がよく見ている番組名、よく聴いている番組名、曜日や時間帯、話題にしやすいこと、次に家族で聞いてみたいことを短く書きます。",
++  },
++  {
++    question: "視聴契約や録画設定、機器操作の判断に使えますか？",
++    answer:
++      "使えません。このメモは家族内で会話の手がかりを残すための控えです。契約変更、録画設定、機器操作、修理、購入判断には使いません。",
++  },
++  {
++    question: "健康状態や認知機能、番組内容の引用管理に使えますか？",
++    answer:
++      "使えません。視聴状況から健康状態や認知機能を判断しません。番組本文、歌詞、長いせりふ、個人情報、契約情報、アカウント情報も書かないでください。",
++  },
++];
++
++export const metadata: Metadata = {
++  title: title + " | " + siteConfig.name,
++  description,
++  alternates: { canonical: url },
++  openGraph: {
++    title,
++    description,
++    url,
++    type: "article",
++    publishedTime: "2026-06-03",
++  },
++};
++
++export default function ParentTvRadioFavoriteProgramsRecordPage() {
++  return (
++    <main className="mx-auto max-w-3xl px-4 py-10">
++      <ArticleJsonLd
++        headline={title}
++        description={description}
++        url={url}
++        datePublished="2026-06-03"
++        dateModified="2026-06-03"
++      />
++      <BreadcrumbJsonLd
++        items={[
++          { name: "ホーム", url: siteConfig.url },
++          { name: "ガイド", url: siteConfig.url + "/guide" },
++          { name: title, url },
++        ]}
++      />
++      <FAQJsonLd items={faqItems} />
++
++      <nav className="mb-6 text-sm text-muted">
++        <Link href="/" className="hover:text-primary">
++          ホーム
++        </Link>
++        <span className="mx-2">/</span>
++        <Link href="/guide" className="hover:text-primary">
++          ガイド
++        </Link>
++        <span className="mx-2">/</span>
++        <span>{title}</span>
++      </nav>
++
++      <header className="mb-8">
++        <div className="mb-3 flex flex-wrap items-center gap-2 text-xs text-muted">
++          <span className="rounded-full bg-primary/10 px-2 py-1 text-primary">家族内の会話メモ</span>
++          <span>公開: 2026-06-03</span>
++          <span>確認: 2026-06-03</span>
++        </div>
++        <h1 className="mb-4 text-2xl font-bold leading-tight sm:text-3xl">{title}</h1>
++        <p className="leading-7 text-muted">{description}</p>
++      </header>
++
++      <section className="mb-8 rounded-xl border border-primary/20 bg-primary/5 p-5">
++        <h2 className="mb-3 text-lg font-bold">まず無料メモで、話題にしやすい番組を控える</h2>
++        <p className="mb-4 text-sm leading-7 text-muted">
++          親がよく見ている番組や、ラジオで楽しみにしている時間帯は、電話や帰省時の自然な話題になります。
++          番組の内容を細かく記録するより、家族が「あの番組の話を聞いてみよう」と思い出せる短い控えにします。
++        </p>
++        <div className="flex flex-wrap gap-3">
++          <a
++            href={toolUrl}
++            target="_blank"
++            rel="noopener noreferrer"
++            className="rounded-md bg-primary px-4 py-2 text-sm font-bold text-white hover:opacity-90"
++          >
++            無料メモを作る
++          </a>
++          <TrackedExternalLink
++            href={boothUrl}
++            eventName="booth_click"
++            page={slug}
++            position="hero_single_template"
++            itemId="p110"
++            className="rounded-md border border-primary/30 px-4 py-2 text-sm font-bold text-primary hover:border-primary"
++          >
++            BOOTHテンプレートを見る
++          </TrackedExternalLink>
++        </div>
++      </section>
++
++      <section className="mb-8 space-y-4">
++        <h2 className="text-xl font-bold">番組名、曜日、話題にしたいことを分ける</h2>
++        <p>
++          「朝のニュースを見ている」「日曜のラジオを楽しみにしている」「野球中継の話になるとよく話す」
++          といった控えは、家族が連絡するときの入口になります。番組名、曜日や時間帯、親が話していたこと、
++          次に聞いてみたいことを分けると、見返した人が使いやすくなります。
++        </p>
++        <p>
++          番組を評価したり、正しい視聴方法を決めたりする必要はありません。家族が親と話しやすくなる範囲で、
++          短く、更新しやすい形にしておきます。
++        </p>
++      </section>
++
++      <section className="mb-8 space-y-4">
++        <h2 className="text-xl font-bold">契約、機器操作、健康判断には使わない</h2>
++        <p>
++          このメモは、テレビ契約、録画設定、チャンネル契約、機器の修理や買い替えを判断するためのものではありません。
++          操作や契約の確認が必要なときは、公式案内や家族内の別メモで扱います。
++        </p>
++        <p>
++          また、視聴時間や番組の好みから健康状態、認知機能、生活状況を判断しません。番組本文、歌詞、長いせりふ、
++          アカウント情報、契約番号、支払い情報なども書かないでください。
++        </p>
++      </section>
++
++      <section className="mb-8 rounded-xl border border-card-border bg-card-bg p-5">
++        <h2 className="mb-3 text-lg font-bold">テンプレートもまとめて用意</h2>
++        <p className="mb-4 text-sm leading-7 text-muted">
++          BOOTH版では、よく見るテレビ番組、よく聴くラジオ番組、曜日や時間帯、会話前に見返す話題、更新記録を
++          PDFとExcelで同じ粒度にそろえられます。ほかの実家まわりの控えメモと一緒に整えたい場合はフルパックも確認できます。
++        </p>
++        <div className="flex flex-wrap gap-3">
++          <TrackedExternalLink
++            href={boothUrl}
++            eventName="booth_click"
++            page={slug}
++            position="bottom_single_template"
++            itemId="p110"
++            className="rounded-md bg-primary px-4 py-2 text-sm font-bold text-white hover:opacity-90"
++          >
++            P110単品を見る
++          </TrackedExternalLink>
++          <TrackedExternalLink
++            href={fullPackUrl}
++            eventName="booth_click"
++            page={slug}
++            position="bottom_full_pack"
++            itemId="full_pack"
++            className="rounded-md border border-primary/30 px-4 py-2 text-sm font-bold text-primary hover:border-primary"
++          >
++            フルパックを見る
++          </TrackedExternalLink>
++        </div>
++      </section>
++
++      <section className="rounded-xl border border-card-border bg-card-bg p-5">
++        <h2 className="mb-4 text-lg font-bold">よくある質問</h2>
++        <div className="space-y-4">
++          {faqItems.map((faq) => (
++            <div key={faq.question}>
++              <h3 className="font-bold">Q. {faq.question}</h3>
++              <p className="mt-1 text-sm leading-7 text-muted">A. {faq.answer}</p>
++            </div>
++          ))}
++        </div>
++      </section>
++    </main>
++  );
++}
+diff --git a/src/app/kaigo/layout.tsx b/src/app/kaigo/layout.tsx
+index d6f89b1..8e5d758 100644
+--- a/src/app/kaigo/layout.tsx
++++ b/src/app/kaigo/layout.tsx
+@@ -12,6 +12,17 @@ type SupplementalTemplate = {
+ };
+ 
+ const supplementalTemplates: SupplementalTemplate[] = [
++  {
++    id: "p110",
++    title: "高齢親のテレビ・ラジオ好きな番組メモ",
++    description:
++      "親がよく見るテレビ番組やよく聴くラジオ番組を、契約や健康判断ではなく、家族内で会話前に見返す手がかりとして控えます。",
++    boothUrl:
++      "https://kaigo-okane.booth.pm/items/8383151?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p110",
++    guidePath: "/guide/parent-tv-radio-favorite-programs-record",
++    toolUrl:
++      "https://net-toolbox.jp/tools/kaigo-parent-tv-radio-favorite-programs-memo?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p110_tool",
++  },
+   {
+     id: "p92",
+     title: "高齢親の家の老眼鏡・眼鏡ケースまわりメモ",
+diff --git a/src/app/sitemap.ts b/src/app/sitemap.ts
+index 96d80c9..e2a4c78 100644
+--- a/src/app/sitemap.ts
++++ b/src/app/sitemap.ts
+@@ -67,6 +67,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
+   const staticRoutes: MetadataRoute.Sitemap = [
+     { url: base, lastModified: now, changeFrequency: "weekly", priority: 1 },
+     { url: `${base}/kaigo`, lastModified: now, changeFrequency: "weekly", priority: 0.95 },
++    {
++      url: `${base}/guide/parent-tv-radio-favorite-programs-record`,
++      lastModified: now,
++      changeFrequency: "monthly",
++      priority: 0.5,
++    },
+     {
+       url: `${base}/guide/parent-home-family-eyeglasses-cases-record`,
+       lastModified: now,
