@@ -38,6 +38,9 @@ export function KaigoActionBox({
   const trackedBoothHref = boothHref.includes("utm_source=")
     ? boothHref
     : `${boothHref}${boothHref.includes("?") ? "&" : "?"}utm_source=toshi-navi&utm_medium=guide&utm_campaign=kaigo-guide-action-box&utm_content=single_template`;
+  const fullPackHref =
+    "https://kaigo-okane.booth.pm/items/8383441?utm_source=toshi-navi&utm_medium=guide&utm_campaign=kaigo-guide-action-box&utm_content=full_pack";
+  const showFullPack = !boothHref.includes("/8383441");
 
   return (
     <section className="rounded-xl border border-primary/25 bg-primary/5 p-5">
@@ -66,6 +69,16 @@ export function KaigoActionBox({
         >
           {boothLabel}
         </a>
+        {showFullPack && (
+          <a
+            href={fullPackHref}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center rounded-full border border-card-border px-5 py-2.5 text-sm font-bold transition-colors hover:bg-muted/10"
+          >
+            フルパックを見る
+          </a>
+        )}
       </div>
     </section>
   );
