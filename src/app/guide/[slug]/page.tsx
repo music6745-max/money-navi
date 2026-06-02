@@ -30,6 +30,15 @@ const supplementalCtas: Record<
     icon: "BOOTH",
     highlight: "見守りから介護全体の整理へ",
   },
+  "parent-bankbook-insurance-asking-guide": {
+    title: "通帳・保険・支払い確認とあわせて使える介護テンプレートまとめ",
+    description:
+      "親のお金まわりを聞く順番に加えて、通院、入退院、費用分担、連絡先、書類整理まで家族で見返せる形にまとめたい家庭向けのセットです。必要なものから使えます。",
+    buttonText: "フルパックをBOOTHで見る",
+    href: "https://kaigo-okane.booth.pm/items/8383441?utm_source=toshi-navi&utm_medium=guide&utm_campaign=parent-bankbook-insurance-asking-guide&utm_content=full_pack",
+    icon: "BOOTH",
+    highlight: "お金まわりの確認から介護全体の整理へ",
+  },
   "parent-regular-delivery-package-receipt-record": {
   title: "介護のテンプレまとめ（フルパック）で実家管理メモもまとめて用意",
   description:

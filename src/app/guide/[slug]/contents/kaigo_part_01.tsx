@@ -2450,7 +2450,7 @@ export const guideContentsPart01: Record<string, ReactNode> = {
       <KaigoActionBox
         toolHref="https://net-toolbox.jp/tools/kaigo-parent-money-document-memo?utm_source=toshi-navi&utm_medium=guide&utm_campaign=parent_bankbook_insurance_asking_guide"
         toolLabel="確認メモを作る"
-        boothHref="https://kaigo-okane.booth.pm/items/8410669"
+        boothHref="https://kaigo-okane.booth.pm/items/8410669?utm_source=toshi-navi&utm_medium=guide&utm_campaign=parent-bankbook-insurance-asking-guide&utm_content=single_template"
         boothLabel="通帳・保険・支払い確認テンプレートを見る"
       >
         <p>
