@@ -1,0 +1,55 @@
+name: Codex apply P94 money monitoring CTA patch
+
+on:
+  push:
+    branches: [master]
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Apply P94 monitoring CTA patch and remove workflow
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          guide_content = Path("src/app/guide/[slug]/contents/kaigo_part_01.tsx")
+          text = guide_content.read_text(encoding="utf-8")
+          old = 'boothHref="https://kaigo-okane.booth.pm/items/8409959"'
+          new = 'boothHref="https://kaigo-okane.booth.pm/items/8409959?utm_source=toshi-navi&utm_medium=guide&utm_campaign=living-alone-parent-monitoring-cost-contact-system&utm_content=single_template"'
+          if old in text:
+              text = text.replace(old, new, 1)
+              guide_content.write_text(text, encoding="utf-8")
+
+          guide_page = Path("src/app/guide/[slug]/page.tsx")
+          text = guide_page.read_text(encoding="utf-8")
+          slug = '"living-alone-parent-monitoring-cost-contact-system": {'
+          if slug not in text:
+              marker = "> = {"
+              idx = text.index(marker) + len(marker)
+              block = '''
+  "living-alone-parent-monitoring-cost-contact-system": {
+    title: "見守り連絡表とあわせて使える介護テンプレートまとめ",
+    description:
+      "一人暮らし親の見守り連絡表に加えて、通院、入退院、家族の役割分担、費用、書類確認までまとめて整理したい家庭向けのセットです。必要なものから使えます。",
+    buttonText: "フルパックをBOOTHで見る",
+    href: "https://kaigo-okane.booth.pm/items/8383441?utm_source=toshi-navi&utm_medium=guide&utm_campaign=living-alone-parent-monitoring-cost-contact-system&utm_content=full_pack",
+    icon: "BOOTH",
+    highlight: "見守りから介護全体の整理へ",
+  },
+'''
+              text = text[:idx] + block + text[idx:]
+              guide_page.write_text(text, encoding="utf-8")
+          PY
+          git rm .github/workflows/codex-p94-money.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/app/guide/[slug]/contents/kaigo_part_01.tsx src/app/guide/[slug]/page.tsx
+          git commit -m "feat: reinforce P94 monitoring CTAs"
+          git push
