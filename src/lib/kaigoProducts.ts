@@ -21,7 +21,7 @@ export interface KaigoSituation {
   affiliateOfferIds: string[];
 }
 
-export const kaigoProducts: KaigoProduct[] = [
+const rawKaigoProducts: KaigoProduct[] = [
   {
     id: "p01",
     type: "single",
@@ -655,6 +655,21 @@ export const kaigoProducts: KaigoProduct[] = [
     tags: ["無料", "FAQ", "使い方"],
   },
 ];
+
+const kaigoProductOverrides: Record<string, Partial<KaigoProduct>> = {
+  p107: {
+    title: "ケアマネ初回相談前の生活状況・困りごと整理テンプレート集",
+    description:
+      "ケアマネや地域包括支援センターへ初めて相談する前に、生活状況、困りごと、家族の役割、質問メモを整理するPDF/Excelセット。",
+    priceLabel: "単品 1,480円",
+    tags: ["ケアマネ", "初回相談", "困りごと整理"],
+  },
+};
+
+export const kaigoProducts: KaigoProduct[] = rawKaigoProducts.map((product) => ({
+  ...product,
+  ...(kaigoProductOverrides[product.id] ?? {}),
+}));
 
 export const kaigoSituations: KaigoSituation[] = [
   {

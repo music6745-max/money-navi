@@ -9,7 +9,7 @@ export interface Guide {
   updatedAt?: string;
 }
 
-export const guides: Guide[] = [
+const rawGuides: Guide[] = [
   {
     slug: "parent-cherished-item-background-record",
     title: "高齢親が大切にしている品の背景メモを家族で残す方法",
@@ -4228,6 +4228,21 @@ export const guides: Guide[] = [
     publishedAt: "2026-04-21",
   },
 ];
+
+const guideOverrides: Record<string, Partial<Guide>> = {
+  "care-manager-first-consultation-family-memo": {
+    title: "ケアマネに初回相談するとき家族が持っていくメモ",
+    description:
+      "ケアマネや地域包括支援センターへ初めて相談する前に、生活状況、困りごと、家族の役割、費用不安を整理して伝える準備を解説。",
+    icon: "🗒️",
+    readTime: "9分",
+  },
+};
+
+export const guides: Guide[] = rawGuides.map((guide) => ({
+  ...guide,
+  ...(guideOverrides[guide.slug] ?? {}),
+}));
 
 export function getGuideBySlug(slug: string) {
   return guides.find((g) => g.slug === slug);
