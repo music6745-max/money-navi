@@ -87,7 +87,7 @@ export default function KaigoPage() {
           <p className="mt-3 max-w-3xl text-base leading-relaxed text-muted">{pageDescription}</p>
         </div>
         <div className="rounded-lg border border-card-border bg-card-bg p-4">
-          <h2 className="text-sm font-bold">先に確認する無料記事</h2>
+          <h2 className="text-sm font-bold">無料記事と主要テンプレート</h2>
           <div className="mt-3 space-y-2">
             <TrackedExternalLink
               href="https://note.com/mild_quail6092/n/n44b9de8bf4b7"
@@ -108,6 +108,16 @@ export default function KaigoPage() {
               className="block rounded-md border border-card-border bg-background px-3 py-2 text-sm font-bold hover:border-primary/40"
             >
               PDF・ExcelテンプレートFAQ
+            </TrackedExternalLink>
+            <TrackedExternalLink
+              href="https://kaigo-okane.booth.pm/items/8383441"
+              eventName="booth_click"
+              page="kaigo"
+              position="intro_full_pack"
+              itemId="full_pack"
+              className="block rounded-md border border-amber-400 bg-amber-50 px-3 py-2 text-sm font-bold text-amber-950 hover:border-amber-600"
+            >
+              介護まるごと総合パックを見る
             </TrackedExternalLink>
             <TrackedExternalLink
               href="https://kaigo-okane.booth.pm/items/8382918"
