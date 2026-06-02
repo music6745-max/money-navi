@@ -13,6 +13,17 @@ type SupplementalTemplate = {
 
 const supplementalTemplates: SupplementalTemplate[] = [
   {
+    id: "p90",
+    title: "高齢親の家のつり下げ飾りまわりメモ",
+    description:
+      "風鈴、つるし飾り、提灯、暖簾飾り、つるし雛など、天井や鴨居から吊り下げられていた飾りを、火気・取り付け・落下対策や処分判断とは分けて、家族内の呼び方・場所・見た目として控えます。",
+    boothUrl:
+      "https://kaigo-okane.booth.pm/items/8383446?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p90",
+    guidePath: "/guide/parent-home-family-hanging-ornaments-record",
+    toolUrl:
+      "https://net-toolbox.jp/tools/kaigo-parent-home-family-hanging-ornaments-memo?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p90_tool",
+  },
+  {
     id: "p89",
     title: "高齢親の家の古いおもちゃ・人形まわりメモ",
     description:
