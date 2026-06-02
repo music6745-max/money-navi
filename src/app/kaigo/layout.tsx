@@ -13,6 +13,17 @@ type SupplementalTemplate = {
 
 const supplementalTemplates: SupplementalTemplate[] = [
   {
+    id: "p110",
+    title: "高齢親のテレビ・ラジオ好きな番組メモ",
+    description:
+      "親がよく見るテレビ番組やよく聴くラジオ番組を、契約や健康判断ではなく、家族内で会話前に見返す手がかりとして控えます。",
+    boothUrl:
+      "https://kaigo-okane.booth.pm/items/8383151?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p110",
+    guidePath: "/guide/parent-tv-radio-favorite-programs-record",
+    toolUrl:
+      "https://net-toolbox.jp/tools/kaigo-parent-tv-radio-favorite-programs-memo?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p110_tool",
+  },
+  {
     id: "p92",
     title: "高齢親の家の老眼鏡・眼鏡ケースまわりメモ",
     description:
