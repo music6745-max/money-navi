@@ -13,6 +13,17 @@ type SupplementalTemplate = {
 
 const supplementalTemplates: SupplementalTemplate[] = [
   {
+    id: "p92",
+    title: "高齢親の家の老眼鏡・眼鏡ケースまわりメモ",
+    description:
+      "老眼鏡、眼鏡ケース、眼鏡置き、眼鏡ふきの布などを、視力判断・検眼・処方・度数管理・買い替え判断とは分けて、家族内の呼び方・置き場所・親が話してくれた由来として控えます。",
+    boothUrl:
+      "https://kaigo-okane.booth.pm/items/8383449?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p92",
+    guidePath: "/guide/parent-home-family-eyeglasses-cases-record",
+    toolUrl:
+      "https://net-toolbox.jp/tools/kaigo-parent-home-family-eyeglasses-cases-memo?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p92_tool",
+  },
+  {
     id: "p91",
     title: "高齢親の家の旅行記念品・お土産物まわりメモ",
     description:
