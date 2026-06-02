@@ -174,6 +174,15 @@ const supplementalCtas: Record<
     icon: "BOOTH",
     highlight: "テンプレまとめ",
   },
+  "care-certification-application-prep": {
+    title: "介護のテンプレまとめ（フルパック）で申請前の整理もまとめて用意",
+    description:
+      "介護認定の申請前メモに加えて、通院、入退院、家族分担、費用、見守り連絡など、相談前に家族で見返しやすいテンプレートをまとめたセットです。必要なものから使えます。",
+    buttonText: "フルパックをBOOTHで見る",
+    href: "https://kaigo-okane.booth.pm/items/8383441?utm_source=toshi-navi&utm_medium=guide&utm_campaign=care-certification-application-prep&utm_content=full_pack",
+    icon: "BOOTH",
+    highlight: "テンプレまとめ",
+  },
 };
 
 export default async function GuidePage({ params }: GuidePageProps) {
