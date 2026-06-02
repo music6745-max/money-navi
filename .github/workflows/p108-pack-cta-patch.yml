@@ -1,0 +1,74 @@
+name: P108 pack CTA patch
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  patch:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Patch hospital discharge guide CTA
+        shell: python
+        run: |
+          from pathlib import Path
+
+          path = Path("src/app/guide/[slug]/contents/kaigo_part_01.tsx")
+          data = path.read_bytes()
+
+          old_lf = '''      <KaigoActionBox
+        toolHref="https://net-toolbox.jp/tools/kaigo-hospital-checklist?utm_source=toshi-navi&utm_medium=guide&utm_campaign=parent-hospital-discharge-money"
+        toolLabel="入退院チェックリストを作る"
+        boothHref="https://kaigo-okane.booth.pm/items/8382202"
+        boothLabel="入退院準備PDFを見る"
+      >
+        <p>
+          入院直後は無料チェックリストで確認漏れを防ぎ、家族で共有する書き込み用の資料が必要になったら入退院準備PDFにまとめます。
+        </p>
+      </KaigoActionBox>'''.encode("utf-8")
+          new_lf = '''      <KaigoActionBox
+        toolHref="https://net-toolbox.jp/tools/kaigo-hospital-checklist?utm_source=toshi-navi&utm_medium=guide&utm_campaign=parent-hospital-discharge-money"
+        toolLabel="入退院チェックリストを作る"
+        boothHref="https://kaigo-okane.booth.pm/items/8424970?utm_source=toshi-navi&utm_medium=guide&utm_campaign=parent-hospital-discharge-money&utm_content=starter_pack"
+        boothLabel="入院・退院・ケアマネ相談パックを見る"
+      >
+        <p>
+          入院直後は無料チェックリストで確認漏れを防ぎ、家族で共有する書き込み用の資料が必要になったら、
+          入院・退院・もしも準備・ケアマネ初回相談をまとめたパックに転記します。
+        </p>
+      </KaigoActionBox>'''.encode("utf-8")
+
+          candidates = [
+              (old_lf, new_lf),
+              (old_lf.replace(b"\n", b"\r\n"), new_lf.replace(b"\n", b"\r\n")),
+          ]
+
+          if any(new in data for _, new in candidates):
+              print("P108 CTA already patched")
+          else:
+              for old, new in candidates:
+                  if old in data:
+                      path.write_bytes(data.replace(old, new, 1))
+                      print("P108 CTA patched")
+                      break
+              else:
+                  raise SystemExit("target CTA block not found")
+      - name: Commit patch and remove workflow
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          rm -f .github/workflows/p108-pack-cta-patch.yml
+          git add src/app/guide/\[slug\]/contents/kaigo_part_01.tsx .github/workflows/p108-pack-cta-patch.yml
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "fix: connect hospital guide to P108 pack"
+            git push
+          fi
