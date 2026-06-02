@@ -13,6 +13,17 @@ type SupplementalTemplate = {
 
 const supplementalTemplates: SupplementalTemplate[] = [
   {
+    id: "p89",
+    title: "高齢親の家の古いおもちゃ・人形まわりメモ",
+    description:
+      "ぬいぐるみ、人形、木のおもちゃ、ブリキ玩具、積み木、ボードゲームなど、長年置かれていた古いおもちゃを、価値判断や処分判断とは分けて家族内の呼び方・置き場所として控えます。",
+    boothUrl:
+      "https://kaigo-okane.booth.pm/items/8383445?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p89",
+    guidePath: "/guide/parent-home-family-old-toys-dolls-record",
+    toolUrl:
+      "https://net-toolbox.jp/tools/kaigo-parent-home-family-old-toys-dolls-memo?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p89_tool",
+  },
+  {
     id: "p88",
     title: "高齢親の家の壁飾り・紙ものまわりメモ",
     description:
