@@ -6,6 +6,7 @@ import { guideContentsPart04 } from "./kaigo_part_04";
 import { guideContentsPart05 } from "./kaigo_part_05";
 import { guideContentsPart06 } from "./kaigo_part_06";
 import { guideContentsP107Override } from "./kaigo_p107_override";
+import { guideContentsP108Override } from "./kaigo_p108_override";
 
 export const guideContents: Record<string, ReactNode> = {
   ...guideContentsPart01,
@@ -15,4 +16,5 @@ export const guideContents: Record<string, ReactNode> = {
   ...guideContentsPart05,
   ...guideContentsPart06,
   ...guideContentsP107Override,
+  ...guideContentsP108Override,
 };
