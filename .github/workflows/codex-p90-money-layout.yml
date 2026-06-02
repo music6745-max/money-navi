@@ -64,3 +64,5 @@ jobs:
           git add src/app/kaigo/layout.tsx
           git commit -m "feat: add P90 hanging ornaments hub card"
           git push origin HEAD:master
+
+# retrigger: 2026-06-02T13:20:00+09:00
