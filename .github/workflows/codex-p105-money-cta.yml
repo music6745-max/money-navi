@@ -1,0 +1,114 @@
+name: Codex P105 Money CTA Patch
+
+on:
+  push:
+    paths:
+      - ".github/workflows/codex-p105-money-cta.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: master
+          fetch-depth: 0
+      - name: Apply P105 money CTA patch
+        shell: bash
+        run: |
+          cat > /tmp/codex-p105-money.patch <<'PATCH'
+diff --git a/src/app/guide/[slug]/contents/kaigo_part_01.tsx b/src/app/guide/[slug]/contents/kaigo_part_01.tsx
+index 5e968b3..be130d2 100644
+--- a/src/app/guide/[slug]/contents/kaigo_part_01.tsx
++++ b/src/app/guide/[slug]/contents/kaigo_part_01.tsx
+@@ -2236,12 +2236,12 @@ export const guideContentsPart01: Record<string, ReactNode> = {
+         </ul>
+       </section>
+ 
+-      <KaigoActionBox
+-        toolHref="https://net-toolbox.jp/tools/kaigo-distance-care-family-meeting-agenda?utm_source=toshi-navi&utm_medium=guide&utm_campaign=distance_care_family_meeting_agenda"
+-        toolLabel="家族会議アジェンダを作る"
+-        boothHref="https://kaigo-okane.booth.pm/items/8411252"
+-        boothLabel="遠距離介護テンプレートを見る"
+-      >
++      <KaigoActionBox
++        toolHref="https://net-toolbox.jp/tools/kaigo-distance-care-family-meeting-agenda?utm_source=toshi-navi&utm_medium=guide&utm_campaign=distance_care_family_meeting_agenda"
++        toolLabel="家族会議アジェンダを作る"
++        boothHref="https://kaigo-okane.booth.pm/items/8411252?utm_source=toshi-navi&utm_medium=guide&utm_campaign=long-distance-care-family-meeting-agenda&utm_content=single_template"
++        boothLabel="遠距離介護テンプレートを見る"
++      >
+         <p>
+           まず無料ツールで議題、担当案、次回確認リストを作り、継続的に残す段階ではBOOTHの遠距離介護テンプレートへ転記すると、
+           役割分担、連絡順、交通費、次回確認事項まで家族で見返しやすくなります。
+@@ -2581,12 +2581,12 @@ export const guideContentsPart01: Record<string, ReactNode> = {
+         </p>
+       </section>
+ 
+-      <KaigoActionBox
+-        toolHref="https://net-toolbox.jp/tools/kaigo-distance-care-travel-memo?utm_source=toshi-navi&utm_medium=guide&utm_campaign=long_distance_care_travel_cost_role_share"
+-        toolLabel="交通費メモを作る"
+-        boothHref="https://kaigo-okane.booth.pm/items/8411252"
+-        boothLabel="遠距離介護テンプレートを見る"
+-      >
++      <KaigoActionBox
++        toolHref="https://net-toolbox.jp/tools/kaigo-distance-care-travel-memo?utm_source=toshi-navi&utm_medium=guide&utm_campaign=long_distance_care_travel_cost_role_share"
++        toolLabel="交通費メモを作る"
++        boothHref="https://kaigo-okane.booth.pm/items/8411252?utm_source=toshi-navi&utm_medium=guide&utm_campaign=long-distance-care-travel-cost-role-share&utm_content=single_template"
++        boothLabel="遠距離介護テンプレートを見る"
++      >
+         <p>
+           まず無料ツールで月あたりの交通費と役割案を作り、決まった連絡ルール、訪問計画、次回確認事項は遠距離介護テンプレートに残すと、
+           遠方の家族にも共有しやすくなります。
+diff --git a/src/app/guide/[slug]/page.tsx b/src/app/guide/[slug]/page.tsx
+index b71764d..e616bc3 100644
+--- a/src/app/guide/[slug]/page.tsx
++++ b/src/app/guide/[slug]/page.tsx
+@@ -39,9 +39,27 @@ const supplementalCtas: Record<
+     icon: "BOOTH",
+     highlight: "お金まわりの確認から介護全体の整理へ",
+   },
++  "long-distance-care-family-meeting-agenda": {
++    title: "遠距離介護の会議メモと費用分担をまとめて使う",
++    description:
++      "家族会議の議題、役割分担、交通費・宿泊費、親への連絡、緊急時の確認まで、遠距離介護で家族が同じ前提を持ちやすいように整理するセットです。必要なものから使えます。",
++    buttonText: "フルパックをBOOTHで見る",
++    href: "https://kaigo-okane.booth.pm/items/8383441?utm_source=toshi-navi&utm_medium=guide&utm_campaign=long-distance-care-family-meeting-agenda&utm_content=full_pack",
++    icon: "BOOTH",
++    highlight: "家族会議から費用・役割分担までまとめて整理",
++  },
++  "long-distance-care-travel-cost-role-share": {
++    title: "遠距離介護の交通費と役割分担をまとめて整理する",
++    description:
++      "交通費・宿泊費の記録に加えて、家族会議、役割分担、親への連絡、緊急時の確認まで、遠方の家族でも見返しやすい形でまとめるセットです。必要なものから使えます。",
++    buttonText: "フルパックをBOOTHで見る",
++    href: "https://kaigo-okane.booth.pm/items/8383441?utm_source=toshi-navi&utm_medium=guide&utm_campaign=long-distance-care-travel-cost-role-share&utm_content=full_pack",
++    icon: "BOOTH",
++    highlight: "交通費メモから介護全体の共有へ",
++  },
+   "parent-regular-delivery-package-receipt-record": {
+-  title: "介護のテンプレまとめ（フルパック）で実家管理メモもまとめて用意",
+-  description:
++  title: "介護のテンプレまとめ（フルパック）で実家管理メモもまとめて用意",
++  description:
+     "定期便・宅配便の受け取りメモに加えて、郵便物、買い物、外出予定、連絡先、持ち物など、家族で共有しやすいテンプレートをまとめたセットです。必要なものから使えます。",
+   buttonText: "フルパックをBOOTHで見る",
+   href: "https://kaigo-okane.booth.pm/items/8383441?utm_source=toshi-navi&utm_medium=guide&utm_campaign=parent-regular-delivery-package-receipt-record&utm_content=full_pack",
+PATCH
+          git apply --index /tmp/codex-p105-money.patch
+      - name: Commit source patch and remove workflow
+        shell: bash
+        run: |
+          rm -f .github/workflows/codex-p105-money-cta.yml
+          git add 'src/app/guide/[slug]/contents/kaigo_part_01.tsx' 'src/app/guide/[slug]/page.tsx' .github/workflows/codex-p105-money-cta.yml
+          git config user.name "codex-automation"
+          git config user.email "codex-automation@users.noreply.github.com"
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "feat: reinforce P105 distance care guide CTAs"
+            git push
+          fi
