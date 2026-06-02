@@ -13,6 +13,17 @@ type SupplementalTemplate = {
 
 const supplementalTemplates: SupplementalTemplate[] = [
   {
+    id: "p88",
+    title: "高齢親の家の壁飾り・紙ものまわりメモ",
+    description:
+      "額縁、賞状、写真立て、カレンダー、ポスターなど、壁や柱に掛けられていた紙ものを、個人情報や評価判断とは分けて家族内の呼び方・置き場所として控えます。",
+    boothUrl:
+      "https://kaigo-okane.booth.pm/items/8383442?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p88",
+    guidePath: "/guide/parent-home-family-wall-decoration-paper-items-record",
+    toolUrl:
+      "https://net-toolbox.jp/tools/kaigo-parent-home-family-wall-decoration-paper-items-memo?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p88_tool",
+  },
+  {
     id: "p87",
     title: "高齢親の家の傘・雨具まわりメモ",
     description:
