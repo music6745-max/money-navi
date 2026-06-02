@@ -8,6 +8,7 @@ import { BreadcrumbJsonLd, ArticleJsonLd, FAQJsonLd } from "@/components/JsonLd"
 import { GuideRelatedLinks } from "@/components/GuideRelatedLinks";
 import { AdSenseUnit } from "@/components/AdSenseUnit";
 import { AffiliateCTA } from "@/components/AffiliateCTA";
+import { KaigoReferralCTA, getGuideReferralCta } from "@/components/KaigoReferralCTA";
 import { GuideContent } from "./GuideContent";
 import { getFaqsForGuide } from "@/lib/guideFaqs";
 
@@ -112,6 +113,7 @@ export default async function GuidePage(
   const reviewPolicy = getReviewPolicy(guide.category);
   // このガイドのカテゴリに属するツールから最大3件を関連ツールとして出す
   const relatedTools = tools.filter((t) => t.category === guide.category).slice(0, 3);
+  const referralCta = getGuideReferralCta(guide.slug);
 
   return (
     <article className="max-w-3xl mx-auto px-4 py-10">
@@ -218,6 +220,10 @@ export default async function GuidePage(
       )}
 
       <GuideContent slug={guide.slug} />
+
+      {referralCta && (
+        <KaigoReferralCTA cta={referralCta} page={guide.slug} />
+      )}
 
       {guide.slug === "japanese-stock-ranking-2026" && (
         <AffiliateCTA

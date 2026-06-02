@@ -4,6 +4,7 @@ import { BreadcrumbJsonLd, FAQJsonLd } from "@/components/JsonLd";
 import { KaigoDiagnosis } from "./KaigoDiagnosis";
 import { siteConfig } from "@/lib/tools";
 import { TrackedExternalLink } from "@/components/TrackedExternalLink";
+import { TrackedOfferLink } from "@/components/TrackedOfferLink";
 
 const pageTitle = "親のこと整理ナビ";
 const pageDescription =
@@ -24,6 +25,27 @@ const faqItems = [
     question: "医療、税務、相続の判断もできますか？",
     answer:
       "このページは家族内の整理と相談前準備を目的としています。医療、税務、相続、契約の最終判断は専門家や公的窓口に確認してください。",
+  },
+];
+
+const referralCards = [
+  {
+    offerId: "kaigo-senior-monitoring",
+    title: "一人暮らしの見守り",
+    description: "家族の連絡順と頻度を決めたうえで、見守りサービスの費用や契約条件を確認します。",
+    buttonText: "アイシルの公式情報を確認",
+  },
+  {
+    offerId: "kaigo-home-care-support",
+    title: "通院付き添い・自費介護",
+    description: "介護保険で足りない付き添い、夜間の見守り、家族の休息時間を整理してから確認します。",
+    buttonText: "イチロウの公式情報を確認",
+  },
+  {
+    offerId: "kaigo-estate-cleanout",
+    title: "実家片付け・生前整理",
+    description: "重要書類や写真を先に分け、片付けや見積依頼の前に対応範囲を確認します。",
+    buttonText: "遺品整理110番の情報を確認",
   },
 ];
 
@@ -646,6 +668,34 @@ export default function KaigoPage() {
               <h3 className="text-sm font-bold">{title}</h3>
               <p className="mt-2 text-xs leading-relaxed text-muted">{desc}</p>
             </TrackedExternalLink>
+          ))}
+        </div>
+      </section>
+
+      <section className="mb-6 rounded-lg border border-primary/25 bg-primary/5 p-5">
+        <div className="flex flex-col gap-1 sm:flex-row sm:items-end sm:justify-between">
+          <div>
+            <p className="text-xs font-bold text-primary">PR | 相談前の外部サービス確認</p>
+            <h2 className="text-xl font-bold">家族で条件を整理してから、必要なサービスだけ確認する</h2>
+          </div>
+          <p className="max-w-xl text-xs leading-relaxed text-muted">
+            料金、対応地域、契約条件は各公式情報で確認してください。このページでは、家族内で準備する項目に合わせて確認先を絞っています。
+          </p>
+        </div>
+        <div className="mt-4 grid grid-cols-1 gap-3 md:grid-cols-3">
+          {referralCards.map((card) => (
+            <div key={card.offerId} className="rounded-lg border border-card-border bg-background p-4">
+              <h3 className="text-sm font-bold">{card.title}</h3>
+              <p className="mt-2 text-xs leading-relaxed text-muted">{card.description}</p>
+              <TrackedOfferLink
+                offerId={card.offerId}
+                page="kaigo"
+                position="hub_referral_card"
+                className="mt-4 inline-flex items-center justify-center rounded-full bg-primary px-4 py-2 text-xs font-bold text-white transition-colors hover:bg-primary-hover"
+              >
+                {card.buttonText}
+              </TrackedOfferLink>
+            </div>
           ))}
         </div>
       </section>
