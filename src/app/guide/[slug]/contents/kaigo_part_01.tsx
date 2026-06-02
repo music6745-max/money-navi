@@ -2378,7 +2378,7 @@ export const guideContentsPart01: Record<string, ReactNode> = {
       <KaigoActionBox
         toolHref="https://net-toolbox.jp/tools/kaigo-parent-monitoring-cost-check?utm_source=toshi-navi&utm_medium=guide&utm_campaign=living_alone_parent_monitoring"
         toolLabel="見守り費用をチェックする"
-        boothHref="https://kaigo-okane.booth.pm/items/8409959"
+        boothHref="https://kaigo-okane.booth.pm/items/8409959?utm_source=toshi-navi&utm_medium=guide&utm_campaign=living-alone-parent-monitoring-cost-contact-system&utm_content=single_template"
         boothLabel="見守り連絡表テンプレートを見る"
       >
         <p>

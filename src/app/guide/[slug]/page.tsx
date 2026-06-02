@@ -21,6 +21,15 @@ const supplementalCtas: Record<
     highlight: string;
   }
 > = {
+  "living-alone-parent-monitoring-cost-contact-system": {
+    title: "見守り連絡表とあわせて使える介護テンプレートまとめ",
+    description:
+      "一人暮らし親の見守り連絡表に加えて、通院、入退院、家族の役割分担、費用、書類確認までまとめて整理したい家庭向けのセットです。必要なものから使えます。",
+    buttonText: "フルパックをBOOTHで見る",
+    href: "https://kaigo-okane.booth.pm/items/8383441?utm_source=toshi-navi&utm_medium=guide&utm_campaign=living-alone-parent-monitoring-cost-contact-system&utm_content=full_pack",
+    icon: "BOOTH",
+    highlight: "見守りから介護全体の整理へ",
+  },
   "parent-regular-delivery-package-receipt-record": {
   title: "介護のテンプレまとめ（フルパック）で実家管理メモもまとめて用意",
   description:
