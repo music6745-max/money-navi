@@ -1,0 +1,96 @@
+name: Codex P112 Money Patch
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - ".github/workflows/codex-p112-money.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: master
+          fetch-depth: 0
+      - name: Apply P112 patch and remove workflow
+        shell: bash
+        run: |
+          set -euo pipefail
+          cat > /tmp/codex-p112-money.patch.gz.b64 <<'PATCH_B64'
+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
+PATCH_B64
+          base64 -d /tmp/codex-p112-money.patch.gz.b64 | gunzip > /tmp/codex-p112-money.patch
+          git apply --binary /tmp/codex-p112-money.patch
+          rm -f .github/workflows/codex-p112-money.yml
+          git config user.name "codex-automation"
+          git config user.email "codex-automation@users.noreply.github.com"
+          git add -A src/app/guide/parent-favorite-music-songs-record/page.tsx src/app/kaigo/layout.tsx src/app/sitemap.ts .github/workflows/codex-p112-money.yml
+          git diff --cached --check
+          git commit -m "feat: add P112 favorite music guide"
+          git push origin HEAD:master
