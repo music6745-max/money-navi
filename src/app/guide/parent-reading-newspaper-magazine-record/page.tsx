@@ -93,7 +93,7 @@ export default function ParentReadingNewspaperMagazineRecordPage() {
       <section className="mb-8 rounded-xl border border-primary/20 bg-primary/5 p-5">
         <h2 className="mb-3 text-lg font-bold">まず無料メモで、最近読んでいるものを控える</h2>
         <p className="mb-4 text-sm leading-7 text-muted">
-          帰省や電話で、本、新聞、雑誌の話が出ても、あとる書名や紙名を思い出せないこがあります。
+          帰省や電話で、本、新聞、雑誌の話が出ても、あとから書名や紙名を思い出せないことがあります。
           細かい読書記録ではなく、家族が「あの話を聞いてみよう」と思い出せる短い控えにします。
         </p>
         <div className="flex flex-wrap gap-3">
@@ -159,7 +159,7 @@ export default function ParentReadingNewspaperMagazineRecordPage() {
             itemId="p111"
             className="rounded-md bg-primary px-4 py-2 text-sm font-bold text-white hover:opacity-90"
           >
-            P111姘品を見る
+            P111単品を見る
           </TrackedExternalLink>
           <TrackedExternalLink
             href={noteUrl}
