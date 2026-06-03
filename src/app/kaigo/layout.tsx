@@ -13,6 +13,17 @@ type SupplementalTemplate = {
 
 const supplementalTemplates: SupplementalTemplate[] = [
   {
+    id: "p112",
+    title: "高齢親の好きな音楽・歌メモ",
+    description:
+      "親が好きな曲、歌手、思い出の歌、会話に出る歌を、歌詞転載や契約判断ではなく、家族内で会話前に見返す手がかりとして控えます。",
+    boothUrl:
+      "https://kaigo-okane.booth.pm/items/8383153?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p112",
+    guidePath: "/guide/parent-favorite-music-songs-record",
+    toolUrl:
+      "https://net-toolbox.jp/tools/kaigo-parent-favorite-music-songs-memo?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p112_tool",
+  },
+  {
     id: "p111",
     title: "高齢親の読書・新聞・雑誌メモ",
     description:
