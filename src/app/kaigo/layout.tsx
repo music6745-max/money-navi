@@ -13,6 +13,17 @@ type SupplementalTemplate = {
 
 const supplementalTemplates: SupplementalTemplate[] = [
   {
+    id: "p116",
+    title: "高齢親の年中行事・季節の段取りメモ",
+    description:
+      "お正月、節分、節句、お盆前後、お月見、年越しなど、親の家で毎年していた流れを、正式な作法や宗派・地域差の判断ではなく、家族内で見返す段取りメモとして控えます。",
+    boothUrl:
+      "https://kaigo-okane.booth.pm/items/8383170?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p116",
+    guidePath: "/guide/parent-annual-events-seasonal-prep-record",
+    toolUrl:
+      "https://net-toolbox.jp/tools/kaigo-parent-annual-events-seasonal-prep-memo?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p116_tool",
+  },
+  {
     id: "p114",
     title: "高齢親の好きな食べ物・お菓子・飲み物メモ",
     description:
