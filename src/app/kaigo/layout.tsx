@@ -13,6 +13,17 @@ type SupplementalTemplate = {
 
 const supplementalTemplates: SupplementalTemplate[] = [
   {
+    id: "p114",
+    title: "高齢親の好きな食べ物・お菓子・飲み物メモ",
+    description:
+      "親が会話で話していた食べ物、お菓子、飲み物の好みを、食事判断や購入判断ではなく、家族内で会話前に見返す手がかりとして控えます。",
+    boothUrl:
+      "https://kaigo-okane.booth.pm/items/8383158?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p114",
+    guidePath: "/guide/parent-favorite-food-snacks-drinks-record",
+    toolUrl:
+      "https://net-toolbox.jp/tools/kaigo-parent-favorite-food-snacks-drinks-memo?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p114_tool",
+  },
+  {
     id: "p113",
     title: "高齢親のいつもの身の回り品・お気に入り小物メモ",
     description:
