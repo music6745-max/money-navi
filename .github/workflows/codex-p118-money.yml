@@ -1,0 +1,77 @@
+name: Codex P118 Money Patch
+
+on:
+  push:
+    paths:
+      - ".codex-triggers/p118-money.txt"
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Patch money P118 links
+        run: |
+          node <<'NODE'
+          const fs = require('fs');
+
+          function insertAfter(path, anchor, buildInsertion, marker) {
+            const text = fs.readFileSync(path, 'utf8');
+            if (text.includes(marker)) return;
+            const eol = text.includes('\r\n') ? '\r\n' : '\n';
+            const insertion = buildInsertion(eol);
+            const next = text.replace(anchor, (match) => match + insertion);
+            if (next === text) throw new Error('Anchor not found in ' + path);
+            fs.writeFileSync(path, next);
+          }
+
+          insertAfter(
+            'src/app/kaigo/layout.tsx',
+            /const supplementalTemplates: SupplementalTemplate\[\] = \[\r?\n/,
+            (eol) => [
+              '  {',
+              '    id: "p118",',
+              '    title: "高齢親が話す人の呼び方・関係性メモ",',
+              '    description:',
+              '      "親が会話で話す「○○おじさん」「△△ちゃん」などの呼び方を、連絡先管理や正式な続柄確認ではなく、家族内で誰の話か見返す控えとして整理します。",',
+              '    boothUrl:',
+              '      "https://kaigo-okane.booth.pm/items/8383174?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p118",',
+              '    guidePath: "/guide/parent-people-names-relationship-record",',
+              '    toolUrl:',
+              '      "https://net-toolbox.jp/tools/kaigo-parent-people-names-relationship-memo?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p118_tool",',
+              '  },',
+            ].join(eol) + eol,
+            'id: "p118"'
+          );
+
+          insertAfter(
+            'src/app/sitemap.ts',
+            /    \{ url: `\$\{base\}\/kaigo`, lastModified: now, changeFrequency: "weekly", priority: 0\.95 \},\r?\n/,
+            (eol) => [
+              '    {',
+              '      url: `${base}/guide/parent-people-names-relationship-record`,',
+              '      lastModified: now,',
+              '      changeFrequency: "monthly",',
+              '      priority: 0.5,',
+              '    },',
+            ].join(eol) + eol,
+            'parent-people-names-relationship-record'
+          );
+          NODE
+
+          git config user.name "codex-automation"
+          git config user.email "codex-automation@users.noreply.github.com"
+          git add src/app/kaigo/layout.tsx src/app/sitemap.ts
+          git rm -f .github/workflows/codex-p118-money.yml .codex-triggers/p118-money.txt
+          git status --short
+          if ! git diff --cached --quiet; then
+            git commit -m "Connect P118 people relationship guide links"
+            git push
+          else
+            echo "No staged changes"
+          fi
