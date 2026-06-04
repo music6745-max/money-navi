@@ -5,6 +5,7 @@ import { KaigoDiagnosis } from "./KaigoDiagnosis";
 import { siteConfig } from "@/lib/tools";
 import { TrackedExternalLink } from "@/components/TrackedExternalLink";
 import { TrackedOfferLink } from "@/components/TrackedOfferLink";
+import { KindleBooksCTA } from "@/components/KindleBooksCTA";
 
 const pageTitle = "親のこと整理ナビ";
 const pageDescription =
@@ -709,6 +710,8 @@ export default function KaigoPage() {
           ))}
         </div>
       </section>
+
+      <KindleBooksCTA page="kaigo" />
 
       <KaigoDiagnosis />
 
