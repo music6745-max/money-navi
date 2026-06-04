@@ -25,6 +25,13 @@ export const kindleBooks: KindleBook[] = [
     description:
       "受診同行メモ、服薬・既往歴の自己記録、緊急連絡先、ケアマネ相談、退院後の準備までを場面別に整理。",
   },
+  {
+    id: "K05",
+    asin: "B0H3Y4CVHY",
+    title: "遠距離介護の段取りノート",
+    description:
+      "離れて暮らす親の見守り・連絡・帰省の段取り、交通費や費用の分担までを、遠距離介護の場面別に整理。",
+  },
 ];
 
 function amazonHref(asin: string, page: string, id: string): string {
