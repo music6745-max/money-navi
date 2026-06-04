@@ -1,1 +1,0 @@
-trigger P118 money normalization 2026-06-04 JST
