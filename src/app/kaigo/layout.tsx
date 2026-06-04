@@ -13,6 +13,17 @@ type SupplementalTemplate = {
 
 const supplementalTemplates: SupplementalTemplate[] = [
   {
+    id: "p113",
+    title: "高齢親のいつもの身の回り品・お気に入り小物メモ",
+    description:
+      "親がふだん使っている湯飲み、座布団、室内履き、帽子、ハンカチなどを、品の評価や整理判断ではなく、家族内で見分ける手がかりとして控えます。",
+    boothUrl:
+      "https://kaigo-okane.booth.pm/items/8383157?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p113",
+    guidePath: "/guide/parent-everyday-personal-items-record",
+    toolUrl:
+      "https://net-toolbox.jp/tools/kaigo-parent-everyday-personal-items-memo?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p113_tool",
+  },
+  {
     id: "p112",
     title: "高齢親の好きな音楽・歌メモ",
     description:
