@@ -1,0 +1,38 @@
+name: Codex P118 Money Normalize
+
+on:
+  push:
+    paths:
+      - ".codex-triggers/p118-money-normalize.txt"
+
+permissions:
+  contents: write
+
+jobs:
+  normalize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Normalize P118 line endings
+        run: |
+          node <<'NODE'
+          const fs = require('fs');
+          for (const path of ['src/app/kaigo/layout.tsx', 'src/app/sitemap.ts']) {
+            const text = fs.readFileSync(path, 'utf8');
+            fs.writeFileSync(path, text.replace(/\r\n/g, '\n'));
+          }
+          NODE
+
+          git config user.name "codex-automation"
+          git config user.email "codex-automation@users.noreply.github.com"
+          git add src/app/kaigo/layout.tsx src/app/sitemap.ts
+          git rm -f .github/workflows/codex-p118-money-normalize.yml .codex-triggers/p118-money-normalize.txt
+          git status --short
+          if ! git diff --cached --quiet; then
+            git commit -m "Normalize P118 money link line endings"
+            git push
+          else
+            echo "No staged changes"
+          fi
