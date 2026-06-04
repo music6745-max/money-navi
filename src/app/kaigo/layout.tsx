@@ -13,6 +13,17 @@ type SupplementalTemplate = {
 
 const supplementalTemplates: SupplementalTemplate[] = [
   {
+    id: "p117",
+    title: "高齢親が話す思い出の場所・なじみの場所メモ",
+    description:
+      "昔住んでいた地域、よく通った店、家族で出かけた場所など、親が会話で話してくれた場所を、住所特定や旅行計画ではなく家族内で見返す思い出メモとして控えます。",
+    boothUrl:
+      "https://kaigo-okane.booth.pm/items/8383171?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p117",
+    guidePath: "/guide/parent-memory-familiar-places-record",
+    toolUrl:
+      "https://net-toolbox.jp/tools/kaigo-parent-memory-familiar-places-memo?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p117_tool",
+  },
+  {
     id: "p116",
     title: "高齢親の年中行事・季節の段取りメモ",
     description:
