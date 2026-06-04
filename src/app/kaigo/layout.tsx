@@ -13,6 +13,17 @@ type SupplementalTemplate = {
 
 const supplementalTemplates: SupplementalTemplate[] = [
   {
+    id: "p118",
+    title: "高齢親が話す人の呼び方・関係性メモ",
+    description:
+      "親が会話で話す「○○おじさん」「△△ちゃん」などの呼び方を、連絡先管理や正式な続柄確認ではなく、家族内で誰の話か見返す控えとして整理します。",
+    boothUrl:
+      "https://kaigo-okane.booth.pm/items/8383174?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p118",
+    guidePath: "/guide/parent-people-names-relationship-record",
+    toolUrl:
+      "https://net-toolbox.jp/tools/kaigo-parent-people-names-relationship-memo?utm_source=toshi-navi&utm_medium=hub&utm_campaign=kaigo_hub&utm_content=p118_tool",
+  },
+  {
     id: "p117",
     title: "高齢親が話す思い出の場所・なじみの場所メモ",
     description:
