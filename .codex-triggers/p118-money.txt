@@ -1,0 +1,1 @@
+trigger P118 money patch 2026-06-04 JST
