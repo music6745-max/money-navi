@@ -3898,6 +3898,16 @@ export const guideContentsPart02: Record<string, ReactNode> = {
           <li>乗換タイミングは満期日の1〜2ヶ月前から検討</li>
         </ul>
       </section>
+      <AffiliateCTA
+        title="まずは同条件で一括見積もり｜インズウェブ"
+        description="現在の等級・年齢条件・車種を入れて、複数社の保険料を同じ条件で比較。満期前の乗換候補を短時間で絞れます。"
+        buttonText="無料で自動車保険を一括見積もり"
+        href="/go/sbi-insweb-auto"
+        icon="🚗"
+        highlight="無料・比較は5分目安"
+        page="auto-insurance-comparison-2026"
+        position="intro_sbi_insweb_cta"
+      />
       <ComparisonTableCTA
         title="2026年 おすすめ自動車保険ランキング（ネット型）"
         page="auto-insurance-comparison-2026"
@@ -3993,6 +4003,7 @@ export const guideContentsPart02: Record<string, ReactNode> = {
         icon="🚗"
         highlight="無料・5分で完了"
         page="auto-insurance-comparison-2026"
+        position="footer_sbi_insweb_cta"
       />
       <section>
         <h2 className="text-xl font-bold mb-3">自動車保険選びのチェックリスト</h2>

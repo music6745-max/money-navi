@@ -12,6 +12,8 @@ interface AffiliateCTAProps {
   highlight?: string;
   /** The guide slug or page identifier, used for GA4 event grouping. */
   page?: string;
+  /** Distinguishes multiple CTAs on the same guide in GA4. */
+  position?: string;
 }
 
 export function AffiliateCTA({
@@ -23,13 +25,14 @@ export function AffiliateCTA({
   icon = "💡",
   highlight,
   page,
+  position = "affiliate_cta",
 }: AffiliateCTAProps) {
   const link = external ? (
     <a
       href={href}
       target="_blank"
       rel="nofollow sponsored noopener noreferrer"
-      onClick={onAffiliateClick({ page, position: "affiliate_cta", service: title, href })}
+      onClick={onAffiliateClick({ page, position, service: title, href })}
       className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-primary hover:bg-primary-hover text-white font-medium transition-colors"
     >
       {buttonText} →
