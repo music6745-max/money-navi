@@ -1,0 +1,116 @@
+name: Codex J3 Insurance CTA Sync
+
+on:
+  push:
+    paths:
+      - ".github/workflows/codex-j3-insurance-cta.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Apply J-3 insurance CTA patch
+        shell: python
+        run: |
+          from pathlib import Path
+
+          def replace_once(path, old, new, marker=None):
+              p = Path(path)
+              s = p.read_text(encoding="utf-8")
+              if marker and marker in s:
+                  return False
+              if old not in s:
+                  raise SystemExit(f"missing expected block in {path}")
+              p.write_text(s.replace(old, new, 1), encoding="utf-8")
+              return True
+
+          replace_once(
+              "src/components/AffiliateCTA.tsx",
+              "  /** The guide slug or page identifier, used for GA4 event grouping. */\n  page?: string;\n}",
+              "  /** The guide slug or page identifier, used for GA4 event grouping. */\n  page?: string;\n  /** Distinguishes multiple CTAs on the same guide in GA4. */\n  position?: string;\n}",
+              marker="position?: string;",
+          )
+          replace_once(
+              "src/components/AffiliateCTA.tsx",
+              "  highlight,\n  page,\n}: AffiliateCTAProps) {",
+              "  highlight,\n  page,\n  position = \"affiliate_cta\",\n}: AffiliateCTAProps) {",
+              marker="position = \"affiliate_cta\"",
+          )
+          replace_once(
+              "src/components/AffiliateCTA.tsx",
+              "onClick={onAffiliateClick({ page, position: \"affiliate_cta\", service: title, href })}",
+              "onClick={onAffiliateClick({ page, position, service: title, href })}",
+          )
+
+          replace_once(
+              "src/components/ComparisonTableCTA.tsx",
+              "  rank?: number;\n  badge?: string;\n}",
+              "  rank?: number;\n  badge?: string;\n  buttonText?: string;\n}",
+              marker="buttonText?: string;",
+          )
+          replace_once(
+              "src/components/ComparisonTableCTA.tsx",
+              "公式サイトで詳細を見る →",
+              "{service.buttonText ?? \"公式サイトで詳細を見る →\"}",
+              marker="service.buttonText ??",
+          )
+
+          replace_once(
+              "src/app/guide/[slug]/contents/kaigo_part_02.tsx",
+              "      </section>\n      <ComparisonTableCTA\n        title=\"2026年 おすすめ自動車保険ランキング（ネット型）\"",
+              "      </section>\n      <AffiliateCTA\n        title=\"まずは同条件で一括見積もり｜インズウェブ\"\n        description=\"現在の等級・年齢条件・車種を入れて、複数社の保険料を同じ条件で比較。満期前の乗換候補を短時間で絞れます。\"\n        buttonText=\"無料で自動車保険を一括見積もり\"\n        href=\"/go/sbi-insweb-auto\"\n        icon=\"🚗\"\n        highlight=\"無料・比較は5分目安\"\n        page=\"auto-insurance-comparison-2026\"\n        position=\"intro_sbi_insweb_cta\"\n      />\n      <ComparisonTableCTA\n        title=\"2026年 おすすめ自動車保険ランキング（ネット型）\"",
+              marker="intro_sbi_insweb_cta",
+          )
+          replace_once(
+              "src/app/guide/[slug]/contents/kaigo_part_02.tsx",
+              "        page=\"auto-insurance-comparison-2026\"\n      />",
+              "        page=\"auto-insurance-comparison-2026\"\n        position=\"footer_sbi_insweb_cta\"\n      />",
+              marker="footer_sbi_insweb_cta",
+          )
+
+          replace_once(
+              "src/app/guide/[slug]/contents/kaigo_part_04.tsx",
+              "      </section>\n      <ComparisonTableCTA\n        title=\"一括見積もりと主要ネット型の比較\"",
+              "      </section>\n      <AffiliateCTA\n        title=\"満期前にまとめて比較｜インズウェブ自動車保険\"\n        description=\"いまの等級・運転者範囲・車種をそろえて複数社を比較。更新前に差額を見てから、乗換えるか継続するかを判断できます。\"\n        buttonText=\"無料で一括見積もりする\"\n        href=\"/go/sbi-insweb-auto\"\n        icon=\"🚗\"\n        highlight=\"成果実績あり\"\n        page=\"car-insurance-compare-guide\"\n        position=\"intro_sbi_insweb_cta\"\n      />\n      <ComparisonTableCTA\n        title=\"一括見積もりと主要ネット型の比較\"",
+              marker="intro_sbi_insweb_cta",
+          )
+          replace_once(
+              "src/app/guide/[slug]/contents/kaigo_part_04.tsx",
+              "            href: \"/go/sbi-insweb-auto\",\n            badge: \"一括比較\",\n          },",
+              "            href: \"/go/sbi-insweb-auto\",\n            badge: \"一括比較\",\n            buttonText: \"無料で一括見積もりする →\",\n          },",
+              marker="buttonText: \"無料で一括見積もりする →\"",
+          )
+          replace_once(
+              "src/app/guide/[slug]/contents/kaigo_part_04.tsx",
+              "        page=\"car-insurance-compare-guide\"\n      />",
+              "        page=\"car-insurance-compare-guide\"\n        position=\"footer_sbi_insweb_cta\"\n      />",
+              marker="footer_sbi_insweb_cta",
+          )
+
+          for path, marker in [
+              ("src/components/AffiliateCTA.tsx", "position?: string;"),
+              ("src/components/ComparisonTableCTA.tsx", "buttonText?: string;"),
+              ("src/app/guide/[slug]/contents/kaigo_part_02.tsx", "intro_sbi_insweb_cta"),
+              ("src/app/guide/[slug]/contents/kaigo_part_04.tsx", "intro_sbi_insweb_cta"),
+          ]:
+              if marker not in Path(path).read_text(encoding="utf-8"):
+                  raise SystemExit(f"marker missing after patch: {path} {marker}")
+
+      - name: Check patch whitespace
+        run: git diff --check
+
+      - name: Commit source patch and remove temporary workflow
+        run: |
+          git config user.name "codex-connector"
+          git config user.email "music6745-max@users.noreply.github.com"
+          git rm .github/workflows/codex-j3-insurance-cta.yml
+          git add src/components/AffiliateCTA.tsx src/components/ComparisonTableCTA.tsx 'src/app/guide/[slug]/contents/kaigo_part_02.tsx' 'src/app/guide/[slug]/contents/kaigo_part_04.tsx'
+          git commit -m "fix: improve auto insurance cta conversion"
+          git push
