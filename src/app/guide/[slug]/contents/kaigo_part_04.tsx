@@ -2155,6 +2155,16 @@ export const guideContentsPart04: Record<string, ReactNode> = {
           自動車保険はダイレクト系（ネット販売）と代理店系で年間保険料が2〜5万円も違う。ダイレクト系（ソニー損保・SBI損保・三井ダイレクト）は代理店手数料なしで年3〜5万円、代理店系（東京海上・損保ジャパン）は手厚いサポート込みで年5〜10万円。等級・年齢条件・特約（対人無制限・弁護士費用等）の最適化で、年数万円の節約が可能です。
         </p>
       </section>
+      <AffiliateCTA
+        title="満期前にまとめて比較｜インズウェブ自動車保険"
+        description="いまの等級・運転者範囲・車種をそろえて複数社を比較。更新前に差額を見てから、乗換えるか継続するかを判断できます。"
+        buttonText="無料で一括見積もりする"
+        href="/go/sbi-insweb-auto"
+        icon="🚗"
+        highlight="成果実績あり"
+        page="car-insurance-compare-guide"
+        position="intro_sbi_insweb_cta"
+      />
       <ComparisonTableCTA
         title="一括見積もりと主要ネット型の比較"
         page="car-insurance-compare-guide"
@@ -2171,6 +2181,7 @@ export const guideContentsPart04: Record<string, ReactNode> = {
             ],
             href: "/go/sbi-insweb-auto",
             badge: "一括比較",
+            buttonText: "無料で一括見積もりする →",
           },
           {
             name: "ソニー損保（ダイレクト系No.1）",
@@ -2225,6 +2236,7 @@ export const guideContentsPart04: Record<string, ReactNode> = {
         icon="🚗"
         highlight="無料一括見積"
         page="car-insurance-compare-guide"
+        position="footer_sbi_insweb_cta"
       />
     </>
   ),

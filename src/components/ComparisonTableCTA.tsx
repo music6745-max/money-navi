@@ -8,6 +8,7 @@ interface Service {
   href: string;
   rank?: number;
   badge?: string;
+  buttonText?: string;
 }
 
 interface ComparisonTableCTAProps {
@@ -75,7 +76,7 @@ export function ComparisonTableCTA({ title, services, page }: ComparisonTableCTA
               })}
               className="inline-block px-5 py-2.5 rounded-full bg-primary hover:bg-primary-hover text-white font-medium text-sm transition-colors"
             >
-              公式サイトで詳細を見る →
+              {service.buttonText ?? "公式サイトで詳細を見る →"}
             </a>
           </div>
         ))}
