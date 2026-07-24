@@ -2,8 +2,15 @@ import type { ReactNode } from "react";
 import { ComparisonTableCTA } from "@/components/ComparisonTableCTA";
 import { AffiliateCTA } from "@/components/AffiliateCTA";
 import { DecisionBox } from "./helpers";
+import { AutoInsuranceConversionContent } from "./AutoInsuranceConversionContent";
 
 export const guideContentsPart02: Record<string, ReactNode> = {
+  "auto-insurance-comparison-2026": (
+    <AutoInsuranceConversionContent
+      page="auto-insurance-comparison-2026"
+      variant="overview"
+    />
+  ),
   "dividend-life-roadmap": (
     <>
       <section>
@@ -3875,7 +3882,7 @@ export const guideContentsPart02: Record<string, ReactNode> = {
       />
     </>
   ),
-  "auto-insurance-comparison-2026": (
+  "_legacy-auto-insurance-comparison-2026": (
     <>
       <section>
         <h2 className="text-xl font-bold mb-3">ネット型 vs 代理店型：保険料に年3万円差</h2>

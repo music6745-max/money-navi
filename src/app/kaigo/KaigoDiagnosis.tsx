@@ -1,9 +1,9 @@
 "use client";
 
-import { useMemo, useState } from "react";
-import { kaigoProducts, kaigoSituations, type KaigoProduct } from "@/lib/kaigoProducts";
-import { TrackedExternalLink } from "@/components/TrackedExternalLink";
+import { useState } from "react";
+import { kaigoSituations } from "@/lib/kaigoProducts";
 import { TrackedOfferLink } from "@/components/TrackedOfferLink";
+import { trackEvent } from "@/lib/tracking";
 
 const affiliateLabels: Record<string, { title: string; description: string; button: string }> = {
   "hoken-mammoth": {
@@ -16,33 +16,31 @@ const affiliateLabels: Record<string, { title: string; description: string; butt
     description: "贈与、相続、確定申告、親族間の精算で迷う場合は、資料を整理したうえで専門家に確認するのが安全です。",
     button: "税理士相談を確認する",
   },
-  "sbi-insweb-auto": {
-    title: "親の車や実家の車の保険を見直す",
-    description: "施設入所や免許返納を検討する段階では、車の維持費と自動車保険も確認対象になります。",
-    button: "自動車保険の見積もりを見る",
+  "kaigo-senior-monitoring": {
+    title: "一人暮らしの見守りサービスを確認",
+    description: "家族の連絡頻度と緊急時の動きを決めたうえで、見守り方法、料金、対応条件を比較します。",
+    button: "アイシルの公式情報を確認",
+  },
+  "kaigo-home-care-support": {
+    title: "通院付き添い・自費介護を確認",
+    description: "介護保険で足りない付き添い、夜間対応、家族の休息など、必要な時間と内容を整理して確認します。",
+    button: "イチロウの公式情報を確認",
+  },
+  "kaigo-estate-cleanout": {
+    title: "実家片付け・生前整理の見積条件を確認",
+    description: "残す書類や写真を先に分け、作業範囲、料金、追加費用、立ち会い条件を確認してから見積もります。",
+    button: "遺品整理110番の情報を確認",
   },
 };
 
 export function KaigoDiagnosis() {
   const [selectedId, setSelectedId] = useState(kaigoSituations[0]?.id ?? "");
   const selected = kaigoSituations.find((item) => item.id === selectedId) ?? kaigoSituations[0];
-  const recommendedProducts = useMemo(() => {
-    const productById = new Map<string, KaigoProduct>(kaigoProducts.map((product) => [product.id, product]));
-    const products: KaigoProduct[] = [];
-
-    for (const productId of selected.productIds) {
-      const product = productById.get(productId);
-      if (!product) continue;
-      products.push(product);
-    }
-
-    return products;
-  }, [selected.productIds]);
 
   return (
     <div className="grid grid-cols-1 gap-6 lg:grid-cols-[280px_1fr]">
       <aside className="rounded-lg border border-card-border bg-card-bg p-4">
-        <h2 className="text-base font-bold">今の状況を選ぶ</h2>
+        <h3 className="text-base font-bold">今の状況を選ぶ</h3>
         <div className="mt-4 space-y-2">
           {kaigoSituations.map((situation) => {
             const active = situation.id === selected.id;
@@ -50,7 +48,14 @@ export function KaigoDiagnosis() {
               <button
                 key={situation.id}
                 type="button"
-                onClick={() => setSelectedId(situation.id)}
+                onClick={() => {
+                  setSelectedId(situation.id);
+                  trackEvent("kaigo_diagnosis_select", {
+                    page: "kaigo",
+                    position: "situation_selector",
+                    situation_id: situation.id,
+                  });
+                }}
                 className={`w-full rounded-md border px-3 py-3 text-left text-sm transition ${
                   active
                     ? "border-primary bg-primary text-white"
@@ -70,12 +75,12 @@ export function KaigoDiagnosis() {
       <section className="min-w-0 rounded-lg border border-card-border bg-card-bg p-5">
         <div className="border-b border-card-border pb-4">
           <p className="text-xs font-bold text-primary">診断結果</p>
-          <h1 className="mt-1 text-2xl font-bold">{selected.shortLabel}から始める介護とお金の整理</h1>
+          <h3 className="mt-1 text-2xl font-bold">{selected.shortLabel}から始める介護とお金の整理</h3>
           <p className="mt-2 text-sm leading-relaxed text-muted">{selected.description}</p>
         </div>
 
         <div className="mt-5">
-          <h2 className="text-lg font-bold">最初にやること</h2>
+          <h4 className="text-lg font-bold">最初にやること</h4>
           <ol className="mt-3 grid grid-cols-1 gap-3 md:grid-cols-3">
             {selected.nextActions.map((action, index) => (
               <li key={action} className="rounded-md border border-card-border bg-background p-3">
@@ -86,94 +91,37 @@ export function KaigoDiagnosis() {
           </ol>
         </div>
 
-        <div className="mt-6">
-          <div className="flex flex-col gap-1 sm:flex-row sm:items-end sm:justify-between">
-            <div>
-              <h2 className="text-lg font-bold">おすすめテンプレート</h2>
-              <p className="text-sm text-muted">無料noteで確認してから、必要な単品またはセットを選べます。</p>
-            </div>
-            <TrackedExternalLink
-              href="https://note.com/mild_quail6092/n/n44b9de8bf4b7"
-              eventName="note_click"
-              page="kaigo"
-              position="compare_note_top"
-              itemId="note-compare"
-              className="text-sm font-bold text-primary hover:underline"
-            >
-              選び方を見る
-            </TrackedExternalLink>
-          </div>
-
-          <div className="mt-4 grid grid-cols-1 gap-4 md:grid-cols-2">
-            {recommendedProducts.map((product) => (
-              <article key={product.id} className="rounded-lg border border-card-border bg-background p-4">
-                <div className="flex flex-wrap items-center gap-2">
-                  <span className="rounded-full bg-primary/10 px-2 py-0.5 text-xs font-bold text-primary">
-                    {product.priceLabel}
-                  </span>
-                  {product.tags.slice(0, 2).map((tag) => (
-                    <span key={tag} className="rounded-full bg-card-bg px-2 py-0.5 text-xs text-muted">
-                      {tag}
-                    </span>
-                  ))}
-                </div>
-                <h3 className="mt-3 text-base font-bold">{product.title}</h3>
-                <p className="mt-2 text-sm leading-relaxed text-muted">{product.description}</p>
-                <div className="mt-4 flex flex-wrap gap-2">
-                  {product.boothUrl && (
-                    <TrackedExternalLink
-                      href={product.boothUrl}
-                      eventName="booth_click"
-                      page="kaigo"
-                      position="product_card"
-                      itemId={product.id}
-                      className="inline-flex items-center justify-center rounded-md bg-primary px-3 py-2 text-sm font-bold text-white hover:bg-primary-hover"
-                    >
-                      BOOTHで見る
-                    </TrackedExternalLink>
-                  )}
-                  {product.noteUrl && (
-                    <TrackedExternalLink
-                      href={product.noteUrl}
-                      eventName="note_click"
-                      page="kaigo"
-                      position="product_card"
-                      itemId={product.id}
-                      className="inline-flex items-center justify-center rounded-md border border-card-border px-3 py-2 text-sm font-bold hover:border-primary/40"
-                    >
-                      noteで読む
-                    </TrackedExternalLink>
-                  )}
-                </div>
-              </article>
-            ))}
-          </div>
-        </div>
-
         <div className="mt-6 rounded-lg border border-primary/20 bg-primary/5 p-4">
-          <h2 className="text-lg font-bold">外部相談が必要になりやすい項目</h2>
+          <h4 className="text-lg font-bold">条件に合う場合だけ確認するサービス</h4>
           <p className="mt-1 text-sm leading-relaxed text-muted">
-            このページは整理用です。保険、税務、相続、契約の最終判断は、整理した資料をもとに専門窓口で確認してください。
+            まず上の項目を整理し、家族だけでは埋められない部分がある場合に限って公式情報を確認してください。
           </p>
-          <div className="mt-4 grid grid-cols-1 gap-3 md:grid-cols-3">
-            {selected.affiliateOfferIds.map((offerId) => {
-              const label = affiliateLabels[offerId];
-              if (!label) return null;
-              return (
-                <TrackedOfferLink
-                  key={offerId}
-                  offerId={offerId}
-                  page="kaigo"
-                  position={`situation_${selected.id}`}
-                  className="block rounded-md border border-card-border bg-card-bg p-4 hover:border-primary/40"
-                >
-                  <h3 className="text-sm font-bold">{label.title}</h3>
-                  <p className="mt-2 text-xs leading-relaxed text-muted">{label.description}</p>
-                  <span className="mt-3 inline-block text-sm font-bold text-primary">{label.button}</span>
-                </TrackedOfferLink>
-              );
-            })}
-          </div>
+          {selected.affiliateOfferIds.length > 0 ? (
+            <div className="mt-4 grid grid-cols-1 gap-3 md:grid-cols-3">
+              {selected.affiliateOfferIds.map((offerId) => {
+                const label = affiliateLabels[offerId];
+                if (!label) return null;
+                return (
+                  <TrackedOfferLink
+                    key={offerId}
+                    offerId={offerId}
+                    page="kaigo"
+                    position={`situation_${selected.id}`}
+                    className="block rounded-md border border-card-border bg-card-bg p-4 hover:border-primary/40"
+                  >
+                    <h3 className="text-sm font-bold">{label.title}</h3>
+                    <p className="mt-2 text-xs leading-relaxed text-muted">{label.description}</p>
+                    <span className="mt-3 inline-block text-sm font-bold text-primary">{label.button}</span>
+                  </TrackedOfferLink>
+                );
+              })}
+            </div>
+          ) : (
+            <p className="mt-4 rounded-md border border-card-border bg-card-bg p-4 text-sm leading-relaxed text-muted">
+              この状況に直接対応する提携サービスは掲載していません。市区町村、地域包括支援センター、
+              担当ケアマネ、医療機関など、現在の公的・専門窓口へ確認してください。
+            </p>
+          )}
         </div>
       </section>
     </div>

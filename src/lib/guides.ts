@@ -1331,12 +1331,13 @@ const rawGuides: Guide[] = [
   },
   {
     slug: "auto-insurance-comparison-2026",
-    title: "【2026年】自動車保険おすすめ比較10社｜ネット型 vs 代理店型で年3万円節約",
-    description: "ソニー損保・SBI損保・チューリッヒ・アクサダイレクト等のダイレクト型自動車保険を徹底比較。等級・車種・年齢別の保険料シミュレーション、代理店型との違いを解説。",
+    title: "【2026年】自動車保険比較｜ネット型・代理店型を同条件で見積もる方法",
+    description: "自動車保険を、等級・車種・使用目的・運転者範囲・補償内容をそろえて比較する手順を解説。ネット型と代理店型の違い、一括見積もり後の確認項目を整理します。",
     icon: "🚗",
     category: "household",
     readTime: "12分",
     publishedAt: "2026-04-19",
+    updatedAt: "2026-07-24",
   },
   {
     slug: "ifa-service-comparison",
@@ -2897,12 +2898,13 @@ const rawGuides: Guide[] = [
   },
   {
     slug: "car-insurance-compare-guide",
-    title: "【2026年】自動車保険詳細比較｜ダイレクト系vs代理店系・等級制度・特約",
-    description: "自動車保険10社徹底比較。ダイレクト系（ソニー損保・SBI損保・三井ダイレクト）vs 代理店系（東京海上日動・損保ジャパン）、年齢条件・等級・特約の選び方、年2〜5万円の節約法まで。",
+    title: "【2026年】自動車保険の見直し手順｜補償・等級・運転者条件を比較",
+    description: "満期前に確認する補償、等級、運転者範囲、使用目的、事故対応を整理。同じ条件で複数社を見積もり、候補を絞ってから契約内容を確認する手順を解説します。",
     icon: "🚗",
     category: "household",
     readTime: "12分",
     publishedAt: "2026-04-20",
+    updatedAt: "2026-07-24",
   },
   {
     slug: "smartphone-carrier-compare-guide",

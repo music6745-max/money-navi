@@ -2,8 +2,15 @@ import type { ReactNode } from "react";
 import { ComparisonTableCTA } from "@/components/ComparisonTableCTA";
 import { AffiliateCTA } from "@/components/AffiliateCTA";
 import { DecisionBox } from "./helpers";
+import { AutoInsuranceConversionContent } from "./AutoInsuranceConversionContent";
 
 export const guideContentsPart04: Record<string, ReactNode> = {
+  "car-insurance-compare-guide": (
+    <AutoInsuranceConversionContent
+      page="car-insurance-compare-guide"
+      variant="detailed"
+    />
+  ),
   "smart-beta-etf-guide": (
     <>
       <section>
@@ -2147,7 +2154,7 @@ export const guideContentsPart04: Record<string, ReactNode> = {
       />
     </>
   ),
-  "car-insurance-compare-guide": (
+  "_legacy-car-insurance-compare-guide": (
     <>
       <section>
         <h2 className="text-xl font-bold mb-3">自動車保険詳細比較</h2>
