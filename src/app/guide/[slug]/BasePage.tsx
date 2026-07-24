@@ -101,8 +101,13 @@ function getReviewPolicy(category: string) {
   return policies[category] || common;
 }
 
+const autoInsuranceComparisonSlugs = new Set([
+  "auto-insurance-comparison-2026",
+  "car-insurance-compare-guide",
+]);
+
 function getComparisonPolicy(category: string, slug: string) {
-  if (slug.includes("insurance")) {
+  if (autoInsuranceComparisonSlugs.has(slug)) {
     return {
       title: "この比較でそろえる条件",
       points: [
