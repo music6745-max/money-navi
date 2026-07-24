@@ -2,8 +2,15 @@ import type { ReactNode } from "react";
 import { ComparisonTableCTA } from "@/components/ComparisonTableCTA";
 import { AffiliateCTA } from "@/components/AffiliateCTA";
 import { DecisionBox } from "./helpers";
+import { AutoInsuranceConversionContent } from "./AutoInsuranceConversionContent";
 
 export const guideContentsPart02: Record<string, ReactNode> = {
+  "auto-insurance-comparison-2026": (
+    <AutoInsuranceConversionContent
+      page="auto-insurance-comparison-2026"
+      variant="overview"
+    />
+  ),
   "dividend-life-roadmap": (
     <>
       <section>
@@ -501,14 +508,6 @@ export const guideContentsPart02: Record<string, ReactNode> = {
         href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+7VZT3U+4OCU+5ZMCH"
         icon="🌐"
         highlight="WEB完結"
-      />
-      <AffiliateCTA
-        title="【ジャパンマネジメント】スピード審査ファクタリング"
-        description="ジャパンマネジメントは新規ファクタリング契約で30,000円の最高水準報酬。スピード審査で法人経営者に人気。"
-        buttonText="スピード審査を受ける"
-        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+7YDJIY+3V6A+5YJRM"
-        icon="🚀"
-        highlight="契約30,000円"
       />
       <AffiliateCTA
         title="【えんナビ】売掛金を即日資金化"
@@ -3881,158 +3880,6 @@ export const guideContentsPart02: Record<string, ReactNode> = {
         icon="💻"
         highlight="完全無料"
       />
-    </>
-  ),
-  "auto-insurance-comparison-2026": (
-    <>
-      <section>
-        <h2 className="text-xl font-bold mb-3">ネット型 vs 代理店型：保険料に年3万円差</h2>
-        <p>
-          自動車保険は、ネット型（ダイレクト型）と代理店型で年間保険料に差が出ることがあります。代理店型は対面相談の安心感があり、ネット型は申込みや更新を自分で進める代わりに保険料を抑えやすいのが特徴です。例えば30代・6S等級・軽自動車なら、条件によって年数万円の差が出るケースもあります。
-        </p>
-        <ul className="list-disc list-inside space-y-1 text-sm">
-          <li>ネット型の保険料：代理店型の60〜75%</li>
-          <li>事故対応は会社ごとに差があるため、受付時間・初期対応・ロードサービス範囲を確認</li>
-          <li>ネット型の弱点：対面相談がないため、複雑な事故対応で不便さを感じる場合あり</li>
-          <li>代理店型の強み：複雑な車両改造・業務用利用などの特殊ケース</li>
-          <li>乗換タイミングは満期日の1〜2ヶ月前から検討</li>
-        </ul>
-      </section>
-      <AffiliateCTA
-        title="まずは同条件で一括見積もり｜インズウェブ"
-        description="現在の等級・年齢条件・車種を入れて、複数社の保険料を同じ条件で比較。満期前の乗換候補を短時間で絞れます。"
-        buttonText="無料で自動車保険を一括見積もり"
-        href="/go/sbi-insweb-auto"
-        icon="🚗"
-        highlight="無料・比較は5分目安"
-        page="auto-insurance-comparison-2026"
-        position="intro_sbi_insweb_cta"
-      />
-      <ComparisonTableCTA
-        title="2026年 おすすめ自動車保険ランキング（ネット型）"
-        page="auto-insurance-comparison-2026"
-        services={[
-          {
-            name: "ソニー損保",
-            rank: 1,
-            highlight: "走行距離で保険料変動｜ロードサービス業界最高水準",
-            features: [
-              "走行距離に応じた合理的な保険料設計",
-              "事故対応満足度 JDパワー19年連続No.1",
-              "無料ロードサービス（レッカー車最大150km無料）",
-              "ネット割引最大10,000円",
-            ],
-            href: "https://www.sonysonpo.co.jp/",
-            badge: "総合No.1",
-          },
-          {
-            name: "SBI損保",
-            rank: 2,
-            highlight: "業界最安水準｜SBIグループのブランド力",
-            features: [
-              "ダイレクト型の中でも最安クラスの保険料",
-              "SBI証券・楽天グループでも割引対象",
-              "ロードサービス充実（レッカー最大100km無料）",
-              "新規・継続とも2,500円割引",
-            ],
-            href: "https://www.sbisonpo.co.jp/",
-            badge: "最安水準",
-          },
-          {
-            name: "チューリッヒ",
-            rank: 3,
-            highlight: "海外展開の信頼感｜弁護士費用特約付帯",
-            features: [
-              "弁護士費用特約が基本セット（相手方との示談交渉で威力）",
-              "スーパー自動車保険なら夫婦の運転も補償",
-              "事故時の専門部隊対応が早い",
-              "ネット割最大21,000円",
-            ],
-            href: "https://www.zurich.co.jp/",
-          },
-          {
-            name: "アクサダイレクト",
-            rank: 4,
-            highlight: "世界最大級保険グループ｜若年層割引が手厚い",
-            features: [
-              "AXAグループ、世界64カ国1億500万人の顧客基盤",
-              "新規契約でネット割20,000円",
-              "23〜29歳の若年ドライバー向け保険料割引",
-              "24時間365日事故受付",
-            ],
-            href: "https://www.axa-direct.co.jp/",
-          },
-          {
-            name: "セゾン自動車火災（おとなの自動車保険）",
-            rank: 5,
-            highlight: "40〜50代に最適｜セゾンポイントが貯まる",
-            features: [
-              "40〜50代の安全運転層に優遇された保険料設計",
-              "セゾン・UC/NICOSカード会員はさらに割引",
-              "永久不滅ポイントが貯まる",
-              "ALSOK事故現場急行サービスが無料",
-            ],
-            href: "https://www.ins-saison.co.jp/otona/",
-          },
-        ]}
-      />
-      <DecisionBox
-        title="結論：満期前に3社以上を同条件で比べる"
-        points={[
-          "保険料だけでなく、対人・対物無制限、人身傷害、弁護士費用特約の有無を同じ条件で比較する。",
-          "車両保険は車の時価と貯蓄額で判断し、古い車では外す候補にする。",
-          "一括見積もりは乗換先を決める前の候補出しに向き、個別見積もりは最終確認に向く。",
-        ]}
-        note="代理店型からネット型へ変える場合も、事故時の連絡方法・ロードサービス範囲・家族の運転条件は必ず確認します。"
-      />
-      <section>
-        <h2 className="text-xl font-bold mb-3">一括見積もりサービスで最安値を見つける</h2>
-        <ul className="list-disc list-inside space-y-1 text-sm">
-          <li>インズウェブ：最大20社一括見積もり、乗換時の見積もり比較に</li>
-          <li>保険スクエアbang!：5〜10社比較、カーライフアドバイザーが電話相談可</li>
-          <li>保険の窓口インズウェブ：Yahoo!運営の一括サービス</li>
-          <li>各社への直接見積もりより効率的（所要時間5〜10分）</li>
-          <li>見積もり後のしつこい営業電話はない（最近の傾向）</li>
-        </ul>
-      </section>
-      <AffiliateCTA
-        title="複数社一括で最安値を発見｜自動車保険の無料見積もり"
-        description="ソニー損保・SBI損保・チューリッヒ・アクサダイレクト等を最大20社一括比較。車種・年齢・等級を入力するだけで、年間2〜5万円の節約につながる最適プランが見つかる。"
-        buttonText="自動車保険を一括見積り"
-        href="/go/sbi-insweb-auto"
-        icon="🚗"
-        highlight="無料・5分で完了"
-        page="auto-insurance-comparison-2026"
-        position="footer_sbi_insweb_cta"
-      />
-      <section>
-        <h2 className="text-xl font-bold mb-3">自動車保険選びのチェックリスト</h2>
-        <ol className="list-decimal list-inside space-y-2 text-sm">
-          <li><strong>対人・対物賠償無制限</strong>：絶対必須、上限設定はNG</li>
-          <li><strong>人身傷害補償</strong>：運転者・同乗者のケガに必要（搭乗者傷害より優先）</li>
-          <li><strong>車両保険</strong>：新車3年以内は必須、10年超の古い車は不要検討</li>
-          <li><strong>弁護士費用特約</strong>：示談交渉で相手方に強く出られる、年1,500〜3,000円</li>
-          <li><strong>家族限定・年齢条件</strong>：特約で保険料20〜30%削減</li>
-        </ol>
-      </section>
-      <AffiliateCTA
-        title="固定費まとめて最適化｜保険見直しラボ"
-        description="自動車保険だけでなく、生命・医療保険も合わせて見直すことで年30万円超の固定費削減に。FPが家計全体を無料診断、新NISA原資の捻出に最適。"
-        buttonText="保険見直しラボに無料相談"
-        href="https://px.a8.net/svt/ejp?a8mat=3Z6F6O+1YZZGQ+38BE+5YRHE"
-        icon="🛡️"
-        highlight="相談料完全無料"
-      />
-      <section>
-        <h2 className="text-xl font-bold mb-3">年齢・等級別の保険料目安（年間）</h2>
-        <ul className="list-disc list-inside space-y-1 text-sm">
-          <li>20代（新規6S等級・軽自動車）：年10〜15万円</li>
-          <li>30代（12〜15等級・コンパクトカー）：年5〜7万円</li>
-          <li>40代（17〜18等級・ミニバン）：年4〜6万円</li>
-          <li>50代（20等級・セダン）：年3〜5万円</li>
-          <li>60代（20等級・軽自動車）：年3〜4万円</li>
-        </ul>
-      </section>
     </>
   ),
   "ifa-service-comparison": (

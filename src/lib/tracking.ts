@@ -110,9 +110,21 @@ function normalizedUrlKey(href: string): string | undefined {
 }
 
 function findOfferByHref(href: string): Offer | undefined {
+  const exactMatch = offers.find(
+    (offer) => offer.affiliate_url === href || offer.official_url === href
+  );
+  if (exactMatch) return exactMatch;
+
+  // ASP URLs often share the same host/path and differ only in query parameters.
+  // Ignoring the query would attribute every such click to the first offer in the
+  // master list, so unknown ASP URLs must remain explicitly unmapped.
+  const provider = providerFromUrl(href);
+  if (["a8net", "moshimo", "valuecommerce", "rakuten"].includes(provider)) {
+    return undefined;
+  }
+
   const hrefKey = normalizedUrlKey(href);
   return offers.find((offer) => {
-    if (offer.affiliate_url === href || offer.official_url === href) return true;
     if (!hrefKey) return false;
     return [offer.affiliate_url, offer.official_url].some((url) => normalizedUrlKey(url) === hrefKey);
   });

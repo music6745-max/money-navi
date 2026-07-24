@@ -31,7 +31,7 @@ export async function generateMetadata(
   const guide = getGuideBySlug(slug);
   if (!guide) return {};
   return {
-    title: `${guide.title}｜${siteConfig.name}`,
+    title: guide.title,
     description: guide.description,
     alternates: { canonical: `${siteConfig.url}/guide/${guide.slug}` },
     openGraph: {
@@ -101,6 +101,50 @@ function getReviewPolicy(category: string) {
   return policies[category] || common;
 }
 
+const autoInsuranceComparisonSlugs = new Set([
+  "auto-insurance-comparison-2026",
+  "car-insurance-compare-guide",
+]);
+
+function getComparisonPolicy(category: string, slug: string) {
+  if (autoInsuranceComparisonSlugs.has(slug)) {
+    return {
+      title: "この比較でそろえる条件",
+      points: [
+        "補償条件：対人・対物、人身傷害、車両保険、免責金額を同じ条件にする",
+        "利用条件：運転者範囲、年齢条件、使用目的、年間走行距離をそろえる",
+        "事故時の支援：受付時間、初期対応、示談交渉、ロードサービスを確認する",
+        "切替条件：満期日、始期日、等級・事故有係数の引継ぎを契約先へ確認する",
+      ],
+      note: "補償・割引・引受条件は契約条件や保険会社によって異なります。申込み前に契約概要と重要事項説明を確認してください。",
+    };
+  }
+
+  if (category === "household") {
+    return {
+      title: "この比較で確認する項目",
+      points: [
+        "総額と月額：初期費用、継続費用、解約時の費用を分けて確認",
+        "利用条件：対象者、対象地域、年齢・契約期間などの条件を確認",
+        "変更・解約：更新時期、違約金、返金条件、手続方法を確認",
+        "サポート：問い合わせ方法、対応時間、トラブル時の窓口を確認",
+      ],
+      note: "料金や利用条件は変更されるため、申込み前に必ず各社の公式情報をご確認ください。",
+    };
+  }
+
+  return {
+    title: "このランキングの選定基準",
+    points: [
+      "手数料・運用コスト：長期利用時の負担を確認",
+      "取扱商品・選択肢：利用目的に合う選択肢があるか確認",
+      "操作性：申込み後も継続して使いやすいか確認",
+      "サポート体制・信頼性：登録、運営実績、問い合わせ窓口を確認",
+    ],
+    note: "本記事は公開情報をもとに編集しています。最新の手数料・仕様は必ず公式サイトでご確認ください。",
+  };
+}
+
 export default async function GuidePage(
   { params }: { params: Promise<{ slug: string }> }
 ) {
@@ -111,6 +155,7 @@ export default async function GuidePage(
   const faqs = getFaqsForGuide(guide.slug);
   const reviewedAt = guide.updatedAt || ADSENSE_REVIEWED_AT;
   const reviewPolicy = getReviewPolicy(guide.category);
+  const comparisonPolicy = getComparisonPolicy(guide.category, guide.slug);
   // このガイドのカテゴリに属するツールから最大3件を関連ツールとして出す
   const relatedTools = tools.filter((t) => t.category === guide.category).slice(0, 3);
   const referralCta = getGuideReferralCta(guide.slug);
@@ -176,26 +221,14 @@ export default async function GuidePage(
             判定基準と更新ポリシーをユニーク prose で追加する。 */}
       {(guide.slug.includes("ranking") || guide.slug.includes("comparison")) && (
         <section className="mb-6 border-l-4 border-primary bg-primary/5 pl-4 py-3 rounded-r">
-          <h2 className="text-sm font-bold mb-2">このランキングの選定基準</h2>
+          <h2 className="text-sm font-bold mb-2">{comparisonPolicy.title}</h2>
           <ul className="text-xs text-muted leading-relaxed space-y-1 list-disc list-inside">
-            <li>
-              <strong>手数料・運用コスト</strong>：長期運用で最も影響する項目を最優先で評価
-            </li>
-            <li>
-              <strong>取扱商品・銘柄数</strong>：選択肢の豊富さが将来の運用方針変更に対応できるか
-            </li>
-            <li>
-              <strong>アプリ・UIの使いやすさ</strong>：実際に長く使えるかはここで決まる
-            </li>
-            <li>
-              <strong>ポイント還元・キャンペーン</strong>：クレカ積立など差がつく仕様を加点評価
-            </li>
-            <li>
-              <strong>サポート体制・信頼性</strong>：金融庁登録、運営年数、問い合わせ対応の実績
-            </li>
+            {comparisonPolicy.points.map((point) => (
+              <li key={point}>{point}</li>
+            ))}
           </ul>
           <p className="text-xs text-muted mt-2">
-            本記事は <time dateTime={guide.publishedAt}>{guide.publishedAt}</time> 時点の公開情報をもとに編集しています。各社の手数料・仕様は随時変更されるため、最新情報は必ず公式サイトでご確認ください。
+            {comparisonPolicy.note}
           </p>
         </section>
       )}

@@ -2,8 +2,15 @@ import type { ReactNode } from "react";
 import { ComparisonTableCTA } from "@/components/ComparisonTableCTA";
 import { AffiliateCTA } from "@/components/AffiliateCTA";
 import { DecisionBox } from "./helpers";
+import { AutoInsuranceConversionContent } from "./AutoInsuranceConversionContent";
 
 export const guideContentsPart04: Record<string, ReactNode> = {
+  "car-insurance-compare-guide": (
+    <AutoInsuranceConversionContent
+      page="car-insurance-compare-guide"
+      variant="detailed"
+    />
+  ),
   "smart-beta-etf-guide": (
     <>
       <section>
@@ -2144,99 +2151,6 @@ export const guideContentsPart04: Record<string, ReactNode> = {
         href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
         icon="🎓"
         highlight="業界No.1"
-      />
-    </>
-  ),
-  "car-insurance-compare-guide": (
-    <>
-      <section>
-        <h2 className="text-xl font-bold mb-3">自動車保険詳細比較</h2>
-        <p>
-          自動車保険はダイレクト系（ネット販売）と代理店系で年間保険料が2〜5万円も違う。ダイレクト系（ソニー損保・SBI損保・三井ダイレクト）は代理店手数料なしで年3〜5万円、代理店系（東京海上・損保ジャパン）は手厚いサポート込みで年5〜10万円。等級・年齢条件・特約（対人無制限・弁護士費用等）の最適化で、年数万円の節約が可能です。
-        </p>
-      </section>
-      <AffiliateCTA
-        title="満期前にまとめて比較｜インズウェブ自動車保険"
-        description="いまの等級・運転者範囲・車種をそろえて複数社を比較。更新前に差額を見てから、乗換えるか継続するかを判断できます。"
-        buttonText="無料で一括見積もりする"
-        href="/go/sbi-insweb-auto"
-        icon="🚗"
-        highlight="成果実績あり"
-        page="car-insurance-compare-guide"
-        position="intro_sbi_insweb_cta"
-      />
-      <ComparisonTableCTA
-        title="一括見積もりと主要ネット型の比較"
-        page="car-insurance-compare-guide"
-        services={[
-          {
-            name: "インズウェブ自動車保険一括見積",
-            rank: 1,
-            highlight: "最大20社をまとめて比較｜乗換候補の洗い出し向き",
-            features: [
-              "複数社の見積もりを一度に比較",
-              "満期1〜2か月前の乗換検討に使いやすい",
-              "年齢・等級・車種条件ごとの差額を確認しやすい",
-              "無料で比較候補を絞り込める",
-            ],
-            href: "/go/sbi-insweb-auto",
-            badge: "一括比較",
-            buttonText: "無料で一括見積もりする →",
-          },
-          {
-            name: "ソニー損保（ダイレクト系No.1）",
-            rank: 2,
-            highlight: "走行距離制｜ネット型の代表格",
-            features: [
-              "走行距離による保険料調整",
-              "ロードサービスが充実",
-              "ネット型の比較候補として知名度が高い",
-              "インズウェブで他社と並べて確認しやすい",
-            ],
-            href: "https://www.sonysonpo.co.jp/",
-          },
-          {
-            name: "SBI損保（ネット専業最安級）",
-            rank: 3,
-            highlight: "SBIグループ｜ネット完結型",
-            features: [
-              "ネット完結で見積もりしやすい",
-              "対人・対物無制限を基本に検討",
-              "SBIグループの安心感",
-              "他社見積もりと保険料差を比較したい人向き",
-            ],
-            href: "https://www.sbisonpo.co.jp/",
-          },
-        ]}
-      />
-      <DecisionBox
-        title="結論：保険会社名で選ぶ前に条件をそろえる"
-        points={[
-          "現在の等級、年齢条件、運転者範囲、年間走行距離をそろえると、保険料差の理由が見えやすい。",
-          "最初に一括見積もりで候補を広げ、上位2〜3社だけ補償内容を細かく確認する。",
-          "満期直前では選択肢が狭くなるため、更新日の1〜2か月前に見積もりを取る。",
-        ]}
-        note="事故対応やロードサービスの違いは、保険料の安さだけでは比較できないため、補償条件と一緒に確認します。"
-      />
-      <section>
-        <h2 className="text-xl font-bold mb-3">保険料節約の5つのポイント</h2>
-        <ul className="list-disc list-inside space-y-2 text-sm">
-          <li>①ダイレクト系に乗換え（年2〜5万円削減）</li>
-          <li>②年齢条件最大化（全年齢→35歳以上で30%減）</li>
-          <li>③運転者限定（家族限定・本人限定で5〜10%減）</li>
-          <li>④特約整理（不要な車両保険・人身傷害を削減）</li>
-          <li>⑤等級最大化（20等級到達で最大63%割引）</li>
-        </ul>
-      </section>
-      <AffiliateCTA
-        title="自動車保険はインズウェブで一括見積もり"
-        description="ソニー損保・SBI損保などのネット型を含め、複数社の見積もりをまとめて比較。年齢・等級・車種を入力して、いまの保険料との差額を確認できます。"
-        buttonText="インズウェブで無料見積もり"
-        href="/go/sbi-insweb-auto"
-        icon="🚗"
-        highlight="無料一括見積"
-        page="car-insurance-compare-guide"
-        position="footer_sbi_insweb_cta"
       />
     </>
   ),

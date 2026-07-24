@@ -681,9 +681,9 @@ export const kaigoSituations: KaigoSituation[] = [
     nextActions: [
       "親の基本情報、かかりつけ、服薬、緊急連絡先を1枚にまとめる",
       "口座、保険、年金、介護費用の見込みを家族で確認できる形にする",
-      "迷う場合は単品ではなく、はじめの3点セットか備えまとめキットから始める",
+      "無料ツールで不足項目を整理し、医療・介護・契約の判断は担当窓口へ確認する",
     ],
-    affiliateOfferIds: ["hoken-mammoth"],
+    affiliateOfferIds: [],
   },
   {
     id: "living-alone",
@@ -696,7 +696,7 @@ export const kaigoSituations: KaigoSituation[] = [
       "通信費、訪問交通費、配食や見守りサービス費、緊急時の立替を分けて記録する",
       "保険証、お薬手帳、鍵、近所の連絡先など、もしもの時に必要な情報を1か所にまとめる",
     ],
-    affiliateOfferIds: ["hoken-mammoth"],
+    affiliateOfferIds: ["kaigo-senior-monitoring"],
   },
   {
     id: "disaster-prep",
@@ -710,7 +710,7 @@ export const kaigoSituations: KaigoSituation[] = [
       "家族、近所、かかりつけ医、薬局、ケアマネ、介護事業所の連絡先を1か所にまとめる",
       "避難先や福祉避難所の利用可否、災害時の行動は自治体や公式情報で確認する",
     ],
-    affiliateOfferIds: ["hoken-mammoth"],
+    affiliateOfferIds: [],
   },
   {
     id: "money",
@@ -736,7 +736,7 @@ export const kaigoSituations: KaigoSituation[] = [
       "病院、ケアマネ、施設との連絡窓口を決める",
       "決まったことだけでなく、未決事項も次回確認リストとして残す",
     ],
-    affiliateOfferIds: ["hoken-mammoth"],
+    affiliateOfferIds: [],
   },
   {
     id: "family-handover",
@@ -750,7 +750,7 @@ export const kaigoSituations: KaigoSituation[] = [
       "帰省や当番交代の後に、決まったこと・未決のこと・次の担当をまとめる",
       "医療や介護サービスの判断は家族内で決め切らず、担当窓口や専門職へ確認する",
     ],
-    affiliateOfferIds: ["hoken-mammoth"],
+    affiliateOfferIds: [],
   },
   {
     id: "family-duty-role-share",
@@ -764,7 +764,7 @@ export const kaigoSituations: KaigoSituation[] = [
       "月ごとの当番（誰がいつ担当するか）と、訪問・連絡の予定だけ先に決める",
       "実績と変更を短く残し、半年ごとなどの見直しタイミングで更新する",
     ],
-    affiliateOfferIds: ["hoken-mammoth"],
+    affiliateOfferIds: [],
   },
   {
     id: "caregiver-rest",
@@ -778,7 +778,7 @@ export const kaigoSituations: KaigoSituation[] = [
       "負担が重い曜日・時間帯・作業を分け、家族へ頼みたいことを具体化する",
       "強い疲労、不眠、つらさ、安全面の不安がある場合は、医療機関、自治体、地域包括支援センター、勤務先窓口へ相談する",
     ],
-    affiliateOfferIds: ["hoken-mammoth"],
+    affiliateOfferIds: ["kaigo-home-care-support"],
   },
   {
     id: "home-appliance-manuals",
@@ -792,7 +792,7 @@ export const kaigoSituations: KaigoSituation[] = [
       "よく使うリモコン操作、取扱説明書や保証書の保管場所、型番、購入店を短く書き留める",
       "設備操作、修理、配線、工事、点検、秘密情報の記録は避け、必要時はメーカー窓口や専門業者の案内を確認する",
     ],
-    affiliateOfferIds: ["hoken-mammoth"],
+    affiliateOfferIds: [],
   },
   {
     id: "home-storage-map",
@@ -806,7 +806,7 @@ export const kaigoSituations: KaigoSituation[] = [
       "棚・引き出しの段など「探す手がかり」だけを残し、秘密情報や設備操作のメモは作らない",
       "変更があったら更新するルールと、次の帰省日など見直しタイミングを決める",
     ],
-    affiliateOfferIds: ["hoken-mammoth"],
+    affiliateOfferIds: ["kaigo-estate-cleanout"],
   },
   {
     id: "clothes-bedding-season-size",
@@ -820,7 +820,7 @@ export const kaigoSituations: KaigoSituation[] = [
       "サイズ、季節替えのタイミング、予備の有無をメモし、次の確認日を決める",
       "施設やサービスの持ち物ルール、洗濯・管理の判断は、利用先の案内や担当窓口へ確認する",
     ],
-    affiliateOfferIds: ["hoken-mammoth"],
+    affiliateOfferIds: [],
   },
   {
     id: "housework-routine",
@@ -834,7 +834,7 @@ export const kaigoSituations: KaigoSituation[] = [
       "家族が入れ替わっても困らないよう、担当者、場所、気をつける点を短くメモする",
       "設備操作、安全判断、秘密情報の記録は避け、必要な場合は公式案内や専門業者へ確認する",
     ],
-    affiliateOfferIds: ["hoken-mammoth"],
+    affiliateOfferIds: ["kaigo-home-care-support"],
   },
   {
     id: "consumables-stock",
@@ -848,7 +848,7 @@ export const kaigoSituations: KaigoSituation[] = [
       "残り少ないもの、次回買うもの、購入先、担当する家族をメモする",
       "医薬品、治療用品、専門用品の判断は医師、薬剤師、訪問看護師、ケアマネなどへ確認する",
     ],
-    affiliateOfferIds: ["hoken-mammoth"],
+    affiliateOfferIds: [],
   },
   {
     id: "medical-contact-medicine-info",
@@ -862,7 +862,7 @@ export const kaigoSituations: KaigoSituation[] = [
       "薬袋やお薬手帳を見ながら、薬の名前、用法メモ、確認日を転記する",
       "飲み合わせ、副作用、用法、服薬変更、受診要否は医師や薬剤師へ確認する",
     ],
-    affiliateOfferIds: ["hoken-mammoth"],
+    affiliateOfferIds: [],
   },
   {
     id: "meal-water-weight",
@@ -876,7 +876,7 @@ export const kaigoSituations: KaigoSituation[] = [
       "週ごとに気になった変化と、受診時やケアマネへ伝えたいことをまとめる",
       "食事量、水分量、体重変化、栄養状態、病気の判断は医療職や専門窓口へ相談する",
     ],
-    affiliateOfferIds: ["hoken-mammoth"],
+    affiliateOfferIds: [],
   },
   {
     id: "welfare-equipment",
@@ -890,7 +890,7 @@ export const kaigoSituations: KaigoSituation[] = [
       "気になる道具名、パンフレットや見積で見た情報、家族の心配ごとをメモする",
       "給付可否、対象品目、自己負担額、本人への適合は、ケアマネ、福祉用具事業者、市区町村窓口へ確認する",
     ],
-    affiliateOfferIds: ["hoken-mammoth"],
+    affiliateOfferIds: [],
   },
   {
     id: "memory",
@@ -903,7 +903,7 @@ export const kaigoSituations: KaigoSituation[] = [
       "本人の様子と、家族が実際に困っていることを分ける",
       "地域包括支援センター、かかりつけ医、もの忘れ外来へ相談したい内容を整理する",
     ],
-    affiliateOfferIds: ["hoken-mammoth"],
+    affiliateOfferIds: ["kaigo-senior-monitoring"],
   },
   {
     id: "certification-renewal",
@@ -916,7 +916,7 @@ export const kaigoSituations: KaigoSituation[] = [
       "本人ができる日と難しい日、家族が実際に対応していることを分ける",
       "更新手続きの時期、必要書類、相談先は市区町村窓口または担当ケアマネへ確認する",
     ],
-    affiliateOfferIds: ["hoken-mammoth"],
+    affiliateOfferIds: [],
   },
   {
     id: "short-stay",
@@ -929,7 +929,7 @@ export const kaigoSituations: KaigoSituation[] = [
       "日常ルーティン、食事、排泄、睡眠、コミュニケーションの特徴を短くまとめる",
       "利用後の振り返りを残し、次回の準備漏れを減らす",
     ],
-    affiliateOfferIds: ["hoken-mammoth"],
+    affiliateOfferIds: [],
   },
   {
     id: "day-service",
@@ -942,7 +942,7 @@ export const kaigoSituations: KaigoSituation[] = [
       "食事、水分、入浴、排泄、疲れやすい時間、声かけの仕方を短くまとめる",
       "利用後の様子を残し、定期利用で毎回迷う確認事項を減らす",
     ],
-    affiliateOfferIds: ["hoken-mammoth"],
+    affiliateOfferIds: [],
   },
   {
     id: "weekly-service-schedule",
@@ -956,7 +956,7 @@ export const kaigoSituations: KaigoSituation[] = [
       "変更・休止があった日は、対象日、連絡元、確認したことを残す",
       "サービスの追加や調整は家族内で決め切らず、担当ケアマネや各事業所へ確認する",
     ],
-    affiliateOfferIds: ["hoken-mammoth"],
+    affiliateOfferIds: [],
   },
   {
     id: "monthly-family-calendar",
@@ -970,7 +970,7 @@ export const kaigoSituations: KaigoSituation[] = [
       "誰が連絡、付き添い、買い物、見守りを担うかを決定済みと未定で分ける",
       "変更や負担の偏りは家族内で共有し、サービス調整はケアマネや各事業所へ確認する",
     ],
-    affiliateOfferIds: ["hoken-mammoth"],
+    affiliateOfferIds: [],
   },
   {
     id: "care-manager-meeting-after",
@@ -984,7 +984,7 @@ export const kaigoSituations: KaigoSituation[] = [
       "誰がいつまでに連絡、書類確認、本人確認をするか担当を決める",
       "サービス変更や契約、介護保険上の扱いは担当ケアマネや各事業所へ確認する",
     ],
-    affiliateOfferIds: ["hoken-mammoth"],
+    affiliateOfferIds: [],
   },
   {
     id: "home-visit-care",
@@ -998,7 +998,7 @@ export const kaigoSituations: KaigoSituation[] = [
       "ヘルパーへの指示ではなく、ケアマネや事業所へ確認する事項として残す",
       "同じ気づきが続く場合は週まとめにして、次回面談や事業所連絡で確認する",
     ],
-    affiliateOfferIds: ["hoken-mammoth"],
+    affiliateOfferIds: ["kaigo-home-care-support"],
   },
   {
     id: "fall-near-miss",
@@ -1011,7 +1011,7 @@ export const kaigoSituations: KaigoSituation[] = [
       "痛み、けが、急な変化が気になる場合は、家族内で判断せず医療機関や救急相談窓口へ確認する",
       "段差、照明、手すり、トイレまでの動線などを事実として書き出し、ケアマネや専門職へ相談する",
     ],
-    affiliateOfferIds: ["hoken-mammoth"],
+    affiliateOfferIds: ["kaigo-senior-monitoring"],
   },
   {
     id: "clinic-visit",
@@ -1024,7 +1024,7 @@ export const kaigoSituations: KaigoSituation[] = [
       "医師や薬剤師へ確認したいことを、受診前に質問メモとしてまとめる",
       "受診後は説明内容、次回予定、家族に共有することをその日のうちに残す",
     ],
-    affiliateOfferIds: ["hoken-mammoth"],
+    affiliateOfferIds: ["kaigo-home-care-support"],
   },
   {
     id: "post-discharge-month",
@@ -1037,7 +1037,7 @@ export const kaigoSituations: KaigoSituation[] = [
       "ケアマネ、訪問看護師、ヘルパーから伝えられたことを家族内で共有する",
       "急な変化や受診の迷いは家族内で判断せず、医療職や救急相談窓口へ確認する",
     ],
-    affiliateOfferIds: ["hoken-mammoth"],
+    affiliateOfferIds: ["kaigo-home-care-support"],
   },
   {
     id: "work",
@@ -1050,7 +1050,7 @@ export const kaigoSituations: KaigoSituation[] = [
       "介護休業や休暇の結論を急がず、希望する働き方と確認したい制度を分ける",
       "家族内で自分が担えること、担えないこと、職場相談後に再確認することを残す",
     ],
-    affiliateOfferIds: ["hoken-mammoth"],
+    affiliateOfferIds: ["kaigo-home-care-support"],
   },
   {
     id: "hospital",
@@ -1063,7 +1063,7 @@ export const kaigoSituations: KaigoSituation[] = [
       "ケアマネや病院に聞くことを事前にリスト化する",
       "退院後の生活費、通院費、介護サービス費の見込みを家族で共有する",
     ],
-    affiliateOfferIds: ["hoken-mammoth"],
+    affiliateOfferIds: ["kaigo-home-care-support"],
   },
   {
     id: "facility",
@@ -1076,7 +1076,7 @@ export const kaigoSituations: KaigoSituation[] = [
       "見学時に聞くことと、見学後に確認することを分けて残す",
       "実家の書類、保険、車、公共料金の整理も並行して洗い出す",
     ],
-    affiliateOfferIds: ["hoken-mammoth", "sbi-insweb-auto"],
+    affiliateOfferIds: ["kaigo-estate-cleanout"],
   },
   {
     id: "facility-after-admission",
@@ -1090,7 +1090,7 @@ export const kaigoSituations: KaigoSituation[] = [
       "差し入れや持ち物は、施設へ確認した可否や条件も一緒に書く",
       "契約、費用、入退所、医療判断に関わることは施設や担当窓口へ確認する",
     ],
-    affiliateOfferIds: ["hoken-mammoth"],
+    affiliateOfferIds: ["kaigo-estate-cleanout"],
   },
   {
     id: "distance",
@@ -1103,6 +1103,6 @@ export const kaigoSituations: KaigoSituation[] = [
       "親の医療、服薬、介護サービス、鍵、近所の連絡先を共有する",
       "電話やLINEで決めたことを、あとで見返せるメモに残す",
     ],
-    affiliateOfferIds: ["hoken-mammoth"],
+    affiliateOfferIds: ["kaigo-senior-monitoring", "kaigo-home-care-support"],
   },
 ];
