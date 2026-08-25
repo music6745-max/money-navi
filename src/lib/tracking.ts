@@ -13,6 +13,14 @@ declare global {
 
 type EventParams = Record<string, string | number | boolean | undefined>;
 
+type TrackedClickEventName =
+  | "affiliate_click"
+  | "outbound_click"
+  | "internal_referral_click";
+
+const SITE_ORIGIN = "https://toshi-navi.jp";
+const SISTER_SITE_HOSTS = new Set(["net-toolbox.jp", "ai-tools-navi.jp"]);
+
 /**
  * Fire a GA4 event. Falls back to dataLayer push if gtag isn't present.
  * Safe to call during SSR (no-op).
@@ -99,7 +107,7 @@ function offerIdFromGoHref(href: string): string | undefined {
 
 function normalizedUrlKey(href: string): string | undefined {
   try {
-    const url = new URL(href, "https://toshi-navi.jp");
+    const url = new URL(href, SITE_ORIGIN);
     url.hash = "";
     url.search = "";
     const pathname = url.pathname.replace(/\/$/, "") || "/";
@@ -138,7 +146,7 @@ function resolveOfferFromHref(href: string, offerId?: string): Offer | undefined
 
 function fallbackOfferIdFromUrl(href: string): string | undefined {
   try {
-    const url = new URL(href, "https://toshi-navi.jp");
+    const url = new URL(href, SITE_ORIGIN);
     const provider = providerFromUrl(url.href);
     if (provider === "a8net") {
       const a8mat = url.searchParams.get("a8mat");
@@ -153,8 +161,56 @@ function fallbackOfferIdFromUrl(href: string): string | undefined {
   }
 }
 
+function hostnameFromHref(href: string): string | undefined {
+  try {
+    return new URL(href, SITE_ORIGIN).hostname.toLowerCase();
+  } catch {
+    return undefined;
+  }
+}
+
+function isKnownAffiliateUrl(href: string): boolean {
+  const hostname = hostnameFromHref(href);
+  if (!hostname) return false;
+  return (
+    hostname === "px.a8.net" ||
+    hostname === "af.moshimo.com" ||
+    hostname === "hb.afl.rakuten.co.jp" ||
+    hostname === "vc.aforest.jp" ||
+    hostname.endsWith(".vc.aforest.jp") ||
+    hostname.includes("valuecommerce")
+  );
+}
+
+function classifyTrackedClick(
+  href: string,
+  offer: Offer | undefined
+): TrackedClickEventName | null {
+  const goOfferId = offerIdFromGoHref(href);
+  if (goOfferId) {
+    return offer?.status === "active" ? "affiliate_click" : null;
+  }
+
+  const hostname = hostnameFromHref(href);
+  if (!hostname) return null;
+  if (SISTER_SITE_HOSTS.has(hostname)) return "internal_referral_click";
+  if (hostname === "toshi-navi.jp" || hostname === "www.toshi-navi.jp") return null;
+
+  const isActiveOfferDestination =
+    offer?.status === "active" &&
+    offer.provider !== "direct" &&
+    offer.affiliate_url === href;
+  if (isActiveOfferDestination || isKnownAffiliateUrl(href)) {
+    return "affiliate_click";
+  }
+  return "outbound_click";
+}
+
 /**
- * Common handler for affiliate click events.
+ * Common handler for CTA click events.
+ * Only active/recognizable revenue links become `affiliate_click`.
+ * Official external links and sister-site referrals use separate events so
+ * they never inflate the monetized-click denominator.
  * Attach to <a onClick={onAffiliateClick(...)}>.
  */
 export function onAffiliateClick(params: {
@@ -166,20 +222,24 @@ export function onAffiliateClick(params: {
 }) {
   return () => {
     const offer = resolveOfferFromHref(params.href, params.offerId);
-    const url = offer?.affiliate_url ?? params.href;
-    const provider = offer
-      ? offer.provider === "direct"
-        ? "direct"
-        : providerFromUrl(offer.affiliate_url)
-      : providerFromUrl(params.href);
-    trackEvent("affiliate_click", {
+    const eventName = classifyTrackedClick(params.href, offer);
+    if (!eventName) return;
+
+    const isOfferRedirect = Boolean(offerIdFromGoHref(params.href));
+    const trackedUrl =
+      eventName === "affiliate_click" && isOfferRedirect && offer
+        ? offer.affiliate_url
+        : params.href;
+    const provider = providerFromUrl(trackedUrl);
+    trackEvent(eventName, {
       page: params.page,
       position: params.position,
       service: offer?.service ?? params.service,
       offer_id: offer?.id ?? fallbackOfferIdFromUrl(params.href),
       provider,
       status: offer?.status,
-      url: url.slice(0, 200),
+      destination: hostnameFromHref(params.href),
+      url: trackedUrl.slice(0, 200),
     });
   };
 }
