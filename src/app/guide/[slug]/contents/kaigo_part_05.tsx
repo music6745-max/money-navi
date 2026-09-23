@@ -1,6 +1,3 @@
-Warning: truncated output (original token count: 76847)
-Total output lines: 6242
-
 import type { ReactNode } from "react";
 import { ComparisonTableCTA } from "@/components/ComparisonTableCTA";
 import { AffiliateCTA } from "@/components/AffiliateCTA";
@@ -1626,7 +1623,3011 @@ export const guideContentsPart05: Record<string, ReactNode> = {
       <section>
         <h2 className="text-xl font-bold mb-3">障がい者・難病患者の金融支援完全ガイド</h2>
         <p>
-          障がい者手帳や難病認定を受けた方は、様々な公的支援を受けられます。障害年金（月6〜10万円の継続収入）、税金控除（年7万円以上の節税）、NHK受信料・公共交通機関の割引、就労支援事業所の活用等、知っ…36847 tokens truncated…げ受給可能",
+          障がい者手帳や難病認定を受けた方は、様々な公的支援を受けられます。障害年金（月6〜10万円の継続収入）、税金控除（年7万円以上の節税）、NHK受信料・公共交通機関の割引、就労支援事業所の活用等、知っているかどうかで生涯収支が数百万円以上変わる制度を網羅的に解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="主要支援制度の比較"
+        services={[
+          {
+            name: "障害年金",
+            rank: 1,
+            highlight: "月6〜10万円の継続収入",
+            features: [
+              "障害基礎年金：月6.8万円（2級）",
+              "障害厚生年金：上乗せ",
+              "精神疾患・難病も対象",
+              "20歳以上で申請可",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+            badge: "重要",
+          },
+          {
+            name: "税金控除",
+            rank: 2,
+            highlight: "所得税27〜40万円控除",
+            features: [
+              "障害者控除：27万円",
+              "特別障害者控除：40万円",
+              "同居特別障害者：75万円",
+              "住民税も26〜30万円控除",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+          {
+            name: "就労支援（A型・B型）",
+            rank: 3,
+            highlight: "月5〜12万円の賃金",
+            features: [
+              "A型：雇用契約＋最低賃金",
+              "B型：作業工賃月1〜3万円",
+              "就労移行支援で一般就職",
+              "自治体の就労継続支援",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">その他の各種割引・助成</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>NHK受信料：半額・全額免除（要件により）</li>
+          <li>JR・私鉄：介護者含め50%割引</li>
+          <li>有料道路：通行料50%割引</li>
+          <li>公共施設入場料：本人・介護者無料</li>
+          <li>携帯電話：月最大1,200円割引（各キャリア）</li>
+          <li>住宅改修費補助：最大20万円（介護保険）</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="障害年金申請は社労士無料相談で｜税理士ドットコム経由"
+        description="障害年金申請は複雑な審査（不支給率30%超）、社労士の専門サポートで採用率大幅UP。税理士ドットコムでは障害年金専門の社労士・税理士を無料マッチング、税金控除の最大化も同時サポート。"
+        buttonText="税理士ドットコムで無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5"
+        icon="♿"
+        highlight="無料マッチング"
+      />
+    </>
+  ),
+  "kodomo-education-cost-complete": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">子どもの教育費完全ガイド</h2>
+        <p>
+          子ども1人あたりの教育費は幼稚園〜大学まで約2000万円（全て公立）、私立中心なら3000万円超が目安。教育費負担のピークは大学期（年100〜200万円）、学資保険よりも新NISA積立が効率的な資産形成手段。奨学金・教育ローンとの組合せ、ジュニアNISA代替の方法まで体系的に解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="教育費準備の3大手段"
+        services={[
+          {
+            name: "新NISA積立（推奨）",
+            rank: 1,
+            highlight: "18年で1000万円以上",
+            features: [
+              "月3万円×18年で1260万円（年7%）",
+              "売却益・配当非課税",
+              "柔軟な引出し可能",
+              "親名義で管理・教育費以外にも活用可",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "最優先",
+          },
+          {
+            name: "学資保険",
+            rank: 2,
+            highlight: "返戻率105〜110%",
+            features: [
+              "強制貯蓄効果",
+              "契約者死亡時に保険料免除",
+              "返戻率低め（5〜10%）",
+              "途中解約で元本割れ",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+          },
+          {
+            name: "奨学金・教育ローン",
+            rank: 3,
+            highlight: "不足分を補う手段",
+            features: [
+              "日本学生支援機構（無利子・有利子）",
+              "第一種：無利子（成績・所得要件）",
+              "第二種：有利子（年3%以下）",
+              "貸与型・給付型あり",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">ライフステージ別の教育費</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>幼稚園（3〜5歳）：公立22万円/年、私立47万円/年</li>
+          <li>小学校（6〜11歳）：公立35万円/年、私立167万円/年</li>
+          <li>中学校（12〜14歳）：公立54万円/年、私立144万円/年</li>
+          <li>高校（15〜17歳）：公立51万円/年、私立105万円/年</li>
+          <li>大学（18〜21歳）：国公立82万円/年、私立文系116万円/年、私立理系153万円/年</li>
+          <li>合計：オール公立1000万円、オール私立3000万円以上</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="教育費準備はSBI証券の新NISAで｜学資保険より有利"
+        description="SBI証券の新NISAは月3万円×18年で1260万円（年7%）の教育資金を非課税で準備可能。学資保険（返戻率105〜110%）より圧倒的に有利、途中解約も自由で柔軟性抜群。子育て世代の王道戦略。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="🎒"
+        highlight="教育資金"
+      />
+    </>
+  ),
+  "green-home-subsidy-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">ZEH・省エネ住宅補助金完全ガイド</h2>
+        <p>
+          ZEH（ゼロ・エネルギー・ハウス）は、高断熱＋省エネ＋太陽光発電で年間エネルギー収支ゼロを目指す住宅。国土交通省・環境省・経済産業省が連携した「こどもエコすまい支援事業」「ZEH補助金」で最大100万円＋住宅ローン控除上乗せ＋固定資産税優遇の三重メリット、新築戸建て建築時は必ず活用すべき制度です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="主要な住宅補助金制度"
+        services={[
+          {
+            name: "こどもエコすまい支援事業",
+            rank: 1,
+            highlight: "子育て世帯最大100万円",
+            features: [
+              "新築（長期優良）：100万円",
+              "新築（ZEH）：80万円",
+              "リフォーム：5〜60万円",
+              "2026年まで延長",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+3PD522+5OGA+5YZ75",
+            badge: "子育て世帯",
+          },
+          {
+            name: "ZEH補助金",
+            rank: 2,
+            highlight: "55〜100万円",
+            features: [
+              "ZEH：55万円",
+              "ZEH＋：100万円",
+              "次世代ZEH＋：112万円",
+              "戸建て向け",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+3PD522+5OGA+5YZ75",
+          },
+          {
+            name: "住宅ローン控除優遇",
+            rank: 3,
+            highlight: "最大455万円控除",
+            features: [
+              "ZEH水準：借入5000万円対象",
+              "認定長期優良：5000万円対象",
+              "一般：3000万円対象",
+              "13年間の税額控除",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+3PD522+5OGA+5YZ75",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">補助金の合計効果</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>こどもエコすまい100万円＋ZEH補助金100万円＝合計200万円</li>
+          <li>住宅ローン控除（ZEH・年収600万円・3500万円借入）：年24.5万円×13年＝318万円</li>
+          <li>固定資産税優遇：3年間1/2減額で50〜100万円相当</li>
+          <li>光熱費削減：ZEH住宅で年15〜20万円節約、20年で300〜400万円</li>
+          <li>トータル効果：新築ZEH住宅で1000万円超の実質削減効果</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="ZEH住宅の相談は家づくり相談所で｜全国の工務店無料紹介"
+        description="家づくり相談所はZEH・長期優良住宅の設計実績豊富な工務店を無料紹介。補助金申請サポート、住宅ローン比較、土地探しまで一括対応。新築戸建ての計画段階から相談するのが成功の鉄則。"
+        buttonText="家づくり相談所で無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+3PD522+5OGA+5YZ75"
+        icon="🏡"
+        highlight="無料紹介"
+      />
+    </>
+  ),
+  "eco-car-subsidy-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">EV・エコカー補助金完全ガイド</h2>
+        <p>
+          2026年のEV購入時は、CEV補助金（国）最大65万円＋自治体上乗せ（東京都最大35万円）＋エコカー減税（自動車税・重量税・環境性能割）で、新車購入時に100〜150万円の実質値引き効果。ガソリン車との価格差を縮め、EV普及を後押しする政策、購入予定者は必ず活用すべき制度です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="EV・エコカー補助金の主要制度"
+        page="eco-car-subsidy-guide"
+        services={[
+          {
+            name: "CEV補助金（国）",
+            rank: 1,
+            highlight: "EV最大65万円",
+            features: [
+              "EV：最大65万円",
+              "PHEV：最大55万円",
+              "FCV：最大255万円",
+              "軽EV：最大55万円",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+            badge: "国補助",
+          },
+          {
+            name: "東京都EV補助金",
+            rank: 2,
+            highlight: "上乗せ最大35万円",
+            features: [
+              "国補助との併用OK",
+              "再エネ充電で追加15万円",
+              "V2H機器設置で最大50万円",
+              "都内登録必須",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+          {
+            name: "エコカー減税",
+            rank: 3,
+            highlight: "税金実質ゼロ",
+            features: [
+              "自動車税：75%〜100%減",
+              "重量税：全額免税（EV）",
+              "環境性能割：非課税（EV）",
+              "新車購入時の一時節税",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+        ]}
+      />
+      <DecisionBox
+        title="結論：補助金で購入費を下げた後は維持費を確認する"
+        points={[
+          "EV・PHEVは車両価格や修理費が保険料に反映されるため、補助金額だけで判断しない。",
+          "自治体補助金は予算枠や受付期限があるため、購入前に公式情報で申請条件を確認する。",
+          "納車時期が見えたら自動車保険の見積もりも取り、ローン・電気代・保険料の月額を合算する。",
+        ]}
+        note="購入補助と維持費の両方を見れば、ガソリン車との実質差額を判断しやすくなります。"
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">EV購入の総合的メリット</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>補助金合計（国＋自治体）：最大100〜130万円の値引き効果</li>
+          <li>エコカー減税：購入時＋毎年の税金で10〜30万円削減</li>
+          <li>燃料費削減：年1.5万km走行なら年10〜15万円節約（20年で200〜300万円）</li>
+          <li>メンテナンス費：オイル交換不要で年3〜5万円節約</li>
+          <li>トータル：EV所有20年で通常車比較500万円以上のメリット</li>
+        </ul>
+      </section>
+    </>
+  ),
+  "ibousha-pension-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">遺族年金完全ガイド</h2>
+        <p>
+          配偶者や家族を亡くした時に受け取れる遺族年金は、残された家族の生活を支える最重要公的制度。遺族基礎年金（子がいる配偶者対象、月8万円）＋遺族厚生年金（厚生年金加入者の遺族対象、月10〜20万円）の組合せで、配偶者死亡後も月15〜30万円の継続収入が確保できます。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="遺族年金の2タイプ比較"
+        services={[
+          {
+            name: "遺族基礎年金",
+            rank: 1,
+            highlight: "子ありの配偶者に月8万円",
+            features: [
+              "18歳未満の子がいる配偶者・子が対象",
+              "年額816,000円（配偶者）",
+              "子加算：234,800円（1人目・2人目）",
+              "第3子以降78,300円",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+            badge: "子育て世帯",
+          },
+          {
+            name: "遺族厚生年金",
+            rank: 2,
+            highlight: "厚生年金加入者の遺族",
+            features: [
+              "死亡者の老齢厚生年金×3/4",
+              "妻・子・孫が優先",
+              "夫は55歳以降受給",
+              "中高齢寡婦加算あり",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+          {
+            name: "寡婦年金・死亡一時金",
+            rank: 3,
+            highlight: "国民年金加入者の遺族",
+            features: [
+              "寡婦年金：60〜65歳の妻",
+              "死亡一時金：12〜32万円",
+              "遺族基礎年金受給なしの場合",
+              "選択制",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">受給額シミュレーション</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>年収500万円サラリーマン死亡・配偶者＋子2人：月20〜22万円（年250万円）</li>
+          <li>年収800万円サラリーマン死亡・配偶者＋子1人：月25〜28万円（年320万円）</li>
+          <li>自営業死亡・配偶者＋子2人：月13万円（年155万円、遺族基礎のみ）</li>
+          <li>配偶者のみ・厚生年金死亡：月10〜15万円</li>
+          <li>子が18歳超えたら遺族基礎年金停止、遺族厚生年金のみ継続</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="遺族年金+生命保険の総合設計は保険マンモスで｜無料FP相談"
+        description="保険マンモスは遺族年金を踏まえた生命保険の必要保障額を無料シミュレーション。公的年金の不足分をどれだけ保険でカバーすべきか、家族構成・収入に応じて最適な保険プランを提案。"
+        buttonText="保険マンモスで無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM"
+        icon="🕊️"
+        highlight="無料FP相談"
+      />
+    </>
+  ),
+  "kaigo-hoken-detail-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">介護保険制度完全ガイド</h2>
+        <p>
+          介護保険制度は40歳以上が加入義務の公的保険制度。65歳以上（第1号被保険者）は要介護認定で介護サービス利用可、40〜64歳（第2号被保険者）は特定疾病（16種類）で利用可。自己負担1〜3割で月限度額内のサービスを受けられ、年30〜100万円の介護費負担を軽減できる重要制度です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="要介護認定別のサービス上限"
+        services={[
+          {
+            name: "要支援1・2（軽度）",
+            rank: 1,
+            highlight: "月上限5〜10万円",
+            features: [
+              "要支援1：月限度額50,320円",
+              "要支援2：月限度額105,310円",
+              "介護予防サービスが中心",
+              "自己負担1〜3割",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+          {
+            name: "要介護1〜3（中度）",
+            rank: 2,
+            highlight: "月上限17〜27万円",
+            features: [
+              "要介護1：月167,650円",
+              "要介護2：月197,050円",
+              "要介護3：月270,480円",
+              "訪問介護・デイサービス中心",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+            badge: "中核",
+          },
+          {
+            name: "要介護4・5（重度）",
+            rank: 3,
+            highlight: "月上限31〜36万円",
+            features: [
+              "要介護4：月309,380円",
+              "要介護5：月362,170円",
+              "特養入所対象",
+              "24時間介護体制",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">介護保険申請の流れ</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>①市区町村の介護保険窓口で要介護認定申請（無料）</li>
+          <li>②認定調査員による訪問調査（心身状態・生活状況確認）</li>
+          <li>③主治医意見書作成（医療機関から自治体へ提出）</li>
+          <li>④認定審査会で要支援・要介護度決定（約30日）</li>
+          <li>⑤ケアマネジャー（無料）とケアプラン作成</li>
+          <li>⑥サービス利用開始、月1回のケアプラン見直し</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="介護費用の資金計画は保険マンモスで｜介護保険付き生命保険相談"
+        description="保険マンモスは介護保険・認知症保険・介護特約付き生命保険の無料比較。親の介護費用の備え、自分の将来介護への対策まで、FPが家族構成・資産状況を踏まえて最適プランを提案。"
+        buttonText="保険マンモスで無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM"
+        icon="♿"
+        highlight="無料FP相談"
+      />
+    </>
+  ),
+  "active-etf-japan-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">アクティブETF日本上陸完全ガイド</h2>
+        <p>
+          2023年9月から日本でもアクティブETFの上場が可能になり、野村・三菱UFJ・日興アセット等の大手が順次上場。米国ARKK（キャシー・ウッド）に代表されるテーマ型アクティブETFの日本版で、インデックスを上回るリターンを狙う低コスト（信託報酬0.5〜1%）＋流動性の高い新しい投資手段として注目されています。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="主要なアクティブETF比較"
+        services={[
+          {
+            name: "NEXT FUNDS 日本成長株（2077）",
+            rank: 1,
+            highlight: "野村AM・グロース重視",
+            features: [
+              "日本の中小型成長株",
+              "信託報酬0.49%",
+              "新NISA成長枠対応",
+              "月間売買代金10億円超",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "王道",
+          },
+          {
+            name: "MAXIS 日本株アクティブ（2842）",
+            rank: 2,
+            highlight: "三菱UFJ・バリュー重視",
+            features: [
+              "日本株から厳選投資",
+              "信託報酬0.66%",
+              "配当金分配型",
+              "低コスト＋目利き",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "ARKK（米国アクティブETF）",
+            rank: 3,
+            highlight: "キャシー・ウッド運用",
+            features: [
+              "イノベーション株特化",
+              "信託報酬0.75%",
+              "Tesla・Zoom等を組入れ",
+              "高ボラティリティ",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">アクティブETFのメリット・デメリット</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>メリット①：インデックス超過リターンの可能性</li>
+          <li>メリット②：ETF形式なのでリアルタイム売買可能</li>
+          <li>メリット③：信託報酬がアクティブ投信より安い（0.5〜1% vs 1.5〜2%）</li>
+          <li>デメリット①：運用者の腕次第でインデックスを下回るリスク</li>
+          <li>デメリット②：長期運用では多くがインデックスに負ける統計あり</li>
+          <li>配分：ポートフォリオ5〜10%以内のサテライト配分が現実的</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="アクティブETFはSBI証券で｜日米のアクティブETF豊富"
+        description="SBI証券は日本のアクティブETF（2077・2842等）＋米国ARKK・ARKQ・ARKG等、幅広くカバー。新NISA成長枠で非課税運用、信託報酬0.5〜1%の低コスト、イノベーション投資の入門にも最適。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="⚡"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "japan-treasury-30year-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">日本30年国債投資完全ガイド</h2>
+        <p>
+          2024年のアベノミクス・黒田日銀時代から一変し、植田日銀の正常化で日本30年国債の利回りは2%超に上昇。1000万円投資なら年20万円の利金、30年で600万円の確定金利が得られる計算。預金金利0.001%の1000倍超、インフレ対策＋安全資産＋分散投資の3拍子揃った、個人投資家にとっての新たな選択肢となっています。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="日本国債の購入手段"
+        services={[
+          {
+            name: "個人向け国債（変動10年）",
+            rank: 1,
+            highlight: "元本保証＋金利連動",
+            features: [
+              "年2回金利見直し",
+              "最低保証金利0.05%",
+              "1万円から購入可",
+              "1年経過後いつでも解約可",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "初心者向け",
+          },
+          {
+            name: "利付国債（30年）",
+            rank: 2,
+            highlight: "利回り2%超",
+            features: [
+              "半年ごと利払い",
+              "満期まで保有で元本保証",
+              "途中売却は価格変動リスクあり",
+              "5万円から購入可",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "米国長期債ETF（TLT・EDV）",
+            rank: 3,
+            highlight: "ドル建て利回り4〜5%",
+            features: [
+              "TLT：20年超米国債",
+              "EDV：ゼロクーポン米国債",
+              "為替リスクあり",
+              "分配金利回り3〜4%",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">日本国債投資のシミュレーション</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>1000万円を30年国債（2.0%）投資：年20万円利金、30年で600万円</li>
+          <li>ポートフォリオの20%（600万円）を日本国債＋80%株式で分散効果</li>
+          <li>インフレ率2%のシナリオでは実質利回りほぼゼロ（注意）</li>
+          <li>金利上昇局面の途中売却は元本割れリスク、満期保有が基本</li>
+          <li>相続時は時価評価、相続人への移管可能</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="日本国債購入はSBI証券で｜個人向け国債キャンペーン"
+        description="SBI証券は個人向け国債（変動10年・固定5年）の取扱い豊富、新規購入キャッシュバック（投資額×0.05〜0.10%）キャンペーン常時実施。30年利付国債も購入可能、安定資産のコア部分として活用できる。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="🏛️"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "sumitate-inherit-ideco-nisa-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">相続時のiDeCo・NISA完全ガイド</h2>
+        <p>
+          iDeCo・NISA加入者が亡くなった場合の手続きは、制度により大きく異なります。iDeCoは「遺族一時金」として相続税対象（500万円×法定相続人の非課税枠適用）、NISAは相続人の特定口座に課税移管。どちらも適切な手続きを踏まないと資産が凍結されるため、家族への情報共有と早期対応が重要です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="iDeCo・NISAの相続時対応"
+        services={[
+          {
+            name: "iDeCo（確定拠出年金）",
+            rank: 1,
+            highlight: "遺族一時金・相続税対象",
+            features: [
+              "遺族一時金として受給",
+              "500万円×法定相続人非課税",
+              "運用者（配偶者・子）が受取人",
+              "5年以内に手続き必須",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/ideco/lp/lpideco.html",
+            badge: "重要",
+          },
+          {
+            name: "NISA（新NISA・つみたてNISA）",
+            rank: 2,
+            highlight: "課税口座へ移管",
+            features: [
+              "相続人の特定口座に移管",
+              "相続時の時価で取得価格リセット",
+              "以降の運用益は課税対象",
+              "相続税も別途課税",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "特定口座・一般口座",
+            rank: 3,
+            highlight: "相続税＋譲渡所得",
+            features: [
+              "時価で相続税評価",
+              "相続人の特定口座に移管",
+              "被相続人の取得価格継続",
+              "売却時譲渡所得税",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">相続手続きの流れ</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>①死亡届提出（7日以内・市区町村）</li>
+          <li>②金融機関に連絡（口座凍結）、iDeCoは運営管理機関に連絡</li>
+          <li>③相続人確定、遺産分割協議書作成（必要な場合）</li>
+          <li>④iDeCo：死亡一時金請求書・戸籍謄本・住民票等の提出（5年以内）</li>
+          <li>⑤NISA：相続人の特定口座開設→被相続人口座から移管手続き</li>
+          <li>⑥相続税申告（10ヶ月以内）、税理士相談推奨</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="相続税対策は税理士ドットコムで｜iDeCo・NISA含む総合相談"
+        description="税理士ドットコムはiDeCo・NISA・不動産・生命保険を含む相続税対策全般に強い税理士を無料マッチング。非課税枠フル活用、生前贈与、遺言書作成まで総合的にサポート、資産形成世帯の備えに。"
+        buttonText="税理士ドットコムで無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5"
+        icon="📜"
+        highlight="無料マッチング"
+      />
+    </>
+  ),
+  "asset-management-fee-comparison": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">運用手数料最適化完全ガイド</h2>
+        <p>
+          投資信託・ETF・ロボアドの手数料差は、30年運用で数百万円の差を生みます。eMAXIS Slim全世界株式（信託報酬0.05%）vs ウェルスナビ（1.1%）で年1%超の差、1000万円×30年で複利効果により350万円の差額。低コスト運用の徹底が、資産形成の最重要戦略です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="手数料ランキング（全世界株インデックス）"
+        services={[
+          {
+            name: "eMAXIS Slim全世界株式",
+            rank: 1,
+            highlight: "信託報酬0.05775%",
+            features: [
+              "業界最安水準",
+              "純資産5兆円超の安定感",
+              "新NISA積立枠対応",
+              "SBI・楽天・マネックス全社取扱",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "最安",
+          },
+          {
+            name: "SBI・V・全世界株式（VT連動）",
+            rank: 2,
+            highlight: "信託報酬0.1238%",
+            features: [
+              "バンガードVT連動",
+              "実質コスト0.15%程度",
+              "SBI証券特化商品",
+              "米国比率55%で成長期待",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "ウェルスナビ（ロボアド）",
+            rank: 3,
+            highlight: "手数料1.1%",
+            features: [
+              "手間ゼロで自動運用",
+              "リバランス自動化",
+              "税金最適化機能",
+              "eMAXIS Slimの22倍コスト",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">30年運用の手数料差シミュレーション</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>月3万円積立・年利7%想定で30年運用</li>
+          <li>eMAXIS Slim（0.05%）：最終資産3,710万円</li>
+          <li>ウェルスナビ（1.1%）：最終資産3,090万円</li>
+          <li>差額：620万円（手数料の複利効果）</li>
+          <li>米国ETF買付手数料無料＋為替手数料無料で+0.3%改善も可</li>
+          <li>手数料0.5%以下を死守するのが鉄則、1%超は要見直し</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="低コスト運用はSBI証券で｜eMAXIS Slim＋米国ETF"
+        description="SBI証券はeMAXIS Slim全世界株式（信託報酬0.05%）・米国ETF買付手数料無料・為替手数料無料（住信SBI連携）の三拍子。ロボアド（1.1%）より年1%超コスト削減、30年で数百万円の差を実現。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="💸"
+        highlight="手数料0.05%"
+      />
+    </>
+  ),
+  "bitcoin-etf-japan-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">ビットコイン現物ETF完全ガイド</h2>
+        <p>
+          米国ではビットコイン現物ETFが上場していますが、日本居住者が利用できる商品、証券会社の取扱い、税制、為替コストは時期によって変わります。暗号資産取引所で現物を保有する場合と、米国ETFを証券口座で保有する場合では、税金、管理方法、価格変動リスク、手数料の確認ポイントが異なります。
+        </p>
+      </section>
+      <DecisionBox
+        title="結論：ビットコインETFは購入可否・税金・価格変動を分けて確認"
+        points={[
+          "日本の証券会社で取扱いがあるか、NISA対象か、特定口座で管理できるかを確認する。",
+          "暗号資産現物とETFでは税務上の扱いが異なるため、利益確定前に申告区分を確認する。",
+          "ビットコインは価格変動が大きく、短期間で大幅下落する可能性がある。",
+        ]}
+        note="本記事は一般的な比較情報であり、暗号資産やETFの購入を推奨するものではありません。"
+      />
+      <ComparisonTableCTA
+        title="主要ビットコイン現物ETF"
+        services={[
+          {
+            name: "iShares Bitcoin Trust（IBIT）",
+            rank: 1,
+            highlight: "預かり資産トップクラス",
+            features: [
+              "ブラックロック運用",
+              "信託報酬0.25%（プロモ中）",
+              "預かり資産300億ドル超",
+              "流動性・信頼性No.1",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "王道",
+          },
+          {
+            name: "Fidelity Wise Origin Bitcoin（FBTC）",
+            rank: 2,
+            highlight: "フィデリティ運用",
+            features: [
+              "信託報酬0.25%",
+              "預かり資産150億ドル超",
+              "老舗フィデリティの信頼性",
+              "米国401(k)対応",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "ARK 21Shares Bitcoin（ARKB）",
+            rank: 3,
+            highlight: "キャシー・ウッド",
+            features: [
+              "信託報酬0.21%",
+              "ARK系列のBTC特化",
+              "預かり資産40億ドル",
+              "イノベーション投資志向",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">日本から購入する方法</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>SBI証券・楽天証券・マネックス証券の米国株口座で直接購入</li>
+          <li>為替手数料：SBI×住信SBI連携で無料、楽天は片道4銭</li>
+          <li>買付手数料：各社0.495%（上限22ドル）or 無料プラン</li>
+          <li>税金：商品・口座区分・国内取扱状況によって扱いが変わるため、証券会社と税務情報を確認</li>
+          <li>暗号資産取引所の現物保有とは、管理方法・税務・手数料・リスクが異なる</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="ビットコインETFはSBI証券で｜為替手数料無料で有利"
+        description="ビットコイン関連商品を検討する場合は、取扱商品、為替手数料、税務上の扱い、価格変動リスクを確認しましょう。暗号資産現物とETFは管理方法が異なるため、申込前に公式情報を確認してください。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="₿"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "reverse-mortgage-detail-2026": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">リバースモーゲージ詳細比較</h2>
+        <p>
+          リバースモーゲージは、60歳以上の持家シニアが自宅を担保にお金を借り、死亡時に住宅売却で返済する仕組み。老後資金不足の解決策として東京スター銀行・JHF（住宅金融支援機構）・楽天銀行等が提供。金利2.5〜3.5%、担保掛目50〜70%で、月10〜30万円の追加年金を確保できます。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="主要リバースモーゲージ比較"
+        services={[
+          {
+            name: "JHF リ・バース60",
+            rank: 1,
+            highlight: "ノンリコース型・公的制度",
+            features: [
+              "住宅金融支援機構",
+              "50歳以上対象",
+              "ノンリコース型（死亡後売却で完済）",
+              "金利年2.8〜3.5%",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+3PD522+5OGA+5YZ75",
+            badge: "安心",
+          },
+          {
+            name: "東京スター銀行",
+            rank: 2,
+            highlight: "借入上限大・金利低",
+            features: [
+              "金利年2.5〜3.0%",
+              "担保掛目最大70%",
+              "首都圏・大都市圏物件対応",
+              "老舗リバースモーゲージ",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+3PD522+5OGA+5YZ75",
+          },
+          {
+            name: "楽天銀行 リタイアメント・ローン",
+            rank: 3,
+            highlight: "楽天経済圏連携",
+            features: [
+              "金利年3.0〜3.5%",
+              "担保掛目50〜60%",
+              "ネット完結で手続き楽",
+              "楽天ポイント還元",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+3PD522+5OGA+5YZ75",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">リバースモーゲージのメリット・デメリット</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>メリット①：自宅に住み続けながら現金化可能</li>
+          <li>メリット②：ノンリコース型なら残債も相続人に請求なし</li>
+          <li>メリット③：月10〜30万円の追加年金で生活の質向上</li>
+          <li>デメリット①：長寿で資産価値を下回る可能性</li>
+          <li>デメリット②：金利上昇で負債増</li>
+          <li>デメリット③：子が実家相続できない</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="リバースモーゲージの相談は家づくり相談所で｜不動産評価＋最適商品"
+        description="家づくり相談所は不動産評価・リバースモーゲージ商品の比較・相続対策まで総合相談。JHF・東京スター銀行・楽天銀行等の商品を中立的立場で比較、60歳以降の資産活用プランを無料で設計できる。"
+        buttonText="家づくり相談所で無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+3PD522+5OGA+5YZ75"
+        icon="🏠"
+        highlight="無料相談"
+      />
+    </>
+  ),
+  "carbon-credit-investment-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">カーボンクレジット投資完全ガイド</h2>
+        <p>
+          2026年から本格スタートのGX-ETS（排出量取引）とJ-クレジット制度により、カーボンクレジットは新たな投資対象に。森林由来クレジット・ブルーカーボン・CO2削減技術への投資で、脱炭素社会の成長恩恵を取込めます。ESG投資の一環として、年10〜20%の成長が期待される新ジャンルです。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="カーボンクレジット投資の主な手段"
+        services={[
+          {
+            name: "GX-ETF（排出量取引ETF）",
+            rank: 1,
+            highlight: "野村・ダイワで2026年上場予定",
+            features: [
+              "J-クレジット価格連動",
+              "信託報酬0.3〜0.5%",
+              "新NISA成長枠対応",
+              "個人投資家が参加しやすい",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "新規",
+          },
+          {
+            name: "ICLN（米国クリーンエネルギーETF）",
+            rank: 2,
+            highlight: "クリーンエネルギー総合",
+            features: [
+              "信託報酬0.4%",
+              "太陽光・風力・水素の総合投資",
+              "預かり資産50億ドル",
+              "米国・欧州企業中心",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "個別脱炭素企業株",
+            rank: 3,
+            highlight: "高成長高リスク",
+            features: [
+              "レノバ（9519）",
+              "イーレックス（9517）",
+              "SBGネットゼロ",
+              "ボラティリティ高い",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">カーボンクレジット投資のリスク</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>政策変更リスク（脱炭素政策の後退）</li>
+          <li>市場規模がまだ小さい（流動性リスク）</li>
+          <li>クレジット価格ボラティリティ高い</li>
+          <li>ESG投資バブル崩壊のリスク</li>
+          <li>ポートフォリオ5〜10%のサテライト配分推奨</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="GX-ETF・クリーンエネルギー投資はSBI証券で"
+        description="SBI証券は2026年上場のGX-ETF、米国ICLN・FAN（風力ETF）・TAN（太陽光ETF）等の脱炭素テーマETFを全てカバー。為替手数料無料、新NISA成長枠で非課税運用、脱炭素社会の恩恵を取込める。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="🌿"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "robo-advisor-hybrid-detail": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">AIロボアド詳細比較2026</h2>
+        <p>
+          ロボアドバイザーは2026年時点で預かり資産1兆円超（ウェルスナビ）、AIの進化で運用精度も向上しています。THEO＋docomo・SUSTEN・FOLIO ROBO PRO等、手数料0.66〜1.1%で手間ゼロ運用が可能。新NISA対応は各社異なり、忙しい会社員・投資初心者・時間を買いたい人向けの選択肢として確固たる地位を築いています。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="主要ロボアド比較"
+        services={[
+          {
+            name: "ウェルスナビ",
+            rank: 1,
+            highlight: "預かり資産1兆円・業界最大手",
+            features: [
+              "手数料1.1%（年）",
+              "自動リバランス・税金最適化",
+              "新NISA対応",
+              "最低投資額1万円",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "業界最大",
+          },
+          {
+            name: "SUSTEN",
+            rank: 2,
+            highlight: "儲かった分のみ手数料",
+            features: [
+              "成功報酬型手数料",
+              "手数料0.66〜0.99%",
+              "新NISA対応",
+              "最低投資額1万円",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "FOLIO ROBO PRO",
+            rank: 3,
+            highlight: "AI判断で高リターン狙い",
+            features: [
+              "手数料1.1%",
+              "AI予測による動的配分",
+              "新NISA対応",
+              "市場予測型の攻めの運用",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">ロボアドを使うべき人・使わない方が良い人</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>使うべき：投資初心者・時間を買いたい会社員・自動化したい人</li>
+          <li>使うべき：リバランス面倒・税金最適化の知識ない人</li>
+          <li>使わない：手数料を気にする長期投資家（eMAXIS Slim 0.05%）</li>
+          <li>使わない：自分で運用したい経験者</li>
+          <li>使わない：新NISA満額活用したい人（枠がロボアドで埋まる）</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="低コスト運用派はSBI証券で｜eMAXIS Slim＋自動積立で実質ロボアド"
+        description="SBI証券はeMAXIS Slim全世界株式の自動積立設定で、実質ロボアドと同じ楽さ＋コスト1/22（0.05% vs 1.1%）。新NISA成長枠でクレカ積立1%還元、手動リバランスも年1回で十分、上級者向けの選択肢。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="🤖"
+        highlight="コスト22倍差"
+      />
+    </>
+  ),
+  "bousai-financial-preparation": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">災害・緊急事態への金融備え完全ガイド</h2>
+        <p>
+          地震・台風・感染症等の緊急事態時、金融面での準備が家族を守ります。生活防衛資金（生活費6ヶ月分）、災害保険（地震保険）、複数金融機関分散、現金保有、避難時の電子マネー活用等、総合的な金融防災対策を体系的に解説します。コロナ禍・能登地震の教訓を踏まえた、現代の金融BCP（事業継続計画）です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="金融防災の必須要素"
+        services={[
+          {
+            name: "生活防衛資金",
+            rank: 1,
+            highlight: "6ヶ月分・90〜180万円",
+            features: [
+              "普通預金で即座に引出し可",
+              "メガバンク＋ネット銀行分散",
+              "失業・病気・災害時の生活費",
+              "投資前の最優先項目",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "必須",
+          },
+          {
+            name: "災害保険（地震保険）",
+            rank: 2,
+            highlight: "火災保険の特約",
+            features: [
+              "火災保険の30〜50%補償",
+              "月1,000〜3,000円の保険料",
+              "地震・津波・噴火対応",
+              "所得控除5万円の税制優遇",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+          },
+          {
+            name: "現金・ゴールド保有",
+            rank: 3,
+            highlight: "物理的な保全資産",
+            features: [
+              "現金5〜10万円を家に保管",
+              "金の延べ棒・金貨（10〜30万円）",
+              "停電・ATM停止時の備え",
+              "避難時の電子マネー併用",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">災害時の金融対応チェックリスト</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>通帳・キャッシュカード・印鑑・マイナンバーカードの避難バッグ準備</li>
+          <li>ネットバンキング・スマホアプリのログイン情報の紙メモ保管</li>
+          <li>現金5〜10万円の家庭内分散保管</li>
+          <li>複数金融機関（メガバンク＋ネット銀行）に資産分散</li>
+          <li>地震保険＋火災保険の最新化（世帯主死亡時の生命保険も）</li>
+          <li>災害時は銀行預金特別措置（通帳・印鑑なしでも10〜20万円引出し可）</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="災害保険の見直しは保険マンモスで｜地震保険・火災保険比較"
+        description="保険マンモスは地震保険・火災保険を全社比較。耐震等級割引・長期契約割引・保険料控除の最大活用、住宅ローンとの連動まで、無料FP相談で災害リスクに備える最適プランを設計できる。"
+        buttonText="保険マンモスで無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM"
+        icon="⛑️"
+        highlight="無料FP相談"
+      />
+    </>
+  ),
+  "couple-joint-investment-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">夫婦共同投資完全ガイド</h2>
+        <p>
+          共働き夫婦は「夫婦合計の新NISA年720万円」フル活用で、1人世帯の2倍の資産形成速度を実現できます。世帯単位での資産配分、リスク許容度の調整、共同口座vs個別口座、離婚時のリスクまで、2人で1億円を目指す夫婦の王道戦略を解説。30代からの夫婦投資で、60代FIRE達成も夢ではありません。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="夫婦投資の3大戦略"
+        services={[
+          {
+            name: "両者NISA満額（年720万円）",
+            rank: 1,
+            highlight: "年720万円・10年で7200万円",
+            features: [
+              "夫360万＋妻360万＝年720万円",
+              "10年で生涯枠3600万円フル活用",
+              "運用益で合計1億円到達可能",
+              "夫婦最強の資産形成術",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "王道",
+          },
+          {
+            name: "iDeCo＋NISA併用",
+            rank: 2,
+            highlight: "年合計800万円の非課税運用",
+            features: [
+              "夫iDeCo 27.6万＋妻iDeCo 27.6万",
+              "2人合計年55.2万円の所得控除",
+              "夫婦で年5〜10万円節税",
+              "最強の節税＋非課税運用",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/ideco/lp/lpideco.html",
+          },
+          {
+            name: "家計管理の2口座方式",
+            rank: 3,
+            highlight: "共通口座＋個別口座",
+            features: [
+              "共通：生活費・住宅ローン・子供費",
+              "個別：各自の小遣い・自由資金",
+              "世帯管理の透明性",
+              "離婚時のリスク管理",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">リスク分担の重要性</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>NISA口座は本人名義のみ、夫婦合算できない</li>
+          <li>収入多い方が多く積立、iDeCoの所得控除効果最大化</li>
+          <li>配偶者の生命保険も考慮（死亡時の遺族年金＋保険金）</li>
+          <li>離婚時：婚姻期間中の資産は共有財産として分割対象</li>
+          <li>夫婦間の贈与は年110万円非課税、それ超で贈与税</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="夫婦NISAはSBI証券で｜家族口座開設＋クレカ積立1%還元"
+        description="SBI証券は夫婦それぞれの口座開設＋三井住友カードNLで年1%クレカ積立還元、夫婦合計で年120万円×1%＝12,000pt獲得。新NISA年720万円・夫婦最強の資産形成プラットフォーム。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="💑"
+        highlight="夫婦投資"
+      />
+    </>
+  ),
+  "shinsotsu-first-bank-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">新社会人の銀行・クレカ・証券完全ガイド</h2>
+        <p>
+          新社会人の最初の1〜3ヶ月で、給与振込用銀行・メインクレジットカード・証券口座を整えることが、今後40年の資産形成の土台になります。メガバンク（三菱UFJ・みずほ・三井住友）vsネット銀行（住信SBI・楽天・あおぞら）の選択、クレカキャンペーン活用、新NISA即スタートで、就職祝いキャンペーンを含め5〜10万円お得にスタートできます。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="新社会人におすすめの金融プラットフォーム"
+        services={[
+          {
+            name: "給与振込・生活口座",
+            rank: 1,
+            highlight: "ネット銀行が圧倒的に有利",
+            features: [
+              "住信SBIネット銀行（SBIハイブリッド）",
+              "楽天銀行（楽天ポイント連携）",
+              "あおぞら銀行 BANK支店（金利0.2%）",
+              "メガバンクは金利0.001%で不利",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "給与振込",
+          },
+          {
+            name: "メインクレジットカード",
+            rank: 2,
+            highlight: "三井住友NL or 楽天カード",
+            features: [
+              "三井住友NL：コンビニ7%還元",
+              "楽天カード：楽天市場SPU+1倍",
+              "年会費永年無料",
+              "新規入会5000〜10,000pt",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+            badge: "クレカ",
+          },
+          {
+            name: "証券口座",
+            rank: 3,
+            highlight: "新NISA即スタート",
+            features: [
+              "SBI証券（業界No.1）",
+              "楽天証券（楽天経済圏）",
+              "月1万円からのクレカ積立",
+              "新NISA年360万円枠フル活用",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">新社会人が避けるべき失敗</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>メガバンクだけ使う（ネット銀行の金利200倍を知らない）</li>
+          <li>クレカを持たない（ポイント還元で年3〜5万円損）</li>
+          <li>貯金ばかり・投資しない（複利で将来1000万円以上の機会損失）</li>
+          <li>親のすすめのみで判断（情報古い場合が多い）</li>
+          <li>リボ払い・消費者ローン（手数料年15〜18%の罠）</li>
+          <li>投資詐欺・怪しい副業勧誘に引っかかる</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="新社会人の資産形成はSBI証券で｜20代から始める40年プラン"
+        description="SBI証券は新NISA＋クレカ積立＋米国ETFの総合プラットフォーム。住信SBIネット銀行と連携で給与振込から投資まで1画面完結、月3万円×40年で5,900万円の資産形成が可能な最強の20代スタートセット。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="🎓"
+        highlight="20代におすすめ"
+      />
+    </>
+  ),
+  "housewife-assets-invest-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">専業主婦の資産形成完全ガイド</h2>
+        <p>
+          専業主婦でも新NISA・iDeCoの活用で、世帯資産形成に大きく貢献できます。配偶者控除（年収103〜150万円）の範囲内でパート収入＋運用益を生み出し、離婚・死別のリスク対策としての「自分名義の資産」確保も重要。夫のNISAサポートと並行して、主婦特有の金融戦略を解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="専業主婦の資産形成3大戦略"
+        services={[
+          {
+            name: "専業主婦の新NISA",
+            rank: 1,
+            highlight: "自分名義で年360万円",
+            features: [
+              "所得なくてもNISA口座開設可",
+              "配偶者の資金で積立OK（贈与扱い注意）",
+              "運用益非課税",
+              "離婚・死別時の自分の資産",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "王道",
+          },
+          {
+            name: "パート＋iDeCo",
+            rank: 2,
+            highlight: "年27.6万円の所得控除",
+            features: [
+              "パート年収103〜150万でiDeCo加入",
+              "月2.3万円×所得控除",
+              "年7.2万円の節税効果",
+              "60歳まで非課税運用",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/ideco/lp/lpideco.html",
+          },
+          {
+            name: "夫のNISA・iDeCoサポート",
+            rank: 3,
+            highlight: "世帯最大化",
+            features: [
+              "夫のNISA年360万円＋自分のNISA",
+              "夫婦合計で年720万円の非課税枠",
+              "iDeCo夫婦で年50万円超節税",
+              "配偶者控除＋両取り",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">専業主婦が知るべきポイント</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>配偶者控除（年収103万円以下）・配偶者特別控除（201万円以下）</li>
+          <li>第3号被保険者（専業主婦の国民年金、夫厚生年金加入時は無料）</li>
+          <li>年収130万円の壁（社会保険扶養の境界線）</li>
+          <li>新NISAは所得関係なく加入可、自分の資産として重要</li>
+          <li>離婚時の共有財産分割、婚姻期間中の夫婦資産は半分が分与対象</li>
+          <li>遺族年金受給のため、夫の死亡時は重要な生活資金源</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="専業主婦の資産形成はSBI証券で｜自分名義のNISA口座"
+        description="SBI証券は所得関係なく口座開設可、新NISA年360万円で自分の資産を非課税運用。夫婦合計年720万円の非課税枠で世帯資産最大化、離婚・死別リスクへの備えとしても重要な「自分名義の資産」構築。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="👩"
+        highlight="主婦でもOK"
+      />
+    </>
+  ),
+  "koumuin-ideco-special-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">公務員のiDeCo完全ガイド</h2>
+        <p>
+          公務員（国家公務員・地方公務員・私立学校教職員）のiDeCoは、民間企業より拠出上限が低い月1.2万円（年14.4万円）に設定されています。それでも共済年金（退職給付）との組合せで老後資金を強化できる重要な制度、退職金節税・運用コストの違い・金融機関選びを徹底解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="公務員向けiDeCo金融機関比較"
+        services={[
+          {
+            name: "SBI証券",
+            rank: 1,
+            highlight: "運営管理手数料0円",
+            features: [
+              "運営管理手数料永年無料",
+              "投資信託40本以上",
+              "セレクトプランで低コスト商品",
+              "事務手続き楽（Web完結）",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/ideco/lp/lpideco.html",
+            badge: "王道",
+          },
+          {
+            name: "楽天証券",
+            rank: 2,
+            highlight: "楽天ポイント連携",
+            features: [
+              "運営管理手数料無料",
+              "楽天・オールカントリー等人気商品",
+              "楽天経済圏ユーザー向け",
+              "初心者向けUI",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/ideco/lp/lpideco.html",
+          },
+          {
+            name: "マネックス証券",
+            rank: 3,
+            highlight: "iFreeシリーズ豊富",
+            features: [
+              "運営管理手数料無料",
+              "iFree NEXT FANG＋等ユニーク",
+              "投資信託27本",
+              "米国株志向のラインナップ",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/ideco/lp/lpideco.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">公務員のiDeCo節税効果</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>月1.2万円×12ヶ月＝年14.4万円全額所得控除</li>
+          <li>年収600万円公務員：所得税＋住民税で年4〜5万円節税</li>
+          <li>30年積立：元本432万円＋運用益で800万円超（年5%想定）</li>
+          <li>60歳以降一括受取：退職所得控除で税負担大幅軽減</li>
+          <li>共済年金（退職給付）＋iDeCoで老後資金の三層化</li>
+          <li>民間企業（月2.3万円）より少ないが、確実に活用したい制度</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="公務員iDeCoはSBI証券で｜手数料0円＋低コスト商品"
+        description="SBI証券のiDeCoは運営管理手数料0円、eMAXIS Slim全世界・米国S&P500等の低コスト商品完備。公務員の月1.2万円を年14.4万円で非課税運用、所得控除で年4〜5万円節税、30年で800万円超の資産形成。"
+        buttonText="SBI証券iDeCoの詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/ideco/lp/lpideco.html"
+        icon="🏛️"
+        highlight="公務員必須"
+      />
+    </>
+  ),
+  "early-retirement-ideco-exit": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">早期退職時のiDeCo戦略</h2>
+        <p>
+          早期退職（40〜55歳）時のiDeCoは、60歳まで引き出し不可の原則が壁になります。ただし運用指図者としての継続、60〜75歳の受取タイミング最適化、退職所得控除との組合せで、FIRE達成者・早期退職者でも最大の税務メリットを得られる戦略があります。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="早期退職後のiDeCo対応"
+        services={[
+          {
+            name: "運用指図者として継続",
+            rank: 1,
+            highlight: "拠出停止＋運用継続",
+            features: [
+              "月66円の手数料のみ",
+              "60歳まで運用継続",
+              "積立停止しても運用益非課税",
+              "最も現実的な選択肢",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/ideco/lp/lpideco.html",
+            badge: "王道",
+          },
+          {
+            name: "iDeCo継続拠出（条件あり）",
+            rank: 2,
+            highlight: "フリーランスで月6.8万円",
+            features: [
+              "退職後フリーランスで拠出継続",
+              "月6.8万円（年81.6万円）",
+              "全額所得控除",
+              "所得ある限り有効活用",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/ideco/lp/lpideco.html",
+          },
+          {
+            name: "脱退一時金（例外的）",
+            rank: 3,
+            highlight: "厳格な要件あり",
+            features: [
+              "加入期間5年以下",
+              "資産額25万円以下",
+              "障害給付金受給資格なし",
+              "適用は極めて稀",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/ideco/lp/lpideco.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">受取タイミングの税務最適化</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>60〜75歳の間で受取開始（一括or年金）</li>
+          <li>一括受取：退職所得控除（勤続年数×40万円・20年超は70万円）</li>
+          <li>年金受取：公的年金等控除（65歳超は年110万円非課税）</li>
+          <li>退職金とiDeCoの受取タイミング分散で控除枠最大化</li>
+          <li>退職金を60歳で受取→iDeCoを70歳で受取で控除枠分離活用</li>
+          <li>税理士との事前相談で数百万円の税金節約も可能</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="早期退職後のiDeCo戦略は税理士ドットコムで｜税務最適化"
+        description="税理士ドットコムは早期退職・FIRE達成者の税務戦略に強い税理士を無料マッチング。iDeCo受取タイミング・退職金との組合せ・運用指図者としての継続まで総合アドバイス、生涯数百万円の税金節約を実現。"
+        buttonText="税理士ドットコムで無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5"
+        icon="🏃"
+        highlight="無料マッチング"
+      />
+    </>
+  ),
+  "pet-investment-cost-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">ペットの経済学完全ガイド</h2>
+        <p>
+          犬猫を飼う生涯コストは、平均200万円（犬）・160万円（猫）と家計への影響大。購入・エサ・ワクチン・医療費・ペットホテル・葬儀まで、15〜20年のトータルコストを理解し、飼い始め前の経済計画、ペット保険加入の判断、家計への組込み方を体系的に解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="犬猫の生涯コスト内訳"
+        services={[
+          {
+            name: "犬（トイプードル・15年）",
+            rank: 1,
+            highlight: "生涯200万円",
+            features: [
+              "購入費30〜50万円",
+              "エサ・トリミング月1.5万円",
+              "医療費年5〜20万円",
+              "葬儀5〜10万円",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+            badge: "人気",
+          },
+          {
+            name: "猫（スコティッシュ・16年）",
+            rank: 2,
+            highlight: "生涯160万円",
+            features: [
+              "購入費15〜30万円",
+              "エサ・トイレ砂月8000円",
+              "医療費年3〜15万円",
+              "葬儀3〜8万円",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+          },
+          {
+            name: "ペット保険（推奨）",
+            rank: 3,
+            highlight: "月1500〜5000円",
+            features: [
+              "アニコム・アイペット・SBI",
+              "入院・手術50〜90%補償",
+              "高齢期の医療費対策",
+              "生涯30〜80万円の支払"
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">ペット飼育前の経済チェック</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>月1.5〜2万円の固定費増加を許容できるか</li>
+          <li>医療費（特にシニア期）の貯蓄50〜100万円の備え</li>
+          <li>賃貸住宅のペット可物件は家賃+5000〜10000円</li>
+          <li>旅行・出張時のペットホテル・シッター費用</li>
+          <li>万一の引越し時のペット可物件確保</li>
+          <li>家族全員の合意（15〜20年の長期コミットメント）</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="ペット保険の比較は保険マンモスで｜10社以上から無料提案"
+        description="保険マンモスはアニコム・アイペット・SBIいきいき少短等のペット保険10社以上から無料比較。犬種・年齢・持病で保険料は大きく変わる、最適プランで生涯20〜50万円の医療費節約が可能。"
+        buttonText="保険マンモスで無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM"
+        icon="🐕"
+        highlight="無料FP相談"
+      />
+    </>
+  ),
+  "moving-cost-detail-saving": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">引越し費用完全ガイド</h2>
+        <p>
+          引越しは一度に10〜30万円の大きな出費、時期と業者選びで費用は2〜3倍変わります。単身2〜7万円・家族8〜25万円が目安、3〜4月の繁忙期は2倍、一括見積りサービスで30〜50%節約可能。住信SBI・楽天等の住宅ローン借換えと組合せた引越し戦略も有効です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="引越し料金の時期別比較"
+        services={[
+          {
+            name: "通常期（5〜2月）",
+            rank: 1,
+            highlight: "最安の時期",
+            features: [
+              "単身2〜5万円",
+              "家族6〜15万円",
+              "業者選びやすい",
+              "平日午後指定で更に割引",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+            badge: "お得",
+          },
+          {
+            name: "繁忙期（3〜4月）",
+            rank: 2,
+            highlight: "2倍の料金",
+            features: [
+              "単身5〜10万円",
+              "家族15〜30万円",
+              "業者確保困難",
+              "3月下旬〜4月上旬がピーク",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+          {
+            name: "一括見積り（推奨）",
+            rank: 3,
+            highlight: "30〜50%節約",
+            features: [
+              "ズバット・LIFULL引越し",
+              "10社以上から比較",
+              "相見積もりで価格交渉",
+              "見積り無料・オンライン完結",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">引越し費用節約の具体テクニック</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>一括見積りで相見積もり→最安値提示業者と価格交渉</li>
+          <li>繁忙期（3〜4月）を避ける、5〜2月の通常期利用で半額に</li>
+          <li>平日・午後便指定で10〜20%割引</li>
+          <li>不用品処分（メルカリ・ジモティー）で荷物減＋売上獲得</li>
+          <li>自分でダンボール・梱包資材を調達（業者依頼は割高）</li>
+          <li>単身者はレンタカー＋自力引越しで1〜3万円可能</li>
+          <li>住宅ローン借換えとセットで引越し費用貸付特典もあり</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="引越し一括見積りで最安値｜10社比較で30〜50%節約"
+        description="引越し一括見積りサービスで10社以上を一度に比較、相見積もりで最安値を引き出せる。繁忙期でも業者確保可能、平均30〜50%の料金削減実績多数、申込3分の手軽さで数万円の節約を実現できる。"
+        buttonText="一括見積りを見る"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5"
+        icon="📦"
+        highlight="無料見積り"
+      />
+    </>
+  ),
+  "pregnancy-money-care-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">妊娠・出産の経済ガイド</h2>
+        <p>
+          妊娠・出産にかかる費用は公的支援込みで実質負担10〜30万円。出産育児一時金50万円・出産手当金・育児休業給付金等の制度フル活用で、家計への負担を最小化できます。妊娠確認から育休復帰まで、1年間の家計プラン・手続きタイムライン・会社員と自営業の違いを徹底解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="妊娠・出産の主要公的支援"
+        services={[
+          {
+            name: "出産育児一時金",
+            rank: 1,
+            highlight: "50万円/子",
+            features: [
+              "健康保険から全員支給",
+              "直接支払制度で病院に直接",
+              "双子なら100万円",
+              "出産費用（40〜60万円）をほぼカバー",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+            badge: "必須",
+          },
+          {
+            name: "出産手当金",
+            rank: 2,
+            highlight: "月給の2/3×98日",
+            features: [
+              "産前42日＋産後56日分",
+              "会社員・共済組合員対象",
+              "月給30万円なら約66万円",
+              "自営業は非対象",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+          },
+          {
+            name: "育児休業給付金",
+            rank: 3,
+            highlight: "月給の67%×6ヶ月",
+            features: [
+              "雇用保険から支給",
+              "6ヶ月経過後は50%",
+              "最大2年間延長可",
+              "両親育休で延長ボーナスあり",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">家計への影響シミュレーション</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>妊娠中：妊婦健診14回分（自治体券でほぼ無料）</li>
+          <li>出産費用：40〜60万円→出産育児一時金50万円でカバー</li>
+          <li>産前産後休業：出産手当金月20万円×3.2ヶ月＝64万円</li>
+          <li>育児休業：育児休業給付金月20万円×18ヶ月＝360万円</li>
+          <li>ベビー用品：初期費用10〜30万円（メルカリ・お下がり活用で半額に）</li>
+          <li>マタニティ・ベビー衣類：10万円</li>
+          <li>実質負担：10〜30万円（公的支援制度フル活用時）</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="妊娠・出産の保険は保険マンモスで｜医療保険見直し"
+        description="保険マンモスは妊娠・出産前の医療保険見直しに最適。帝王切開（20%の妊婦が経験）は手術・入院扱いで保険給付対象、加入のタイミング重要。FPが無料で妊娠前・妊娠中の最適な保険プランを提案します。"
+        buttonText="保険マンモスで無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM"
+        icon="👶"
+        highlight="無料FP相談"
+      />
+    </>
+  ),
+  "stock-option-rsu-tax-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">ストックオプション・RSU税制完全ガイド</h2>
+        <p>
+          スタートアップ・上場企業のストックオプション（SO）・RSU（Restricted Stock Unit）は、社員が会社株式で報酬を受け取る制度です。税制適格SO（優遇）vs 税制非適格SO（重税）の違い、RSUの給与所得扱い、3段階課税（付与・権利行使・売却）、確定申告ポイントまで、上場企業社員が知るべき税務知識を網羅的に解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="ストックオプション・RSUの3タイプ"
+        services={[
+          {
+            name: "税制適格ストックオプション",
+            rank: 1,
+            highlight: "売却時のみ課税（優遇）",
+            features: [
+              "付与時・権利行使時は非課税",
+              "売却時のみ申告分離20.315%",
+              "年1200万円までの枠上限",
+              "スタートアップの王道制度",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+            badge: "最優遇",
+          },
+          {
+            name: "税制非適格ストックオプション",
+            rank: 2,
+            highlight: "権利行使時給与所得（重税）",
+            features: [
+              "権利行使時の含み益が給与所得",
+              "累進課税最大55%",
+              "上場企業で一般的",
+              "売却時は別途20.315%",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+          {
+            name: "RSU（譲渡制限付株式）",
+            rank: 3,
+            highlight: "権利確定時給与所得",
+            features: [
+              "権利確定（Vest）時の時価が給与所得",
+              "累進課税最大55%",
+              "源泉徴収される場合多",
+              "売却時は別途20.315%",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">節税戦略のポイント</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>税制非適格SO・RSUは権利行使・確定年に所得集中、年末調整・確定申告必須</li>
+          <li>RSU売却時の税金：含み益は給与所得済み、売却益のみ追加課税（20.315%）</li>
+          <li>損益通算：別銘柄・別口座の損失と相殺可能</li>
+          <li>分散売却：同年内に複数回売却で税率最適化</li>
+          <li>長期保有→低税率で売却、タイミング戦略</li>
+          <li>確定申告漏れに注意、税務調査対象になりやすい分野</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="ストックオプション税務は税理士ドットコムで｜専門家無料相談"
+        description="税理士ドットコムはストックオプション・RSU税制に精通した税理士を無料マッチング。外資系・日本スタートアップ・上場企業別の最適戦略、確定申告書類作成、税務調査対策まで、数百万円の節税実績多数。"
+        buttonText="税理士ドットコムで無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5"
+        icon="💎"
+        highlight="無料マッチング"
+      />
+    </>
+  ),
+  "us-etf-advanced-strategy": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">米国ETF上級戦略完全ガイド</h2>
+        <p>
+          米国ETFを使い分けることで、長期リターンと安定性を同時に追求できます。VTI（全米）・VOO（S&P500）・VIG（連続増配）・VYM（高配当）・SCHD（高配当成長）のそれぞれの特性を理解し、年齢・ライフステージ・リスク許容度に応じた最適配分を構築する上級者向け戦略を解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="主要米国ETFの特性比較"
+        services={[
+          {
+            name: "VTI（バンガード全米株式）",
+            rank: 1,
+            highlight: "約4000銘柄に分散",
+            features: [
+              "信託報酬0.03%",
+              "全米株式時価総額加重",
+              "大型株80%＋中小型株20%",
+              "万能型・コア資産向き",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "王道",
+          },
+          {
+            name: "VOO（S&P500）",
+            rank: 2,
+            highlight: "米国大型株500銘柄",
+            features: [
+              "信託報酬0.03%",
+              "米国大型株特化",
+              "過去100年年平均10%",
+              "ウォーレン・バフェット推奨",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "SCHD（高配当成長）",
+            rank: 3,
+            highlight: "連続配当＋資本成長",
+            features: [
+              "信託報酬0.06%",
+              "配当利回り3〜4%",
+              "連続増配企業100銘柄",
+              "FIRE・退職後の収入源",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">年齢別最適配分例</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>20〜30代：VTI 80%＋QQQ 20%（成長重視）</li>
+          <li>30〜40代：VTI 60%＋VOO 20%＋SCHD 20%（バランス）</li>
+          <li>40〜50代：VOO 50%＋SCHD 30%＋BND 20%（安定性重視）</li>
+          <li>50〜60代：SCHD 40%＋VOO 30%＋BND 30%（配当収入重視）</li>
+          <li>60代以降：SCHD 50%＋BND 40%＋VOO 10%（取崩し期）</li>
+          <li>レバレッジETF（SOXL・TQQQ）は個別口座でサテライト5%以内</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="米国ETF運用はSBI証券で｜買付手数料無料＋為替無料"
+        description="SBI証券はVTI・VOO・VIG・VYM・SCHD等の米国ETF買付手数料無料＋住信SBI連携で為替手数料無料。新NISA成長枠で非課税運用、年0.1%以下の圧倒的低コストで上級者向け戦略を実装できる。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="🇺🇸"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "medical-expense-practical-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">医療費控除の実践的活用ガイド</h2>
+        <p>
+          医療費控除は、年10万円超の医療費を所得から控除できる制度で、確定申告するだけで数万円の還付が受けられる強力な節税手段です。通院交通費・治療目的医薬品も対象、家族全員合算可能、セルフメディケーション税制との選択も含めた実践活用法を、e-Tax手続きも含めて網羅的に解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="医療費控除の2タイプ比較"
+        services={[
+          {
+            name: "医療費控除（通常）",
+            rank: 1,
+            highlight: "年10万円超で適用",
+            features: [
+              "年間医療費-10万円（総所得5%の低い方）",
+              "最大200万円控除",
+              "家族全員合算可能",
+              "通院交通費・処方薬も対象",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+            badge: "王道",
+          },
+          {
+            name: "セルフメディケーション税制",
+            rank: 2,
+            highlight: "年1.2万円超で適用",
+            features: [
+              "スイッチOTC医薬品購入額-1.2万円",
+              "最大8.8万円控除",
+              "健診・予防接種受診者のみ",
+              "通常医療費控除との選択制",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+          {
+            name: "高額療養費制度",
+            rank: 3,
+            highlight: "月の医療費上限",
+            features: [
+              "月自己負担上限（年収により）",
+              "年収370〜770万なら月8〜17万円上限",
+              "医療費控除と併用可",
+              "事前申請で病院窓口負担軽減",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">対象となる医療費の範囲</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>医師・歯科医師による診療・治療費（保険適用＋自由診療）</li>
+          <li>治療目的の医薬品購入費（市販薬含む）</li>
+          <li>通院交通費（電車・バス・タクシー※やむを得ない場合）</li>
+          <li>妊娠中・出産時の費用（定期検診・出産費用）</li>
+          <li>入院時の食事代・付き添い家族の交通費</li>
+          <li>歯科矯正（美容目的以外）、インプラント、レーシック</li>
+          <li>介護保険サービス自己負担分</li>
+          <li>対象外：美容整形、健康診断（治療につながらない）、サプリメント</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="医療費控除の申請は税理士ドットコムで｜無料相談で還付最大化"
+        description="税理士ドットコムは医療費控除・高額療養費制度の実践活用に強い税理士を無料マッチング。過去5年分の医療費を遡って申告可能、家族全員の医療費集計＋最適な申告形態選択で、年10〜30万円の還付実現。"
+        buttonText="税理士ドットコムで無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5"
+        icon="🏥"
+        highlight="無料マッチング"
+      />
+    </>
+  ),
+  "kaigo-work-balance-support": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">介護と仕事の両立支援完全ガイド</h2>
+        <p>
+          親の介護で介護離職すると生涯経済損失1億円超。法定の介護休業（通算93日）・介護休暇（年5日）・介護給付金（月給の67%）・短時間勤務・在宅勤務制度を徹底活用し、仕事を継続しながら介護を乗り切るための公的支援・会社制度・民間サービスを網羅的に解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="介護両立支援制度の全容"
+        services={[
+          {
+            name: "介護休業（法定）",
+            rank: 1,
+            highlight: "通算93日・給付金67%",
+            features: [
+              "対象家族1人につき3回まで分割",
+              "介護休業給付金月給の67%",
+              "就業規則で確認",
+              "社会保険料免除",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+            badge: "必須活用",
+          },
+          {
+            name: "介護休暇（年5〜10日）",
+            rank: 2,
+            highlight: "日・時間単位で取得",
+            features: [
+              "年5日（対象1人）・年10日（2人以上）",
+              "1日または半日・時間単位",
+              "無給が多いが有給の会社も",
+              "通院付添・手続き時に活用",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+          {
+            name: "短時間勤務・在宅勤務",
+            rank: 3,
+            highlight: "柔軟な働き方",
+            features: [
+              "介護のための短時間勤務",
+              "フレックスタイム・時差出勤",
+              "在宅勤務の活用",
+              "会社規定による",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">介護離職回避の実践戦略</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>要介護認定の早期申請（市区町村窓口で無料）</li>
+          <li>ケアマネと連携してケアプラン作成</li>
+          <li>介護休業93日で介護体制整備に集中</li>
+          <li>デイサービス・ショートステイ・訪問介護の最大活用</li>
+          <li>きょうだい間で介護分担（公正証書で明確化）</li>
+          <li>在宅勤務・時短勤務制度の利用</li>
+          <li>親の資産活用（年金・預貯金・生命保険）</li>
+          <li>施設入居検討（特養5〜15万円、有料老人ホーム15〜30万円）</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="介護費用の資金計画は保険マンモスで｜FP無料相談"
+        description="保険マンモスは介護資金計画・介護特約付き生命保険の無料相談。親の介護費用シミュレーション＋自分の将来介護への備えを総合的にコンサル、年10〜30万円の保険料節約＋介護離職回避の最適プラン設計。"
+        buttonText="保険マンモスで無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM"
+        icon="🤝"
+        highlight="無料FP相談"
+      />
+    </>
+  ),
+  "fuyo-koujo-optimization-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">扶養控除最適化完全ガイド</h2>
+        <p>
+          扶養控除の賢い使い方で、世帯年収200〜500万円UPの効果を実現できます。配偶者控除（年収103・150万円の壁）、16歳以上の子の扶養控除（38万円）、親の扶養控除（同居58万円・別居48万円）、複数扶養の組合せ、誰の扶養に入れるかの戦略で、年20万円以上の世帯節税が可能です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="主要扶養控除の種類"
+        services={[
+          {
+            name: "配偶者控除・特別控除",
+            rank: 1,
+            highlight: "年38〜48万円",
+            features: [
+              "年収103万円：配偶者控除38万円",
+              "年収150万円：特別控除38万円",
+              "年収201万円：特別控除終了",
+              "年約7〜11万円節税",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+            badge: "定番",
+          },
+          {
+            name: "扶養控除（16歳以上の子）",
+            rank: 2,
+            highlight: "年38〜63万円",
+            features: [
+              "16〜18歳：38万円",
+              "19〜22歳（特定扶養）：63万円",
+              "大学生は年12万円節税可能",
+              "所得税＋住民税ダブル効果",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+          {
+            name: "扶養控除（親・親族）",
+            rank: 3,
+            highlight: "年48〜58万円",
+            features: [
+              "70歳以上同居老親：58万円",
+              "別居の親：48万円",
+              "仕送り要件で別居も対象",
+              "複数兄弟で分担可能",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">扶養最適化の上級テクニック</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>夫婦のうち高収入側に扶養を集中（累進税率で節税効果最大化）</li>
+          <li>大学生の子は特定扶養控除63万円をフル活用（年12〜18万円節税）</li>
+          <li>親の扶養：年金収入158万円以下なら扶養に入れる</li>
+          <li>別居の親：仕送り年60〜100万円で扶養に入れる</li>
+          <li>共働き夫婦：どちらに子の扶養を入れるかシミュレーション必須</li>
+          <li>兄弟で親の扶養を交代（数年ごとに入替で税負担分散）</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="扶養控除の最適化は税理士ドットコムで｜世帯全体の節税"
+        description="税理士ドットコムは世帯全員の扶養控除最適化に強い税理士を無料マッチング。共働き夫婦・複数子世帯・親の扶養・兄弟分担まで総合的にシミュレーション、年20〜50万円の世帯節税効果を実現。"
+        buttonText="税理士ドットコムで無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5"
+        icon="👨‍👩‍👧‍👦"
+        highlight="無料マッチング"
+      />
+    </>
+  ),
+  "business-card-2026-detail-compare": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">ビジネスカード詳細比較2026</h2>
+        <p>
+          2026年のビジネスカード（法人カード）は、個人事業主・法人経営者にとって必須の経費管理・資金繰りツール。還元率・年会費・付帯特典・審査難易度等、10社以上の主要カードを徹底比較。個人事業主の経費管理＋ポイント還元で年間5〜30万円のメリットが得られる最強の組合せを提案します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="主要ビジネスカード比較"
+        services={[
+          {
+            name: "三井住友カードビジネスオーナーズ",
+            rank: 1,
+            highlight: "年会費無料＋還元0.5〜1%",
+            features: [
+              "年会費永年無料",
+              "還元率0.5%（対象店舗最大1.5%）",
+              "法人向け特典豊富",
+              "個人事業主も申込可",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+            badge: "初心者向け",
+          },
+          {
+            name: "freeeカード Unlimited",
+            rank: 2,
+            highlight: "freee会計統合・審査甘め",
+            features: [
+              "年会費無料",
+              "freee会計と自動連携",
+              "freee特約店で還元率UP",
+              "設立1年以内も申込可",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+          {
+            name: "アメックスビジネスゴールド",
+            rank: 3,
+            highlight: "年会費3.4万円・高付帯",
+            features: [
+              "年会費36,300円",
+              "還元率0.4〜1%（メンバーシップ・リワード）",
+              "海外旅行保険最大1億円",
+              "ラウンジ・コンシェルジュ",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">ビジネスカード活用のコツ</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>経費支払いを全てカードに集約＝freee・マネフォで自動仕訳</li>
+          <li>年会費無料カードから始める、業績安定してゴールド昇格</li>
+          <li>追加カード発行で従業員管理＋経費把握（社長・役員用）</li>
+          <li>会計ソフト連携で記帳時間を月10〜20時間削減</li>
+          <li>高年会費カードは年商3000万円超なら元取れる可能性大</li>
+          <li>出張の多い業種はラウンジ・旅行保険付帯のアメックス系有利</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="ビジネスカードは三井住友BOで｜年会費無料＋SBI証券連携"
+        description="三井住友ビジネスオーナーズは年会費永年無料、SBI証券のクレカ積立も1%還元。個人事業主・法人経営者の経費管理＋freee会計連携で月10時間の記帳時間削減、年間5〜15万円のポイント獲得も実現。"
+        buttonText="ビジネスカード詳細"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5"
+        icon="💼"
+        highlight="年会費無料"
+      />
+    </>
+  ),
+  "furusato-nisa-combo-strategy": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">ふるさと納税×新NISA連携戦略</h2>
+        <p>
+          ふるさと納税（節税）と新NISA（資産形成）を組み合わせると、年100万円以上の家計効果を生み出せます。年収500万円なら、ふるさと納税77,000円で返礼品23,000円相当＋楽天ポイント12,000円、さらに新NISA満額活用で将来資産数千万円の二刀流戦略。節税と資産形成の最強の組合せを徹底解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="連携戦略の3パターン"
+        services={[
+          {
+            name: "楽天経済圏統合型",
+            rank: 1,
+            highlight: "楽天ふるさと納税＋楽天証券",
+            features: [
+              "楽天ふるさと納税SPU最大16倍",
+              "楽天証券NISA年360万円",
+              "楽天カード積立1%還元",
+              "ポイント最大化戦略",
+            ],
+            href: "https://search.rakuten.co.jp/search/mall/%E3%81%B5%E3%82%8B%E3%81%95%E3%81%A8%E7%B4%8D%E7%A8%8E/",
+            badge: "王道",
+          },
+          {
+            name: "SBI経済圏統合型",
+            rank: 2,
+            highlight: "ふるなび＋SBI証券",
+            features: [
+              "ふるなびAmazonギフト還元",
+              "SBI証券NISA＋三井住友NL積立",
+              "投信保有残高ポイント",
+              "低コスト運用重視",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "さとふる＋PayPay経済圏",
+            rank: 3,
+            highlight: "PayPayポイント最大化",
+            features: [
+              "さとふるでPayPay還元",
+              "PayPay証券で米国株投資",
+              "ワンストップ特例アプリ",
+              "スマホ完結型",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">実践の年間スケジュール</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>1月：前年のふるさと納税確定申告、NISA積立再開</li>
+          <li>3月：年収予想計算、ふるさと納税限度額算出</li>
+          <li>6月：夏のボーナスでNISA成長枠買付</li>
+          <li>9月：秋の返礼品（米・食品）寄付</li>
+          <li>11月：年末セール＋楽天お買い物マラソンでふるさと納税集中</li>
+          <li>12月：年末ぎりぎりまでふるさと納税、NISA枠残確認</li>
+          <li>翌年1月：ワンストップ特例or確定申告</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="楽天経済圏フル活用で｜楽天ふるさと納税＋楽天証券NISA"
+        description="楽天ふるさと納税はSPU最大16倍でポイント還元、楽天証券NISAはクレカ積立1%還元。年収500万円なら、ふるさと納税77,000円＋返礼品23,000円＋楽天ポイント12,000円＋NISA年120万円で年間100万円以上の家計メリット実現。"
+        buttonText="楽天ふるさと納税を見る"
+        href="https://search.rakuten.co.jp/search/mall/%E3%81%B5%E3%82%8B%E3%81%95%E3%81%A8%E7%B4%8D%E7%A8%8E/"
+        icon="🎯"
+        highlight="ポイント最強"
+      />
+    </>
+  ),
+  "international-school-cost-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">インターナショナルスクール費用完全ガイド</h2>
+        <p>
+          インターナショナルスクール（インター）は、日本に住みながら英語環境で教育を受けられる選択肢。年間授業料200〜400万円の高額投資だが、グローバル人材育成・海外大学進学の準備として注目されています。幼稚園〜高校までの総費用3000〜5000万円、公立教育との比較、節税対策、奨学金制度まで網羅的に解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="主要インターナショナルスクールの費用"
+        services={[
+          {
+            name: "アメリカンスクール・イン・ジャパン（ASIJ）",
+            rank: 1,
+            highlight: "年350〜400万円",
+            features: [
+              "東京調布市、創立1902年",
+              "幼稚園年365万・高校年400万",
+              "入学金160万円",
+              "米国認定校",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+4A7B8A+2PEO+OK4PD",
+            badge: "名門",
+          },
+          {
+            name: "西町インターナショナルスクール",
+            rank: 2,
+            highlight: "年280〜350万円",
+            features: [
+              "東京港区、創立1949年",
+              "幼稚園〜9年生",
+              "入学金150万円",
+              "小規模で面倒見良い",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+4A7B8A+2PEO+OK4PD",
+          },
+          {
+            name: "国際バカロレア認定校",
+            rank: 3,
+            highlight: "年200〜350万円",
+            features: [
+              "カナディアンインター（千葉・東京）",
+              "ハロウインターナショナル（安曇野）",
+              "IB認定で海外大学進学有利",
+              "文科省認可で卒業資格取得可",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+4A7B8A+2PEO+OK4PD",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">公立＋インター比較の総費用</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>公立（幼〜高校）：約1000万円 vs インター：3000〜5000万円</li>
+          <li>差額2000〜4000万円は大学進学費用にも匹敵</li>
+          <li>メリット：ネイティブレベルの英語、海外大学進学有利、国際的な交友関係</li>
+          <li>デメリット：日本の大学受験に不利、日本文化理解薄め</li>
+          <li>ハイブリッド：幼・小はインター→中高は日本校、柔軟に選択可</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="教育費の資産形成はSBI証券で｜新NISAで18年で1260万円"
+        description="SBI証券の新NISA積立月5万円×18年で約2000万円（年7%想定）の教育資金準備可能。インターナショナルスクール費用の一部カバーに、クレカ積立1%還元も活用、早期からのコツコツ積立が鉄則です。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="🌍"
+        highlight="教育資金"
+      />
+    </>
+  ),
+  "nisa-rollover-strategy-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">NISA移管戦略完全ガイド</h2>
+        <p>
+          NISA口座は年1回のみ金融機関変更可能。メガバンク系から低コストネット証券（SBI・楽天・マネックス）への移管で、クレカ積立1%還元・買付手数料無料・投資信託ラインナップ豊富等の大きなメリットを享受できます。旧NISA（つみたてNISA・一般NISA）の新NISAへの移管、手続きタイミング等を徹底解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="NISA金融機関変更の3大メリット"
+        services={[
+          {
+            name: "SBI証券への移管",
+            rank: 1,
+            highlight: "投信2,500本・クレカ積立",
+            features: [
+              "三井住友NL積立で1%還元",
+              "投信・米国ETF最多水準",
+              "為替手数料無料（住信SBI連携）",
+              "業界最強の総合力",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "王道",
+          },
+          {
+            name: "楽天証券への移管",
+            rank: 2,
+            highlight: "楽天ポイント連携",
+            features: [
+              "楽天カード積立1%還元",
+              "楽天SPU+0.5〜1倍",
+              "楽天経済圏統合",
+              "投信・米国ETF豊富",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "マネックス証券への移管",
+            rank: 3,
+            highlight: "マネックスカード1.1%",
+            features: [
+              "クレカ積立1.1%（業界最高）",
+              "iFreeシリーズ豊富",
+              "米国株情報量トップクラス",
+              "dポイント連携（docomo経済圏）",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">移管手続きのタイミング</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>変更時期：年1回のみ、前年10月〜当年9月の間に手続き</li>
+          <li>10月以降の手続きは翌年1月から新金融機関で開始</li>
+          <li>既存の保有商品は旧金融機関に残る、新規買付のみ新金融機関で</li>
+          <li>年内に新NISA買付していない場合は、当年から変更可能</li>
+          <li>手続き書類：勘定廃止通知書、新金融機関のNISA口座申込書</li>
+          <li>郵送で2〜4週間、電子手続き対応の金融機関は1〜2週間</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="NISA口座はSBI証券へ移管｜年1回の無料手続きで最強運用"
+        description="SBI証券のNISA口座は、投信・米国ETF・日本株の業界最多ラインナップ、三井住友NLクレカ積立1%、為替無料（住信SBI）の三拍子。メガバンク系からの移管で、年数千〜数万円のコスト削減＋還元ポイント獲得が可能。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="🔄"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "single-retirement-planning-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">独身の老後設計完全ガイド</h2>
+        <p>
+          独身者の老後は「経済面」と「孤独死対策」の二本柱で設計が必要。必要老後資金3000万円、公的年金月13万円、介護費用1000万円の準備、孤独死対策（生命保険・見守りサービス・任意後見）、相続の扱いまで、独身者特有の課題を網羅的に解説します。生涯独身率上昇中の2026年、必須の知識です。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="独身者の老後3本柱"
+        services={[
+          {
+            name: "老後資金3000万円",
+            rank: 1,
+            highlight: "NISA＋iDeCo併用",
+            features: [
+              "新NISA月5〜10万円積立",
+              "iDeCo月2.3万円（会社員）",
+              "30年で3,000〜5,000万円",
+              "年金月13万+運用資産で安心",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "必須",
+          },
+          {
+            name: "孤独死・見守り対策",
+            rank: 2,
+            highlight: "月3,000〜10,000円",
+            features: [
+              "セコム・ALSOK見守り（月3,000〜5,000円）",
+              "緊急通報システム",
+              "定期安否確認サービス",
+              "任意後見契約（元気なうちに）",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+          },
+          {
+            name: "生命保険・相続準備",
+            rank: 3,
+            highlight: "相続人・遺言書の準備",
+            features: [
+              "生命保険受取人指定",
+              "遺言書作成（公正証書10万円〜）",
+              "家族信託の活用",
+              "終活サービス契約",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">独身老後の支出シミュレーション</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>老後生活費：月20〜25万円（家賃含む場合）</li>
+          <li>公的年金：国民年金月6.8万円＋厚生年金月8〜15万円＝計15〜22万円</li>
+          <li>不足分：月3〜5万円×20年（65〜85歳）＝700〜1200万円</li>
+          <li>介護費用：月10〜30万円×5〜10年＝600〜3600万円</li>
+          <li>葬儀・墓代：300〜500万円</li>
+          <li>目標老後資金：3000万円（介護期間考慮なら5000万円）</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="独身老後の備えは保険マンモスで｜終身保険＋介護保険の設計"
+        description="保険マンモスは独身者の老後設計に強いFPが無料相談。終身保険（相続税対策＋葬儀費用）、介護保険（月10〜30万円の介護費カバー）、任意後見契約の専門家紹介まで、独身者の全リスクに備える総合提案可能。"
+        buttonText="保険マンモスで無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM"
+        icon="🧑"
+        highlight="無料FP相談"
+      />
+    </>
+  ),
+  "business-succession-ma-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">事業承継・M&A完全ガイド</h2>
+        <p>
+          中小企業経営者の事業承継は、親族承継・従業員承継・M&A（第三者譲渡）の3パターンがあります。2026年の事業承継税制（納税猶予・免除）、M&A仲介会社（日本M&Aセンター・M&Aキャピタルパートナーズ等）の活用、事業価値評価、譲渡益の税務まで、経営者のイグジット戦略として必読の内容を解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="事業承継の3大パターン"
+        services={[
+          {
+            name: "親族承継",
+            rank: 1,
+            highlight: "事業承継税制活用で納税猶予",
+            features: [
+              "子・親族への承継",
+              "特例事業承継税制で相続・贈与税100%猶予",
+              "特例承認計画の提出必須",
+              "5〜10年継続で全額免除",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+            badge: "税制優遇",
+          },
+          {
+            name: "従業員承継（EBO・MBO）",
+            rank: 2,
+            highlight: "社内人材への承継",
+            features: [
+              "役員・従業員への株式譲渡",
+              "経営者個人の株式を分割売却",
+              "融資＋自己資金で買取",
+              "3〜5年かけた段階承継",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+          {
+            name: "M&A（第三者譲渡）",
+            rank: 3,
+            highlight: "日本M&Aセンター等仲介",
+            features: [
+              "売却益を一括現金化",
+              "仲介手数料3〜10%（売上規模で）",
+              "事業シナジー＋プレミアム評価",
+              "2〜6ヶ月の手続き期間",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">M&Aの売却価格シミュレーション</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>一般的な評価：純資産＋営業利益×3〜5年分</li>
+          <li>売上1億円・営業利益1000万円：売却価格3,000〜5,000万円</li>
+          <li>売上5億円・営業利益5000万円：売却価格1.5〜3億円</li>
+          <li>売上10億円・営業利益1億円：売却価格3〜5億円</li>
+          <li>高プレミアム業種：SaaS・医療・福祉・インフラ（5〜10倍評価）</li>
+          <li>低プレミアム業種：小売・飲食（2〜3倍評価）</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="事業承継・M&Aは税理士ドットコムで｜専門家無料相談"
+        description="税理士ドットコムは事業承継税制・M&A税務に強い税理士を無料マッチング。親族承継の相続・贈与税対策、M&A売却益の税務最適化、事業承継計画の策定まで、経営者の生涯財産を守る総合サポートを提供。"
+        buttonText="税理士ドットコムで無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5"
+        icon="🏢"
+        highlight="無料マッチング"
+      />
+    </>
+  ),
+  "real-estate-loan-advanced-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">不動産投資用融資完全ガイド</h2>
+        <p>
+          不動産投資用融資は、住宅ローンと異なる審査基準（物件の収益性＋個人の属性）で判断されます。三井住友トラストL&F・オリックス銀行等のアパートローン、日本政策金融公庫、プロパー融資（地銀・信金）の使い分け、金利2〜5%、融資期間15〜35年、頭金2〜3割の準備、年収700万円以上の属性要件まで解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="不動産投資用融資の3大選択肢"
+        services={[
+          {
+            name: "アパートローン（ノンバンク系）",
+            rank: 1,
+            highlight: "金利2.5〜4.5%",
+            features: [
+              "三井住友トラストL&F",
+              "オリックス銀行",
+              "融資期間25〜35年",
+              "融資額物件価格の80〜90%",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+            badge: "王道",
+          },
+          {
+            name: "日本政策金融公庫",
+            rank: 2,
+            highlight: "金利1.5〜3%・公的資金",
+            features: [
+              "創業初期・新規参入向き",
+              "融資期間10〜20年",
+              "融資額最大7,200万円",
+              "女性・若者・シニア優遇",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+          {
+            name: "プロパー融資（地銀・信金）",
+            rank: 3,
+            highlight: "物件評価次第で有利条件",
+            features: [
+              "金利1.5〜3.5%",
+              "融資期間15〜30年",
+              "物件・エリアの詳細審査",
+              "取引実績で条件改善",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">融資審査の属性要件</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>年収要件：700万円以上（アパートローン）、500万円以上（公庫）</li>
+          <li>勤続年数：3年以上（会社員）、1年以上（自営業）</li>
+          <li>自己資金：物件価格の20〜30%＋諸費用100〜200万円</li>
+          <li>借入比率（DTI）：年間返済額÷年収 35%以内</li>
+          <li>物件の利回り：表面利回り8%以上、実質利回り5%以上が目安</li>
+          <li>他借入（住宅ローン・カーローン）を加味して判断</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="不動産投資の相談は家づくり相談所で｜融資シミュレーション"
+        description="家づくり相談所は不動産投資向け融資シミュレーション＋物件選定＋税務対策までワンストップサポート。アパートローン・日本政策金融公庫の最適な選択、年収別の借入可能額計算で、失敗しない不動産投資を実現。"
+        buttonText="家づくり相談所で無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+3PD522+5OGA+5YZ75"
+        icon="🏢"
+        highlight="無料相談"
+      />
+    </>
+  ),
+  "mama-papa-remote-work-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">ママ・パパの在宅副業完全ガイド</h2>
+        <p>
+          育児中でも子育ての空き時間（1日2〜4時間）で月5〜15万円稼ぐママ・パパが増加中。ライティング・動画編集・オンライン秘書・Web制作・ポイ活・アフィリエイト等、場所と時間に縛られない在宅副業の具体的な始め方、扶養範囲内の働き方、確定申告まで、子育て世帯の家計改善を徹底サポートします。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="育児中に最適な副業TOP3"
+        services={[
+          {
+            name: "ライティング（クラウドワークス）",
+            rank: 1,
+            highlight: "文字単価0.5〜3円",
+            features: [
+              "スキマ時間で記事執筆",
+              "月5〜15万円（月20〜50記事）",
+              "子どもの昼寝中に作業",
+              "実績積めば単価UP",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+4A7B8A+2PEO+OK4PD",
+            badge: "初心者向け",
+          },
+          {
+            name: "オンライン秘書・アシスタント",
+            rank: 2,
+            highlight: "時給1500〜3000円",
+            features: [
+              "スケジュール管理・資料作成",
+              "週10〜20時間で月7〜15万",
+              "事務職経験活かせる",
+              "リモート完結",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+4A7B8A+2PEO+OK4PD",
+          },
+          {
+            name: "ポイ活＋アフィリエイト",
+            rank: 3,
+            highlight: "月3〜10万円",
+            features: [
+              "ハピタス・モッピー活用",
+              "ブログ・SNS経由のアフィリエイト",
+              "初期投資ほぼゼロ",
+              "育児情報発信で信頼構築",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">扶養範囲内の賢い働き方</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>扶養103万円：配偶者控除満額、所得税ゼロ</li>
+          <li>扶養130万円：社会保険扶養維持</li>
+          <li>扶養150万円：配偶者特別控除満額</li>
+          <li>年収200万円超：扶養外れ自分で社保加入、世帯収入UP</li>
+          <li>副業月5〜10万円なら扶養内、月15万円なら扶養外検討</li>
+          <li>確定申告：年20万円超で必須、青色申告65万円控除も活用可能</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="在宅副業の始まりはココナラで｜スキル出品＋案件獲得"
+        description="ココナラは15万人超のママ・パパが利用、スキル出品（ライティング・デザイン・育児相談等）500円〜で販売開始。スキマ時間で月5〜15万円の副業収入を得られる最強プラットフォーム、育児中の女性にも人気です。"
+        buttonText="ココナラに登録する"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+4A7B8A+2PEO+OK4PD"
+        icon="👨‍👩‍👧"
+        highlight="スキル売買No.1"
+      />
+    </>
+  ),
+  "annuity-insurance-compare-2026": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">年金保険比較2026</h2>
+        <p>
+          2026年の個人年金保険は、定額型（元本保証・利回り0.3〜0.5%）・変額型（運用リターン3〜7%）・外貨建て（米ドル3〜5%）の3タイプがあります。ソニー生命・明治安田・住友生命・JAライフプランナーの主要4社を比較、新NISA・iDeCoとの併用戦略、税制適格特約による所得控除活用で、老後資金形成の最適解を解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="主要4社の個人年金保険比較"
+        services={[
+          {
+            name: "ソニー生命（変額個人年金）",
+            rank: 1,
+            highlight: "運用実績年5〜7%",
+            features: [
+              "投資信託で運用",
+              "月1万円〜積立可能",
+              "特別勘定10種類以上",
+              "税制適格特約で所得控除",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+            badge: "成長重視",
+          },
+          {
+            name: "明治安田（米ドル建て個人年金）",
+            rank: 2,
+            highlight: "利回り年3〜5%（ドル）",
+            features: [
+              "予定利率高い",
+              "10年確定年金or終身年金",
+              "為替リスクあり",
+              "外貨資産形成併用",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+          },
+          {
+            name: "住友生命（定額個人年金）",
+            rank: 3,
+            highlight: "元本保証・安定型",
+            features: [
+              "予定利率0.3〜0.5%",
+              "元本割れリスクゼロ",
+              "保守派向け",
+              "税制適格特約対応",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">NISA・iDeCoとの組合せ戦略</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>新NISA：月5〜10万円（最大限運用、インデックス投資）</li>
+          <li>iDeCo：月1〜2.3万円（所得控除＋運用益非課税）</li>
+          <li>個人年金保険：月5,000円（年4万円控除枠のみフル活用）</li>
+          <li>年収600万なら、年60万円の投資＋年6万円の節税効果</li>
+          <li>30年運用で3,000〜5,000万円の老後資金構築可能</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="個人年金保険の選び方は保険マンモスで｜FP無料相談"
+        description="保険マンモスはソニー生命・明治安田・住友生命・JA等の個人年金保険を全社比較。定額・変額・外貨建ての違い、新NISA・iDeCoとの最適組合せ、税制適格特約の活用で、老後資金3,000万円構築プランを無料設計。"
+        buttonText="保険マンモスで無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM"
+        icon="👵"
+        highlight="無料FP相談"
+      />
+    </>
+  ),
+  "health-checkup-kenshin-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">健康診断・人間ドック完全ガイド</h2>
+        <p>
+          健康診断は、会社員の定期健診（無料）から、自費の人間ドック（3〜10万円）まで幅広い選択肢。協会けんぽの一般健診（自己負担5,000円程度）・自治体補助（5,000〜20,000円）・医療費控除対象（10万円超）等を活用すれば、高額な検査も実質負担を大幅軽減できます。年1回の健康投資で将来の医療費を削減する戦略を解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="健康診断の3大選択肢"
+        services={[
+          {
+            name: "会社・協会けんぽ健診",
+            rank: 1,
+            highlight: "自己負担0〜5,000円",
+            features: [
+              "会社の定期健診は無料",
+              "協会けんぽ一般健診5,000円程度",
+              "生活習慣病予防健診で心電図・胃がん検診追加",
+              "基本的な検査は網羅",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+            badge: "定番",
+          },
+          {
+            name: "人間ドック（一般）",
+            rank: 2,
+            highlight: "3〜10万円・詳細検査",
+            features: [
+              "MRI・CT・内視鏡等の詳細検査",
+              "自治体補助5,000〜20,000円",
+              "医療費控除対象（10万円超）",
+              "年1回受診推奨",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+          },
+          {
+            name: "PET・脳ドック等特殊ドック",
+            rank: 3,
+            highlight: "10〜30万円",
+            features: [
+              "PET-CT（がん検診）10〜15万円",
+              "脳ドック（MRI・MRA）5〜8万円",
+              "心臓ドック（冠動脈CT）10〜15万円",
+              "40〜50代から検討推奨",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">年齢別の推奨検査</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>30代：基本健診（血液・尿・心電図・レントゲン）、女性は乳がん・子宮頸がん検診</li>
+          <li>40代：+ 胃・大腸・肺がん検診、脂質・糖尿病チェック</li>
+          <li>50代：+ PET-CT（がん全身検査）、脳ドック、前立腺がん検査（男性）</li>
+          <li>60代以降：骨密度測定、認知機能検査、心臓ドック</li>
+          <li>家族歴がある人：30代から該当部位の精密検査</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="医療保険の見直しは保険マンモスで｜健診結果連動プラン"
+        description="保険マンモスは健診結果に基づいた医療保険の最適提案が可能。人間ドックで異常値が出た場合の加入制限前に、FPが無料相談で最適プラン設計。40代・50代のがん保険・三大疾病保険の加入タイミングもアドバイス。"
+        buttonText="保険マンモスで無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+526ONU+5SIO+5YJRM"
+        icon="🏥"
+        highlight="無料FP相談"
+      />
+    </>
+  ),
+  "sharehouse-cost-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">シェアハウス完全ガイド</h2>
+        <p>
+          シェアハウスは、家賃3〜10万円・初期費用3〜10万円・光熱費/Wi-Fi込みで、通常賃貸（初期費用20〜30万円）より圧倒的に安く住める選択肢。オークハウス・ひつじ不動産・ソーシャルアパートメント・LABHOTEL等の大手を中心に、東京・大阪・福岡の都市部で急増中。若手社会人・転勤族・上京者の生活コスト削減策として解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="主要シェアハウス運営会社"
+        services={[
+          {
+            name: "オークハウス",
+            rank: 1,
+            highlight: "物件数業界最大",
+            features: [
+              "東京・関東200物件超",
+              "家賃3万円台〜",
+              "初期費用4万円台〜",
+              "国際交流・英語環境",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+4A7B8A+2PEO+OK4PD",
+            badge: "王道",
+          },
+          {
+            name: "ひつじ不動産",
+            rank: 2,
+            highlight: "デザイン性重視",
+            features: [
+              "東京中心100物件超",
+              "家賃5〜15万円",
+              "ハイグレード物件多",
+              "デザイナーズシェアハウス",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+4A7B8A+2PEO+OK4PD",
+          },
+          {
+            name: "ソーシャルアパートメント",
+            rank: 3,
+            highlight: "個室＋共用ラウンジ",
+            features: [
+              "個室重視・プライバシー確保",
+              "家賃7〜15万円",
+              "ジム・スタジオ・BBQ施設",
+              "高所得層・クリエイター向き",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+4A7B8A+2PEO+OK4PD",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">シェアハウスのメリット・デメリット</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>メリット①：初期費用が安い（敷金礼金なし）、即入居可能</li>
+          <li>メリット②：家賃＋光熱費＋Wi-Fiで月3〜10万円</li>
+          <li>メリット③：家具・家電付きで引越し楽</li>
+          <li>メリット④：国際交流・人脈形成</li>
+          <li>デメリット①：プライバシー限定（個室＋共用）</li>
+          <li>デメリット②：ルームメイトとの相性リスク</li>
+          <li>デメリット③：独自ルール（深夜の利用制限等）</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="シェアハウス探しは家づくり相談所で｜住宅全般の相談"
+        description="家づくり相談所はシェアハウス・賃貸・マイホームを含む住まい全般の無料相談。月3〜10万円のシェアハウスから、将来のマイホーム購入まで、ライフステージに合わせた住まい選びのロードマップを提案。"
+        buttonText="家づくり相談所で無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+3PD522+5OGA+5YZ75"
+        icon="🏘️"
+        highlight="無料相談"
+      />
+    </>
+  ),
+  "investment-diversify-global-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">グローバル分散投資完全ガイド</h2>
+        <p>
+          グローバル分散投資は、通貨・資産・地域の3軸でリスク分散する上級戦略。円資産だけでなくドル・ユーロ資産、株式だけでなく債券・不動産・金、日本だけでなく米欧新興国への分散で、どんな経済局面でも安定的なリターンを目指します。新NISA成長枠でのETF活用を中心に、実践的な配分例を解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="3軸分散投資の実装例"
+        services={[
+          {
+            name: "通貨分散（3通貨）",
+            rank: 1,
+            highlight: "円40%・ドル40%・ユーロ20%",
+            features: [
+              "日本円（生活防衛＋日本株）",
+              "米ドル（VTI・VOO等）",
+              "ユーロ（VGK等）",
+              "為替変動リスク軽減",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+            badge: "必須",
+          },
+          {
+            name: "資産分散（4資産）",
+            rank: 2,
+            highlight: "株50%・債券30%・REIT10%・金10%",
+            features: [
+              "株式（VTI・eMAXIS全世界）",
+              "債券（BND・TLT）",
+              "不動産（VNQ・J-REIT）",
+              "金（GLD・純金積立）",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+          {
+            name: "地域分散（4地域）",
+            rank: 3,
+            highlight: "日10%・米60%・欧15%・新興国15%",
+            features: [
+              "日本株（TOPIX ETF）",
+              "米国株（VTI・VOO）",
+              "欧州株（VGK・HEDJ）",
+              "新興国株（VWO）",
+            ],
+            href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">分散投資のリターン期待値</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>通貨分散：為替リスク軽減で年0.5〜1%のリターン安定化</li>
+          <li>資産分散：株式単独より最大下落30%→15%に軽減</li>
+          <li>地域分散：日本一国集中より年リターン+1〜2%</li>
+          <li>全分散組合せ：年5〜7%のリターン＋最大下落10〜15%</li>
+          <li>シャープレシオ（リスク調整後リターン）0.7〜0.9で優秀</li>
+          <li>富裕層・保守派のポートフォリオとして定番の戦略</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="グローバル分散投資はSBI証券で｜ETF・投信・日本株完結"
+        description="SBI証券は世界各国のETF・投資信託・日本株・米国株・新興国株を1口座で取引可能。為替手数料無料（住信SBI連携）、新NISA成長枠での非課税運用、グローバル分散投資の実装に最強のプラットフォーム。"
+        buttonText="SBI証券の詳細"
+        href="https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html"
+        icon="🌍"
+        highlight="業界No.1"
+      />
+    </>
+  ),
+  "overseas-bank-account-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">海外銀行口座完全ガイド</h2>
+        <p>
+          海外銀行口座（HSBC香港・DBSシンガポール・米国シティバンク等）は、為替リスク分散・相続対策・海外投資のゲートウェイとして富裕層に活用されています。ただしマネロン規制強化で開設ハードル上昇中。Wise・Revolut等のオンライン口座なら手軽に開設可能、用途別の最適解を徹底解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="海外銀行口座の3大選択肢"
+        services={[
+          {
+            name: "HSBC香港",
+            rank: 1,
+            highlight: "アジア富裕層の定番",
+            features: [
+              "Premier口座：1000万円以上",
+              "Advance口座：100万円以上",
+              "世界中のHSBCで取引可",
+              "現地訪問での開設",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+            badge: "富裕層",
+          },
+          {
+            name: "Wise（オンライン）",
+            rank: 2,
+            highlight: "手数料安・手軽",
+            features: [
+              "マルチカレンシー口座",
+              "為替スプレッド0.3〜0.5%",
+              "オンライン完結",
+              "個人の国際送金に最適",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+          {
+            name: "Revolut（欧州系フィンテック）",
+            rank: 3,
+            highlight: "30通貨対応・即時送金",
+            features: [
+              "日本版あり、スマホで口座開設",
+              "30通貨の外貨保有可",
+              "仮想通貨取引も対応",
+              "月額0〜3,000円プラン",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">海外口座の注意点</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>マネロン規制：現地訪問・本人確認書類・住所証明・職業証明等が必要</li>
+          <li>CRS（共通報告基準）：口座情報が日本の税務署に自動報告</li>
+          <li>5000万円超の海外資産：国外財産調書提出義務</li>
+          <li>相続時の手続き複雑、現地の法律・税金も考慮</li>
+          <li>閉鎖・凍結リスク：税務当局の調査対象になりやすい</li>
+          <li>用途が明確でない場合は国内口座の方が合理的</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="海外資産の税務は税理士ドットコムで｜国際税務の専門家"
+        description="税理士ドットコムは海外資産・国際税務に強い税理士を無料マッチング。海外口座開設・相続対策・国外財産調書の作成、CRS対応まで、国際税務の複雑な問題を総合的にサポート、数千万円の節税実現事例多数。"
+        buttonText="税理士ドットコムで無料相談"
+        href="https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5"
+        icon="🏦"
+        highlight="無料マッチング"
+      />
+    </>
+  ),
+  "credit-card-lounge-guide": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">空港ラウンジカード完全ガイド</h2>
+        <p>
+          空港ラウンジ付帯クレジットカードは、国内外の空港ラウンジ（年間2,000〜10,000円相当のサービス）を無料利用できる特典付きカード。年10回以上の出張・旅行なら年会費を超える恩恵、出張族・旅行好きの必須アイテム。プライオリティ・パス（年3万円・世界1,300箇所）vs カードラウンジ（国内限定）の使い分けを徹底解説します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="空港ラウンジ付きクレカTOP3"
+        services={[
+          {
+            name: "楽天プレミアムカード",
+            rank: 1,
+            highlight: "年11,000円でプライオリティパス",
+            features: [
+              "年会費11,000円",
+              "プライオリティパス本会員",
+              "楽天市場SPU+2倍",
+              "コスパ最強",
+            ],
+            href: "https://hb.afl.rakuten.co.jp/hgc/g00n15i1.3cb8aef3.g00n15i2.3cb8af52/?pc=https%3A%2F%2Fwww.rakuten-card.co.jp%2F",
+            badge: "王道",
+          },
+          {
+            name: "エポスゴールド",
+            rank: 2,
+            highlight: "年会費無料（条件達成で）",
+            features: [
+              "年50万円利用で年会費無料",
+              "国内空港ラウンジ無料",
+              "海外旅行傷害保険最大5000万円",
+              "マルイでの割引",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+          {
+            name: "セゾンプラチナアメックス",
+            rank: 3,
+            highlight: "ハイエンド付帯",
+            features: [
+              "年会費22,000円",
+              "プライオリティパス本会員",
+              "コンシェルジュサービス",
+              "海外旅行保険1億円",
+            ],
+            href: "https://px.a8.net/svt/ejp?a8mat=4B1O1P+C9KCY2+3XTG+60WN5",
+          },
+        ]}
+      />
+      <section>
+        <h2 className="text-xl font-bold mb-3">ラウンジ活用のコツ</h2>
+        <ul className="list-disc list-inside space-y-2 text-sm">
+          <li>国内ラウンジ（カードラウンジ）：軽食・ドリンクの範囲、ネット・充電</li>
+          <li>プライオリティ・パス：世界1,300箇所・食事＋シャワー＋マッサージも</li>
+          <li>年10回利用で年2〜3万円相当の節約（1回あたり2,000〜3,000円換算）</li>
+          <li>同伴者料金3,000円前後、家族旅行時は本会員＋同伴で利用</li>
+          <li>出発3〜4時間前からラウンジ入り、食事・休憩に活用</li>
+        </ul>
+      </section>
+      <AffiliateCTA
+        title="プライオリティ・パスは楽天プレミアムカードで｜年会費11,000円"
+        description="楽天プレミアムカードは年会費11,000円で、通常年3万円のプライオリティ・パスが付帯。年5回以上空港利用する人は余裕で元取れる、楽天SPU+2倍で楽天市場でのポイント還元も魅力、コスパ最強のラウンジカード。"
+        buttonText="楽天プレミアムカード詳細"
+        href="https://hb.afl.rakuten.co.jp/hgc/g00n15i1.3cb8aef3.g00n15i2.3cb8af52/?pc=https%3A%2F%2Fwww.rakuten-card.co.jp%2F"
+        icon="✈️"
+        highlight="プライオリティPass"
+      />
+    </>
+  ),
+  "retirement-income-diversify": (
+    <>
+      <section>
+        <h2 className="text-xl font-bold mb-3">老後の収入源多様化完全ガイド</h2>
+        <p>
+          老後の収入源を「公的年金」だけに頼るのは危険。公的年金（月15万円）＋配当収入（月5〜10万円）＋副業収入（月3〜10万円）の三本柱で月25〜35万円確保し、生活の質を保ちながら資産を減らさない戦略を解説します。高配当株投資・シニア副業・不動産収入まで、65歳以降の収入源多様化の実践戦略を網羅します。
+        </p>
+      </section>
+      <ComparisonTableCTA
+        title="老後の収入源3本柱"
+        services={[
+          {
+            name: "公的年金（基本）",
+            rank: 1,
+            highlight: "月13〜22万円",
+            features: [
+              "国民年金月6.8万円",
+              "厚生年金月8〜15万円（加入期間による）",
+              "65歳から支給開始",
+              "繰上げ・繰下げ受給可能",
             ],
             href: "https://search.sbisec.co.jp/v2/popwin/info/stock/lp/lpnisa_ichoku.html",
             badge: "基本",
