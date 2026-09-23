@@ -250,15 +250,6 @@ export const guideContentsPart03: Record<string, ReactNode> = {
           <li><strong>ロードサービス</strong>：レッカー無料km数が重要</li>
         </ol>
       </section>
-      <AffiliateCTA
-        title="車も持っているなら自動車保険を一括比較"
-        description="バイク保険とは別に、自動車保険は満期前の見直しで保険料差が出やすい固定費です。車も所有している場合は、インズウェブで複数社の見積もりをまとめて確認できます。"
-        buttonText="自動車保険を無料で一括見積もり"
-        href="/go/sbi-insweb-auto"
-        icon="🛡️"
-        highlight="車所有者向け"
-        page="bike-insurance-comparison"
-      />
     </>
   ),
   "family-trust-guide": (

@@ -1900,15 +1900,6 @@ export const guideContentsPart05: Record<string, ReactNode> = {
           <li>トータル：EV所有20年で通常車比較500万円以上のメリット</li>
         </ul>
       </section>
-      <AffiliateCTA
-        title="EV購入後の保険料も一括比較｜インズウェブ"
-        description="EV・PHEVは車両価格や補償条件で保険料が変わります。補助金で購入費を抑えた後は、インズウェブで複数社の自動車保険見積もりを比較し、維持費まで確認します。"
-        buttonText="自動車保険を無料で一括見積もり"
-        href="/go/sbi-insweb-auto"
-        icon="🔌"
-        highlight="維持費の見直し"
-        page="eco-car-subsidy-guide"
-      />
     </>
   ),
   "ibousha-pension-guide": (
